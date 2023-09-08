@@ -1,0 +1,103 @@
+.rosa-collections {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #dedede;
+
+    @media (@L) {
+        flex-wrap: nowrap;
+    }
+}
+
+.rosa-collections-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 37px 1% 28px;
+
+    border: 1px solid #dedede;
+    margin: 0 -1px -1px -0;
+
+    @media (@L) {
+        width: 25%;
+        border: none;
+        border-right: 1px solid #dedede;
+        padding: 58px 1% 66px;
+        margin: 0;
+        aspect-ratio: 342 / 391;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.rosa-collections-item:hover .rosa-collections-item-hover {
+    opacity: 1;
+}
+
+.rosa-collections-item-hover {
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 78px;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.rosa-collections-item-hover-pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rosa-collections-item-link {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    font: normal normal 600 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
+    z-index: 1;
+}
+
+.rosa-collections-item-pic {
+    width: 153px;
+    height: 130px;
+    margin-bottom: 34px;
+    object-fit: cover;
+
+    @media (@L) {
+        width: 177px;
+        height: 164px;
+        margin-bottom: 22px;
+    }
+}
+
+.rosa-collections-item-title {
+    max-width: 232px;
+    text-align: center;
+    font: normal normal normal 16px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+
+    margin-bottom: 5px;
+}
+
+.rosa-collections-item-text {
+    max-width: 232px;
+    text-align: center;
+    font: normal normal normal 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+}

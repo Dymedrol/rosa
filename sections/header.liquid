@@ -1,690 +1,318 @@
-<link rel="stylesheet" href="{{ 'component-list-menu.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'component-search.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'component-menu-drawer.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'component-cart-notification.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'component-cart-items.css' | asset_url }}" media="print" onload="this.media='all'">
-{%- if settings.predictive_search_enabled -%}
-  <link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="{{ 'component-loading-overlay.css' | asset_url }}" media="print" onload="this.media='all'">
-{%- endif -%}
-{%- if section.settings.menu_type_desktop == 'mega' -%}
-  <link rel="stylesheet" href="{{ 'component-mega-menu.css' | asset_url }}" media="print" onload="this.media='all'">
-  <noscript>{{ 'component-mega-menu.css' | asset_url | stylesheet_tag }}</noscript>
-{%- endif -%}
+<section class="rosa-menu container {% if section.settings.is_black %}black{% endif %}">
 
-{%- if settings.cart_type == "drawer" -%}
-  {{ 'component-cart-drawer.css' | asset_url | stylesheet_tag }}
-  {{ 'component-cart.css' | asset_url | stylesheet_tag }}
-  {{ 'component-totals.css' | asset_url | stylesheet_tag }}
-  {{ 'component-price.css' | asset_url | stylesheet_tag }}
-  {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
-  {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
-{%- endif -%}
+    <div class="rosa-menu-mobile">
+        <div class="rosa-menu-mobile-lang">
+            <span>FR</span>
 
-<noscript>{{ 'component-list-menu.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'component-search.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'component-menu-drawer.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'component-cart-notification.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'component-cart-items.css' | asset_url | stylesheet_tag }}</noscript>
+            <svg xmlns="http://www.w3.org/2000/svg" width="10.926" height="6.247" viewBox="0 0 10.926 6.247">
+              <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M11.653,15.61l4.131-4.135a.778.778,0,0,1,1.1,0,.787.787,0,0,1,0,1.106l-4.681,4.684a.779.779,0,0,1-1.077.023l-4.714-4.7a.781.781,0,0,1,1.1-1.106Z" transform="translate(-6.188 -11.246)"/>
+            </svg>
+        </div>
+        <div class="rosa-menu-mobile-header">
+            <svg id="Calque_1-2" xmlns="http://www.w3.org/2000/svg" width="290.5" height="33.109" viewBox="0 0 290.5 33.109">
+              <path id="Tracé_44" data-name="Tracé 44" d="M142.444,28.765h-1.6a16.225,16.225,0,0,0-3.959-4.631c-3.691-3.019-3.691-5.617-3.691-6.468a4.675,4.675,0,0,1,8.456-2.75,4.675,4.675,0,0,1,8.456,2.75c0,.86,0,3.449-3.664,6.45a16.4,16.4,0,0,0-3.986,4.658Zm-4.578-13.992a2.888,2.888,0,0,0-2.884,2.884c0,.645,0,2.6,3.019,5.07a19.355,19.355,0,0,1,3.646,3.879,19.655,19.655,0,0,1,3.673-3.906c2.992-2.446,2.992-4.4,2.992-5.043a2.884,2.884,0,1,0-5.769-.009h-1.792a2.883,2.883,0,0,0-2.884-2.884Z" transform="translate(-13.878 -1.354)"/>
+              <path id="Tracé_45" data-name="Tracé 45" d="M140.916,33.553a14.646,14.646,0,1,1,14.646-14.646A14.658,14.658,0,0,1,140.916,33.553Zm0-27.5a12.855,12.855,0,1,0,12.855,12.855A12.872,12.872,0,0,0,140.916,6.052Z" transform="translate(-13.157 -0.444)"/>
+              <rect id="Rectangle_20" data-name="Rectangle 20" width="1.792" height="6.889" transform="matrix(0.865, -0.502, 0.502, 0.865, 120.159, 7.035)"/>
+              <rect id="Rectangle_21" data-name="Rectangle 21" width="6.853" height="1.792" transform="translate(130.441 12.092) rotate(-59.9)"/>
+              <rect id="Rectangle_22" data-name="Rectangle 22" width="6.62" height="1.792" transform="translate(114.009 17.567)"/>
+              <rect id="Rectangle_23" data-name="Rectangle 23" width="1.792" height="8.107" transform="translate(129.789 23.772) rotate(-29.91)"/>
+              <rect id="Rectangle_24" data-name="Rectangle 24" width="8.107" height="1.792" transform="translate(120.12 29.895) rotate(-59.9)"/>
+              <rect id="Rectangle_25" data-name="Rectangle 25" width="6.539" height="1.792" transform="translate(134.971 17.567)"/>
+              <path id="Tracé_46" data-name="Tracé 46" d="M233.539,1.854A1.854,1.854,0,1,1,231.684,0a1.852,1.852,0,0,1,1.854,1.854" transform="translate(-23.948)"/>
+              <path id="Tracé_47" data-name="Tracé 47" d="M239.2,1.854A1.859,1.859,0,1,1,237.343,0,1.852,1.852,0,0,1,239.2,1.854" transform="translate(-24.536)"/>
+              <path id="Tracé_48" data-name="Tracé 48" d="M20.245,29.86h-3.1l-5.312-9.585H2.705V29.86H0V6.82H11.493c3.476,0,9.307.645,9.307,6.6,0,4.981-3.2,6.575-5.894,6.853l5.348,9.585Zm-7.65-12.29c3.046,0,5.5-.367,5.5-4.121,0-2.858-2.517-3.933-5.008-3.933H2.705V17.57h9.89Z" transform="translate(0 -0.711)"/>
+              <path id="Tracé_49" data-name="Tracé 49" d="M41.57,6.14A12.149,12.149,0,0,1,53.95,18.153,12.149,12.149,0,0,1,41.57,30.165,12.149,12.149,0,0,1,29.19,18.153,12.132,12.132,0,0,1,41.57,6.14m0,21.32a9.408,9.408,0,0,0,9.675-9.307A9.408,9.408,0,0,0,41.57,8.845,9.408,9.408,0,0,0,31.9,18.153,9.408,9.408,0,0,0,41.57,27.46" transform="translate(-3.042 -0.64)"/>
+              <path id="Tracé_50" data-name="Tracé 50" d="M75.458,16.155c4.3,0,8.662,1.568,8.662,6.665s-5.348,7.346-11,7.346c-7.005,0-10.167-3.5-11.52-4.945l1.935-1.908c1.415,1.263,3.718,4.148,9.675,4.148,5.2,0,8.206-1.971,8.206-4.64,0-2.884-2.92-3.959-5.223-3.959H71.337c-4.452,0-8.053-1.478-8.053-5.778,0-3.2,2.893-6.942,9.952-6.942a15.373,15.373,0,0,1,9.648,3.377L81.191,11.64a12.89,12.89,0,0,0-8.017-2.795c-5.2,0-7.193,2.428-7.193,4.237,0,3.073,3.906,3.073,6.665,3.073H75.44Z" transform="translate(-6.419 -0.64)"/>
+              <path id="Tracé_51" data-name="Tracé 51" d="M113.805,30.569H110.8l-3.744-7.892H95.988L92.36,30.569H89.35L100.315,7.52h2.705l10.785,23.049ZM101.667,10.817l-4.336,9.155h8.51l-4.174-9.155Z" transform="translate(-9.31 -0.784)"/>
+              <path id="Tracé_52" data-name="Tracé 52" d="M191.816,30.518h-2.7v-17.6h-.063l-8.483,15.677L172.09,12.916h-.054v17.6h-2.7V7.55h2.7l8.537,15.533L189.119,7.55h2.7Z" transform="translate(-17.645 -0.787)"/>
+              <path id="Tracé_53" data-name="Tracé 53" d="M224.615,30.518h-3l-3.736-7.874H206.86l-3.619,7.874h-3L211.178,7.55h2.7l10.75,22.968Zm-12.093-19.69L208.2,19.957h8.483Z" transform="translate(-20.864 -0.787)"/>
+              <rect id="Rectangle_26" data-name="Rectangle 26" width="2.696" height="22.968" transform="translate(208.919 6.763)"/>
+              <path id="Tracé_54" data-name="Tracé 54" d="M254.561,30.518h-2.7V10.246H243.48V7.55h19.475v2.7h-8.394Z" transform="translate(-25.37 -0.787)"/>
+              <path id="Tracé_55" data-name="Tracé 55" d="M291.7,30.518H272.16V7.55h18.857v2.7H274.847v7.014h8.519v2.7h-8.519v7.874H291.7Z" transform="translate(-28.358 -0.787)"/>
+              <path id="Tracé_56" data-name="Tracé 56" d="M321.454,30.518h-3l-3.735-7.874H303.69l-3.619,7.874h-3L308.008,7.55h2.7ZM309.36,10.829l-4.318,9.128h8.483Z" transform="translate(-30.954 -0.787)"/>
+            </svg>
 
-<style>
-  header-drawer {
-    justify-self: start;
-    margin-left: -1.2rem;
-  }
+            <svg class="rosa-menu-mobile-header-close" xmlns="http://www.w3.org/2000/svg" width="20.484" height="20.479" viewBox="0 0 20.484 20.479">
+              <path id="Icon_ionic-ios-close" data-name="Icon ionic-ios-close" d="M23.954,21.528l7.316-7.316a1.714,1.714,0,1,0-2.424-2.424L21.53,19.1l-7.316-7.316a1.714,1.714,0,1,0-2.424,2.424l7.316,7.316-7.316,7.316a1.714,1.714,0,1,0,2.424,2.424l7.316-7.316,7.316,7.316a1.714,1.714,0,1,0,2.424-2.424Z" transform="translate(-11.285 -11.289)"/>
+            </svg>
+        </div>
+        <a href="{{ routes.cart_url }}" class="rosa-menu-mobile-cart">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16.815" height="20.479" viewBox="0 0 16.815 20.479">
+              <defs>
+                <clipPath id="clip-path">
+                  <rect id="Rectangle_177" data-name="Rectangle 177" width="16.815" height="20.479"/>
+                </clipPath>
+              </defs>
+              <g id="Groupe_296" data-name="Groupe 296" transform="translate(0 0)">
+                <g id="Groupe_295" data-name="Groupe 295" transform="translate(0 0)" clip-path="url(#clip-path)">
+                  <path id="Tracé_234" data-name="Tracé 234" d="M16.3,9.394A2.1,2.1,0,0,0,14.185,7.28H13.95C13.762,3.241,11.367,0,8.454,0s-5.308,3.241-5.5,7.327H2.677A2.1,2.1,0,0,0,.564,9.394c0,.188-.423,5.589-.564,7.656a3.448,3.448,0,0,0,3.429,3.429h9.958A3.458,3.458,0,0,0,16.815,17c-.094-2.067-.517-7.421-.517-7.609M8.454,1.033c2.348,0,4.321,2.818,4.462,6.341-1.409.094-3.617.188-4.368.188-.7,0-3.053-.094-4.556-.188.141-3.523,2.114-6.341,4.462-6.341M2.677,8.314c.188,0,4.791.235,5.871.235,1.174,0,5.5-.235,5.683-.235a1.063,1.063,0,0,1,1.08,1.08s0,.047.094.986c0,.658-2.4,2.161-6.388,2.255v-.282a.517.517,0,0,0-1.033,0v.282C3.992,12.494,1.6,11.038,1.6,10.38c.094-.939.094-.986.094-.986a1.014,1.014,0,0,1,.986-1.08M13.433,19.445H3.476a2.406,2.406,0,0,1-2.4-2.4c.188-2.442.329-4.086.423-5.214a11.716,11.716,0,0,0,6.482,1.785v.235a.517.517,0,1,0,1.033,0v-.235A11.989,11.989,0,0,0,15.5,11.836c.094,1.127.235,2.771.423,5.167a2.5,2.5,0,0,1-2.489,2.442" transform="translate(0 0)"/>
+                </g>
+              </g>
+            </svg>
 
-  {%- if section.settings.sticky_header_type == 'reduce-logo-size' -%}
-    .scrolled-past-header .header__heading-logo-wrapper {
-      width: 75%;
-    }
-  {%- endif -%}
-
-  {%- if section.settings.menu_type_desktop != "drawer" -%}
-    @media screen and (min-width: 990px) {
-      header-drawer {
-        display: none;
-      }
-    }
-  {%- endif -%}
-
-  .menu-drawer-container {
-    display: flex;
-  }
-
-  .list-menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .list-menu--inline {
-    display: inline-flex;
-    flex-wrap: wrap;
-  }
-
-  summary.list-menu__item {
-    padding-right: 2.7rem;
-  }
-
-  .list-menu__item {
-    display: flex;
-    align-items: center;
-    line-height: calc(1 + 0.3 / var(--font-body-scale));
-  }
-
-  .list-menu__item--link {
-    text-decoration: none;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    line-height: calc(1 + 0.8 / var(--font-body-scale));
-  }
-
-  @media screen and (min-width: 750px) {
-    .list-menu__item--link {
-      padding-bottom: 0.5rem;
-      padding-top: 0.5rem;
-    }
-  }
-</style>
-
-{%- style -%}
-  .header {
-    padding: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px 3rem {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px 3rem;
-  }
-
-  .section-header {
-    position: sticky; /* This is for fixing a Safari z-index issue. PR #2147 */
-    margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
-  }
-
-  @media screen and (min-width: 750px) {
-    .section-header {
-      margin-bottom: {{ section.settings.margin_bottom }}px;
-    }
-  }
-
-  @media screen and (min-width: 990px) {
-    .header {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
-  }
-{%- endstyle -%}
-
-<script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
-<script src="{{ 'details-modal.js' | asset_url }}" defer="defer"></script>
-<script src="{{ 'cart-notification.js' | asset_url }}" defer="defer"></script>
-<script src="{{ 'search-form.js' | asset_url }}" defer="defer"></script>
-{%- if settings.cart_type == "drawer" -%}
-  <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
-{%- endif -%}
-
-<svg xmlns="http://www.w3.org/2000/svg" class="hidden">
-  <symbol id="icon-search" viewbox="0 0 18 19" fill="none">
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.03 11.68A5.784 5.784 0 112.85 3.5a5.784 5.784 0 018.18 8.18zm.26 1.12a6.78 6.78 0 11.72-.7l5.4 5.4a.5.5 0 11-.71.7l-5.41-5.4z" fill="currentColor"/>
-  </symbol>
-
-  <symbol id="icon-reset" class="icon icon-close"  fill="none" viewBox="0 0 18 18" stroke="currentColor">
-    <circle r="8.5" cy="9" cx="9" stroke-opacity="0.2"/>
-    <path d="M6.82972 6.82915L1.17193 1.17097" stroke-linecap="round" stroke-linejoin="round" transform="translate(5 5)"/>
-    <path d="M1.22896 6.88502L6.77288 1.11523" stroke-linecap="round" stroke-linejoin="round" transform="translate(5 5)"/>
-  </symbol>
-
-  <symbol id="icon-close" class="icon icon-close" fill="none" viewBox="0 0 18 17">
-    <path d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z" fill="currentColor">
-  </symbol>
-</svg>
-
-{%- liquid
-  for block in section.blocks
-    if block.type == '@app'
-      assign has_app_block = true
-    endif
-  endfor
--%}
-
-<{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
-  {%- liquid
-    assign social_links = false
-    assign localization_forms = false
-
-    if settings.social_twitter_link != blank or settings.social_facebook_link != blank or settings.social_pinterest_link != blank or settings.social_instagram_link != blank or settings.social_youtube_link != blank or settings.social_vimeo_link != blank or settings.social_tiktok_link != blank or settings.social_tumblr_link != blank or settings.social_snapchat_link != blank
-      assign social_links = true
-    endif
-
-    if localization.available_countries.size > 1 and section.settings.enable_country_selector or section.settings.enable_language_selector and localization.available_languages.size > 1
-      assign localization_forms = true
-    endif
-  -%}
-  <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}{% if social_links %} header--has-social{% endif %}{% if shop.customer_accounts_enabled %} header--has-account{% endif %}{% if localization_forms %} header--has-localizations{% endif %}">
-    {%- liquid
-      if section.settings.menu != blank
-        render 'header-drawer'
-      endif
-
-      if section.settings.logo_position == 'top-center' or section.settings.menu == blank
-        render 'header-search', input_id: 'Search-In-Modal-1'
-      endif
-    -%}
-
-    {%- if section.settings.logo_position != 'middle-center' -%}
-      {%- if request.page_type == 'index' -%}
-        <h1 class="header__heading">
-      {%- endif -%}
-          <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
-            {%- if settings.logo != blank -%}
-              <div class="header__heading-logo-wrapper">
-                {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
-                {%- assign logo_height = settings.logo_width | divided_by: settings.logo.aspect_ratio -%}
-                {% capture sizes %}(max-width: {{ settings.logo_width | times: 2 }}px) 50vw, {{ settings.logo_width }}px{% endcapture %}
-                {% capture widths %}{{ settings.logo_width }}, {{ settings.logo_width | times: 1.5 | round }}, {{ settings.logo_width | times: 2 }}{% endcapture %}
-                {{ settings.logo | image_url: width: 600 | image_tag:
-                  class: 'header__heading-logo motion-reduce',
-                  widths: widths,
-                  height: logo_height,
-                  width: settings.logo_width,
-                  alt: logo_alt,
-                  sizes: sizes,
-                  preload: true
-                }}
-              </div>
-            {%- else -%}
-              <span class="h2">{{ shop.name }}</span>
-            {%- endif -%}
-          </a>
-      {%- if request.page_type == 'index' -%}
-        </h1>
-      {%- endif -%}
-    {%- endif -%}
-
-    {%- liquid
-      if section.settings.menu != blank
-        if section.settings.menu_type_desktop == 'dropdown'
-          render 'header-dropdown-menu'
-        elsif section.settings.menu_type_desktop != 'drawer'
-          render 'header-mega-menu'
-        endif
-      endif
-    %}
-
-    {%- if section.settings.logo_position == 'middle-center' -%}
-      {%- if request.page_type == 'index' -%}
-        <h1 class="header__heading">
-      {%- endif -%}
-          <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
-            {%- if settings.logo != blank -%}
-              <div class="header__heading-logo-wrapper">
-                {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
-                {%- assign logo_height = settings.logo_width | divided_by: settings.logo.aspect_ratio -%}
-                {% capture sizes %}(min-width: 750px) {{ settings.logo_width }}px, 50vw{% endcapture %}
-                {% capture widths %}{{ settings.logo_width }}, {{ settings.logo_width | times: 1.5 | round }}, {{ settings.logo_width | times: 2 }}{% endcapture %}
-                {{ settings.logo | image_url: width: 600 | image_tag:
-                  class: 'header__heading-logo',
-                  widths: widths,
-                  height: logo_height,
-                  width: settings.logo_width,
-                  alt: logo_alt,
-                  sizes: sizes,
-                  preload: true
-                }}
-              </div>
-            {%- else -%}
-              <span class="h2">{{ shop.name }}</span>
-            {%- endif -%}
-          </a>
-      {%- if request.page_type == 'index' -%}
-        </h1>
-      {%- endif -%}
-    {%- endif -%}
-
-    <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
-      <div class="desktop-localization-wrapper">
-        {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
-          <noscript class="small-hide medium-hide">
-            {%- form 'localization', id: 'HeaderCountryMobileFormNoScript', class: 'localization-form' -%}
-              <div class="localization-form__select">
-                <h2 class="visually-hidden" id="HeaderCountryMobileLabelNoScript">{{ 'localization.country_label' | t }}</h2>
-                <select class="localization-selector link" name="country_code" aria-labelledby="HeaderCountryMobileLabelNoScript">
-                  {%- for country in localization.available_countries -%}
-                    <option value="{{ country.iso_code }}" {%- if country.iso_code == localization.country.iso_code %} selected{% endif %}>
-                      {{ country.name }} ({{ country.currency.iso_code }} {{ country.currency.symbol }})
-                    </option>
-                  {%- endfor -%}
-                </select>
-                {% render 'icon-caret' %}
-              </div>
-              <button class="button button--tertiary">{{ 'localization.update_country' | t }}</button>
-            {%- endform -%}
-          </noscript>
-
-          <localization-form class="small-hide medium-hide no-js-hidden">
-            {%- form 'localization', id: 'HeaderCountryForm', class: 'localization-form' -%}
-              <div>
-                <h2 class="visually-hidden" id="HeaderCountryLabel">{{ 'localization.country_label' | t }}</h2>
-                {%- render 'country-localization', localPosition: 'HeaderCountry' -%}
-              </div>
-            {%- endform -%}
-          </localization-form>
-        {% endif %}
-
-        {%- if section.settings.enable_language_selector and localization.available_languages.size > 1 -%}
-          <noscript class="small-hide medium-hide">
-            {%- form 'localization', id: 'HeaderLanguageMobileFormNoScript', class: 'localization-form' -%}
-              <div class="localization-form__select">
-                <h2 class="visually-hidden" id="HeaderLanguageMobileLabelNoScript">{{ 'localization.language_label' | t }}</h2>
-                <select class="localization-selector link" name="locale_code" aria-labelledby="HeaderLanguageMobileLabelNoScript">
-                  {%- for language in localization.available_languages -%}
-                    <option value="{{ language.iso_code }}" lang="{{ language.iso_code }}" {%- if language.iso_code == localization.language.iso_code %} selected{% endif %}>
-                      {{ language.endonym_name | capitalize }}
-                    </option>
-                  {%- endfor -%}
-                </select>
-                {% render 'icon-caret' %}
-              </div>
-              <button class="button button--tertiary">{{ 'localization.update_language' | t }}</button>
-            {%- endform -%}
-          </noscript>
-
-          <localization-form class="small-hide medium-hide no-js-hidden">
-            {%- form 'localization', id: 'HeaderLanguageForm', class: 'localization-form' -%}
-              <div>
-                <h2 class="visually-hidden" id="HeaderLanguageLabel">{{ 'localization.language_label' | t }}</h2>
-                {%- render 'language-localization', localPosition: 'HeaderLanguage' -%}
-              </div>
-            {%- endform -%}
-          </localization-form>
-        {%- endif -%}
-      </div>
-      {% render 'header-search', input_id: 'Search-In-Modal' %}
-
-      {%- if shop.customer_accounts_enabled -%}
-        <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
-          {% render 'icon-account' %}
-          <span class="visually-hidden">
-            {%- liquid
-              if customer
-                echo 'customer.account_fallback' | t
-              else
-                echo 'customer.log_in' | t
-              endif
-            -%}
-          </span>
+            <span>Mon panier ({{ cart.item_count }})</span>
         </a>
-      {%- endif -%}
+        <a href="{{ routes.search_url }}" class="rosa-menu-mobile-search">Rechercher</a>
+        <div class="rosa-menu-mobile-item-arrow">
+            <span>Joaillerie</span>
 
-      {%- for block in section.blocks -%}
-        {%- case block.type -%}
-          {%- when '@app' -%}
-            {% render block %}
-        {%- endcase -%}
-      {%- endfor -%}
+            <svg xmlns="http://www.w3.org/2000/svg" width="7.339" height="12.836" viewBox="0 0 7.339 12.836">
+              <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M12.608,16.373l4.854-4.857a.913.913,0,0,1,1.3,0,.925.925,0,0,1,0,1.3l-5.5,5.5a.916.916,0,0,1-1.265.027L6.455,12.819a.917.917,0,1,1,1.3-1.3Z" transform="translate(-11.246 19.024) rotate(-90)"/>
+            </svg>
+        </div>
+        <div class="rosa-menu-mobile-item-arrow">
+            <span>Mariage</span>
 
-      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
-        {%- liquid
-          if cart == empty
-            render 'icon-cart-empty'
-          else
-            render 'icon-cart'
-          endif
-        -%}
-        <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
-        {%- if cart != empty -%}
-          <div class="cart-count-bubble">
-            {%- if cart.item_count < 100 -%}
-              <span aria-hidden="true">{{ cart.item_count }}</span>
-            {%- endif -%}
-            <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
-          </div>
-        {%- endif -%}
-      </a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="7.339" height="12.836" viewBox="0 0 7.339 12.836">
+              <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M12.608,16.373l4.854-4.857a.913.913,0,0,1,1.3,0,.925.925,0,0,1,0,1.3l-5.5,5.5a.916.916,0,0,1-1.265.027L6.455,12.819a.917.917,0,1,1,1.3-1.3Z" transform="translate(-11.246 19.024) rotate(-90)"/>
+            </svg>
+        </div>
+        <a href="/" class="rosa-menu-mobile-item">La Maison</a>
+        <a href="/" class="rosa-menu-mobile-item">Stories of love</a>
+        <div class="rosa-menu-mobile-bar"></div>
+        <div class="rosa-menu-mobile-item-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="19.209" height="20.819" viewBox="0 0 19.209 20.819">
+              <path id="Icon_material-supervisor-account" data-name="Icon material-supervisor-account" d="M23.121,9.254a4.775,4.775,0,1,1-4.775,4.775A4.772,4.772,0,0,1,23.121,9.254Zm0,8.05a3.275,3.275,0,1,0-3.275-3.275A3.27,3.27,0,0,0,23.121,17.3Zm0,3.22a17,17,0,0,1,5.811,1.163c3.136,1.255,3.794,2.876,3.794,4.015v4.372H13.517V25.7c0-1.139.658-2.76,3.794-4.015A17.12,17.12,0,0,1,23.121,20.523Zm8.1,8.05V25.7c0-.553-.37-1.629-2.851-2.622a15.612,15.612,0,0,0-5.253-1.055,15.612,15.612,0,0,0-5.253,1.055c-1.065.426-2.851,1.333-2.851,2.622v2.872Z" transform="translate(-13.517 -9.254)"/>
+            </svg>
+
+            <span>Profil</span>
+        </div>
+        <div class="rosa-menu-mobile-item-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="17" viewBox="0 0 22 17">
+              <defs>
+                <clipPath id="clip-path">
+                  <rect id="Rectangle_179" data-name="Rectangle 179" width="22" height="17" transform="translate(0 -0.697)"/>
+                </clipPath>
+              </defs>
+              <g id="Groupe_301" data-name="Groupe 301" transform="translate(0 0.697)">
+                <g id="Groupe_300" data-name="Groupe 300" transform="translate(0 0)">
+                  <path id="Tracé_236" data-name="Tracé 236" d="M.6,0A.686.686,0,0,0,0,.662V15.229a.688.688,0,0,0,.662.662H21.189a.688.688,0,0,0,.662-.662V.662A.688.688,0,0,0,21.189,0ZM2.328,1.324h17.2l-8.6,8.028Zm-1,.88L7.232,7.718l-2.4,2.4a.662.662,0,1,0,.931.942L8.2,8.618l2.266,2.121a.687.687,0,0,0,.91,0l2.266-2.121,4.428,4.428a.662.662,0,1,0,.931-.941L14.619,7.718,20.526,2.2V14.567H1.324Zm2.235,9.373a.668.668,0,0,0-.383.2l-.331.331a.688.688,0,0,0-.015.946.688.688,0,0,0,.946,0l.331-.331a.662.662,0,0,0-.548-1.138" transform="translate(0.062 -0.399)"/>
+                </g>
+              </g>
+            </svg>
+
+            <span>Message</span>
+        </div>
+        <div class="rosa-menu-mobile-item-icon">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="18.705" height="22.835" viewBox="0 0 18.705 22.835">
+              <path id="Icon_material-location-on" data-name="Icon material-location-on" d="M16.1,2.25a9.33,9.33,0,0,1,6.613,2.714,9.186,9.186,0,0,1,2.74,6.567,10.764,10.764,0,0,1-1.434,5.055,22.328,22.328,0,0,1-3.059,4.247,33.256,33.256,0,0,1-4.412,4.1.75.75,0,0,1-.9,0,33.256,33.256,0,0,1-4.412-4.1,22.328,22.328,0,0,1-3.059-4.247A10.764,10.764,0,0,1,6.75,11.531,9.186,9.186,0,0,1,9.49,4.964,9.33,9.33,0,0,1,16.1,2.25Zm0,21.131c1.727-1.4,7.853-6.718,7.853-11.85a7.7,7.7,0,0,0-2.3-5.5,7.913,7.913,0,0,0-11.113,0,7.7,7.7,0,0,0-2.3,5.5C8.25,16.663,14.375,21.983,16.1,23.381Zm0-15.647a3.8,3.8,0,1,1-3.822,3.8A3.814,3.814,0,0,1,16.1,7.734Zm0,6.094a2.3,2.3,0,1,0-2.322-2.3A2.312,2.312,0,0,0,16.1,13.828Z" transform="translate(-6.75 -2.25)"/>
+            </svg>
+
+            <span>Boutiques</span>
+        </div>
+        <div class="rosa-menu-mobile-item-icon">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="20.702" height="22.835" viewBox="0 0 20.702 22.835">
+              <g id="Icon_feather-calendar" data-name="Icon feather-calendar" transform="translate(0.75 0.75)">
+                <path id="Tracé_57" data-name="Tracé 57" d="M6.634,5.25H21.568a2.887,2.887,0,0,1,2.884,2.884V23.068a2.887,2.887,0,0,1-2.884,2.884H6.634A2.887,2.887,0,0,1,3.75,23.068V8.134A2.887,2.887,0,0,1,6.634,5.25Zm14.935,19.2a1.385,1.385,0,0,0,1.384-1.384V8.134A1.385,1.385,0,0,0,21.568,6.75H6.634A1.385,1.385,0,0,0,5.25,8.134V23.068a1.385,1.385,0,0,0,1.384,1.384Z" transform="translate(-4.5 -3.866)"/>
+                <path id="Tracé_58" data-name="Tracé 58" d="M24,8.017a.75.75,0,0,1-.75-.75V3a.75.75,0,0,1,1.5,0V7.267A.75.75,0,0,1,24,8.017Z" transform="translate(-10.132 -3)"/>
+                <path id="Tracé_59" data-name="Tracé 59" d="M12,8.017a.75.75,0,0,1-.75-.75V3a.75.75,0,0,1,1.5,0V7.267A.75.75,0,0,1,12,8.017Z" transform="translate(-6.666 -3)"/>
+                <path id="Tracé_60" data-name="Tracé 60" d="M23.7,15.75H4.5a.75.75,0,0,1,0-1.5H23.7a.75.75,0,0,1,0,1.5Z" transform="translate(-4.5 -6.466)"/>
+              </g>
+            </svg>
+
+            <span>Prenez RDV</span>
+        </div>
     </div>
-  </header>
-</{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
 
-{%- if settings.cart_type == "notification" -%}
-  {%- render 'cart-notification', color_scheme: section.settings.color_scheme, desktop_menu_type: section.settings.menu_type_desktop -%}
-{%- endif -%}
+    <div class="rosa-menu-open">
+        <div class="rosa-menu-open-header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="11.709" height="20.479" viewBox="0 0 11.709 20.479">
+              <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M10.243,3.53l7.743,7.75a1.457,1.457,0,0,0,2.067,0,1.476,1.476,0,0,0,0-2.073L11.28.426A1.461,1.461,0,0,0,9.262.384L.427,9.2a1.464,1.464,0,0,0,2.067,2.073Z" transform="translate(0 20.479) rotate(-90)"/>
+            </svg>
 
-{% javascript %}
-  class StickyHeader extends HTMLElement {
-    constructor() {
-      super();
-    }
+            <span>Joaillerie</span>
 
-    connectedCallback() {
-      this.header = document.querySelector('.section-header');
-      this.headerIsAlwaysSticky = this.getAttribute('data-sticky-type') === 'always' || this.getAttribute('data-sticky-type') === 'reduce-logo-size';
-      this.headerBounds = {};
+            <svg xmlns="http://www.w3.org/2000/svg" width="20.484" height="20.479" viewBox="0 0 20.484 20.479">
+              <path id="Icon_ionic-ios-close" data-name="Icon ionic-ios-close" d="M23.954,21.528l7.316-7.316a1.714,1.714,0,1,0-2.424-2.424L21.53,19.1l-7.316-7.316a1.714,1.714,0,1,0-2.424,2.424l7.316,7.316-7.316,7.316a1.714,1.714,0,1,0,2.424,2.424l7.316-7.316,7.316,7.316a1.714,1.714,0,1,0,2.424-2.424Z" transform="translate(-11.285 -11.289)"/>
+            </svg>
+        </div>
 
-      this.setHeaderHeight();
+        <div class="rosa-menu-open-inner">
+            <div class="rosa-menu-open-col">
+                <div class="rosa-menu-open-col-title">COLLECTIONS</div>
+                <a href="/" class="rosa-menu-open-col-item">LA BONNE ÉTOILE</a>
+                <a href="/" class="rosa-menu-open-col-item">LA MARGARITA</a>
+                <a href="/" class="rosa-menu-open-col-item">LE TOURBILLON</a>
+                <a href="/" class="rosa-menu-open-col-item">LOVE FOREVER</a>
+                <a href="/" class="rosa-menu-open-col-collection">TOUTES LES COLLECTIONS</a>
+            </div>
+            <div class="rosa-menu-open-col">
+                <div class="rosa-menu-open-col-title">CATÉGORIES</div>
+                <a href="/" class="rosa-menu-open-col-item">BAGUES</a>
+                <a href="/" class="rosa-menu-open-col-item">PENDENTIFS</a>
+                <a href="/" class="rosa-menu-open-col-item">BOUCLES D’OREILLE</a>
+                <a href="/" class="rosa-menu-open-col-item">BRACELETS</a>
+                <a href="/" class="rosa-menu-open-col-collection">TOUTES LES CRÉATIONS</a>
+            </div>
+            <div class="rosa-menu-open-col">
+                <div class="rosa-menu-open-col-title">OCCASIONS</div>
+                <a href="/" class="rosa-menu-open-col-item">MOTHER’S DAY</a>
+                <a href="/" class="rosa-menu-open-col-item">ANNIVERSAIRE</a>
+                <a href="/" class="rosa-menu-open-col-item">NAISSANCE</a>
+                <a href="/" class="rosa-menu-open-col-item">MARIAGE</a>
+                <a href="/" class="rosa-menu-open-col-item">COMMUNION</a>
+                <a href="/" class="rosa-menu-open-col-item">SPRING</a>
+                <a href="/" class="rosa-menu-open-col-collection">TOUTES LES OCCASIONS</a>
+            </div>
+            <div class="rosa-menu-open-banner">
+                <img src="build/img/menu-banner.png" alt="" class="rosa-menu-open-banner-pic">
+                <div class="rosa-menu-open-banner-title">TITRE DE LA SELECTION SUR DEUX LIGNES</div>
+                <a href="/" class="rosa-menu-open-banner-link">DÉCOUVRIR LA SÉLECTION</a>
+            </div>
+        </div>
+    </div>
 
-      window.matchMedia('(max-width: 990px)').addEventListener('change', this.setHeaderHeight.bind(this));
+    <a href="/" class="rosa-menu-logo-wrapper">
+        <svg class="rosa-menu-logo" id="Calque_1-2" xmlns="http://www.w3.org/2000/svg" width="290.5" height="33.109" viewBox="0 0 290.5 33.109">
+          <path id="Tracé_44" data-name="Tracé 44" d="M142.444,28.765h-1.6a16.225,16.225,0,0,0-3.959-4.631c-3.691-3.019-3.691-5.617-3.691-6.468a4.675,4.675,0,0,1,8.456-2.75,4.675,4.675,0,0,1,8.456,2.75c0,.86,0,3.449-3.664,6.45a16.4,16.4,0,0,0-3.986,4.658Zm-4.578-13.992a2.888,2.888,0,0,0-2.884,2.884c0,.645,0,2.6,3.019,5.07a19.355,19.355,0,0,1,3.646,3.879,19.656,19.656,0,0,1,3.673-3.906c2.992-2.446,2.992-4.4,2.992-5.043a2.885,2.885,0,1,0-5.769-.009h-1.792a2.883,2.883,0,0,0-2.884-2.884Z" transform="translate(-13.878 -1.354)" fill="#fff"/>
+          <path id="Tracé_45" data-name="Tracé 45" d="M140.916,33.553a14.646,14.646,0,1,1,14.646-14.646A14.658,14.658,0,0,1,140.916,33.553Zm0-27.5a12.855,12.855,0,1,0,12.855,12.855A12.872,12.872,0,0,0,140.916,6.052Z" transform="translate(-13.157 -0.444)" fill="#fff"/>
+          <rect id="Rectangle_20" data-name="Rectangle 20" width="1.792" height="6.889" transform="matrix(0.865, -0.502, 0.502, 0.865, 120.159, 7.035)" fill="#fff"/>
+          <rect id="Rectangle_21" data-name="Rectangle 21" width="6.853" height="1.792" transform="translate(130.441 12.092) rotate(-59.9)" fill="#fff"/>
+          <rect id="Rectangle_22" data-name="Rectangle 22" width="6.62" height="1.792" transform="translate(114.009 17.567)" fill="#fff"/>
+          <rect id="Rectangle_23" data-name="Rectangle 23" width="1.792" height="8.107" transform="translate(129.789 23.772) rotate(-29.91)" fill="#fff"/>
+          <rect id="Rectangle_24" data-name="Rectangle 24" width="8.107" height="1.792" transform="translate(120.12 29.895) rotate(-59.9)" fill="#fff"/>
+          <rect id="Rectangle_25" data-name="Rectangle 25" width="6.539" height="1.792" transform="translate(134.971 17.567)" fill="#fff"/>
+          <path id="Tracé_46" data-name="Tracé 46" d="M233.539,1.854A1.854,1.854,0,1,1,231.684,0a1.852,1.852,0,0,1,1.854,1.854" transform="translate(-23.948)" fill="#fff"/>
+          <path id="Tracé_47" data-name="Tracé 47" d="M239.2,1.854A1.859,1.859,0,1,1,237.343,0,1.852,1.852,0,0,1,239.2,1.854" transform="translate(-24.536)" fill="#fff"/>
+          <path id="Tracé_48" data-name="Tracé 48" d="M20.245,29.86h-3.1l-5.312-9.585H2.705V29.86H0V6.82H11.493c3.476,0,9.307.645,9.307,6.6,0,4.981-3.2,6.575-5.894,6.853l5.348,9.585Zm-7.65-12.29c3.046,0,5.5-.367,5.5-4.121,0-2.858-2.517-3.933-5.008-3.933H2.705V17.57Z" transform="translate(0 -0.711)" fill="#fff"/>
+          <path id="Tracé_49" data-name="Tracé 49" d="M41.57,6.14A12.149,12.149,0,0,1,53.95,18.153,12.149,12.149,0,0,1,41.57,30.165,12.149,12.149,0,0,1,29.19,18.153,12.132,12.132,0,0,1,41.57,6.14m0,21.32a9.408,9.408,0,0,0,9.675-9.307A9.408,9.408,0,0,0,41.57,8.845,9.408,9.408,0,0,0,31.9,18.153,9.408,9.408,0,0,0,41.57,27.46" transform="translate(-3.042 -0.64)" fill="#fff"/>
+          <path id="Tracé_50" data-name="Tracé 50" d="M75.458,16.155c4.3,0,8.662,1.568,8.662,6.665s-5.348,7.346-11,7.346c-7.005,0-10.167-3.5-11.52-4.945l1.935-1.908c1.415,1.263,3.718,4.148,9.675,4.148,5.2,0,8.206-1.971,8.206-4.64,0-2.884-2.92-3.959-5.223-3.959H71.337c-4.452,0-8.053-1.478-8.053-5.778,0-3.2,2.893-6.942,9.952-6.942a15.372,15.372,0,0,1,9.648,3.377L81.191,11.64a12.89,12.89,0,0,0-8.017-2.795c-5.2,0-7.193,2.428-7.193,4.237,0,3.073,3.906,3.073,6.665,3.073H75.44Z" transform="translate(-6.418 -0.64)" fill="#fff"/>
+          <path id="Tracé_51" data-name="Tracé 51" d="M113.805,30.569H110.8l-3.744-7.892H95.988L92.36,30.569H89.35L100.315,7.52h2.705ZM101.667,10.817l-4.336,9.155h8.51l-4.174-9.155Z" transform="translate(-9.31 -0.784)" fill="#fff"/>
+          <path id="Tracé_52" data-name="Tracé 52" d="M191.816,30.518h-2.7v-17.6h-.063l-8.483,15.677L172.09,12.916h-.054v17.6h-2.7V7.55h2.7l8.537,15.533L189.119,7.55h2.7Z" transform="translate(-17.645 -0.787)" fill="#fff"/>
+          <path id="Tracé_53" data-name="Tracé 53" d="M224.615,30.518h-3l-3.736-7.874H206.86l-3.619,7.874h-3L211.178,7.55h2.7l10.75,22.968Zm-12.093-19.69L208.2,19.957h8.483Z" transform="translate(-20.864 -0.787)" fill="#fff"/>
+          <rect id="Rectangle_26" data-name="Rectangle 26" width="2.696" height="22.968" transform="translate(208.919 6.763)" fill="#fff"/>
+          <path id="Tracé_54" data-name="Tracé 54" d="M254.561,30.518h-2.7V10.246H243.48V7.55h19.475v2.7h-8.394Z" transform="translate(-25.37 -0.787)" fill="#fff"/>
+          <path id="Tracé_55" data-name="Tracé 55" d="M291.7,30.518H272.16V7.55h18.857v2.7H274.847v7.014h8.519v2.7h-8.519v7.874H291.7Z" transform="translate(-28.358 -0.787)" fill="#fff"/>
+          <path id="Tracé_56" data-name="Tracé 56" d="M321.454,30.518h-3l-3.736-7.874H303.69l-3.619,7.874h-3L308.008,7.55h2.7ZM309.36,10.829l-4.318,9.128h8.483Z" transform="translate(-30.954 -0.787)" fill="#fff"/>
+        </svg>
+    </a>
 
-      if (this.headerIsAlwaysSticky) {
-        this.header.classList.add('shopify-section-header-sticky');
-      };
+    <svg class="rosa-menu-burger" id="burger" xmlns="http://www.w3.org/2000/svg" width="23" height="18" viewBox="0 0 27 18" fill="none">
+      <path d="M1 1H27" stroke="white" stroke-width="2" stroke-linecap="round"/>
+      <path d="M1 9H27" stroke="white" stroke-width="2" stroke-linecap="round"/>
+      <path d="M1 17H27" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    </svg>
 
-      this.currentScrollTop = 0;
-      this.preventReveal = false;
-      this.predictiveSearch = this.querySelector('predictive-search');
+    <nav class="rosa-menu-nav">
+        <div class="rosa-menu-nav-top">
+            <a href="/" class="rosa-menu-nav-item_icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15.133" height="18.526" viewBox="0 0 15.133 18.526">
+                  <path id="Icon_material-location-on" data-name="Icon material-location-on" d="M14.567,3A7.032,7.032,0,0,0,7.5,10.008c0,5.256,7.067,10.518,7.067,10.518s7.067-5.262,7.067-10.518A7.032,7.032,0,0,0,14.567,3Zm0,9.511a2.5,2.5,0,1,1,2.524-2.5A2.514,2.514,0,0,1,14.567,12.511Z" transform="translate(-7 -2.5)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="1"/>
+                </svg>
+                <span>Boutiques</span>
+            </a href="/">
+            <a href="/" class="rosa-menu-nav-item_icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16.773" height="18.526" viewBox="0 0 16.773 18.526">
+                  <g id="Icon_feather-calendar" data-name="Icon feather-calendar" transform="translate(-4 -2.5)">
+                    <path id="Tracé_57" data-name="Tracé 57" d="M6.253,6H18.521a1.753,1.753,0,0,1,1.753,1.753V20.021a1.753,1.753,0,0,1-1.753,1.753H6.253A1.753,1.753,0,0,1,4.5,20.021V7.753A1.753,1.753,0,0,1,6.253,6Z" transform="translate(0 -1.247)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                    <path id="Tracé_58" data-name="Tracé 58" d="M24,3V6.505" transform="translate(-8.108)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                    <path id="Tracé_59" data-name="Tracé 59" d="M12,3V6.505" transform="translate(-3.119)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                    <path id="Tracé_60" data-name="Tracé 60" d="M4.5,15H20.273" transform="translate(0 -4.99)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                  </g>
+                </svg>
 
-      this.onScrollHandler = this.onScroll.bind(this);
-      this.hideHeaderOnScrollUp = () => this.preventReveal = true;
+                <span>Prenez RDV</span>
+            </a href="/">
+            <a href="/" class="rosa-menu-nav-item_icon">
+                <span>FR</span>
 
-      this.addEventListener('preventHeaderReveal', this.hideHeaderOnScrollUp);
-      window.addEventListener('scroll', this.onScrollHandler, false);
+                <svg xmlns="http://www.w3.org/2000/svg" width="9.079" height="5.191" viewBox="0 0 9.079 5.191">
+                  <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M10.728,14.873l3.433-3.435a.646.646,0,0,1,.916,0,.654.654,0,0,1,0,.919l-3.89,3.892a.648.648,0,0,1-.895.019L6.377,12.359a.649.649,0,1,1,.916-.919Z" transform="translate(-6.188 -11.246)" fill="#fff"/>
+                </svg>
+            </a href="/">
+        </div>
+        <div class="rosa-menu-nav-bottom">
+            <div class="rosa-menu-nav-bottom-links">
 
-      this.createObserver();
-    }
+                <div class="rosa-menu-nav-item_arrow">
+                    <span>Joaillerie</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="9.079" height="5.191" viewBox="0 0 9.079 5.191">
+                      <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M10.728,14.873l3.433-3.435a.646.646,0,0,1,.916,0,.654.654,0,0,1,0,.919l-3.89,3.892a.648.648,0,0,1-.895.019L6.377,12.359a.649.649,0,1,1,.916-.919Z" transform="translate(-6.188 -11.246)" fill="#fff"/>
+                    </svg>
+                </div>
 
-    setHeaderHeight() {
-      document.documentElement.style.setProperty('--header-height', `${this.header.offsetHeight}px`);
-    }
+                <div class="rosa-menu-nav-item_arrow">
+                    <span>Mariage</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="9.079" height="5.191" viewBox="0 0 9.079 5.191">
+                      <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M10.728,14.873l3.433-3.435a.646.646,0,0,1,.916,0,.654.654,0,0,1,0,.919l-3.89,3.892a.648.648,0,0,1-.895.019L6.377,12.359a.649.649,0,1,1,.916-.919Z" transform="translate(-6.188 -11.246)" fill="#fff"/>
+                    </svg>
+                </div>
 
-    disconnectedCallback() {
-      this.removeEventListener('preventHeaderReveal', this.hideHeaderOnScrollUp);
-      window.removeEventListener('scroll', this.onScrollHandler);
-    }
+                <a href="/" class="rosa-menu-nav-item">
+                    <span>La Maison</span>
+                </a>
 
-    createObserver() {
-      let observer = new IntersectionObserver((entries, observer) => {
-        this.headerBounds = entries[0].intersectionRect;
-        observer.disconnect();
-      });
+                <a href="/" class="rosa-menu-nav-item">
+                    <span>Stories of love</span>
+                </a>
+            </div>
+            <div class="rosa-menu-nav-bottom-icons">
+                <a href="{{ routes.search_url }}">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+                      <defs>
+                        <clipPath id="clip-path">
+                          <rect id="Rectangle_178" data-name="Rectangle 178" width="18" height="18" fill="#fff"/>
+                        </clipPath>
+                      </defs>
+                      <g id="Groupe_299" data-name="Groupe 299" transform="translate(0 0)">
+                        <g id="Groupe_298" data-name="Groupe 298">
+                          <path id="Tracé_235" data-name="Tracé 235" d="M17.516,16.493l-4.648-4.648a7.243,7.243,0,1,0-1.024,1.024l4.648,4.648a.726.726,0,0,0,1.024-1.024M3.137,11.359a5.81,5.81,0,1,1,8.216,0l0,0a5.774,5.774,0,0,1-8.165.049l-.049-.049" transform="translate(0 0)" fill="#fff"/>
+                        </g>
+                      </g>
+                    </svg>
+                </a>
+                <a href="/">
+                    <svg mlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="13" viewBox="0 0 18 13">
+                      <defs>
+                        <clipPath id="clip-path">
+                          <rect id="Rectangle_179" data-name="Rectangle 179" width="18" height="13" transform="translate(0.454 0.328)" fill="#fff"/>
+                        </clipPath>
+                      </defs>
+                      <g id="Groupe_301" data-name="Groupe 301" transform="translate(0.038 -0.328)">
+                        <g id="Groupe_300" data-name="Groupe 300" transform="translate(-0.492)">
+                          <path id="Tracé_236" data-name="Tracé 236" d="M.493,0A.564.564,0,0,0,0,.544V12.51a.565.565,0,0,0,.544.544H17.405a.565.565,0,0,0,.544-.544V.544A.565.565,0,0,0,17.405,0ZM1.912,1.088H16.037l-7.063,6.6Zm-.824.723L5.941,6.34,3.969,8.312a.544.544,0,1,0,.765.773L6.739,7.079,8.6,8.822a.564.564,0,0,0,.748,0L11.21,7.079l3.637,3.637a.544.544,0,1,0,.765-.773l-3.6-3.6,4.853-4.53V11.966H1.088Zm1.836,7.7a.549.549,0,0,0-.314.162l-.272.272a.565.565,0,0,0-.012.777.565.565,0,0,0,.777,0l.272-.272a.544.544,0,0,0-.45-.935" transform="translate(0.505)" fill="#fff"/>
+                        </g>
+                      </g>
+                    </svg>
+                </a>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15.547" height="16.87" viewBox="0 0 15.547 16.87">
+                      <path id="Icon_material-supervisor-account" data-name="Icon material-supervisor-account" d="M21.541,16.616a3.306,3.306,0,1,0-3.306-3.306A3.3,3.3,0,0,0,21.541,16.616Zm0,2.645c-2.42,0-7.274,1.217-7.274,3.637v2.976H28.814V22.9C28.814,20.478,23.961,19.261,21.541,19.261Z" transform="translate(-13.767 -9.504)" fill="none" stroke="#fff" stroke-width="1"/>
+                    </svg>
+                </a>
+                <a href="{{ routes.cart_url }}">
 
-      observer.observe(this.header);
-    }
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15.99" height="19.474" viewBox="0 0 15.99 19.474">
+                      <defs>
+                        <clipPath id="clip-path">
+                          <rect id="Rectangle_177" data-name="Rectangle 177" width="15.99" height="19.474" fill="#fff"/>
+                        </clipPath>
+                      </defs>
+                      <g id="Groupe_296" data-name="Groupe 296">
+                        <g id="Groupe_295" data-name="Groupe 295" >
+                          <path id="Tracé_234" data-name="Tracé 234" d="M15.5,8.933a2,2,0,0,0-2.01-2.01h-.223C13.087,3.082,10.809,0,8.04,0S2.993,3.082,2.814,6.968H2.546A1.992,1.992,0,0,0,.536,8.933c0,.179-.4,5.315-.536,7.28a3.279,3.279,0,0,0,3.261,3.261h9.469a3.288,3.288,0,0,0,3.261-3.305C15.9,14.2,15.5,9.112,15.5,8.933M8.04.983c2.233,0,4.109,2.68,4.243,6.03-1.34.089-3.439.179-4.154.179-.67,0-2.9-.089-4.332-.179C3.931,3.663,5.806.983,8.04.983M2.546,7.906c.179,0,4.556.223,5.583.223,1.117,0,5.226-.223,5.4-.223a1.011,1.011,0,0,1,1.027,1.027s0,.045.089.938c0,.625-2.278,2.055-6.074,2.144v-.268a.491.491,0,0,0-.983,0v.268C3.8,11.881,1.519,10.5,1.519,9.871c.089-.893.089-.938.089-.938a.964.964,0,0,1,.938-1.027M12.774,18.491H3.305a2.288,2.288,0,0,1-2.278-2.278c.179-2.323.313-3.886.4-4.958a11.141,11.141,0,0,0,6.164,1.7v.223a.491.491,0,1,0,.983,0v-.223a11.4,11.4,0,0,0,6.164-1.7c.089,1.072.223,2.635.4,4.913a2.374,2.374,0,0,1-2.367,2.323" transform="translate(0 0)" fill="#fff"/>
+                        </g>
+                      </g>
+                    </svg>
 
-    onScroll() {
-      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-      if (this.predictiveSearch && this.predictiveSearch.isOpen) return;
-
-      if (scrollTop > this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
-        this.header.classList.add('scrolled-past-header');
-        if (this.preventHide) return;
-        requestAnimationFrame(this.hide.bind(this));
-      } else if (scrollTop < this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
-        this.header.classList.add('scrolled-past-header');
-        if (!this.preventReveal) {
-          requestAnimationFrame(this.reveal.bind(this));
-        } else {
-          window.clearTimeout(this.isScrolling);
-
-          this.isScrolling = setTimeout(() => {
-            this.preventReveal = false;
-          }, 66);
-
-          requestAnimationFrame(this.hide.bind(this));
-        }
-      } else if (scrollTop <= this.headerBounds.top) {
-        this.header.classList.remove('scrolled-past-header');
-        requestAnimationFrame(this.reset.bind(this));
-      }
-
-      this.currentScrollTop = scrollTop;
-    }
-
-    hide() {
-      if (this.headerIsAlwaysSticky) return;
-      this.header.classList.add('shopify-section-header-hidden', 'shopify-section-header-sticky');
-      this.closeMenuDisclosure();
-      this.closeSearchModal();
-    }
-
-    reveal() {
-      if (this.headerIsAlwaysSticky) return;
-      this.header.classList.add('shopify-section-header-sticky', 'animate');
-      this.header.classList.remove('shopify-section-header-hidden');
-    }
-
-    reset() {
-      if (this.headerIsAlwaysSticky) return;
-      this.header.classList.remove('shopify-section-header-hidden', 'shopify-section-header-sticky', 'animate');
-    }
-
-    closeMenuDisclosure() {
-      this.disclosures = this.disclosures || this.header.querySelectorAll('header-menu');
-      this.disclosures.forEach(disclosure => disclosure.close());
-    }
-
-    closeSearchModal() {
-      this.searchModal = this.searchModal || this.header.querySelector('details-modal');
-      this.searchModal.close(false);
-    }
-  }
-
-  customElements.define('sticky-header', StickyHeader);
-{% endjavascript %}
-
-<script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "Organization",
-    "name": {{ shop.name | json }},
-    {% if settings.logo %}
-      "logo": {{ settings.logo | image_url: width: 500 | prepend: "https:" | json }},
-    {% endif %}
-    "sameAs": [
-      {{ settings.social_twitter_link | json }},
-      {{ settings.social_facebook_link | json }},
-      {{ settings.social_pinterest_link | json }},
-      {{ settings.social_instagram_link | json }},
-      {{ settings.social_tiktok_link | json }},
-      {{ settings.social_tumblr_link | json }},
-      {{ settings.social_snapchat_link | json }},
-      {{ settings.social_youtube_link | json }},
-      {{ settings.social_vimeo_link | json }}
-    ],
-    "url": {{ request.origin | append: page.url | json }}
-  }
-</script>
-
-{%- if request.page_type == 'index' -%}
-  {% assign potential_action_target = request.origin | append: routes.search_url | append: "?q={search_term_string}" %}
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "WebSite",
-      "name": {{ shop.name | json }},
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {{ potential_action_target | json }},
-        "query-input": "required name=search_term_string"
-      },
-      "url": {{ request.origin | append: page.url | json }}
-    }
-  </script>
-{%- endif -%}
+                </a>
+            </div>
+        </div>
+    </nav>
+</section>
 
 {% schema %}
 {
   "name": "t:sections.header.name",
   "class": "section-header",
-  "max_blocks": 3,
   "settings": [
     {
-      "type": "select",
-      "id": "logo_position",
-      "options": [
-        {
-          "value": "top-left",
-          "label": "t:sections.header.settings.logo_position.options__2.label"
-        },
-        {
-          "value": "top-center",
-          "label": "t:sections.header.settings.logo_position.options__3.label"
-        },
-        {
-          "value": "middle-left",
-          "label": "t:sections.header.settings.logo_position.options__1.label"
-        },
-        {
-          "value": "middle-center",
-          "label": "t:sections.header.settings.logo_position.options__4.label"
-        }
-      ],
-      "default": "middle-left",
-      "label": "t:sections.header.settings.logo_position.label",
-      "info": "t:sections.header.settings.logo_help.content"
-    },
-    {
-      "type": "link_list",
-      "id": "menu",
-      "default": "main-menu",
-      "label": "t:sections.header.settings.menu.label"
-    },
-    {
-      "type": "select",
-      "id": "menu_type_desktop",
-      "options": [
-        {
-          "value": "dropdown",
-          "label": "t:sections.header.settings.menu_type_desktop.options__1.label"
-        },
-        {
-          "value": "mega",
-          "label": "t:sections.header.settings.menu_type_desktop.options__2.label"
-        },
-        {
-          "value": "drawer",
-          "label": "t:sections.header.settings.menu_type_desktop.options__3.label"
-        }
-      ],
-      "default": "dropdown",
-      "label": "t:sections.header.settings.menu_type_desktop.label",
-      "info": "t:sections.header.settings.menu_type_desktop.info"
-    },
-    {
-      "type": "select",
-      "id": "sticky_header_type",
-      "options": [
-        {
-          "value": "none",
-          "label": "t:sections.header.settings.sticky_header_type.options__1.label"
-        },
-        {
-          "value": "on-scroll-up",
-          "label": "t:sections.header.settings.sticky_header_type.options__2.label"
-        },
-        {
-          "value": "always",
-          "label": "t:sections.header.settings.sticky_header_type.options__3.label"
-        },
-        {
-          "value": "reduce-logo-size",
-          "label": "t:sections.header.settings.sticky_header_type.options__4.label"
-        }
-      ],
-      "default": "on-scroll-up",
-      "label": "t:sections.header.settings.sticky_header_type.label"
-    },
-    {
       "type": "checkbox",
-      "id": "show_line_separator",
-      "default": true,
-      "label": "t:sections.header.settings.show_line_separator.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.header.settings.header__1.content"
-    },
-    {
-      "type": "color_scheme",
-      "id": "color_scheme",
-      "label": "t:sections.all.colors.label",
-      "default": "background-1"
-    },
-      {
-      "type": "color_scheme",
-      "id": "menu_color_scheme",
-      "label": "t:sections.header.settings.menu_color_scheme.label",
-      "default": "background-1"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.header.settings.header__3.content",
-      "info": "t:sections.header.settings.header__4.info"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_country_selector",
-      "default": true,
-      "label": "t:sections.header.settings.enable_country_selector.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.header.settings.header__5.content",
-      "info": "t:sections.header.settings.header__6.info"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_language_selector",
-      "default": true,
-      "label": "t:sections.header.settings.enable_language_selector.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.header.settings.mobile_layout.content"
-    },
-    {
-      "type": "select",
-      "id": "mobile_logo_position",
-      "options": [
-        {
-          "value": "center",
-          "label": "t:sections.header.settings.mobile_logo_position.options__1.label"
-        },
-        {
-          "value": "left",
-          "label": "t:sections.header.settings.mobile_logo_position.options__2.label"
-        }
-      ],
-      "default": "center",
-      "label": "t:sections.header.settings.mobile_logo_position.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.all.spacing"
-    },
-    {
-      "type": "range",
-      "id": "margin_bottom",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.header.settings.margin_bottom.label",
-      "default": 0
-    },
-    {
-      "type": "header",
-      "content": "t:sections.all.padding.section_padding_heading"
-    },
-    {
-      "type": "range",
-      "id": "padding_top",
-      "min": 0,
-      "max": 36,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_top",
-      "default": 20
-    },
-    {
-      "type": "range",
-      "id": "padding_bottom",
-      "min": 0,
-      "max": 36,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_bottom",
-      "default": 20
-    }
-  ],
-  "blocks": [
-    {
-      "type": "@app"
+      "id": "is_black",
+      "label": "Menu black",
+      "default": false
     }
   ]
 }
