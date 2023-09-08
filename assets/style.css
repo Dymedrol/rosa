@@ -759,14 +759,6 @@ input[type="button"] {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url('./img/jumbo-mobile.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-@media ((min-width: 1200px)) {
-  .rosa-jumbotron {
-    background-image: url('./img/jumbo.png');
-  }
 }
 .rosa-jumbotron-pic {
   position: absolute;
@@ -1167,12 +1159,8 @@ input[type="button"] {
 .rosa-collections {
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid #dedede;
-}
-@media ((min-width: 1200px)) {
-  .rosa-collections {
-    flex-wrap: nowrap;
-  }
+  border-top: 1px solid #dedede;
+  border-left: 1px solid #dedede;
 }
 .rosa-collections-item {
   position: relative;
@@ -1181,19 +1169,15 @@ input[type="button"] {
   align-items: center;
   width: 50%;
   padding: 37px 1% 28px;
-  border: 1px solid #dedede;
-  margin: 0 -1px -1px 0;
+  border-right: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
 }
 @media ((min-width: 1200px)) {
   .rosa-collections-item {
     width: 25%;
-    border: none;
-    border-right: 1px solid #dedede;
     padding: 58px 1% 66px;
-    margin: 0;
     aspect-ratio: 0.87468031;
     align-items: center;
-    justify-content: center;
   }
 }
 .rosa-collections-item:hover .rosa-collections-item-hover {
