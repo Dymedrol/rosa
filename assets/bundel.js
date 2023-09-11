@@ -133,6 +133,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
+/***/ "./source/js/pdp.js":
+/*!**************************!*\
+  !*** ./source/js/pdp.js ***!
+  \**************************/
+/*! exports provided: initPdp */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"initPdp\", function() { return initPdp; });\nconst initPdp = () => {\n  const pdp = $('.rosa-pdp');\n\n  if (!pdp.length) {\n    return;\n  }\n\n  const form = pdp.find('form');\n  const mainSelect = form.find('.js-main-select');\n  const mainOptions = mainSelect.find('option');\n  const selects = form.find('.js-pdp-select');\n  const selectedOptions = {};\n  let selectedOptionsCount;\n  selects.each(function () {\n    selectedOptions[this.name] = this.value;\n  });\n  selectedOptionsCount = Object.keys(selectedOptions).length;\n  selects.on('change paste keyup', function () {\n    const selectedValue = this.value;\n    selectedOptions[this.name] = selectedValue;\n    mainOptions.each(function () {\n      const text = $(this).text();\n      const optionId = $(this).val();\n      let coincidenceCount = 0;\n      Object.keys(selectedOptions).forEach(key => {\n        if (text.includes(selectedOptions[key])) {\n          coincidenceCount++;\n        }\n      });\n\n      if (coincidenceCount === selectedOptionsCount) {\n        mainSelect.val(optionId);\n      }\n    });\n  });\n};\n\n//# sourceURL=webpack:///./source/js/pdp.js?");
+
+/***/ }),
+
 /***/ "./source/js/script.js":
 /*!*****************************!*\
   !*** ./source/js/script.js ***!
@@ -141,7 +153,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./menu */ \"./source/js/menu.js\");\n\nObject(_menu__WEBPACK_IMPORTED_MODULE_0__[\"initMenu\"])();\n\n//# sourceURL=webpack:///./source/js/script.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./menu */ \"./source/js/menu.js\");\n/* harmony import */ var _pdp__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pdp */ \"./source/js/pdp.js\");\n/* harmony import */ var _select__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./select */ \"./source/js/select.js\");\n/* harmony import */ var _select__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_select__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nObject(_menu__WEBPACK_IMPORTED_MODULE_0__[\"initMenu\"])();\nObject(_pdp__WEBPACK_IMPORTED_MODULE_1__[\"initPdp\"])();\nObject(_select__WEBPACK_IMPORTED_MODULE_2__[\"initSelect\"])();\n\n//# sourceURL=webpack:///./source/js/script.js?");
+
+/***/ }),
+
+/***/ "./source/js/select.js":
+/*!*****************************!*\
+  !*** ./source/js/select.js ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// export const initSelect = () => {\n//     var x, i, j, l, ll, selElmnt, a, b, c;\n//     /* Look for any elements with the class \"custom-select\": */\n//     x = document.getElementsByClassName(\"custom-select\");\n//     l = x.length;\n//     for (i = 0; i < l; i++) {\n//       selElmnt = x[i].getElementsByTagName(\"select\")[0];\n//       ll = selElmnt.length;\n//       /* For each element, create a new DIV that will act as the selected item: */\n//       a = document.createElement(\"DIV\");\n//       a.setAttribute(\"class\", \"select-selected\");\n//       a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;\n//       x[i].appendChild(a);\n//       /* For each element, create a new DIV that will contain the option list: */\n//       b = document.createElement(\"DIV\");\n//       b.setAttribute(\"class\", \"select-items select-hide\");\n//       for (j = 1; j < ll; j++) {\n//         /* For each option in the original select element,\n//         create a new DIV that will act as an option item: */\n//         c = document.createElement(\"DIV\");\n//         c.innerHTML = selElmnt.options[j].innerHTML;\n//         c.addEventListener(\"click\", function(e) {\n//             /* When an item is clicked, update the original select box,\n//             and the selected item: */\n//             var y, i, k, s, h, sl, yl;\n//             s = this.parentNode.parentNode.getElementsByTagName(\"select\")[0];\n//             sl = s.length;\n//             h = this.parentNode.previousSibling;\n//             for (i = 0; i < sl; i++) {\n//               if (s.options[i].innerHTML == this.innerHTML) {\n//                 s.selectedIndex = i;\n//                 h.innerHTML = this.innerHTML;\n//                 y = this.parentNode.getElementsByClassName(\"same-as-selected\");\n//                 yl = y.length;\n//                 for (k = 0; k < yl; k++) {\n//                   y[k].removeAttribute(\"class\");\n//                 }\n//                 this.setAttribute(\"class\", \"same-as-selected\");\n//                 break;\n//               }\n//             }\n//             h.click();\n//         });\n//         b.appendChild(c);\n//       }\n//       x[i].appendChild(b);\n//       a.addEventListener(\"click\", function(e) {\n//         /* When the select box is clicked, close any other select boxes,\n//         and open/close the current select box: */\n//         e.stopPropagation();\n//         closeAllSelect(this);\n//         this.nextSibling.classList.toggle(\"select-hide\");\n//         this.classList.toggle(\"select-arrow-active\");\n//       });\n//     }\n//     function closeAllSelect(elmnt) {\n//       /* A function that will close all select boxes in the document,\n//       except the current select box: */\n//       var x, y, i, xl, yl, arrNo = [];\n//       x = document.getElementsByClassName(\"select-items\");\n//       y = document.getElementsByClassName(\"select-selected\");\n//       xl = x.length;\n//       yl = y.length;\n//       for (i = 0; i < yl; i++) {\n//         if (elmnt == y[i]) {\n//           arrNo.push(i)\n//         } else {\n//           y[i].classList.remove(\"select-arrow-active\");\n//         }\n//       }\n//       for (i = 0; i < xl; i++) {\n//         if (arrNo.indexOf(i)) {\n//           x[i].classList.add(\"select-hide\");\n//         }\n//       }\n//     }\n//     /* If the user clicks anywhere outside the select box,\n//     then close all select boxes: */\n//     document.addEventListener(\"click\", closeAllSelect);\n// }\n\n//# sourceURL=webpack:///./source/js/select.js?");
 
 /***/ }),
 

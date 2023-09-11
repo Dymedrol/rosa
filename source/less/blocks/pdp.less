@@ -104,6 +104,10 @@
     @media (@L) {
         margin-bottom: 44px;
     }
+
+    & a {
+        color: #555555;
+    }
 }
 
 .rosa-pdp-info-price {
@@ -130,6 +134,25 @@
         margin-bottom: 15px;
     }
 }
+
+.rosa-pdp-select-wrapper {
+    flex-grow: 1;
+
+    & select {
+        border: 0;
+        border-bottom: 1px solid #000;
+        padding-bottom: 12px;
+        width: 100%;
+    }
+
+    & select:focus, select:focus-visible {
+        border: 0;
+        border-bottom: 1px solid #000;
+        outline: none;
+        box-shadow: unset;
+    }
+}
+
 
 .rosa-pdp-info-controls-item {
     position: relative;
@@ -242,6 +265,20 @@
     letter-spacing: 0px;
     color: #1A1A1A;
     margin-bottom: 21px;
+
+    & a {
+     color: #1A1A1A;
+    }
+
+    & br + br {
+        display: none;
+    }
+
+    & h5 {
+        font: normal normal bold 14px/18px Montserrat;
+        letter-spacing: 0px;
+        color: #1A1A1A;
+    }
 }
 
 .rosa-pdp-info-bar2 {

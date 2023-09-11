@@ -331,6 +331,9 @@ input[type="button"] {
 .cursor-pointer {
   cursor: pointer;
 }
+.hidden {
+  display: none;
+}
 @font-face {
   font-family: "Montserrat";
   src: url('./Montserrat-Light.ttf') format('truetype');
@@ -2569,6 +2572,9 @@ input[type="button"] {
     margin-bottom: 44px;
   }
 }
+.rosa-pdp-info-text a {
+  color: #555555;
+}
 .rosa-pdp-info-price {
   font: normal normal normal 20px/20px Montserrat;
   letter-spacing: 0px;
@@ -2593,6 +2599,22 @@ input[type="button"] {
     gap: 25px;
     margin-bottom: 15px;
   }
+}
+.rosa-pdp-select-wrapper {
+  flex-grow: 1;
+}
+.rosa-pdp-select-wrapper select {
+  border: 0;
+  border-bottom: 1px solid #000;
+  padding-bottom: 12px;
+  width: 100%;
+}
+.rosa-pdp-select-wrapper select:focus,
+.rosa-pdp-select-wrapper select:focus-visible {
+  border: 0;
+  border-bottom: 1px solid #000;
+  outline: none;
+  box-shadow: unset;
 }
 .rosa-pdp-info-controls-item {
   position: relative;
@@ -2690,6 +2712,17 @@ input[type="button"] {
   letter-spacing: 0px;
   color: #1A1A1A;
   margin-bottom: 21px;
+}
+.rosa-pdp-info-description-text a {
+  color: #1A1A1A;
+}
+.rosa-pdp-info-description-text br + br {
+  display: none;
+}
+.rosa-pdp-info-description-text h5 {
+  font: normal normal bold 14px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #1A1A1A;
 }
 .rosa-pdp-info-bar2 {
   width: 100%;
