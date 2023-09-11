@@ -2775,7 +2775,7 @@ input[type="button"] {
   }
 }
 .rosa-cart-legend-title {
-  font: normal normal medium 16px/45px Montserrat;
+  font: normal normal 500 16px/45px Montserrat;
   letter-spacing: 0px;
   color: #000000;
   text-transform: uppercase;
@@ -2837,6 +2837,34 @@ input[type="button"] {
   justify-content: center;
   align-items: center;
   height: fit-content;
+}
+.rosa-cart-item-count-control-wrapper .cart-item__quantity-wrapper {
+  align-items: center;
+}
+.rosa-cart-item-count-control-wrapper .quantity-popover-container {
+  padding: 0;
+}
+.rosa-cart-item-count-control-wrapper .quantity.cart-quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  width: 135px;
+  height: 48px;
+  min-height: unset;
+  border: 1px solid #000000;
+}
+.rosa-cart-item-count-control-wrapper .quantity__button {
+  font: normal normal normal 15px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  width: 20%;
+}
+.rosa-cart-item-count-control-wrapper .quantity__input {
+  font: normal normal normal 15px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  padding: 0;
 }
 .rosa-cart-item-count-control {
   display: flex;
