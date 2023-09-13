@@ -1,14 +1,17 @@
 
-<section>
-    <div
-        class="rosa-menu container {% if section.settings.is_black %}black{% endif %} {% if section.settings.add_space %}rosa-menu-static{% endif %}"
-    >
+{% if template == 'index' %}
+    {% assign is_black = false %}
+{% else %}
+    {% assign is_black = true %}
+{% endif %}
 
+<section>
+    <div class="rosa-menu container {% if is_black %}black rosa-menu-static{% endif %}">
         <div class="rosa-menu-mobile">
             <div class="rosa-menu-mobile-lang">
                 <span>FR</span>
 
-                {% if section.settings.is_black %}
+                {% if is_black %}
                     <svg xmlns="http://www.w3.org/2000/svg" width="9.079" height="5.191" viewBox="0 0 9.079 5.191">
                       <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M10.728,14.873l3.433-3.435a.646.646,0,0,1,.916,0,.654.654,0,0,1,0,.919l-3.89,3.892a.648.648,0,0,1-.895.019L6.377,12.359a.649.649,0,1,1,.916-.919Z" transform="translate(-6.188 -11.246)"/>
                     </svg>
@@ -64,31 +67,30 @@
                 <span>Mon panier ({{ cart.item_count }})</span>
             </a>
             <a href="{{ routes.search_url }}" class="rosa-menu-mobile-search">Rechercher</a>
-            <div class="rosa-menu-mobile-item-arrow">
-                <span>Joaillerie</span>
 
-                <svg xmlns="http://www.w3.org/2000/svg" width="7.339" height="12.836" viewBox="0 0 7.339 12.836">
-                  <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M12.608,16.373l4.854-4.857a.913.913,0,0,1,1.3,0,.925.925,0,0,1,0,1.3l-5.5,5.5a.916.916,0,0,1-1.265.027L6.455,12.819a.917.917,0,1,1,1.3-1.3Z" transform="translate(-11.246 19.024) rotate(-90)"/>
-                </svg>
-            </div>
-            <div class="rosa-menu-mobile-item-arrow">
-                <span>Mariage</span>
+            {% for link in linklists.main-menu.links  %}
+                {% if link.links.size > 0 %}
+                    <div class="rosa-menu-mobile-item-arrow js-mobile-arrow" data-button-undex="{{ forloop.index }}">
+                        <span>{{link.title}}</span>
 
-                <svg xmlns="http://www.w3.org/2000/svg" width="7.339" height="12.836" viewBox="0 0 7.339 12.836">
-                  <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M12.608,16.373l4.854-4.857a.913.913,0,0,1,1.3,0,.925.925,0,0,1,0,1.3l-5.5,5.5a.916.916,0,0,1-1.265.027L6.455,12.819a.917.917,0,1,1,1.3-1.3Z" transform="translate(-11.246 19.024) rotate(-90)"/>
-                </svg>
-            </div>
-            <a href="/" class="rosa-menu-mobile-item">La Maison</a>
-            <a href="/" class="rosa-menu-mobile-item">Stories of love</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="7.339" height="12.836" viewBox="0 0 7.339 12.836">
+                          <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M12.608,16.373l4.854-4.857a.913.913,0,0,1,1.3,0,.925.925,0,0,1,0,1.3l-5.5,5.5a.916.916,0,0,1-1.265.027L6.455,12.819a.917.917,0,1,1,1.3-1.3Z" transform="translate(-11.246 19.024) rotate(-90)"/>
+                        </svg>
+                    </div>
+                {% else %}
+                    <a href="{{ link.url }}" class="rosa-menu-mobile-item">{{link.title}}</a>
+                {% endif %}
+            {% endfor %}
+
             <div class="rosa-menu-mobile-bar"></div>
-            <div class="rosa-menu-mobile-item-icon">
+            <a href="{{ routes.account_url }}" class="rosa-menu-mobile-item-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="19.209" height="20.819" viewBox="0 0 19.209 20.819">
                   <path id="Icon_material-supervisor-account" data-name="Icon material-supervisor-account" d="M23.121,9.254a4.775,4.775,0,1,1-4.775,4.775A4.772,4.772,0,0,1,23.121,9.254Zm0,8.05a3.275,3.275,0,1,0-3.275-3.275A3.27,3.27,0,0,0,23.121,17.3Zm0,3.22a17,17,0,0,1,5.811,1.163c3.136,1.255,3.794,2.876,3.794,4.015v4.372H13.517V25.7c0-1.139.658-2.76,3.794-4.015A17.12,17.12,0,0,1,23.121,20.523Zm8.1,8.05V25.7c0-.553-.37-1.629-2.851-2.622a15.612,15.612,0,0,0-5.253-1.055,15.612,15.612,0,0,0-5.253,1.055c-1.065.426-2.851,1.333-2.851,2.622v2.872Z" transform="translate(-13.517 -9.254)"/>
                 </svg>
 
                 <span>Profil</span>
-            </div>
-            <div class="rosa-menu-mobile-item-icon">
+            </a>
+            <a href="/pages/nous-contacter" class="rosa-menu-mobile-item-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="17" viewBox="0 0 22 17">
                   <defs>
                     <clipPath id="clip-path">
@@ -103,16 +105,16 @@
                 </svg>
 
                 <span>Message</span>
-            </div>
-            <div class="rosa-menu-mobile-item-icon">
+            </a>
+            <a href="/collections/all"class="rosa-menu-mobile-item-icon">
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="18.705" height="22.835" viewBox="0 0 18.705 22.835">
                   <path id="Icon_material-location-on" data-name="Icon material-location-on" d="M16.1,2.25a9.33,9.33,0,0,1,6.613,2.714,9.186,9.186,0,0,1,2.74,6.567,10.764,10.764,0,0,1-1.434,5.055,22.328,22.328,0,0,1-3.059,4.247,33.256,33.256,0,0,1-4.412,4.1.75.75,0,0,1-.9,0,33.256,33.256,0,0,1-4.412-4.1,22.328,22.328,0,0,1-3.059-4.247A10.764,10.764,0,0,1,6.75,11.531,9.186,9.186,0,0,1,9.49,4.964,9.33,9.33,0,0,1,16.1,2.25Zm0,21.131c1.727-1.4,7.853-6.718,7.853-11.85a7.7,7.7,0,0,0-2.3-5.5,7.913,7.913,0,0,0-11.113,0,7.7,7.7,0,0,0-2.3,5.5C8.25,16.663,14.375,21.983,16.1,23.381Zm0-15.647a3.8,3.8,0,1,1-3.822,3.8A3.814,3.814,0,0,1,16.1,7.734Zm0,6.094a2.3,2.3,0,1,0-2.322-2.3A2.312,2.312,0,0,0,16.1,13.828Z" transform="translate(-6.75 -2.25)"/>
                 </svg>
 
                 <span>Boutiques</span>
-            </div>
-            <div class="rosa-menu-mobile-item-icon">
+            </a>
+            <a href="/pages/prendre-rendez-vous" class="rosa-menu-mobile-item-icon">
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="20.702" height="22.835" viewBox="0 0 20.702 22.835">
                   <g id="Icon_feather-calendar" data-name="Icon feather-calendar" transform="translate(0.75 0.75)">
@@ -124,59 +126,45 @@
                 </svg>
 
                 <span>Prenez RDV</span>
-            </div>
+            </a>
         </div>
 
-        <div class="rosa-menu-open">
-            <div class="rosa-menu-open-header">
-                <svg xmlns="http://www.w3.org/2000/svg" width="11.709" height="20.479" viewBox="0 0 11.709 20.479">
-                  <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M10.243,3.53l7.743,7.75a1.457,1.457,0,0,0,2.067,0,1.476,1.476,0,0,0,0-2.073L11.28.426A1.461,1.461,0,0,0,9.262.384L.427,9.2a1.464,1.464,0,0,0,2.067,2.073Z" transform="translate(0 20.479) rotate(-90)"/>
-                </svg>
+        {% for link in linklists.main-menu.links  %}
+            {% if link.links.size > 0 %}
+                <div class="rosa-menu-open" id="data-open-menu-index-{{ forloop.index }}">
+                    <div class="rosa-menu-open-header">
+                        <svg class="rosa-menu-open-header-back" xmlns="http://www.w3.org/2000/svg" width="11.709" height="20.479" viewBox="0 0 11.709 20.479">
+                          <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M10.243,3.53l7.743,7.75a1.457,1.457,0,0,0,2.067,0,1.476,1.476,0,0,0,0-2.073L11.28.426A1.461,1.461,0,0,0,9.262.384L.427,9.2a1.464,1.464,0,0,0,2.067,2.073Z" transform="translate(0 20.479) rotate(-90)"/>
+                        </svg>
 
-                <span>Joaillerie</span>
+                        <span>{{ link.title }}</span>
 
-                <svg xmlns="http://www.w3.org/2000/svg" width="20.484" height="20.479" viewBox="0 0 20.484 20.479">
-                  <path id="Icon_ionic-ios-close" data-name="Icon ionic-ios-close" d="M23.954,21.528l7.316-7.316a1.714,1.714,0,1,0-2.424-2.424L21.53,19.1l-7.316-7.316a1.714,1.714,0,1,0-2.424,2.424l7.316,7.316-7.316,7.316a1.714,1.714,0,1,0,2.424,2.424l7.316-7.316,7.316,7.316a1.714,1.714,0,1,0,2.424-2.424Z" transform="translate(-11.285 -11.289)"/>
-                </svg>
-            </div>
+                        <svg class="rosa-menu-open-header-close" xmlns="http://www.w3.org/2000/svg" width="20.484" height="20.479" viewBox="0 0 20.484 20.479">
+                          <path id="Icon_ionic-ios-close" data-name="Icon ionic-ios-close" d="M23.954,21.528l7.316-7.316a1.714,1.714,0,1,0-2.424-2.424L21.53,19.1l-7.316-7.316a1.714,1.714,0,1,0-2.424,2.424l7.316,7.316-7.316,7.316a1.714,1.714,0,1,0,2.424,2.424l7.316-7.316,7.316,7.316a1.714,1.714,0,1,0,2.424-2.424Z" transform="translate(-11.285 -11.289)"/>
+                        </svg>
+                    </div>
 
-            <div class="rosa-menu-open-inner">
-                <div class="rosa-menu-open-col">
-                    <div class="rosa-menu-open-col-title">COLLECTIONS</div>
-                    <a href="/" class="rosa-menu-open-col-item">LA BONNE ÉTOILE</a>
-                    <a href="/" class="rosa-menu-open-col-item">LA MARGARITA</a>
-                    <a href="/" class="rosa-menu-open-col-item">LE TOURBILLON</a>
-                    <a href="/" class="rosa-menu-open-col-item">LOVE FOREVER</a>
-                    <a href="/" class="rosa-menu-open-col-collection">TOUTES LES COLLECTIONS</a>
+                    <div class="rosa-menu-open-inner">
+                        {% for child_link in link.links %}
+                            <div class="rosa-menu-open-col">
+                                <div class="rosa-menu-open-col-title">{{ child_link.title }}</div>
+                                {% for grandchild_link in child_link.links %}
+                                    <a href="{{ grandchild_link.url }}" class="rosa-menu-open-col-item">{{ grandchild_link.title  }}</a>
+                                {% endfor %}
+                            </div>
+                        {% endfor %}
+                        <div class="rosa-menu-open-banner">
+                            <img src="{{ section.settings.menu_image | img_url: '370x390', crop: 'center' }}" alt="" class="rosa-menu-open-banner-pic">
+                            <div class="rosa-menu-open-banner-title">{{ section.settings.banner_banner_text }}</div>
+                            <a href="{{ section.settings.banner_banner_link }}" class="rosa-menu-open-banner-link">{{ section.settings.banner_banner_link_text }}</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="rosa-menu-open-col">
-                    <div class="rosa-menu-open-col-title">CATÉGORIES</div>
-                    <a href="/" class="rosa-menu-open-col-item">BAGUES</a>
-                    <a href="/" class="rosa-menu-open-col-item">PENDENTIFS</a>
-                    <a href="/" class="rosa-menu-open-col-item">BOUCLES D’OREILLE</a>
-                    <a href="/" class="rosa-menu-open-col-item">BRACELETS</a>
-                    <a href="/" class="rosa-menu-open-col-collection">TOUTES LES CRÉATIONS</a>
-                </div>
-                <div class="rosa-menu-open-col">
-                    <div class="rosa-menu-open-col-title">OCCASIONS</div>
-                    <a href="/" class="rosa-menu-open-col-item">MOTHER’S DAY</a>
-                    <a href="/" class="rosa-menu-open-col-item">ANNIVERSAIRE</a>
-                    <a href="/" class="rosa-menu-open-col-item">NAISSANCE</a>
-                    <a href="/" class="rosa-menu-open-col-item">MARIAGE</a>
-                    <a href="/" class="rosa-menu-open-col-item">COMMUNION</a>
-                    <a href="/" class="rosa-menu-open-col-item">SPRING</a>
-                    <a href="/" class="rosa-menu-open-col-collection">TOUTES LES OCCASIONS</a>
-                </div>
-                <div class="rosa-menu-open-banner">
-                    <img src="build/img/menu-banner.png" alt="" class="rosa-menu-open-banner-pic">
-                    <div class="rosa-menu-open-banner-title">TITRE DE LA SELECTION SUR DEUX LIGNES</div>
-                    <a href="/" class="rosa-menu-open-banner-link">DÉCOUVRIR LA SÉLECTION</a>
-                </div>
-            </div>
-        </div>
+            {% endif %}
+        {% endfor %}
 
         <a href="/" class="rosa-menu-logo-wrapper">
-            {% if section.settings.is_black %}
+            {% if is_black %}
                 <svg class="rosa-menu-logo" id="Calque_1-2" xmlns="http://www.w3.org/2000/svg" width="343.41" height="39.139" viewBox="0 0 343.41 39.139">
                   <path id="Tracé_44" data-name="Tracé 44" d="M144.129,31.638h-1.9a19.181,19.181,0,0,0-4.681-5.475c-4.363-3.569-4.363-6.64-4.363-7.646a5.527,5.527,0,0,1,10-3.251,5.527,5.527,0,0,1,10,3.251c0,1.017,0,4.077-4.331,7.625a19.391,19.391,0,0,0-4.712,5.507ZM138.718,15.1a3.414,3.414,0,0,0-3.41,3.41c0,.762,0,3.071,3.569,5.994a22.88,22.88,0,0,1,4.31,4.585,23.236,23.236,0,0,1,4.342-4.617c3.537-2.891,3.537-5.2,3.537-5.962a3.41,3.41,0,1,0-6.82-.011h-2.118a3.408,3.408,0,0,0-3.41-3.41Z" transform="translate(7.853 0.766)"/>
                   <path id="Tracé_45" data-name="Tracé 45" d="M143.584,38.888A17.314,17.314,0,1,1,160.9,21.574,17.327,17.327,0,0,1,143.584,38.888Zm0-32.51a15.2,15.2,0,1,0,15.2,15.2A15.217,15.217,0,0,0,143.584,6.378Z" transform="translate(7.445 0.251)"/>
@@ -225,7 +213,7 @@
             {% endif %}
         </a>
 
-        <svg class="rosa-menu-burger {% if section.settings.is_black %}rosa-menu-burger_black{% endif %}" id="burger" xmlns="http://www.w3.org/2000/svg" width="23" height="18" viewBox="0 0 27 18" fill="none">
+        <svg class="rosa-menu-burger {% if is_black %}rosa-menu-burger_black{% endif %}" id="burger" xmlns="http://www.w3.org/2000/svg" width="23" height="18" viewBox="0 0 27 18" fill="none">
           <path d="M1 1H27" stroke="white" stroke-width="2" stroke-linecap="round"/>
           <path d="M1 9H27" stroke="white" stroke-width="2" stroke-linecap="round"/>
           <path d="M1 17H27" stroke="white" stroke-width="2" stroke-linecap="round"/>
@@ -234,7 +222,7 @@
         <nav class="rosa-menu-nav">
             <div class="rosa-menu-nav-top">
                 <a href="/" class="rosa-menu-nav-item_icon">
-                    {% if section.settings.is_black %}
+                    {% if is_black %}
                         <svg xmlns="http://www.w3.org/2000/svg" width="15.133" height="18.526" viewBox="0 0 15.133 18.526">
                           <path id="Icon_material-location-on" data-name="Icon material-location-on" d="M14.567,3A7.032,7.032,0,0,0,7.5,10.008c0,5.256,7.067,10.518,7.067,10.518s7.067-5.262,7.067-10.518A7.032,7.032,0,0,0,14.567,3Zm0,9.511a2.5,2.5,0,1,1,2.524-2.5A2.514,2.514,0,0,1,14.567,12.511Z" transform="translate(-7 -2.5)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1"/>
                         </svg>
@@ -246,7 +234,7 @@
                     <span>Boutiques</span>
                 </a href="/">
                 <a href="/" class="rosa-menu-nav-item_icon">
-                    {% if section.settings.is_black %}
+                    {% if is_black %}
                         <svg xmlns="http://www.w3.org/2000/svg" width="16.773" height="18.526" viewBox="0 0 16.773 18.526">
                           <g id="Icon_feather-calendar" data-name="Icon feather-calendar" transform="translate(-4 -2.5)">
                             <path id="Tracé_57" data-name="Tracé 57" d="M6.253,6H18.521a1.753,1.753,0,0,1,1.753,1.753V20.021a1.753,1.753,0,0,1-1.753,1.753H6.253A1.753,1.753,0,0,1,4.5,20.021V7.753A1.753,1.753,0,0,1,6.253,6Z" transform="translate(0 -1.247)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
@@ -272,38 +260,31 @@
                     <span>FR</span>
 
                     <svg xmlns="http://www.w3.org/2000/svg" width="9.079" height="5.191" viewBox="0 0 9.079 5.191">
-                      <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M10.728,14.873l3.433-3.435a.646.646,0,0,1,.916,0,.654.654,0,0,1,0,.919l-3.89,3.892a.648.648,0,0,1-.895.019L6.377,12.359a.649.649,0,1,1,.916-.919Z" transform="translate(-6.188 -11.246)" fill="{% if section.settings.is_black %}#000{% else %}#fff{% endif %}"/>
+                      <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M10.728,14.873l3.433-3.435a.646.646,0,0,1,.916,0,.654.654,0,0,1,0,.919l-3.89,3.892a.648.648,0,0,1-.895.019L6.377,12.359a.649.649,0,1,1,.916-.919Z" transform="translate(-6.188 -11.246)" fill="{% if is_black %}#000{% else %}#fff{% endif %}"/>
                     </svg>
                 </a href="/">
             </div>
             <div class="rosa-menu-nav-bottom">
                 <div class="rosa-menu-nav-bottom-links">
 
-                    <div class="rosa-menu-nav-item_arrow">
-                        <span>Joaillerie</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="9.079" height="5.191" viewBox="0 0 9.079 5.191">
-                          <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M10.728,14.873l3.433-3.435a.646.646,0,0,1,.916,0,.654.654,0,0,1,0,.919l-3.89,3.892a.648.648,0,0,1-.895.019L6.377,12.359a.649.649,0,1,1,.916-.919Z" transform="translate(-6.188 -11.246)" fill="{% if section.settings.is_black %}#000{% else %}#fff{% endif %}"/>
-                        </svg>
-                    </div>
-
-                    <div class="rosa-menu-nav-item_arrow">
-                        <span>Mariage</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="9.079" height="5.191" viewBox="0 0 9.079 5.191">
-                          <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M10.728,14.873l3.433-3.435a.646.646,0,0,1,.916,0,.654.654,0,0,1,0,.919l-3.89,3.892a.648.648,0,0,1-.895.019L6.377,12.359a.649.649,0,1,1,.916-.919Z" transform="translate(-6.188 -11.246)" fill="{% if section.settings.is_black %}#000{% else %}#fff{% endif %}"/>
-                        </svg>
-                    </div>
-
-                    <a href="/" class="rosa-menu-nav-item">
-                        <span>La Maison</span>
-                    </a>
-
-                    <a href="/" class="rosa-menu-nav-item">
-                        <span>Stories of love</span>
-                    </a>
+                    {% for link in linklists.main-menu.links limit:4 %}
+                        {% if link.links.size > 0 %}
+                            <div class="rosa-menu-nav-item_arrow" data-button-undex="{{ forloop.index }}">
+                                <span>{{ link.title }}</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="9.079" height="5.191" viewBox="0 0 9.079 5.191">
+                                  <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M10.728,14.873l3.433-3.435a.646.646,0,0,1,.916,0,.654.654,0,0,1,0,.919l-3.89,3.892a.648.648,0,0,1-.895.019L6.377,12.359a.649.649,0,1,1,.916-.919Z" transform="translate(-6.188 -11.246)" fill="{% if is_black %}#000{% else %}#fff{% endif %}"/>
+                                </svg>
+                            </div>
+                        {% else %}
+                            <a href="{{ link.url }}" class="rosa-menu-nav-item">
+                                <span>{{ link.title }}</span>
+                            </a>
+                        {% endif %}
+                    {% endfor %}
                 </div>
                 <div class="rosa-menu-nav-bottom-icons">
                     <a href="{{ routes.search_url }}">
-                        {% if section.settings.is_black %}
+                        {% if is_black %}
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
                               <defs>
                                 <clipPath id="clip-path">
@@ -332,7 +313,7 @@
                         {% endif %}
                     </a>
                     <a href="/">
-                        {% if section.settings.is_black %}
+                        {% if is_black %}
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="13" viewBox="0 0 18 13">
                               <defs>
                                 <clipPath id="clip-path">
@@ -361,7 +342,7 @@
                         {% endif %}
                     </a>
                     <a href="">
-                        {% if section.settings.is_black %}
+                        {% if is_black %}
                             <svg xmlns="http://www.w3.org/2000/svg" width="15.547" height="16.87" viewBox="0 0 15.547 16.87">
                               <path id="Icon_material-supervisor-account" data-name="Icon material-supervisor-account" d="M21.541,16.616a3.306,3.306,0,1,0-3.306-3.306A3.3,3.3,0,0,0,21.541,16.616Zm0,2.645c-2.42,0-7.274,1.217-7.274,3.637v2.976H28.814V22.9C28.814,20.478,23.961,19.261,21.541,19.261Z" transform="translate(-13.767 -9.504)" fill="none" stroke="#000" stroke-width="1"/>
                             </svg>
@@ -372,7 +353,7 @@
                         {% endif %}
                     </a>
                     <a href="{{ routes.cart_url }}">
-                        {% if section.settings.is_black %}
+                        {% if is_black %}
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15.99" height="19.474" viewBox="0 0 15.99 19.474">
                               <defs>
                                 <clipPath id="clip-path">
@@ -410,21 +391,32 @@
 
 {% schema %}
 {
-  "name": "t:sections.header.name",
-  "class": "section-header",
-  "settings": [
-    {
-    "type": "checkbox",
-    "id": "add_space",
-    "label": "Add space after heading",
-    "default": false
-    },
-    {
-      "type": "checkbox",
-      "id": "is_black",
-      "label": "Menu black",
-      "default": false
-    }
-  ]
+   "name": "t:sections.header.name",
+   "class": "section-header",
+   "settings": [
+        {
+        "type": "image_picker",
+        "id": "menu_image",
+        "label": "menu banner image"
+        },
+        {
+          "type": "text",
+          "id": "banner_banner_text",
+          "label": "banner banner text",
+          "default": "text"
+        },
+        {
+          "type": "text",
+          "id": "banner_banner_link_text",
+          "label": "banner banner link text",
+          "default": "text"
+        },
+        {
+          "type": "text",
+          "id": "banner_banner_link",
+          "label": "banner banner link url",
+          "default": "/"
+        }
+    ]
 }
 {% endschema %}

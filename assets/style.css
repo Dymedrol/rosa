@@ -485,9 +485,14 @@ input[type="button"] {
   gap: 49px;
   padding-bottom: 11px;
 }
+@media ((min-width: 1200px)) {
+  .rosa-menu-nav-bottom {
+    padding-bottom: 4px;
+  }
+}
 .rosa-menu-nav-bottom-links {
   display: flex;
-  gap: 29px;
+  gap: 20px;
 }
 .rosa-menu-nav-item_arrow {
   display: flex;
@@ -657,6 +662,9 @@ input[type="button"] {
     padding: 50px 48px 51px 85px;
   }
 }
+.rosa-menu-open.open {
+  display: block;
+}
 .rosa-menu-open-header {
   display: flex;
   justify-content: space-between;
@@ -681,6 +689,7 @@ input[type="button"] {
   .rosa-menu-open-inner {
     flex-direction: row;
     justify-content: space-between;
+    gap: 20px;
   }
 }
 .rosa-menu-open-col {
@@ -749,7 +758,7 @@ input[type="button"] {
   text-align: center;
   font: normal normal 500 20px/25px Montserrat;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   text-transform: uppercase;
   margin-bottom: 30px;
   padding: 0 38px;
@@ -758,7 +767,7 @@ input[type="button"] {
   width: fit-content;
   font: normal normal 500 12px/15px Montserrat;
   letter-spacing: 0.24px;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   text-transform: uppercase;
   padding-bottom: 5px;
   border-bottom: 1px solid #fff;
