@@ -15,6 +15,15 @@
     }
 }
 
+.rosa-menu-static {
+    position: static;
+    margin-top: 82px;
+
+    @media (@L) {
+        margin-top: 34px;
+    }
+}
+
 .rosa-menu-logo-wrapper {
     font-size: 0;
     max-width: 70%;
@@ -36,6 +45,12 @@
 
     @media (@L) {
         display: none;
+    }
+}
+
+.rosa-menu-burger_black {
+    & path {
+        stroke: #000;
     }
 }
 
@@ -109,24 +124,15 @@
     justify-content: space-between;
     align-items: center;
     width: 178px;
+
+    & a {
+        font-size: 0;
+    }
 }
 
 .rosa-menu.black  {
-    & path {
-        stroke: #000;
-    }
-
-    & rect {
-        fill: #000;
-        stroke: #000;
-    }
-
     & * {
         color: #000;
-    }
-
-    & .rosa-menu-logo path {
-        fill: #000;
     }
 }
 

@@ -419,6 +419,15 @@ input[type="button"] {
     top: 34px;
   }
 }
+.rosa-menu-static {
+  position: static;
+  margin-top: 82px;
+}
+@media ((min-width: 1200px)) {
+  .rosa-menu-static {
+    margin-top: 34px;
+  }
+}
 .rosa-menu-logo-wrapper {
   font-size: 0;
   max-width: 70%;
@@ -441,6 +450,9 @@ input[type="button"] {
   .rosa-menu-burger {
     display: none;
   }
+}
+.rosa-menu-burger_black path {
+  stroke: #000;
 }
 .rosa-menu-nav {
   display: none;
@@ -504,18 +516,11 @@ input[type="button"] {
   align-items: center;
   width: 178px;
 }
-.rosa-menu.black path {
-  stroke: #000;
-}
-.rosa-menu.black rect {
-  fill: #000;
-  stroke: #000;
+.rosa-menu-nav-bottom-icons a {
+  font-size: 0;
 }
 .rosa-menu.black * {
   color: #000;
-}
-.rosa-menu.black .rosa-menu-logo path {
-  fill: #000;
 }
 .rosa-menu-mobile {
   display: none;
