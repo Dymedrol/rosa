@@ -19,8 +19,8 @@
         <div class="rosa-pdp-col">
             <div class="rosa-pdp-info">
                 <div class="rosa-pdp-info-title">{{ product.title }}</div>
-                <div class="rosa-pdp-info-text">{{ product.title }}</div>
-                <div class="rosa-pdp-info-price">650€</div>
+                <div class="rosa-pdp-info-text">Or recyclé 18 carats, diamants recyclés, spinelles et grenats traçables</div>
+                <div class="rosa-pdp-info-price">{{ product.price | money_without_trailing_zeros }}</div>
 
                 <form action="/cart/add" method="post" enctype="multipart/form-data">
                   <div class="rosa-pdp-info-controls">

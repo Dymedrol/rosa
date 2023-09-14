@@ -260,6 +260,7 @@
       >
     {%- endif -%}
 
+    {{ 'owl.carousel.min.css' | asset_url | stylesheet_tag }}
     {{ 'style.css' | asset_url | stylesheet_tag }}
 
     <script>
@@ -341,7 +342,7 @@
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"></script>
-
+    {{ 'owl.carousel.min.js' | asset_url | script_tag }}
     {{ 'bundel.js' | asset_url | script_tag }}
   </body>
 </html>

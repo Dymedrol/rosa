@@ -62,7 +62,7 @@
 
 .rosa-collection-slider-item {
     position: relative;
-    width: 50%;
+    width: 50vw;
     aspect-ratio: 218 / 280;
     padding: 0 2% 0;
     padding-top: 24px;
@@ -73,42 +73,49 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 33.3%;
+        align-items: center;
+        width: 33.3vw;
         aspect-ratio: 435 / 497;
         padding: 0 1% 0;
-        padding-top: 49px;
+    }
+
+    @media (@XXL) {
+        width: 25vw;
     }
 }
 
-.rosa-collection-slider-item:last-child {
-    border-right: none;
-}
-
-.rosa-collection-slider-item:nth-child(3) {
-    display: none;
-
-    @media (@L) {
-        display: flex;
-    }
-}
-
-.rosa-collection-slider-item:hover .rosa-collection-slider-item-pic2 {
+.rosa-collection-slider-item:hover .rosa-collection-slider-item-hover {
     opacity: 1;
 }
 
 .rosa-collection-slider-item-pic {
     display: block;
-    width: 110px;
-    height: 101px;
+    width: 110px !important;
+    height: 101px !important;
     object-fit: cover;
     margin: 0 auto 13px;
 
     @media (@L) {
         display: block;
-        width: 218px;
-        height: 203px;
+        width: 60% !important;
+        height: auto !important;
+        aspect-ratio: 218 / 203;
         margin: 0 auto 42px;
     }
+}
+
+.rosa-collection-slider-item-hover {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity .5s;
+    opacity: 0;
+    padding-bottom: 75px;
 }
 
 .rosa-collection-slider-item-pic2 {
@@ -118,9 +125,16 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: opacity .5s;
-    opacity: 0;
+}
 
+.rosa-collection-slider-item-link {
+    font: 500 14px/18px Montserrat;
+    letter-spacing: .28px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
+    z-index: 2;
 }
 
 .rosa-collection-slider-item-title {

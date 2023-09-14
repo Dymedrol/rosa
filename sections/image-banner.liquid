@@ -13,9 +13,9 @@
 
     <div class="rosa-jumbotron-wrapper container">
         <div class="rosa-jumbotron-content">
-            <div class="rosa-jumbotron-title">TOUS LES PRODUITS DE NOTRE JOAILLERIE ÉTHIQUE ONT UNE HISTOIRE</div>
-            <div class="rosa-jumbotron-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</div>
-            <a href="/collections/all" class="rosa-jumbotron-link">DÉCOUVRIR NOS PRODUITS</a>
+            <div class="rosa-jumbotron-title">{{ section.settings.image_banner_title_text }}</div>
+            <div class="rosa-jumbotron-text">{{ section.settings.image_banner_subtitle_text }}</div>
+            <a href="{{ section.settings.image_banner_link_url }}" class="rosa-jumbotron-link">{{ section.settings.image_banner_link_text }}</a>
         </div>
     </div>
 </section>
@@ -32,13 +32,25 @@
     {
       "type": "text",
       "id": "image_banner_title_text",
-      "label": "image-banner button text",
-      "default": "discover our new collection"
+      "label": "title text",
+      "default": "title"
     },
     {
       "type": "text",
-      "id": "image_banner_title_link",
-      "label": "image-banner button link",
+      "id": "image_banner_subtitle_text",
+      "label": "text",
+      "default": "text"
+    },
+    {
+      "type": "text",
+      "id": "image_banner_link_text",
+      "label": "link text",
+      "default": "link"
+    },
+    {
+      "type": "text",
+      "id": "image_banner_link_url",
+      "label": "link url",
       "default": "/"
     },
     {
@@ -46,7 +58,7 @@
       "id": "banner_image",
       "label": "image-banner image"
     },
-        {
+    {
       "type": "image_picker",
       "id": "banner_image_mobile",
       "label": "image-banner image mobile"

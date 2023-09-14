@@ -1,0 +1,73 @@
+<section class="rosa-collection-slider">
+    <div class="rosa-collection-slider-header container">
+        <div class="rosa-collection-slider-header-info">
+            <div class="rosa-collection-slider-header-info-text1">{{ section.settings.title1 }}</div>
+            <div class="rosa-collection-slider-header-info-text2">{{ section.settings.title2 }}</div>
+        </div>
+        <div class="rosa-collection-slider-header-nav">
+
+            <svg class="rosa-collection-slider-header-nav-arrow rosa-collection-slider-header-nav-arrow-prev" xmlns="http://www.w3.org/2000/svg" width="18.808" height="14.897" viewBox="0 0 18.808 14.897">
+              <g id="Groupe_172" data-name="Groupe 172" transform="translate(0.333 0.373)">
+                <line id="Ligne_4" data-name="Ligne 4" x1="18.474" transform="translate(0 7.076)" fill="none" stroke="#000" stroke-width="1"/>
+                <line id="Ligne_5" data-name="Ligne 5" x1="7.909" y2="7.076" transform="translate(0 0)" fill="none" stroke="#000" stroke-width="1"/>
+                <line id="Ligne_6" data-name="Ligne 6" x2="7.909" y2="7.076" transform="translate(0 7.076)" fill="none" stroke="#000" stroke-width="1"/>
+              </g>
+            </svg>
+
+
+            <svg class="rosa-collection-slider-header-nav-arrow rosa-collection-slider-header-nav-arrow-next" xmlns="http://www.w3.org/2000/svg" width="18.808" height="14.897" viewBox="0 0 18.808 14.897">
+              <g id="Groupe_173" data-name="Groupe 173" transform="translate(0 0.373)">
+                <line id="Ligne_4" data-name="Ligne 4" x2="18.474" transform="translate(0 7.076)" fill="none" stroke="#000" stroke-width="1"/>
+                <line id="Ligne_5" data-name="Ligne 5" x2="7.909" y2="7.076" transform="translate(10.565 0)" fill="none" stroke="#000" stroke-width="1"/>
+                <line id="Ligne_6" data-name="Ligne 6" x1="7.909" y2="7.076" transform="translate(10.565 7.076)" fill="none" stroke="#000" stroke-width="1"/>
+              </g>
+            </svg>
+        </div>
+    </div>
+    <div class="rosa-collection-slider-inner owl-carousel">
+        {% for product in section.settings.collection.products %}
+          <div class="rosa-collection-slider-item">
+              <img src="{{ product.featured_image | img_url: '436x406', crop: 'center' }}" alt="" class="rosa-collection-slider-item-pic">
+              <div class="rosa-collection-slider-item-title">{{ product.title }}</div>
+              <div class="rosa-collection-slider-item-text">Or recyclé 18 carats, diamants recyclés</div>
+              <div class="rosa-collection-slider-item-price">{{ product.price | money_without_trailing_zeros }}</div>
+              <div class="rosa-collection-slider-item-hover">
+                <img src="{{ product.images[1] | img_url: '475x542', crop: 'center' }}" alt="" class="rosa-collection-slider-item-pic2">
+                <a href="{{ product.url }}" class="rosa-collection-slider-item-link">FICHE PRODUIT</a>
+              </div>
+          </div>
+        {% endfor %}
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "collection slider",
+  "presets": [
+    {
+      "name": "collection slider",
+      "category": "Custom"
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "title1",
+      "label": "title 1",
+      "default": "title 1"
+    },
+    {
+      "type": "text",
+      "id": "title2",
+      "label": "title 2",
+      "default": "title 2"
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "collection"
+    }
+  ]
+}
+
+{% endschema %}

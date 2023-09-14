@@ -121,6 +121,18 @@ eval("\n\nvar stylesInDom = {};\n\nvar isOldIE = function isOldIE() {\n  var mem
 
 /***/ }),
 
+/***/ "./source/js/collection-slider.js":
+/*!****************************************!*\
+  !*** ./source/js/collection-slider.js ***!
+  \****************************************/
+/*! exports provided: initCollectionSlider */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"initCollectionSlider\", function() { return initCollectionSlider; });\nconst initCollectionSlider = () => {\n  $(\".rosa-collection-slider-inner\").owlCarousel({\n    margin: 0,\n    autoWidth: true,\n    smartSpeed: 500,\n    animateIn: 'ease-out',\n    animateOut: 'ease-out',\n    loop: true,\n    dots: false\n  });\n  var owl = $(\".rosa-collection-slider-inner\");\n  owl.owlCarousel();\n  $(\".rosa-collection-slider-header-nav-arrow-next\").click(function () {\n    owl.trigger(\"next.owl.carousel\");\n  });\n  $(\".rosa-collection-slider-header-nav-arrow-prev\").click(function () {\n    owl.trigger(\"prev.owl.carousel\");\n  });\n};\n\n//# sourceURL=webpack:///./source/js/collection-slider.js?");
+
+/***/ }),
+
 /***/ "./source/js/menu.js":
 /*!***************************!*\
   !*** ./source/js/menu.js ***!
@@ -153,7 +165,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./menu */ \"./source/js/menu.js\");\n/* harmony import */ var _pdp__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pdp */ \"./source/js/pdp.js\");\n\n\nObject(_menu__WEBPACK_IMPORTED_MODULE_0__[\"initMenu\"])();\nObject(_pdp__WEBPACK_IMPORTED_MODULE_1__[\"initPdp\"])();\n\n//# sourceURL=webpack:///./source/js/script.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./menu */ \"./source/js/menu.js\");\n/* harmony import */ var _pdp__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pdp */ \"./source/js/pdp.js\");\n/* harmony import */ var _collection_slider__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./collection-slider */ \"./source/js/collection-slider.js\");\n\n\n\nObject(_menu__WEBPACK_IMPORTED_MODULE_0__[\"initMenu\"])();\nObject(_pdp__WEBPACK_IMPORTED_MODULE_1__[\"initPdp\"])();\nObject(_collection_slider__WEBPACK_IMPORTED_MODULE_2__[\"initCollectionSlider\"])();\n\n//# sourceURL=webpack:///./source/js/script.js?");
 
 /***/ }),
 
