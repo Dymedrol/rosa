@@ -1,0 +1,116 @@
+<section class="rosa-double{% if section.settings.is_reverse %} reverse{% endif %}">
+    <div class="rosa-double-info">
+        <div class="rosa-double-info-inner">
+
+          {%- for block in section.blocks -%}
+            {% case block.type %}
+              {%- when 'heading' -%}
+                <div class="rosa-double-info-text1">{{ block.settings.heading1 }}</div>
+                <div class="rosa-double-info-text2">{{ block.settings.heading2 }}</div>
+              {%- when 'text' -%}
+                <div class="rosa-double-info-text3">{{ block.settings.text }}</div>
+              {%- when 'item' -%}
+                <div class="rosa-double-info-list-item">
+                    <img src="{{ block.settings.image | img_url: 'width 20' }}" alt="" class="rosa-double-info-list-item-pic">
+                    <div class="rosa-double-info-list-item-link">{{ block.settings.text }}</div>
+                </div>
+              {%- when 'link' -%}
+                <a href="{{ block.settings.link_url }}" class="rosa-double-info-link">{{ block.settings.link_text }}</a>
+            {%- endcase -%}
+          {%- endfor -%}
+
+        </div>
+    </div>
+    <div class="rosa-double-pic">
+      <img src="{{ section.settings.image | img_url: '1500x1600', crop: 'center' }}" alt="" loading="lazy">
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "rosa image this text",
+  "presets": [
+    {
+      "name": "rosa image this text",
+      "category": "Custom"
+    }
+  ],
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "image"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "heading",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "heading1",
+          "default": "Image with text",
+          "label": "heading 1"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "heading2",
+          "default": "Image with text",
+          "label": "heading 2"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "text",
+          "label": "text"
+        }
+      ]
+    },
+    {
+      "type": "item",
+      "name": "item with picture",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "image"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "default": "text",
+          "label": "text"
+        }
+      ]
+    },
+    {
+      "type": "link",
+      "name": "link",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "link_text",
+          "default": "link text",
+          "label": "link text"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "link url"
+        }
+      ]
+    }
+  ]
+}
+
+{% endschema %}
