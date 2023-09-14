@@ -1,0 +1,37 @@
+<section class="rosa-header3 container">
+    <div class="rosa-header3-subtitle">{{ section.settings.text1 }}</div>
+    <div class="rosa-header3-title">{{ section.settings.text2 }}</div>
+    <div class="rosa-header3-link">{{ section.settings.text3 }}</div>
+</section>
+
+{% schema %}
+{
+  "name": "rosa header 3",
+  "presets": [
+    {
+      "name": "rosa header 3",
+      "category": "Custom"
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "text1",
+      "label": "text 1",
+      "default": "text 1"
+    },
+    {
+      "type": "text",
+      "id": "text2",
+      "label": "text 2",
+      "default": "text 2"
+    },
+    {
+      "type": "richtext",
+      "id": "text3",
+      "label": "text 3"
+    }
+  ]
+}
+
+{% endschema %}

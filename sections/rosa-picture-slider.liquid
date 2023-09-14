@@ -1,0 +1,54 @@
+<section class="rosa-picture-slider">
+    <div class="rosa-picture-slider-inner owl-carousel">
+        {%- for block in section.blocks -%}
+          <div class="rosa-picture-slider-item">
+              <img src="{{ block.settings.image | img_url: '630x720', crop: 'center' }}" class="rosa-picture-slider-item-pic" alt="{{ block.settings.image.alt }}" loading="lazy">
+          </div>
+        {%- endfor -%}
+    </div>
+
+    <div class="rosa-picture-slider-nav">
+        <svg class="rosa-picture-slider-nav-arrow rosa-picture-slider-nav-arrow-prev" xmlns="http://www.w3.org/2000/svg" width="18.808" height="14.897" viewBox="0 0 18.808 14.897">
+          <g id="Groupe_172" data-name="Groupe 172" transform="translate(0.333 0.373)">
+            <line id="Ligne_4" data-name="Ligne 4" x1="18.474" transform="translate(0 7.076)" fill="none" stroke="#000" stroke-width="1"/>
+            <line id="Ligne_5" data-name="Ligne 5" x1="7.909" y2="7.076" transform="translate(0 0)" fill="none" stroke="#000" stroke-width="1"/>
+            <line id="Ligne_6" data-name="Ligne 6" x2="7.909" y2="7.076" transform="translate(0 7.076)" fill="none" stroke="#000" stroke-width="1"/>
+          </g>
+        </svg>
+
+
+        <svg class="rosa-picture-slider-nav-arrow rosa-picture-slider-nav-arrow-next" xmlns="http://www.w3.org/2000/svg" width="18.808" height="14.897" viewBox="0 0 18.808 14.897">
+          <g id="Groupe_173" data-name="Groupe 173" transform="translate(0 0.373)">
+            <line id="Ligne_4" data-name="Ligne 4" x2="18.474" transform="translate(0 7.076)" fill="none" stroke="#000" stroke-width="1"/>
+            <line id="Ligne_5" data-name="Ligne 5" x2="7.909" y2="7.076" transform="translate(10.565 0)" fill="none" stroke="#000" stroke-width="1"/>
+            <line id="Ligne_6" data-name="Ligne 6" x1="7.909" y2="7.076" transform="translate(10.565 7.076)" fill="none" stroke="#000" stroke-width="1"/>
+          </g>
+        </svg>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "rosa picture slider",
+  "presets": [
+    {
+      "name": "rosa picture slider",
+      "category": "Custom"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "picture",
+      "name": "picture",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "image"
+        }
+      ]
+    }
+  ]
+}
+
+{% endschema %}
