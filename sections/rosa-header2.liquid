@@ -1,0 +1,31 @@
+<section class="rosa-header2 container">
+    <div class="rosa-header2-subtitle">{{ section.settings.text1 }}</div>
+    <div class="rosa-header2-title">{{ section.settings.text2 }}</div>
+</section>
+
+{% schema %}
+{
+  "name": "rosa header 2",
+  "presets": [
+    {
+      "name": "rosa header 2",
+      "category": "Custom"
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "text1",
+      "label": "text 1",
+      "default": "text 1"
+    },
+    {
+      "type": "text",
+      "id": "text2",
+      "label": "text 2",
+      "default": "text 2"
+    }
+  ]
+}
+
+{% endschema %}

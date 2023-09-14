@@ -1560,23 +1560,30 @@ input[type="button"] {
 .rosa-video {
   position: relative;
   aspect-ratio: 0.71679688;
-  background-image: url('./img/video.png');
-  background-size: cover;
-  background-position: center;
 }
 @media ((min-width: 1200px)) {
   .rosa-video {
     aspect-ratio: 2.12109375;
   }
 }
-.rosa-video svg {
+.rosa-video-play {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 6.2rem;
+  width: 6.2rem;
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  cursor: pointer;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  z-index: 1;
+  border: 0;
+  background: transparent;
+}
+.deferred-media__poster-button {
+  border: 0 !important;
+  background: transparent !important;
 }
 .rosa-blogs {
   background: #E9F2EE;
