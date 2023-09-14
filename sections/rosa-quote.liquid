@@ -1,0 +1,44 @@
+<section class="rosa-quote container">
+    <div class="rosa-quote-text">{{ section.settings.text1 }}</div>
+    <div class="rosa-quote-author">{{ section.settings.text2 }}</div>
+    <a href="{{ section.settings.link_url }}" class="rosa-quote-link">{{ section.settings.link_text }}</a>
+</section>
+
+{% schema %}
+{
+  "name": "rosa quote",
+  "presets": [
+    {
+      "name": "rosa quote",
+      "category": "Custom"
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "text1",
+      "label": "text 1",
+      "default": "text 1"
+    },
+    {
+      "type": "text",
+      "id": "text2",
+      "label": "text 2",
+      "default": "text 2"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "link text",
+      "default": "link"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "link url",
+      "default": "/"
+    }
+  ]
+}
+
+{% endschema %}

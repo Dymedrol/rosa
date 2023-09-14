@@ -1,0 +1,66 @@
+<section class="rosa-blogs">
+    <div class="rosa-blogs-inner container">
+        <div class="rosa-blogs-header">
+            <div class="rosa-blogs-header-texts">
+                <div class="rosa-blogs-header-subtitle">{{ section.settings.text1 }}</div>
+                <div class="rosa-blogs-header-title">{{ section.settings.text2 }}</div>
+            </div>
+            <a href="{{ section.settings.link_url }}" class="rosa-blogs-header-link">{{ section.settings.link_text }}</a>
+        </div>
+        <div class="rosa-blogs-content">
+          {%- if section.settings.blog != blank and section.settings.blog.articles_count > 0 -%}
+            {%- for article in section.settings.blog.articles limit: 2 -%}
+              <div class="rosa-blogs-item">
+                  <img src="{{ article.image.src | img_url: '1034x970', crop: 'center' }}" alt="" class="rosa-blogs-item-pic">
+                  <div class="rosa-blogs-item-title">{{ article.title }}</div>
+                  <a href="{{ article.url }}" class="rosa-blogs-item-link">EN SAVOIR PLUS</a>
+              </div>
+            {%- endfor -%}
+          {%- endif -%}
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "rosa blogs",
+  "presets": [
+    {
+      "name": "rosa blogs",
+      "category": "Custom"
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "text1",
+      "default": "text 1",
+      "label": "text 1"
+    },
+    {
+      "type": "text",
+      "id": "text2",
+      "default": "text 2",
+      "label": " text 2"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "default": "link text",
+      "label": "link text"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "default": "/",
+      "label": "link turl"
+    },
+    {
+      "type": "blog",
+      "id": "blog",
+      "label": "t:sections.featured-blog.settings.blog.label"
+    }
+  ]
+}
+
+{% endschema %}
