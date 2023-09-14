@@ -10,9 +10,7 @@
                 {%- when 'text' -%}
                   <div class="rosa-backgrounded-text">{{ block.settings.text }}</div>
                 {%- when 'item' -%}
-                  <div class="rosa-double-info-list-item">
-                      <li class="rosa-backgrounded-list-item">{{ block.settings.text }}</li>
-                  </div>
+                    <div class="rosa-backgrounded-list-item">{{ block.settings.text }}</div>
                 {%- when 'link' -%}
                   <a href="{{ block.settings.link_url }}" class="rosa-backgrounded-link">{{ block.settings.link_text }}</a>
               {%- endcase -%}
