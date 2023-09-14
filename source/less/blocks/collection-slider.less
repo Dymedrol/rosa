@@ -60,6 +60,10 @@
 }
 
 .rosa-collection-slider-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
     width: 50vw;
     aspect-ratio: 218 / 280;
@@ -69,10 +73,6 @@
     border-right: 1px solid #D6D6D6;
 
     @media (@L) {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         width: 33.3vw;
         aspect-ratio: 435 / 497;
         padding: 0 1% 0;
@@ -89,16 +89,14 @@
 
 .rosa-collection-slider-item-pic {
     display: block;
-    width: 110px !important;
-    height: 101px !important;
+    width: 60% !important;
+    height: auto !important;
     object-fit: cover;
     margin: 0 auto 13px;
+    aspect-ratio: 218 / 203;
 
     @media (@L) {
         display: block;
-        width: 60% !important;
-        height: auto !important;
-        aspect-ratio: 218 / 203;
         margin: 0 auto 42px;
     }
 }

@@ -322,9 +322,11 @@ input[type="button"] {
 .container {
   width: calc(100% - 64px);
   margin: 0 auto;
+  max-width: 600px;
 }
 @media ((min-width: 1200px)) {
   .container {
+    max-width: unset;
     width: 1086px;
   }
 }
@@ -891,6 +893,10 @@ input[type="button"] {
   }
 }
 .rosa-collection-slider-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
   width: 50vw;
   aspect-ratio: 0.77857143;
@@ -901,10 +907,6 @@ input[type="button"] {
 }
 @media ((min-width: 1200px)) {
   .rosa-collection-slider-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 33.3vw;
     aspect-ratio: 0.87525151;
     padding: 0 1% 0;
@@ -920,17 +922,15 @@ input[type="button"] {
 }
 .rosa-collection-slider-item-pic {
   display: block;
-  width: 110px !important;
-  height: 101px !important;
+  width: 60% !important;
+  height: auto !important;
   object-fit: cover;
   margin: 0 auto 13px;
+  aspect-ratio: 1.07389163;
 }
 @media ((min-width: 1200px)) {
   .rosa-collection-slider-item-pic {
     display: block;
-    width: 60% !important;
-    height: auto !important;
-    aspect-ratio: 1.07389163;
     margin: 0 auto 42px;
   }
 }

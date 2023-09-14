@@ -12,8 +12,10 @@ body {
 .container {
     width: calc(100% - 64px);
     margin: 0 auto;
+    max-width: 600px;
 
     @media (@L) {
+        max-width: unset;
         width: 1086px;
     }
 
