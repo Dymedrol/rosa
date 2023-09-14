@@ -1,0 +1,67 @@
+<section class="rosa-collection-slider2">
+    <div class="rosa-collection-slider2-info">
+        <div class="rosa-collection-slider2-info-inner">
+            <div class="rosa-collection-slider2-info-text1">{{ section.settings.text1 }}</div>
+            <div class="rosa-collection-slider2-info-text2">{{ section.settings.text2 }}</div>
+            <div class="rosa-collection-slider2-info-text3">{{ section.settings.text3 }}</div>
+
+            <div class="rosa-collection-slider2-info-slider owl-carousel">
+                {% for product in section.settings.collection.products %}
+                  <a href="{{ product.url }}" class="rosa-collection-slider2-info-slide">
+                      <img src="{{ product.featured_image | img_url: '436x406', crop: 'center' }}" alt="" class="rosa-collection-slider2-info-slide-pic" loading="lazy">
+                      <div class="rosa-collection-slider2-info-slide-title">{{ product.title }}</div>
+                      <div class="rosa-collection-slider2-info-slide-text">{{ product.vendor }}</div>
+                  </a href="">
+                {% endfor %}
+            </div>
+
+            <a href="{{ section.settings.collection.url }}" class="rosa-collection-slider2-info-collection-link">DÉCOUVRIR LA COLLECTION</a>
+        </div>
+    </div>
+    <div class="rosa-collection-slider2-pic-wrapper">
+      <img src="{{ section.settings.slider_2_image | img_url: '1328x1644', crop: 'center' }}" alt="{{ section.settings.slider_2_image.alt }}" loading="lazy">
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "slider with side picture",
+  "presets": [
+    {
+      "name": "slider with side picture",
+      "category": "Custom"
+    }
+  ],
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "slider_2_image",
+      "label": "side image"
+    },
+    {
+      "type": "text",
+      "id": "text1",
+      "label": "text 1",
+      "default": "text 1"
+    },
+    {
+      "type": "text",
+      "id": "text2",
+      "label": "text 2",
+      "default": "text 2"
+    },
+    {
+      "type": "text",
+      "id": "text3",
+      "label": "text 3",
+      "default": "text 3"
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "collection"
+    }
+  ]
+}
+
+{% endschema %}
