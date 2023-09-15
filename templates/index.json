@@ -238,6 +238,15 @@
         "description": "",
         "full_width": false
       }
+    },
+    "b833affc-7703-42d3-b1d2-d0a348e47159": {
+      "type": "rosa-quote",
+      "settings": {
+        "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun.»",
+        "text2": "Patricia Perreda - Directrice artistique Rosa Maitea",
+        "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM",
+        "link_url": "\/"
+      }
     }
   },
   "order": [
@@ -249,6 +258,7 @@
     "d1b389fe-0917-4513-a4c9-41c5fa302df5",
     "a1ef4a98-24c6-4449-85c4-c389414029b2",
     "9603023c-6e27-4890-b9e6-e92093169f5b",
-    "fb0161b6-421e-47b5-8d9b-cb8f4b27ec2b"
+    "fb0161b6-421e-47b5-8d9b-cb8f4b27ec2b",
+    "b833affc-7703-42d3-b1d2-d0a348e47159"
   ]
 }
