@@ -72,6 +72,79 @@
       ],
       "settings": {
       }
+    },
+    "d1b389fe-0917-4513-a4c9-41c5fa302df5": {
+      "type": "double",
+      "blocks": {
+        "4bfc13ba-8aa7-48b0-b752-3f1725b6d21d": {
+          "type": "heading",
+          "settings": {
+            "heading1": "MAISON ÉTHIQUE ET DURABLE",
+            "heading2": "ROSA MAÏTEA, UNE MARQUE JOAILLIÈRE ENGAGÉE"
+          }
+        },
+        "e78b16e3-a84a-45a3-9f48-e0ab68b0bd90": {
+          "type": "text",
+          "settings": {
+            "text": "La maison de création joaillière Rosa Maïtea s’engage à travers son amour de l’humain. La marque produit des bagues, des colliers, des boucles d’oreilles en respectant l’humain et la planète."
+          }
+        },
+        "dd2147c9-6bac-425f-b1ff-40701e97d5f1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Groupe_268_2x_fc878a42-6350-49bf-b725-d04e80d83bff.png",
+            "text": "OR RECYCLÉ"
+          }
+        },
+        "cc301d28-41d2-4636-be6c-ed0d8dc8ab67": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Groupe_269_2x_266b3fa8-6564-4369-92fb-ab42593a5f48.png",
+            "text": "DIAMANTS RÉUTILISÉS"
+          }
+        },
+        "e6951df6-74c0-4dc2-8173-2bf78a5ac54f": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Groupe_270_2x_ddf043e1-125f-414c-b9bc-12d9f55a56ee.png",
+            "text": "PACKAGING RECYCLÉ"
+          }
+        },
+        "243fce36-3873-4aa3-b25f-713204a305ec": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Groupe_271_2x_9d1c7f0b-c3cf-4220-a8bb-cc0e1fd6c33a.png",
+            "text": "PIERRES PRÉCIEUSES 100% TRAÇABLES"
+          }
+        },
+        "20637540-e4dd-42b9-83e4-dc4fc58cdcb3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_awesome-heart_2x_996b6797-3187-432c-8e3f-8042e0406921.png",
+            "text": "UNE AUDACE CRÉATIVE"
+          }
+        },
+        "dc525a5f-fbe2-4154-a41b-14e3b349ec3b": {
+          "type": "link",
+          "settings": {
+            "link_text": "COMPRENDRE NOTRE ETHIQUE",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "4bfc13ba-8aa7-48b0-b752-3f1725b6d21d",
+        "e78b16e3-a84a-45a3-9f48-e0ab68b0bd90",
+        "dd2147c9-6bac-425f-b1ff-40701e97d5f1",
+        "cc301d28-41d2-4636-be6c-ed0d8dc8ab67",
+        "e6951df6-74c0-4dc2-8173-2bf78a5ac54f",
+        "243fce36-3873-4aa3-b25f-713204a305ec",
+        "20637540-e4dd-42b9-83e4-dc4fc58cdcb3",
+        "dc525a5f-fbe2-4154-a41b-14e3b349ec3b"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pic2.png"
+      }
     }
   },
   "order": [
@@ -79,6 +152,7 @@
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9",
     "555ee7ae-ed60-4f7c-bf8c-fe18132779a1",
     "f997dd8a-2291-4fc6-bedc-9faa72cbe9bc",
-    "2c663638-02bd-4aa4-a99b-760dc268b2d9"
+    "2c663638-02bd-4aa4-a99b-760dc268b2d9",
+    "d1b389fe-0917-4513-a4c9-41c5fa302df5"
   ]
 }
