@@ -28,11 +28,57 @@
         "text3": "La collection Margarita retrace l’histoire d’une bombe d’amour",
         "collection": "chaines"
       }
+    },
+    "f997dd8a-2291-4fc6-bedc-9faa72cbe9bc": {
+      "type": "rosa-header",
+      "settings": {
+        "text1": "DES COLLECTIONS PLEINES D’AMOUR & D’ESPOIR",
+        "text2": "pour les utopistes et les rêveurs qui souhaitent de la joaillerie éthique et durable"
+      }
+    },
+    "2c663638-02bd-4aa4-a99b-760dc268b2d9": {
+      "type": "rosa-collections",
+      "blocks": {
+        "4e4f107c-853c-4a6a-9a3b-bfae80063fa2": {
+          "type": "question",
+          "settings": {
+            "collection": "bagues"
+          }
+        },
+        "e7ee6c50-3de2-48d0-9d89-c69036f71f11": {
+          "type": "question",
+          "settings": {
+            "collection": "boucles-doreilles"
+          }
+        },
+        "3dddee65-7fa1-4a65-856f-53e673d865cb": {
+          "type": "question",
+          "settings": {
+            "collection": "la-bonne-etoile-arcoiris"
+          }
+        },
+        "b1fdbd2a-02c1-4229-a323-2cb61e8c4390": {
+          "type": "question",
+          "settings": {
+            "collection": "chaines"
+          }
+        }
+      },
+      "block_order": [
+        "4e4f107c-853c-4a6a-9a3b-bfae80063fa2",
+        "e7ee6c50-3de2-48d0-9d89-c69036f71f11",
+        "3dddee65-7fa1-4a65-856f-53e673d865cb",
+        "b1fdbd2a-02c1-4229-a323-2cb61e8c4390"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "image_banner",
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9",
-    "555ee7ae-ed60-4f7c-bf8c-fe18132779a1"
+    "555ee7ae-ed60-4f7c-bf8c-fe18132779a1",
+    "f997dd8a-2291-4fc6-bedc-9faa72cbe9bc",
+    "2c663638-02bd-4aa4-a99b-760dc268b2d9"
   ]
 }
