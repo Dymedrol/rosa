@@ -18,10 +18,21 @@
         "title2": "LA JOAILLERIE ÉTHIQUE ROSA MAÏTEA",
         "collection": "bagues"
       }
+    },
+    "555ee7ae-ed60-4f7c-bf8c-fe18132779a1": {
+      "type": "collection-slider-with-pic",
+      "settings": {
+        "slider_2_image": "shopify:\/\/shop_images\/slider2-pic.png",
+        "text1": "LA JOAILLERIE ÉTHIQUE ROSA MAÏTEA",
+        "text2": "NOS CRÉATIONS DURABLES",
+        "text3": "La collection Margarita retrace l’histoire d’une bombe d’amour",
+        "collection": "chaines"
+      }
     }
   },
   "order": [
     "image_banner",
-    "7556615b-ec09-4647-80d0-eb3a4b55c8a9"
+    "7556615b-ec09-4647-80d0-eb3a4b55c8a9",
+    "555ee7ae-ed60-4f7c-bf8c-fe18132779a1"
   ]
 }
