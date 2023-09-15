@@ -228,6 +228,16 @@
         "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
         "text2": "UNE MARQUE HUMAINE À VIVRE"
       }
+    },
+    "fb0161b6-421e-47b5-8d9b-cb8f4b27ec2b": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/video.png",
+        "description": "",
+        "full_width": false
+      }
     }
   },
   "order": [
@@ -238,6 +248,7 @@
     "2c663638-02bd-4aa4-a99b-760dc268b2d9",
     "d1b389fe-0917-4513-a4c9-41c5fa302df5",
     "a1ef4a98-24c6-4449-85c4-c389414029b2",
-    "9603023c-6e27-4890-b9e6-e92093169f5b"
+    "9603023c-6e27-4890-b9e6-e92093169f5b",
+    "fb0161b6-421e-47b5-8d9b-cb8f4b27ec2b"
   ]
 }
