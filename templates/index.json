@@ -145,6 +145,82 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/pic2.png"
       }
+    },
+    "a1ef4a98-24c6-4449-85c4-c389414029b2": {
+      "type": "rosa-backgrounded",
+      "blocks": {
+        "d2db4430-6f07-4e31-aaf9-d3c5c6c2ced2": {
+          "type": "heading",
+          "settings": {
+            "heading": "LES SERVICES ROSA MAITEA"
+          }
+        },
+        "ced5720b-109f-475b-a040-c6087f01684a": {
+          "type": "text",
+          "settings": {
+            "text": "C’est parce que la joaillerie éthique et durable Rosa Maitea vous aime qu’elle vous propose plusieurs services indispensables. Que vous achetiez une bague, un bracelet, une alliance Rosa Maïtea, ou que vous ayez un projet spécifique, la maison vous propose :"
+          }
+        },
+        "23019398-10ab-4864-ab19-347f920f5a22": {
+          "type": "item",
+          "settings": {
+            "text": "MISE À LA TAILLE"
+          }
+        },
+        "ac6501bc-053b-4d1c-b6e9-7143b11a259d": {
+          "type": "item",
+          "settings": {
+            "text": "CRÉATION SUR MESURE"
+          }
+        },
+        "478453b2-4b1d-4930-b000-a249f4ccba1a": {
+          "type": "item",
+          "settings": {
+            "text": "REDESIGN D’UN ANCIEN BIJOU"
+          }
+        },
+        "722c8d1b-fb12-4516-b803-cfda9ddfa333": {
+          "type": "item",
+          "settings": {
+            "text": "RÉPARATIONS ET AMÉLIORATIONS"
+          }
+        },
+        "ce865b09-1019-434a-929a-353397d89385": {
+          "type": "item",
+          "settings": {
+            "text": "CHOIX DES GEMMES"
+          }
+        },
+        "9a35ee0a-5212-486b-b7c8-0dda8f98ba70": {
+          "type": "link",
+          "settings": {
+            "link_text": "NOS SERVICES EN DÉTAIL",
+            "link_url": ""
+          }
+        },
+        "2f93fbf4-a58e-4b4f-95f5-7eff1dae256b": {
+          "type": "link",
+          "settings": {
+            "link_text": "NOUS CONTACTER",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "d2db4430-6f07-4e31-aaf9-d3c5c6c2ced2",
+        "ced5720b-109f-475b-a040-c6087f01684a",
+        "23019398-10ab-4864-ab19-347f920f5a22",
+        "ac6501bc-053b-4d1c-b6e9-7143b11a259d",
+        "478453b2-4b1d-4930-b000-a249f4ccba1a",
+        "722c8d1b-fb12-4516-b803-cfda9ddfa333",
+        "ce865b09-1019-434a-929a-353397d89385",
+        "9a35ee0a-5212-486b-b7c8-0dda8f98ba70",
+        "2f93fbf4-a58e-4b4f-95f5-7eff1dae256b"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/backgrounded.png",
+        "image_mobile": "shopify:\/\/shop_images\/backgrounded-mobile.png"
+      }
     }
   },
   "order": [
@@ -153,6 +229,7 @@
     "555ee7ae-ed60-4f7c-bf8c-fe18132779a1",
     "f997dd8a-2291-4fc6-bedc-9faa72cbe9bc",
     "2c663638-02bd-4aa4-a99b-760dc268b2d9",
-    "d1b389fe-0917-4513-a4c9-41c5fa302df5"
+    "d1b389fe-0917-4513-a4c9-41c5fa302df5",
+    "a1ef4a98-24c6-4449-85c4-c389414029b2"
   ]
 }
