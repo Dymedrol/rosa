@@ -257,6 +257,14 @@
         "link_url": "\/",
         "blog": "le-blog-de-rosa-maitea"
       }
+    },
+    "2da02395-1cac-422e-870f-a68533546811": {
+      "type": "rosa-header3",
+      "settings": {
+        "text1": "RÉSEAU SOCIAUX",
+        "text2": "RETROSPECTIVE SPREAD LOVE",
+        "text3": "<p>Nous rejoindre <a href=\"\/\">@rosamaitea<\/a><\/p>"
+      }
     }
   },
   "order": [
@@ -270,6 +278,7 @@
     "9603023c-6e27-4890-b9e6-e92093169f5b",
     "fb0161b6-421e-47b5-8d9b-cb8f4b27ec2b",
     "b833affc-7703-42d3-b1d2-d0a348e47159",
-    "292c19ec-b340-48bf-b520-dbe10d9f1cb6"
+    "292c19ec-b340-48bf-b520-dbe10d9f1cb6",
+    "2da02395-1cac-422e-870f-a68533546811"
   ]
 }
