@@ -23,6 +23,7 @@
     "6fbb0f32-8f2d-4d5d-b36c-eb2cd570ff42": {
       "type": "collection-slider-with-pic",
       "settings": {
+        "is_reverse": true,
         "slider_2_image": "shopify:\/\/shop_images\/DSC0642_2x_755f976b-0017-45c3-9f9c-d7ef5f21b9e3.png",
         "text1": "LA JOAILLERIE ÉTHIQUE ROSA MAITEA",
         "text2": "LOVE FOREVER",
