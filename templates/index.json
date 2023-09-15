@@ -221,6 +221,13 @@
         "image": "shopify:\/\/shop_images\/backgrounded.png",
         "image_mobile": "shopify:\/\/shop_images\/backgrounded-mobile.png"
       }
+    },
+    "9603023c-6e27-4890-b9e6-e92093169f5b": {
+      "type": "rosa-header2",
+      "settings": {
+        "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
+        "text2": "UNE MARQUE HUMAINE À VIVRE"
+      }
     }
   },
   "order": [
@@ -230,6 +237,7 @@
     "f997dd8a-2291-4fc6-bedc-9faa72cbe9bc",
     "2c663638-02bd-4aa4-a99b-760dc268b2d9",
     "d1b389fe-0917-4513-a4c9-41c5fa302df5",
-    "a1ef4a98-24c6-4449-85c4-c389414029b2"
+    "a1ef4a98-24c6-4449-85c4-c389414029b2",
+    "9603023c-6e27-4890-b9e6-e92093169f5b"
   ]
 }
