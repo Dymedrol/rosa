@@ -265,6 +265,64 @@
         "text2": "RETROSPECTIVE SPREAD LOVE",
         "text3": "<p>Nous rejoindre <a href=\"\/\">@rosamaitea<\/a><\/p>"
       }
+    },
+    "f0e61fa0-5073-4fea-bdf8-1f215e702ff2": {
+      "type": "rosa-picture-slider",
+      "blocks": {
+        "0ff22ac2-06e6-4c68-b529-bf680a68304c": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic4.png"
+          }
+        },
+        "043b215a-e7e0-4732-b45d-d0b44af2efc4": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic3.png"
+          }
+        },
+        "caaf968f-db0b-4e67-bd16-5a7796233bf9": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic2.png"
+          }
+        },
+        "7013acaa-35b7-426e-8167-027b7a8a878a": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic1.png"
+          }
+        },
+        "1e87e4ee-95bc-4991-a3d4-268bdf5b8e7e": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic3.png"
+          }
+        },
+        "59745a4d-e40e-4eeb-8aa3-0cced4d49e8b": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic4.png"
+          }
+        },
+        "b6b6d1f2-e8a4-443f-86ae-c86fc7555df4": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jumbo-mobile.png"
+          }
+        }
+      },
+      "block_order": [
+        "0ff22ac2-06e6-4c68-b529-bf680a68304c",
+        "043b215a-e7e0-4732-b45d-d0b44af2efc4",
+        "caaf968f-db0b-4e67-bd16-5a7796233bf9",
+        "7013acaa-35b7-426e-8167-027b7a8a878a",
+        "1e87e4ee-95bc-4991-a3d4-268bdf5b8e7e",
+        "59745a4d-e40e-4eeb-8aa3-0cced4d49e8b",
+        "b6b6d1f2-e8a4-443f-86ae-c86fc7555df4"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -279,6 +337,7 @@
     "fb0161b6-421e-47b5-8d9b-cb8f4b27ec2b",
     "b833affc-7703-42d3-b1d2-d0a348e47159",
     "292c19ec-b340-48bf-b520-dbe10d9f1cb6",
-    "2da02395-1cac-422e-870f-a68533546811"
+    "2da02395-1cac-422e-870f-a68533546811",
+    "f0e61fa0-5073-4fea-bdf8-1f215e702ff2"
   ]
 }
