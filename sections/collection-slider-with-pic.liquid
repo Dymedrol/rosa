@@ -1,4 +1,4 @@
-<section class="rosa-collection-slider2">
+<section class="rosa-collection-slider2 {% if section.settings.is_reverse %} rosa-collection-slider2_reverse{% endif %}">
     <div class="rosa-collection-slider2-info">
         <div class="rosa-collection-slider2-info-inner">
             <div class="rosa-collection-slider2-info-text1">{{ section.settings.text1 }}</div>
@@ -33,6 +33,12 @@
     }
   ],
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "is_reverse",
+      "default": false,
+      "label": "reverse block"
+    },
     {
       "type": "image_picker",
       "id": "slider_2_image",
