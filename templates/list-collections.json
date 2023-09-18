@@ -34,12 +34,12 @@
     "3b5f896c-968b-427a-9277-e94486975249": {
       "type": "collection-slider-with-pic",
       "settings": {
-        "is_reverse": true,
+        "is_reverse": false,
         "slider_2_image": "shopify:\/\/shop_images\/DSC0642_2x_755f976b-0017-45c3-9f9c-d7ef5f21b9e3.png",
-        "text1": "text 1",
-        "text2": "text 2",
-        "text3": "text 3",
-        "collection": "la-bonne-etoile-arcoiris"
+        "text1": "LA JOAILLERIE ÉTHIQUE ROSA MAITEA",
+        "text2": "LOVE FOREVER",
+        "text3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+        "collection": "boucles-doreilles"
       }
     }
   },
