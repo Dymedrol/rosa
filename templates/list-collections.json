@@ -30,11 +30,23 @@
         "text3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
         "collection": "bagues"
       }
+    },
+    "3b5f896c-968b-427a-9277-e94486975249": {
+      "type": "collection-slider-with-pic",
+      "settings": {
+        "is_reverse": true,
+        "slider_2_image": "shopify:\/\/shop_images\/DSC0642_2x_755f976b-0017-45c3-9f9c-d7ef5f21b9e3.png",
+        "text1": "text 1",
+        "text2": "text 2",
+        "text3": "text 3",
+        "collection": "la-bonne-etoile-arcoiris"
+      }
     }
   },
   "order": [
     "412100ed-0ed8-496c-b02e-a79e3d4968e0",
     "main",
-    "6fbb0f32-8f2d-4d5d-b36c-eb2cd570ff42"
+    "6fbb0f32-8f2d-4d5d-b36c-eb2cd570ff42",
+    "3b5f896c-968b-427a-9277-e94486975249"
   ]
 }
