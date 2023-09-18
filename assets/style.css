@@ -2297,7 +2297,6 @@ input[type="button"] {
 }
 .collecton-list-link {
   display: none;
-  display: block;
   width: fit-content;
   margin: 0 auto;
   font: normal normal 500 14px/18px Montserrat;
