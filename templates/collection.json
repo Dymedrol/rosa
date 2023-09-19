@@ -24,6 +24,13 @@
         "padding_bottom": 36
       }
     },
+    "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
+      "type": "rosa-header2",
+      "settings": {
+        "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
+        "text2": "NE MARQUE HUMAINE À VIVRE"
+      }
+    },
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1": {
       "type": "video",
       "settings": {
@@ -33,11 +40,22 @@
         "description": "",
         "full_width": false
       }
+    },
+    "c35448d9-1175-475c-9d96-16d0b67db72b": {
+      "type": "rosa-quote",
+      "settings": {
+        "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun.»",
+        "text2": "Patricia Perreda - Directrice artistique Rosa Maitea",
+        "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
+        "link_url": "\/"
+      }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1"
+    "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
+    "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
+    "c35448d9-1175-475c-9d96-16d0b67db72b"
   ]
 }
