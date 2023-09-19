@@ -1,3 +1,6 @@
+
+{% comment %}
+
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'section-related-products.css' | asset_url | stylesheet_tag }}
@@ -19,6 +22,7 @@
     }
   }
 {%- endstyle -%}
+
 
 <div class="color-{{ section.settings.color_scheme }} gradient no-js-hidden">
   <product-recommendations
@@ -53,195 +57,71 @@
   {%- endif -%}
 </div>
 
+{% endcomment %}
+
+<product-recommendations
+  class="related-products page-widthisolate"
+  data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit=4"
+>
+  <section class="rosa-related-slider">
+      <div class="rosa-related-slider-header container">
+          <div class="rosa-related-slider-header-info">
+              <div class="rosa-related-slider-header-info-text2">{{ section.settings.title1 }}</div>
+          </div>
+          <div class="rosa-related-slider-header-nav">
+
+              <svg class="rosa-related-slider-header-nav-arrow rosa-related-slider-header-nav-arrow-prev" xmlns="http://www.w3.org/2000/svg" width="18.808" height="14.897" viewBox="0 0 18.808 14.897">
+                <g id="Groupe_172" data-name="Groupe 172" transform="translate(0.333 0.373)">
+                  <line id="Ligne_4" data-name="Ligne 4" x1="18.474" transform="translate(0 7.076)" fill="none" stroke="#000" stroke-width="1"/>
+                  <line id="Ligne_5" data-name="Ligne 5" x1="7.909" y2="7.076" transform="translate(0 0)" fill="none" stroke="#000" stroke-width="1"/>
+                  <line id="Ligne_6" data-name="Ligne 6" x2="7.909" y2="7.076" transform="translate(0 7.076)" fill="none" stroke="#000" stroke-width="1"/>
+                </g>
+              </svg>
+
+
+              <svg class="rosa-related-slider-header-nav-arrow rosa-related-slider-header-nav-arrow-next" xmlns="http://www.w3.org/2000/svg" width="18.808" height="14.897" viewBox="0 0 18.808 14.897">
+                <g id="Groupe_173" data-name="Groupe 173" transform="translate(0 0.373)">
+                  <line id="Ligne_4" data-name="Ligne 4" x2="18.474" transform="translate(0 7.076)" fill="none" stroke="#000" stroke-width="1"/>
+                  <line id="Ligne_5" data-name="Ligne 5" x2="7.909" y2="7.076" transform="translate(10.565 0)" fill="none" stroke="#000" stroke-width="1"/>
+                  <line id="Ligne_6" data-name="Ligne 6" x1="7.909" y2="7.076" transform="translate(10.565 7.076)" fill="none" stroke="#000" stroke-width="1"/>
+                </g>
+              </svg>
+          </div>
+      </div>
+      <div class="rosa-related-slider-inner">
+          {% for recommendation in recommendations.products %}
+            <div class="rosa-related-slider-item">
+                <img src="{{ recommendation.featured_image | img_url: '436x406', crop: 'center' }}" alt="" class="rosa-related-slider-item-pic">
+                <div class="rosa-related-slider-item-title">{{ recommendation.title }}</div>
+                <div class="rosa-related-slider-item-text">{{ recommendation.vendor }}</div>
+                <div class="rosa-related-slider-item-price">{{ recommendation.price | money_without_trailing_zeros }}</div>
+                <div class="rosa-related-slider-item-hover">
+                  <img src="{{ recommendation.images[1] | img_url: '475x542', crop: 'center' }}" alt="" class="rosa-related-slider-item-pic2">
+                  <a href="{{ recommendation.url }}" class="rosa-related-slider-item-link">FICHE PRODUIT</a>
+                </div>
+            </div>
+          {% endfor %}
+      </div>
+  </section>
+</product-recommendations>
+
 {% schema %}
 {
-  "name": "t:sections.related-products.name",
-  "tag": "section",
-  "class": "section",
+  "name": "collection slider",
+  "presets": [
+    {
+      "name": "collection slider",
+      "category": "Custom"
+    }
+  ],
   "settings": [
     {
-      "type": "paragraph",
-      "content": "t:sections.related-products.settings.paragraph__1.content"
-    },
-    {
-      "type": "inline_richtext",
-      "id": "heading",
-      "default": "You may also like",
-      "label": "t:sections.related-products.settings.heading.label"
-    },
-    {
-      "type": "select",
-      "id": "heading_size",
-      "options": [
-        {
-          "value": "h2",
-          "label": "t:sections.all.heading_size.options__1.label"
-        },
-        {
-          "value": "h1",
-          "label": "t:sections.all.heading_size.options__2.label"
-        },
-        {
-          "value": "h0",
-          "label": "t:sections.all.heading_size.options__3.label"
-        }
-      ],
-      "default": "h1",
-      "label": "t:sections.all.heading_size.label"
-    },
-    {
-      "type": "range",
-      "id": "products_to_show",
-      "min": 2,
-      "max": 10,
-      "step": 1,
-      "default": 4,
-      "label": "t:sections.related-products.settings.products_to_show.label"
-    },
-    {
-      "type": "range",
-      "id": "columns_desktop",
-      "min": 1,
-      "max": 5,
-      "step": 1,
-      "default": 4,
-      "label": "t:sections.related-products.settings.columns_desktop.label"
-    },
-    {
-      "type": "color_scheme",
-      "id": "color_scheme",
-      "label": "t:sections.all.colors.label",
-      "info": "t:sections.all.colors.has_cards_info",
-      "default": "background-1"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.related-products.settings.header__2.content"
-    },
-    {
-      "type": "select",
-      "id": "image_ratio",
-      "options": [
-        {
-          "value": "adapt",
-          "label": "t:sections.related-products.settings.image_ratio.options__1.label"
-        },
-        {
-          "value": "portrait",
-          "label": "t:sections.related-products.settings.image_ratio.options__2.label"
-        },
-        {
-          "value": "square",
-          "label": "t:sections.related-products.settings.image_ratio.options__3.label"
-        }
-      ],
-      "default": "adapt",
-      "label": "t:sections.related-products.settings.image_ratio.label"
-    },
-    {
-      "type": "select",
-      "id": "image_shape",
-      "options": [
-        {
-          "value": "default",
-          "label": "t:sections.all.image_shape.options__1.label"
-        },
-        {
-          "value": "arch",
-          "label": "t:sections.all.image_shape.options__2.label"
-        },
-        {
-          "value": "blob",
-          "label": "t:sections.all.image_shape.options__3.label"
-        },
-        {
-          "value": "chevronleft",
-          "label": "t:sections.all.image_shape.options__4.label"
-        },
-        {
-          "value": "chevronright",
-          "label": "t:sections.all.image_shape.options__5.label"
-        },
-        {
-          "value": "diamond",
-          "label": "t:sections.all.image_shape.options__6.label"
-        },
-        {
-          "value": "parallelogram",
-          "label": "t:sections.all.image_shape.options__7.label"
-        },
-        {
-          "value": "round",
-          "label": "t:sections.all.image_shape.options__8.label"
-        }
-      ],
-      "default": "default",
-      "label": "t:sections.all.image_shape.label",
-      "info": "t:sections.all.image_shape.info"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_secondary_image",
-      "default": false,
-      "label": "t:sections.related-products.settings.show_secondary_image.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_vendor",
-      "default": false,
-      "label": "t:sections.related-products.settings.show_vendor.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_rating",
-      "default": false,
-      "label": "t:sections.related-products.settings.show_rating.label",
-      "info": "t:sections.related-products.settings.show_rating.info"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.related-products.settings.header_mobile.content"
-    },
-    {
-      "type": "select",
-      "id": "columns_mobile",
-      "default": "2",
-      "label": "t:sections.related-products.settings.columns_mobile.label",
-      "options": [
-        {
-          "value": "1",
-          "label": "t:sections.related-products.settings.columns_mobile.options__1.label"
-        },
-        {
-          "value": "2",
-          "label": "t:sections.related-products.settings.columns_mobile.options__2.label"
-        }
-      ]
-    },
-    {
-      "type": "header",
-      "content": "t:sections.all.padding.section_padding_heading"
-    },
-    {
-      "type": "range",
-      "id": "padding_top",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_top",
-      "default": 36
-    },
-    {
-      "type": "range",
-      "id": "padding_bottom",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_bottom",
-      "default": 36
+      "type": "text",
+      "id": "title1",
+      "label": "title",
+      "default": "VOUS ALLEZ AUSSI AIMER :"
     }
   ]
 }
+
 {% endschema %}

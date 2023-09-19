@@ -4,6 +4,7 @@ import { initCollectionSlider } from './collection-slider';
 import { initCollectionSliderWithSidePic } from './collection-slider-with-side-pic';
 import { initPictureSlider } from './picture-slider';
 import { initSelectionSlider } from './selection-slider';
+import { initRelatedSlider } from './related-slider';
 
 initMenu();
 initPdp();
@@ -11,3 +12,4 @@ initCollectionSlider();
 initCollectionSliderWithSidePic();
 initPictureSlider();
 initSelectionSlider();
+initRelatedSlider();

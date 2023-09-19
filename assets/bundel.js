@@ -181,6 +181,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
+/***/ "./source/js/related-slider.js":
+/*!*************************************!*\
+  !*** ./source/js/related-slider.js ***!
+  \*************************************/
+/*! exports provided: initRelatedSlider */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"initRelatedSlider\", function() { return initRelatedSlider; });\nconst initRelatedSlider = () => {// setTimeout(() => {\n  //   $(\".rosa-related-slider-inner\").owlCarousel({\n  //       margin: 0,\n  //       autoWidth: true,\n  //       smartSpeed: 500,\n  //       animateIn: 'ease-out',\n  //       animateOut: 'ease-out',\n  //       loop: true,\n  //       dots: false,\n  //   });\n  //   var owl = $(\".rosa-related-slider-inner\");\n  //   owl.owlCarousel();\n  //   $(\".rosa-related-slider-header-nav-arrow-next\").click(function () {\n  //     owl.trigger(\"next.owl.carousel\");\n  //   });\n  //   $(\".rosa-related-slider-header-nav-arrow-prev\").click(function () {\n  //     owl.trigger(\"prev.owl.carousel\");\n  //   });\n  // }, \"2000\");\n};\n\n//# sourceURL=webpack:///./source/js/related-slider.js?");
+
+/***/ }),
+
 /***/ "./source/js/script.js":
 /*!*****************************!*\
   !*** ./source/js/script.js ***!
@@ -189,7 +201,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./menu */ \"./source/js/menu.js\");\n/* harmony import */ var _pdp__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pdp */ \"./source/js/pdp.js\");\n/* harmony import */ var _collection_slider__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./collection-slider */ \"./source/js/collection-slider.js\");\n/* harmony import */ var _collection_slider_with_side_pic__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./collection-slider-with-side-pic */ \"./source/js/collection-slider-with-side-pic.js\");\n/* harmony import */ var _picture_slider__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./picture-slider */ \"./source/js/picture-slider.js\");\n/* harmony import */ var _selection_slider__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./selection-slider */ \"./source/js/selection-slider.js\");\n\n\n\n\n\n\nObject(_menu__WEBPACK_IMPORTED_MODULE_0__[\"initMenu\"])();\nObject(_pdp__WEBPACK_IMPORTED_MODULE_1__[\"initPdp\"])();\nObject(_collection_slider__WEBPACK_IMPORTED_MODULE_2__[\"initCollectionSlider\"])();\nObject(_collection_slider_with_side_pic__WEBPACK_IMPORTED_MODULE_3__[\"initCollectionSliderWithSidePic\"])();\nObject(_picture_slider__WEBPACK_IMPORTED_MODULE_4__[\"initPictureSlider\"])();\nObject(_selection_slider__WEBPACK_IMPORTED_MODULE_5__[\"initSelectionSlider\"])();\n\n//# sourceURL=webpack:///./source/js/script.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./menu */ \"./source/js/menu.js\");\n/* harmony import */ var _pdp__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pdp */ \"./source/js/pdp.js\");\n/* harmony import */ var _collection_slider__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./collection-slider */ \"./source/js/collection-slider.js\");\n/* harmony import */ var _collection_slider_with_side_pic__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./collection-slider-with-side-pic */ \"./source/js/collection-slider-with-side-pic.js\");\n/* harmony import */ var _picture_slider__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./picture-slider */ \"./source/js/picture-slider.js\");\n/* harmony import */ var _selection_slider__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./selection-slider */ \"./source/js/selection-slider.js\");\n/* harmony import */ var _related_slider__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./related-slider */ \"./source/js/related-slider.js\");\n\n\n\n\n\n\n\nObject(_menu__WEBPACK_IMPORTED_MODULE_0__[\"initMenu\"])();\nObject(_pdp__WEBPACK_IMPORTED_MODULE_1__[\"initPdp\"])();\nObject(_collection_slider__WEBPACK_IMPORTED_MODULE_2__[\"initCollectionSlider\"])();\nObject(_collection_slider_with_side_pic__WEBPACK_IMPORTED_MODULE_3__[\"initCollectionSliderWithSidePic\"])();\nObject(_picture_slider__WEBPACK_IMPORTED_MODULE_4__[\"initPictureSlider\"])();\nObject(_selection_slider__WEBPACK_IMPORTED_MODULE_5__[\"initSelectionSlider\"])();\nObject(_related_slider__WEBPACK_IMPORTED_MODULE_6__[\"initRelatedSlider\"])();\n\n//# sourceURL=webpack:///./source/js/script.js?");
 
 /***/ }),
 
