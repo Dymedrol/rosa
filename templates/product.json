@@ -244,6 +244,16 @@
         "text2": "",
         "text3": "<p>EN SAVOIR PLUS<\/p>"
       }
+    },
+    "6e02a8cf-0c84-43f0-b182-6ee54d34c2dd": {
+      "type": "image-banner",
+      "settings": {
+        "image_banner_title_text": "LA COLLECTION XXXXX",
+        "image_banner_subtitle_text": "",
+        "image_banner_link_text": "DÉCOUVRIR LA COLLECTION",
+        "image_banner_link_url": "\/",
+        "banner_image": "shopify:\/\/shop_images\/Groupe_308_2x_275f4324-7444-4c82-8d6e-f7a3c33773f7.png"
+      }
     }
   },
   "order": [
@@ -252,6 +262,7 @@
     "e13403e6-08d0-430c-bbe0-fd2cef7bb233",
     "0f32b7f0-f6d3-48bc-a764-d95b9d90cd6a",
     "717bc189-467a-47c3-8794-1ec35b80e2e9",
-    "39eed9dc-0490-4ebf-9f39-f286ac72d387"
+    "39eed9dc-0490-4ebf-9f39-f286ac72d387",
+    "6e02a8cf-0c84-43f0-b182-6ee54d34c2dd"
   ]
 }
