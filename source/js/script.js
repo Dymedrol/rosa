@@ -5,6 +5,7 @@ import { initCollectionSliderWithSidePic } from './collection-slider-with-side-p
 import { initPictureSlider } from './picture-slider';
 import { initSelectionSlider } from './selection-slider';
 import { initRelatedSlider } from './related-slider';
+import { initDouble } from './double';
 
 initMenu();
 initPdp();
@@ -13,3 +14,4 @@ initCollectionSliderWithSidePic();
 initPictureSlider();
 initSelectionSlider();
 initRelatedSlider();
+initDouble();

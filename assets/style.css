@@ -1683,6 +1683,43 @@ input[type="button"] {
   margin-top: 25px;
   border-bottom: 1px solid #000;
 }
+.rosa-double-accordion {
+  margin-bottom: 25px;
+  border-bottom: 1px solid #000;
+  width: 100%;
+}
+.rosa-double-accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.rosa-double-accordion-header .minus {
+  display: none;
+}
+.rosa-double-accordion-header-title {
+  font: normal normal 500 16px/11px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.rosa-double-accordion-header-text {
+  display: none;
+  padding-top: 10px;
+  padding-bottom: 21px;
+  padding-right: 15px;
+  font: normal normal normal 14px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #1A1A1A;
+}
+.rosa-double-accordion.open .plus {
+  display: none;
+}
+.rosa-double-accordion.open .minus {
+  display: block;
+}
 .rosa-backgrounded {
   position: relative;
 }

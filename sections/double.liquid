@@ -14,6 +14,19 @@
                     <img src="{{ block.settings.image | img_url: 'width 20' }}" alt="" class="rosa-double-info-list-item-pic">
                     <div class="rosa-double-info-list-item-link">{{ block.settings.text }}</div>
                 </div>
+              {%- when 'accordion' -%}
+                <div class="rosa-double-accordion">
+                  <div class="rosa-double-accordion-header">
+                    <div class="rosa-double-accordion-header-title">{{ block.settings.title }}</div>
+                    <svg class="plus" xmlns="http://www.w3.org/2000/svg" width="13" height="28" viewBox="0 0 13 28">
+                      <text id="Typography" transform="translate(0 22)" font-size="21" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="0" y="0">+</tspan></text>
+                    </svg>
+                    <svg class="minus" xmlns="http://www.w3.org/2000/svg" width="7" height="28" viewBox="0 0 7 28">
+                      <text id="Typography" transform="translate(0 22)" font-size="21" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="0" y="0">-</tspan></text>
+                    </svg>
+                  </div>
+                  <div class="rosa-double-accordion-header-text">{{ block.settings.text }}</div>
+                </div>
               {%- when 'link' -%}
                 <a href="{{ block.settings.link_url }}" class="rosa-double-info-link">{{ block.settings.link_text }}</a>
             {%- endcase -%}
@@ -89,6 +102,24 @@
           "type": "image_picker",
           "id": "image",
           "label": "image"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "default": "text",
+          "label": "text"
+        }
+      ]
+    },
+    {
+      "type": "accordion",
+      "name": "accordion item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "default": "title",
+          "label": "title"
         },
         {
           "type": "text",
