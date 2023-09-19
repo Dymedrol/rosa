@@ -248,6 +248,7 @@
     "6e02a8cf-0c84-43f0-b182-6ee54d34c2dd": {
       "type": "image-banner",
       "settings": {
+        "right": true,
         "image_banner_title_text": "LA COLLECTION XXXXX",
         "image_banner_subtitle_text": "",
         "image_banner_link_text": "DÉCOUVRIR LA COLLECTION",
