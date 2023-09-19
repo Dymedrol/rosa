@@ -128,10 +128,102 @@
       "settings": {
         "title1": "VOUS ALLEZ AUSSI AIMER :"
       }
+    },
+    "e13403e6-08d0-430c-bbe0-fd2cef7bb233": {
+      "type": "double",
+      "blocks": {
+        "88f8deb1-4b82-4d54-bd3c-f5dcb57ff173": {
+          "type": "heading",
+          "settings": {
+            "heading1": "",
+            "heading2": "ROSA MAITEA EXPERIENCE"
+          }
+        },
+        "f8d51ad8-08af-4da4-9a69-3984b3b0ea56": {
+          "type": "accordion",
+          "settings": {
+            "title": "MISE À TAILLE",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper ante ac lacus dictum tempus. Donec tristique lectus a tempus consectetur. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Nam pharetra pellentesque est eu sollicitudin. Nunc euismod sapien vitae porttitor lacinia."
+          }
+        },
+        "9f61982c-8bb5-472f-8b86-6a12be523cdf": {
+          "type": "accordion",
+          "settings": {
+            "title": "LIVRAISON ET RETOUR",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper ante ac lacus dictum tempus. Donec tristique lectus a tempus consectetur. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Nam pharetra pellentesque est eu sollicitudin. Nunc euismod sapien vitae porttitor lacinia."
+          }
+        },
+        "f2043284-b98f-4e0c-95bd-acecc36cfefa": {
+          "type": "accordion",
+          "settings": {
+            "title": "PRENDRE RDV",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper ante ac lacus dictum tempus. Donec tristique lectus a tempus consectetur. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Nam pharetra pellentesque est eu sollicitudin. Nunc euismod sapien vitae porttitor lacinia."
+          }
+        },
+        "ae687db6-9dc1-4679-8440-648e707aad9b": {
+          "type": "accordion",
+          "settings": {
+            "title": "PACKAGING ROSA MAÏTEA",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper ante ac lacus dictum tempus. Donec tristique lectus a tempus consectetur. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Nam pharetra pellentesque est eu sollicitudin. Nunc euismod sapien vitae porttitor lacinia."
+          }
+        },
+        "3b7cb09f-7c6b-46ba-9202-f254d5cf75cc": {
+          "type": "accordion",
+          "settings": {
+            "title": "JOAILLERIE ÉCO-REPONSABLE",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper ante ac lacus dictum tempus. Donec tristique lectus a tempus consectetur. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Nam pharetra pellentesque est eu sollicitudin. Nunc euismod sapien vitae porttitor lacinia."
+          }
+        },
+        "c50bd8d1-49c5-4629-9870-32dd4b014ac3": {
+          "type": "accordion",
+          "settings": {
+            "title": "GUIDE DE TAILLES",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper ante ac lacus dictum tempus. Donec tristique lectus a tempus consectetur. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Nam pharetra pellentesque est eu sollicitudin. Nunc euismod sapien vitae porttitor lacinia."
+          }
+        },
+        "2689b26e-1e69-4953-8893-a2bb40125c10": {
+          "type": "accordion",
+          "settings": {
+            "title": "SERVICE SUR MESURE",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper ante ac lacus dictum tempus. Donec tristique lectus a tempus consectetur. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Nam pharetra pellentesque est eu sollicitudin. Nunc euismod sapien vitae porttitor lacinia."
+          }
+        },
+        "36049017-dc7f-49cc-9d4a-521579379617": {
+          "type": "accordion",
+          "settings": {
+            "title": "REPARATIONS",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper ante ac lacus dictum tempus. Donec tristique lectus a tempus consectetur. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Nam pharetra pellentesque est eu sollicitudin. Nunc euismod sapien vitae porttitor lacinia."
+          }
+        },
+        "ad4e1be4-6cf7-4536-b87a-43a8d43c4d0b": {
+          "type": "accordion",
+          "settings": {
+            "title": "OÙ NOUS TROUVER",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper ante ac lacus dictum tempus. Donec tristique lectus a tempus consectetur. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Nam pharetra pellentesque est eu sollicitudin. Nunc euismod sapien vitae porttitor lacinia."
+          }
+        }
+      },
+      "block_order": [
+        "88f8deb1-4b82-4d54-bd3c-f5dcb57ff173",
+        "f8d51ad8-08af-4da4-9a69-3984b3b0ea56",
+        "9f61982c-8bb5-472f-8b86-6a12be523cdf",
+        "f2043284-b98f-4e0c-95bd-acecc36cfefa",
+        "ae687db6-9dc1-4679-8440-648e707aad9b",
+        "3b7cb09f-7c6b-46ba-9202-f254d5cf75cc",
+        "c50bd8d1-49c5-4629-9870-32dd4b014ac3",
+        "2689b26e-1e69-4953-8893-a2bb40125c10",
+        "36049017-dc7f-49cc-9d4a-521579379617",
+        "ad4e1be4-6cf7-4536-b87a-43a8d43c4d0b"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/aaaaaa.png",
+        "is_reverse": false
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "e13403e6-08d0-430c-bbe0-fd2cef7bb233"
   ]
 }
