@@ -1,78 +1,25 @@
-{% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
-{{ 'component-collection-hero.css' | asset_url | stylesheet_tag }}
+{% if collection.image %}
+  <section class="rosa-collection-banner">
+      <picture class="rosa-collection-banner-pic" >
+        <source srcset="{{ collection.image | img_url: '1820x840', crop: 'center' }} 1x, {{ collection.image | img_url: '3640x1680', crop: 'center' }} 2x" media="(min-width: 1920px)" />
+        <source srcset="{{ collection.image | img_url: '1340x680', crop: 'center' }} 1x, {{ collection.image | img_url: '2680x1360', crop: 'center' }} 2x" media="(min-width: 1440px)" />
+        <source srcset="{{ collection.image | img_url: '1100x680', crop: 'center' }} 1x, {{ collection.image | img_url: '2200x1360', crop: 'center' }} 2x" media="(min-width: 1200px)" />
+        <source srcset="{{ collection.image | img_url: '920x550', crop: 'center' }} 1x, {{ collection.image | img_url: '1840x1100', crop: 'center' }} 2x" media="(min-width: 960px)" />
+        <source srcset="{{ collection.image | img_url: '680x500', crop: 'center' }}" media="(min-width: 720px)" />
+        <source srcset="{{ collection.image | img_url: '960x880', crop: 'center' }}" media="(min-width: 480px)" />
+        <source srcset="{{ collection.image | img_url: '440x720', crop: 'center' }}" />
+        <img src="{{ collection.image | img_url: '360x600', crop: 'center' }}" alt="{{ collection.image.alt }}" loading="lazy" class="rosa-collection-banner-pic"/>
+      </picture>
 
-{%- style -%}
-  @media screen and (max-width: 749px) {
-    .collection-hero--with-image .collection-hero__inner {
-      padding-bottom: calc({{ settings.media_shadow_vertical_offset | at_least: 0 }}px + 2rem);
-    }
-  }
-{%- endstyle -%}
-
-<div class="collection-hero{% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %} color-{{ section.settings.color_scheme }} gradient">
-  <div class="collection-hero__inner page-width {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-    <div class="collection-hero__text-wrapper">
-      <h1 class="collection-hero__title">
-        <span class="visually-hidden">{{ 'sections.collection_template.title' | t }}: </span>
-        {{- collection.title | escape -}}
-      </h1>
-
-      {%- if section.settings.show_collection_description -%}
-        <div class="collection-hero__description rte">{{ collection.description }}</div>
-      {%- endif -%}
-    </div>
-
-    {%- if section.settings.show_collection_image and collection.image -%}
-      <div class="collection-hero__image-container media gradient">
-        <img
-          srcset="
-            {%- if collection.image.width >= 165 -%}{{ collection.image | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if collection.image.width >= 360 -%}{{ collection.image | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if collection.image.width >= 535 -%}{{ collection.image | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if collection.image.width >= 750 -%}{{ collection.image | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if collection.image.width >= 1070 -%}{{ collection.image | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if collection.image.width >= 1500 -%}{{ collection.image | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ collection.image | image_url }} {{ collection.image.width }}w
-          "
-          src="{{ collection.image | image_url: width: 750 }}"
-          sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc(50vw - 130px), calc(50vw - 55px)"
-          alt=""
-          width="{{ collection.image.width }}"
-          height="{{ collection.image.height }}"
-        >
+      <div class="rosa-collection-banner-wrapper container">
+        <div class="rosa-collection-banner-title">{{- collection.title | escape -}}</div>
       </div>
-    {%- endif -%}
-  </div>
-</div>
+  </section>
+{% endif %}
 
 {% schema %}
 {
   "name": "t:sections.main-collection-banner.name",
-  "class": "section",
-  "settings": [
-    {
-      "type": "paragraph",
-      "content": "t:sections.main-collection-banner.settings.paragraph.content"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_collection_description",
-      "default": true,
-      "label": "t:sections.main-collection-banner.settings.show_collection_description.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_collection_image",
-      "default": false,
-      "label": "t:sections.main-collection-banner.settings.show_collection_image.label",
-      "info": "t:sections.main-collection-banner.settings.show_collection_image.info"
-    },
-    {
-      "type": "color_scheme",
-      "id": "color_scheme",
-      "label": "t:sections.all.colors.label",
-      "default": "background-1"
-    }
-  ]
+  "class": "section"
 }
 {% endschema %}
