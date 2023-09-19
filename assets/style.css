@@ -793,6 +793,9 @@ input[type="button"] {
   align-items: center;
   height: 100%;
 }
+.rosa-jumbotron-wrapper_right {
+  justify-content: flex-end;
+}
 .rosa-jumbotron-title {
   text-align: left;
   font: normal normal normal 35px/40px Cormorant;
