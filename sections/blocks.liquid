@@ -1,0 +1,50 @@
+<section class="rosa-blocks">
+  <div class="rosa-blocks-inner container">
+    {%- for block in section.blocks -%}
+      <div class="rosa-blocks-item">
+        <img src="{{ block.settings.image | img_url: 'width 25', crop: 'center' }}" class="rosa-blocks-item-pic" alt="{{ block.settings.image.alt }}" loading="lazy">
+        <div class="rosa-blocks-item-text1">{{ block.settings.text1 }}</div>
+        <div class="rosa-blocks-item-text2">{{ block.settings.text2 }}</div>
+      </div>
+    {%- endfor -%}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "rosa row of blocks",
+  "presets": [
+    {
+      "name": "rosa row of blocks",
+      "category": "Custom"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "block",
+      "name": "block",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "image"
+        },
+        {
+          "type": "text",
+          "id": "text1",
+          "default": "text 1",
+          "label": "text 1"
+        },
+        {
+          "type": "text",
+          "id": "text2",
+          "default": "text 2",
+          "label": "text 2"
+        }
+      ]
+    }
+  ]
+}
+
+{% endschema %}
