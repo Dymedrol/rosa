@@ -3569,4 +3569,64 @@ input[type="button"] {
   letter-spacing: 0px;
   color: #000000;
 }
+.rosa-blogs-page {
+  padding-top: 96px;
+  padding-bottom: 170px;
+}
+.rosa-blogs-page-title {
+  text-align: center;
+  font: normal normal normal 40px/45px Cormorant;
+  letter-spacing: 0px;
+  color: #000000;
+  margin-bottom: 80px;
+}
+.rosa-blogs-page-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 55px;
+  margin: 0 auto;
+  margin-bottom: 84px;
+}
+.rosa-blogs-page-filters-item {
+  font: normal normal 500 14px/18px Montserrat;
+  letter-spacing: 0.28px;
+  color: #000000;
+  text-transform: uppercase;
+  width: fit-content;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
+}
+.rosa-blogs-page-filters-item_active {
+  font: normal normal 800 14px/18px Montserrat;
+}
+.rosa-blogs-page-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.rosa-blogs-page-item {
+  width: calc(33% - 17px);
+  margin-bottom: 90px;
+}
+.rosa-blogs-page-item-pic {
+  width: 100%;
+  height: auto;
+  margin-bottom: 16px;
+}
+.rosa-blogs-page-item-title {
+  font: normal normal 500 20px/25px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  min-height: 50px;
+}
+.rosa-blogs-page-item-link {
+  font: normal normal medium 14px/18px Montserrat;
+  letter-spacing: 0.28px;
+  color: #000000;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
+}
 

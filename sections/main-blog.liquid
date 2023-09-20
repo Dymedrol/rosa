@@ -1,3 +1,5 @@
+{% comment %}
+
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
@@ -48,6 +50,35 @@
       {%- render 'pagination', paginate: paginate -%}
     {%- endif -%}
   </div>
+{%- endpaginate -%}
+
+{% endcomment %}
+
+{%- paginate blog.articles by 6 -%}
+<section class="rosa-blogs-page container">
+    <div class="rosa-blogs-page-title">{{ blog.title | escape }}</div>
+    <div class="rosa-blogs-page-filters">
+      <div class="rosa-blogs-page-filters-item rosa-blogs-page-filters-item_active">tout</div>
+      <div class="rosa-blogs-page-filters-item">CATEGORIE X</div>
+      <div class="rosa-blogs-page-filters-item">CATEGORIE X</div>
+      <div class="rosa-blogs-page-filters-item">CATEGORIE X</div>
+      <div class="rosa-blogs-page-filters-item">CATEGORIE X</div>
+      <div class="rosa-blogs-page-filters-item">CATEGORIE X</div>
+    </div>
+    <div class="rosa-blogs-page-content">
+      {%- for article in blog.articles -%}
+        <div class="rosa-blogs-page-item">
+          <img src="{{ article.image.src | img_url: '339x318', crop: 'center' }}" alt="{{ article.image.src.alt | escape }}" class="rosa-blogs-page-item-pic">
+          <div class="rosa-blogs-page-item-title">{{ article.title | truncate: 50 | escape }}</div>
+          <a href="{{ article.url }}" class="rosa-blogs-page-item-link">EN SAVOIR PLUS</a>
+        </div>
+      {%- endfor -%}
+    </div>
+    {%- if paginate.pages > 1 -%}
+      {%- render 'pagination', paginate: paginate -%}
+    {%- endif -%}
+  </section>
+
 {%- endpaginate -%}
 
 {% schema %}
