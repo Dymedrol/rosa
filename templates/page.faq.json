@@ -2,13 +2,27 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "ed7bf743-b31a-4219-8b4a-159b8363584e": {
+      "type": "image-banner",
+      "settings": {
+        "is_full_screen": false,
+        "alignment": "center",
+        "image_banner_title_text": "QUESTIONS FRÉQUENTES",
+        "image_banner_subtitle_text": "",
+        "image_banner_link_text": "",
+        "image_banner_link_url": "\/",
+        "banner_image": "shopify:\/\/shop_images\/Groupe_175_2x_f3764dad-214f-4f00-8fc0-ed7e57661974.png"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "ed7bf743-b31a-4219-8b4a-159b8363584e"
   ]
 }
