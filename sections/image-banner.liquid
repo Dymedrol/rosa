@@ -1,4 +1,6 @@
-<section class="rosa-jumbotron">
+
+
+<section class="rosa-jumbotron{% if section.settings.is_full_screen %} rosa-jumbotron_fullscreen{% endif %}">
     <picture class="rosa-jumbotron-pic" >
       <source srcset="{{ section.settings.banner_image | img_url: '1820x840', crop: 'center' }} 1x, {{ section.settings.banner_image | img_url: '3640x1680', crop: 'center' }} 2x" media="(min-width: 1920px)" />
       <source srcset="{{ section.settings.banner_image | img_url: '1340x680', crop: 'center' }} 1x, {{ section.settings.banner_image | img_url: '2680x1360', crop: 'center' }} 2x" media="(min-width: 1440px)" />
@@ -10,7 +12,7 @@
       <img src="{% if section.settings.banner_image_mobile %}{{ section.settings.banner_image_mobile | img_url: '360x600', crop: 'center' }}{% else %}{{ section.settings.banner_image | img_url: '360x600', crop: 'center' }}{% endif %}" alt="{{ section.settings.banner_image.alt }}" loading="lazy" class="rosa-jumbotron-pic"/>
     </picture>
 
-    <div class="rosa-jumbotron-wrapper container{% if section.settings.right %} rosa-jumbotron-wrapper_right{% endif %}">
+    <div class="rosa-jumbotron-wrapper container rosa-jumbotron-wrapper_{{ section.settings.alignment }}">
         <div class="rosa-jumbotron-content">
             <div class="rosa-jumbotron-title">{{ section.settings.image_banner_title_text }}</div>
             <div class="rosa-jumbotron-text">{{ section.settings.image_banner_subtitle_text }}</div>
@@ -30,30 +32,50 @@
   "settings": [
     {
       "type": "checkbox",
-      "id": "right",
-      "label": "Reverse content",
-      "default": false
+      "id": "is_full_screen",
+      "label": "full screen",
+      "default": true
     },
     {
-      "type": "text",
+      "type": "select",
+      "id": "alignment",
+      "label": "Content alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "inline_richtext",
       "id": "image_banner_title_text",
       "label": "title text",
       "default": "title"
     },
     {
-      "type": "text",
+      "type": "inline_richtext",
       "id": "image_banner_subtitle_text",
       "label": "text",
       "default": "text"
     },
     {
-      "type": "text",
+      "type": "inline_richtext",
       "id": "image_banner_link_text",
       "label": "link text",
       "default": "link"
     },
     {
-      "type": "text",
+      "type": "url",
       "id": "image_banner_link_url",
       "label": "link url",
       "default": "/"

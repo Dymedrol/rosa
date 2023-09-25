@@ -778,6 +778,20 @@ input[type="button"] {
   position: relative;
   width: 100%;
   height: 100vh;
+  margin-top: 15px;
+}
+@media ((min-width: 1200px)) {
+  .rosa-jumbotron {
+    height: 550px;
+  }
+}
+.rosa-jumbotron_fullscreen {
+  margin-top: 0;
+}
+@media ((min-width: 1200px)) {
+  .rosa-jumbotron_fullscreen {
+    height: 100vh;
+  }
 }
 .rosa-jumbotron-pic {
   position: absolute;
@@ -792,6 +806,12 @@ input[type="button"] {
   display: flex;
   align-items: center;
   height: 100%;
+}
+.rosa-jumbotron-wrapper_left {
+  justify-content: flex-start;
+}
+.rosa-jumbotron-wrapper_center {
+  justify-content: center;
 }
 .rosa-jumbotron-wrapper_right {
   justify-content: flex-end;
