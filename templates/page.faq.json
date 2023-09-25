@@ -19,10 +19,252 @@
         "image_banner_link_url": "\/",
         "banner_image": "shopify:\/\/shop_images\/Groupe_175_2x_f3764dad-214f-4f00-8fc0-ed7e57661974.png"
       }
+    },
+    "e339a420-93f9-4057-b17f-cb8bd9e84f09": {
+      "type": "rosa-faq",
+      "blocks": {
+        "80723179-beb3-4435-ab47-421665b07ed7": {
+          "type": "faq",
+          "settings": {
+            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?",
+            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?"
+          }
+        },
+        "e2ed839a-4204-4080-a1a3-278c52b7d4e2": {
+          "type": "faq",
+          "settings": {
+            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT ?",
+            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT ?"
+          }
+        },
+        "002da1ca-47d2-4c66-9357-8ea19bcbd29a": {
+          "type": "faq",
+          "settings": {
+            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?",
+            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?"
+          }
+        },
+        "61c9fe9d-804f-480b-b4a4-afd7896b9eb6": {
+          "type": "faq",
+          "settings": {
+            "title": "titleLOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?",
+            "text": "textLOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?"
+          }
+        },
+        "a2713d43-dd7e-422d-8446-14245882875a": {
+          "type": "faq",
+          "settings": {
+            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT ?",
+            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT ?"
+          }
+        },
+        "40c88a02-dca2-4375-bda9-0b31136162c1": {
+          "type": "faq",
+          "settings": {
+            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?",
+            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?"
+          }
+        }
+      },
+      "block_order": [
+        "80723179-beb3-4435-ab47-421665b07ed7",
+        "e2ed839a-4204-4080-a1a3-278c52b7d4e2",
+        "002da1ca-47d2-4c66-9357-8ea19bcbd29a",
+        "61c9fe9d-804f-480b-b4a4-afd7896b9eb6",
+        "a2713d43-dd7e-422d-8446-14245882875a",
+        "40c88a02-dca2-4375-bda9-0b31136162c1"
+      ],
+      "settings": {
+        "title": "ESSAYAGES ET ACCOMPAGNEMENT DANS LE CHOIX D’UN BIJOU"
+      }
+    },
+    "81cc3d3b-07a6-429a-a6e2-13df447dc38b": {
+      "type": "rosa-faq",
+      "blocks": {
+        "41fabb2e-680e-4541-bcd1-337147724b17": {
+          "type": "faq",
+          "settings": {
+            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?",
+            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?"
+          }
+        },
+        "e7453211-1f9c-44e3-a8be-618301846d17": {
+          "type": "faq",
+          "settings": {
+            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT UT ?",
+            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT UT ?"
+          }
+        },
+        "cd0dfd1a-083c-4307-bc86-91db790ae9c9": {
+          "type": "faq",
+          "settings": {
+            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?",
+            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?"
+          }
+        },
+        "ab6aab5d-10a0-43af-bf92-f749c6ddd1cc": {
+          "type": "faq",
+          "settings": {
+            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?",
+            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?"
+          }
+        }
+      },
+      "block_order": [
+        "41fabb2e-680e-4541-bcd1-337147724b17",
+        "e7453211-1f9c-44e3-a8be-618301846d17",
+        "cd0dfd1a-083c-4307-bc86-91db790ae9c9",
+        "ab6aab5d-10a0-43af-bf92-f749c6ddd1cc"
+      ],
+      "settings": {
+        "title": "GUIDE DES TAILLES"
+      }
+    },
+    "613974aa-4403-40b6-b7d6-06a3577dbf8f": {
+      "type": "rosa-faq",
+      "blocks": {
+        "2d3e0843-d43d-40bc-982b-dd3708d004b9": {
+          "type": "faq",
+          "settings": {
+            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?",
+            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?"
+          }
+        },
+        "d198dc81-800a-4d83-9e63-266260a101cb": {
+          "type": "faq",
+          "settings": {
+            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT ?",
+            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT ?"
+          }
+        },
+        "077f0cfa-f150-43eb-aa5a-0f05d4fe38f0": {
+          "type": "faq",
+          "settings": {
+            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?",
+            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?"
+          }
+        }
+      },
+      "block_order": [
+        "2d3e0843-d43d-40bc-982b-dd3708d004b9",
+        "d198dc81-800a-4d83-9e63-266260a101cb",
+        "077f0cfa-f150-43eb-aa5a-0f05d4fe38f0"
+      ],
+      "settings": {
+        "title": "COMMANDE"
+      }
+    },
+    "55fb1268-2d8e-433a-91a9-1598664f3a6a": {
+      "type": "rosa-faq",
+      "blocks": {
+        "26250916-d968-462d-9fcf-9ba39e0f24a0": {
+          "type": "faq",
+          "settings": {
+            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?",
+            "text": "text"
+          }
+        },
+        "ceb3b595-7bcd-495e-aba2-f2783f767d08": {
+          "type": "faq",
+          "settings": {
+            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT ?",
+            "text": "text"
+          }
+        }
+      },
+      "block_order": [
+        "26250916-d968-462d-9fcf-9ba39e0f24a0",
+        "ceb3b595-7bcd-495e-aba2-f2783f767d08"
+      ],
+      "settings": {
+        "title": "FABRICATION DES BIJOUX"
+      }
+    },
+    "80f67356-46e8-4374-ae2a-fc10b0f2d387": {
+      "type": "rosa-faq",
+      "blocks": {
+        "09f599ed-2256-43fc-b359-7704960a19ee": {
+          "type": "faq",
+          "settings": {
+            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?",
+            "text": "text"
+          }
+        },
+        "f24cdb5d-4490-407d-89bd-00bf865c57fc": {
+          "type": "faq",
+          "settings": {
+            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT UT ?",
+            "text": "text"
+          }
+        },
+        "a4eb2d08-15f6-4a93-bbb8-422f3e7aa1fc": {
+          "type": "faq",
+          "settings": {
+            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?",
+            "text": "text"
+          }
+        },
+        "6cae66a6-5060-4488-9931-bee0be7ba8c7": {
+          "type": "faq",
+          "settings": {
+            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?",
+            "text": "text"
+          }
+        }
+      },
+      "block_order": [
+        "09f599ed-2256-43fc-b359-7704960a19ee",
+        "f24cdb5d-4490-407d-89bd-00bf865c57fc",
+        "a4eb2d08-15f6-4a93-bbb8-422f3e7aa1fc",
+        "6cae66a6-5060-4488-9931-bee0be7ba8c7"
+      ],
+      "settings": {
+        "title": "PROJETS SUR-MESURE"
+      }
+    },
+    "6d308f1a-f5aa-43e9-abad-067ed8c19a1a": {
+      "type": "rosa-faq",
+      "blocks": {
+        "7d16fc93-8aec-4402-9d6f-38fb9249442d": {
+          "type": "faq",
+          "settings": {
+            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?",
+            "text": "text"
+          }
+        },
+        "17ff25d7-129c-4d3e-9ece-e660bbd2f3f9": {
+          "type": "faq",
+          "settings": {
+            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT UT ?",
+            "text": "text"
+          }
+        },
+        "ec8697c2-8e9a-4673-880e-e07cc6440c7a": {
+          "type": "faq",
+          "settings": {
+            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?",
+            "text": "text"
+          }
+        }
+      },
+      "block_order": [
+        "7d16fc93-8aec-4402-9d6f-38fb9249442d",
+        "17ff25d7-129c-4d3e-9ece-e660bbd2f3f9",
+        "ec8697c2-8e9a-4673-880e-e07cc6440c7a"
+      ],
+      "settings": {
+        "title": "BIJOUX : SERVICE APRÈS-VENTE"
+      }
     }
   },
   "order": [
     "main",
-    "ed7bf743-b31a-4219-8b4a-159b8363584e"
+    "ed7bf743-b31a-4219-8b4a-159b8363584e",
+    "e339a420-93f9-4057-b17f-cb8bd9e84f09",
+    "81cc3d3b-07a6-429a-a6e2-13df447dc38b",
+    "613974aa-4403-40b6-b7d6-06a3577dbf8f",
+    "55fb1268-2d8e-433a-91a9-1598664f3a6a",
+    "80f67356-46e8-4374-ae2a-fc10b0f2d387",
+    "6d308f1a-f5aa-43e9-abad-067ed8c19a1a"
   ]
 }
