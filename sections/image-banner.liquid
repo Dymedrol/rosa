@@ -14,9 +14,9 @@
 
     <div class="rosa-jumbotron-wrapper container rosa-jumbotron-wrapper_{{ section.settings.alignment }}">
         <div class="rosa-jumbotron-content">
-            <div class="rosa-jumbotron-title">{{ section.settings.image_banner_title_text }}</div>
-            <div class="rosa-jumbotron-text">{{ section.settings.image_banner_subtitle_text }}</div>
-            <a href="{{ section.settings.image_banner_link_url }}" class="rosa-jumbotron-link">{{ section.settings.image_banner_link_text }}</a>
+            <div class="rosa-jumbotron-title {% if section.settings.is_title_big %}rosa-jumbotron-title_big{% endif %}" style="color: {{ section.settings.text_color }}">{{ section.settings.image_banner_title_text }}</div>
+            <div class="rosa-jumbotron-text {% if section.settings.is_text_big %}rosa-jumbotron-text_big{% endif %}" style="color: {{ section.settings.text_color }}">{{ section.settings.image_banner_subtitle_text }}</div>
+            <a href="{{ section.settings.image_banner_link_url }}" class="rosa-jumbotron-link" style="color: {{ section.settings.text_color }}">{{ section.settings.image_banner_link_text }}</a>
         </div>
     </div>
 </section>
@@ -57,16 +57,34 @@
       "default": "center"
     },
     {
+      "type": "color",
+      "id": "text_color",
+      "label": "text color",
+      "default": "#ffffff"
+    },
+    {
       "type": "inline_richtext",
       "id": "image_banner_title_text",
       "label": "title text",
       "default": "title"
     },
     {
+      "type": "checkbox",
+      "id": "is_title_big",
+      "label": "big title",
+      "default": false
+    },
+    {
       "type": "inline_richtext",
       "id": "image_banner_subtitle_text",
       "label": "text",
       "default": "text"
+    },
+    {
+      "type": "checkbox",
+      "id": "is_text_big",
+      "label": "big text",
+      "default": false
     },
     {
       "type": "inline_richtext",

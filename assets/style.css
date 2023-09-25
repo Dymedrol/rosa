@@ -838,6 +838,11 @@ input[type="button"] {
     margin-bottom: 7px;
   }
 }
+@media ((min-width: 1200px)) {
+  .rosa-jumbotron-title_big {
+    font: normal normal normal 60px/45px Cormorant;
+  }
+}
 .rosa-jumbotron-text {
   text-align: left;
   font: normal normal 300 15px/18px Montserrat;
@@ -846,6 +851,11 @@ input[type="button"] {
   opacity: 1;
   max-width: 322px;
   margin-bottom: 32px;
+}
+@media ((min-width: 1200px)) {
+  .rosa-jumbotron-text_big {
+    font: italic normal medium 20px/25px Cormorant;
+  }
 }
 .rosa-jumbotron-link {
   text-align: left;
@@ -3701,7 +3711,7 @@ input[type="button"] {
   color: #000000;
   text-transform: uppercase;
   opacity: 1;
-  max-width: 80%;
+  max-width: 90%;
 }
 .rosa-faq-item-header-text {
   display: none;
@@ -3717,5 +3727,161 @@ input[type="button"] {
 }
 .rosa-faq-item.open .minus {
   display: block;
+}
+.rosa-contacts {
+  width: calc(100% - 64px);
+  margin: 0 auto;
+  max-width: 624px;
+  padding-top: 45px;
+}
+.rosa-contacts textarea:focus,
+input:focus {
+  outline: none;
+}
+.rosa-contacts textarea:focus-visible,
+input:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+.rosa-contacts-text1 {
+  font: normal normal 500 14px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.rosa-contacts-list {
+  list-style-type: disc;
+  margin-bottom: 4px;
+  padding-left: 16px;
+}
+.rosa-contacts-list-item {
+  font: normal normal normal 14px/20px Montserrat;
+  letter-spacing: 0px;
+  margin-bottom: 20px;
+}
+.rosa-contacts-rendez-vous {
+  display: block;
+  width: fit-content;
+  font: normal normal medium 14px/18px Montserrat;
+  letter-spacing: 0.28px;
+  color: #000000;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 63px;
+}
+.rosa-contacts-text2 {
+  font: normal normal 500 16px/19px Montserrat;
+  letter-spacing: 0.32px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 11px;
+}
+.rosa-contacts-text3 {
+  font: normal normal normal 14px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #555555;
+  margin-bottom: 32px;
+}
+.rosa-contacts-input-wrapper {
+  width: 100%;
+  margin-bottom: 35px;
+}
+.rosa-contacts-input {
+  width: 100%;
+  border: 0;
+  padding-bottom: 11px;
+  border-bottom: 1px solid #000;
+  font: normal normal 500 14px/18px Montserrat;
+  letter-spacing: 0.28px;
+  color: #8E8E8E;
+  text-transform: uppercase;
+}
+.rosa-contacts-textarea {
+  width: 100%;
+  height: 180px;
+  border: 0;
+  padding-bottom: 11px;
+  border-bottom: 1px solid #000;
+  font: normal normal 500 14px/18px Montserrat;
+  letter-spacing: 0.28px;
+  color: #8E8E8E;
+  text-transform: uppercase;
+  resize: none;
+}
+.rosa-contacts-text4 {
+  font: normal normal normal 14px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #555555;
+  margin-bottom: 20px;
+}
+.rosa-contacts-button-wrapper {
+  width: 100%;
+}
+.rosa-contacts-button {
+  width: 100%;
+  height: 44px;
+  background: #000;
+  margin-top: 30px;
+  text-align: center;
+  font: normal normal 600 14px/44px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+.rosa-boutuque-title {
+  text-align: center;
+  font: normal normal normal 40px/45px Cormorant;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+  max-width: 570px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.rosa-boutuque-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.rosa-boutuque-item {
+  display: flex;
+  width: 100%;
+  gap: 44px;
+  padding-bottom: 11px;
+  border-bottom: 1px solid #D3D3D3;
+  margin-bottom: 13px;
+}
+@media ((min-width: 1200px)) {
+  .rosa-boutuque-item {
+    width: calc(50% - 26px);
+  }
+}
+.rosa-boutuque-item-pic {
+  width: 92px;
+  height: 87px;
+  object-fit: cover;
+}
+.rosa-boutuque-item-info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rosa-boutuque-item-info-title {
+  font: normal normal 500 16px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.rosa-boutuque-item-info-adresse-title {
+  font: normal normal 500 14px/20px Montserrat;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+}
+.rosa-boutuque-item-info-adresse {
+  font: normal normal normal 14px/20px Montserrat;
+  letter-spacing: 0px;
 }
 
