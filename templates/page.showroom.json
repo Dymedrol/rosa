@@ -73,6 +73,14 @@
         "image": "shopify:\/\/shop_images\/Image_2x_62a081be-16a4-45d9-8338-424cddf925e7.png",
         "is_reverse": false
       }
+    },
+    "39ebf9c9-7997-4a70-91a3-5c921a459945": {
+      "type": "rosa-header3",
+      "settings": {
+        "text1": "NOS ENGAGEMENTS",
+        "text2": "LOREM IPSUM DOLOR SIT AMET",
+        "text3": "<p>Suspendisse a ex lacus. Vivamus quis eros sit amet nisi faucibus aliquam. Donec vitae mattis risus. Curabitur neque magna, ornare non erat sit amet, dictum feugiat urna.<\/p>"
+      }
     }
   },
   "order": [
@@ -80,6 +88,7 @@
     "7a9ec824-a820-47b1-8d38-37009db6aa3c",
     "17470121-b250-45ce-a943-32c2364b7e66",
     "7b65d900-0344-4e58-9e3d-e6c2160f1271",
-    "096678f7-ca58-4d2e-8525-b5d1c1e410d4"
+    "096678f7-ca58-4d2e-8525-b5d1c1e410d4",
+    "39ebf9c9-7997-4a70-91a3-5c921a459945"
   ]
 }
