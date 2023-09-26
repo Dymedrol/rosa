@@ -203,6 +203,21 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "6b98f65d-98ab-42bd-acb7-d3288b2c0a03": {
+      "type": "image-banner",
+      "settings": {
+        "is_full_screen": false,
+        "alignment": "right",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "CHOIX DES GEMMES",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+        "is_text_big": false,
+        "image_banner_link_text": "NOUS CONTACTER",
+        "image_banner_link_url": "\/",
+        "banner_image": "shopify:\/\/shop_images\/Groupe_308_2x_275f4324-7444-4c82-8d6e-f7a3c33773f7.png"
+      }
     }
   },
   "order": [
@@ -215,6 +230,7 @@
     "476d1fa8-f37f-413c-b44e-92c4e1190977",
     "832bbc0e-b6af-42fe-b2e3-cff8bef04be7",
     "89163613-924f-42ad-b20e-fe2ca9ab2d98",
-    "64d79728-984d-44ac-8da1-714443ca43ef"
+    "64d79728-984d-44ac-8da1-714443ca43ef",
+    "6b98f65d-98ab-42bd-acb7-d3288b2c0a03"
   ]
 }
