@@ -218,6 +218,51 @@
         "image_banner_link_url": "\/",
         "banner_image": "shopify:\/\/shop_images\/Groupe_308_2x_275f4324-7444-4c82-8d6e-f7a3c33773f7.png"
       }
+    },
+    "1d4d01a2-48fb-47e1-8d6a-45cdc9f7a53f": {
+      "type": "blocks",
+      "blocks": {
+        "c4e6cae5-cbce-42cb-a3d8-0756688465ad": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_material-local-shipping_2x_2cdf7ca6-971b-4b3c-afef-87e9edb4ba4a.png",
+            "text1": "LIVRAISON OFFERTE LOREM IPSUM",
+            "text2": "Suspendisse a ex lacus. Vivamus quis eros sit amet."
+          }
+        },
+        "78b9a805-9c20-4a08-bf75-9d0bbd65f508": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_open-credit-card_2x_3cedf885-c3e5-458f-9243-e46fe9b92761.png",
+            "text1": "SÉCURITÉ BANCAIRE LOREM IPSUM",
+            "text2": "Suspendisse a ex lacus. Vivamus quis eros sit amet."
+          }
+        },
+        "34083cf9-b604-4372-bde5-0c392a3b0404": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_awesome-heart_2x_996b6797-3187-432c-8e3f-8042e0406921.png",
+            "text1": "SATISFAIT OU REMBOURSÉ",
+            "text2": "Suspendisse a ex lacus. Vivamus quis eros sit amet."
+          }
+        },
+        "3cf1a19b-f02b-4127-befe-8176d0c8a7f2": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_material-local-shipping_2x_2cdf7ca6-971b-4b3c-afef-87e9edb4ba4a.png",
+            "text1": "LIVRAISON OFFERTE LOREM IPSUM",
+            "text2": "Suspendisse a ex lacus. Vivamus quis eros sit amet."
+          }
+        }
+      },
+      "block_order": [
+        "c4e6cae5-cbce-42cb-a3d8-0756688465ad",
+        "78b9a805-9c20-4a08-bf75-9d0bbd65f508",
+        "34083cf9-b604-4372-bde5-0c392a3b0404",
+        "3cf1a19b-f02b-4127-befe-8176d0c8a7f2"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -231,6 +276,7 @@
     "832bbc0e-b6af-42fe-b2e3-cff8bef04be7",
     "89163613-924f-42ad-b20e-fe2ca9ab2d98",
     "64d79728-984d-44ac-8da1-714443ca43ef",
-    "6b98f65d-98ab-42bd-acb7-d3288b2c0a03"
+    "6b98f65d-98ab-42bd-acb7-d3288b2c0a03",
+    "1d4d01a2-48fb-47e1-8d6a-45cdc9f7a53f"
   ]
 }
