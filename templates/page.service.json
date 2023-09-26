@@ -108,7 +108,10 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Groupe_316_2x_2fc3c6d5-4726-498b-b993-6621960f6306.png",
-        "is_reverse": true
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     }
   },
