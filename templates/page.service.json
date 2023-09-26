@@ -22,10 +22,20 @@
         "image_banner_link_url": "\/",
         "banner_image": "shopify:\/\/shop_images\/Groupe_175_2x_d86833ec-58e3-4f65-a891-8fe1984f52e3.png"
       }
+    },
+    "b9b51502-1ed5-4667-b832-6951f9a0061d": {
+      "type": "rosa-quote3",
+      "settings": {
+        "text1": "LES SERVICES ROSA MAITEA",
+        "text2": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
+        "padding_top": 45,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
     "main",
-    "96f5cea0-93e0-472b-8d70-7418634efd26"
+    "96f5cea0-93e0-472b-8d70-7418634efd26",
+    "b9b51502-1ed5-4667-b832-6951f9a0061d"
   ]
 }
