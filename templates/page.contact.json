@@ -5,12 +5,12 @@
       "settings": {
         "is_full_screen": false,
         "alignment": "center",
-        "text_color": "#ffffff",
-        "image_banner_title_text": "title",
-        "is_title_big": false,
-        "image_banner_subtitle_text": "text",
-        "is_text_big": false,
-        "image_banner_link_text": "link",
+        "text_color": "#121212",
+        "image_banner_title_text": "CONTACTEZ-NOUS",
+        "is_title_big": true,
+        "image_banner_subtitle_text": "Pour toute question, n’hésitez pas à nous contacter. Nous serons heureux de pouvoir vous aider.",
+        "is_text_big": true,
+        "image_banner_link_text": "",
         "image_banner_link_url": "\/",
         "banner_image": "shopify:\/\/shop_images\/Groupe_175_2x_ca20457d-bdd1-471c-ab37-43b6138d883a.png"
       }
