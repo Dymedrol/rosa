@@ -1,0 +1,77 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section class="rosa-double-link section-{{ section.id }}-padding">
+    {% if section.settings.link1_text %}<a href="{{ section.settings.link1_url}}" class="rosa-double-link-item">{{ section.settings.link1_text }}</a>{% endif %}
+    {% if section.settings.link2_text %}<a href="{{ section.settings.link2_url}}" class="rosa-double-link-item">{{ section.settings.link2_text }}</a>{% endif %}
+</section>
+
+{% schema %}
+{
+  "name": "rosa double link",
+  "presets": [
+    {
+      "name": "rosa double link",
+      "category": "Custom"
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "link1_text",
+      "label": "link 1 text",
+      "default": "text 1"
+    },
+    {
+      "type": "url",
+      "id": "link1_url",
+      "label": "link 1 url",
+      "default": "/"
+    },
+    {
+      "type": "text",
+      "id": "link2_text",
+      "label": "link 2 text",
+      "default": "text 2"
+    },
+    {
+      "type": "url",
+      "id": "link2_url",
+      "label": "link 2 url",
+      "default": "/"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 45
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 45
+    }
+  ]
+}
+
+{% endschema %}

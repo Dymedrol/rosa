@@ -3983,4 +3983,18 @@ input:focus-visible {
   border-bottom: 1px solid #FFF;
   margin-bottom: 13px;
 }
+.rosa-double-link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 53px;
+}
+.rosa-double-link-item {
+  font: normal normal 500 14px/18px Montserrat;
+  letter-spacing: 0.28px;
+  color: #000000;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
+}
 
