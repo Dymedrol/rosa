@@ -241,6 +241,16 @@
         "image": "shopify:\/\/shop_images\/Image_2x_ed8e1de7-2f02-45d8-8d1e-4c02ef8c5272.png",
         "is_reverse": true
       }
+    },
+    "1de1cfcb-2dc7-45a8-bd02-f7716916da12": {
+      "type": "rosa-blogs",
+      "settings": {
+        "text1": "LA JOAILLERIE ÉTHIQUE ET VISIONNAIRE",
+        "text2": "L’ACTUALITÉ ROSA MAITEA",
+        "link_text": "VOIR TOUTES NOS ACTUALITÉS",
+        "link_url": "\/",
+        "blog": "le-blog-de-rosa-maitea"
+      }
     }
   },
   "order": [
@@ -256,6 +266,7 @@
     "65045b80-b25d-42bb-a0b7-16e75d63e285",
     "9f334f8d-80cf-4b5c-8b10-0f1170745a14",
     "3537bbea-543d-4725-8815-7bcbb35927d0",
-    "342e88f4-9b57-4a10-bb2d-96c0eb5061a8"
+    "342e88f4-9b57-4a10-bb2d-96c0eb5061a8",
+    "1de1cfcb-2dc7-45a8-bd02-f7716916da12"
   ]
 }
