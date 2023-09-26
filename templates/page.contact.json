@@ -19,8 +19,8 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
-        "padding_top": 45,
-        "padding_bottom": 45
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "form": {
@@ -37,11 +37,78 @@
         "padding_top": 45,
         "padding_bottom": 45
       }
+    },
+    "6ebacf1c-b873-4bc1-b26c-42423042a5d2": {
+      "type": "rosa-boutiques",
+      "blocks": {
+        "1f3a8b26-0a45-44e5-a658-9c4748ef2c32": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Groupe_356_2x_5c38073d-55e9-4347-bbaa-52611c04531d.png",
+            "title": "GALERIES LAFAYETTE HAUSSMANN",
+            "adresse": "40 Bd Haussmann, 75009 Paris"
+          }
+        },
+        "feb48cc3-5706-43b5-8313-0d6f5cf1bffe": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Groupe_356_2x_5c38073d-55e9-4347-bbaa-52611c04531d.png",
+            "title": "BOUTIQUE NOM X",
+            "adresse": "220 rue nom et arrondissement, 00000 nom ville"
+          }
+        },
+        "43b54a99-a12e-47c0-ac30-51ffeaea5dd9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Groupe_358_2x_09e47396-2e5d-4f0f-8663-d19b1d25753f.png",
+            "title": "LE MAGASIN MERCI",
+            "adresse": "111 bd Beaumarchais, 75003 Paris"
+          }
+        },
+        "c09604b9-83a7-4a6d-9639-7843eecdc110": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Groupe_358_2x_09e47396-2e5d-4f0f-8663-d19b1d25753f.png",
+            "title": "BOUTIQUE NOM X",
+            "adresse": "220 rue nom et arrondissement, 00000 nom ville"
+          }
+        },
+        "750fe521-080c-4207-b713-1c0fca61509c": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Groupe_385_2x_c59d36c1-d6e0-4dfd-9cc5-f006f0fa4f34.png",
+            "title": "BIRDY JOAILLERIE",
+            "adresse": "18 rue Saint-Placide, 75006 Paris"
+          }
+        },
+        "5c90ce42-7ea0-4bfe-a50d-d8960da6ea65": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Groupe_385_2x_c59d36c1-d6e0-4dfd-9cc5-f006f0fa4f34.png",
+            "title": "BOUTIQUE NOM X",
+            "adresse": "220 rue nom et arrondissement, 00000 nom ville"
+          }
+        }
+      },
+      "block_order": [
+        "1f3a8b26-0a45-44e5-a658-9c4748ef2c32",
+        "feb48cc3-5706-43b5-8313-0d6f5cf1bffe",
+        "43b54a99-a12e-47c0-ac30-51ffeaea5dd9",
+        "c09604b9-83a7-4a6d-9639-7843eecdc110",
+        "750fe521-080c-4207-b713-1c0fca61509c",
+        "5c90ce42-7ea0-4bfe-a50d-d8960da6ea65"
+      ],
+      "settings": {
+        "title": "NOS POINTS DE VENTE ET BOUTIQUES",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
     }
   },
   "order": [
     "74bb4f04-de89-45bd-951a-3fe92be32ae4",
     "main",
-    "form"
+    "form",
+    "6ebacf1c-b873-4bc1-b26c-42423042a5d2"
   ]
 }
