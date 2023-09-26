@@ -31,11 +31,95 @@
         "padding_top": 45,
         "padding_bottom": 80
       }
+    },
+    "e496dc6b-59cf-4d1c-8bee-d87875cbdd09": {
+      "type": "rosa-quote3",
+      "settings": {
+        "text1": "MISE À TAILLE ROSA MAITEA",
+        "text2": "",
+        "padding_top": 0,
+        "padding_bottom": 35
+      }
+    },
+    "789667e1-b6a9-4c7e-a974-b3b8bf0ac6a3": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/Image_2x_819a9e12-4df9-448d-b851-9d2742cf0b27.png",
+        "description": "",
+        "full_width": false
+      }
+    },
+    "d74bc6ba-55d1-4378-b52c-11ab222891c9": {
+      "type": "rosa-quote2",
+      "settings": {
+        "text1": "",
+        "text2": "Suspendisse a ex lacus. Vivamus quis eros sit amet nisi faucibus aliquam. Donec vitae mattis risus. Curabitur neque magna, ornare non erat sit amet,."
+      }
+    },
+    "476d1fa8-f37f-413c-b44e-92c4e1190977": {
+      "type": "rosa-double-link",
+      "settings": {
+        "link1_text": "EN SAVOIR PLUS",
+        "link1_url": "\/",
+        "link2_text": "NOUS CONTACTER",
+        "link2_url": "\/",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "832bbc0e-b6af-42fe-b2e3-cff8bef04be7": {
+      "type": "double",
+      "blocks": {
+        "c3c2d651-89f8-45cb-b73f-4f4e4af2385c": {
+          "type": "heading",
+          "settings": {
+            "heading1": "",
+            "heading2": "CRÉATION SUR-MESURE"
+          }
+        },
+        "f86c7c0c-c588-4828-91cf-2ffe867ada45": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          }
+        },
+        "51957528-4714-4966-bc8d-c630babb7d21": {
+          "type": "link",
+          "settings": {
+            "link_text": "EN SAVOIR PLUS",
+            "link_url": ""
+          }
+        },
+        "9f04539e-7912-4705-9429-63a9e94cf307": {
+          "type": "link",
+          "settings": {
+            "link_text": "PRENDRE RENDEZ-VOUS",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "c3c2d651-89f8-45cb-b73f-4f4e4af2385c",
+        "f86c7c0c-c588-4828-91cf-2ffe867ada45",
+        "51957528-4714-4966-bc8d-c630babb7d21",
+        "9f04539e-7912-4705-9429-63a9e94cf307"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe_316_2x_2fc3c6d5-4726-498b-b993-6621960f6306.png",
+        "is_reverse": true
+      }
     }
   },
   "order": [
     "main",
     "96f5cea0-93e0-472b-8d70-7418634efd26",
-    "b9b51502-1ed5-4667-b832-6951f9a0061d"
+    "b9b51502-1ed5-4667-b832-6951f9a0061d",
+    "e496dc6b-59cf-4d1c-8bee-d87875cbdd09",
+    "789667e1-b6a9-4c7e-a974-b3b8bf0ac6a3",
+    "d74bc6ba-55d1-4378-b52c-11ab222891c9",
+    "476d1fa8-f37f-413c-b44e-92c4e1190977",
+    "832bbc0e-b6af-42fe-b2e3-cff8bef04be7"
   ]
 }
