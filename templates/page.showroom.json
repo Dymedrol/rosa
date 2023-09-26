@@ -206,7 +206,13 @@
         "37ba0929-4e5c-4e01-a9af-3297edf8f43d": {
           "type": "text",
           "settings": {
-            "text": "Suspendisse a ex lacus. Vivamus quis eros sit amet nisi faucibus aliquam. Donec vitae mattis risus. Curabitur neque magna, ornare non erat sit amet, dictum feugiat urna. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+            "text": "Suspendisse a ex lacus. Vivamus quis eros sit amet nisi faucibus aliquam. Donec vitae mattis risus. Curabitur neque magna, ornare non erat sit amet, dictum feugiat urna"
+          }
+        },
+        "a6232feb-f090-454d-8520-3f207c0992c0": {
+          "type": "text",
+          "settings": {
+            "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
           }
         },
         "e77061de-405f-40ec-9db4-0ec4d8de035f": {
@@ -215,12 +221,21 @@
             "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM",
             "link_url": ""
           }
+        },
+        "535d77d4-0681-4704-88df-09fedbe2aa20": {
+          "type": "link",
+          "settings": {
+            "link_text": "PRENDRE RENDEZ-VOUS EN LIVE",
+            "link_url": ""
+          }
         }
       },
       "block_order": [
         "4f21df82-c462-4587-9711-13531bf23f41",
         "37ba0929-4e5c-4e01-a9af-3297edf8f43d",
-        "e77061de-405f-40ec-9db4-0ec4d8de035f"
+        "a6232feb-f090-454d-8520-3f207c0992c0",
+        "e77061de-405f-40ec-9db4-0ec4d8de035f",
+        "535d77d4-0681-4704-88df-09fedbe2aa20"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Image_2x_ed8e1de7-2f02-45d8-8d1e-4c02ef8c5272.png",
