@@ -1605,8 +1605,6 @@ input[type="button"] {
 @media ((min-width: 1200px)) {
   .rosa-double {
     flex-direction: row;
-    margin-top: 195px;
-    margin-bottom: 72px;
     min-height: 668px;
   }
 }
