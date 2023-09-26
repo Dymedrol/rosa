@@ -813,6 +813,12 @@ input[type="button"] {
 .rosa-jumbotron-wrapper_center {
   justify-content: center;
 }
+.rosa-jumbotron-wrapper_center .rosa-jumbotron-title {
+  text-align: center;
+}
+.rosa-jumbotron-wrapper_center .rosa-jumbotron-text {
+  text-align: center;
+}
 .rosa-jumbotron-wrapper_right {
   justify-content: flex-end;
 }
