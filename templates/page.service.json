@@ -68,6 +68,48 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "832bbc0e-b6af-42fe-b2e3-cff8bef04be7": {
+      "type": "double",
+      "blocks": {
+        "c3c2d651-89f8-45cb-b73f-4f4e4af2385c": {
+          "type": "heading",
+          "settings": {
+            "heading1": "",
+            "heading2": "CRÉATION SUR-MESURE"
+          }
+        },
+        "f86c7c0c-c588-4828-91cf-2ffe867ada45": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          }
+        },
+        "51957528-4714-4966-bc8d-c630babb7d21": {
+          "type": "link",
+          "settings": {
+            "link_text": "EN SAVOIR PLUS",
+            "link_url": ""
+          }
+        },
+        "9f04539e-7912-4705-9429-63a9e94cf307": {
+          "type": "link",
+          "settings": {
+            "link_text": "PRENDRE RENDEZ-VOUS",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "c3c2d651-89f8-45cb-b73f-4f4e4af2385c",
+        "f86c7c0c-c588-4828-91cf-2ffe867ada45",
+        "51957528-4714-4966-bc8d-c630babb7d21",
+        "9f04539e-7912-4705-9429-63a9e94cf307"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe_316_2x_2fc3c6d5-4726-498b-b993-6621960f6306.png",
+        "is_reverse": true
+      }
     }
   },
   "order": [
@@ -77,6 +119,7 @@
     "e496dc6b-59cf-4d1c-8bee-d87875cbdd09",
     "789667e1-b6a9-4c7e-a974-b3b8bf0ac6a3",
     "d74bc6ba-55d1-4378-b52c-11ab222891c9",
-    "476d1fa8-f37f-413c-b44e-92c4e1190977"
+    "476d1fa8-f37f-413c-b44e-92c4e1190977",
+    "832bbc0e-b6af-42fe-b2e3-cff8bef04be7"
   ]
 }
