@@ -110,8 +110,53 @@
         "image": "shopify:\/\/shop_images\/Groupe_316_2x_2fc3c6d5-4726-498b-b993-6621960f6306.png",
         "is_reverse": true,
         "is_centred": true,
-        "padding_top": 45,
-        "padding_bottom": 45
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "89163613-924f-42ad-b20e-fe2ca9ab2d98": {
+      "type": "double",
+      "blocks": {
+        "f1038835-dcff-4021-91bc-cd4b4fc5627f": {
+          "type": "heading",
+          "settings": {
+            "heading1": "",
+            "heading2": "REDESIGN D’UN ANCIEN BIJOU"
+          }
+        },
+        "6de1aad1-4bbd-4934-91d7-3df7b755e977": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          }
+        },
+        "b199ddc7-e318-418a-a3e3-7aa44eb125d5": {
+          "type": "link",
+          "settings": {
+            "link_text": "EN SAVOIR PLUS",
+            "link_url": ""
+          }
+        },
+        "0291ac80-5be9-4763-b19b-c4d107dde87f": {
+          "type": "link",
+          "settings": {
+            "link_text": "PRENDRE RENDEZ-VOUS",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "f1038835-dcff-4021-91bc-cd4b4fc5627f",
+        "6de1aad1-4bbd-4934-91d7-3df7b755e977",
+        "b199ddc7-e318-418a-a3e3-7aa44eb125d5",
+        "0291ac80-5be9-4763-b19b-c4d107dde87f"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe_319_2x_449b5c14-cf6d-407a-9779-2bb58b4381a0.png",
+        "is_reverse": false,
+        "is_centred": true,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
@@ -123,6 +168,7 @@
     "789667e1-b6a9-4c7e-a974-b3b8bf0ac6a3",
     "d74bc6ba-55d1-4378-b52c-11ab222891c9",
     "476d1fa8-f37f-413c-b44e-92c4e1190977",
-    "832bbc0e-b6af-42fe-b2e3-cff8bef04be7"
+    "832bbc0e-b6af-42fe-b2e3-cff8bef04be7",
+    "89163613-924f-42ad-b20e-fe2ca9ab2d98"
   ]
 }
