@@ -40,12 +40,23 @@
         "padding_top": 0,
         "padding_bottom": 35
       }
+    },
+    "789667e1-b6a9-4c7e-a974-b3b8bf0ac6a3": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/Image_2x_819a9e12-4df9-448d-b851-9d2742cf0b27.png",
+        "description": "",
+        "full_width": false
+      }
     }
   },
   "order": [
     "main",
     "96f5cea0-93e0-472b-8d70-7418634efd26",
     "b9b51502-1ed5-4667-b832-6951f9a0061d",
-    "e496dc6b-59cf-4d1c-8bee-d87875cbdd09"
+    "e496dc6b-59cf-4d1c-8bee-d87875cbdd09",
+    "789667e1-b6a9-4c7e-a974-b3b8bf0ac6a3"
   ]
 }
