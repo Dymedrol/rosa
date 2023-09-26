@@ -31,11 +31,21 @@
         "padding_top": 45,
         "padding_bottom": 80
       }
+    },
+    "e496dc6b-59cf-4d1c-8bee-d87875cbdd09": {
+      "type": "rosa-quote3",
+      "settings": {
+        "text1": "MISE À TAILLE ROSA MAITEA",
+        "text2": "",
+        "padding_top": 0,
+        "padding_bottom": 35
+      }
     }
   },
   "order": [
     "main",
     "96f5cea0-93e0-472b-8d70-7418634efd26",
-    "b9b51502-1ed5-4667-b832-6951f9a0061d"
+    "b9b51502-1ed5-4667-b832-6951f9a0061d",
+    "e496dc6b-59cf-4d1c-8bee-d87875cbdd09"
   ]
 }
