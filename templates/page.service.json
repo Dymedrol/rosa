@@ -158,6 +158,51 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "64d79728-984d-44ac-8da1-714443ca43ef": {
+      "type": "double",
+      "blocks": {
+        "990800cd-9f9d-44b8-b425-7ffacc49ea46": {
+          "type": "heading",
+          "settings": {
+            "heading1": "",
+            "heading2": "MISE EN BEAUTÉ"
+          }
+        },
+        "577d1247-e8fc-4a1d-8e3b-03f68e9f80cf": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          }
+        },
+        "328d028b-e38e-4d39-a41b-8a8c0cfe2890": {
+          "type": "link",
+          "settings": {
+            "link_text": "EN SAVOIR PLUS",
+            "link_url": ""
+          }
+        },
+        "dc128fd2-219e-4cab-8e9d-7391c3c455b0": {
+          "type": "link",
+          "settings": {
+            "link_text": "PRENDRE RENDEZ-VOUS",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "990800cd-9f9d-44b8-b425-7ffacc49ea46",
+        "577d1247-e8fc-4a1d-8e3b-03f68e9f80cf",
+        "328d028b-e38e-4d39-a41b-8a8c0cfe2890",
+        "dc128fd2-219e-4cab-8e9d-7391c3c455b0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe_336_2x_0f327c74-437a-473f-ba9a-424551c1eb11.png",
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -169,6 +214,7 @@
     "d74bc6ba-55d1-4378-b52c-11ab222891c9",
     "476d1fa8-f37f-413c-b44e-92c4e1190977",
     "832bbc0e-b6af-42fe-b2e3-cff8bef04be7",
-    "89163613-924f-42ad-b20e-fe2ca9ab2d98"
+    "89163613-924f-42ad-b20e-fe2ca9ab2d98",
+    "64d79728-984d-44ac-8da1-714443ca43ef"
   ]
 }
