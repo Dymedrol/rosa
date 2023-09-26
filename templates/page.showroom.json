@@ -148,6 +148,24 @@
         "padding_top": 45,
         "padding_bottom": 45
       }
+    },
+    "50a97970-36c4-452e-9885-f6cb72a35c2d": {
+      "type": "rosa-quote2",
+      "settings": {
+        "text1": "LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. NUNC IN ERAT LOREM.",
+        "text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+      }
+    },
+    "9e23fcfd-12bf-4a74-828f-42229764382f": {
+      "type": "rosa-double-link",
+      "settings": {
+        "link1_text": "VOIR PLUS DE TRAÇABILITÉS",
+        "link1_url": "\/",
+        "link2_text": "FABRICATION ET PARTENAIRES",
+        "link2_url": "\/",
+        "padding_top": 45,
+        "padding_bottom": 135
+      }
     }
   },
   "order": [
@@ -157,6 +175,8 @@
     "7b65d900-0344-4e58-9e3d-e6c2160f1271",
     "096678f7-ca58-4d2e-8525-b5d1c1e410d4",
     "39ebf9c9-7997-4a70-91a3-5c921a459945",
-    "60210ce3-b49b-44de-8a98-811cc0c212a7"
+    "60210ce3-b49b-44de-8a98-811cc0c212a7",
+    "50a97970-36c4-452e-9885-f6cb72a35c2d",
+    "9e23fcfd-12bf-4a74-828f-42229764382f"
   ]
 }
