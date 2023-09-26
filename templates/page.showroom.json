@@ -259,6 +259,64 @@
         "text2": "RETROSPECTIVE SPREAD LOVE",
         "text3": "<p>Nous rejoindre <strong>@rosamaitea<\/strong><\/p>"
       }
+    },
+    "ece64192-7cd1-4621-8e1c-227f877b30ed": {
+      "type": "rosa-picture-slider",
+      "blocks": {
+        "7bfb83bc-27cd-4a16-b77a-b322fde1fb30": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic1.png"
+          }
+        },
+        "7e47179d-3525-4de1-a6b8-8d4f46a840e9": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic2.png"
+          }
+        },
+        "12b1ca17-4d3d-46ec-8e8a-c32b88383481": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic4.png"
+          }
+        },
+        "c573f0e5-2ded-4202-880b-400ace223146": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic3.png"
+          }
+        },
+        "cac26c13-22b5-4361-9f54-9996b468b34a": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic1.png"
+          }
+        },
+        "e13b2de5-896f-4274-94b6-84f9144f98f5": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic2.png"
+          }
+        },
+        "2d694221-c05e-452c-bd9a-6b8b00d22945": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic4.png"
+          }
+        }
+      },
+      "block_order": [
+        "7bfb83bc-27cd-4a16-b77a-b322fde1fb30",
+        "7e47179d-3525-4de1-a6b8-8d4f46a840e9",
+        "12b1ca17-4d3d-46ec-8e8a-c32b88383481",
+        "c573f0e5-2ded-4202-880b-400ace223146",
+        "cac26c13-22b5-4361-9f54-9996b468b34a",
+        "e13b2de5-896f-4274-94b6-84f9144f98f5",
+        "2d694221-c05e-452c-bd9a-6b8b00d22945"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -276,6 +334,7 @@
     "3537bbea-543d-4725-8815-7bcbb35927d0",
     "342e88f4-9b57-4a10-bb2d-96c0eb5061a8",
     "1de1cfcb-2dc7-45a8-bd02-f7716916da12",
-    "d946e715-3084-42cd-9331-b75fff4b2453"
+    "d946e715-3084-42cd-9331-b75fff4b2453",
+    "ece64192-7cd1-4621-8e1c-227f877b30ed"
   ]
 }
