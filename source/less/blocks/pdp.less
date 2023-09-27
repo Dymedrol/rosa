@@ -58,6 +58,14 @@
         height: auto;
         aspect-ratio: 1 / 1;
     }
+
+    & img {
+
+        @media (@L) {
+            aspect-ratio: 1;
+            object-fit: cover;
+        }
+    }
 }
 
 .rosa-pdp-pics-pic:first-child {
@@ -65,7 +73,7 @@
     height: auto;
 }
 
-.rosa-pdp-pics-pic:nth-child(4n) {
+.rosa-pdp-pics-pic:nth-child(3n+1) {
 
     @media (@L) {
         width: 100%;

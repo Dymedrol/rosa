@@ -1,5 +1,5 @@
 <section class="rosa-pdp container">
-    <a href="/" class="rosa-pdp-return">
+    <a href="javascript:history.back()" class="rosa-pdp-return">
         <svg xmlns="http://www.w3.org/2000/svg" width="6.328" height="4.425" viewBox="0 0 6.328 4.425">
           <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M9.353,14.337l2.393-2.929a.4.4,0,0,1,.639,0,.65.65,0,0,1,0,.783L9.673,15.51a.4.4,0,0,1-.624.016l-2.73-3.332a.648.648,0,0,1,0-.783.4.4,0,0,1,.639,0Z" transform="translate(-6.188 -11.246)"/>
         </svg>
@@ -9,7 +9,7 @@
         <div class="rosa-pdp-col">
             <div class="rosa-pdp-pics">
                 {%- for media in product.media -%}
-                    <picture class="laoli-pdp-gallery-pic">
+                    <picture class="rosa-pdp-pics-pic">
                       <source srcset="{{ media.preview_image | image_url: width: 1100 }} 1x, {{ media.preview_image | image_url: width: 2200 }} 2x"/>
                       <img src="{{ media.preview_image | image_url: width: 1100 }}" alt="" data-index="{{ forloop.index }}">
                     </picture>
