@@ -42,6 +42,12 @@ export const initMenu = () => {
         $('.rosa-menu-open').removeClass('open');
         openMenu.addClass('open');
     });
+
+    $('.rosa-menu-open').click(function(e) {
+        if ($(e.target).hasClass('rosa-menu-open-shadow')) {
+            $(this).removeClass('open');
+        }
+    })
 }
 
 

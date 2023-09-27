@@ -501,6 +501,7 @@ input[type="button"] {
   gap: 7px;
   align-items: center;
   cursor: pointer;
+  z-index: 5;
 }
 .rosa-menu-nav-item_arrow span {
   font: normal normal 500 14px/18px Montserrat;
@@ -663,6 +664,15 @@ input[type="button"] {
     height: auto;
     padding: 50px 48px 51px 85px;
   }
+}
+.rosa-menu-open-shadow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: block !important;
+  z-index: -1;
 }
 .rosa-menu-open.open {
   display: block;
@@ -913,10 +923,20 @@ input[type="button"] {
   }
 }
 .rosa-collection-slider-header-info-text1 {
-  font: normal normal 500 16px/45px Montserrat;
+  font: normal normal 500 16px/25px Montserrat;
+}
+@media ((min-width: 1200px)) {
+  .rosa-collection-slider-header-info-text1 {
+    font: normal normal 500 16px/45px Montserrat;
+  }
 }
 .rosa-collection-slider-header-info-text2 {
-  font: normal normal normal 40px/45px Cormorant;
+  font: normal normal normal 35px/45px Cormorant;
+}
+@media ((min-width: 1200px)) {
+  .rosa-collection-slider-header-info-text2 {
+    font: normal normal normal 40px/45px Cormorant;
+  }
 }
 .rosa-collection-slider-header-nav {
   display: flex;
@@ -942,13 +962,15 @@ input[type="button"] {
 }
 .rosa-collection-slider-item {
   display: flex;
+  flex: 1 0 auto;
+  height: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
   width: 50vw;
   aspect-ratio: 0.77857143;
-  padding: 0 2% 0;
+  padding: 0 5% 40px;
   padding-top: 24px;
   background: #fff;
   border-right: 1px solid #D6D6D6;
@@ -1050,6 +1072,18 @@ input[type="button"] {
   .rosa-collection-slider-item-price {
     font: normal normal normal 16px/20px Montserrat;
   }
+}
+.aticle-box {
+  position: relative;
+  overflow: hidden;
+  /* margin-bottom: 80px; */
+  /*This is optional*/
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.rosa-collection-slider .owl-stage {
+  display: flex;
 }
 .rosa-collection-slider2 {
   display: flex;
@@ -1482,7 +1516,7 @@ input[type="button"] {
   letter-spacing: 0px;
   color: #000000;
   text-transform: uppercase;
-  margin-bottom: 7px;
+  margin-bottom: 12px;
 }
 @media ((min-width: 1200px)) {
   .rosa-header-title {
@@ -1518,10 +1552,10 @@ input[type="button"] {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 50%;
-  padding: 0 1% 0;
+  padding: 44px 2% 27px;
   border-right: 1px solid #dedede;
   border-bottom: 1px solid #dedede;
 }
@@ -1530,6 +1564,7 @@ input[type="button"] {
     width: 25%;
     padding: 0 1% 0;
     aspect-ratio: 0.87468031;
+    justify-content: center;
     align-items: center;
   }
 }

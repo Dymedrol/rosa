@@ -29,11 +29,19 @@
 }
 
 .rosa-collection-slider-header-info-text1 {
-    font: normal normal 500 16px/45px Montserrat;
+    font: normal normal 500 16px/25px Montserrat;
+
+    @media (@L) {
+        font: normal normal 500 16px/45px Montserrat;
+    }
 }
 
 .rosa-collection-slider-header-info-text2 {
-    font: normal normal normal 40px/45px Cormorant;
+    font: normal normal normal 35px/45px Cormorant;
+
+    @media (@L) {
+        font: normal normal normal 40px/45px Cormorant;
+    }
 }
 
 .rosa-collection-slider-header-nav {
@@ -61,13 +69,15 @@
 
 .rosa-collection-slider-item {
     display: flex;
+    flex: 1 0 auto;
+    height: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
     width: 50vw;
     aspect-ratio: 218 / 280;
-    padding: 0 2% 0;
+    padding: 0 5% 40px;
     padding-top: 24px;
     background: #fff;
     border-right: 1px solid #D6D6D6;
@@ -172,4 +182,17 @@
     @media (@L) {
         font: normal normal normal 16px/20px Montserrat;
     }
+}
+
+.aticle-box {
+    position: relative;
+    overflow: hidden;
+    /* margin-bottom: 80px; *//*This is optional*/
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.rosa-collection-slider .owl-stage{
+    display: flex;
 }

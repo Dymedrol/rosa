@@ -24,10 +24,17 @@
               {%- when 'text' -%}
                 <div class="rosa-double-info-text3">{{ block.settings.text }}</div>
               {%- when 'item' -%}
-                <div class="rosa-double-info-list-item">
-                    <img src="{{ block.settings.image | img_url: 'width 20' }}" alt="" class="rosa-double-info-list-item-pic">
-                    <div class="rosa-double-info-list-item-link">{{ block.settings.text }}</div>
-                </div>
+                {% if block.settings.url %}
+                  <a href="{{ block.settings.url }}" class="rosa-double-info-list-item">
+                      <img src="{{ block.settings.image | img_url: 'width 20' }}" alt="" class="rosa-double-info-list-item-pic">
+                      <div class="rosa-double-info-list-item-link">{{ block.settings.text }}</div>
+                  </a>
+                {% else %}
+                  <div class="rosa-double-info-list-item">
+                      <img src="{{ block.settings.image | img_url: 'width 20' }}" alt="" class="rosa-double-info-list-item-pic">
+                      <div class="rosa-double-info-list-item-link">{{ block.settings.text }}</div>
+                  </div>
+                {% endif %}
               {%- when 'accordion' -%}
                 <div class="rosa-double-accordion">
                   <div class="rosa-double-accordion-header">
@@ -148,6 +155,12 @@
           "id": "text",
           "default": "text",
           "label": "text"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "default": "/",
+          "label": "url"
         }
       ]
     },
