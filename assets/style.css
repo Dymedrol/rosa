@@ -977,14 +977,14 @@ input[type="button"] {
 }
 @media ((min-width: 1200px)) {
   .rosa-collection-slider-item {
-    width: 33.3vw;
+    width: calc((100vw - 64px) / 3);
     aspect-ratio: 0.87525151;
-    padding: 0 1% 0;
+    padding: 0 7% 0;
   }
 }
 @media ((min-width: 1440px)) {
   .rosa-collection-slider-item {
-    width: 25vw;
+    width: calc((100vw - 64px) / 4);
   }
 }
 .rosa-collection-slider-item:hover .rosa-collection-slider-item-hover {
@@ -2100,7 +2100,7 @@ input[type="button"] {
 }
 @media ((min-width: 1200px)) {
   .rosa-quote-text {
-    font: italic normal 500 26px/45px Cormorant;
+    font: italic normal 500 26px/30px Cormorant;
     margin-bottom: 10px;
   }
 }
@@ -2486,7 +2486,9 @@ input[type="button"] {
   width: 15px;
 }
 .rosa-subscribe-form-checkbox-input:checked ~ .rosa-subscribe-form-checkbox-mark {
+  display: block !important;
   background: #fff;
+  border-radius: 50%;
 }
 .rosa-subscribe-form-checkbox-text {
   text-align: left;
