@@ -4134,4 +4134,32 @@ input:focus-visible {
   padding-bottom: 5px;
   border-bottom: 1px solid #000;
 }
+.rosa-header4 {
+  padding-top: 98px;
+  padding-bottom: 41px;
+}
+@media ((min-width: 1200px)) {
+  .rosa-header4 {
+    padding-top: 119px;
+    padding-bottom: 85px;
+  }
+}
+.rosa-header4-title {
+  text-align: center;
+  font: normal normal normal 16px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  max-width: 482px;
+  margin: 0 auto 36px;
+}
+.rosa-header4-link {
+  font: normal normal 500 14px/18px Montserrat;
+  letter-spacing: 0.28px;
+  color: #000000;
+  text-align: center;
+}
+.rosa-header4-link a {
+  font: normal normal 600 16px/19px Montserrat;
+  color: #000000;
+}
 
