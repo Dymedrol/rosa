@@ -7,6 +7,7 @@
     },
     "87c2b0ce-92fe-4f34-97e7-5ed52914685b": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "is_full_screen": false,
         "alignment": "center",
@@ -40,6 +41,7 @@
         "1312c37c-fcd6-4d5f-a27a-67cd67baaef0",
         "778acd86-5e0a-4aad-912c-32bf439c7373"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Groupe_175_2x_d86833ec-58e3-4f65-a891-8fe1984f52e3.png",
         "image_mobile": "shopify:\/\/shop_images\/Groupe_175_2x_d86833ec-58e3-4f65-a891-8fe1984f52e3.png"
