@@ -114,7 +114,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Groupe_268_2x_fc878a42-6350-49bf-b725-d04e80d83bff.png",
             "text": "OR RECYCLÉ",
-            "url": "\/"
+            "url": ""
           }
         },
         "cc301d28-41d2-4636-be6c-ed0d8dc8ab67": {
@@ -122,7 +122,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Groupe_269_2x_266b3fa8-6564-4369-92fb-ab42593a5f48.png",
             "text": "DIAMANTS RÉUTILISÉS",
-            "url": "\/"
+            "url": ""
           }
         },
         "e6951df6-74c0-4dc2-8173-2bf78a5ac54f": {
@@ -130,7 +130,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Groupe_270_2x_ddf043e1-125f-414c-b9bc-12d9f55a56ee.png",
             "text": "PACKAGING RECYCLÉ",
-            "url": "\/"
+            "url": ""
           }
         },
         "243fce36-3873-4aa3-b25f-713204a305ec": {
@@ -138,7 +138,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Groupe_271_2x_9d1c7f0b-c3cf-4220-a8bb-cc0e1fd6c33a.png",
             "text": "PIERRES PRÉCIEUSES 100% TRAÇABLES",
-            "url": "\/"
+            "url": ""
           }
         },
         "20637540-e4dd-42b9-83e4-dc4fc58cdcb3": {
@@ -146,14 +146,14 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Icon_awesome-heart_2x_996b6797-3187-432c-8e3f-8042e0406921.png",
             "text": "UNE AUDACE CRÉATIVE",
-            "url": "\/"
+            "url": ""
           }
         },
         "dc525a5f-fbe2-4154-a41b-14e3b349ec3b": {
           "type": "link",
           "settings": {
             "link_text": "COMPRENDRE NOTRE ETHIQUE",
-            "link_url": ""
+            "link_url": "shopify:\/\/pages\/notre-or-recycle"
           }
         }
       },
@@ -224,14 +224,14 @@
           "type": "link",
           "settings": {
             "link_text": "NOS SERVICES EN DÉTAIL",
-            "link_url": ""
+            "link_url": "shopify:\/\/pages\/prendre-rendez-vous"
           }
         },
         "2f93fbf4-a58e-4b4f-95f5-7eff1dae256b": {
           "type": "link",
           "settings": {
             "link_text": "NOUS CONTACTER",
-            "link_url": ""
+            "link_url": "shopify:\/\/pages\/nous-contacter"
           }
         }
       },
@@ -276,7 +276,7 @@
         "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun.»",
         "text2": "Patricia Perreda - Directrice artistique Rosa Maitea",
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM",
-        "link_url": "\/",
+        "link_url": "shopify:\/\/pages\/prendre-rendez-vous",
         "padding_top": 50,
         "padding_bottom": 100
       }
@@ -287,7 +287,7 @@
         "text1": "LA JOAILLERIE ÉTHIQUE ET VISIONNAIRE",
         "text2": "LA JOAILLERIE ÉTHIQUE ET VISIONNAIRE",
         "link_text": "VOIR TOUTES NOS ACTUALITÉS",
-        "link_url": "\/",
+        "link_url": "shopify:\/\/blogs\/le-blog-de-rosa-maitea",
         "blog": "le-blog-de-rosa-maitea"
       }
     },
@@ -296,7 +296,7 @@
       "settings": {
         "text1": "RÉSEAU SOCIAUX",
         "text2": "RETROSPECTIVE SPREAD LOVE",
-        "text3": "<p>Nous rejoindre <a href=\"\/\">@rosamaitea<\/a><\/p>",
+        "text3": "<p>Nous rejoindre <a href=\"https:\/\/www.instagram.com\/rosa_maitea\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/rosa_maitea\/\">@rosamaitea<\/a><\/p>",
         "padding_top": 120,
         "padding_bottom": 85
       }

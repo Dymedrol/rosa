@@ -18,11 +18,8 @@
     "main": {
       "type": "main-list-collections",
       "settings": {
-        "title": "Collections",
-        "sort": "alphabetical",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "columns_mobile": "2"
+        "padding_top": 0,
+        "padding_bottom": 130
       }
     },
     "6fbb0f32-8f2d-4d5d-b36c-eb2cd570ff42": {
@@ -33,18 +30,22 @@
         "text1": "LA JOAILLERIE ÉTHIQUE ROSA MAITEA",
         "text2": "LOVE FOREVER",
         "text3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
-        "collection": "bagues"
+        "collection": "tourbillon",
+        "padding_top": 0,
+        "padding_bottom": 120
       }
     },
     "3b5f896c-968b-427a-9277-e94486975249": {
       "type": "collection-slider-with-pic",
       "settings": {
         "is_reverse": false,
-        "slider_2_image": "shopify:\/\/shop_images\/DSC0642_2x_755f976b-0017-45c3-9f9c-d7ef5f21b9e3.png",
+        "slider_2_image": "shopify:\/\/shop_images\/DSC1014_2x_3b91fa79-f029-42f6-a1df-ad39991d69ab.png",
         "text1": "LA JOAILLERIE ÉTHIQUE ROSA MAITEA",
-        "text2": "LOVE FOREVER",
+        "text2": "LA MARGARITA",
         "text3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
-        "collection": "boucles-doreilles"
+        "collection": "la-margarita-de-rosa-maitea-edition-limitee",
+        "padding_top": 0,
+        "padding_bottom": 120
       }
     },
     "2dcff7fa-aa57-4e02-ad3e-58106b26f48f": {
@@ -124,7 +125,9 @@
         "131d4827-a78c-4cc4-ac9c-fb5f2175cf15"
       ],
       "settings": {
-        "title1": "DES SELECTIONS POUR TOUTES LES OCCASIONS"
+        "title1": "DES SELECTIONS POUR TOUTES LES OCCASIONS",
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "b9e5d08b-4bcc-42a0-bd02-b0a53972b7ca": {
@@ -135,7 +138,9 @@
         "text1": "LA JOAILLERIE ÉTHIQUE ROSA MAITEA",
         "text2": "A BONNE ÉTOILE",
         "text3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
-        "collection": "bracelets"
+        "collection": "bracelets",
+        "padding_top": 0,
+        "padding_bottom": 130
       }
     },
     "27f470dc-84fb-4a95-b1a7-9bce1791a6a7": {
@@ -146,14 +151,18 @@
         "text1": "LA JOAILLERIE ÉTHIQUE ROSA MAITEA",
         "text2": "A BONNE ÉTOILE",
         "text3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
-        "collection": "bracelets"
+        "collection": "bracelets",
+        "padding_top": 0,
+        "padding_bottom": 130
       }
     },
     "08507394-5aa3-493c-88b0-98fa8f0b6564": {
       "type": "rosa-header2",
       "settings": {
         "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
-        "text2": "UNE MARQUE HUMAINE À VIVRE"
+        "text2": "UNE MARQUE HUMAINE À VIVRE",
+        "padding_top": 0,
+        "padding_bottom": 25
       }
     },
     "769fa50d-6e00-44ba-b8b3-dd426c9cc112": {
@@ -172,7 +181,9 @@
         "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun.»",
         "text2": "Patricia Perreda - Directrice artistique Rosa Maitea",
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
-        "link_url": "\/"
+        "link_url": "\/",
+        "padding_top": 50,
+        "padding_bottom": 70
       }
     },
     "979cc0cf-9cde-43a9-a629-7a8418dde9b2": {
@@ -253,7 +264,7 @@
         "image": "shopify:\/\/shop_images\/pic2.png",
         "is_reverse": false,
         "is_centred": false,
-        "padding_top": 45,
+        "padding_top": 0,
         "padding_bottom": 45
       }
     }
