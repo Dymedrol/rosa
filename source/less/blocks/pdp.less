@@ -59,13 +59,14 @@
     @media (@L) {
         width: calc(50% - 7px);
         height: auto;
-        aspect-ratio: 1 / 1;
     }
 
     & img {
+        height: 100%;
+        width: 100%;
 
         @media (@L) {
-            aspect-ratio: 1;
+            aspect-ratio: 1 / 1;
             object-fit: cover;
         }
     }

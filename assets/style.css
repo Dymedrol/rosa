@@ -3152,8 +3152,11 @@ input[type="button"] {
   .rosa-pdp-pics-pic {
     width: calc(50% - 7px);
     height: auto;
-    aspect-ratio: 1;
   }
+}
+.rosa-pdp-pics-pic img {
+  height: 100%;
+  width: 100%;
 }
 @media ((min-width: 1200px)) {
   .rosa-pdp-pics-pic img {
