@@ -144,20 +144,11 @@
 }
 
 .rosa-pdp-select-wrapper {
+    position: relative;
     flex-grow: 1;
 
     & select {
-        border: 0;
-        border-bottom: 1px solid #000;
-        padding-bottom: 12px;
-        width: 100%;
-    }
-
-    & select:focus, select:focus-visible {
-        border: 0;
-        border-bottom: 1px solid #000;
-        outline: none;
-        box-shadow: unset;
+        display: none;
     }
 }
 
@@ -165,7 +156,7 @@
 .rosa-pdp-info-controls-item {
     position: relative;
     width: 100%;
-    font: normal normal medium 11px/9px Montserrat;
+    font: normal normal 500 11px/9px Montserrat;
     letter-spacing: 0px;
     color: #000000;
     text-transform: uppercase;
@@ -182,6 +173,30 @@
         position: absolute;
     }
 }
+
+.rosa-pdp-info-controls-item-menu {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 3px 6px #00000029;
+    padding: 16px 11px;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.rosa-pdp-info-controls-item-menu-el {
+    cursor: pointer;
+    font: normal normal 500 14px/27px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    padding-left: 6px;
+}
+
+.rosa-pdp-info-controls-item-menu-el:hover {
+    background-color: #f4f4f4;
+}
+
 
 .rosa-pdp-info-links {
     margin-bottom: 61px;

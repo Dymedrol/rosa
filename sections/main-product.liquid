@@ -24,8 +24,9 @@
 
                 <form action="/cart/add" method="post" enctype="multipart/form-data">
                   <div class="rosa-pdp-info-controls">
+
                       {%- for option in product.options_with_values -%}
-                        <div class="custom-select rosa-pdp-select-wrapper">
+                        <div class="rosa-pdp-select-wrapper">
                           <select name="{{ option.name | handleize }}" class="js-pdp-select">
                             {%- for value in option.values -%}
                               <option value="{{ value | escape }}">
@@ -33,7 +34,18 @@
                               </option>
                             {%- endfor -%}
                           </select>
-                      </div>
+                          <div class="rosa-pdp-info-controls-item">
+                            <span>{{ option.name | handleize }}</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="6.328" height="4.425" viewBox="0 0 6.328 4.425">
+                              <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M9.353,14.337l2.393-2.929a.4.4,0,0,1,.639,0,.65.65,0,0,1,0,.783L9.673,15.51a.4.4,0,0,1-.624.016l-2.73-3.332a.648.648,0,0,1,0-.783.4.4,0,0,1,.639,0Z" transform="translate(-6.188 -11.246)"/>
+                            </svg>
+                          </div>
+                          <div class="rosa-pdp-info-controls-item-menu">
+                            {%- for value in option.values -%}
+                              <div class="rosa-pdp-info-controls-item-menu-el" data-value="{{ value | escape }}">{{ value | escape }}</div>
+                            {%- endfor -%}
+                          </div>
+                        </div>
                       {%- endfor -%}
                   </div>
 
