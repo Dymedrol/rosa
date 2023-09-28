@@ -120,8 +120,8 @@
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
       "type": "rosa-header2",
       "settings": {
-        "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
-        "text2": "NE MARQUE HUMAINE À VIVRE"
+        "text1": "STORIES OF LOVE",
+        "text2": "L’HISTOIRE RACONTÉ PAR LA CRÉATRICE"
       }
     },
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1": {
@@ -129,7 +129,7 @@
       "settings": {
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify:\/\/shop_images\/video.png",
+        "cover_image": "shopify:\/\/shop_images\/Image_2x_c4de323d-dc7c-4fc8-9889-fc98efa82c72.png",
         "description": "",
         "full_width": false
       }
