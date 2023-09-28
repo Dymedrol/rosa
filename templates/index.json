@@ -3,7 +3,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "is_full_screen": true,
+        "is_full_screen": false,
         "alignment": "left",
         "text_color": "#ffffff",
         "image_banner_title_text": "TOUS LES PRODUITS DE NOTRE JOAILLERIE ÉTHIQUE ONT UNE HISTOIRE",
@@ -13,7 +13,9 @@
         "image_banner_link_text": "DÉCOUVRIR NOS PRODUITS",
         "image_banner_link_url": "shopify:\/\/collections\/all",
         "banner_image": "shopify:\/\/shop_images\/jumbo.png",
-        "banner_image_mobile": "shopify:\/\/shop_images\/jumbo-mobile.png"
+        "banner_image_mobile": "shopify:\/\/shop_images\/jumbo-mobile.png",
+        "padding_top": 200,
+        "padding_bottom": 200
       }
     },
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9": {
@@ -21,7 +23,9 @@
       "settings": {
         "title1": "NOS CRÉATIONS ÉTHIQUE ET DURABLE",
         "title2": "LA JOAILLERIE ÉTHIQUE ROSA MAÏTEA",
-        "collection": "bagues"
+        "collection": "bagues",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "555ee7ae-ed60-4f7c-bf8c-fe18132779a1": {
@@ -32,14 +36,18 @@
         "text1": "LA JOAILLERIE ÉTHIQUE ROSA MAÏTEA",
         "text2": "NOS CRÉATIONS DURABLES",
         "text3": "La collection Margarita retrace l’histoire d’une bombe d’amour",
-        "collection": "bagues"
+        "collection": "bagues",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "f997dd8a-2291-4fc6-bedc-9faa72cbe9bc": {
       "type": "rosa-header",
       "settings": {
         "text1": "DES COLLECTIONS PLEINES D’AMOUR & D’ESPOIR",
-        "text2": "pour les utopistes et les rêveurs qui souhaitent de la joaillerie éthique et durable"
+        "text2": "pour les utopistes et les rêveurs qui souhaitent de la joaillerie éthique et durable",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "2c663638-02bd-4aa4-a99b-760dc268b2d9": {
@@ -77,6 +85,8 @@
         "b1fdbd2a-02c1-4229-a323-2cb61e8c4390"
       ],
       "settings": {
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "d1b389fe-0917-4513-a4c9-41c5fa302df5": {
@@ -241,7 +251,9 @@
       "type": "rosa-header2",
       "settings": {
         "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
-        "text2": "UNE MARQUE HUMAINE À VIVRE"
+        "text2": "UNE MARQUE HUMAINE À VIVRE",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "fb0161b6-421e-47b5-8d9b-cb8f4b27ec2b": {
@@ -260,7 +272,9 @@
         "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun.»",
         "text2": "Patricia Perreda - Directrice artistique Rosa Maitea",
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM",
-        "link_url": "\/"
+        "link_url": "\/",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "292c19ec-b340-48bf-b520-dbe10d9f1cb6": {
@@ -278,7 +292,9 @@
       "settings": {
         "text1": "RÉSEAU SOCIAUX",
         "text2": "RETROSPECTIVE SPREAD LOVE",
-        "text3": "<p>Nous rejoindre <a href=\"\/\">@rosamaitea<\/a><\/p>"
+        "text3": "<p>Nous rejoindre <a href=\"\/\">@rosamaitea<\/a><\/p>",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "f0e61fa0-5073-4fea-bdf8-1f215e702ff2": {
@@ -337,6 +353,8 @@
         "b6b6d1f2-e8a4-443f-86ae-c86fc7555df4"
       ],
       "settings": {
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     }
   },
