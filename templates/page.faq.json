@@ -13,8 +13,11 @@
       "settings": {
         "is_full_screen": false,
         "alignment": "center",
+        "text_color": "#ffffff",
         "image_banner_title_text": "QUESTIONS FRÉQUENTES",
+        "is_title_big": true,
         "image_banner_subtitle_text": "",
+        "is_text_big": false,
         "image_banner_link_text": "",
         "image_banner_link_url": "\/",
         "banner_image": "shopify:\/\/shop_images\/Groupe_175_2x_f3764dad-214f-4f00-8fc0-ed7e57661974.png"
@@ -75,7 +78,9 @@
         "40c88a02-dca2-4375-bda9-0b31136162c1"
       ],
       "settings": {
-        "title": "ESSAYAGES ET ACCOMPAGNEMENT DANS LE CHOIX D’UN BIJOU"
+        "title": "ESSAYAGES ET ACCOMPAGNEMENT DANS LE CHOIX D’UN BIJOU",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "81cc3d3b-07a6-429a-a6e2-13df447dc38b": {
@@ -117,7 +122,9 @@
         "ab6aab5d-10a0-43af-bf92-f749c6ddd1cc"
       ],
       "settings": {
-        "title": "GUIDE DES TAILLES"
+        "title": "GUIDE DES TAILLES",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "613974aa-4403-40b6-b7d6-06a3577dbf8f": {
@@ -151,7 +158,9 @@
         "077f0cfa-f150-43eb-aa5a-0f05d4fe38f0"
       ],
       "settings": {
-        "title": "COMMANDE"
+        "title": "COMMANDE",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "55fb1268-2d8e-433a-91a9-1598664f3a6a": {
@@ -177,7 +186,9 @@
         "ceb3b595-7bcd-495e-aba2-f2783f767d08"
       ],
       "settings": {
-        "title": "FABRICATION DES BIJOUX"
+        "title": "FABRICATION DES BIJOUX",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "80f67356-46e8-4374-ae2a-fc10b0f2d387": {
@@ -219,7 +230,9 @@
         "6cae66a6-5060-4488-9931-bee0be7ba8c7"
       ],
       "settings": {
-        "title": "PROJETS SUR-MESURE"
+        "title": "PROJETS SUR-MESURE",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "6d308f1a-f5aa-43e9-abad-067ed8c19a1a": {
@@ -253,7 +266,9 @@
         "ec8697c2-8e9a-4673-880e-e07cc6440c7a"
       ],
       "settings": {
-        "title": "BIJOUX : SERVICE APRÈS-VENTE"
+        "title": "BIJOUX : SERVICE APRÈS-VENTE",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "13b7c3bf-2a4d-4c10-8c96-bd747dfe6140": {
@@ -299,6 +314,8 @@
         "1aa1fa7c-7f73-484d-b2a3-14a2c1fd6c6f"
       ],
       "settings": {
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     }
   },
