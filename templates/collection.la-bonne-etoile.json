@@ -55,7 +55,7 @@
         "link_text": "PATRICIA - CRÉATRICE DE ROSA MAITEA",
         "link_url": "",
         "padding_top": 45,
-        "padding_bottom": 45
+        "padding_bottom": 60
       }
     },
     "0abbb850-d583-4385-bff9-39737b4428f7": {
@@ -98,7 +98,7 @@
         "image": "shopify:\/\/shop_images\/DSC1014_2x_0afe30bf-36f5-45ef-9c5d-1ec8be3b0cf5.png",
         "is_reverse": true,
         "is_centred": true,
-        "padding_top": 50,
+        "padding_top": 0,
         "padding_bottom": 45
       }
     },
