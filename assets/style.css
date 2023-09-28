@@ -3770,6 +3770,7 @@ input[type="button"] {
 }
 .rosa-blogs-page-filters {
   display: flex;
+  display: none;
   flex-wrap: wrap;
   gap: 20px;
   margin: 0 auto;
