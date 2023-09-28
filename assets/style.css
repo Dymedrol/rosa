@@ -2144,7 +2144,7 @@ input[type="button"] {
 }
 @media ((min-width: 1200px)) {
   .rosa-quote-author {
-    font: italic normal 500 20px/45px Cormorant;
+    font: italic normal 500 20px/30px Cormorant;
     margin-bottom: 45px;
   }
 }
