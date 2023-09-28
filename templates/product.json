@@ -2,125 +2,7 @@
   "sections": {
     "main": {
       "type": "main-product",
-      "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
-            "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "vendor",
-        "title",
-        "caption",
-        "price",
-        "variant_picker",
-        "quantity_selector",
-        "buy_buttons",
-        "description",
-        "collapsible-row-0",
-        "collapsible-row-1",
-        "collapsible-row-2",
-        "collapsible-row-3",
-        "share"
-      ],
       "settings": {
-        "enable_sticky_info": true,
-        "media_size": "large",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "gallery_layout": "stacked",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "mobile_thumbnails": "hide",
-        "hide_variants": true,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 12
       }
     },
     "related-products": {
@@ -217,14 +99,19 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/aaaaaa.png",
-        "is_reverse": false
+        "is_reverse": false,
+        "is_centred": false,
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "0f32b7f0-f6d3-48bc-a764-d95b9d90cd6a": {
       "type": "rosa-header2",
       "settings": {
         "text1": "LES CONSEILS DE ROSA MAITEA",
-        "text2": "RENDRE SOIN DE SON BIJOUX"
+        "text2": "RENDRE SOIN DE SON BIJOUX",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "717bc189-467a-47c3-8794-1ec35b80e2e9": {
@@ -242,15 +129,21 @@
       "settings": {
         "text1": "Suspendisse a ex lacus. Vivamus quis eros sit amet nisi faucibus aliquam. Donec vitae mattis risus. Curabitur neque magna, ornare non erat sit amet,.",
         "text2": "",
-        "text3": "<p>EN SAVOIR PLUS<\/p>"
+        "text3": "<p><a href=\"\/\" target=\"_blank\" title=\"\/\">EN SAVOIR PLUS<\/a><\/p>",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "6e02a8cf-0c84-43f0-b182-6ee54d34c2dd": {
       "type": "image-banner",
       "settings": {
-        "right": true,
+        "is_full_screen": false,
+        "alignment": "center",
+        "text_color": "#ffffff",
         "image_banner_title_text": "LA COLLECTION XXXXX",
+        "is_title_big": false,
         "image_banner_subtitle_text": "",
+        "is_text_big": false,
         "image_banner_link_text": "DÉCOUVRIR LA COLLECTION",
         "image_banner_link_url": "\/",
         "banner_image": "shopify:\/\/shop_images\/Groupe_308_2x_275f4324-7444-4c82-8d6e-f7a3c33773f7.png"
