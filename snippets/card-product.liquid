@@ -7,7 +7,7 @@
             <a href="{{ card_product.url }}" class="collecton-list-item-hover-controls-item">FICHE PRODUIT</a>
         </div>
     </div>
-    <img src="{{ card_product.featured_image | img_url: '318x203', crop: 'center' }}" alt="" class="collecton-list-item-pic">
+    <img src="{{ card_product.featured_image | img_url: '318x203' }}" alt="" class="collecton-list-item-pic">
     <div class="collecton-list-item-title">{{ card_product.title }}</div>
     <div class="collecton-list-item-text">Or recyclé 18 carats, diamants recyclés</div>
     <div class="collecton-list-item-price">{{ card_product.price | money_without_trailing_zeros }}</div>
