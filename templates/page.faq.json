@@ -13,7 +13,7 @@
       "settings": {
         "is_full_screen": false,
         "alignment": "center",
-        "text_color": "#ffffff",
+        "text_color": "#000000",
         "image_banner_title_text": "QUESTIONS FRÉQUENTES",
         "is_title_big": true,
         "image_banner_subtitle_text": "",
