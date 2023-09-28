@@ -367,8 +367,8 @@
         "c9c32d72-5c5b-447b-a965-d282e518e742"
       ],
       "settings": {
-        "padding_top": 45,
-        "padding_bottom": 45
+        "padding_top": 0,
+        "padding_bottom": 55
       }
     }
   },
