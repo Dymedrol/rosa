@@ -3,8 +3,13 @@
     "412100ed-0ed8-496c-b02e-a79e3d4968e0": {
       "type": "image-banner",
       "settings": {
+        "is_full_screen": true,
+        "alignment": "left",
+        "text_color": "#ffffff",
         "image_banner_title_text": "TOUTES NOS COLLECTION ÉTHIQUES ONT UNE HISTOIRE",
+        "is_title_big": false,
         "image_banner_subtitle_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+        "is_text_big": false,
         "image_banner_link_text": "",
         "image_banner_link_url": "",
         "banner_image": "shopify:\/\/shop_images\/Groupe_251_2x_cd442a4b-06db-45a1-ad19-e849d39badeb.png"
@@ -190,35 +195,40 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Groupe_268_2x_fc878a42-6350-49bf-b725-d04e80d83bff.png",
-            "text": "OR RECYCLÉ"
+            "text": "OR RECYCLÉ",
+            "url": "\/"
           }
         },
         "e55a5cf6-aedd-47c7-ba1e-66644d45c1b4": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Groupe_269_2x_266b3fa8-6564-4369-92fb-ab42593a5f48.png",
-            "text": "DIAMANTS RÉUTILISÉS"
+            "text": "DIAMANTS RÉUTILISÉS",
+            "url": "\/"
           }
         },
         "8d1aa989-0424-48f1-b37f-b723ebcbd03d": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Groupe_270_2x_ddf043e1-125f-414c-b9bc-12d9f55a56ee.png",
-            "text": "PACKAGING RECYCLÉ"
+            "text": "PACKAGING RECYCLÉ",
+            "url": "\/"
           }
         },
         "6d8c597f-8c10-4da7-9dab-1f20fb95a1da": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Groupe_271_2x_9d1c7f0b-c3cf-4220-a8bb-cc0e1fd6c33a.png",
-            "text": "PIERRES PRÉCIEUSES 100% TRAÇABLES"
+            "text": "PIERRES PRÉCIEUSES 100% TRAÇABLES",
+            "url": "\/"
           }
         },
         "069ea80f-06f5-4fa2-b431-51b1869358c3": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Icon_awesome-heart_2x_996b6797-3187-432c-8e3f-8042e0406921.png",
-            "text": "UNE AUDACE CRÉATIVE"
+            "text": "UNE AUDACE CRÉATIVE",
+            "url": "\/"
           }
         },
         "c83904e0-b6c3-4325-ac72-42f380849b34": {
@@ -241,7 +251,10 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pic2.png",
-        "is_reverse": false
+        "is_reverse": false,
+        "is_centred": false,
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     }
   },
