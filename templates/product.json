@@ -138,7 +138,7 @@
       "type": "image-banner",
       "settings": {
         "is_full_screen": false,
-        "alignment": "center",
+        "alignment": "left",
         "text_color": "#ffffff",
         "image_banner_title_text": "LA COLLECTION XXXXX",
         "is_title_big": false,
