@@ -19,7 +19,7 @@
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9": {
       "type": "collection-slider",
       "custom_css": [
-        "@media screen and (max-width: 480px) {.section-template--19626079813962__7556615b-ec09-4647-80d0-eb3a4b55c8a9-padding {padding-bottom:0px!important;}}"
+        "@media screen and (max-width: 480px) {.section-template--19626079813962__7556615b-ec09-4647-80d0-eb3a4b55c8a9-padding {padding-bottom: 0px !important; }}"
       ],
       "settings": {
         "title1": "NOS CRÉATIONS ÉTHIQUE ET DURABLE",
@@ -84,6 +84,9 @@
         "e7ee6c50-3de2-48d0-9d89-c69036f71f11",
         "3dddee65-7fa1-4a65-856f-53e673d865cb",
         "b1fdbd2a-02c1-4229-a323-2cb61e8c4390"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 480px) {.section-template--19626079813962__2c663638-02bd-4aa4-a99b-760dc268b2d9-padding {padding-bottom: 0px !important; }}"
       ],
       "settings": {
         "padding_top": 0,
