@@ -1,8 +1,28 @@
 {
   "sections": {
+    "89fec398-792b-4c2b-98ef-d072a1c73f00": {
+      "type": "rosa-quote3",
+      "settings": {
+        "text1": "TOUTES NOS BAGUES",
+        "text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.",
+        "padding_top": 115,
+        "padding_bottom": 50
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "ea27f3f5-f399-447e-8b10-f3c3ec73bf76": {
+      "type": "rosa-header",
+      "disabled": true,
+      "settings": {
+        "text1": "TOUTES NOS BAGUES",
+        "text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "product-grid": {
@@ -44,7 +64,9 @@
     }
   },
   "order": [
+    "89fec398-792b-4c2b-98ef-d072a1c73f00",
     "banner",
+    "ea27f3f5-f399-447e-8b10-f3c3ec73bf76",
     "product-grid",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
