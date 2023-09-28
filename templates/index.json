@@ -13,9 +13,7 @@
         "image_banner_link_text": "DÉCOUVRIR NOS PRODUITS",
         "image_banner_link_url": "shopify:\/\/collections\/all",
         "banner_image": "shopify:\/\/shop_images\/jumbo.png",
-        "banner_image_mobile": "shopify:\/\/shop_images\/jumbo-mobile.png",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "banner_image_mobile": "shopify:\/\/shop_images\/jumbo-mobile.png"
       }
     },
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9": {
@@ -37,8 +35,8 @@
         "text2": "NOS CRÉATIONS DURABLES",
         "text3": "La collection Margarita retrace l’histoire d’une bombe d’amour",
         "collection": "bagues",
-        "padding_top": 45,
-        "padding_bottom": 45
+        "padding_top": 0,
+        "padding_bottom": 145
       }
     },
     "f997dd8a-2291-4fc6-bedc-9faa72cbe9bc": {
@@ -46,7 +44,7 @@
       "settings": {
         "text1": "DES COLLECTIONS PLEINES D’AMOUR & D’ESPOIR",
         "text2": "pour les utopistes et les rêveurs qui souhaitent de la joaillerie éthique et durable",
-        "padding_top": 45,
+        "padding_top": 0,
         "padding_bottom": 45
       }
     },
@@ -85,8 +83,8 @@
         "b1fdbd2a-02c1-4229-a323-2cb61e8c4390"
       ],
       "settings": {
-        "padding_top": 45,
-        "padding_bottom": 45
+        "padding_top": 0,
+        "padding_bottom": 145
       }
     },
     "d1b389fe-0917-4513-a4c9-41c5fa302df5": {
@@ -168,7 +166,7 @@
         "is_reverse": false,
         "is_centred": false,
         "padding_top": 0,
-        "padding_bottom": 45
+        "padding_bottom": 75
       }
     },
     "a1ef4a98-24c6-4449-85c4-c389414029b2": {
@@ -252,8 +250,8 @@
       "settings": {
         "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
         "text2": "UNE MARQUE HUMAINE À VIVRE",
-        "padding_top": 45,
-        "padding_bottom": 45
+        "padding_top": 90,
+        "padding_bottom": 25
       }
     },
     "fb0161b6-421e-47b5-8d9b-cb8f4b27ec2b": {
@@ -273,8 +271,8 @@
         "text2": "Patricia Perreda - Directrice artistique Rosa Maitea",
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM",
         "link_url": "\/",
-        "padding_top": 45,
-        "padding_bottom": 45
+        "padding_top": 50,
+        "padding_bottom": 100
       }
     },
     "292c19ec-b340-48bf-b520-dbe10d9f1cb6": {
