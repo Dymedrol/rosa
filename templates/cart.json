@@ -3,8 +3,8 @@
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "c1e4b084-f655-45ca-a28e-0b6d9464a9fe": {
@@ -50,6 +50,8 @@
         "e57ffd3c-0e69-46c3-bb05-94e4bb3efe48"
       ],
       "settings": {
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     }
   },
