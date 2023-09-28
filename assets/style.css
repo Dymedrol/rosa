@@ -2212,6 +2212,33 @@ input[type="button"] {
   letter-spacing: 0px;
   color: #000000;
 }
+.rosa-quote4 {
+  padding-top: 30px;
+  padding-bottom: 47px;
+}
+@media ((min-width: 1200px)) {
+  .rosa-quote4 {
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+}
+.rosa-quote4-text {
+  max-width: 816px;
+  margin: 0 auto;
+  text-align: center;
+  font: italic normal 500 25px/30px Cormorant;
+  letter-spacing: 0px;
+  color: #000000;
+  margin-bottom: 24px;
+}
+.rosa-quote4-text2 {
+  max-width: 816px;
+  margin: 0 auto;
+  text-align: center;
+  font: normal normal 500 11px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+}
 .rosa-header3 {
   padding-top: 98px;
   padding-bottom: 41px;
