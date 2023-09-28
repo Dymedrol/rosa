@@ -68,7 +68,7 @@
             </a>
             <a href="{{ routes.search_url }}" class="rosa-menu-mobile-search">Rechercher</a>
 
-            {% for link in linklists.main-menu.links  %}
+            {% for link in linklists.new-main-menu.links  %}
                 {% if link.links.size > 0 %}
                     <div class="rosa-menu-mobile-item-arrow js-mobile-arrow" data-button-undex="{{ forloop.index }}">
                         <span>{{link.title}}</span>
@@ -129,7 +129,7 @@
             </a>
         </div>
 
-        {% for link in linklists.main-menu.links  %}
+        {% for link in linklists.new-main-menu.links  %}
             {% if link.links.size > 0 %}
                 <div class="rosa-menu-open" id="data-open-menu-index-{{ forloop.index }}">
                     <div class="rosa-menu-open-shadow"></div>
@@ -156,8 +156,8 @@
                         {% endfor %}
                         <div class="rosa-menu-open-banner">
                             <img src="{{ section.settings.menu_image | img_url: '370x390', crop: 'center' }}" alt="" class="rosa-menu-open-banner-pic">
-                            <div class="rosa-menu-open-banner-title">{{ section.settings.banner_banner_text }}</div>
-                            <a href="{{ section.settings.banner_banner_link }}" class="rosa-menu-open-banner-link">{{ section.settings.banner_banner_link_text }}</a>
+                            <div class="rosa-menu-open-banner-title">{{ section.settings.menu_text }}</div>
+                            <a href="{{ section.settings.menu_url }}" class="rosa-menu-open-banner-link">{{ section.settings.menu_url_text }}</a>
                         </div>
                     </div>
                 </div>
@@ -258,7 +258,7 @@
             <div class="rosa-menu-nav-bottom">
                 <div class="rosa-menu-nav-bottom-links">
 
-                    {% for link in linklists.main-menu.links limit:4 %}
+                    {% for link in linklists.new-main-menu.links limit:4 %}
                         {% if link.links.size > 0 %}
                             <div class="rosa-menu-nav-item_arrow" data-button-undex="{{ forloop.index }}">
                                 <span>{{ link.title }}</span>
@@ -351,6 +351,24 @@
         "type": "image_picker",
         "id": "menu_image",
         "label": "menu banner image"
+        },
+        {
+          "type": "text",
+          "id": "menu_text",
+          "label": "menu banner text",
+          "default": "text"
+        },
+        {
+          "type": "url",
+          "id": "menu_url",
+          "label": "menu banner url",
+          "default": "/"
+        },
+        {
+          "type": "text",
+          "id": "menu_url_text",
+          "label": "menu banner link text",
+          "default": "link"
         }
     ]
 }

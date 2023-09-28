@@ -711,6 +711,8 @@ input[type="button"] {
 }
 @media ((min-width: 1200px)) {
   .rosa-menu-open-col {
+    display: flex;
+    flex-direction: column;
     padding-bottom: 0;
     border-bottom: none;
     margin-bottom: 0;
@@ -731,6 +733,24 @@ input[type="button"] {
   letter-spacing: 0px;
   color: #000000;
   margin-bottom: 20px;
+}
+.rosa-menu-open-col-item:last-child {
+  margin-top: 40px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 0;
+}
+@media ((min-width: 1200px)) {
+  .rosa-menu-open-col-item:last-child {
+    margin-top: 42px;
+    font: normal normal 500 12px/18px Montserrat;
+  }
+}
+@media ((min-width: 1366px)) {
+  .rosa-menu-open-col-item:last-child {
+    margin-top: 42px;
+    font: normal normal 500 14px/18px Montserrat;
+  }
 }
 .rosa-menu-open-col-collection {
   font: normal normal 500 14px/18px Montserrat;
