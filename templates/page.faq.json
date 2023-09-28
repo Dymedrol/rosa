@@ -29,14 +29,14 @@
         "80723179-beb3-4435-ab47-421665b07ed7": {
           "type": "faq",
           "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?",
+            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM  EIRMOD ?",
             "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?"
           }
         },
         "e2ed839a-4204-4080-a1a3-278c52b7d4e2": {
           "type": "faq",
           "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT ?",
+            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR  ?",
             "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT ?"
           }
         },
@@ -79,8 +79,8 @@
       ],
       "settings": {
         "title": "ESSAYAGES ET ACCOMPAGNEMENT DANS LE CHOIX D’UN BIJOU",
-        "padding_top": 45,
-        "padding_bottom": 45
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "81cc3d3b-07a6-429a-a6e2-13df447dc38b": {
@@ -123,8 +123,8 @@
       ],
       "settings": {
         "title": "GUIDE DES TAILLES",
-        "padding_top": 45,
-        "padding_bottom": 45
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "613974aa-4403-40b6-b7d6-06a3577dbf8f": {
@@ -159,8 +159,8 @@
       ],
       "settings": {
         "title": "COMMANDE",
-        "padding_top": 45,
-        "padding_bottom": 45
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "55fb1268-2d8e-433a-91a9-1598664f3a6a": {
@@ -187,8 +187,8 @@
       ],
       "settings": {
         "title": "FABRICATION DES BIJOUX",
-        "padding_top": 45,
-        "padding_bottom": 45
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "80f67356-46e8-4374-ae2a-fc10b0f2d387": {
@@ -231,8 +231,8 @@
       ],
       "settings": {
         "title": "PROJETS SUR-MESURE",
-        "padding_top": 45,
-        "padding_bottom": 45
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "6d308f1a-f5aa-43e9-abad-067ed8c19a1a": {
@@ -267,8 +267,8 @@
       ],
       "settings": {
         "title": "BIJOUX : SERVICE APRÈS-VENTE",
-        "padding_top": 45,
-        "padding_bottom": 45
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "13b7c3bf-2a4d-4c10-8c96-bd747dfe6140": {
@@ -314,6 +314,59 @@
         "1aa1fa7c-7f73-484d-b2a3-14a2c1fd6c6f"
       ],
       "settings": {
+        "padding_top": 105,
+        "padding_bottom": 20
+      }
+    },
+    "11722537-bb38-4572-be25-23e536d7b1e8": {
+      "type": "rosa-picture-slider",
+      "blocks": {
+        "f3096692-4301-4420-bca5-b1e630ef1012": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC8731_2x_22c01674-dfc4-4d4d-a8d9-8adcba9e0696.png"
+          }
+        },
+        "379ffb85-f412-492d-84c0-75b2cc5c932c": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Groupe_316_2x_2fc3c6d5-4726-498b-b993-6621960f6306.png"
+          }
+        },
+        "e660a877-dd9d-4255-88b9-24d9db2fad59": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC9913_2x_40cbf673-2beb-478e-a846-cddca10d4e4e.png"
+          }
+        },
+        "da04766e-cd6f-4856-89d1-5cb19ab59d2d": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Groupe_336_2x_0f327c74-437a-473f-ba9a-424551c1eb11.png"
+          }
+        },
+        "74f32f77-67c7-45b0-b18b-4c96cb63ac75": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC1014_2x_3b91fa79-f029-42f6-a1df-ad39991d69ab.png"
+          }
+        },
+        "c9c32d72-5c5b-447b-a965-d282e518e742": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC0642_2x_755f976b-0017-45c3-9f9c-d7ef5f21b9e3.png"
+          }
+        }
+      },
+      "block_order": [
+        "f3096692-4301-4420-bca5-b1e630ef1012",
+        "379ffb85-f412-492d-84c0-75b2cc5c932c",
+        "e660a877-dd9d-4255-88b9-24d9db2fad59",
+        "da04766e-cd6f-4856-89d1-5cb19ab59d2d",
+        "74f32f77-67c7-45b0-b18b-4c96cb63ac75",
+        "c9c32d72-5c5b-447b-a965-d282e518e742"
+      ],
+      "settings": {
         "padding_top": 45,
         "padding_bottom": 45
       }
@@ -328,6 +381,7 @@
     "55fb1268-2d8e-433a-91a9-1598664f3a6a",
     "80f67356-46e8-4374-ae2a-fc10b0f2d387",
     "6d308f1a-f5aa-43e9-abad-067ed8c19a1a",
-    "13b7c3bf-2a4d-4c10-8c96-bd747dfe6140"
+    "13b7c3bf-2a4d-4c10-8c96-bd747dfe6140",
+    "11722537-bb38-4572-be25-23e536d7b1e8"
   ]
 }
