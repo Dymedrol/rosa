@@ -5,48 +5,6 @@
       "settings": {
       }
     },
-    "87c2b0ce-92fe-4f34-97e7-5ed52914685b": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "is_full_screen": false,
-        "alignment": "center",
-        "text_color": "#ffffff",
-        "image_banner_title_text": "ESPOIR ET AMOUR",
-        "is_title_big": false,
-        "image_banner_subtitle_text": "LA BONNE ÉTOILE",
-        "is_text_big": false,
-        "image_banner_link_text": "",
-        "image_banner_link_url": "",
-        "banner_image": "shopify:\/\/shop_images\/Groupe_175_2x_d86833ec-58e3-4f65-a891-8fe1984f52e3.png"
-      }
-    },
-    "bf7007ae-c791-46a6-9353-28fedec8268f": {
-      "type": "rosa-backgrounded",
-      "blocks": {
-        "1312c37c-fcd6-4d5f-a27a-67cd67baaef0": {
-          "type": "text",
-          "settings": {
-            "text": "ESPOIR ET AMOUR"
-          }
-        },
-        "778acd86-5e0a-4aad-912c-32bf439c7373": {
-          "type": "heading",
-          "settings": {
-            "heading": "LA BONNE ÉTOILE"
-          }
-        }
-      },
-      "block_order": [
-        "1312c37c-fcd6-4d5f-a27a-67cd67baaef0",
-        "778acd86-5e0a-4aad-912c-32bf439c7373"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Groupe_175_2x_d86833ec-58e3-4f65-a891-8fe1984f52e3.png",
-        "image_mobile": "shopify:\/\/shop_images\/Groupe_175_2x_d86833ec-58e3-4f65-a891-8fe1984f52e3.png"
-      }
-    },
     "39084f29-6060-4853-ac71-dfb3ca4719cb": {
       "type": "rosa-quote",
       "settings": {
@@ -56,6 +14,15 @@
         "link_url": "shopify:\/\/pages\/notre-histoire",
         "padding_top": 45,
         "padding_bottom": 60
+      }
+    },
+    "1af57160-f617-453e-b395-17f64b893ba8": {
+      "type": "rosa-quote4",
+      "settings": {
+        "text1": "text 1",
+        "text2": "text 2",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "0abbb850-d583-4385-bff9-39737b4428f7": {
@@ -142,9 +109,8 @@
   },
   "order": [
     "banner",
-    "87c2b0ce-92fe-4f34-97e7-5ed52914685b",
-    "bf7007ae-c791-46a6-9353-28fedec8268f",
     "39084f29-6060-4853-ac71-dfb3ca4719cb",
+    "1af57160-f617-453e-b395-17f64b893ba8",
     "0abbb850-d583-4385-bff9-39737b4428f7",
     "product-grid",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
