@@ -23,20 +23,24 @@
           <path id="Tracé_56" data-name="Tracé 56" d="M321.328,30.4h-2.985l-3.716-7.833h-10.97l-3.6,7.833H297.07L307.951,7.55h2.682ZM309.3,10.812,305,19.893h8.439Z" transform="translate(-32.328 -0.822)"/>
         </svg>
     </a>
-    <div class="rosa-footer-menu1">
-        <a href="/" class="rosa-footer-menu1-item">JOAILLERIE</a>
-        <a href="/" class="rosa-footer-menu1-item">MARIAGE</a>
-        <a href="/" class="rosa-footer-menu1-item">LA MAISON</a>
-        <a href="/" class="rosa-footer-menu1-item">STORIES OF LOVE</a>
-    </div>
-    <div class="rosa-footer-menu2">
-        <a href="/" class="rosa-footer-menu2-item">FAQ</a>
-        <a href="/" class="rosa-footer-menu2-item">LIVRAISON ET RETOUR</a>
-        <a href="/" class="rosa-footer-menu2-item">NOS SERVICES</a>
-        <a href="/" class="rosa-footer-menu2-item">TRACABILITÉ</a>
-        <a href="/" class="rosa-footer-menu2-item">MENTIONS LÉGALES</a>
-        <a href="/" class="rosa-footer-menu2-item">CGU / CGV</a>
-    </div>
+    {% for link in linklists.new-footer.links  %}
+      {% if forloop.index == 1 %}
+        <div class="rosa-footer-menu1">
+            {% for child_link in link.links %}
+              <a href="{{ child_link.url }}" class="rosa-footer-menu1-item">{{ child_link.title }}</a>
+            {% endfor %}
+        </div>
+      {% endif %}
+      {% if forloop.index == 2 %}
+        <div class="rosa-footer-menu2">
+            {% for child_link in link.links %}
+              <a href="{{ child_link.url }}" class="rosa-footer-menu2-item">{{ child_link.title }}</a>
+            {% endfor %}
+        </div>
+      {% endif %}
+    {% endfor %}
+
+
     <div class="rosa-footer-menu3">
         <a href="https://rosamaitea.com/pages/nous-contacter" class="rosa-footer-menu3-item">NOUS CONTACTER</a>
         <a href="https://rosamaitea.com/pages/prendre-rendez-vous" class="rosa-footer-menu3-item">PRENDRE RENDEZ-VOUS</a>
@@ -54,7 +58,7 @@
         </div>
     </div>
     <div class="rosa-footer-copy">
-        <div class="rosa-footer-copy-inner container">Copyright © Date Name. All rights reserved.</div>
+        <div class="rosa-footer-copy-inner container">Copyright © {{ "now" | date: "%Y" }}. All rights reserved.</div>
     </div>
 </footer>
 
