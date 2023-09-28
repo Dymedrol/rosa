@@ -2,6 +2,9 @@
   "sections": {
     "main": {
       "type": "main-product",
+      "custom_css": [
+        "@media ((min-width: 1200px)) {.rosa-pdp {padding-top: 35px !important; }}"
+      ],
       "settings": {
       }
     },
