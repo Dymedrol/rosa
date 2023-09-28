@@ -19,7 +19,7 @@
         <div class="rosa-pdp-col">
             <div class="rosa-pdp-info">
                 <div class="rosa-pdp-info-title">{{ product.title }}</div>
-                <div class="rosa-pdp-info-text">Or recyclé 18 carats, diamants recyclés, spinelles et grenats traçables</div>
+                <div class="rosa-pdp-info-text">{{ product.vendor }}</div>
                 <div class="rosa-pdp-info-price">{{ product.price | money_without_trailing_zeros }}</div>
 
                 <form action="/cart/add" method="post" enctype="multipart/form-data">
@@ -51,11 +51,7 @@
 
                   <select name="id" type="hidden" class="hidden js-main-select">
                     {% for variant in product.variants %}
-                      {% if variant.available == true %}
                         <option value="{{variant.id}}"> {{ variant.title }}</option>
-                      {% else %}
-                        <option disabled="disabled"> {{ variant.title }} - sold out!</option>
-                      {% endif %}
                     {% endfor %}
                   </select>
 
@@ -67,7 +63,7 @@
 
                 <a href="/" class="rosa-pdp-info-rendez-vous">PRENDRE RENDEZ-VOUS AU SHOWROOM</a>
                 <div class="rosa-pdp-info-text2">
-                    <span>Livraison estimée à partir du 9 Juin</span>
+                    <span>Livraison estimée à partir du <b>9 Juin</b></span>
 
                     <svg xmlns="http://www.w3.org/2000/svg" width="19.266" height="19.266" viewBox="0 0 19.266 19.266">
                       <g id="Icon_feather-info" data-name="Icon feather-info" transform="translate(-2 -2)">
@@ -81,9 +77,7 @@
                 <div class="rosa-pdp-info-bar"></div>
                 <div class="rosa-pdp-info-description-title">DESCRIPTION ET DETAILS</div>
                 <div class="rosa-pdp-info-description-subtitle">Description du produit :</div>
-                <div class="rosa-pdp-info-description-text">Wrapped around the wearer in a continuous, unbroken circle, this hinged bangle features scintillating diamonds and a strong « T » motif at the center. A reinvention of a Tiffany icon, Tiffany T1 designs represent individual strength and perpetual power, worn outwardly to express what lies within. Stack this hinged bangle with other Tiffany T bracelets for a bold look, or simply wear it on its own.</div>
-                <div class="rosa-pdp-info-description-subtitle">Détail matières :</div>
-                <div class="rosa-pdp-info-description-text"> 18k rose gold with round brilliant diamonds<br>•Size medium<br>• Fits wrists up to 6.25 »<br>• Carat total weight 1.00<br>• Product number:68315778</div>
+                <div class="rosa-pdp-info-description-text">{{ product.description }}</div>
                 <div class="rosa-pdp-info-bar2"></div>
             </div>
         </div>
