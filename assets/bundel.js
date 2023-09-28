@@ -129,7 +129,7 @@ eval("\n\nvar stylesInDom = {};\n\nvar isOldIE = function isOldIE() {\n  var mem
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"initCollectionSliderWithSidePic\", function() { return initCollectionSliderWithSidePic; });\nconst initCollectionSliderWithSidePic = () => {\n  $(\".rosa-collection-slider2-info-slider\").owlCarousel({\n    margin: 0,\n    smartSpeed: 500,\n    center: true,\n    items: 1,\n    animateIn: 'ease-out',\n    animateOut: 'ease-out',\n    loop: true,\n    dots: true\n  });\n};\n\n//# sourceURL=webpack:///./source/js/collection-slider-with-side-pic.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"initCollectionSliderWithSidePic\", function() { return initCollectionSliderWithSidePic; });\nconst initCollectionSliderWithSidePic = () => {\n  $(\".rosa-collection-slider2-info-slider\").owlCarousel({\n    margin: 0,\n    smartSpeed: 500,\n    center: true,\n    items: 1,\n    animateIn: 'ease-out',\n    animateOut: 'ease-out',\n    loop: false,\n    dots: true\n  });\n};\n\n//# sourceURL=webpack:///./source/js/collection-slider-with-side-pic.js?");
 
 /***/ }),
 

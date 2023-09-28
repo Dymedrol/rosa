@@ -6,7 +6,7 @@ export const initCollectionSliderWithSidePic = () => {
         items: 1,
         animateIn: 'ease-out',
         animateOut: 'ease-out',
-        loop: true,
+        loop: false,
         dots: true,
     });
 }
