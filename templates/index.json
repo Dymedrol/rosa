@@ -291,8 +291,8 @@
         "text1": "RÉSEAU SOCIAUX",
         "text2": "RETROSPECTIVE SPREAD LOVE",
         "text3": "<p>Nous rejoindre <a href=\"\/\">@rosamaitea<\/a><\/p>",
-        "padding_top": 45,
-        "padding_bottom": 45
+        "padding_top": 120,
+        "padding_bottom": 85
       }
     },
     "f0e61fa0-5073-4fea-bdf8-1f215e702ff2": {
@@ -351,8 +351,8 @@
         "b6b6d1f2-e8a4-443f-86ae-c86fc7555df4"
       ],
       "settings": {
-        "padding_top": 45,
-        "padding_bottom": 45
+        "padding_top": 0,
+        "padding_bottom": 55
       }
     }
   },
