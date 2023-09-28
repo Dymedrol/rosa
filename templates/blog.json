@@ -1,32 +1,29 @@
 {
   "sections": {
-    "main": {
-      "type": "main-blog",
-      "settings": {
-        "layout": "collage",
-        "show_image": true,
-        "image_height": "medium",
-        "show_date": true,
-        "show_author": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "4ac02123-1612-4ceb-8786-a026ef0fa296": {
       "type": "image-banner",
       "settings": {
-        "right": false,
+        "is_full_screen": true,
+        "alignment": "left",
+        "text_color": "#ffffff",
         "image_banner_title_text": "LOREM IPSUM DOLOR SIT AMET.",
+        "is_title_big": false,
         "image_banner_subtitle_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+        "is_text_big": false,
         "image_banner_link_text": "EN SAVOIR PLUS",
         "image_banner_link_url": "\/",
         "banner_image": "shopify:\/\/shop_images\/Groupe_347_2x_22f2e4da-ad31-404d-827e-f4835ae0613a.png",
         "banner_image_mobile": "shopify:\/\/shop_images\/Groupe_347_2x_22f2e4da-ad31-404d-827e-f4835ae0613a.png"
       }
+    },
+    "main": {
+      "type": "main-blog",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main",
-    "4ac02123-1612-4ceb-8786-a026ef0fa296"
+    "4ac02123-1612-4ceb-8786-a026ef0fa296",
+    "main"
   ]
 }
