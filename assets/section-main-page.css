@@ -4,9 +4,9 @@
 
 .main-page-title {
   margin-bottom: 4rem;
-  font: 40px/45px Cormorant;
-  text-align: center;
-  padding-top: 45px;
+  font: 40px/45px Cormorant !important;
+  text-align: center !important;
+  padding-top: 45px !important;
 }
 
 @media screen and (min-width: 750px) {
