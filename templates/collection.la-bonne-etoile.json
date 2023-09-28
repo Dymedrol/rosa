@@ -16,15 +16,6 @@
         "padding_bottom": 60
       }
     },
-    "1af57160-f617-453e-b395-17f64b893ba8": {
-      "type": "rosa-quote4",
-      "settings": {
-        "text1": "text 1",
-        "text2": "text 2",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
     "0abbb850-d583-4385-bff9-39737b4428f7": {
       "type": "double",
       "blocks": {
@@ -110,7 +101,6 @@
   "order": [
     "banner",
     "39084f29-6060-4853-ac71-dfb3ca4719cb",
-    "1af57160-f617-453e-b395-17f64b893ba8",
     "0abbb850-d583-4385-bff9-39737b4428f7",
     "product-grid",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
