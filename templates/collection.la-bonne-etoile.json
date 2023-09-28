@@ -1,5 +1,25 @@
 {
   "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+      }
+    },
+    "87c2b0ce-92fe-4f34-97e7-5ed52914685b": {
+      "type": "image-banner",
+      "settings": {
+        "is_full_screen": false,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "ESPOIR ET AMOUR",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "LA BONNE ÉTOILE",
+        "is_text_big": false,
+        "image_banner_link_text": "",
+        "image_banner_link_url": "",
+        "banner_image": "shopify:\/\/shop_images\/Groupe_175_2x_d86833ec-58e3-4f65-a891-8fe1984f52e3.png"
+      }
+    },
     "bf7007ae-c791-46a6-9353-28fedec8268f": {
       "type": "rosa-backgrounded",
       "blocks": {
@@ -21,12 +41,8 @@
         "778acd86-5e0a-4aad-912c-32bf439c7373"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Groupe_175_2x_d86833ec-58e3-4f65-a891-8fe1984f52e3.png"
-      }
-    },
-    "banner": {
-      "type": "main-collection-banner",
-      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe_175_2x_d86833ec-58e3-4f65-a891-8fe1984f52e3.png",
+        "image_mobile": "shopify:\/\/shop_images\/Groupe_175_2x_d86833ec-58e3-4f65-a891-8fe1984f52e3.png"
       }
     },
     "39084f29-6060-4853-ac71-dfb3ca4719cb": {
@@ -129,8 +145,9 @@
     }
   },
   "order": [
-    "bf7007ae-c791-46a6-9353-28fedec8268f",
     "banner",
+    "87c2b0ce-92fe-4f34-97e7-5ed52914685b",
+    "bf7007ae-c791-46a6-9353-28fedec8268f",
     "39084f29-6060-4853-ac71-dfb3ca4719cb",
     "0abbb850-d583-4385-bff9-39737b4428f7",
     "product-grid",
