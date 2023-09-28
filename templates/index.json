@@ -32,7 +32,7 @@
         "text1": "LA JOAILLERIE ÉTHIQUE ROSA MAÏTEA",
         "text2": "NOS CRÉATIONS DURABLES",
         "text3": "La collection Margarita retrace l’histoire d’une bombe d’amour",
-        "collection": "chaines"
+        "collection": "bagues"
       }
     },
     "f997dd8a-2291-4fc6-bedc-9faa72cbe9bc": {
@@ -99,35 +99,40 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Groupe_268_2x_fc878a42-6350-49bf-b725-d04e80d83bff.png",
-            "text": "OR RECYCLÉ"
+            "text": "OR RECYCLÉ",
+            "url": "\/"
           }
         },
         "cc301d28-41d2-4636-be6c-ed0d8dc8ab67": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Groupe_269_2x_266b3fa8-6564-4369-92fb-ab42593a5f48.png",
-            "text": "DIAMANTS RÉUTILISÉS"
+            "text": "DIAMANTS RÉUTILISÉS",
+            "url": "\/"
           }
         },
         "e6951df6-74c0-4dc2-8173-2bf78a5ac54f": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Groupe_270_2x_ddf043e1-125f-414c-b9bc-12d9f55a56ee.png",
-            "text": "PACKAGING RECYCLÉ"
+            "text": "PACKAGING RECYCLÉ",
+            "url": "\/"
           }
         },
         "243fce36-3873-4aa3-b25f-713204a305ec": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Groupe_271_2x_9d1c7f0b-c3cf-4220-a8bb-cc0e1fd6c33a.png",
-            "text": "PIERRES PRÉCIEUSES 100% TRAÇABLES"
+            "text": "PIERRES PRÉCIEUSES 100% TRAÇABLES",
+            "url": "\/"
           }
         },
         "20637540-e4dd-42b9-83e4-dc4fc58cdcb3": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Icon_awesome-heart_2x_996b6797-3187-432c-8e3f-8042e0406921.png",
-            "text": "UNE AUDACE CRÉATIVE"
+            "text": "UNE AUDACE CRÉATIVE",
+            "url": "\/"
           }
         },
         "dc525a5f-fbe2-4154-a41b-14e3b349ec3b": {
