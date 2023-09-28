@@ -11,7 +11,7 @@
         "image_banner_subtitle_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
         "is_text_big": false,
         "image_banner_link_text": "DÉCOUVRIR NOS PRODUITS",
-        "image_banner_link_url": "shopify:\/\/collections",
+        "image_banner_link_url": "shopify:\/\/collections\/all",
         "banner_image": "shopify:\/\/shop_images\/jumbo.png",
         "banner_image_mobile": "shopify:\/\/shop_images\/jumbo-mobile.png"
       }
