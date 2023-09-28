@@ -3,7 +3,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "is_full_screen": false,
+        "is_full_screen": true,
         "alignment": "left",
         "text_color": "#ffffff",
         "image_banner_title_text": "TOUS LES PRODUITS DE NOTRE JOAILLERIE ÉTHIQUE ONT UNE HISTOIRE",
@@ -14,8 +14,8 @@
         "image_banner_link_url": "shopify:\/\/collections\/all",
         "banner_image": "shopify:\/\/shop_images\/jumbo.png",
         "banner_image_mobile": "shopify:\/\/shop_images\/jumbo-mobile.png",
-        "padding_top": 200,
-        "padding_bottom": 200
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9": {
