@@ -34,8 +34,8 @@
         "text6": "*Champ obligatoire",
         "text7": "Découvrez l’univers utopiste de Rosa Maitea et soyez informés de nos dernières créations, nos évènements et actualités.",
         "text8": "Pour plus d’information, consultez la politique de protection des données de Rosa Maitea.",
-        "padding_top": 45,
-        "padding_bottom": 45
+        "padding_top": 65,
+        "padding_bottom": 0
       }
     },
     "6ebacf1c-b873-4bc1-b26c-42423042a5d2": {
@@ -100,8 +100,61 @@
       ],
       "settings": {
         "title": "NOS POINTS DE VENTE ET BOUTIQUES",
-        "padding_top": 45,
-        "padding_bottom": 70
+        "padding_top": 165,
+        "padding_bottom": 165
+      }
+    },
+    "c3c6c0cf-f2fe-4c17-8148-c00388ab02b9": {
+      "type": "double",
+      "blocks": {
+        "63b7505f-3a3f-4e8c-a69c-0133484aad5b": {
+          "type": "heading",
+          "settings": {
+            "heading1": "NOTRE SHOWROOM",
+            "heading2": "UN ENDROIT INTIMISTE DANS UN DES PLUS BEAU QUARTIER DE PARIS"
+          }
+        },
+        "51bbed8b-c4bc-4ce9-9f52-42230a004d44": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          }
+        },
+        "2cb2cf6b-af61-4ba7-b8e9-14492dca5a07": {
+          "type": "accordion",
+          "settings": {
+            "title": "ADRESSE",
+            "text": "Communiquée lors de la prise de rendez-vous, 75009 Paris HORAIRE D’OUVERTURE Du lundi au vendredi : 9H00 À 19H00 Samedi : 9H00 À 17H00"
+          }
+        },
+        "53087b13-a259-4f82-b6fb-ecc11e9ed8c7": {
+          "type": "accordion",
+          "settings": {
+            "title": "HORAIRE D’OUVERTURE",
+            "text": "Du lundi au vendredi : 9H00 À 19H00 Samedi : 9H00 À 17H00"
+          }
+        },
+        "5800d796-cf82-40f5-9069-4bfe70cc61a1": {
+          "type": "link",
+          "settings": {
+            "link_text": "PRENDRE RENDEZ-VOUS",
+            "link_url": "shopify:\/\/pages\/prendre-rendez-vous"
+          }
+        }
+      },
+      "block_order": [
+        "63b7505f-3a3f-4e8c-a69c-0133484aad5b",
+        "51bbed8b-c4bc-4ce9-9f52-42230a004d44",
+        "2cb2cf6b-af61-4ba7-b8e9-14492dca5a07",
+        "53087b13-a259-4f82-b6fb-ecc11e9ed8c7",
+        "5800d796-cf82-40f5-9069-4bfe70cc61a1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe_316_2x_6fdcb353-1d1d-4865-99e3-3df7b7fa21e6.png",
+        "is_reverse": false,
+        "is_centred": false,
+        "padding_top": 0,
+        "padding_bottom": 125
       }
     }
   },
@@ -109,6 +162,7 @@
     "74bb4f04-de89-45bd-951a-3fe92be32ae4",
     "main",
     "form",
-    "6ebacf1c-b873-4bc1-b26c-42423042a5d2"
+    "6ebacf1c-b873-4bc1-b26c-42423042a5d2",
+    "c3c6c0cf-f2fe-4c17-8148-c00388ab02b9"
   ]
 }
