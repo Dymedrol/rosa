@@ -5,7 +5,10 @@
     "header": {
       "type": "header",
       "settings": {
-        "menu_image": "shopify:\/\/shop_images\/aaa2.png"
+        "menu_image": "shopify:\/\/shop_images\/aaa2.png",
+        "menu_text": "TITRE DE LA SELECTION SUR DEUX LIGNES",
+        "menu_url": "\/",
+        "menu_url_text": "DÉCOUVRIR LA SÉLECTION"
       }
     }
   },
