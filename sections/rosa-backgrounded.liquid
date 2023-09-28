@@ -1,22 +1,22 @@
-    <section class="rosa-backgrounded">
-        <img src="{{ section.settings.image_mobile | img_url: '2732x1336', crop: 'center' }}" alt="" loading="lazy" class="rosa-backgrounded-pic-mobile">
-        <img src="{{ section.settings.image | img_url: '2732x1336', crop: 'center' }}" alt="" loading="lazy" class="rosa-backgrounded-pic">
+<section class="rosa-backgrounded">
+    <img src="{{ section.settings.image_mobile | img_url: '2732x1336', crop: 'center' }}" alt="" loading="lazy" class="rosa-backgrounded-pic-mobile">
+    <img src="{{ section.settings.image | img_url: '2732x1336', crop: 'center' }}" alt="" loading="lazy" class="rosa-backgrounded-pic">
 
-        <div class="rosa-backgrounded-inner">
-            {%- for block in section.blocks -%}
-              {% case block.type %}
-                {%- when 'heading' -%}
-                  <div class="rosa-backgrounded-title">{{ block.settings.heading }}</div>
-                {%- when 'text' -%}
-                  <div class="rosa-backgrounded-text">{{ block.settings.text }}</div>
-                {%- when 'item' -%}
-                    <div class="rosa-backgrounded-list-item">{{ block.settings.text }}</div>
-                {%- when 'link' -%}
-                  <a href="{{ block.settings.link_url }}" class="rosa-backgrounded-link">{{ block.settings.link_text }}</a>
-              {%- endcase -%}
-            {%- endfor -%}
-        </div>
-    </section>
+    <div class="rosa-backgrounded-inner">
+        {%- for block in section.blocks -%}
+          {% case block.type %}
+            {%- when 'heading' -%}
+              <div class="rosa-backgrounded-title">{{ block.settings.heading }}</div>
+            {%- when 'text' -%}
+              <div class="rosa-backgrounded-text">{{ block.settings.text }}</div>
+            {%- when 'item' -%}
+                <div class="rosa-backgrounded-list-item">{{ block.settings.text }}</div>
+            {%- when 'link' -%}
+              <a href="{{ block.settings.link_url }}" class="rosa-backgrounded-link">{{ block.settings.link_text }}</a>
+          {%- endcase -%}
+        {%- endfor -%}
+    </div>
+</section>
 
 {% schema %}
 {

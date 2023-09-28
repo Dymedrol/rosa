@@ -1,5 +1,18 @@
-<section class="rosa-collections">
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
 
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section class="rosa-collections section-{{ section.id }}-padding">
   {% for block in section.blocks %}
 
     <a href="{{ block.settings.collection.url }}" class="rosa-collections-item">
@@ -17,7 +30,6 @@
     </a>
 
   {% endfor %}
-
 </section>
 
 {% schema %}
@@ -27,6 +39,28 @@
     {
       "name": "rosa collections",
       "category": "Custom"
+    }
+  ],
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 45
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 45
     }
   ],
   "max_blocks": 4,
