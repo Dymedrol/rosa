@@ -1,5 +1,12 @@
 {
   "sections": {
+    "5ce2222b-0b31-4f99-9885-c8f19edd09d8": {
+      "type": "rosa-header2",
+      "settings": {
+        "text1": "text 1",
+        "text2": "text 2"
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -9,6 +16,7 @@
     }
   },
   "order": [
+    "5ce2222b-0b31-4f99-9885-c8f19edd09d8",
     "main"
   ]
 }
