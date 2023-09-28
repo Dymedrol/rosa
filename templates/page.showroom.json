@@ -27,7 +27,9 @@
       "type": "rosa-quote2",
       "settings": {
         "text1": "MANIFESTE",
-        "text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+        "text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        "padding_top": 70,
+        "padding_bottom": 70
       }
     },
     "7b65d900-0344-4e58-9e3d-e6c2160f1271": {
@@ -35,7 +37,7 @@
       "settings": {
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify:\/\/shop_images\/Groupe_284_2x_6d2b3bc5-1942-4ed3-ae75-d92f327979b3.png",
+        "cover_image": "shopify:\/\/shop_images\/Image_2x_c4de323d-dc7c-4fc8-9889-fc98efa82c72.png",
         "description": "",
         "full_width": false
       }
@@ -71,7 +73,10 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Image_2x_62a081be-16a4-45d9-8338-424cddf925e7.png",
-        "is_reverse": false
+        "is_reverse": false,
+        "is_centred": false,
+        "padding_top": 90,
+        "padding_bottom": 0
       }
     },
     "39ebf9c9-7997-4a70-91a3-5c921a459945": {
@@ -79,7 +84,9 @@
       "settings": {
         "text1": "NOS ENGAGEMENTS",
         "text2": "LOREM IPSUM DOLOR SIT AMET",
-        "text3": "<p>Suspendisse a ex lacus. Vivamus quis eros sit amet nisi faucibus aliquam. Donec vitae mattis risus. Curabitur neque magna, ornare non erat sit amet, dictum feugiat urna.<\/p>"
+        "text3": "<p>Suspendisse a ex lacus. Vivamus quis eros sit amet nisi faucibus aliquam. Donec vitae mattis risus. Curabitur neque magna, ornare non erat sit amet, dictum feugiat urna.<\/p>",
+        "padding_top": 165,
+        "padding_bottom": 0
       }
     },
     "60210ce3-b49b-44de-8a98-811cc0c212a7": {
@@ -145,15 +152,17 @@
         "151b166d-0925-4835-ba45-5d381a73ebaa"
       ],
       "settings": {
-        "padding_top": 45,
-        "padding_bottom": 45
+        "padding_top": 90,
+        "padding_bottom": 0
       }
     },
     "50a97970-36c4-452e-9885-f6cb72a35c2d": {
       "type": "rosa-quote2",
       "settings": {
         "text1": "LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. NUNC IN ERAT LOREM.",
-        "text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+        "text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+        "padding_top": 90,
+        "padding_bottom": 0
       }
     },
     "9e23fcfd-12bf-4a74-828f-42229764382f": {
@@ -164,14 +173,16 @@
         "link2_text": "FABRICATION ET PARTENAIRES",
         "link2_url": "\/",
         "padding_top": 45,
-        "padding_bottom": 135
+        "padding_bottom": 0
       }
     },
     "65045b80-b25d-42bb-a0b7-16e75d63e285": {
       "type": "rosa-header2",
       "settings": {
         "text1": "IL ÉTTAIT UNE FOIS",
-        "text2": "L’HISTOIRE DE ROSA MAITEA"
+        "text2": "L’HISTOIRE DE ROSA MAITEA",
+        "padding_top": 160,
+        "padding_bottom": 25
       }
     },
     "9f334f8d-80cf-4b5c-8b10-0f1170745a14": {
@@ -190,7 +201,9 @@
         "text1": "« Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. »",
         "text2": "Patricia Perreda - Directrice artistique Rosa Maitea",
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
-        "link_url": "\/"
+        "link_url": "\/",
+        "padding_top": 50,
+        "padding_bottom": 0
       }
     },
     "342e88f4-9b57-4a10-bb2d-96c0eb5061a8": {
@@ -239,7 +252,10 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Image_2x_ed8e1de7-2f02-45d8-8d1e-4c02ef8c5272.png",
-        "is_reverse": true
+        "is_reverse": true,
+        "is_centred": false,
+        "padding_top": 125,
+        "padding_bottom": 160
       }
     },
     "1de1cfcb-2dc7-45a8-bd02-f7716916da12": {
@@ -257,7 +273,9 @@
       "settings": {
         "text1": "RÉSEAU SOCIAUX",
         "text2": "RETROSPECTIVE SPREAD LOVE",
-        "text3": "<p>Nous rejoindre <strong>@rosamaitea<\/strong><\/p>"
+        "text3": "<p>Nous rejoindre <strong>@rosamaitea<\/strong><\/p>",
+        "padding_top": 80,
+        "padding_bottom": 0
       }
     },
     "ece64192-7cd1-4621-8e1c-227f877b30ed": {
@@ -316,6 +334,8 @@
         "2d694221-c05e-452c-bd9a-6b8b00d22945"
       ],
       "settings": {
+        "padding_top": 85,
+        "padding_bottom": 55
       }
     }
   },
