@@ -18,6 +18,9 @@
     },
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9": {
       "type": "collection-slider",
+      "custom_css": [
+        "@media screen and (max-width: 480px) {.section-template--19626079813962__7556615b-ec09-4647-80d0-eb3a4b55c8a9-padding {padding-bottom:0px!important;}}"
+      ],
       "settings": {
         "title1": "NOS CRÉATIONS ÉTHIQUE ET DURABLE",
         "title2": "LA JOAILLERIE ÉTHIQUE ROSA MAÏTEA",
