@@ -899,7 +899,7 @@ input[type="button"] {
 }
 @media ((min-width: 1200px)) {
   .rosa-jumbotron-text_big {
-    font: italic normal medium 20px/25px Cormorant;
+    font: italic normal 500 20px/25px Cormorant;
   }
 }
 .rosa-jumbotron-link {
@@ -3841,7 +3841,7 @@ input[type="button"] {
   min-height: 50px;
 }
 .rosa-blogs-page-item-link {
-  font: normal normal medium 14px/18px Montserrat;
+  font: normal normal 500 14px/18px Montserrat;
   letter-spacing: 0.28px;
   color: #000000;
   text-transform: uppercase;
@@ -3941,7 +3941,7 @@ input:focus-visible {
 .rosa-contacts-rendez-vous {
   display: block;
   width: fit-content;
-  font: normal normal medium 14px/18px Montserrat;
+  font: normal normal 500 14px/18px Montserrat;
   letter-spacing: 0.28px;
   color: #000000;
   text-transform: uppercase;
