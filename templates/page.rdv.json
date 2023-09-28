@@ -1,7 +1,17 @@
 {
   "sections": {
+    "5ce2222b-0b31-4f99-9885-c8f19edd09d8": {
+      "type": "rosa-header2",
+      "settings": {
+        "text1": "",
+        "text2": "Prendre Rendez-vous"
+      }
+    },
     "main": {
       "type": "main-page",
+      "custom_css": [
+
+      ],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -9,6 +19,7 @@
     }
   },
   "order": [
+    "5ce2222b-0b31-4f99-9885-c8f19edd09d8",
     "main"
   ]
 }

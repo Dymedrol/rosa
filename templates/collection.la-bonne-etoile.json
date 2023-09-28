@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+      }
+    },
+    "87c2b0ce-92fe-4f34-97e7-5ed52914685b": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "is_full_screen": false,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "ESPOIR ET AMOUR",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "LA BONNE ÉTOILE",
+        "is_text_big": false,
+        "image_banner_link_text": "",
+        "image_banner_link_url": "",
+        "banner_image": "shopify:\/\/shop_images\/Groupe_175_2x_d86833ec-58e3-4f65-a891-8fe1984f52e3.png"
+      }
+    },
+    "bf7007ae-c791-46a6-9353-28fedec8268f": {
+      "type": "rosa-backgrounded",
+      "blocks": {
+        "1312c37c-fcd6-4d5f-a27a-67cd67baaef0": {
+          "type": "text",
+          "settings": {
+            "text": "ESPOIR ET AMOUR"
+          }
+        },
+        "778acd86-5e0a-4aad-912c-32bf439c7373": {
+          "type": "heading",
+          "settings": {
+            "heading": "LA BONNE ÉTOILE"
+          }
+        }
+      },
+      "block_order": [
+        "1312c37c-fcd6-4d5f-a27a-67cd67baaef0",
+        "778acd86-5e0a-4aad-912c-32bf439c7373"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe_175_2x_d86833ec-58e3-4f65-a891-8fe1984f52e3.png",
+        "image_mobile": "shopify:\/\/shop_images\/Groupe_175_2x_d86833ec-58e3-4f65-a891-8fe1984f52e3.png"
+      }
+    },
+    "39084f29-6060-4853-ac71-dfb3ca4719cb": {
+      "type": "rosa-quote",
+      "settings": {
+        "text1": "",
+        "text2": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
+        "link_text": "PATRICIA - CRÉATRICE DE ROSA MAITEA",
+        "link_url": ""
+      }
+    },
+    "0abbb850-d583-4385-bff9-39737b4428f7": {
+      "type": "double",
+      "blocks": {
+        "b48d1b07-f783-4860-9bae-f0696b4768df": {
+          "type": "heading",
+          "settings": {
+            "heading1": "",
+            "heading2": "NÉ SOUS UNE BONNE ÉTOILE"
+          }
+        },
+        "945a729c-205d-4458-925b-d6e51b394b57": {
+          "type": "text",
+          "settings": {
+            "text": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »"
+          }
+        },
+        "93e10981-8289-4d5c-bb6e-049301519142": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+          }
+        },
+        "5c24ca47-6b39-4935-b80f-2f193dd6ba85": {
+          "type": "link",
+          "settings": {
+            "link_text": "DÉCOUVRIR TOUTE L’HISTOIRE",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "b48d1b07-f783-4860-9bae-f0696b4768df",
+        "945a729c-205d-4458-925b-d6e51b394b57",
+        "93e10981-8289-4d5c-bb6e-049301519142",
+        "5c24ca47-6b39-4935-b80f-2f193dd6ba85"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC1014_2x_0afe30bf-36f5-45ef-9c5d-1ec8be3b0cf5.png",
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 50,
+        "padding_bottom": 45
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
+      "type": "rosa-header2",
+      "settings": {
+        "text1": "STORIES OF LOVE",
+        "text2": "L’HISTOIRE RACONTÉ PAR LA CRÉATRICE"
+      }
+    },
+    "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/Image_2x_c4de323d-dc7c-4fc8-9889-fc98efa82c72.png",
+        "description": "",
+        "full_width": false
+      }
+    },
+    "c35448d9-1175-475c-9d96-16d0b67db72b": {
+      "type": "rosa-quote",
+      "settings": {
+        "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun.»",
+        "text2": "Patricia Perreda - Directrice artistique Rosa Maitea",
+        "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
+        "link_url": "\/"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "87c2b0ce-92fe-4f34-97e7-5ed52914685b",
+    "bf7007ae-c791-46a6-9353-28fedec8268f",
+    "39084f29-6060-4853-ac71-dfb3ca4719cb",
+    "0abbb850-d583-4385-bff9-39737b4428f7",
+    "product-grid",
+    "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
+    "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
+    "c35448d9-1175-475c-9d96-16d0b67db72b"
+  ]
+}
