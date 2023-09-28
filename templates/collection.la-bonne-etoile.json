@@ -53,7 +53,9 @@
         "text1": "",
         "text2": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
         "link_text": "PATRICIA - CRÉATRICE DE ROSA MAITEA",
-        "link_url": ""
+        "link_url": "",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "0abbb850-d583-4385-bff9-39737b4428f7": {
@@ -103,27 +105,17 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "products_per_page": 16,
-        "columns_desktop": 4,
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "enable_filtering": true,
-        "filter_type": "horizontal",
-        "enable_sorting": true,
-        "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 45,
+        "padding_bottom": 35
       }
     },
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
       "type": "rosa-header2",
       "settings": {
         "text1": "STORIES OF LOVE",
-        "text2": "L’HISTOIRE RACONTÉ PAR LA CRÉATRICE"
+        "text2": "L’HISTOIRE RACONTÉ PAR LA CRÉATRICE",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1": {
@@ -142,7 +134,9 @@
         "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun.»",
         "text2": "Patricia Perreda - Directrice artistique Rosa Maitea",
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
-        "link_url": "\/"
+        "link_url": "\/",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     }
   },
