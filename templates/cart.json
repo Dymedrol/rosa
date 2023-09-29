@@ -2,64 +2,33 @@
   "sections": {
     "cart-items": {
       "type": "main-cart-items",
-      "custom_css": [
-        ".rosa-cart {padding-top: 140px !important;}"
-      ],
       "settings": {
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "c1e4b084-f655-45ca-a28e-0b6d9464a9fe": {
-      "type": "blocks",
+    "cart-footer": {
+      "type": "main-cart-footer",
       "blocks": {
-        "dad815c0-bf70-40ba-95e9-d443b9e82358": {
-          "type": "block",
+        "subtotal": {
+          "type": "subtotal",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Icon_material-local-shipping_2x_2cdf7ca6-971b-4b3c-afef-87e9edb4ba4a.png",
-            "text1": "LIVRAISON OFFERTE LOREM IPSUM",
-            "text2": "Suspendisse a ex lacus. Vivamus quis eros sit amet."
           }
         },
-        "8f2cc14f-7306-40d6-9d62-a9b541d50c27": {
-          "type": "block",
+        "buttons": {
+          "type": "buttons",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Icon_open-credit-card_2x_3cedf885-c3e5-458f-9243-e46fe9b92761.png",
-            "text1": "SÉCURITÉ BANCAIRE LOREM IPSUM",
-            "text2": "Suspendisse a ex lacus. Vivamus quis eros sit amet."
-          }
-        },
-        "ba53a482-0352-43db-baae-2777e522560e": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Icon_awesome-heart_2x_996b6797-3187-432c-8e3f-8042e0406921.png",
-            "text1": "SATISFAIT OU REMBOURSÉ",
-            "text2": "Suspendisse a ex lacus. Vivamus quis eros sit amet."
-          }
-        },
-        "e57ffd3c-0e69-46c3-bb05-94e4bb3efe48": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Trace_223_2x_ad984d2d-02db-40d4-a193-14d766f55a68.png",
-            "text1": "RÉPARATIONS LOREM IPSUM",
-            "text2": "Suspendisse a ex lacus. Vivamus quis eros sit amet."
           }
         }
       },
       "block_order": [
-        "dad815c0-bf70-40ba-95e9-d443b9e82358",
-        "8f2cc14f-7306-40d6-9d62-a9b541d50c27",
-        "ba53a482-0352-43db-baae-2777e522560e",
-        "e57ffd3c-0e69-46c3-bb05-94e4bb3efe48"
-      ],
-      "settings": {
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
+        "subtotal",
+        "buttons"
+      ]
     }
   },
   "order": [
     "cart-items",
-    "c1e4b084-f655-45ca-a28e-0b6d9464a9fe"
+    "cart-footer"
   ]
 }
