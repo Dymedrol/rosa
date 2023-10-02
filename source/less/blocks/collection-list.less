@@ -11,7 +11,7 @@
 
 
     @media (@L) {
-        margin: 0 auto 65px;
+        margin: 70px auto 65px;
         gap: 55px;
     }
 }
@@ -49,9 +49,9 @@
 }
 
 .collecton-list-choices-filters-title {
-    font: normal normal 500 16px/11px Montserrat;
-    letter-spacing: 0px;
-    color: #000000;
+    font: normal normal 500 16px/11px Montserrat !important;
+    letter-spacing: 0px !important;
+    color: #000000 !important;
 }
 
 .collecton-list-choices-filters-left-content {
@@ -73,9 +73,9 @@
 }
 
 .collecton-list-choices-filters-item-title {
-    font: normal normal 500 16px/11px Montserrat;
-    letter-spacing: 0px;
-    color: #000000;
+    font: normal normal 500 16px/11px Montserrat !important;
+    letter-spacing: 0px !important;
+    color: #000000 !important;
 }
 
 .collecton-list-grid {
@@ -84,7 +84,7 @@
     width: 100%;
     margin: 0 auto 78px;
     border-top: 1px solid #D6D6D6;
-    left: 1px solid #D6D6D6;
+    border-left: 1px solid #D6D6D6;
 }
 
 .collecton-list-item {
@@ -223,4 +223,61 @@
     color: #000000;
     text-transform: uppercase;
     border-bottom: 1px solid #000;
+}
+
+.collecton-list {
+
+    & .facets__form {
+        gap: 0;
+    }
+
+    & .facets__disclosure {
+        margin-right: 35px;
+    }
+
+    & .facets__summary {
+        font: normal normal 500 16px/11px Montserrat;
+        letter-spacing: 0px;
+        color: #000000;
+        padding: 0;
+
+        & div {
+            display: flex;
+            align-items: center;
+            gap: 11px;
+        }
+    }
+
+    & .facets__heading {
+        font: normal normal 500 16px/11px Montserrat;
+        letter-spacing: 0px;
+        color: #000000;
+    }
+
+    & .facet-filters__label {
+        font: normal normal 500 16px/11px Montserrat;
+        letter-spacing: 0px;
+        color: #000000;
+    }
+
+    & .select {
+        align-items: center;
+    }
+
+    & .select__select {
+        font: normal normal 500 16px/17px Montserrat;
+        letter-spacing: 0px;
+        color: #000000;
+        padding-right: 0;
+    }
+
+    & *:focus {
+      outline: 0;
+      box-shadow: none;
+    }
+
+    *:focus-visible {
+        outline: 0 !important;
+        box-shadow: none !important;
+    }
 }

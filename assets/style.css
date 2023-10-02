@@ -2590,7 +2590,7 @@ input[type="button"] {
 }
 @media ((min-width: 1200px)) {
   .collecton-list-choices {
-    margin: 0 auto 65px;
+    margin: 70px auto 65px;
     gap: 55px;
   }
 }
@@ -2624,9 +2624,9 @@ input[type="button"] {
   }
 }
 .collecton-list-choices-filters-title {
-  font: normal normal 500 16px/11px Montserrat;
-  letter-spacing: 0px;
-  color: #000000;
+  font: normal normal 500 16px/11px Montserrat !important;
+  letter-spacing: 0px !important;
+  color: #000000 !important;
 }
 .collecton-list-choices-filters-left-content {
   display: flex;
@@ -2645,9 +2645,9 @@ input[type="button"] {
   cursor: pointer;
 }
 .collecton-list-choices-filters-item-title {
-  font: normal normal 500 16px/11px Montserrat;
-  letter-spacing: 0px;
-  color: #000000;
+  font: normal normal 500 16px/11px Montserrat !important;
+  letter-spacing: 0px !important;
+  color: #000000 !important;
 }
 .collecton-list-grid {
   display: flex;
@@ -2655,7 +2655,7 @@ input[type="button"] {
   width: 100%;
   margin: 0 auto 78px;
   border-top: 1px solid #D6D6D6;
-  left: 1px solid #D6D6D6;
+  border-left: 1px solid #D6D6D6;
 }
 .collecton-list-item {
   position: relative;
@@ -2786,6 +2786,50 @@ input[type="button"] {
   color: #000000;
   text-transform: uppercase;
   border-bottom: 1px solid #000;
+}
+.collecton-list .facets__form {
+  gap: 0;
+}
+.collecton-list .facets__disclosure {
+  margin-right: 35px;
+}
+.collecton-list .facets__summary {
+  font: normal normal 500 16px/11px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  padding: 0;
+}
+.collecton-list .facets__summary div {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.collecton-list .facets__heading {
+  font: normal normal 500 16px/11px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.collecton-list .facet-filters__label {
+  font: normal normal 500 16px/11px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.collecton-list .select {
+  align-items: center;
+}
+.collecton-list .select__select {
+  font: normal normal 500 16px/17px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  padding-right: 0;
+}
+.collecton-list *:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.collecton-list *:focus-visible {
+  outline: 0 !important;
+  box-shadow: none !important;
 }
 .collecton-list-advanced {
   margin-top: 70px;
