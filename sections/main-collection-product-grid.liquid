@@ -20,7 +20,7 @@
 <div class="collecton-list section-{{ section.id }}-padding">
 
   <div class="collecton-list-choices">
-      <a href="collections/all" data-handle="{{ collection.handle }}" class="collecton-list-choices-item {% if collection.handle == 'all' %}collecton-list-choices-item_active{% endif %}">tout</a>
+      <a href="/collections/all" data-handle="{{ collection.handle }}" class="collecton-list-choices-item {% if collection.handle == 'all' %}collecton-list-choices-item_active{% endif %}">tout</a>
       {% for filter in section.settings.collection_for_filter_list %}
         <a href="{{ filter.url }}" data-handle="{{ filter.handle }}" class="collecton-list-choices-item {% if collection.handle == filter.handle %}collecton-list-choices-item_active{% endif %}">{{ filter.title }}</a>
       {% endfor %}
