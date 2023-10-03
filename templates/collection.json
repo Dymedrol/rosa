@@ -52,6 +52,50 @@
         "padding_top": 50,
         "padding_bottom": 135
       }
+    },
+    "9b7251da-a436-4ee3-86d9-43e5a2375824": {
+      "type": "double",
+      "blocks": {
+        "d2e22a52-2031-49cf-b351-f80fdd768551": {
+          "type": "heading",
+          "settings": {
+            "heading1": "",
+            "heading2": "NÉ SOUS UNE BONNE ÉTOILE"
+          }
+        },
+        "72f17976-0055-4da3-bada-32d0ea229273": {
+          "type": "text",
+          "settings": {
+            "text": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »"
+          }
+        },
+        "fc054447-71a8-41ce-9100-b52d6b4385ea": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+          }
+        },
+        "cd2b9a8a-6684-42b2-a9e3-47ed36321182": {
+          "type": "link",
+          "settings": {
+            "link_text": "link text",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "d2e22a52-2031-49cf-b351-f80fdd768551",
+        "72f17976-0055-4da3-bada-32d0ea229273",
+        "fc054447-71a8-41ce-9100-b52d6b4385ea",
+        "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC1014_2x_3b91fa79-f029-42f6-a1df-ad39991d69ab.png",
+        "is_reverse": false,
+        "is_centred": true,
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
     }
   },
   "order": [
@@ -59,6 +103,7 @@
     "product-grid",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
-    "c35448d9-1175-475c-9d96-16d0b67db72b"
+    "c35448d9-1175-475c-9d96-16d0b67db72b",
+    "9b7251da-a436-4ee3-86d9-43e5a2375824"
   ]
 }
