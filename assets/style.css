@@ -2860,6 +2860,43 @@ input[type="button"] {
 .collecton-list .mobile-facets__open-label.button-label.medium-hide.large-up-hide {
   font-size: 14px !important;
 }
+@media ((min-width: 320px) and (max-width: 719px)) {
+  .collecton-list .facets__list {
+    padding: 10px 20px !important;
+  }
+}
+@media ((min-width: 320px) and (max-width: 719px)) {
+  .collecton-list .mobile-facets__footer .button {
+    min-width: 120px !important;
+    min-height: 40px !important;
+  }
+}
+@media ((min-width: 320px) and (max-width: 719px)) {
+  .collecton-list .mobile-facets__heading,
+  .collecton-list .mobile-facets__count {
+    font-size: 14px !important;
+  }
+}
+@media ((min-width: 320px) and (max-width: 719px)) {
+  .collecton-list .mobile-facets__summary {
+    padding: 10px 25px !important;
+  }
+}
+@media ((min-width: 320px) and (max-width: 719px)) {
+  .collecton-list .collecton-list-choices {
+    padding: 0px 10px !important;
+  }
+}
+@media ((min-width: 320px) and (max-width: 719px)) {
+  .collecton-list .mobile-facets__open {
+    padding-bottom: 15px !important;
+  }
+}
+@media ((min-width: 320px) and (max-width: 719px)) {
+  .collecton-list .field__label {
+    font-size: 12px !important;
+  }
+}
 .collecton-list *:focus {
   outline: 0;
   box-shadow: none;
