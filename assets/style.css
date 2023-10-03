@@ -944,6 +944,8 @@ input[type="button"] {
 }
 .rosa-collection-slider-header-info-text1 {
   font: normal normal 500 16px/25px Montserrat;
+  color: #000000;
+  text-transform: uppercase;
 }
 @media ((min-width: 1200px)) {
   .rosa-collection-slider-header-info-text1 {
@@ -952,6 +954,8 @@ input[type="button"] {
 }
 .rosa-collection-slider-header-info-text2 {
   font: normal normal normal 35px/45px Cormorant;
+  color: #000000;
+  text-transform: uppercase;
 }
 @media ((min-width: 1200px)) {
   .rosa-collection-slider-header-info-text2 {
