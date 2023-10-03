@@ -19,55 +19,7 @@
 
 <div class="collecton-list section-{{ section.id }}-padding">
 
-  <div class="collecton-list-choices">
-      <a href="/collections/all" data-handle="{{ collection.handle }}" class="collecton-list-choices-item {% if collection.handle == 'all' %}collecton-list-choices-item_active{% endif %}">tout</a>
-      {% for filter in section.settings.collection_for_filter_list %}
-        <a href="{{ filter.url }}" data-handle="{{ filter.handle }}" class="collecton-list-choices-item {% if collection.handle == filter.handle %}collecton-list-choices-item_active{% endif %}">{{ filter.title }}</a>
-      {% endfor %}
-  </div>
-
   {%- paginate collection.products by section.settings.products_per_page -%}
-    {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
-    {%- if section.settings.enable_sorting and section.settings.filter_type == 'vertical' -%}
-      <facet-filters-form class="facets facets-vertical-sort page-width small-hide no-js-hidden">
-        <form class="facets-vertical-form" id="FacetSortForm">
-          <div class="facet-filters sorting caption">
-            <div class="facet-filters__field">
-              <h2 class="facet-filters__label caption-large text-body">
-                <label for="SortBy">{{ 'products.facets.sort_by_label' | t }}</label>
-              </h2>
-              <div class="select">
-                {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
-                <select
-                  name="sort_by"
-                  class="facet-filters__sort select__select caption-large"
-                  id="SortBy"
-                  aria-describedby="a11y-refresh-page-message"
-                >
-                  {%- for option in collection.sort_options -%}
-                    <option
-                      value="{{ option.value | escape }}"
-                      {% if option.value == sort_by %}
-                        selected="selected"
-                      {% endif %}
-                    >
-                      {{ option.name | escape }}
-                    </option>
-                  {%- endfor -%}
-                </select>
-                {% render 'icon-caret' %}
-              </div>
-            </div>
-            <noscript>
-              <button type="submit" class="facets__button-no-js button button--secondary">
-                {{ 'products.facets.sort_button' | t }}
-              </button>
-            </noscript>
-          </div>
-
-        </form>
-      </facet-filters-form>
-    {%- endif -%}
 
     <div class="{% if section.settings.filter_type == 'vertical' %} facets-vertical page-width{% endif %}">
       {{ 'component-facets.css' | asset_url | stylesheet_tag }}
@@ -84,7 +36,8 @@
             enable_filtering: section.settings.enable_filtering,
             enable_sorting: section.settings.enable_sorting,
             filter_type: section.settings.filter_type,
-            paginate: paginate
+            paginate: paginate,
+            enable_filtering_by_product_type: section.settings.enable_filtering_by_product_type
           %}
         </aside>
       {%- endif -%}
@@ -139,11 +92,6 @@
   "class": "section",
   "settings": [
     {
-        "type": "collection_list",
-        "id": "collection_for_filter_list",
-        "label": "Collections for filter"
-    },
-    {
       "type": "range",
       "id": "products_per_page",
       "min": 8,
@@ -166,6 +114,12 @@
       "default": true,
       "label": "t:sections.main-collection-product-grid.settings.enable_filtering.label",
       "info": "t:sections.main-collection-product-grid.settings.enable_filtering.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_filtering_by_product_type",
+      "default": false,
+      "label": "enable filtering by product type"
     },
     {
       "type": "select",
