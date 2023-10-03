@@ -1,9 +1,8 @@
 {
   "sections": {
-    "412100ed-0ed8-496c-b02e-a79e3d4968e0": {
-      "type": "image-banner",
+    "cd2c0749-951a-49c4-b98c-3372e0ffe0c2": {
+      "type": "rosa-collections-banner",
       "settings": {
-        "is_full_screen": true,
         "alignment": "left",
         "text_color": "#ffffff",
         "image_banner_title_text": "TOUTES NOS COLLECTION ÉTHIQUES ONT UNE HISTOIRE",
@@ -11,7 +10,7 @@
         "image_banner_subtitle_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
         "is_text_big": false,
         "image_banner_link_text": "",
-        "image_banner_link_url": "",
+        "image_banner_link_url": "\/",
         "banner_image": "shopify:\/\/shop_images\/Groupe_251_2x_cd442a4b-06db-45a1-ad19-e849d39badeb.png"
       }
     },
@@ -270,7 +269,7 @@
     }
   },
   "order": [
-    "412100ed-0ed8-496c-b02e-a79e3d4968e0",
+    "cd2c0749-951a-49c4-b98c-3372e0ffe0c2",
     "main",
     "6fbb0f32-8f2d-4d5d-b36c-eb2cd570ff42",
     "3b5f896c-968b-427a-9277-e94486975249",
