@@ -1712,10 +1712,12 @@ input[type="button"] {
     padding-bottom: 123px;
   }
 }
-.rosa-double-info-inner.centred {
-  justify-content: center;
-  padding: 0;
-  height: 100%;
+@media ((min-width: 1200px)) {
+  .rosa-double-info-inner.centred {
+    justify-content: center;
+    padding: 0;
+    height: 100%;
+  }
 }
 .rosa-double-info-text1 {
   width: 100%;
