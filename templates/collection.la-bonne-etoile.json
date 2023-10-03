@@ -61,11 +61,9 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "collection_for_filter_list": [
-
-        ],
         "products_per_page": 16,
         "enable_filtering": true,
+        "enable_filtering_by_product_type": true,
         "filter_type": "horizontal",
         "enable_sorting": true,
         "columns_mobile": "2",
