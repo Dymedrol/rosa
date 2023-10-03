@@ -639,6 +639,16 @@
               {%- if enable_filtering -%}
                 {%- for filter in results.filters -%}
 
+                  {% if filter.param_name == 'filter.p.product_type' %}
+                    {% unless enable_filtering_by_product_type %}
+                      {% continue %}
+                    {% endunless %}
+                  {% endif %}
+
+                  {% if filter.param_name == 'filter.p.tag' and enable_filtering_by_product_type %}
+                    {% continue  %}
+                  {% endif %}
+
                   {% case filter.type %}
                     {% when 'boolean', 'list' %}
                       <details
