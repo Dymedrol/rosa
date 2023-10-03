@@ -1,0 +1,110 @@
+<section class="rosa-collections-banner rosa-collections-banner_fullscreen">
+    <picture class="rosa-collections-banner-pic" >
+      <source srcset="{{ section.settings.banner_image | img_url: '1820x840', crop: 'center' }} 1x, {{ section.settings.banner_image | img_url: '3640x1680', crop: 'center' }} 2x" media="(min-width: 1920px)" />
+      <source srcset="{{ section.settings.banner_image | img_url: '1340x680', crop: 'center' }} 1x, {{ section.settings.banner_image | img_url: '2680x1360', crop: 'center' }} 2x" media="(min-width: 1440px)" />
+      <source srcset="{{ section.settings.banner_image | img_url: '1100x680', crop: 'center' }} 1x, {{ section.settings.banner_image | img_url: '2200x1360', crop: 'center' }} 2x" media="(min-width: 1200px)" />
+      <source srcset="{{ section.settings.banner_image | img_url: '920x550', crop: 'center' }} 1x, {{ section.settings.banner_image | img_url: '1840x1100', crop: 'center' }} 2x" media="(min-width: 960px)" />
+      <source srcset="{{ section.settings.banner_image | img_url: '680x500', crop: 'center' }}" media="(min-width: 720px)" />
+      <source srcset="{{ section.settings.banner_image | img_url: '960x880', crop: 'center' }}" media="(min-width: 480px)" />
+      <source srcset="{% if section.settings.banner_image_mobile %}{{ section.settings.banner_image_mobile | img_url: '360x600', crop: 'center' }}{% else %}{{ section.settings.banner_image | img_url: '360x600', crop: 'center' }}{% endif %}" />
+      <img src="{% if section.settings.banner_image_mobile %}{{ section.settings.banner_image_mobile | img_url: '360x600', crop: 'center' }}{% else %}{{ section.settings.banner_image | img_url: '360x600', crop: 'center' }}{% endif %}" alt="{{ section.settings.banner_image.alt }}" loading="lazy" class="rosa-collections-banner-pic"/>
+    </picture>
+
+    <div class="rosa-collections-banner-wrapper container rosa-collections-banner-wrapper_{{ section.settings.alignment }}">
+        <div class="rosa-collections-banner-content">
+            <div class="rosa-collections-banner-title {% if section.settings.is_title_big %}rosa-collections-banner-title_big{% endif %}" style="color: {{ section.settings.text_color }}">{{ section.settings.image_banner_title_text }}</div>
+            <div class="rosa-collections-banner-text {% if section.settings.is_text_big %}rosa-collections-banner-text_big{% endif %}" style="color: {{ section.settings.text_color }}">{{ section.settings.image_banner_subtitle_text }}</div>
+            <a href="{{ section.settings.image_banner_link_url }}" class="rosa-collections-banner-link" style="color: {{ section.settings.text_color }}">{{ section.settings.image_banner_link_text }}</a>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "rosa collections banner",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "select",
+      "id": "alignment",
+      "label": "Content alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "image_banner_title_text",
+      "label": "title text",
+      "default": "title"
+    },
+    {
+      "type": "checkbox",
+      "id": "is_title_big",
+      "label": "big title",
+      "default": false
+    },
+    {
+      "type": "inline_richtext",
+      "id": "image_banner_subtitle_text",
+      "label": "text",
+      "default": "text"
+    },
+    {
+      "type": "checkbox",
+      "id": "is_text_big",
+      "label": "big text",
+      "default": false
+    },
+    {
+      "type": "inline_richtext",
+      "id": "image_banner_link_text",
+      "label": "link text",
+      "default": "link"
+    },
+    {
+      "type": "url",
+      "id": "image_banner_link_url",
+      "label": "link url",
+      "default": "/"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_image",
+      "label": "image-banner image"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_image_mobile",
+      "label": "image-banner image mobile"
+    }
+  ],
+  "presets": [
+    {
+      "name": "rosa collections banner"
+    }
+  ]
+}
+{% endschema %}
