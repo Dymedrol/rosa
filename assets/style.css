@@ -889,6 +889,7 @@ h1 {
 @media ((min-width: 1200px)) {
   .rosa-jumbotron-title_big {
     font: normal normal normal 60px/45px Cormorant;
+    margin-bottom: 9px;
   }
 }
 .rosa-jumbotron-text {
@@ -903,6 +904,7 @@ h1 {
 @media ((min-width: 1200px)) {
   .rosa-jumbotron-text_big {
     font: italic normal 500 20px/25px Cormorant;
+    max-width: 392px;
   }
 }
 .rosa-jumbotron-link {
