@@ -117,21 +117,13 @@
         "51bbed8b-c4bc-4ce9-9f52-42230a004d44": {
           "type": "text",
           "settings": {
-            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.<\/p>"
           }
         },
-        "2cb2cf6b-af61-4ba7-b8e9-14492dca5a07": {
-          "type": "accordion",
+        "59b3502d-16cb-4a31-ad1e-c0a8661ab809": {
+          "type": "text",
           "settings": {
-            "title": "ADRESSE",
-            "text": "Communiquée lors de la prise de rendez-vous, 75009 Paris HORAIRE D’OUVERTURE Du lundi au vendredi : 9H00 À 19H00 Samedi : 9H00 À 17H00"
-          }
-        },
-        "53087b13-a259-4f82-b6fb-ecc11e9ed8c7": {
-          "type": "accordion",
-          "settings": {
-            "title": "HORAIRE D’OUVERTURE",
-            "text": "Du lundi au vendredi : 9H00 À 19H00 Samedi : 9H00 À 17H00"
+            "text": "<p><strong>ADRESSE <\/strong><\/p><p>Communiquée lors de la prise de rendez-vous, <\/p><p>75009 Paris <\/p>"
           }
         },
         "5800d796-cf82-40f5-9069-4bfe70cc61a1": {
@@ -145,8 +137,7 @@
       "block_order": [
         "63b7505f-3a3f-4e8c-a69c-0133484aad5b",
         "51bbed8b-c4bc-4ce9-9f52-42230a004d44",
-        "2cb2cf6b-af61-4ba7-b8e9-14492dca5a07",
-        "53087b13-a259-4f82-b6fb-ecc11e9ed8c7",
+        "59b3502d-16cb-4a31-ad1e-c0a8661ab809",
         "5800d796-cf82-40f5-9069-4bfe70cc61a1"
       ],
       "settings": {
