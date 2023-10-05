@@ -10,10 +10,13 @@
 
 .rosa-header3-subtitle {
     text-align: center;
-    font: normal normal 500 16px/45px Montserrat;
+    font: normal normal normal 16px/20px Montserrat;
     letter-spacing: 0px;
     color: #000000;
-    text-transform: uppercase;
+
+    @media (@L) {
+        font: normal normal 500 16px/45px Montserrat;
+    }
 }
 
 .rosa-header3-title {
@@ -38,6 +41,8 @@
 
   & a {
     font: normal normal 600 16px/19px Montserrat;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
     color: #000000;
   }
 }

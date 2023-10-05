@@ -1977,15 +1977,6 @@ h1 {
   color: #000000;
   text-transform: uppercase;
 }
-.rosa-video {
-  position: relative;
-  aspect-ratio: 0.71679688;
-}
-@media ((min-width: 1200px)) {
-  .rosa-video {
-    aspect-ratio: 2.12109375;
-  }
-}
 .rosa-video-play {
   border-radius: 50%;
   display: flex;
@@ -2004,6 +1995,11 @@ h1 {
 .deferred-media__poster-button {
   border: 0 !important;
   background: transparent !important;
+}
+@media ((min-width: 320px) and (max-width: 719px)) {
+  .rosa-video-wrapper {
+    aspect-ratio: 1.02857143;
+  }
 }
 .rosa-blogs {
   background: #E9F2EE;
@@ -2289,10 +2285,14 @@ h1 {
 }
 .rosa-header3-subtitle {
   text-align: center;
-  font: normal normal 500 16px/45px Montserrat;
+  font: normal normal normal 16px/20px Montserrat;
   letter-spacing: 0px;
   color: #000000;
-  text-transform: uppercase;
+}
+@media ((min-width: 1200px)) {
+  .rosa-header3-subtitle {
+    font: normal normal 500 16px/45px Montserrat;
+  }
 }
 .rosa-header3-title {
   text-align: center;
@@ -2315,6 +2315,8 @@ h1 {
 }
 .rosa-header3-link a {
   font: normal normal 600 16px/19px Montserrat;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
   color: #000000;
 }
 .rosa-picture-slider {

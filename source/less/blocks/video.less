@@ -1,10 +1,5 @@
 .rosa-video {
-    position: relative;
-    aspect-ratio: 367 / 512;
 
-    @media (@L) {
-        aspect-ratio: 1086 / 512;
-    }
 }
 
 .rosa-video-play {
@@ -26,4 +21,10 @@
 .deferred-media__poster-button {
     border: 0 !important;
     background: transparent !important;
+}
+
+.rosa-video-wrapper {
+    @media (@mobile_only) {
+        aspect-ratio: 360 / 350;
+    }
 }
