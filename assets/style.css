@@ -2779,7 +2779,7 @@ h1 {
   display: block;
   width: 110px;
   height: 101px;
-  object-fit: cover;
+  object-fit: contain;
   margin: 0 auto 13px;
 }
 @media ((min-width: 1200px)) {
@@ -3313,6 +3313,16 @@ h1 {
 @media ((min-width: 1200px)) {
   .rosa-pdp-col {
     width: 50%;
+  }
+}
+@media ((min-width: 1200px)) {
+  .rosa-pdp-col1 {
+    width: 60%;
+  }
+}
+@media ((min-width: 1200px)) {
+  .rosa-pdp-col2 {
+    width: 40%;
   }
 }
 .rosa-pdp-pics {
