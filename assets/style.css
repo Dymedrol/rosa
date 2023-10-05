@@ -336,6 +336,9 @@ input[type="button"] {
 .hidden {
   display: none;
 }
+h1 {
+  font: normal normal normal 40px/45px Cormorant !important;
+}
 @font-face {
   font-family: "Montserrat";
   src: url('./Montserrat-Light.ttf') format('truetype');

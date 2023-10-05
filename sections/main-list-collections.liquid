@@ -14,15 +14,21 @@
 
 <section class="rosa-collections section-{{ section.id }}-padding">
     {%- for collection in collections -%}
-    <div class="rosa-collections-item">
+
+    <a href="{{ collection.url }}" class="rosa-collections-item">
         <div class="rosa-collections-item-hover">
-            <img src="{{ collection.featured_image | image_url: width: 500 }}" alt="" class="rosa-collections-item-hover-pic">
-            <a href="{{ collection.url }}" class="rosa-collections-item-link">VOIR LA COLLECTION</a>
+            {% if collection.metafields.custom.second_image %}
+              <img src="{{ collection.metafields.custom.second_image | image_url: width: 500 }}" alt="" class="rosa-collections-item-hover-pic">
+            {% else %}
+              <img src="{{ collection.featured_image | image_url: width: 500 }}" alt="" class="rosa-collections-item-hover-pic">
+            {% endif %}
+            <div class="rosa-collections-item-link">VOIR LA COLLECTION</div>
         </div>
         <img src="{{ collection.featured_image | image_url: width: 500 }}" alt="" class="rosa-collections-item-pic">
         <div class="rosa-collections-item-title">{{ collection.title }}</div>
         <div class="rosa-collections-item-text">Or recyclé 18 carats, spinelles, grenats et tourmalines traçables</div>
-    </div>
+    </a>
+
     {% endfor %}
 </section>
 

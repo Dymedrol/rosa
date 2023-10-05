@@ -1,12 +1,14 @@
 <div class="collecton-list-item">
-    <div class="collecton-list-item-hover">
+    <a href="{{ card_product.url }}" class="collecton-list-item-hover">
       {% if card_product.images.size > 1 %}
         <img src="{{ card_product.images[1] | img_url: '475x542', crop: 'center' }}" alt="" class="collecton-list-item-hover-pic" loading="lazy">
+      {% else %}
+        <img src="{{ card_product.featured_image | img_url: '475x542', crop: 'center' }}" alt="" class="collecton-list-item-hover-pic" loading="lazy">
       {% endif%}
         <div class="collecton-list-item-hover-controls">
-            <a href="{{ card_product.url }}" class="collecton-list-item-hover-controls-item">FICHE PRODUIT</a>
+            <div class="collecton-list-item-hover-controls-item">FICHE PRODUIT</div>
         </div>
-    </div>
+    </a>
     <img src="{{ card_product.featured_image | img_url: '318x203' }}" alt="" class="collecton-list-item-pic">
     <div class="collecton-list-item-title">{{ card_product.title }}</div>
     <div class="collecton-list-item-text">Or recyclé 18 carats, diamants recyclés</div>
