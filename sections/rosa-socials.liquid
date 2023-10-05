@@ -1,0 +1,83 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section class="rosa-socials section-{{ section.id }}-padding">
+  <div class="rosa-socials-title">{{ section.settings.title }}</div>
+  <div class="rosa-socials-content">
+    {%- for block in section.blocks -%}
+      <a href="{{ block.settings.url }}" class="rosa-socials-item">
+        <img src="{{ block.settings.image | img_url: 'height 18' }}" alt="" class="rosa-socials-item-pic">
+      </a>
+    {%- endfor -%}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "rosa socials",
+  "presets": [
+    {
+      "name": "rosa socials",
+      "category": "Custom"
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "title",
+      "default": "Partager"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 45
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 45
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "social item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "image"
+        },
+        {
+          "type": "text",
+          "id": "url",
+          "label": "social url"
+        }
+      ]
+    }
+  ]
+}
+
+{% endschema %}
