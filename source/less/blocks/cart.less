@@ -28,10 +28,11 @@
 
 .rosa-cart-col2 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
 
     @media (@L) {
+        justify-content: center;
         width: 20%;
     }
 }
@@ -182,9 +183,14 @@
 
 .rosa-cart-bottom {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     flex-direction: column;
     padding-top: 30px;
+
+
+    @media (@L) {
+        align-items: flex-end;
+    }
 }
 
 .rosa-cart-bottom-total-wrapper {
