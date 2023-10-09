@@ -36,17 +36,9 @@
       ],
       "settings": {
       }
-    },
-    "60996283-20e3-4cec-8fd3-e7d2e90a1c62": {
-      "type": "rosa-header-controls",
-      "settings": {
-        "color": "#ffffff",
-        "is_static": false
-      }
     }
   },
   "order": [
-    "main",
-    "60996283-20e3-4cec-8fd3-e7d2e90a1c62"
+    "main"
   ]
 }
