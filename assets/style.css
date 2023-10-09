@@ -4084,6 +4084,8 @@ h1 {
   min-height: 50px;
 }
 .rosa-blogs-page-item-link {
+  display: block;
+  width: fit-content;
   font: normal normal 500 14px/18px Montserrat;
   letter-spacing: 0.28px;
   color: #000000;
