@@ -47,15 +47,16 @@
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "cover_image": "shopify:\/\/shop_images\/Image_2x_819a9e12-4df9-448d-b851-9d2742cf0b27.png",
-        "description": "",
-        "full_width": false
+        "description": ""
       }
     },
     "d74bc6ba-55d1-4378-b52c-11ab222891c9": {
       "type": "rosa-quote2",
       "settings": {
         "text1": "",
-        "text2": "Suspendisse a ex lacus. Vivamus quis eros sit amet nisi faucibus aliquam. Donec vitae mattis risus. Curabitur neque magna, ornare non erat sit amet,."
+        "text2": "Suspendisse a ex lacus. Vivamus quis eros sit amet nisi faucibus aliquam. Donec vitae mattis risus. Curabitur neque magna, ornare non erat sit amet,.",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "476d1fa8-f37f-413c-b44e-92c4e1190977": {
@@ -82,7 +83,7 @@
         "f86c7c0c-c588-4828-91cf-2ffe867ada45": {
           "type": "text",
           "settings": {
-            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.<\/p>"
           }
         },
         "51957528-4714-4966-bc8d-c630babb7d21": {
@@ -127,7 +128,7 @@
         "6de1aad1-4bbd-4934-91d7-3df7b755e977": {
           "type": "text",
           "settings": {
-            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.<\/p>"
           }
         },
         "b199ddc7-e318-418a-a3e3-7aa44eb125d5": {
@@ -172,7 +173,7 @@
         "577d1247-e8fc-4a1d-8e3b-03f68e9f80cf": {
           "type": "text",
           "settings": {
-            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.<\/p>"
           }
         },
         "328d028b-e38e-4d39-a41b-8a8c0cfe2890": {
@@ -265,6 +266,13 @@
         "padding_top": 45,
         "padding_bottom": 0
       }
+    },
+    "b48ab1fe-3911-4db3-9e9a-dcf51a8bf188": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#ffffff",
+        "is_static": false
+      }
     }
   },
   "order": [
@@ -279,6 +287,7 @@
     "89163613-924f-42ad-b20e-fe2ca9ab2d98",
     "64d79728-984d-44ac-8da1-714443ca43ef",
     "6b98f65d-98ab-42bd-acb7-d3288b2c0a03",
-    "1d4d01a2-48fb-47e1-8d6a-45cdc9f7a53f"
+    "1d4d01a2-48fb-47e1-8d6a-45cdc9f7a53f",
+    "b48ab1fe-3911-4db3-9e9a-dcf51a8bf188"
   ]
 }

@@ -28,6 +28,12 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
+        "enable_promo_card": false,
+        "enable_filtering": true,
+        "enable_filtering_by_product_type": false,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -47,8 +53,7 @@
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "cover_image": "shopify:\/\/shop_images\/video.png",
-        "description": "",
-        "full_width": false
+        "description": ""
       }
     },
     "c35448d9-1175-475c-9d96-16d0b67db72b": {
@@ -61,6 +66,13 @@
         "padding_top": 50,
         "padding_bottom": 135
       }
+    },
+    "7aac8786-7427-4284-805f-09d65f54c01f": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#000000",
+        "is_static": true
+      }
     }
   },
   "order": [
@@ -70,6 +82,7 @@
     "product-grid",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
-    "c35448d9-1175-475c-9d96-16d0b67db72b"
+    "c35448d9-1175-475c-9d96-16d0b67db72b",
+    "7aac8786-7427-4284-805f-09d65f54c01f"
   ]
 }

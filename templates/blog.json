@@ -20,10 +20,18 @@
       "type": "main-blog",
       "settings": {
       }
+    },
+    "97004fba-07d5-4727-b7c0-db09f69783fb": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#ffffff",
+        "is_static": false
+      }
     }
   },
   "order": [
     "4ac02123-1612-4ceb-8786-a026ef0fa296",
-    "main"
+    "main",
+    "97004fba-07d5-4727-b7c0-db09f69783fb"
   ]
 }

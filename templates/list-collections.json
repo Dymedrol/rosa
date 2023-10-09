@@ -170,8 +170,7 @@
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "cover_image": "shopify:\/\/shop_images\/video.png",
-        "description": "",
-        "full_width": false
+        "description": ""
       }
     },
     "93b5672a-4fb6-4b8a-8880-ffec0bccf5fe": {
@@ -198,7 +197,7 @@
         "c07a10b5-2985-4be2-b674-ca08e024c678": {
           "type": "text",
           "settings": {
-            "text": "Suspendisse a ex lacus. Vivamus quis eros sit amet nisi faucibus aliquam. Donec vitae mattis risus. Curabitur neque magna, ornare non erat sit amet, dictum feugiat urna."
+            "text": "<p>Suspendisse a ex lacus. Vivamus quis eros sit amet nisi faucibus aliquam. Donec vitae mattis risus. Curabitur neque magna, ornare non erat sit amet, dictum feugiat urna.<\/p>"
           }
         },
         "a4018d0e-58bc-485b-b435-ddd0920b5de5": {
@@ -266,6 +265,13 @@
         "padding_top": 0,
         "padding_bottom": 45
       }
+    },
+    "d7288492-ad09-431b-a31b-1f05838ff9b6": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#ffffff",
+        "is_static": false
+      }
     }
   },
   "order": [
@@ -279,6 +285,7 @@
     "08507394-5aa3-493c-88b0-98fa8f0b6564",
     "769fa50d-6e00-44ba-b8b3-dd426c9cc112",
     "93b5672a-4fb6-4b8a-8880-ffec0bccf5fe",
-    "979cc0cf-9cde-43a9-a629-7a8418dde9b2"
+    "979cc0cf-9cde-43a9-a629-7a8418dde9b2",
+    "d7288492-ad09-431b-a31b-1f05838ff9b6"
   ]
 }

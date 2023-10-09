@@ -362,6 +362,13 @@
         "padding_top": 0,
         "padding_bottom": 55
       }
+    },
+    "7a3bc92f-6423-460d-a7b4-238e81713e03": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#000000",
+        "is_static": false
+      }
     }
   },
   "order": [
@@ -377,6 +384,7 @@
     "b833affc-7703-42d3-b1d2-d0a348e47159",
     "292c19ec-b340-48bf-b520-dbe10d9f1cb6",
     "2da02395-1cac-422e-870f-a68533546811",
-    "f0e61fa0-5073-4fea-bdf8-1f215e702ff2"
+    "f0e61fa0-5073-4fea-bdf8-1f215e702ff2",
+    "7a3bc92f-6423-460d-a7b4-238e81713e03"
   ]
 }
