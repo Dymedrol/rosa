@@ -339,6 +339,14 @@ input[type="button"] {
 h1 {
   font: normal normal normal 40px/45px Cormorant !important;
 }
+.page-container {
+  margin: 0 auto;
+}
+@media ((min-width: 1200px)) {
+  .page-container {
+    max-width: 1086px;
+  }
+}
 @font-face {
   font-family: "Montserrat";
   src: url('./Montserrat-Light.ttf') format('truetype');
