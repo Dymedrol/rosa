@@ -1,15 +1,27 @@
 <div class="collecton-list-item">
     <a href="{{ card_product.url }}" class="collecton-list-item-hover">
-      {% if card_product.images.size > 1 %}
-        <img srcset="{{ card_product.images[1] | img_url: '475x542', crop: 'center' }} 1x, {{ card_product.images[1] | img_url: '950x1084', crop: 'center' }} 2x" src="{{ card_product.images[1] | img_url: '950x1084', crop: 'center' }}" alt="" class="collecton-list-item-hover-pic" loading="lazy">
+
+      {% if card_product.metafields.custom.alternative_second_image %}
+        <img srcset="{{ card_product.metafields.custom.alternative_second_image | img_url: '475x542', crop: 'center' }} 1x, {{ card_product.metafields.custom.alternative_second_image | img_url: '950x1084', crop: 'center' }} 2x" src="{{ card_product.metafields.custom.alternative_second_image | img_url: '950x1084', crop: 'center' }}" alt="" class="collecton-list-item-hover-pic" loading="lazy">
       {% else %}
-        <img srcset="{{ card_product.featured_image | img_url: '475x542', crop: 'center' }} 1x, {{ card_product.featured_image | img_url: '950x1084', crop: 'center' }} 2x" src="{{ card_product.featured_image | img_url: '950x1084', crop: 'center' }}" alt="" class="collecton-list-item-hover-pic" loading="lazy">
-      {% endif%}
+        {% if card_product.images.size > 1 %}
+          <img srcset="{{ card_product.images[1] | img_url: '475x542', crop: 'center' }} 1x, {{ card_product.images[1] | img_url: '950x1084', crop: 'center' }} 2x" src="{{ card_product.images[1] | img_url: '950x1084', crop: 'center' }}" alt="" class="collecton-list-item-hover-pic" loading="lazy">
+        {% else %}
+          <img srcset="{{ card_product.featured_image | img_url: '475x542', crop: 'center' }} 1x, {{ card_product.featured_image | img_url: '950x1084', crop: 'center' }} 2x" src="{{ card_product.featured_image | img_url: '950x1084', crop: 'center' }}" alt="" class="collecton-list-item-hover-pic" loading="lazy">
+        {% endif%}
+      {% endif %}
+
+
         <div class="collecton-list-item-hover-controls">
             <div class="collecton-list-item-hover-controls-item">FICHE PRODUIT</div>
         </div>
     </a>
-    <img srcset="{{ card_product.featured_image | img_url: '318x203' }} 1x, {{ card_product.featured_image | img_url: '636x406' }} 2x" src="{{ card_product.featured_image | img_url: '636x406' }}" alt="" class="collecton-list-item-pic">
+    {% if card_product.metafields.custom.alternative_image %}
+      <img srcset="{{ card_product.metafields.custom.alternative_image | img_url: '318x203' }} 1x, {{ card_product.metafields.custom.alternative_image | img_url: '636x406' }} 2x" src="{{ card_product.metafields.custom.alternative_image | img_url: '636x406' }}" alt="" class="collecton-list-item-pic">
+    {% else %}
+      <img srcset="{{ card_product.featured_image | img_url: '318x203' }} 1x, {{ card_product.featured_image | img_url: '636x406' }} 2x" src="{{ card_product.featured_image | img_url: '636x406' }}" alt="" class="collecton-list-item-pic">
+    {% endif %}
+
     <div class="collecton-list-item-title">{{ card_product.title }}</div>
     <div class="collecton-list-item-text">Or recyclé 18 carats, diamants recyclés</div>
     <div class="collecton-list-item-price">{{ card_product.price | money_without_trailing_zeros }}</div>

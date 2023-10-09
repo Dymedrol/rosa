@@ -61,15 +61,16 @@
             </div>
           </div>
         {%- else -%}
+
+          {% if section.settings.enable_promo_card %}
           <div class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}">
             <div class="loading-overlay gradient"></div>
-
             <div
               id="product-grid"
               data-id="{{ section.id }}"
-              class="collecton-list-grid collecton-list-grid">
+              class="collecton-list-advanced-grid">
               {%- for product in collection.products -%}
-                  {% render 'card-product',
+                  {% render 'card-product-advanced',
                     card_product: product,
                     section_id: section.id
                   %}
@@ -80,6 +81,28 @@
               {% render 'pagination', paginate: paginate, anchor: '' %}
             {%- endif -%}
           </div>
+          {% else %}
+            <div class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}">
+              <div class="loading-overlay gradient"></div>
+              <div
+                id="product-grid"
+                data-id="{{ section.id }}"
+                class="collecton-list-grid">
+                {%- for product in collection.products -%}
+                    {% render 'card-product',
+                      card_product: product,
+                      section_id: section.id
+                    %}
+                {%- endfor -%}
+              </div>
+
+              {%- if paginate.pages > 1 -%}
+                {% render 'pagination', paginate: paginate, anchor: '' %}
+              {%- endif -%}
+            </div>
+          {% endif %}
+
+
         {%- endif -%}
       </div>
     </div>
@@ -96,8 +119,10 @@
       "content": "t:sections.main-collection-product-grid.settings.header__3.content"
     },
     {
-      "type": "header",
-      "content": "t:sections.main-collection-product-grid.settings.header__1.content"
+      "type": "checkbox",
+      "id": "enable_promo_card",
+      "default": false,
+      "label": "Enable promo card"
     },
     {
       "type": "checkbox",
