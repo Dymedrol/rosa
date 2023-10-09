@@ -5,14 +5,14 @@
       "settings": {
         "is_full_screen": true,
         "alignment": "left",
-        "text_color": "#ffffff",
+        "text_color": "#000000",
         "image_banner_title_text": "TOUS LES PRODUITS DE NOTRE JOAILLERIE ÉTHIQUE ONT UNE HISTOIRE",
         "is_title_big": false,
         "image_banner_subtitle_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
         "is_text_big": false,
         "image_banner_link_text": "DÉCOUVRIR NOS PRODUITS",
         "image_banner_link_url": "shopify:\/\/collections\/all",
-        "banner_image": "shopify:\/\/shop_images\/jumbo.png",
+        "banner_image": "shopify:\/\/shop_images\/ROSA_MAITEA36876-2.jpg",
         "banner_image_mobile": "shopify:\/\/shop_images\/jumbo-mobile.png"
       }
     },
@@ -106,7 +106,7 @@
         "e78b16e3-a84a-45a3-9f48-e0ab68b0bd90": {
           "type": "text",
           "settings": {
-            "text": "La maison de création joaillière Rosa Maïtea s’engage à travers son amour de l’humain. La marque produit des bagues, des colliers, des boucles d’oreilles en respectant l’humain et la planète."
+            "text": "<p>La maison de création joaillière Rosa Maïtea s’engage à travers son amour de l’humain. La marque produit des bagues, des colliers, des boucles d’oreilles en respectant l’humain et la planète.<\/p>"
           }
         },
         "dd2147c9-6bac-425f-b1ff-40701e97d5f1": {
@@ -266,8 +266,7 @@
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "cover_image": "shopify:\/\/shop_images\/video.png",
-        "description": "",
-        "full_width": false
+        "description": ""
       }
     },
     "b833affc-7703-42d3-b1d2-d0a348e47159": {
