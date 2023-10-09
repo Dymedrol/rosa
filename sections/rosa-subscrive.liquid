@@ -10,6 +10,17 @@
         {%- form 'customer', id: 'ContactFooter', class: 'rosa-subscribe-form' -%}
           <input type="hidden" name="contact[tags]" value="newsletter">
           <div class="newsletter-form__field-wrapper">
+              {%- if form.posted_successfully? -%}
+                <h3
+                  class="newsletter-form__message newsletter-form__message--success form__message"
+                  id="ContactFooter-success"
+                  tabindex="-1"
+                  autofocus
+                >
+                  {% render 'icon-success' -%}
+                  {{- 'newsletter.success' | t }}
+                </h3>
+              {%- endif -%}
               <input
                 id="NewsletterForm--{{ section.id }}"
                 type="email"
@@ -53,17 +64,7 @@
               </small>
             {%- endif -%}
           </div>
-          {%- if form.posted_successfully? -%}
-            <h3
-              class="newsletter-form__message newsletter-form__message--success form__message"
-              id="ContactFooter-success"
-              tabindex="-1"
-              autofocus
-            >
-              {% render 'icon-success' -%}
-              {{- 'newsletter.success' | t }}
-            </h3>
-          {%- endif -%}
+
           <div class="rosa-subscribe-form-checkbox-wrapper">
               <span class="rosa-subscribe-form-checkbox-text">Vous acceptez notre <a href="/pages/politique-de-confidentialite">politique de confidentialité.<a></span>
           </div>

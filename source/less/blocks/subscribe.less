@@ -151,7 +151,16 @@
 .rosa-subscribe {
     & #ContactFooter-success {
         color: #fff;
-        font: 20px/30px Cormorant;
+        font: 20px/30px Montserrat;
+        margin-bottom: 20px;
+    }
+
+    & #ContactFooter-success ~ input {
+        display: none;
+    }
+
+    & #ContactFooter-success ~ button {
+        display: none;
     }
 
     & #ContactFooter-error {

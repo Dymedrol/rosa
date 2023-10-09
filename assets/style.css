@@ -944,7 +944,7 @@ h1 {
 }
 @media ((min-width: 1200px)) {
   .rosa-collection-slider-header-info {
-    max-width: 707px;
+    max-width: unset;
   }
 }
 .rosa-collection-slider-header-info-text1 {
@@ -2598,7 +2598,14 @@ h1 {
 }
 .rosa-subscribe #ContactFooter-success {
   color: #fff;
-  font: 20px/30px Cormorant;
+  font: 20px/30px Montserrat;
+  margin-bottom: 20px;
+}
+.rosa-subscribe #ContactFooter-success ~ input {
+  display: none;
+}
+.rosa-subscribe #ContactFooter-success ~ button {
+  display: none;
 }
 .rosa-subscribe #ContactFooter-error {
   color: #fff;
@@ -2991,6 +2998,12 @@ h1 {
 .collecton-list *:focus-visible {
   outline: 0 !important;
   box-shadow: none !important;
+}
+.collecton-list-sorting-title label {
+  font: normal normal 500 16px/11px Montserrat;
+}
+.collecton-list-sorting-select {
+  font: normal normal normal 16px/11px Montserrat !important;
 }
 .collecton-list-advanced {
   margin-top: 70px;
