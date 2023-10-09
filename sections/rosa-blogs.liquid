@@ -1,5 +1,6 @@
 <section class="rosa-blogs">
     <div class="rosa-blogs-inner container">
+
         <div class="rosa-blogs-header">
             <div class="rosa-blogs-header-texts">
                 <div class="rosa-blogs-header-subtitle">{{ section.settings.text1 }}</div>
@@ -7,17 +8,19 @@
             </div>
             <a href="{{ section.settings.link_url }}" class="rosa-blogs-header-link">{{ section.settings.link_text }}</a>
         </div>
+
         <div class="rosa-blogs-content">
           {%- if section.settings.blog != blank and section.settings.blog.articles_count > 0 -%}
             {%- for article in section.settings.blog.articles limit: 2 -%}
-              <div class="rosa-blogs-item">
+              <a href="{{ article.url }}" class="rosa-blogs-item">
                   <img src="{{ article.image.src | img_url: '1034x970', crop: 'center' }}" alt="" class="rosa-blogs-item-pic">
                   <div class="rosa-blogs-item-title">{{ article.title }}</div>
-                  <a href="{{ article.url }}" class="rosa-blogs-item-link">EN SAVOIR PLUS</a>
-              </div>
+                  <div  class="rosa-blogs-item-link">EN SAVOIR PLUS</div>
+              </a>
             {%- endfor -%}
           {%- endif -%}
         </div>
+
     </div>
 </section>
 
