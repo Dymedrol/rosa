@@ -18,15 +18,23 @@
     <a href="{{ block.settings.collection.url }}" class="rosa-collections-item">
 
       <div class="rosa-collections-item-hover">
-        {% if block.settings.collection.images[1] %}
-          <img src="{{ block.settings.collection.images[1] | img_url: '682x770', crop: 'center' }}" alt="" class="rosa-collections-item-hover-pic">
+        {% if block.settings.collection.metafields.custom.second_image %}
+          <img src="{{ block.settings.collection.metafields.custom.second_image | img_url: '682x770', crop: 'center' }}" alt="" class="rosa-collections-item-hover-pic">
+        {% else %}
+          {% if block.settings.collection.featured_image %}
+            <img src="{{ block.settings.collection.featured_image | img_url: '682x770', crop: 'center' }}" alt="" class="rosa-collections-item-hover-pic">
           {% endif %}
+        {% endif %}
         <div  class="rosa-collections-item-link">VOIR LA COLLECTION</div>
       </div>
 
-      <img src="{{ block.settings.collection.featured_image | img_url: '354x328', crop: 'center' }}" alt="" class="rosa-collections-item-pic">
+      {% if block.settings.collection.metafields.custom.alternative_first_image %}
+        <img src="{{ block.settings.collection.metafields.custom.alternative_first_image | img_url: '354x328', crop: 'center' }}" alt="" class="rosa-collections-item-pic">
+      {% else %}
+        <img src="{{ block.settings.collection.featured_image | img_url: '354x328', crop: 'center' }}" alt="" class="rosa-collections-item-pic">
+      {% endif %}
       <div class="rosa-collections-item-title">{{ block.settings.collection.title }}</div>
-      <div class="rosa-collections-item-text">Or recyclé 18 carats, spinelles, grenats et tourmalines traçables</div>
+      <div class="rosa-collections-item-text">{{ block.settings.collection.metafields.custom.subtitle }}</div>
     </a>
 
   {% endfor %}
