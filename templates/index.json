@@ -38,7 +38,7 @@
       ],
       "settings": {
         "is_full_screen": true,
-        "dots_color": "#ffffff"
+        "dots_color": "#000000"
       }
     },
     "image_banner": {
