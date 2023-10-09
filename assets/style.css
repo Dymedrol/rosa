@@ -3314,6 +3314,9 @@ h1 {
     padding-top: 138px;
   }
 }
+.rosa-pdp a {
+  cursor: pointer !important;
+}
 .rosa-pdp-return {
   display: flex;
   gap: 8px;
@@ -3368,6 +3371,7 @@ h1 {
   width: 65px;
   height: 65px;
   object-fit: cover;
+  cursor: pointer;
 }
 @media ((min-width: 1200px)) {
   .rosa-pdp-pics-pic {
@@ -3610,6 +3614,10 @@ h1 {
   opacity: 0.46;
   background: #000000;
   margin-top: 45px;
+}
+.fancybox__backdrop {
+  display: block !important;
+  background: rgba(222, 222, 222, 0.9) !important;
 }
 .rosa-cart {
   padding-top: 277px;

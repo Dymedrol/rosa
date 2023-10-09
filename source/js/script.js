@@ -17,3 +17,7 @@ initSelectionSlider();
 initRelatedSlider();
 initDouble();
 initFaq();
+
+Fancybox.bind('[data-fancybox="gallery"]', {
+//
+});

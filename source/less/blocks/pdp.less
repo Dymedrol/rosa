@@ -6,6 +6,12 @@
     }
 }
 
+.rosa-pdp {
+    & a {
+        cursor: pointer !important;
+    }
+}
+
 .rosa-pdp-return {
     display: flex;
     gap: 8px;
@@ -69,6 +75,7 @@
     width: 65px;
     height: 65px;
     object-fit: cover;
+    cursor: pointer;
 
     @media (@L) {
         width: calc(50% - 7px);
@@ -345,4 +352,9 @@
     opacity: 0.46;
     background: #000000;
     margin-top: 45px;
+}
+
+.fancybox__backdrop {
+    display: block !important;
+    background: rgba(222, 222, 222, .9) !important;
 }
