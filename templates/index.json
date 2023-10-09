@@ -1,7 +1,49 @@
 {
   "sections": {
+    "3c99e9d5-296f-479b-a0f7-e99538bfab9c": {
+      "type": "rosa-jumbo-slider",
+      "blocks": {
+        "8e28662e-aca0-47b3-a711-c3bf4aaefa66": {
+          "type": "slide",
+          "settings": {
+            "alignment": "left",
+            "text_color": "#000000",
+            "image_banner_title_text": "TOUS LES PRODUITS DE NOTRE JOAILLERIE ÉTHIQUE ONT UNE HISTOIRE",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+            "is_text_big": false,
+            "image_banner_link_text": "DÉCOUVRIR NOS PRODUITS",
+            "image_banner_link_url": "shopify:\/\/collections\/all",
+            "banner_image": "shopify:\/\/shop_images\/ROSA_MAITEA36876-2.jpg"
+          }
+        },
+        "66f8da75-55d8-4336-a393-4e4472975006": {
+          "type": "slide",
+          "settings": {
+            "alignment": "right",
+            "text_color": "#ffffff",
+            "image_banner_title_text": "title",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "text",
+            "is_text_big": false,
+            "image_banner_link_text": "link",
+            "image_banner_link_url": "\/",
+            "banner_image": "shopify:\/\/shop_images\/2-4.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "8e28662e-aca0-47b3-a711-c3bf4aaefa66",
+        "66f8da75-55d8-4336-a393-4e4472975006"
+      ],
+      "settings": {
+        "is_full_screen": true,
+        "dots_color": "#ffffff"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "is_full_screen": true,
         "alignment": "left",
@@ -14,32 +56,6 @@
         "image_banner_link_url": "shopify:\/\/collections\/all",
         "banner_image": "shopify:\/\/shop_images\/ROSA_MAITEA36876-2.jpg",
         "banner_image_mobile": "shopify:\/\/shop_images\/jumbo-mobile.png"
-      }
-    },
-    "3c99e9d5-296f-479b-a0f7-e99538bfab9c": {
-      "type": "rosa-jumbo-slider",
-      "blocks": {
-        "8e28662e-aca0-47b3-a711-c3bf4aaefa66": {
-          "type": "slide",
-          "settings": {
-            "alignment": "left",
-            "text_color": "#ffffff",
-            "image_banner_title_text": "TOUS LES PRODUITS DE NOTRE JOAILLERIE ÉTHIQUE ONT UNE HISTOIRE",
-            "is_title_big": false,
-            "image_banner_subtitle_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
-            "is_text_big": false,
-            "image_banner_link_text": "DÉCOUVRIR NOS PRODUITS",
-            "image_banner_link_url": "shopify:\/\/collections\/all",
-            "banner_image": "shopify:\/\/shop_images\/ROSA_MAITEA36876-2.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "8e28662e-aca0-47b3-a711-c3bf4aaefa66"
-      ],
-      "settings": {
-        "is_full_screen": true,
-        "dots_color": "#ffffff"
       }
     },
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9": {
@@ -398,8 +414,8 @@
     }
   },
   "order": [
-    "image_banner",
     "3c99e9d5-296f-479b-a0f7-e99538bfab9c",
+    "image_banner",
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9",
     "555ee7ae-ed60-4f7c-bf8c-fe18132779a1",
     "f997dd8a-2291-4fc6-bedc-9faa72cbe9bc",
