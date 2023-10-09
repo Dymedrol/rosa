@@ -7,7 +7,7 @@
           "type": "slide",
           "settings": {
             "alignment": "left",
-            "text_color": "#ffffff",
+            "text_color": "#000000",
             "image_banner_title_text": "title",
             "is_title_big": false,
             "image_banner_subtitle_text": "text",
