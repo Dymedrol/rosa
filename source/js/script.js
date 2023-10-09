@@ -7,6 +7,7 @@ import { initSelectionSlider } from './selection-slider';
 import { initRelatedSlider } from './related-slider';
 import { initDouble } from './double';
 import { initFaq } from './faq';
+import { initJumboSlider } from './jumbo-slider';
 
 initMenu();
 initPdp();
@@ -17,6 +18,7 @@ initSelectionSlider();
 initRelatedSlider();
 initDouble();
 initFaq();
+initJumboSlider();
 
 Fancybox.bind('[data-fancybox="gallery"]', {
 //

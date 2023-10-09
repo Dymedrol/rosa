@@ -1,0 +1,145 @@
+
+<style>
+  .rosa-jumbotron-slider .owl-dot {
+    border-color: {{ section.settings.dots_color }} !important;
+  }
+
+  .rosa-jumbotron-slider .owl-dot.active {
+    background: {{ section.settings.dots_color }} !important;
+  }
+</style>
+
+<section class="rosa-jumbotron-slider{% if section.settings.is_full_screen %} rosa-jumbotron-slider_fullscreen{% endif %} owl-carousel">
+  {% for block in section.blocks %}
+    <div class="rosa-jumbotron-slider-item">
+      <picture class="rosa-jumbotron-slider-pic" >
+        <source srcset="{{ block.settings.banner_image | img_url: '1820x840', crop: 'center' }} 1x, {{ block.settings.banner_image | img_url: '3640x1680', crop: 'center' }} 2x" media="(min-width: 1920px)" />
+        <source srcset="{{ block.settings.banner_image | img_url: '1340x680', crop: 'center' }} 1x, {{ block.settings.banner_image | img_url: '2680x1360', crop: 'center' }} 2x" media="(min-width: 1440px)" />
+        <source srcset="{{ block.settings.banner_image | img_url: '1100x680', crop: 'center' }} 1x, {{ block.settings.banner_image | img_url: '2200x1360', crop: 'center' }} 2x" media="(min-width: 1200px)" />
+        <source srcset="{{ block.settings.banner_image | img_url: '920x550', crop: 'center' }} 1x, {{ block.settings.banner_image | img_url: '1840x1100', crop: 'center' }} 2x" media="(min-width: 960px)" />
+        <source srcset="{{ block.settings.banner_image | img_url: '680x500', crop: 'center' }}" media="(min-width: 720px)" />
+        <source srcset="{{ block.settings.banner_image | img_url: '960x880', crop: 'center' }}" media="(min-width: 480px)" />
+        <source srcset="{% if block.settings.banner_image_mobile %}{{ block.settings.banner_image_mobile | img_url: '360x600', crop: 'center' }}{% else %}{{ block.settings.banner_image | img_url: '360x600', crop: 'center' }}{% endif %}" />
+        <img src="{% if block.settings.banner_image_mobile %}{{ block.settings.banner_image_mobile | img_url: '360x600', crop: 'center' }}{% else %}{{ block.settings.banner_image | img_url: '360x600', crop: 'center' }}{% endif %}" alt="{{ block.settings.banner_image.alt }}" loading="lazy" class="rosa-jumbotron-slider-pic"/>
+      </picture>
+
+      <div class="rosa-jumbotron-slider-wrapper container rosa-jumbotron-slider-wrapper_{{ block.settings.alignment }}">
+          <div class="rosa-jumbotron-slider-content">
+              <div class="rosa-jumbotron-slider-title {% if block.settings.is_title_big %}rosa-jumbotron-slider-title_big{% endif %}" style="color: {{ block.settings.text_color }}">{{ block.settings.image_banner_title_text }}</div>
+              <div class="rosa-jumbotron-slider-text {% if block.settings.is_text_big %}rosa-jumbotron-slider-text_big{% endif %}" style="color: {{ block.settings.text_color }}">{{ block.settings.image_banner_subtitle_text }}</div>
+              <a href="{{ block.settings.image_banner_link_url }}" class="rosa-jumbotron-slider-link" style="color: {{ block.settings.text_color }}; border-color: {{ block.settings.text_color }};">{{ block.settings.image_banner_link_text }}</a>
+          </div>
+      </div>
+    </div>
+  {% endfor %}
+</section>
+
+{% schema %}
+{
+  "name": "jumbotron slider",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "is_full_screen",
+      "label": "full screen",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "dots_color",
+      "label": "dots color",
+      "default": "#ffffff"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "slide",
+      "settings": [
+      {
+        "type": "select",
+        "id": "alignment",
+        "label": "Content alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "right"
+          }
+        ],
+        "default": "center"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "text color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "image_banner_title_text",
+        "label": "title text",
+        "default": "title"
+      },
+      {
+        "type": "checkbox",
+        "id": "is_title_big",
+        "label": "big title",
+        "default": false
+      },
+      {
+        "type": "inline_richtext",
+        "id": "image_banner_subtitle_text",
+        "label": "text",
+        "default": "text"
+      },
+      {
+        "type": "checkbox",
+        "id": "is_text_big",
+        "label": "big text",
+        "default": false
+      },
+      {
+        "type": "inline_richtext",
+        "id": "image_banner_link_text",
+        "label": "link text",
+        "default": "link"
+      },
+      {
+        "type": "url",
+        "id": "image_banner_link_url",
+        "label": "link url",
+        "default": "/"
+      },
+      {
+        "type": "image_picker",
+        "id": "banner_image",
+        "label": "image-banner image"
+      },
+      {
+        "type": "image_picker",
+        "id": "banner_image_mobile",
+        "label": "image-banner image mobile"
+      }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "jumbotron slider"
+    }
+  ]
+}
+{% endschema %}
