@@ -282,6 +282,9 @@
     },
     "292c19ec-b340-48bf-b520-dbe10d9f1cb6": {
       "type": "rosa-blogs",
+      "custom_css": [
+        ".rosa-blogs {background-color: #fae3e3 !important;}"
+      ],
       "settings": {
         "text1": "LA JOAILLERIE ÉTHIQUE ET VISIONNAIRE",
         "text2": "LA JOAILLERIE ÉTHIQUE ET VISIONNAIRE",
