@@ -1,5 +1,31 @@
 {
   "sections": {
+    "552ce905-cb0f-4745-bc21-4022a0b6a86c": {
+      "type": "rosa-jumbo-slider",
+      "blocks": {
+        "d9928fe9-a1b3-4d88-ae9b-b0f6aef7adbd": {
+          "type": "slide",
+          "settings": {
+            "alignment": "left",
+            "text_color": "#ffffff",
+            "image_banner_title_text": "title",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "text",
+            "is_text_big": false,
+            "image_banner_link_text": "link",
+            "image_banner_link_url": "\/",
+            "banner_image": "shopify:\/\/shop_images\/ROSA_MAITEA36876-2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "d9928fe9-a1b3-4d88-ae9b-b0f6aef7adbd"
+      ],
+      "settings": {
+        "is_full_screen": true,
+        "dots_color": "#ffffff"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "disabled": true,
@@ -373,6 +399,7 @@
     }
   },
   "order": [
+    "552ce905-cb0f-4745-bc21-4022a0b6a86c",
     "image_banner",
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9",
     "555ee7ae-ed60-4f7c-bf8c-fe18132779a1",
