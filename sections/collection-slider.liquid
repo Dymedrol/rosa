@@ -41,12 +41,12 @@
     <div class="rosa-collection-slider-inner owl-carousel">
         {% for product in section.settings.collection.products limit:10 %}
           <div class="rosa-collection-slider-item">
-              <img src="{{ product.featured_image | img_url: '436x406', crop: 'center' }}" alt="" class="rosa-collection-slider-item-pic">
+              <img srcset="{{ product.featured_image | img_url: '436x406', crop: 'center' }} 2x, {{ product.featured_image | img_url: '218x203', crop: 'center' }} 1x" src="{{ product.featured_image | img_url: '436x406', crop: 'center' }}"alt="" class="rosa-collection-slider-item-pic">
               <div class="rosa-collection-slider-item-title">{{ product.title }}</div>
               <div class="rosa-collection-slider-item-text">Or recyclé 18 carats, diamants recyclés</div>
               <div class="rosa-collection-slider-item-price">{{ product.price | money_without_trailing_zeros }}</div>
               <div class="rosa-collection-slider-item-hover">
-                <img src="{{ product.images[1] | img_url: '475x542', crop: 'center' }}" alt="" class="rosa-collection-slider-item-pic2">
+                <img srcset="{{ product.images[1] | img_url: '475x542', crop: 'center' }} 1x, {{ product.images[1] | img_url: '950x1084', crop: 'center' }} 2x" src="{{ product.images[1] | img_url: '475x542', crop: 'center' }}" alt="" class="rosa-collection-slider-item-pic2">
                 <a href="{{ product.url }}" class="rosa-collection-slider-item-link">FICHE PRODUIT</a>
               </div>
           </div>
