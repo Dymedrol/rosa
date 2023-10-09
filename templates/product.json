@@ -155,7 +155,7 @@
       "type": "rosa-header-controls",
       "settings": {
         "color": "#000000",
-        "is_static": true
+        "is_static": false
       }
     }
   },
