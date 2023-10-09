@@ -18,8 +18,8 @@
             <div class="rosa-collection-slider-header-info-text1">{{ section.settings.title1 }}</div>
             <div class="rosa-collection-slider-header-info-text2">{{ section.settings.title2 }}</div>
         </div>
-        <div class="rosa-collection-slider-header-nav">
 
+        <div class="rosa-collection-slider-header-nav">
             <svg class="rosa-collection-slider-header-nav-arrow rosa-collection-slider-header-nav-arrow-prev" xmlns="http://www.w3.org/2000/svg" width="18.808" height="14.897" viewBox="0 0 18.808 14.897">
               <g id="Groupe_172" data-name="Groupe 172" transform="translate(0.333 0.373)">
                 <line id="Ligne_4" data-name="Ligne 4" x1="18.474" transform="translate(0 7.076)" fill="none" stroke="#000" stroke-width="1"/>
@@ -27,7 +27,6 @@
                 <line id="Ligne_6" data-name="Ligne 6" x2="7.909" y2="7.076" transform="translate(0 7.076)" fill="none" stroke="#000" stroke-width="1"/>
               </g>
             </svg>
-
 
             <svg class="rosa-collection-slider-header-nav-arrow rosa-collection-slider-header-nav-arrow-next" xmlns="http://www.w3.org/2000/svg" width="18.808" height="14.897" viewBox="0 0 18.808 14.897">
               <g id="Groupe_173" data-name="Groupe 173" transform="translate(0 0.373)">
@@ -38,20 +37,24 @@
             </svg>
         </div>
     </div>
+
     <div class="rosa-collection-slider-inner owl-carousel">
         {% for product in section.settings.collection.products limit:10 %}
-          <div class="rosa-collection-slider-item">
+
+          <a href="{{ product.url }}" class="rosa-collection-slider-item">
               <img srcset="{{ product.featured_image | img_url: '436x406', crop: 'center' }} 2x, {{ product.featured_image | img_url: '218x203', crop: 'center' }} 1x" src="{{ product.featured_image | img_url: '436x406', crop: 'center' }}"alt="" class="rosa-collection-slider-item-pic">
               <div class="rosa-collection-slider-item-title">{{ product.title }}</div>
               <div class="rosa-collection-slider-item-text">Or recyclé 18 carats, diamants recyclés</div>
               <div class="rosa-collection-slider-item-price">{{ product.price | money_without_trailing_zeros }}</div>
               <div class="rosa-collection-slider-item-hover">
                 <img srcset="{{ product.images[1] | img_url: '475x542', crop: 'center' }} 1x, {{ product.images[1] | img_url: '950x1084', crop: 'center' }} 2x" src="{{ product.images[1] | img_url: '475x542', crop: 'center' }}" alt="" class="rosa-collection-slider-item-pic2">
-                <a href="{{ product.url }}" class="rosa-collection-slider-item-link">FICHE PRODUIT</a>
+                <div class="rosa-collection-slider-item-link">FICHE PRODUIT</div>
               </div>
-          </div>
+          </a>
+
         {% endfor %}
     </div>
+
 </section>
 
 {% schema %}
