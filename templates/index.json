@@ -24,12 +24,12 @@
           "settings": {
             "alignment": "left",
             "text_color": "#ffffff",
-            "image_banner_title_text": "title",
+            "image_banner_title_text": "TOUS LES PRODUITS DE NOTRE JOAILLERIE ÉTHIQUE ONT UNE HISTOIRE",
             "is_title_big": false,
-            "image_banner_subtitle_text": "text",
+            "image_banner_subtitle_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
             "is_text_big": false,
-            "image_banner_link_text": "link",
-            "image_banner_link_url": "\/",
+            "image_banner_link_text": "DÉCOUVRIR NOS PRODUITS",
+            "image_banner_link_url": "shopify:\/\/collections\/all",
             "banner_image": "shopify:\/\/shop_images\/ROSA_MAITEA36876-2.jpg"
           }
         }
