@@ -27,13 +27,13 @@
         "945a729c-205d-4458-925b-d6e51b394b57": {
           "type": "text",
           "settings": {
-            "text": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »"
+            "text": "<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »<\/p>"
           }
         },
         "93e10981-8289-4d5c-bb6e-049301519142": {
           "type": "text",
           "settings": {
-            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
           }
         },
         "5c24ca47-6b39-4935-b80f-2f193dd6ba85": {
@@ -61,7 +61,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "products_per_page": 16,
+        "enable_promo_card": false,
         "enable_filtering": true,
         "enable_filtering_by_product_type": true,
         "filter_type": "horizontal",
@@ -86,8 +86,7 @@
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "cover_image": "shopify:\/\/shop_images\/Image_2x_c4de323d-dc7c-4fc8-9889-fc98efa82c72.png",
-        "description": "",
-        "full_width": false
+        "description": ""
       }
     },
     "c35448d9-1175-475c-9d96-16d0b67db72b": {
@@ -100,6 +99,13 @@
         "padding_top": 45,
         "padding_bottom": 130
       }
+    },
+    "bd2cf2d8-2e6d-4282-95ab-d8c4a06bcfbc": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#ffffff",
+        "is_static": false
+      }
     }
   },
   "order": [
@@ -109,6 +115,7 @@
     "product-grid",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
-    "c35448d9-1175-475c-9d96-16d0b67db72b"
+    "c35448d9-1175-475c-9d96-16d0b67db72b",
+    "bd2cf2d8-2e6d-4282-95ab-d8c4a06bcfbc"
   ]
 }
