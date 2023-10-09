@@ -19,7 +19,7 @@
 
 <div class="collecton-list section-{{ section.id }}-padding">
 
-  {%- paginate collection.products by section.settings.products_per_page -%}
+  {%- paginate collection.products by 24 -%}
 
     <div class="{% if section.settings.filter_type == 'vertical' %} facets-vertical page-width{% endif %}">
       {{ 'component-facets.css' | asset_url | stylesheet_tag }}
@@ -91,15 +91,6 @@
   "name": "t:sections.main-collection-product-grid.name",
   "class": "section",
   "settings": [
-    {
-      "type": "range",
-      "id": "products_per_page",
-      "min": 8,
-      "max": 24,
-      "step": 4,
-      "default": 16,
-      "label": "t:sections.main-collection-product-grid.settings.products_per_page.label"
-    },
     {
       "type": "header",
       "content": "t:sections.main-collection-product-grid.settings.header__3.content"
