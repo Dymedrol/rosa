@@ -153,7 +153,7 @@
           "type": "link",
           "settings": {
             "link_text": "COMPRENDRE NOTRE ETHIQUE",
-            "link_url": "shopify:\/\/pages\/notre-or-recycle"
+            "link_url": "shopify:\/\/pages\/notre-histoire"
           }
         }
       },
@@ -168,7 +168,7 @@
         "dc525a5f-fbe2-4154-a41b-14e3b349ec3b"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pic2.png",
+        "image": "shopify:\/\/shop_images\/K6A1999.jpg",
         "is_reverse": false,
         "is_centred": false,
         "padding_top": 0,
@@ -247,7 +247,7 @@
         "2f93fbf4-a58e-4b4f-95f5-7eff1dae256b"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/backgrounded.png",
+        "image": "shopify:\/\/shop_images\/2-4.jpg",
         "image_mobile": "shopify:\/\/shop_images\/backgrounded-mobile.png"
       }
     },
