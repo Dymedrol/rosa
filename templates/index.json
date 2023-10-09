@@ -30,11 +30,26 @@
             "image_banner_link_url": "\/",
             "banner_image": "shopify:\/\/shop_images\/2-4.jpg"
           }
+        },
+        "7e4feaa6-56d5-483f-b7ad-9be06c9d72fe": {
+          "type": "slide",
+          "settings": {
+            "alignment": "right",
+            "text_color": "#ffffff",
+            "image_banner_title_text": "ROSA MAÏTEA, UNE MARQUE ENGAGÉE",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "text",
+            "is_text_big": false,
+            "image_banner_link_text": "link",
+            "image_banner_link_url": "\/",
+            "banner_image": "shopify:\/\/shop_images\/ROSA_MAITEA36988-B-2.jpg"
+          }
         }
       },
       "block_order": [
         "8e28662e-aca0-47b3-a711-c3bf4aaefa66",
-        "66f8da75-55d8-4336-a393-4e4472975006"
+        "66f8da75-55d8-4336-a393-4e4472975006",
+        "7e4feaa6-56d5-483f-b7ad-9be06c9d72fe"
       ],
       "settings": {
         "is_full_screen": true,
