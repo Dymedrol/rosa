@@ -4,7 +4,9 @@
       "type": "rosa-header2",
       "settings": {
         "text1": "",
-        "text2": "Prendre Rendez-vous"
+        "text2": "Prendre Rendez-vous",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "main": {
@@ -16,10 +18,18 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "56870c85-6a0e-4285-85df-c3d84d1fc07c": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#000000",
+        "is_static": true
+      }
     }
   },
   "order": [
     "5ce2222b-0b31-4f99-9885-c8f19edd09d8",
-    "main"
+    "main",
+    "56870c85-6a0e-4285-85df-c3d84d1fc07c"
   ]
 }
