@@ -3570,6 +3570,12 @@ h1 {
 }
 .rosa-pdp-info-description-text table {
   margin-bottom: 10px;
+  box-shadow: none;
+}
+.rosa-pdp-info-description-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 10px;
 }
 .rosa-pdp-info-bar2 {
   display: block !important;
