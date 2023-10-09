@@ -1433,8 +1433,7 @@ h1 {
   position: relative;
   width: 50%;
   aspect-ratio: 0.77857143;
-  padding: 0 2% 0;
-  padding-top: 24px;
+  padding: 24px 2% 20px;
   background: #fff;
   border: 1px solid #D6D6D6;
 }
