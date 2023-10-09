@@ -24,7 +24,7 @@
       "settings": {
         "title1": "NOS CRÉATIONS ÉTHIQUE ET DURABLE",
         "title2": "LA JOAILLERIE ÉTHIQUE ROSA MAÏTEA",
-        "collection": "bagues",
+        "collection": "home-page-selection-on-top",
         "padding_top": 95,
         "padding_bottom": 145
       }
@@ -33,11 +33,11 @@
       "type": "collection-slider-with-pic",
       "settings": {
         "is_reverse": false,
-        "slider_2_image": "shopify:\/\/shop_images\/slider2-pic.png",
+        "slider_2_image": "shopify:\/\/shop_images\/1-2.jpg",
         "text1": "LA JOAILLERIE ÉTHIQUE ROSA MAÏTEA",
         "text2": "NOS CRÉATIONS DURABLES",
         "text3": "La collection Margarita retrace l’histoire d’une bombe d’amour",
-        "collection": "bagues",
+        "collection": "la-bonne-etoile-arcoiris",
         "padding_top": 0,
         "padding_bottom": 145
       }
@@ -46,7 +46,7 @@
       "type": "rosa-header",
       "settings": {
         "text1": "DES COLLECTIONS PLEINES D’AMOUR & D’ESPOIR",
-        "text2": "pour les utopistes et les rêveurs qui souhaitent de la joaillerie éthique et durable",
+        "text2": "pour les utopistes et les rêveurs qui souhaitent de la joaillerie éthique et durable",
         "padding_top": 0,
         "padding_bottom": 45
       }
@@ -69,13 +69,13 @@
         "3dddee65-7fa1-4a65-856f-53e673d865cb": {
           "type": "question",
           "settings": {
-            "collection": "la-bonne-etoile-arcoiris"
+            "collection": "creoles-rosa-maitea"
           }
         },
         "b1fdbd2a-02c1-4229-a323-2cb61e8c4390": {
           "type": "question",
           "settings": {
-            "collection": "chaines"
+            "collection": "pendentifs"
           }
         }
       },
