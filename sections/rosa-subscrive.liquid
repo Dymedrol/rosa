@@ -6,27 +6,70 @@
 
         <div class="rosa-subscribe-title">UNE BOMBE D’AMOUR PAR SEMAINE !</div>
         <div class="rosa-subscribe-subtitle">Connectez vous à la marque par amour, promis #ZeroSpams, que du #bonheur</div>
-        <form action="." class="rosa-subscribe-form">
-            <input type="text" class="rosa-subscribe-input" placeholder="ADRESSE E-MAIL" required>
-            <button class="rosa-subscribe-submit">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24.771" height="19.465" viewBox="0 0 24.771 19.465">
-                  <g id="Groupe_91" data-name="Groupe 91" transform="translate(0 0.373)">
-                    <line id="Ligne_4" data-name="Ligne 4" x2="24.438" transform="translate(0 9.36)" fill="none" stroke="#fff" stroke-width="1"/>
-                    <line id="Ligne_5" data-name="Ligne 5" x2="10.462" y2="9.36" transform="translate(13.975)" fill="none" stroke="#fff" stroke-width="1"/>
-                    <line id="Ligne_6" data-name="Ligne 6" x1="10.462" y2="9.36" transform="translate(13.975 9.36)" fill="none" stroke="#fff" stroke-width="1"/>
-                  </g>
-                </svg>
-            </button>
-            <div class="rosa-subscribe-form-checkbox-wrapper">
-                <label class="rosa-subscribe-form-checkbox-label">
-                    <input type="checkbox" class="rosa-subscribe-form-checkbox-input" required>
-                    <div class="rosa-subscribe-form-checkbox-mark"></div>
-                </label>
-                <span class="rosa-subscribe-form-checkbox-text">En cochant cette case, vous acceptez notre politique de confidentialité.</span>
-            </div>
-        </form>
+
+        {%- form 'customer', id: 'ContactFooter', class: 'rosa-subscribe-form' -%}
+          <input type="hidden" name="contact[tags]" value="newsletter">
+          <div class="newsletter-form__field-wrapper">
+              <input
+                id="NewsletterForm--{{ section.id }}"
+                type="email"
+                name="contact[email]"
+                class="rosa-subscribe-input"
+                value="{{ form.email }}"
+                aria-required="true"
+                autocorrect="off"
+                autocapitalize="off"
+                autocomplete="email"
+                {% if form.errors %}
+                  autofocus
+                  aria-invalid="true"
+                  aria-describedby="ContactFooter-error"
+                {% elsif form.posted_successfully? %}
+                  aria-describedby="ContactFooter-success"
+                {% endif %}
+                placeholder="{{ 'newsletter.label' | t }}"
+                required
+              >
+              <button
+                type="submit"
+                class="rosa-subscribe-submit"
+                name="commit"
+                id="Subscribe"
+                aria-label="{{ 'newsletter.button_label' | t }}"
+              >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24.771" height="19.465" viewBox="0 0 24.771 19.465">
+                    <g id="Groupe_91" data-name="Groupe 91" transform="translate(0 0.373)">
+                      <line id="Ligne_4" data-name="Ligne 4" x2="24.438" transform="translate(0 9.36)" fill="none" stroke="#fff" stroke-width="1"/>
+                      <line id="Ligne_5" data-name="Ligne 5" x2="10.462" y2="9.36" transform="translate(13.975)" fill="none" stroke="#fff" stroke-width="1"/>
+                      <line id="Ligne_6" data-name="Ligne 6" x1="10.462" y2="9.36" transform="translate(13.975 9.36)" fill="none" stroke="#fff" stroke-width="1"/>
+                    </g>
+                  </svg>
+              </button>
+            {%- if form.errors -%}
+              <small class="newsletter-form__message form__message" id="ContactFooter-error">
+                {%- render 'icon-error' -%}
+                {{- form.errors.translated_fields.email | capitalize }}
+                {{ form.errors.messages.email -}}
+              </small>
+            {%- endif -%}
+          </div>
+          {%- if form.posted_successfully? -%}
+            <h3
+              class="newsletter-form__message newsletter-form__message--success form__message"
+              id="ContactFooter-success"
+              tabindex="-1"
+              autofocus
+            >
+              {% render 'icon-success' -%}
+              {{- 'newsletter.success' | t }}
+            </h3>
+          {%- endif -%}
+        {%- endform -%}
+
     </div>
 </section>
+
+
 
 {% schema %}
 {

@@ -2587,6 +2587,18 @@ h1 {
   letter-spacing: 0px;
   color: #FFFFFF;
 }
+.rosa-subscribe #ContactFooter-success {
+  color: #fff;
+  font: 20px/30px Cormorant;
+}
+.rosa-subscribe #ContactFooter-error {
+  color: #fff;
+  font: 20px/30px Cormorant;
+}
+.rosa-subscribe *:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
 .rosa-banner {
   position: relative;
   display: flex;
@@ -3569,7 +3581,6 @@ h1 {
   margin-bottom: 10px;
 }
 .rosa-pdp-info-description-text table {
-  margin-bottom: 10px;
   box-shadow: none;
 }
 .rosa-pdp-info-description-text ul {
