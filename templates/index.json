@@ -1,61 +1,5 @@
 {
   "sections": {
-    "3c99e9d5-296f-479b-a0f7-e99538bfab9c": {
-      "type": "rosa-jumbo-slider",
-      "blocks": {
-        "8e28662e-aca0-47b3-a711-c3bf4aaefa66": {
-          "type": "slide",
-          "settings": {
-            "alignment": "left",
-            "text_color": "#000000",
-            "image_banner_title_text": "TOUS NOS BIJOUX PORTENT UN MESSAGE",
-            "is_title_big": false,
-            "image_banner_subtitle_text": "Messages d’amour, signes d’espoirs et vœux de protection à une nature source de beauté...",
-            "is_text_big": false,
-            "image_banner_link_text": "DÉCOUVRIR NOS PRODUITS",
-            "image_banner_link_url": "shopify:\/\/collections\/all",
-            "banner_image": "shopify:\/\/shop_images\/ROSA_MAITEA36876-2.jpg"
-          }
-        },
-        "66f8da75-55d8-4336-a393-4e4472975006": {
-          "type": "slide",
-          "settings": {
-            "alignment": "right",
-            "text_color": "#ffffff",
-            "image_banner_title_text": "UNE NOUVELLE VISION DE LA JOAILLERIE",
-            "is_title_big": false,
-            "image_banner_subtitle_text": "Bagues de pierres fines traçables, colliers d’or recyclé parsemés d’étoiles en diamants recyclés, créoles à la fois éthiques et cool…  Les créations Rosa Maïtea<strong> <\/strong>défendent une nouvelle approche de la joaillerie respectueuse de la planète et de la vie.",
-            "is_text_big": false,
-            "image_banner_link_text": "link",
-            "image_banner_link_url": "\/",
-            "banner_image": "shopify:\/\/shop_images\/2-4.jpg"
-          }
-        },
-        "7e4feaa6-56d5-483f-b7ad-9be06c9d72fe": {
-          "type": "slide",
-          "settings": {
-            "alignment": "left",
-            "text_color": "#ffffff",
-            "image_banner_title_text": "ROSA MAÏTEA, UNE MARQUE ENGAGÉE",
-            "is_title_big": false,
-            "image_banner_subtitle_text": "text",
-            "is_text_big": false,
-            "image_banner_link_text": "link",
-            "image_banner_link_url": "\/",
-            "banner_image": "shopify:\/\/shop_images\/ROSA_MAITEA36988-B-2.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "8e28662e-aca0-47b3-a711-c3bf4aaefa66",
-        "66f8da75-55d8-4336-a393-4e4472975006",
-        "7e4feaa6-56d5-483f-b7ad-9be06c9d72fe"
-      ],
-      "settings": {
-        "is_full_screen": true,
-        "dots_color": "#000000"
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "disabled": true,
@@ -429,7 +373,6 @@
     }
   },
   "order": [
-    "3c99e9d5-296f-479b-a0f7-e99538bfab9c",
     "image_banner",
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9",
     "555ee7ae-ed60-4f7c-bf8c-fe18132779a1",
