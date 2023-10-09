@@ -13,7 +13,7 @@
             "image_banner_subtitle_text": "text",
             "is_text_big": false,
             "image_banner_link_text": "link",
-            "image_banner_link_url": "\/",
+            "image_banner_link_url": "shopify:\/\/collections\/all",
             "banner_image": "shopify:\/\/shop_images\/ROSA_MAITEA36876-2.jpg"
           }
         }
