@@ -123,8 +123,7 @@
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "cover_image": "shopify:\/\/shop_images\/Image_2x_9e2afc72-f595-4acd-9661-646fc74aeda0.png",
-        "description": "",
-        "full_width": false
+        "description": ""
       }
     },
     "39eed9dc-0490-4ebf-9f39-f286ac72d387": {
@@ -151,6 +150,13 @@
         "image_banner_link_url": "\/",
         "banner_image": "shopify:\/\/shop_images\/Groupe_308_2x_275f4324-7444-4c82-8d6e-f7a3c33773f7.png"
       }
+    },
+    "719c5cd0-d7bd-4a47-9682-c76fa8c12530": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#000000",
+        "is_static": true
+      }
     }
   },
   "order": [
@@ -160,6 +166,7 @@
     "0f32b7f0-f6d3-48bc-a764-d95b9d90cd6a",
     "717bc189-467a-47c3-8794-1ec35b80e2e9",
     "39eed9dc-0490-4ebf-9f39-f286ac72d387",
-    "6e02a8cf-0c84-43f0-b182-6ee54d34c2dd"
+    "6e02a8cf-0c84-43f0-b182-6ee54d34c2dd",
+    "719c5cd0-d7bd-4a47-9682-c76fa8c12530"
   ]
 }
