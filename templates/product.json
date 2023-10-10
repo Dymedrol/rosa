@@ -101,7 +101,7 @@
         "ad4e1be4-6cf7-4536-b87a-43a8d43c4d0b"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/aaaaaa.png",
+        "image": "shopify:\/\/shop_images\/ROSA_MAITEA_MODEL38915-B-2.jpg",
         "is_reverse": false,
         "is_centred": false,
         "padding_top": 125,
@@ -142,7 +142,7 @@
         "is_full_screen": false,
         "alignment": "left",
         "text_color": "#ffffff",
-        "image_banner_title_text": "LA COLLECTION XXXXX",
+        "image_banner_title_text": "<p>LA COLLECTION XXXXX<\/p>",
         "is_title_big": false,
         "image_banner_subtitle_text": "",
         "is_text_big": false,
