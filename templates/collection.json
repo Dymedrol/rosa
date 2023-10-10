@@ -91,11 +91,11 @@
       "type": "rosa-quote",
       "settings": {
         "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun.»",
-        "text2": "Patricia Perreda - Directrice artistique Rosa Maitea",
+        "text2": "Patricia Pereda - Directrice artistique et fondatrice de Rosa Maïtea",
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
         "link_url": "shopify:\/\/pages\/prendre-rendez-vous",
-        "padding_top": 50,
-        "padding_bottom": 135
+        "padding_top": 80,
+        "padding_bottom": 100
       }
     },
     "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8": {
