@@ -62,11 +62,11 @@
         "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSC1014_2x_3b91fa79-f029-42f6-a1df-ad39991d69ab.png",
+        "image": "shopify:\/\/shop_images\/14.jpg",
         "is_reverse": false,
         "is_centred": true,
-        "padding_top": 45,
-        "padding_bottom": 45
+        "padding_top": 30,
+        "padding_bottom": 15
       }
     },
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
