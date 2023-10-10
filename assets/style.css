@@ -890,7 +890,6 @@ h1 {
     color: #FFFFFF;
     text-transform: uppercase;
     opacity: 1;
-    max-width: 561px;
     margin-bottom: 7px;
   }
 }
@@ -3005,6 +3004,9 @@ h1 {
 .collecton-list *:focus-visible {
   outline: 0 !important;
   box-shadow: none !important;
+}
+.collecton-list .facets__display {
+  max-width: 360px !important;
 }
 .collecton-list-sorting-title label {
   font: normal normal 500 16px/11px Montserrat;
