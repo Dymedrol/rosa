@@ -10,7 +10,7 @@
         <div class="rosa-pdp-col rosa-pdp-col1">
             <div class="rosa-pdp-pics">
                 {%- for media in product.media -%}
-                    <a data-src="{{ media | image_url: width: 2200 }}" data-fancybox data-caption="{{ product.title }}" class="rosa-pdp-pics-pic">
+                    <a data-src="{{ media | image_url: width: 2200 }}" data-fancybox="gallery" data-caption="{{ product.title }}" class="rosa-pdp-pics-pic">
                         <img srcset="{{ media.preview_image | image_url: width: 1100 }} 1x, {{ media.preview_image | image_url: width: 2200 }} 2x" src="{{ media.preview_image | image_url: width: 1100 }}" alt="" data-index="{{ forloop.index }}">
                     </a>
                 {%- endfor -%}

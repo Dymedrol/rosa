@@ -21,5 +21,5 @@ initFaq();
 initJumboSlider();
 
 Fancybox.bind('[data-fancybox]', {
-
+    'type': 'image',
 });
