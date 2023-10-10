@@ -245,7 +245,7 @@
         "d2db4430-6f07-4e31-aaf9-d3c5c6c2ced2": {
           "type": "heading",
           "settings": {
-            "heading": "LES SERVICES ROSA MAITEA"
+            "heading": "LES SERVICES ROSA MAÏTEA"
           }
         },
         "ced5720b-109f-475b-a040-c6087f01684a": {
@@ -311,8 +311,7 @@
         "2f93fbf4-a58e-4b4f-95f5-7eff1dae256b"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/2-4.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/backgrounded-mobile.png"
+        "image": "shopify:\/\/shop_images\/2-4.jpg"
       }
     },
     "9603023c-6e27-4890-b9e6-e92093169f5b": {
