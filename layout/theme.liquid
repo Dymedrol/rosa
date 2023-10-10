@@ -235,6 +235,12 @@
           font-size: 1.6rem;
         }
       }
+
+      {% if template == 'product' %}
+        div:empty {
+          display: initial !important;
+        }
+      {% endif %}
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
