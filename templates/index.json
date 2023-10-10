@@ -42,7 +42,7 @@
           "type": "slide",
           "settings": {
             "alignment": "left",
-            "text_color": "#484b54",
+            "text_color": "#f74cdd",
             "image_banner_title_text": "PRENEZ RENDEZ-VOUS DANS NOTRE SHOWROOM",
             "is_title_big": false,
             "image_banner_subtitle_text": "Au milieu de Paris, venez découvrir nos bijoux.",
@@ -60,7 +60,7 @@
       ],
       "settings": {
         "is_full_screen": true,
-        "dots_color": "#242833"
+        "dots_color": "{{ shop.brand.colors.primary[0].background }}"
       }
     },
     "image_banner": {
