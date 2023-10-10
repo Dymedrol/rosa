@@ -155,35 +155,6 @@
         "padding_bottom": 130
       }
     },
-    "08507394-5aa3-493c-88b0-98fa8f0b6564": {
-      "type": "rosa-header2",
-      "settings": {
-        "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
-        "text2": "UNE MARQUE HUMAINE À VIVRE",
-        "padding_top": 0,
-        "padding_bottom": 25
-      }
-    },
-    "769fa50d-6e00-44ba-b8b3-dd426c9cc112": {
-      "type": "video",
-      "settings": {
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify:\/\/shop_images\/video.png",
-        "description": ""
-      }
-    },
-    "93b5672a-4fb6-4b8a-8880-ffec0bccf5fe": {
-      "type": "rosa-quote",
-      "settings": {
-        "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun.»",
-        "text2": "Patricia Perreda - Directrice artistique Rosa Maitea",
-        "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
-        "link_url": "\/",
-        "padding_top": 50,
-        "padding_bottom": 70
-      }
-    },
     "979cc0cf-9cde-43a9-a629-7a8418dde9b2": {
       "type": "double",
       "blocks": {
@@ -266,6 +237,35 @@
         "padding_bottom": 45
       }
     },
+    "08507394-5aa3-493c-88b0-98fa8f0b6564": {
+      "type": "rosa-header2",
+      "settings": {
+        "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
+        "text2": "UNE MARQUE HUMAINE À VIVRE",
+        "padding_top": 0,
+        "padding_bottom": 25
+      }
+    },
+    "769fa50d-6e00-44ba-b8b3-dd426c9cc112": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/video.png",
+        "description": ""
+      }
+    },
+    "93b5672a-4fb6-4b8a-8880-ffec0bccf5fe": {
+      "type": "rosa-quote",
+      "settings": {
+        "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun.»",
+        "text2": "Patricia Perreda - Directrice artistique Rosa Maitea",
+        "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
+        "link_url": "\/",
+        "padding_top": 50,
+        "padding_bottom": 70
+      }
+    },
     "d7288492-ad09-431b-a31b-1f05838ff9b6": {
       "type": "rosa-header-controls",
       "settings": {
@@ -282,10 +282,10 @@
     "2dcff7fa-aa57-4e02-ad3e-58106b26f48f",
     "b9e5d08b-4bcc-42a0-bd02-b0a53972b7ca",
     "27f470dc-84fb-4a95-b1a7-9bce1791a6a7",
+    "979cc0cf-9cde-43a9-a629-7a8418dde9b2",
     "08507394-5aa3-493c-88b0-98fa8f0b6564",
     "769fa50d-6e00-44ba-b8b3-dd426c9cc112",
     "93b5672a-4fb6-4b8a-8880-ffec0bccf5fe",
-    "979cc0cf-9cde-43a9-a629-7a8418dde9b2",
     "d7288492-ad09-431b-a31b-1f05838ff9b6"
   ]
 }
