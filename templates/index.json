@@ -37,11 +37,26 @@
             "image_banner_link_url": "shopify:\/\/collections",
             "banner_image": "shopify:\/\/shop_images\/2-4.jpg"
           }
+        },
+        "c0c37a82-60e7-4577-a3db-8510872ddcb6": {
+          "type": "slide",
+          "settings": {
+            "alignment": "center",
+            "text_color": "#484b54",
+            "image_banner_title_text": "PRENEZ RENDEZ-VOUS DANS NOTRE SHOWROOM",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "Au milieu de Paris, venez découvrir nos bijoux.",
+            "is_text_big": false,
+            "image_banner_link_text": "Prendre RDV",
+            "image_banner_link_url": "\/",
+            "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-12_75d30c1b-25eb-4bb7-83a7-cfc491940b05.jpg"
+          }
         }
       },
       "block_order": [
         "d9928fe9-a1b3-4d88-ae9b-b0f6aef7adbd",
-        "076619a4-bfea-4b99-ab17-c234ce71d53f"
+        "076619a4-bfea-4b99-ab17-c234ce71d53f",
+        "c0c37a82-60e7-4577-a3db-8510872ddcb6"
       ],
       "settings": {
         "is_full_screen": true,
