@@ -15,12 +15,12 @@
           "settings": {
             "alignment": "left",
             "text_color": "#000000",
-            "image_banner_title_text": "title",
+            "image_banner_title_text": "Tous nos bijoux portent un message",
             "is_title_big": false,
-            "image_banner_subtitle_text": "text",
+            "image_banner_subtitle_text": "Messages d’amour, signes d’espoirs et vœux de protection à une nature source de beauté.",
             "is_text_big": false,
-            "image_banner_link_text": "link",
-            "image_banner_link_url": "shopify:\/\/collections\/all",
+            "image_banner_link_text": "Découvrir nos bijoux",
+            "image_banner_link_url": "shopify:\/\/collections",
             "banner_image": "shopify:\/\/shop_images\/ROSA_MAITEA36876-2.jpg"
           }
         },
@@ -55,7 +55,7 @@
         "is_full_screen": true,
         "alignment": "left",
         "text_color": "#000000",
-        "image_banner_title_text": "TOUS LES PRODUITS DE NOTRE JOAILLERIE ÉTHIQUE ONT UNE HISTOIRE",
+        "image_banner_title_text": "<p>TOUS LES PRODUITS DE NOTRE JOAILLERIE ÉTHIQUE ONT UNE HISTOIRE<\/p>",
         "is_title_big": false,
         "image_banner_subtitle_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
         "is_text_big": false,
