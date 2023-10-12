@@ -272,6 +272,19 @@
         "color": "#ffffff",
         "is_static": false
       }
+    },
+    "b9f73162-daa1-4632-bc3a-6e475aaa979b": {
+      "type": "collection-slider-with-pic",
+      "settings": {
+        "is_reverse": false,
+        "slider_2_image": "shopify:\/\/shop_images\/baguemargarita_1_V3.png",
+        "text1": "JOAILLERIE ETHIQUE",
+        "text2": "LA FAVORITE",
+        "text3": "text 3",
+        "collection": "la-favorita-de-rosa-maitea",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
     }
   },
   "order": [
@@ -286,6 +299,7 @@
     "08507394-5aa3-493c-88b0-98fa8f0b6564",
     "769fa50d-6e00-44ba-b8b3-dd426c9cc112",
     "93b5672a-4fb6-4b8a-8880-ffec0bccf5fe",
-    "d7288492-ad09-431b-a31b-1f05838ff9b6"
+    "d7288492-ad09-431b-a31b-1f05838ff9b6",
+    "b9f73162-daa1-4632-bc3a-6e475aaa979b"
   ]
 }
