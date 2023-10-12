@@ -267,19 +267,11 @@
             "title": "Avez vous une garantie ?",
             "text": "Oui en effet nous garantissons vos bijoux pour 2 ans."
           }
-        },
-        "6b9d16fa-7c97-4712-b4ec-da261a2ede41": {
-          "type": "faq",
-          "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?",
-            "text": "text"
-          }
         }
       },
       "block_order": [
         "cf33cad8-078f-4b79-9b6e-a05dca4ff063",
-        "09a5a310-b873-45cd-b6d2-fc67c987db42",
-        "6b9d16fa-7c97-4712-b4ec-da261a2ede41"
+        "09a5a310-b873-45cd-b6d2-fc67c987db42"
       ],
       "settings": {
         "title": "BIJOUX : SERVICE APRÈS-VENTE",
@@ -294,8 +286,8 @@
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Icon_material-local-shipping_2x_2cdf7ca6-971b-4b3c-afef-87e9edb4ba4a.png",
-            "text1": "LIVRAISON OFFERTE LOREM IPSUM",
-            "text2": "Suspendisse a ex lacus. Vivamus quis eros sit amet."
+            "text1": "LIVRAISON et retour gratuits",
+            "text2": "En France Métropolitaine et en Europe, c’est gratuit. Hors de France et Europe les frais seront calculés en fonction du poids et de la destination. Toutes nos livraisons sont assurées."
           }
         },
         "143ecdd5-8064-4694-95d6-7dc02d0f4bf9": {
