@@ -89,13 +89,21 @@
             "title": "Que se passe-t-il si mon paiement est refusé ?",
             "text": "Dans ce cas, votre commande ne sera pas validée."
           }
+        },
+        "f49af138-44d8-4a16-8a94-4c1160c5b73d": {
+          "type": "faq",
+          "settings": {
+            "title": "Que faites-vous de mes données personnelles ?",
+            "text": "Nous utilisons vos données personnelles uniquement pour vous offrir le meilleur service possible. Si vous nous y autorisez, nous les conservons et les protégeons précieusement pour vos futurs achats. Vous pouvez consulter notre politique de confidentialité ici."
+          }
         }
       },
       "block_order": [
         "41fabb2e-680e-4541-bcd1-337147724b17",
         "e7453211-1f9c-44e3-a8be-618301846d17",
         "cd0dfd1a-083c-4307-bc86-91db790ae9c9",
-        "ab6aab5d-10a0-43af-bf92-f749c6ddd1cc"
+        "ab6aab5d-10a0-43af-bf92-f749c6ddd1cc",
+        "f49af138-44d8-4a16-8a94-4c1160c5b73d"
       ],
       "settings": {
         "title": "Paiement, Sécurité & Confidentialité",
