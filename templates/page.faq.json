@@ -237,18 +237,38 @@
         "7d16fc93-8aec-4402-9d6f-38fb9249442d": {
           "type": "faq",
           "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?",
-            "text": "text"
+            "title": "Comment entretenir mon bijou ?",
+            "text": "Pour conserver l'éclat de votre bijou, nous vous recommandons de nettoyer les pierres environ tous les 3 mois en les trempant dans de l'eau tiède avec un peu de liquide vaisselle pendant une nuit. Ensuite, frottez-les délicatement avec une brosse à dents très souple.Si vous souhaitez restaurer l'éclat initial de votre bijou, vous pouvez le faire polir et rhodier. Contactez-nous, et nous vous fournirons les bonnes adresses pour effectuer cette opération."
+          }
+        }
+      },
+      "block_order": [
+        "7d16fc93-8aec-4402-9d6f-38fb9249442d"
+      ],
+      "settings": {
+        "title": "Conseils d'Entretien",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "005f3d6d-e5a2-4d47-8763-b8095926e6b8": {
+      "type": "rosa-faq",
+      "blocks": {
+        "cf33cad8-078f-4b79-9b6e-a05dca4ff063": {
+          "type": "faq",
+          "settings": {
+            "title": "Si mon bijoux se casse ou perd une pierre qu'est-ce qu'il se passe ?",
+            "text": "Nous offrons une garantie de deux ans. Dans ces cas là nous prenons en charge l'envoi du bijoux, sa reparation et l'envoi de retour. Vous pouvez contacter : albane@rosamaitea.com"
           }
         },
-        "17ff25d7-129c-4d3e-9ece-e660bbd2f3f9": {
+        "09a5a310-b873-45cd-b6d2-fc67c987db42": {
           "type": "faq",
           "settings": {
             "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT UT ?",
             "text": "text"
           }
         },
-        "ec8697c2-8e9a-4673-880e-e07cc6440c7a": {
+        "6b9d16fa-7c97-4712-b4ec-da261a2ede41": {
           "type": "faq",
           "settings": {
             "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?",
@@ -257,9 +277,9 @@
         }
       },
       "block_order": [
-        "7d16fc93-8aec-4402-9d6f-38fb9249442d",
-        "17ff25d7-129c-4d3e-9ece-e660bbd2f3f9",
-        "ec8697c2-8e9a-4673-880e-e07cc6440c7a"
+        "cf33cad8-078f-4b79-9b6e-a05dca4ff063",
+        "09a5a310-b873-45cd-b6d2-fc67c987db42",
+        "6b9d16fa-7c97-4712-b4ec-da261a2ede41"
       ],
       "settings": {
         "title": "BIJOUX : SERVICE APRÈS-VENTE",
@@ -385,6 +405,7 @@
     "80f67356-46e8-4374-ae2a-fc10b0f2d387",
     "4ba9eff9-a563-4ba9-bb5c-3ea368a8dde0",
     "6d308f1a-f5aa-43e9-abad-067ed8c19a1a",
+    "005f3d6d-e5a2-4d47-8763-b8095926e6b8",
     "13b7c3bf-2a4d-4c10-8c96-bd747dfe6140",
     "11722537-bb38-4572-be25-23e536d7b1e8",
     "b32533d0-632c-4556-b09e-f4d1aed649a2"
