@@ -116,6 +116,27 @@
             "title": "Recrutez-vous ?",
             "text": "Rosa Maïtea est une entreprise très récente, mais nous serons ravis de recevoir vos candidatures motivées. Contactez-nous à patriciapereda@rosamaitea.com."
           }
+        },
+        "2014aa05-f012-4777-9e3a-0fe56366b617": {
+          "type": "faq",
+          "settings": {
+            "title": "Cherchez-vous des investisseurs ou des partenaires pour développer votre marque ?",
+            "text": "Si vous appréciez notre marque et souhaitez unir vos forces aux nôtres pour contribuer à un monde meilleur, vous pouvez nous contacter à patriciapereda@rosamaitea.com"
+          }
+        },
+        "86284dee-2267-4a2e-a460-398d5b179525": {
+          "type": "faq",
+          "settings": {
+            "title": "title",
+            "text": "text"
+          }
+        },
+        "cd0bc6a0-053b-4efb-98a3-1a881180d9af": {
+          "type": "faq",
+          "settings": {
+            "title": "title",
+            "text": "text"
+          }
         }
       },
       "block_order": [
@@ -131,7 +152,10 @@
         "9034e678-4823-4b63-a8a3-327d16f2dad6",
         "bed5eaf2-5fca-4497-92d4-6c277407f3bc",
         "2defc71d-cbd2-4bd2-bb89-78d0c938ccef",
-        "53c99810-eced-4b2b-8bb3-2f5e8d13a665"
+        "53c99810-eced-4b2b-8bb3-2f5e8d13a665",
+        "2014aa05-f012-4777-9e3a-0fe56366b617",
+        "86284dee-2267-4a2e-a460-398d5b179525",
+        "cd0bc6a0-053b-4efb-98a3-1a881180d9af"
       ],
       "settings": {
         "title": "",
