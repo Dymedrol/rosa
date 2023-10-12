@@ -67,6 +67,13 @@
             "title": "Les paiements sont-ils sécurisés ?",
             "text": "Oui, toutes les transactions sont entièrement sécurisées. Les paiements par carte bancaire sont traités par notre partenaire Stripe, qui détient la certification PCI1, le niveau de sécurité le plus élevé disponible sur Internet. Vos données personnelles sont cryptées et ne transitent JAMAIS par nos serveurs."
           }
+        },
+        "62898666-6997-4ffa-84d2-736bd7ae72e6": {
+          "type": "faq",
+          "settings": {
+            "title": "Conservez-vous les informations de mon moyen de paiement ?",
+            "text": "Non, nous ne les conservons pas. Cependant, veillez à vérifier que ces informations ne sont pas stockées dans votre navigateur Internet."
+          }
         }
       },
       "block_order": [
@@ -75,7 +82,8 @@
         "002da1ca-47d2-4c66-9357-8ea19bcbd29a",
         "61c9fe9d-804f-480b-b4a4-afd7896b9eb6",
         "a2713d43-dd7e-422d-8446-14245882875a",
-        "40c88a02-dca2-4375-bda9-0b31136162c1"
+        "40c88a02-dca2-4375-bda9-0b31136162c1",
+        "62898666-6997-4ffa-84d2-736bd7ae72e6"
       ],
       "settings": {
         "title": "",
