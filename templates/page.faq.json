@@ -191,30 +191,42 @@
             "title": "Quelles sont nos actions concrètes en faveur de l'environnement ?",
             "text": "La réduction de l'impact de la production en ne fabriquant que des bijoux en précommande, sans stock inutile.L'utilisation de matières premières recyclées de qualité, telles que l'or et les diamants.L'utilisation de pochons en tissu recyclé faits main et de boîtes en carton recyclé, avec du papier labellisé FSC.Une garantie de 2 ans sur nos bijoux, prenant en compte la responsabilité du produit.Une communication honnête et transparente pour partager nos actions et nos progrès.Nous sommes conscients qu'il reste encore beaucoup à faire pour parvenir à une transparence totale et à un respect maximal de la nature. Cependant, nous sommes déterminés à changer les normes de l'industrie de la joaillerie et à vous embarquer dans cette aventure."
           }
-        },
-        "a4eb2d08-15f6-4a93-bbb8-422f3e7aa1fc": {
-          "type": "faq",
-          "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?",
-            "text": "text"
-          }
-        },
-        "6cae66a6-5060-4488-9931-bee0be7ba8c7": {
-          "type": "faq",
-          "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?",
-            "text": "text"
-          }
         }
       },
       "block_order": [
         "09f599ed-2256-43fc-b359-7704960a19ee",
-        "f24cdb5d-4490-407d-89bd-00bf865c57fc",
-        "a4eb2d08-15f6-4a93-bbb8-422f3e7aa1fc",
-        "6cae66a6-5060-4488-9931-bee0be7ba8c7"
+        "f24cdb5d-4490-407d-89bd-00bf865c57fc"
       ],
       "settings": {
         "title": "Engagement et Environnement",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "4ba9eff9-a563-4ba9-bb5c-3ea368a8dde0": {
+      "type": "rosa-faq",
+      "blocks": {
+        "ebe4920b-afee-4448-b3db-51eb3224c235": {
+          "type": "faq",
+          "settings": {
+            "title": "Comment puis-je vous contacter ?",
+            "text": "Vous pouvez nous contacter par e-mail à patriciapereda@rosamaitea.com ou par téléphone\/WhatsApp au +33 (0) 6 81 48 71 74."
+          }
+        },
+        "317d585d-2efb-43aa-8b80-3c8225ac27fd": {
+          "type": "faq",
+          "settings": {
+            "title": "Quelles sont nos actions concrètes en faveur de l'environnement ?",
+            "text": "La réduction de l'impact de la production en ne fabriquant que des bijoux en précommande, sans stock inutile.L'utilisation de matières premières recyclées de qualité, telles que l'or et les diamants.L'utilisation de pochons en tissu recyclé faits main et de boîtes en carton recyclé, avec du papier labellisé FSC.Une garantie de 2 ans sur nos bijoux, prenant en compte la responsabilité du produit.Une communication honnête et transparente pour partager nos actions et nos progrès.Nous sommes conscients qu'il reste encore beaucoup à faire pour parvenir à une transparence totale et à un respect maximal de la nature. Cependant, nous sommes déterminés à changer les normes de l'industrie de la joaillerie et à vous embarquer dans cette aventure."
+          }
+        }
+      },
+      "block_order": [
+        "ebe4920b-afee-4448-b3db-51eb3224c235",
+        "317d585d-2efb-43aa-8b80-3c8225ac27fd"
+      ],
+      "settings": {
+        "title": "Nous Contacter et Nous Trouver",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -371,6 +383,7 @@
     "613974aa-4403-40b6-b7d6-06a3577dbf8f",
     "55fb1268-2d8e-433a-91a9-1598664f3a6a",
     "80f67356-46e8-4374-ae2a-fc10b0f2d387",
+    "4ba9eff9-a563-4ba9-bb5c-3ea368a8dde0",
     "6d308f1a-f5aa-43e9-abad-067ed8c19a1a",
     "13b7c3bf-2a4d-4c10-8c96-bd747dfe6140",
     "11722537-bb38-4572-be25-23e536d7b1e8",
