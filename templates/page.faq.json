@@ -74,6 +74,13 @@
             "title": "Conservez-vous les informations de mon moyen de paiement ?",
             "text": "Non, nous ne les conservons pas. Cependant, veillez à vérifier que ces informations ne sont pas stockées dans votre navigateur Internet."
           }
+        },
+        "f6ba1c78-b1c6-40b6-bfd6-125ab7ac5afb": {
+          "type": "faq",
+          "settings": {
+            "title": "Que se passe-t-il si mon paiement est refusé ?",
+            "text": "Dans ce cas, votre commande ne sera pas validée."
+          }
         }
       },
       "block_order": [
@@ -83,7 +90,8 @@
         "61c9fe9d-804f-480b-b4a4-afd7896b9eb6",
         "a2713d43-dd7e-422d-8446-14245882875a",
         "40c88a02-dca2-4375-bda9-0b31136162c1",
-        "62898666-6997-4ffa-84d2-736bd7ae72e6"
+        "62898666-6997-4ffa-84d2-736bd7ae72e6",
+        "f6ba1c78-b1c6-40b6-bfd6-125ab7ac5afb"
       ],
       "settings": {
         "title": "",
