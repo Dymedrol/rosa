@@ -14,7 +14,7 @@
         "is_full_screen": false,
         "alignment": "center",
         "text_color": "#000000",
-        "image_banner_title_text": "QUESTIONS FRÉQUENTES",
+        "image_banner_title_text": "<p>QUESTIONS FRÉQUENTES<\/p>",
         "is_title_big": true,
         "image_banner_subtitle_text": "",
         "is_text_big": false,
@@ -78,7 +78,7 @@
         "40c88a02-dca2-4375-bda9-0b31136162c1"
       ],
       "settings": {
-        "title": "ESSAYAGES ET ACCOMPAGNEMENT DANS LE CHOIX D’UN BIJOU",
+        "title": "",
         "padding_top": 0,
         "padding_bottom": 0
       }
