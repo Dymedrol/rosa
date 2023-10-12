@@ -2,6 +2,7 @@
   "sections": {
     "89fec398-792b-4c2b-98ef-d072a1c73f00": {
       "type": "rosa-quote3",
+      "disabled": true,
       "settings": {
         "text1": "TOUTES NOS BAGUES",
         "text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.",
@@ -16,6 +17,7 @@
     },
     "ea27f3f5-f399-447e-8b10-f3c3ec73bf76": {
       "type": "rosa-header",
+      "disabled": true,
       "settings": {
         "text1": "TOUTES NOS BAGUES",
         "text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.",
