@@ -160,11 +160,11 @@
       "type": "collection-slider-with-pic",
       "settings": {
         "is_reverse": false,
-        "slider_2_image": "shopify:\/\/shop_images\/asd.png",
+        "slider_2_image": "shopify:\/\/shop_images\/15.jpg",
         "text1": "LA JOAILLERIE ÉTHIQUE ROSA MAITEA",
         "text2": "ARCOIRIS",
         "text3": "Arcoiris compose une parure audacieuse réalisée en or jaune 18ct recyclé et serti de pierres 100% traçables : spinelles et grenats de Tanzanie aux magnifiques couleurs vives. Placée sous le triple signe de la joie, de la beauté et de la protection de notre environnement, la collection Arcoiris renouvelle avec bonheur le design de la joaillerie éthique.",
-        "collection": "bracelets",
+        "collection": "arcoiris",
         "padding_top": 0,
         "padding_bottom": 130
       }
@@ -244,7 +244,7 @@
         "c83904e0-b6c3-4325-ac72-42f380849b34"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pic2.png",
+        "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-28.jpg",
         "is_reverse": false,
         "is_centred": false,
         "padding_top": 0,
