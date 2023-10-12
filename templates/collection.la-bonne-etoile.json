@@ -9,9 +9,9 @@
       "type": "rosa-quote5",
       "settings": {
         "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
-        "text2": "PATRICIA - CRÉATRICE DE ROSA MAITEA",
-        "padding_top": 45,
-        "padding_bottom": 45
+        "text2": "",
+        "padding_top": 40,
+        "padding_bottom": 15
       }
     },
     "product-grid": {
