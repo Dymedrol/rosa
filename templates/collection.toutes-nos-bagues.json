@@ -18,7 +18,7 @@
     "fb91555e-2e70-4b71-be1d-ddabcc164bb5": {
       "type": "rosa-quote",
       "settings": {
-        "text1": "text 1",
+        "text1": "Tour à tour constellations ou astres splendides et solitaires, La Bonne Étoile de Rosa Maïtea, se décline dans une collection porte-bonheur, composée d’or et de diamants recyclés. ",
         "text2": "text 2",
         "link_text": "link",
         "link_url": "\/",
@@ -28,15 +28,6 @@
     },
     "9a53e6cb-48bf-40e3-bd4f-55c8f9672849": {
       "type": "rosa-quote2",
-      "settings": {
-        "text1": "text 1",
-        "text2": "text 2",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
-    "dfbfaaea-b17e-4f72-bf7f-9665a97741fc": {
-      "type": "rosa-quote3",
       "settings": {
         "text1": "text 1",
         "text2": "text 2",
@@ -117,7 +108,7 @@
     "7aac8786-7427-4284-805f-09d65f54c01f": {
       "type": "rosa-header-controls",
       "settings": {
-        "color": "#fff",
+        "color": "#ffffff",
         "is_static": false
       }
     }
@@ -127,7 +118,6 @@
     "banner",
     "fb91555e-2e70-4b71-be1d-ddabcc164bb5",
     "9a53e6cb-48bf-40e3-bd4f-55c8f9672849",
-    "dfbfaaea-b17e-4f72-bf7f-9665a97741fc",
     "691f0d68-6cb0-429f-b2e8-dae27b518a91",
     "375cfef0-8fcb-487d-a3e4-a98a9fdb35ca",
     "ea27f3f5-f399-447e-8b10-f3c3ec73bf76",
