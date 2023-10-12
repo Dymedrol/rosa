@@ -145,8 +145,8 @@
         "26250916-d968-462d-9fcf-9ba39e0f24a0": {
           "type": "faq",
           "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?",
-            "text": "text"
+            "title": "D'où provient le nom Rosa Maïtea ?",
+            "text": "Le nom Rosa est celui de la mère de Patricia, la créatrice de la marque, décédée en janvier 2020, le mois où l'idée de créer Rosa Maïtea a germé. Maïtea signifie \"la bien-aimée\" en basque, la langue de la région d'origine de Patricia, le Pays Basque espagnol. Ce nom rend hommage à sa mère et à toutes les mères du monde."
           }
         },
         "ceb3b595-7bcd-495e-aba2-f2783f767d08": {
@@ -162,7 +162,7 @@
         "ceb3b595-7bcd-495e-aba2-f2783f767d08"
       ],
       "settings": {
-        "title": "FABRICATION DES BIJOUX",
+        "title": "Notre Entreprise",
         "padding_top": 0,
         "padding_bottom": 0
       }
