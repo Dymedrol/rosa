@@ -15,6 +15,17 @@
       "settings": {
       }
     },
+    "fb91555e-2e70-4b71-be1d-ddabcc164bb5": {
+      "type": "rosa-quote",
+      "settings": {
+        "text1": "text 1",
+        "text2": "text 2",
+        "link_text": "link",
+        "link_url": "\/",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "9a53e6cb-48bf-40e3-bd4f-55c8f9672849": {
       "type": "rosa-quote2",
       "settings": {
@@ -114,6 +125,7 @@
   "order": [
     "89fec398-792b-4c2b-98ef-d072a1c73f00",
     "banner",
+    "fb91555e-2e70-4b71-be1d-ddabcc164bb5",
     "9a53e6cb-48bf-40e3-bd4f-55c8f9672849",
     "dfbfaaea-b17e-4f72-bf7f-9665a97741fc",
     "691f0d68-6cb0-429f-b2e8-dae27b518a91",
