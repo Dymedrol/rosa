@@ -21,6 +21,19 @@
         "padding_bottom": 130
       }
     },
+    "3b5f896c-968b-427a-9277-e94486975249": {
+      "type": "collection-slider-with-pic",
+      "settings": {
+        "is_reverse": false,
+        "slider_2_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-15.jpg",
+        "text1": "LA JOAILLERIE ÉTHIQUE ROSA MAITEA",
+        "text2": "JARDIN COSMIQUE",
+        "text3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+        "collection": "jardin-cosmique",
+        "padding_top": 0,
+        "padding_bottom": 120
+      }
+    },
     "6fbb0f32-8f2d-4d5d-b36c-eb2cd570ff42": {
       "type": "collection-slider-with-pic",
       "settings": {
@@ -34,17 +47,17 @@
         "padding_bottom": 120
       }
     },
-    "3b5f896c-968b-427a-9277-e94486975249": {
+    "b9f73162-daa1-4632-bc3a-6e475aaa979b": {
       "type": "collection-slider-with-pic",
       "settings": {
         "is_reverse": false,
-        "slider_2_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-15.jpg",
-        "text1": "LA JOAILLERIE ÉTHIQUE ROSA MAITEA",
-        "text2": "JARDIN COSMIQUE",
-        "text3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
-        "collection": "jardin-cosmique",
-        "padding_top": 0,
-        "padding_bottom": 120
+        "slider_2_image": "shopify:\/\/shop_images\/ROSA_MAITEA37007.jpg",
+        "text1": "JOAILLERIE ETHIQUE",
+        "text2": "LA FAVORITE",
+        "text3": "",
+        "collection": "la-favorita-de-rosa-maitea",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "2dcff7fa-aa57-4e02-ad3e-58106b26f48f": {
@@ -272,26 +285,14 @@
         "color": "#ffffff",
         "is_static": false
       }
-    },
-    "b9f73162-daa1-4632-bc3a-6e475aaa979b": {
-      "type": "collection-slider-with-pic",
-      "settings": {
-        "is_reverse": false,
-        "slider_2_image": "shopify:\/\/shop_images\/baguemargarita_1_V3.png",
-        "text1": "JOAILLERIE ETHIQUE",
-        "text2": "LA FAVORITE",
-        "text3": "",
-        "collection": "la-favorita-de-rosa-maitea",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
     }
   },
   "order": [
     "cd2c0749-951a-49c4-b98c-3372e0ffe0c2",
     "main",
-    "6fbb0f32-8f2d-4d5d-b36c-eb2cd570ff42",
     "3b5f896c-968b-427a-9277-e94486975249",
+    "6fbb0f32-8f2d-4d5d-b36c-eb2cd570ff42",
+    "b9f73162-daa1-4632-bc3a-6e475aaa979b",
     "2dcff7fa-aa57-4e02-ad3e-58106b26f48f",
     "b9e5d08b-4bcc-42a0-bd02-b0a53972b7ca",
     "27f470dc-84fb-4a95-b1a7-9bce1791a6a7",
@@ -299,7 +300,6 @@
     "08507394-5aa3-493c-88b0-98fa8f0b6564",
     "769fa50d-6e00-44ba-b8b3-dd426c9cc112",
     "93b5672a-4fb6-4b8a-8880-ffec0bccf5fe",
-    "d7288492-ad09-431b-a31b-1f05838ff9b6",
-    "b9f73162-daa1-4632-bc3a-6e475aaa979b"
+    "d7288492-ad09-431b-a31b-1f05838ff9b6"
   ]
 }
