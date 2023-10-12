@@ -72,8 +72,8 @@
         "e7453211-1f9c-44e3-a8be-618301846d17": {
           "type": "faq",
           "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT UT ?",
-            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT UT ?"
+            "title": "Les paiements sont-ils sécurisés ?",
+            "text": "Oui, toutes les transactions sont entièrement sécurisées. Les paiements par carte bancaire sont traités par notre partenaire Stripe, qui détient la certification PCI1, le niveau de sécurité le plus élevé disponible sur Internet. Vos données personnelles sont cryptées et ne transitent JAMAIS par nos serveurs."
           }
         },
         "cd0dfd1a-083c-4307-bc86-91db790ae9c9": {
