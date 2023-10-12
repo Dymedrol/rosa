@@ -1,17 +1,18 @@
 {
   "sections": {
-    "cd2c0749-951a-49c4-b98c-3372e0ffe0c2": {
-      "type": "rosa-collections-banner",
+    "9e21e217-4b05-4535-812f-89a8c194ca5d": {
+      "type": "image-banner",
       "settings": {
-        "alignment": "left",
+        "is_full_screen": true,
+        "alignment": "center",
         "text_color": "#ffffff",
-        "image_banner_title_text": "TOUTES NOS COLLECTION ÉTHIQUES ONT UNE HISTOIRE",
+        "image_banner_title_text": "<p>TOUTES NOS COLLECTIONS<\/p>",
         "is_title_big": false,
-        "image_banner_subtitle_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+        "image_banner_subtitle_text": "BIJOUX ÉTHIQUES ET JOYEUX",
         "is_text_big": false,
         "image_banner_link_text": "",
         "image_banner_link_url": "\/",
-        "banner_image": "shopify:\/\/shop_images\/Groupe_251_2x_cd442a4b-06db-45a1-ad19-e849d39badeb.png"
+        "banner_image": "shopify:\/\/shop_images\/ROSA_MAITEA37024.jpg"
       }
     },
     "main": {
@@ -288,7 +289,7 @@
     }
   },
   "order": [
-    "cd2c0749-951a-49c4-b98c-3372e0ffe0c2",
+    "9e21e217-4b05-4535-812f-89a8c194ca5d",
     "main",
     "3b5f896c-968b-427a-9277-e94486975249",
     "6fbb0f32-8f2d-4d5d-b36c-eb2cd570ff42",
