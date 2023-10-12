@@ -25,22 +25,11 @@
         "color": "#000000",
         "is_static": true
       }
-    },
-    "8080b8f7-547d-4b9f-8d28-7ec55934a7ea": {
-      "type": "rosa-header3",
-      "settings": {
-        "text1": "PRENDRE RENDEZ-VOUS",
-        "text2": "",
-        "text3": "",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
     }
   },
   "order": [
     "5ce2222b-0b31-4f99-9885-c8f19edd09d8",
     "main",
-    "56870c85-6a0e-4285-85df-c3d84d1fc07c",
-    "8080b8f7-547d-4b9f-8d28-7ec55934a7ea"
+    "56870c85-6a0e-4285-85df-c3d84d1fc07c"
   ]
 }
