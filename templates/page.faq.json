@@ -86,8 +86,8 @@
         "ab6aab5d-10a0-43af-bf92-f749c6ddd1cc": {
           "type": "faq",
           "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?",
-            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?"
+            "title": "Que se passe-t-il si mon paiement est refusé ?",
+            "text": "Dans ce cas, votre commande ne sera pas validée."
           }
         }
       },
