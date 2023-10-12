@@ -65,6 +65,14 @@
             "adresse": "18 rue Saint-Placide, 75006 Paris"
           }
         },
+        "5c90ce42-7ea0-4bfe-a50d-d8960da6ea65": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unnamed.png",
+            "title": "MUSE BY",
+            "adresse": "60 Grand-Rue, 1660 Ville-Haute Luxembourg"
+          }
+        },
         "feb48cc3-5706-43b5-8313-0d6f5cf1bffe": {
           "type": "item",
           "settings": {
@@ -80,23 +88,15 @@
             "title": "LE COLORIS",
             "adresse": "Rue St Adalbert 9, 4000 Liège, Belgique"
           }
-        },
-        "5c90ce42-7ea0-4bfe-a50d-d8960da6ea65": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Groupe_385_2x_c59d36c1-d6e0-4dfd-9cc5-f006f0fa4f34.png",
-            "title": "BOUTIQUE NOM X",
-            "adresse": "220 rue nom et arrondissement, 00000 nom ville"
-          }
         }
       },
       "block_order": [
         "1f3a8b26-0a45-44e5-a658-9c4748ef2c32",
         "43b54a99-a12e-47c0-ac30-51ffeaea5dd9",
         "750fe521-080c-4207-b713-1c0fca61509c",
+        "5c90ce42-7ea0-4bfe-a50d-d8960da6ea65",
         "feb48cc3-5706-43b5-8313-0d6f5cf1bffe",
-        "c09604b9-83a7-4a6d-9639-7843eecdc110",
-        "5c90ce42-7ea0-4bfe-a50d-d8960da6ea65"
+        "c09604b9-83a7-4a6d-9639-7843eecdc110"
       ],
       "settings": {
         "title": "NOS POINTS DE VENTE ET BOUTIQUES",
