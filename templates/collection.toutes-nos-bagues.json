@@ -26,33 +26,6 @@
         "padding_bottom": 45
       }
     },
-    "9a53e6cb-48bf-40e3-bd4f-55c8f9672849": {
-      "type": "rosa-quote2",
-      "settings": {
-        "text1": "text 1",
-        "text2": "text 2",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
-    "691f0d68-6cb0-429f-b2e8-dae27b518a91": {
-      "type": "rosa-quote4",
-      "settings": {
-        "text1": "text 1",
-        "text2": "text 2",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
-    "375cfef0-8fcb-487d-a3e4-a98a9fdb35ca": {
-      "type": "rosa-quote5",
-      "settings": {
-        "text1": "text 1",
-        "text2": "text 2",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
     "ea27f3f5-f399-447e-8b10-f3c3ec73bf76": {
       "type": "rosa-header",
       "disabled": true,
@@ -117,9 +90,6 @@
     "89fec398-792b-4c2b-98ef-d072a1c73f00",
     "banner",
     "fb91555e-2e70-4b71-be1d-ddabcc164bb5",
-    "9a53e6cb-48bf-40e3-bd4f-55c8f9672849",
-    "691f0d68-6cb0-429f-b2e8-dae27b518a91",
-    "375cfef0-8fcb-487d-a3e4-a98a9fdb35ca",
     "ea27f3f5-f399-447e-8b10-f3c3ec73bf76",
     "product-grid",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
