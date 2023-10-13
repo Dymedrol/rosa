@@ -13,8 +13,8 @@
       "settings": {
         "is_full_screen": false,
         "alignment": "center",
-        "text_color": "#000000",
-        "image_banner_title_text": "QUESTIONS FRÉQUENTES",
+        "text_color": "#fff",
+        "image_banner_title_text": "<p>QUESTIONS FRÉQUENTES<\/p>",
         "is_title_big": true,
         "image_banner_subtitle_text": "",
         "is_text_big": false,
@@ -29,56 +29,32 @@
         "80723179-beb3-4435-ab47-421665b07ed7": {
           "type": "faq",
           "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM  EIRMOD ?",
-            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?"
+            "title": "Dois-je payer les frais de livraison ? Et que se passe-t-il en cas de retour du produit ?",
+            "text": "Non, nous vous offrons la livraison et nous prenons en charge les frais de retour. Vous pouvez nous contacter par mail au patriciapereda@rosamaitea.com et nous vous enverrons une étiquette prépayée de Colissimo pour nous renvoyer le bijou que vous ne souhaitez plus garder. "
           }
         },
         "e2ed839a-4204-4080-a1a3-278c52b7d4e2": {
           "type": "faq",
           "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR  ?",
-            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT ?"
+            "title": "Comment puis-je suivre ma commande ?",
+            "text": "Une fois votre commande validée, vous recevrez un e-mail de confirmation avec les instructions pour suivre votre colis. Nous expédions votre commande par Colissimo, avec une assurance couvrant la valeur de votre bijou."
           }
         },
         "002da1ca-47d2-4c66-9357-8ea19bcbd29a": {
           "type": "faq",
           "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?",
-            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?"
-          }
-        },
-        "61c9fe9d-804f-480b-b4a4-afd7896b9eb6": {
-          "type": "faq",
-          "settings": {
-            "title": "titleLOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?",
-            "text": "textLOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?"
-          }
-        },
-        "a2713d43-dd7e-422d-8446-14245882875a": {
-          "type": "faq",
-          "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT ?",
-            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT ?"
-          }
-        },
-        "40c88a02-dca2-4375-bda9-0b31136162c1": {
-          "type": "faq",
-          "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?",
-            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?"
+            "title": "Comment puis-je retourner ma commande ?",
+            "text": "Envoyez-nous un e-mail à patriciapereda@rosamaitea.com, et nous vous fournirons les informations nécessaires. La démarche est simple et gratuite si la demande est faite dans les 14 jours suivant la réception de votre commande. Une fois que nous aurons reçu et vérifié les produits retournés, accompagnés de leur pochon et de leur boîte d'origine, nous procéderons au remboursement sur le moyen de paiement que vous avez utilisé pour votre commande."
           }
         }
       },
       "block_order": [
         "80723179-beb3-4435-ab47-421665b07ed7",
         "e2ed839a-4204-4080-a1a3-278c52b7d4e2",
-        "002da1ca-47d2-4c66-9357-8ea19bcbd29a",
-        "61c9fe9d-804f-480b-b4a4-afd7896b9eb6",
-        "a2713d43-dd7e-422d-8446-14245882875a",
-        "40c88a02-dca2-4375-bda9-0b31136162c1"
+        "002da1ca-47d2-4c66-9357-8ea19bcbd29a"
       ],
       "settings": {
-        "title": "ESSAYAGES ET ACCOMPAGNEMENT DANS LE CHOIX D’UN BIJOU",
+        "title": "Commandes, Conditions de Retours & Livraisons",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -89,29 +65,36 @@
         "41fabb2e-680e-4541-bcd1-337147724b17": {
           "type": "faq",
           "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?",
-            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?"
+            "title": "Quels moyens de paiement acceptez-vous ?",
+            "text": "Nous acceptons les principales cartes de paiement en circulation en Europe, notamment Visa, Mastercard et American Express. Nous proposons également le paiement via PayPal."
           }
         },
         "e7453211-1f9c-44e3-a8be-618301846d17": {
           "type": "faq",
           "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT UT ?",
-            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT UT ?"
+            "title": "Les paiements sont-ils sécurisés ?",
+            "text": "Oui, toutes les transactions sont entièrement sécurisées. Les paiements par carte bancaire sont traités par notre partenaire Stripe, qui détient la certification PCI1, le niveau de sécurité le plus élevé disponible sur Internet. Vos données personnelles sont cryptées et ne transitent JAMAIS par nos serveurs."
           }
         },
         "cd0dfd1a-083c-4307-bc86-91db790ae9c9": {
           "type": "faq",
           "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?",
-            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?"
+            "title": "Conservez-vous les informations de mon moyen de paiement ?",
+            "text": "Non, nous ne les conservons pas. Cependant, veillez à vérifier que ces informations ne sont pas stockées dans votre navigateur Internet."
           }
         },
         "ab6aab5d-10a0-43af-bf92-f749c6ddd1cc": {
           "type": "faq",
           "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?",
-            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?"
+            "title": "Que se passe-t-il si mon paiement est refusé ?",
+            "text": "Dans ce cas, votre commande ne sera pas validée."
+          }
+        },
+        "f49af138-44d8-4a16-8a94-4c1160c5b73d": {
+          "type": "faq",
+          "settings": {
+            "title": "Que faites-vous de mes données personnelles ?",
+            "text": "Nous utilisons vos données personnelles uniquement pour vous offrir le meilleur service possible. Si vous nous y autorisez, nous les conservons et les protégeons précieusement pour vos futurs achats. Vous pouvez consulter notre politique de confidentialité ici."
           }
         }
       },
@@ -119,10 +102,11 @@
         "41fabb2e-680e-4541-bcd1-337147724b17",
         "e7453211-1f9c-44e3-a8be-618301846d17",
         "cd0dfd1a-083c-4307-bc86-91db790ae9c9",
-        "ab6aab5d-10a0-43af-bf92-f749c6ddd1cc"
+        "ab6aab5d-10a0-43af-bf92-f749c6ddd1cc",
+        "f49af138-44d8-4a16-8a94-4c1160c5b73d"
       ],
       "settings": {
-        "title": "GUIDE DES TAILLES",
+        "title": "Paiement, Sécurité & Confidentialité",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -133,22 +117,22 @@
         "2d3e0843-d43d-40bc-982b-dd3708d004b9": {
           "type": "faq",
           "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?",
-            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?"
+            "title": "Où sont fabriqués nos bijoux ?",
+            "text": "Nos bijoux sont conçus à Paris et fabriqués à Mumbai, en Inde, dans un atelier familial qui transmet de génération en génération le savoir-faire artisanal en joaillerie. Cet atelier détient un certificat du \"Responsible Jewelry Council\" (RJC), une organisation internationale qui certifie les bonnes pratiques des entreprises de la chaîne d'approvisionnement de l'or ou des diamants, de la mine à la distribution."
           }
         },
         "d198dc81-800a-4d83-9e63-266260a101cb": {
           "type": "faq",
           "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT ?",
-            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT ?"
+            "title": "D'où proviennent les matières premières que vous utilisez ?",
+            "text": "L'or que nous utilisons est issu du recyclage de bijoux provenant du monde entier. Les diamants sont également recyclés. Quant aux pierres fines, telles que les spinelles et les grenats, elles sont traçables jusqu'à différentes mines en Tanzanie (Tunduru, Mahenge, Merelani...). La traçabilité des pierres fines est encore peu répandue dans le secteur de la joaillerie, et l'origine de ces pierres manque souvent de transparence. Les chaînes et les poussettes de nos bijoux sont fabriquées en Italie. Pour l'instant, nous ne connaissons pas l'origine de l'or utilisé dans ces produits, car les usines de chaînes et d'apprêts n'utilisent pas d'or recyclé. Nous sommes actuellement à la recherche de fabricants de chaînes en or recyclé. Si vous en connaissez, n'hésitez pas à nous contacter !"
           }
         },
         "077f0cfa-f150-43eb-aa5a-0f05d4fe38f0": {
           "type": "faq",
           "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?",
-            "text": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?"
+            "title": "Comment choisir la taille de ma bague ?",
+            "text": "Nous vous recommandons de choisir une taille inférieure à votre taille habituelle (par exemple, si votre taille habituelle est 54, la taille idéale de votre bague sera 53). Vous trouverez des informations détaillées dans notre guide des tailles."
           }
         }
       },
@@ -158,7 +142,7 @@
         "077f0cfa-f150-43eb-aa5a-0f05d4fe38f0"
       ],
       "settings": {
-        "title": "COMMANDE",
+        "title": "À Propos de Nos Bijoux",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -169,24 +153,32 @@
         "26250916-d968-462d-9fcf-9ba39e0f24a0": {
           "type": "faq",
           "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?",
-            "text": "text"
+            "title": "D'où provient le nom Rosa Maïtea ?",
+            "text": "Le nom Rosa est celui de la mère de Patricia, la créatrice de la marque, décédée en janvier 2020, le mois où l'idée de créer Rosa Maïtea a germé. Maïtea signifie \"la bien-aimée\" en basque, la langue de la région d'origine de Patricia, le Pays Basque espagnol. Ce nom rend hommage à sa mère et à toutes les mères du monde."
           }
         },
         "ceb3b595-7bcd-495e-aba2-f2783f767d08": {
           "type": "faq",
           "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT ?",
-            "text": "text"
+            "title": "Recrutez-vous ?",
+            "text": "Rosa Maïtea est une entreprise très récente, mais nous serons ravis de recevoir vos candidatures motivées. Contactez-nous à patriciapereda@rosamaitea.com."
+          }
+        },
+        "90632d4d-e279-47c0-ade3-aa0dc0e4bee6": {
+          "type": "faq",
+          "settings": {
+            "title": "Cherchez-vous des investisseurs ou des partenaires pour développer votre marque ?",
+            "text": "Si vous appréciez notre marque et souhaitez unir vos forces aux nôtres pour contribuer à un monde meilleur, vous pouvez nous contacter à patriciapereda@rosamaitea.com."
           }
         }
       },
       "block_order": [
         "26250916-d968-462d-9fcf-9ba39e0f24a0",
-        "ceb3b595-7bcd-495e-aba2-f2783f767d08"
+        "ceb3b595-7bcd-495e-aba2-f2783f767d08",
+        "90632d4d-e279-47c0-ade3-aa0dc0e4bee6"
       ],
       "settings": {
-        "title": "FABRICATION DES BIJOUX",
+        "title": "Notre Entreprise",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -197,40 +189,52 @@
         "09f599ed-2256-43fc-b359-7704960a19ee": {
           "type": "faq",
           "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?",
-            "text": "text"
+            "title": "L'engagement éthique et environnemental est au cœur de nos valeurs.",
+            "text": "Cet engagement guide toutes nos décisions, sans exception. La transparence et l'honnêteté sont au cœur de notre ADN, et nous vous informons de manière transparente sur ce que nous faisons et comment nous le faisons. Nous sommes déterminés à être transparents et engagés envers toutes les personnes impliquées dans la création des bijoux Rosa Maïtea."
           }
         },
         "f24cdb5d-4490-407d-89bd-00bf865c57fc": {
           "type": "faq",
           "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT UT ?",
-            "text": "text"
-          }
-        },
-        "a4eb2d08-15f6-4a93-bbb8-422f3e7aa1fc": {
-          "type": "faq",
-          "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?",
-            "text": "text"
-          }
-        },
-        "6cae66a6-5060-4488-9931-bee0be7ba8c7": {
-          "type": "faq",
-          "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD ?",
-            "text": "text"
+            "title": "Quelles sont nos actions concrètes en faveur de l'environnement ?",
+            "text": "La réduction de l'impact de la production en ne fabriquant que des bijoux en précommande, sans stock inutile.L'utilisation de matières premières recyclées de qualité, telles que l'or et les diamants.L'utilisation de pochons en tissu recyclé faits main et de boîtes en carton recyclé, avec du papier labellisé FSC.Une garantie de 2 ans sur nos bijoux, prenant en compte la responsabilité du produit.Une communication honnête et transparente pour partager nos actions et nos progrès.Nous sommes conscients qu'il reste encore beaucoup à faire pour parvenir à une transparence totale et à un respect maximal de la nature. Cependant, nous sommes déterminés à changer les normes de l'industrie de la joaillerie et à vous embarquer dans cette aventure."
           }
         }
       },
       "block_order": [
         "09f599ed-2256-43fc-b359-7704960a19ee",
-        "f24cdb5d-4490-407d-89bd-00bf865c57fc",
-        "a4eb2d08-15f6-4a93-bbb8-422f3e7aa1fc",
-        "6cae66a6-5060-4488-9931-bee0be7ba8c7"
+        "f24cdb5d-4490-407d-89bd-00bf865c57fc"
       ],
       "settings": {
-        "title": "PROJETS SUR-MESURE",
+        "title": "Engagement et Environnement",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "4ba9eff9-a563-4ba9-bb5c-3ea368a8dde0": {
+      "type": "rosa-faq",
+      "blocks": {
+        "ebe4920b-afee-4448-b3db-51eb3224c235": {
+          "type": "faq",
+          "settings": {
+            "title": "Comment puis-je vous contacter ?",
+            "text": "Vous pouvez nous contacter par e-mail à patriciapereda@rosamaitea.com ou par téléphone\/WhatsApp au +33 (0) 6 81 48 71 74."
+          }
+        },
+        "317d585d-2efb-43aa-8b80-3c8225ac27fd": {
+          "type": "faq",
+          "settings": {
+            "title": "Pouvons-nous trouver vos produits ailleurs que sur rosamaitea.com ?",
+            "text": "Nos produits sont principalement disponibles sur notre site web. Vous pouvez également les trouver sur Instagram et dans des boutiques éphémères. Si vous souhaitez essayer le bijou de vos rêves, vous pouvez prendre rendez-vous dans notre showroom à Paris.N'hésitez pas à vous inscrire à notre newsletter pour recevoir les dernières nouvelles sur la page d'accueil de notre site."
+          }
+        }
+      },
+      "block_order": [
+        "ebe4920b-afee-4448-b3db-51eb3224c235",
+        "317d585d-2efb-43aa-8b80-3c8225ac27fd"
+      ],
+      "settings": {
+        "title": "Nous Contacter et Nous Trouver",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -241,29 +245,41 @@
         "7d16fc93-8aec-4402-9d6f-38fb9249442d": {
           "type": "faq",
           "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?",
-            "text": "text"
-          }
-        },
-        "17ff25d7-129c-4d3e-9ece-e660bbd2f3f9": {
-          "type": "faq",
-          "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT UT ?",
-            "text": "text"
-          }
-        },
-        "ec8697c2-8e9a-4673-880e-e07cc6440c7a": {
-          "type": "faq",
-          "settings": {
-            "title": "LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR ?",
-            "text": "text"
+            "title": "Comment entretenir mon bijou ?",
+            "text": "Pour conserver l'éclat de votre bijou, nous vous recommandons de nettoyer les pierres environ tous les 3 mois en les trempant dans de l'eau tiède avec un peu de liquide vaisselle pendant une nuit. Ensuite, frottez-les délicatement avec une brosse à dents très souple.Si vous souhaitez restaurer l'éclat initial de votre bijou, vous pouvez le faire polir et rhodier. Contactez-nous, et nous vous fournirons les bonnes adresses pour effectuer cette opération."
           }
         }
       },
       "block_order": [
-        "7d16fc93-8aec-4402-9d6f-38fb9249442d",
-        "17ff25d7-129c-4d3e-9ece-e660bbd2f3f9",
-        "ec8697c2-8e9a-4673-880e-e07cc6440c7a"
+        "7d16fc93-8aec-4402-9d6f-38fb9249442d"
+      ],
+      "settings": {
+        "title": "Conseils d'Entretien",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "005f3d6d-e5a2-4d47-8763-b8095926e6b8": {
+      "type": "rosa-faq",
+      "blocks": {
+        "cf33cad8-078f-4b79-9b6e-a05dca4ff063": {
+          "type": "faq",
+          "settings": {
+            "title": "Si mon bijoux se casse ou perd une pierre qu'est-ce qu'il se passe ?",
+            "text": "Nous offrons une garantie de deux ans. Dans ces cas là nous prenons en charge l'envoi du bijoux, sa reparation et l'envoi de retour. Vous pouvez contacter : albane@rosamaitea.com"
+          }
+        },
+        "09a5a310-b873-45cd-b6d2-fc67c987db42": {
+          "type": "faq",
+          "settings": {
+            "title": "Avez vous une garantie ?",
+            "text": "Oui en effet nous garantissons vos bijoux pour 2 ans."
+          }
+        }
+      },
+      "block_order": [
+        "cf33cad8-078f-4b79-9b6e-a05dca4ff063",
+        "09a5a310-b873-45cd-b6d2-fc67c987db42"
       ],
       "settings": {
         "title": "BIJOUX : SERVICE APRÈS-VENTE",
@@ -278,16 +294,16 @@
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Icon_material-local-shipping_2x_2cdf7ca6-971b-4b3c-afef-87e9edb4ba4a.png",
-            "text1": "LIVRAISON OFFERTE LOREM IPSUM",
-            "text2": "Suspendisse a ex lacus. Vivamus quis eros sit amet."
+            "text1": "LIVRAISON et retour gratuits",
+            "text2": "En France Métropolitaine et en Europe, c’est gratuit. Hors de France et Europe les frais seront calculés en fonction du poids et de la destination. Toutes nos livraisons sont assurées"
           }
         },
         "143ecdd5-8064-4694-95d6-7dc02d0f4bf9": {
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Icon_open-credit-card_2x_3cedf885-c3e5-458f-9243-e46fe9b92761.png",
-            "text1": "SÉCURITÉ BANCAIRE LOREM IPSUM",
-            "text2": "Suspendisse a ex lacus. Vivamus quis eros sit amet."
+            "text1": "PAIEMENT SECURISÉ POUR TOUS",
+            "text2": "Grâce a nos partenaires STRIPE et PAYPAL, vous pouvez payez d’une façon sécurisée par cartes bancaires Visa, Mastercard, Carte Bleue et Maestro"
           }
         },
         "33a24158-0e69-4d3d-873b-de1b85c672c7": {
@@ -295,15 +311,15 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Icon_awesome-heart_2x_996b6797-3187-432c-8e3f-8042e0406921.png",
             "text1": "SATISFAIT OU REMBOURSÉ",
-            "text2": "Suspendisse a ex lacus. Vivamus quis eros sit amet."
+            "text2": "Vous avez 14 jours pour decider de retourner le bijou et vous faire rembourser"
           }
         },
         "1aa1fa7c-7f73-484d-b2a3-14a2c1fd6c6f": {
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Trace_223_2x_ad984d2d-02db-40d4-a193-14d766f55a68.png",
-            "text1": "RÉPARATIONS LOREM IPSUM",
-            "text2": "Suspendisse a ex lacus. Vivamus quis eros sit amet."
+            "text1": "Mise à Taille Gratuite",
+            "text2": "Vous vous trompé(e) dans la taille de votre bague ? N'ayez aucune crainte, nous vous offrons la possibilité de faire une mise à taille."
           }
         }
       },
@@ -387,7 +403,9 @@
     "613974aa-4403-40b6-b7d6-06a3577dbf8f",
     "55fb1268-2d8e-433a-91a9-1598664f3a6a",
     "80f67356-46e8-4374-ae2a-fc10b0f2d387",
+    "4ba9eff9-a563-4ba9-bb5c-3ea368a8dde0",
     "6d308f1a-f5aa-43e9-abad-067ed8c19a1a",
+    "005f3d6d-e5a2-4d47-8763-b8095926e6b8",
     "13b7c3bf-2a4d-4c10-8c96-bd747dfe6140",
     "11722537-bb38-4572-be25-23e536d7b1e8",
     "b32533d0-632c-4556-b09e-f4d1aed649a2"

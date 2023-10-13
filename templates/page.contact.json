@@ -6,7 +6,7 @@
         "is_full_screen": false,
         "alignment": "center",
         "text_color": "#121212",
-        "image_banner_title_text": "CONTACTEZ-NOUS",
+        "image_banner_title_text": "<p>CONTACTEZ-NOUS<\/p>",
         "is_title_big": true,
         "image_banner_subtitle_text": "Pour toute question, n’hésitez pas à nous contacter. Nous serons heureux de pouvoir vous aider.",
         "is_text_big": true,
@@ -27,12 +27,12 @@
       "type": "contact-form",
       "settings": {
         "text1": "POUR TOUTE DEMANDE, VOUS POUVEZ NOUS JOINDRE :",
-        "text2": "sur whatsapp du lundi au vendredi de 10h00 à 19h",
-        "text3": "par rendez-vous au showroom à ParisDu lundi au vendredi : 9H00 À 19H00 Samedi : 9H00 À 17H00",
-        "text4": "PRENDRE RENDEZ-VOUS EN VISIO",
+        "text2": "Sur whatsapp du lundi au vendredi de 10h à 19h",
+        "text3": "Par rendez-vous au showroom à Paris. Du mardi au vendredi de 9h à 19h Samedi de 10h00 à 12h00",
+        "text4": "PRENDRE RENDEZ-VOUS",
         "text5": "OU EN REMPLISSANT LE FORMULAIRE CI-DESSOUS.",
         "text6": "*Champ obligatoire",
-        "text7": "Découvrez l’univers utopiste de Rosa Maitea et soyez informés de nos dernières créations, nos évènements et actualités.",
+        "text7": "Découvrez l’univers de Rosa Maïtea et soyez informés de nos dernières créations, nos évènements et actualités.",
         "text8": "Pour plus d’information, consultez la politique de protection des données de Rosa Maitea.",
         "padding_top": 65,
         "padding_bottom": 0
@@ -49,28 +49,12 @@
             "adresse": "40 Bd Haussmann, 75009 Paris"
           }
         },
-        "feb48cc3-5706-43b5-8313-0d6f5cf1bffe": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Groupe_356_2x_5c38073d-55e9-4347-bbaa-52611c04531d.png",
-            "title": "BOUTIQUE NOM X",
-            "adresse": "220 rue nom et arrondissement, 00000 nom ville"
-          }
-        },
         "43b54a99-a12e-47c0-ac30-51ffeaea5dd9": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Groupe_358_2x_09e47396-2e5d-4f0f-8663-d19b1d25753f.png",
-            "title": "LE MAGASIN MERCI",
+            "title": "MERCI Concept Store",
             "adresse": "111 bd Beaumarchais, 75003 Paris"
-          }
-        },
-        "c09604b9-83a7-4a6d-9639-7843eecdc110": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Groupe_358_2x_09e47396-2e5d-4f0f-8663-d19b1d25753f.png",
-            "title": "BOUTIQUE NOM X",
-            "adresse": "220 rue nom et arrondissement, 00000 nom ville"
           }
         },
         "750fe521-080c-4207-b713-1c0fca61509c": {
@@ -84,19 +68,35 @@
         "5c90ce42-7ea0-4bfe-a50d-d8960da6ea65": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Groupe_385_2x_c59d36c1-d6e0-4dfd-9cc5-f006f0fa4f34.png",
-            "title": "BOUTIQUE NOM X",
-            "adresse": "220 rue nom et arrondissement, 00000 nom ville"
+            "image": "shopify:\/\/shop_images\/unnamed.png",
+            "title": "MUSE BY",
+            "adresse": "60 Grand-Rue, 1660 Ville-Haute Luxembourg"
+          }
+        },
+        "feb48cc3-5706-43b5-8313-0d6f5cf1bffe": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fred_beard-2_FBEA8773.jpg",
+            "title": "LENY JEWELRY",
+            "adresse": "Rue Lebeau 65, 1000 Bruxelles, Belgique"
+          }
+        },
+        "c09604b9-83a7-4a6d-9639-7843eecdc110": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2023-08-04.jpg",
+            "title": "LE COLORIS",
+            "adresse": "Rue St Adalbert 9, 4000 Liège, Belgique"
           }
         }
       },
       "block_order": [
         "1f3a8b26-0a45-44e5-a658-9c4748ef2c32",
-        "feb48cc3-5706-43b5-8313-0d6f5cf1bffe",
         "43b54a99-a12e-47c0-ac30-51ffeaea5dd9",
-        "c09604b9-83a7-4a6d-9639-7843eecdc110",
         "750fe521-080c-4207-b713-1c0fca61509c",
-        "5c90ce42-7ea0-4bfe-a50d-d8960da6ea65"
+        "5c90ce42-7ea0-4bfe-a50d-d8960da6ea65",
+        "feb48cc3-5706-43b5-8313-0d6f5cf1bffe",
+        "c09604b9-83a7-4a6d-9639-7843eecdc110"
       ],
       "settings": {
         "title": "NOS POINTS DE VENTE ET BOUTIQUES",
@@ -117,19 +117,19 @@
         "51bbed8b-c4bc-4ce9-9f52-42230a004d44": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.<\/p>"
+            "text": "<p>Vous pouvez découvrir les collections et l'histoire de la marque dans un cadre intimiste et unique.<\/p>"
           }
         },
         "59b3502d-16cb-4a31-ad1e-c0a8661ab809": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>ADRESSE <\/strong><\/p><p>Communiquée lors de la prise de rendez-vous, <\/p><p>75009 Paris <\/p>"
+            "text": "<p><strong>ADRESSE <\/strong><\/p><p>Communiquée lors de la prise de rendez-vous. Situé dans le 9ème arrondissement de Paris. <\/p>"
           }
         },
         "508835f4-0a49-4ef2-806b-a7bad6ef46f3": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>ORAIRE D’OUVERTURE<\/strong><\/p><p> Du lundi au vendredi : 9H00 À 19H00 <\/p><p>Samedi : 9H00 À 17H00<\/p>"
+            "text": "<p><strong>HORAIRES D’OUVERTURE<\/strong><\/p><p> Du mardi au vendredi : 9h00 à 19h00 <\/p><p>Samedi : 10h00 À 13h00<\/p>"
           }
         },
         "5800d796-cf82-40f5-9069-4bfe70cc61a1": {

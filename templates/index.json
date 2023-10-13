@@ -15,37 +15,52 @@
           "settings": {
             "alignment": "left",
             "text_color": "#000000",
-            "image_banner_title_text": "title",
+            "image_banner_title_text": "Tous nos bijoux portent un message",
             "is_title_big": false,
-            "image_banner_subtitle_text": "text",
+            "image_banner_subtitle_text": "Messages d’amour, signes d’espoirs et vœux de protection à une nature source de beauté.",
             "is_text_big": false,
-            "image_banner_link_text": "link",
-            "image_banner_link_url": "shopify:\/\/collections\/all",
+            "image_banner_link_text": "Découvrir nos bijoux",
+            "image_banner_link_url": "shopify:\/\/collections",
             "banner_image": "shopify:\/\/shop_images\/ROSA_MAITEA36876-2.jpg"
+          }
+        },
+        "c0c37a82-60e7-4577-a3db-8510872ddcb6": {
+          "type": "slide",
+          "settings": {
+            "alignment": "center",
+            "text_color": "#000000",
+            "image_banner_title_text": "PRENEZ RENDEZ-VOUS DANS NOTRE SHOWROOM",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "",
+            "is_text_big": false,
+            "image_banner_link_text": "Prendre RDV",
+            "image_banner_link_url": "\/",
+            "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-14.jpg"
           }
         },
         "076619a4-bfea-4b99-ab17-c234ce71d53f": {
           "type": "slide",
           "settings": {
             "alignment": "right",
-            "text_color": "#ffffff",
-            "image_banner_title_text": "title",
+            "text_color": "#484b54",
+            "image_banner_title_text": "Rosa Maïtea : une nouvelle vision de la joaillerie éthique",
             "is_title_big": false,
-            "image_banner_subtitle_text": "text",
+            "image_banner_subtitle_text": "Bagues de pierres fines traçables, colliers d’or recyclé parsemés d’étoiles en diamants recyclés, créoles à la fois éthiques et cool…  Les créations Rosa Maïtea<strong> <\/strong>défendent une nouvelle approche de la joaillerie respectueuse de la planète et de la vie.",
             "is_text_big": false,
-            "image_banner_link_text": "link",
-            "image_banner_link_url": "\/",
+            "image_banner_link_text": "Nos bijoux éthiques",
+            "image_banner_link_url": "shopify:\/\/collections",
             "banner_image": "shopify:\/\/shop_images\/2-4.jpg"
           }
         }
       },
       "block_order": [
         "d9928fe9-a1b3-4d88-ae9b-b0f6aef7adbd",
+        "c0c37a82-60e7-4577-a3db-8510872ddcb6",
         "076619a4-bfea-4b99-ab17-c234ce71d53f"
       ],
       "settings": {
         "is_full_screen": true,
-        "dots_color": "#ffffff"
+        "dots_color": "{{ shop.brand.colors.primary[0].background }}"
       }
     },
     "image_banner": {
@@ -55,7 +70,7 @@
         "is_full_screen": true,
         "alignment": "left",
         "text_color": "#000000",
-        "image_banner_title_text": "TOUS LES PRODUITS DE NOTRE JOAILLERIE ÉTHIQUE ONT UNE HISTOIRE",
+        "image_banner_title_text": "<p>TOUS LES PRODUITS DE NOTRE JOAILLERIE ÉTHIQUE ONT UNE HISTOIRE<\/p>",
         "is_title_big": false,
         "image_banner_subtitle_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
         "is_text_big": false,
@@ -71,11 +86,11 @@
         "@media screen and (max-width: 480px) {.section-template--19626079813962__7556615b-ec09-4647-80d0-eb3a4b55c8a9-padding {padding-bottom: 0px !important; }}"
       ],
       "settings": {
-        "title1": "NOS CRÉATIONS ÉTHIQUE ET DURABLE",
+        "title1": "NOS CRÉATIONS ÉTHIQUES ET DURABLES",
         "title2": "LA JOAILLERIE ÉTHIQUE ROSA MAÏTEA",
         "collection": "home-page-selection-on-top",
-        "padding_top": 95,
-        "padding_bottom": 145
+        "padding_top": 85,
+        "padding_bottom": 120
       }
     },
     "555ee7ae-ed60-4f7c-bf8c-fe18132779a1": {
@@ -84,20 +99,20 @@
         "is_reverse": false,
         "slider_2_image": "shopify:\/\/shop_images\/1-2.jpg",
         "text1": "LA JOAILLERIE ÉTHIQUE ROSA MAÏTEA",
-        "text2": "NOS CRÉATIONS DURABLES",
-        "text3": "La collection Margarita retrace l’histoire d’une bombe d’amour",
+        "text2": "NOS CRÉATIONS ECO-RESPONSABLES",
+        "text3": "Arcoiris compose une parure audacieuse réalisée en or jaune 18ct recyclé et serti de pierres 100% traçables : spinelles et grenats de Tanzanie aux magnifiques couleurs vives. ",
         "collection": "arcoiris",
-        "padding_top": 0,
-        "padding_bottom": 145
+        "padding_top": 25,
+        "padding_bottom": 70
       }
     },
     "f997dd8a-2291-4fc6-bedc-9faa72cbe9bc": {
       "type": "rosa-header",
       "settings": {
-        "text1": "DES COLLECTIONS PLEINES D’AMOUR & D’ESPOIR",
-        "text2": "pour les utopistes et les rêveurs qui souhaitent de la joaillerie éthique et durable",
+        "text1": "Des collections éthiques, une joaillerie engagée",
+        "text2": "Les créations Rosa Maïtea perpétuent en beauté l’éclat de l’or, des diamants et des pierres fines en les upcyclant dans des créations à la beauté très actuelle !",
         "padding_top": 0,
-        "padding_bottom": 45
+        "padding_bottom": 70
       }
     },
     "2c663638-02bd-4aa4-a99b-760dc268b2d9": {
@@ -139,7 +154,7 @@
       ],
       "settings": {
         "padding_top": 0,
-        "padding_bottom": 145
+        "padding_bottom": 120
       }
     },
     "d1b389fe-0917-4513-a4c9-41c5fa302df5": {
@@ -155,7 +170,7 @@
         "e78b16e3-a84a-45a3-9f48-e0ab68b0bd90": {
           "type": "text",
           "settings": {
-            "text": "<p>La maison de création joaillière Rosa Maïtea s’engage à travers son amour de l’humain. La marque produit des bagues, des colliers, des boucles d’oreilles en respectant l’humain et la planète.<\/p>"
+            "text": "<p>Bagues de pierres fines traçables, colliers d’or recyclé parsemés d’étoiles en diamants recyclés, créoles à la fois éthiques et cool…  Les créations Rosa Maïtea<strong> <\/strong>défendent une nouvelle approche de la joaillerie respectueuse de la planète et de la vie. <\/p>"
           }
         },
         "dd2147c9-6bac-425f-b1ff-40701e97d5f1": {
@@ -221,7 +236,7 @@
         "is_reverse": false,
         "is_centred": false,
         "padding_top": 0,
-        "padding_bottom": 75
+        "padding_bottom": 0
       }
     },
     "a1ef4a98-24c6-4449-85c4-c389414029b2": {
@@ -230,7 +245,7 @@
         "d2db4430-6f07-4e31-aaf9-d3c5c6c2ced2": {
           "type": "heading",
           "settings": {
-            "heading": "LES SERVICES ROSA MAITEA"
+            "heading": "LES SERVICES ROSA MAÏTEA"
           }
         },
         "ced5720b-109f-475b-a040-c6087f01684a": {
@@ -242,7 +257,7 @@
         "23019398-10ab-4864-ab19-347f920f5a22": {
           "type": "item",
           "settings": {
-            "text": "MISE À LA TAILLE"
+            "text": "MISE À LA TAILLE OFFERTE"
           }
         },
         "ac6501bc-053b-4d1c-b6e9-7143b11a259d": {
@@ -261,12 +276,6 @@
           "type": "item",
           "settings": {
             "text": "RÉPARATIONS ET AMÉLIORATIONS"
-          }
-        },
-        "ce865b09-1019-434a-929a-353397d89385": {
-          "type": "item",
-          "settings": {
-            "text": "CHOIX DES GEMMES"
           }
         },
         "9a35ee0a-5212-486b-b7c8-0dda8f98ba70": {
@@ -291,13 +300,11 @@
         "ac6501bc-053b-4d1c-b6e9-7143b11a259d",
         "478453b2-4b1d-4930-b000-a249f4ccba1a",
         "722c8d1b-fb12-4516-b803-cfda9ddfa333",
-        "ce865b09-1019-434a-929a-353397d89385",
         "9a35ee0a-5212-486b-b7c8-0dda8f98ba70",
         "2f93fbf4-a58e-4b4f-95f5-7eff1dae256b"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/2-4.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/backgrounded-mobile.png"
+        "image": "shopify:\/\/shop_images\/2-4.jpg"
       }
     },
     "9603023c-6e27-4890-b9e6-e92093169f5b": {

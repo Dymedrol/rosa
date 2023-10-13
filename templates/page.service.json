@@ -112,7 +112,7 @@
         "is_reverse": true,
         "is_centred": true,
         "padding_top": 0,
-        "padding_bottom": 75
+        "padding_bottom": 0
       }
     },
     "89163613-924f-42ad-b20e-fe2ca9ab2d98": {
@@ -157,7 +157,7 @@
         "is_reverse": false,
         "is_centred": true,
         "padding_top": 0,
-        "padding_bottom": 75
+        "padding_bottom": 0
       }
     },
     "64d79728-984d-44ac-8da1-714443ca43ef": {
@@ -209,15 +209,15 @@
       "type": "image-banner",
       "settings": {
         "is_full_screen": false,
-        "alignment": "right",
+        "alignment": "left",
         "text_color": "#ffffff",
-        "image_banner_title_text": "CHOIX DES GEMMES",
+        "image_banner_title_text": "<p>CHOIX DES SOLITAIRES<\/p>",
         "is_title_big": false,
         "image_banner_subtitle_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
         "is_text_big": false,
         "image_banner_link_text": "NOUS CONTACTER",
         "image_banner_link_url": "\/",
-        "banner_image": "shopify:\/\/shop_images\/Groupe_308_2x_275f4324-7444-4c82-8d6e-f7a3c33773f7.png"
+        "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-16.jpg"
       }
     },
     "1d4d01a2-48fb-47e1-8d6a-45cdc9f7a53f": {
