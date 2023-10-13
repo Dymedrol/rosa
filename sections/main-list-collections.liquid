@@ -13,7 +13,7 @@
 {%- endstyle -%}
 
 <section class="rosa-collections section-{{ section.id }}-padding">
-    {%- for collection in collections -%}
+    {%- for collection in section.settings.collection_list -%}
 
     <a href="{{ collection.url }}" class="rosa-collections-item">
 
@@ -44,6 +44,11 @@
   "name": "t:sections.main-list-collections.name",
   "class": "section",
   "settings": [
+    {
+      "type": "collection_list",
+      "id": "collection_list",
+      "label": "Collections"
+    },
     {
       "type": "range",
       "id": "padding_top",
