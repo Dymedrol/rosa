@@ -1,0 +1,149 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section class="rosa-horizontal-slider container section-{{ section.id }}-padding">
+  <div class="rosa-horizontal-slider-title1">{{ section.settings.text1 }}</div>
+  <div class="rosa-horizontal-slider-title2">{{ section.settings.text2 }}</div>
+  <div class="rosa-horizontal-slider-desktop-wrapper">
+    <div class="rosa-horizontal-slider-desktop-card-main">
+      <div class="rosa-horizontal-slider-desktop-card-main-text">{{ section.settings.main_card_text }}</div>
+      {% if section.settings.main_card_image %}
+        <img src="{{ section.settings.main_card_image | img_url: '400x400', crop: 'center' }}" alt="" class="rosa-horizontal-slider-desktop-card-main-pic">
+      {% endif %}
+      <a href="{{ section.settings.main_card_link_url }}" class="rosa-horizontal-slider-desktop-card-main-link">{{ section.settings.main_card_link_text }}</a>
+    </div>
+    <div class="rosa-horizontal-slider-desktop-slider swiper">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <img src="{{ block.settings.image | img_url: '828x1168', crop: 'center' }}" alt="" class="rosa-horizontal-slider-desktop-slide swiper-slide">
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="swiper-scrollbar rosa-horizontal-slider-desktop-scrollbar"></div>
+  <div class="rosa-horizontal-slider-mobile">
+    <div class="rosa-horizontal-slider-mobile-carousel owl-carousel">
+      <div class="rosa-horizontal-slider-mobile-main-card">
+        <div class="rosa-horizontal-slider-mobile-card-main-text">{{ section.settings.main_card_text }}</div>
+        {% if section.settings.main_card_image %}
+          <img src="{{ section.settings.main_card_image | img_url: '400x400', crop: 'center' }}" alt="" class="rosa-horizontal-slider-mobile-card-main-pic">
+        {% endif %}
+        <a href="{{ section.settings.main_card_link_url }}" class="rosa-horizontal-slider-mobile-card-main-link">{{ section.settings.main_card_link_text }}</a>
+      </div>
+      {% for block in section.blocks %}
+        <img src="{{ block.settings.image | img_url: '828x1168', crop: 'center' }}" alt="" class="rosa-horizontal-slider-mobile-slide">
+      {% endfor %}
+    </div>
+    <div class="rosa-horizontal-slider-mobile-nav">
+        <svg class="rosa-horizontal-slider-mobile-nav-arrow rosa-horizontal-slider-mobile-nav-arrow-prev" xmlns="http://www.w3.org/2000/svg" width="18.808" height="14.897" viewBox="0 0 18.808 14.897">
+          <g id="Groupe_172" data-name="Groupe 172" transform="translate(0.333 0.373)">
+            <line id="Ligne_4" data-name="Ligne 4" x1="18.474" transform="translate(0 7.076)" fill="none" stroke="#000" stroke-width="1"/>
+            <line id="Ligne_5" data-name="Ligne 5" x1="7.909" y2="7.076" transform="translate(0 0)" fill="none" stroke="#000" stroke-width="1"/>
+            <line id="Ligne_6" data-name="Ligne 6" x2="7.909" y2="7.076" transform="translate(0 7.076)" fill="none" stroke="#000" stroke-width="1"/>
+          </g>
+        </svg>
+
+        <svg class="rosa-horizontal-slider-mobile-nav-arrow rosa-horizontal-slider-mobile-nav-arrow-next" xmlns="http://www.w3.org/2000/svg" width="18.808" height="14.897" viewBox="0 0 18.808 14.897">
+          <g id="Groupe_173" data-name="Groupe 173" transform="translate(0 0.373)">
+            <line id="Ligne_4" data-name="Ligne 4" x2="18.474" transform="translate(0 7.076)" fill="none" stroke="#000" stroke-width="1"/>
+            <line id="Ligne_5" data-name="Ligne 5" x2="7.909" y2="7.076" transform="translate(10.565 0)" fill="none" stroke="#000" stroke-width="1"/>
+            <line id="Ligne_6" data-name="Ligne 6" x1="7.909" y2="7.076" transform="translate(10.565 7.076)" fill="none" stroke="#000" stroke-width="1"/>
+          </g>
+        </svg>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "rosa horizontal slider",
+  "presets": [
+    {
+      "name": "rosa horizontal slider",
+      "category": "Custom"
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "text1",
+      "label": "text 1",
+      "default": "text 1"
+    },
+    {
+      "type": "text",
+      "id": "text2",
+      "label": "text 2",
+      "default": "text 2"
+    },
+    {
+      "type": "richtext",
+      "id": "main_card_text",
+      "label": "main card text",
+      "default": "<p>text</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "main_card_image",
+      "label": "main card image"
+    },
+    {
+      "type": "text",
+      "id": "main_card_link_text",
+      "label": "main card link text",
+      "default": "link text"
+    },
+    {
+      "type": "url",
+      "id": "main_card_link_url",
+      "label": "main card link url",
+      "default": "/"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 45
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 45
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "picture",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "image"
+        }
+      ]
+    }
+  ]
+}
+
+{% endschema %}
