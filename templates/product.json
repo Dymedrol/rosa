@@ -86,20 +86,6 @@
             "title": "OÙ NOUS TROUVER",
             "text": "Nous avons un showroom dans le centre de Paris ou vous pouvez prendre rdv. Nous avons une liste de boutiques ou nos bijoux sont vendues en France, Belgique et Luxembourg pour le moment. Voici la liste de boutiques."
           }
-        },
-        "46a8133d-3d52-456e-803a-b8fa26f77a3f": {
-          "type": "item",
-          "settings": {
-            "text": "text",
-            "url": "\/"
-          }
-        },
-        "5dd87c9f-e9fb-40f6-9520-b77ae0cee9b6": {
-          "type": "accordion",
-          "settings": {
-            "title": "title",
-            "text": "text"
-          }
         }
       },
       "block_order": [
@@ -112,9 +98,7 @@
         "2689b26e-1e69-4953-8893-a2bb40125c10",
         "36049017-dc7f-49cc-9d4a-521579379617",
         "3b7cb09f-7c6b-46ba-9202-f254d5cf75cc",
-        "ad4e1be4-6cf7-4536-b87a-43a8d43c4d0b",
-        "46a8133d-3d52-456e-803a-b8fa26f77a3f",
-        "5dd87c9f-e9fb-40f6-9520-b77ae0cee9b6"
+        "ad4e1be4-6cf7-4536-b87a-43a8d43c4d0b"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/2ROSA_MAITEA_MODEL38915-B-2.jpg",
