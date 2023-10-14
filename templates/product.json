@@ -24,13 +24,6 @@
             "heading2": "ROSA MAÏTEA EXPERIENCE"
           }
         },
-        "f2043284-b98f-4e0c-95bd-acecc36cfefa": {
-          "type": "accordion",
-          "settings": {
-            "title": "PRENDRE RDV au SHOWROOM",
-            "text": "En venant au showroom vous allez vivre une experience unique de partage dans un cocoon colorée et joyeux. Vous pouvez prendre rdv sur le site dans la section Prendre Rdv ou en nous écrivons au rosa@rosamaitea.com ou nous envoyons un whastapp au +33 (0) 6 81 48 71 74"
-          }
-        },
         "9f61982c-8bb5-472f-8b86-6a12be523cdf": {
           "type": "accordion",
           "settings": {
@@ -52,11 +45,11 @@
             "text": "Vous avez commis une erreur dans le choix de la taille de votre bague ?N'ayez aucune inquiétude, nous vous offrons la possibilité de la faire ajuster. Toutes les bagues livrées dans l'Union européenne peuvent être redimensionnées dans les 30 jours suivant la réception."
           }
         },
-        "ae687db6-9dc1-4679-8440-648e707aad9b": {
+        "f2043284-b98f-4e0c-95bd-acecc36cfefa": {
           "type": "accordion",
           "settings": {
-            "title": "PACKAGING ROSA MAÏTEA",
-            "text": "Dans la démarche de notre engagement, nous avons crée des pochons réalisés de magnifiques  tissues upcyclés de la prestigieuse marque Pierre Frey. Nous essayons d'impacter le moins possible la planète (ou) nous voulons utiliser le moins de ressources possible même dans la création de nos écrins emballages, cartes, et envois. Voici nos valeurs et nos engagements."
+            "title": "PRENDRE RDV au SHOWROOM",
+            "text": "En venant au showroom vous allez vivre une experience unique de partage dans un cocoon colorée et joyeux. Vous pouvez prendre rdv sur le site dans la section Prendre Rdv ou en nous écrivons au rosa@rosamaitea.com ou nous envoyons un whastapp au +33 (0) 6 81 48 71 74"
           }
         },
         "2689b26e-1e69-4953-8893-a2bb40125c10": {
@@ -71,6 +64,13 @@
           "settings": {
             "title": "REPARATIONS DE VOS BIJOUX",
             "text": "Nous proposons nos services de réparation et nettoyage pour tous vos bijoux. réparation de bijoux, polissage, nettoyage, gravure ou mise à taille. Contactez nous et nous vous enverrons un devis adapté."
+          }
+        },
+        "ae687db6-9dc1-4679-8440-648e707aad9b": {
+          "type": "accordion",
+          "settings": {
+            "title": "PACKAGING ROSA MAÏTEA",
+            "text": "Dans la démarche de notre engagement, nous avons crée des pochons réalisés de magnifiques  tissues upcyclés de la prestigieuse marque Pierre Frey. Nous essayons d'impacter le moins possible la planète (ou) nous voulons utiliser le moins de ressources possible même dans la création de nos écrins emballages, cartes, et envois. Voici nos valeurs et nos engagements."
           }
         },
         "3b7cb09f-7c6b-46ba-9202-f254d5cf75cc": {
@@ -90,13 +90,13 @@
       },
       "block_order": [
         "88f8deb1-4b82-4d54-bd3c-f5dcb57ff173",
-        "f2043284-b98f-4e0c-95bd-acecc36cfefa",
         "9f61982c-8bb5-472f-8b86-6a12be523cdf",
         "c50bd8d1-49c5-4629-9870-32dd4b014ac3",
         "f8d51ad8-08af-4da4-9a69-3984b3b0ea56",
-        "ae687db6-9dc1-4679-8440-648e707aad9b",
+        "f2043284-b98f-4e0c-95bd-acecc36cfefa",
         "2689b26e-1e69-4953-8893-a2bb40125c10",
         "36049017-dc7f-49cc-9d4a-521579379617",
+        "ae687db6-9dc1-4679-8440-648e707aad9b",
         "3b7cb09f-7c6b-46ba-9202-f254d5cf75cc",
         "ad4e1be4-6cf7-4536-b87a-43a8d43c4d0b"
       ],
