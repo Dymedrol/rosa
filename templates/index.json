@@ -235,7 +235,7 @@
         "image": "shopify:\/\/shop_images\/K6A1999.jpg",
         "is_reverse": false,
         "is_centred": false,
-        "padding_top": 0,
+        "padding_top": 65,
         "padding_bottom": 0
       }
     },
