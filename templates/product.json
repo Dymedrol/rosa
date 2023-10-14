@@ -24,11 +24,11 @@
             "heading2": "ROSA MAÏTEA EXPERIENCE"
           }
         },
-        "f8d51ad8-08af-4da4-9a69-3984b3b0ea56": {
+        "f2043284-b98f-4e0c-95bd-acecc36cfefa": {
           "type": "accordion",
           "settings": {
-            "title": "MISE À TAILLE OFFERTE",
-            "text": "Vous avez commis une erreur dans le choix de la taille de votre bague ?N'ayez aucune inquiétude, nous vous offrons la possibilité de la faire ajuster. Toutes les bagues livrées dans l'Union européenne peuvent être redimensionnées dans les 30 jours suivant la réception."
+            "title": "PRENDRE RDV au SHOWROOM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper ante ac lacus dictum tempus. Donec tristique lectus a tempus consectetur. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Nam pharetra pellentesque est eu sollicitudin. Nunc euismod sapien vitae porttitor lacinia."
           }
         },
         "9f61982c-8bb5-472f-8b86-6a12be523cdf": {
@@ -38,31 +38,24 @@
             "text": "La livraison et le retour sont gratuits partout en France et dans toute l'Union européenne. Pour les destinations en dehors de ces pays, n'hésitez pas à nous contacter à l'adresse albane@rosamaitea.com. Nous vous fournirons les informations nécessaires sur les frais de livraison et organiserons la livraison pour vous."
           }
         },
-        "f2043284-b98f-4e0c-95bd-acecc36cfefa": {
+        "c50bd8d1-49c5-4629-9870-32dd4b014ac3": {
           "type": "accordion",
           "settings": {
-            "title": "PRENDRE RDV",
+            "title": "GUIDE DE TAILLES",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper ante ac lacus dictum tempus. Donec tristique lectus a tempus consectetur. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Nam pharetra pellentesque est eu sollicitudin. Nunc euismod sapien vitae porttitor lacinia."
+          }
+        },
+        "f8d51ad8-08af-4da4-9a69-3984b3b0ea56": {
+          "type": "accordion",
+          "settings": {
+            "title": "MISE À TAILLE OFFERTE",
+            "text": "Vous avez commis une erreur dans le choix de la taille de votre bague ?N'ayez aucune inquiétude, nous vous offrons la possibilité de la faire ajuster. Toutes les bagues livrées dans l'Union européenne peuvent être redimensionnées dans les 30 jours suivant la réception."
           }
         },
         "ae687db6-9dc1-4679-8440-648e707aad9b": {
           "type": "accordion",
           "settings": {
             "title": "PACKAGING ROSA MAÏTEA",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper ante ac lacus dictum tempus. Donec tristique lectus a tempus consectetur. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Nam pharetra pellentesque est eu sollicitudin. Nunc euismod sapien vitae porttitor lacinia."
-          }
-        },
-        "3b7cb09f-7c6b-46ba-9202-f254d5cf75cc": {
-          "type": "accordion",
-          "settings": {
-            "title": "JOAILLERIE ÉCO-REPONSABLE",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper ante ac lacus dictum tempus. Donec tristique lectus a tempus consectetur. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Nam pharetra pellentesque est eu sollicitudin. Nunc euismod sapien vitae porttitor lacinia."
-          }
-        },
-        "c50bd8d1-49c5-4629-9870-32dd4b014ac3": {
-          "type": "accordion",
-          "settings": {
-            "title": "GUIDE DE TAILLES",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper ante ac lacus dictum tempus. Donec tristique lectus a tempus consectetur. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Nam pharetra pellentesque est eu sollicitudin. Nunc euismod sapien vitae porttitor lacinia."
           }
         },
@@ -80,6 +73,13 @@
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper ante ac lacus dictum tempus. Donec tristique lectus a tempus consectetur. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Nam pharetra pellentesque est eu sollicitudin. Nunc euismod sapien vitae porttitor lacinia."
           }
         },
+        "3b7cb09f-7c6b-46ba-9202-f254d5cf75cc": {
+          "type": "accordion",
+          "settings": {
+            "title": "JOAILLERIE ÉCO-REPONSABLE",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper ante ac lacus dictum tempus. Donec tristique lectus a tempus consectetur. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Nam pharetra pellentesque est eu sollicitudin. Nunc euismod sapien vitae porttitor lacinia."
+          }
+        },
         "ad4e1be4-6cf7-4536-b87a-43a8d43c4d0b": {
           "type": "accordion",
           "settings": {
@@ -90,14 +90,14 @@
       },
       "block_order": [
         "88f8deb1-4b82-4d54-bd3c-f5dcb57ff173",
-        "f8d51ad8-08af-4da4-9a69-3984b3b0ea56",
-        "9f61982c-8bb5-472f-8b86-6a12be523cdf",
         "f2043284-b98f-4e0c-95bd-acecc36cfefa",
-        "ae687db6-9dc1-4679-8440-648e707aad9b",
-        "3b7cb09f-7c6b-46ba-9202-f254d5cf75cc",
+        "9f61982c-8bb5-472f-8b86-6a12be523cdf",
         "c50bd8d1-49c5-4629-9870-32dd4b014ac3",
+        "f8d51ad8-08af-4da4-9a69-3984b3b0ea56",
+        "ae687db6-9dc1-4679-8440-648e707aad9b",
         "2689b26e-1e69-4953-8893-a2bb40125c10",
         "36049017-dc7f-49cc-9d4a-521579379617",
+        "3b7cb09f-7c6b-46ba-9202-f254d5cf75cc",
         "ad4e1be4-6cf7-4536-b87a-43a8d43c4d0b"
       ],
       "settings": {
