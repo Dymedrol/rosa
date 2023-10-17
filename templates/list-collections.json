@@ -12,7 +12,7 @@
         "is_text_big": false,
         "image_banner_link_text": "",
         "image_banner_link_url": "\/",
-        "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-26.jpg"
+        "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-104.jpg"
       }
     },
     "main": {
@@ -144,24 +144,6 @@
             "link_url": "\/",
             "image": "shopify:\/\/shop_images\/DSC1035_2x_ca8c2c7f-65cf-4d0b-8e52-f138720e23d2.png"
           }
-        },
-        "0f829721-00f2-46c5-bfc3-0c7735b55bb3": {
-          "type": "slide",
-          "settings": {
-            "text": "TITRE DE LA SELECTION SUR DEUX LIGNES",
-            "link_text": "DÉCOUVRIR LA SÉLECTION",
-            "link_url": "\/",
-            "image": "shopify:\/\/shop_images\/DSC9371_2x_f53070fb-5150-406f-9d77-b21fcffbbc07.png"
-          }
-        },
-        "131d4827-a78c-4cc4-ac9c-fb5f2175cf15": {
-          "type": "slide",
-          "settings": {
-            "text": "TITRE DE LA SELECTION SUR DEUX LIGNES",
-            "link_text": "DÉCOUVRIR LA SÉLECTION",
-            "link_url": "\/",
-            "image": "shopify:\/\/shop_images\/DSC8731_2x_d800db14-ebf3-4938-9ae9-b8466b0bee26.png"
-          }
         }
       },
       "block_order": [
@@ -169,9 +151,7 @@
         "a0012457-81ef-4676-8c97-ebeb8b2c8d80",
         "80bc3f17-c854-49f4-a266-8471aab1db21",
         "65d6b5ba-dc74-41f0-ba3b-14dc5c8da168",
-        "603a95f3-8898-4174-ac4e-fb4e2214ad87",
-        "0f829721-00f2-46c5-bfc3-0c7735b55bb3",
-        "131d4827-a78c-4cc4-ac9c-fb5f2175cf15"
+        "603a95f3-8898-4174-ac4e-fb4e2214ad87"
       ],
       "settings": {
         "title1": "DES SELECTIONS POUR TOUTES LES OCCASIONS",
