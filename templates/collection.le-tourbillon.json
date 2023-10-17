@@ -84,6 +84,7 @@
       "settings": {
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/web_DSC9883.jpg",
         "description": ""
       }
     },
