@@ -63,12 +63,12 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/DSC9972_2x_cb3232c5-9f41-4bb7-9cb0-0bcbe7c2b8dc.png",
-            "title": "LA TRANSPARENT",
+            "title": "LA TRANSPARENCE",
             "link1-text": "<p>PIERRES FINES TRACABLES<\/p>",
-            "link1-url": "",
-            "link2-text": "<p>COMMUNICATION <\/p><p>ET GOUVERNANCE <\/p><p>TRANSPARENTE<\/p>",
+            "link1-url": "shopify:\/\/pages\/nos-pierres-precieuses-100-tracables",
+            "link2-text": "<p>COMMUNICATION TRANSPARENTE<\/p>",
             "link2-url": "",
-            "link3-text": "",
+            "link3-text": "<p>GOUVERNANCE ÉTHIQUE<\/p>",
             "link3-url": ""
           }
         },
