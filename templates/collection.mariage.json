@@ -19,25 +19,11 @@
     "9b7251da-a436-4ee3-86d9-43e5a2375824": {
       "type": "double",
       "blocks": {
-        "4c86542f-6c74-4961-94ed-b043fe20da2b": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Collection Arcoiris<\/p>"
-          }
-        },
         "d2e22a52-2031-49cf-b351-f80fdd768551": {
           "type": "heading",
           "settings": {
             "heading1": "",
             "heading2": "Collection MARIAGE ÉTHIQUE"
-          }
-        },
-        "12bc14bf-27fc-43eb-be3a-3541a5c814cd": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>text<\/p>"
           }
         },
         "72f17976-0055-4da3-bada-32d0ea229273": {
@@ -51,30 +37,19 @@
           "settings": {
             "text": "<p>L’éclat pur des diamants blancs recyclés allié à la brillance de l’or 18 ct recyclé sacralise l’union de deux êtres qui s’aiment et celle de l’humanité avec la nature.<\/p>"
           }
-        },
-        "cd2b9a8a-6684-42b2-a9e3-47ed36321182": {
-          "type": "link",
-          "disabled": true,
-          "settings": {
-            "link_text": "Collection La Bonne Étoile",
-            "link_url": "shopify:\/\/collections\/arcoiris"
-          }
         }
       },
       "block_order": [
-        "4c86542f-6c74-4961-94ed-b043fe20da2b",
         "d2e22a52-2031-49cf-b351-f80fdd768551",
-        "12bc14bf-27fc-43eb-be3a-3541a5c814cd",
         "72f17976-0055-4da3-bada-32d0ea229273",
-        "fc054447-71a8-41ce-9100-b52d6b4385ea",
-        "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
+        "fc054447-71a8-41ce-9100-b52d6b4385ea"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rosa_Maitea_pendentif_diamants_la_bonne_etoile_spread_love.jpg",
         "is_reverse": false,
         "is_centred": true,
         "padding_top": 30,
-        "padding_bottom": 15
+        "padding_bottom": 0
       }
     },
     "product-grid": {
