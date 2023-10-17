@@ -3,7 +3,7 @@
     "74bb4f04-de89-45bd-951a-3fe92be32ae4": {
       "type": "image-banner",
       "custom_css": [
-        ".rosa-jumbotron-title {max-width: 600px!important;}"
+        ".rosa-jumbotron-title {max-width: 600px !important;}"
       ],
       "settings": {
         "is_full_screen": false,
@@ -74,6 +74,7 @@
         "5c90ce42-7ea0-4bfe-a50d-d8960da6ea65": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/unnamed.png",
             "title": "MUSE BY",
             "adresse": "60 Grand-Rue, 1660 Ville-Haute Luxembourg"
           }
