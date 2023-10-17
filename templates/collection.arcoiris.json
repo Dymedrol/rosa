@@ -46,6 +46,7 @@
         },
         "cd2b9a8a-6684-42b2-a9e3-47ed36321182": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "link_text": "Collection La Bonne Étoile",
             "link_url": "shopify:\/\/collections\/arcoiris"
