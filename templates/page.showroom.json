@@ -45,8 +45,8 @@
     "39ebf9c9-7997-4a70-91a3-5c921a459945": {
       "type": "rosa-header3",
       "settings": {
-        "text1": "ROSA MAÏTEA : NOS VALEURS ESSENTIELLES",
-        "text2": "NOS PLUS BELLES VALEURS",
+        "text1": "NOS ENGAGEMENTS",
+        "text2": "EN QUOI NOUS SOMMES UNIQUES",
         "text3": "<p>Rosa Maitea est fière de contribuer à la création d'un monde meilleur. Chacun de nos bijoux éco-responsables incarne notre engagement pour une planète préservée et pour des conditions de travail durables. Plus qu'une marque, Rosa Maïtea<strong> <\/strong>est une vision et la promesse d’une beauté éthique à l'impact positif.<\/p>",
         "padding_top": 100,
         "padding_bottom": 45
@@ -164,6 +164,15 @@
         "padding_bottom": 90
       }
     },
+    "9f334f8d-80cf-4b5c-8b10-0f1170745a14": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/video.png",
+        "description": ""
+      }
+    },
     "50a97970-36c4-452e-9885-f6cb72a35c2d": {
       "type": "rosa-quote2",
       "settings": {
@@ -191,15 +200,6 @@
         "text2": "L’HISTOIRE DE ROSA MAITEA",
         "padding_top": 160,
         "padding_bottom": 25
-      }
-    },
-    "9f334f8d-80cf-4b5c-8b10-0f1170745a14": {
-      "type": "video",
-      "settings": {
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify:\/\/shop_images\/video.png",
-        "description": ""
       }
     },
     "3537bbea-543d-4725-8815-7bcbb35927d0": {
@@ -336,10 +336,10 @@
     "39ebf9c9-7997-4a70-91a3-5c921a459945",
     "60210ce3-b49b-44de-8a98-811cc0c212a7",
     "342e88f4-9b57-4a10-bb2d-96c0eb5061a8",
+    "9f334f8d-80cf-4b5c-8b10-0f1170745a14",
     "50a97970-36c4-452e-9885-f6cb72a35c2d",
     "9e23fcfd-12bf-4a74-828f-42229764382f",
     "65045b80-b25d-42bb-a0b7-16e75d63e285",
-    "9f334f8d-80cf-4b5c-8b10-0f1170745a14",
     "3537bbea-543d-4725-8815-7bcbb35927d0",
     "d946e715-3084-42cd-9331-b75fff4b2453",
     "ece64192-7cd1-4621-8e1c-227f877b30ed",
