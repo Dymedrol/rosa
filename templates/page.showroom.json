@@ -14,24 +14,13 @@
         "is_full_screen": false,
         "alignment": "center",
         "text_color": "#ffffff",
-        "image_banner_title_text": "<p>LA MAISON DE ROSA MAÏTEA<\/p>",
+        "image_banner_title_text": "<p>LA MAISON ROSA MAÏTEA<\/p>",
         "is_title_big": true,
         "image_banner_subtitle_text": "UNE BELLE HISTOIRE D'AMOUR ET D'ÉTHIQUE",
         "is_text_big": true,
         "image_banner_link_text": "",
         "image_banner_link_url": "\/",
-        "banner_image": "shopify:\/\/shop_images\/Groupe_346_2x_18768ad7-0bdb-44bc-9d8d-1018c79bdc5a.png"
-      }
-    },
-    "feab874b-6598-4de7-8bed-d775d7f2cae9": {
-      "type": "rosa-quote",
-      "settings": {
-        "text1": "MANIFESTE DE ROSA MAÏTEA",
-        "text2": "Ma vision est simple : mettre de la lumière dans ce monde opaque en faisant des bijoux avec de l’or et des diamants recyclés, et des pierres traçables.Ces matières sont indestructibles, pourquoi continuer à creuser la terre pour les extraire? Donnons-leur une deuxième vie !",
-        "link_text": "Voir la video du Manifesto",
-        "link_url": "\/",
-        "padding_top": 45,
-        "padding_bottom": 45
+        "banner_image": "shopify:\/\/shop_images\/Cadre_rosamaitea-louison-boucly-studio0476.jpg"
       }
     },
     "4016fdd0-0876-4da1-afe4-d71a6188c6b1": {
@@ -352,7 +341,6 @@
   "order": [
     "main",
     "7a9ec824-a820-47b1-8d38-37009db6aa3c",
-    "feab874b-6598-4de7-8bed-d775d7f2cae9",
     "4016fdd0-0876-4da1-afe4-d71a6188c6b1",
     "7b65d900-0344-4e58-9e3d-e6c2160f1271",
     "39ebf9c9-7997-4a70-91a3-5c921a459945",
