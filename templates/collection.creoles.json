@@ -5,6 +5,17 @@
       "settings": {
       }
     },
+    "45d5b17d-740f-4e4c-928f-e8b2222b18fd": {
+      "type": "rosa-quote",
+      "settings": {
+        "text1": "Les créoles d'amour Rosa Maïtea sont éco-responsables et offrent de jolies variations en or et  diamants recyclés : étoiles, cascades et solitaires s’animent au gré des mouvements et subliment les contours du visage de leurs éclat chatoyant.",
+        "text2": "",
+        "link_text": "",
+        "link_url": "",
+        "padding_top": 80,
+        "padding_bottom": 0
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -108,6 +119,7 @@
   },
   "order": [
     "banner",
+    "45d5b17d-740f-4e4c-928f-e8b2222b18fd",
     "product-grid",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
