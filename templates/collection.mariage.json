@@ -67,6 +67,7 @@
     },
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
       "type": "rosa-header2",
+      "disabled": true,
       "settings": {
         "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
         "text2": "NOUS VOUS ACCUEILLONS DANS NOTRE SHOWROOM AVEC JOIE",
@@ -76,6 +77,7 @@
     },
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
@@ -85,7 +87,7 @@
     "c35448d9-1175-475c-9d96-16d0b67db72b": {
       "type": "rosa-quote",
       "settings": {
-        "text1": "«Je serais heureuse de vous presenter les bijoux et de vous raconter l'histoire de Rosa Maitea ,dans mon showroom autour d'une tasse de thé ou d'une coupe de champagne ! »",
+        "text1": "«Je serais heureuse de vous presenter les bijoux et de vous raconter l'histoire de Rosa Maitea, dans mon showroom autour d'une tasse de thé ou d'une coupe de champagne ! »",
         "text2": "Patricia Pereda - Directrice artistique et fondatrice de Rosa Maïtea",
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
         "link_url": "shopify:\/\/pages\/prendre-rendez-vous",
