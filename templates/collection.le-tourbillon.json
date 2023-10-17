@@ -11,7 +11,7 @@
         "4c86542f-6c74-4961-94ed-b043fe20da2b": {
           "type": "text",
           "settings": {
-            "text": "<p>Collection le Tourbillon<\/p>"
+            "text": "<p>Collection les Solitaires de Rosa Maïtea<\/p>"
           }
         },
         "d2e22a52-2031-49cf-b351-f80fdd768551": {
@@ -50,7 +50,7 @@
         "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/42.jpg",
+        "image": "shopify:\/\/shop_images\/3-ROSA_MAITEA37267.jpg",
         "is_reverse": false,
         "is_centred": true,
         "padding_top": 60,
@@ -84,7 +84,6 @@
       "settings": {
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify:\/\/shop_images\/web_DSC9883.jpg",
         "description": ""
       }
     },
