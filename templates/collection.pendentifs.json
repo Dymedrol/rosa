@@ -5,6 +5,17 @@
       "settings": {
       }
     },
+    "1cab4d84-bd04-4621-a6d9-92d1b1844887": {
+      "type": "rosa-quote",
+      "settings": {
+        "text1": "Les pendentifs éco-responsables Rosa Maïtea illuminent le décolleté. Portés seuls ou combinés avec d’autres pendentifs sur la même chaîne ou en association avec d’autres colliers : colliers de famille, fantaisie, etc... pour créer une composition unique : la vôtre !",
+        "text2": "",
+        "link_text": "",
+        "link_url": "",
+        "padding_top": 80,
+        "padding_bottom": 0
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -108,6 +119,7 @@
   },
   "order": [
     "banner",
+    "1cab4d84-bd04-4621-a6d9-92d1b1844887",
     "product-grid",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
