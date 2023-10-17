@@ -15,7 +15,7 @@
         "custom_liquid": "<iframe style=\"width: 100%; height: 1000px; border: 0px; background-color: transparent;\" id=\"ycbmiframerosamaitea\" src=\"https:\/\/rosamaitea.youcanbook.me\/?noframe=true&amp;skipHeaderFooter=true\" allowtransparency=\"true\" frameborder=\"0\"><\/iframe><script>window.addEventListener && window.addEventListener(\"message\", function(event){if (event.origin === \"https:\/\/rosamaitea.youcanbook.me\"){document.getElementById(\"ycbmiframerosamaitea\").style.height = event.data + \"px\";}}, false);<\/script>",
         "color_scheme": "",
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 0
       }
     },
     "main": {
