@@ -27,7 +27,7 @@
       "type": "rosa-quote2",
       "settings": {
         "text1": "MANIFESTE",
-        "text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        "text2": "Ma vision est simple : mettre de la lumière dans ce monde opaque en faisant des bijoux avec de l’or et des diamants recyclés, et des pierres traçables.Ces matières sont indestructibles, pourquoi continuer à creuser la terre pour les extraire? Donnons-leur une deuxième vie !",
         "padding_top": 70,
         "padding_bottom": 70
       }
@@ -39,53 +39,6 @@
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "cover_image": "shopify:\/\/shop_images\/Image_2x_c4de323d-dc7c-4fc8-9889-fc98efa82c72.png",
         "description": ""
-      }
-    },
-    "096678f7-ca58-4d2e-8525-b5d1c1e410d4": {
-      "type": "double",
-      "blocks": {
-        "7c749ca8-9cae-4c62-87f7-61bca63a89a9": {
-          "type": "heading",
-          "settings": {
-            "heading1": "LA RÉALITÉ DE MINES",
-            "heading2": "OREM IPSUM DOLOR SIT AMET"
-          }
-        },
-        "bf01c18d-e99e-4c76-9d03-d66188b38cdb": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Suspendisse a ex lacus. Vivamus quis eros sit amet nisi faucibus aliquam. Donec vitae mattis risus. Curabitur neque magna, ornare non erat sit amet, dictum feugiat urna. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.<\/p>"
-          }
-        },
-        "42b5c479-f34c-44f7-8a44-f3ba7fd109bf": {
-          "type": "link",
-          "settings": {
-            "link_text": "EN SAVOIR PLUS",
-            "link_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "7c749ca8-9cae-4c62-87f7-61bca63a89a9",
-        "bf01c18d-e99e-4c76-9d03-d66188b38cdb",
-        "42b5c479-f34c-44f7-8a44-f3ba7fd109bf"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Image_2x_62a081be-16a4-45d9-8338-424cddf925e7.png",
-        "is_reverse": false,
-        "is_centred": false,
-        "padding_top": 90,
-        "padding_bottom": 0
-      }
-    },
-    "39ebf9c9-7997-4a70-91a3-5c921a459945": {
-      "type": "rosa-header3",
-      "settings": {
-        "text1": "NOS ENGAGEMENTS",
-        "text2": "LOREM IPSUM DOLOR SIT AMET",
-        "text3": "<p>Suspendisse a ex lacus. Vivamus quis eros sit amet nisi faucibus aliquam. Donec vitae mattis risus. Curabitur neque magna, ornare non erat sit amet, dictum feugiat urna.<\/p>",
-        "padding_top": 165,
-        "padding_bottom": 0
       }
     },
     "60210ce3-b49b-44de-8a98-811cc0c212a7": {
@@ -152,6 +105,53 @@
       ],
       "settings": {
         "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "096678f7-ca58-4d2e-8525-b5d1c1e410d4": {
+      "type": "double",
+      "blocks": {
+        "7c749ca8-9cae-4c62-87f7-61bca63a89a9": {
+          "type": "heading",
+          "settings": {
+            "heading1": "LA RÉALITÉ DE MINES",
+            "heading2": "OREM IPSUM DOLOR SIT AMET"
+          }
+        },
+        "bf01c18d-e99e-4c76-9d03-d66188b38cdb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Suspendisse a ex lacus. Vivamus quis eros sit amet nisi faucibus aliquam. Donec vitae mattis risus. Curabitur neque magna, ornare non erat sit amet, dictum feugiat urna. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.<\/p>"
+          }
+        },
+        "42b5c479-f34c-44f7-8a44-f3ba7fd109bf": {
+          "type": "link",
+          "settings": {
+            "link_text": "EN SAVOIR PLUS",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "7c749ca8-9cae-4c62-87f7-61bca63a89a9",
+        "bf01c18d-e99e-4c76-9d03-d66188b38cdb",
+        "42b5c479-f34c-44f7-8a44-f3ba7fd109bf"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image_2x_62a081be-16a4-45d9-8338-424cddf925e7.png",
+        "is_reverse": false,
+        "is_centred": false,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "39ebf9c9-7997-4a70-91a3-5c921a459945": {
+      "type": "rosa-header3",
+      "settings": {
+        "text1": "NOS ENGAGEMENTS",
+        "text2": "LOREM IPSUM DOLOR SIT AMET",
+        "text3": "<p>Suspendisse a ex lacus. Vivamus quis eros sit amet nisi faucibus aliquam. Donec vitae mattis risus. Curabitur neque magna, ornare non erat sit amet, dictum feugiat urna.<\/p>",
+        "padding_top": 165,
         "padding_bottom": 0
       }
     },
@@ -342,9 +342,9 @@
     "7a9ec824-a820-47b1-8d38-37009db6aa3c",
     "17470121-b250-45ce-a943-32c2364b7e66",
     "7b65d900-0344-4e58-9e3d-e6c2160f1271",
+    "60210ce3-b49b-44de-8a98-811cc0c212a7",
     "096678f7-ca58-4d2e-8525-b5d1c1e410d4",
     "39ebf9c9-7997-4a70-91a3-5c921a459945",
-    "60210ce3-b49b-44de-8a98-811cc0c212a7",
     "50a97970-36c4-452e-9885-f6cb72a35c2d",
     "9e23fcfd-12bf-4a74-828f-42229764382f",
     "65045b80-b25d-42bb-a0b7-16e75d63e285",
