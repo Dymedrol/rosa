@@ -3,7 +3,7 @@
     "9e21e217-4b05-4535-812f-89a8c194ca5d": {
       "type": "image-banner",
       "custom_css": [
-        "@media ((min-width: 1200px)) {.rosa-jumbotron-title {font: 40px\/45px Cormorant !important;}}"
+        "@media ((min-width: 1200px)) {.rosa-jumbotron-title {font: 40px\/45px Cormorant !important; }}"
       ],
       "settings": {
         "is_full_screen": true,
@@ -142,7 +142,7 @@
         "603a95f3-8898-4174-ac4e-fb4e2214ad87": {
           "type": "slide",
           "settings": {
-            "text": "TITRE DE LA SELECTION SUR DEUX LIGNES",
+            "text": "LES CADEAUX DE NOËL",
             "link_text": "DÉCOUVRIR LA SÉLECTION",
             "link_url": "\/",
             "image": "shopify:\/\/shop_images\/DSC1035_2x_ca8c2c7f-65cf-4d0b-8e52-f138720e23d2.png"
