@@ -8,12 +8,12 @@
     "de134052-29de-4df3-95af-855569b54c08": {
       "type": "rosa-quote",
       "settings": {
-        "text1": "Tour à tour constellations ou astres splendides et solitaires, La Bonne Étoile de Rosa Maïtea, se décline dans une collection porte-bonheur, composée d’or et de diamants recyclés. ",
+        "text1": "Symbole absolu de l’amour éternel, les diamants illuminent les joyaux des mariages et des fiançailles. Pour Rosa Maïtea, ces précieux joyaux sont les preuves d’amour éthiques et véritablement durables destinées à tous ceux qu’on aime.",
         "text2": "",
         "link_text": "",
-        "link_url": "\/",
+        "link_url": "",
         "padding_top": 85,
-        "padding_bottom": 55
+        "padding_bottom": 0
       }
     },
     "9b7251da-a436-4ee3-86d9-43e5a2375824": {
@@ -61,7 +61,6 @@
         "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Webp.net-resizeimage.png",
         "is_reverse": false,
         "is_centred": true,
         "padding_top": 30,
@@ -95,7 +94,6 @@
       "settings": {
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-20.png",
         "description": ""
       }
     },
