@@ -38,6 +38,7 @@
         },
         "5c24ca47-6b39-4935-b80f-2f193dd6ba85": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "link_text": "DÉCOUVRIR TOUTE L’HISTOIRE",
             "link_url": "shopify:\/\/pages\/notre-histoire"
