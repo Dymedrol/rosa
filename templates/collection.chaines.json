@@ -5,6 +5,17 @@
       "settings": {
       }
     },
+    "d8bb61d6-b45a-423a-8958-92a188e81e4e": {
+      "type": "rosa-quote",
+      "settings": {
+        "text1": "Les chaînes éco-responsables Rosa Maïtea sont ornées de diamants recyclés ou de pierres fines traçables. Elles sont magnifiques portées seules grâce à leurs diamants scintillants et sont tout aussi parfaites pour sublimer les pendentifs Bonne Étoile ou Arcoiris.",
+        "text2": "",
+        "link_text": "",
+        "link_url": "",
+        "padding_top": 80,
+        "padding_bottom": 0
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -108,6 +119,7 @@
   },
   "order": [
     "banner",
+    "d8bb61d6-b45a-423a-8958-92a188e81e4e",
     "product-grid",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
