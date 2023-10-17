@@ -35,6 +35,7 @@
         },
         "cd2b9a8a-6684-42b2-a9e3-47ed36321182": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "link_text": "Les 3 tailles de Tourbillon",
             "link_url": "shopify:\/\/collections\/tourbillon"
@@ -52,7 +53,7 @@
         "image": "shopify:\/\/shop_images\/42.jpg",
         "is_reverse": false,
         "is_centred": true,
-        "padding_top": 30,
+        "padding_top": 60,
         "padding_bottom": 15
       }
     },
