@@ -12,15 +12,15 @@
       "type": "image-banner",
       "custom_css": [
         ".rosa-jumbotron-title {max-width: 400px !important;}",
-        "@media ((min-width: 1200px)) {.rosa-jumbotron-title_big {font: 60px\/55px Cormorant !important;}}"
+        "@media ((min-width: 1200px)) {.rosa-jumbotron-title_big {font: 60px\/55px Cormorant !important; }}"
       ],
       "settings": {
         "is_full_screen": false,
         "alignment": "center",
         "text_color": "#ffffff",
-        "image_banner_title_text": "<p>LA MAISON ROSA MAÏTEA<\/p>",
+        "image_banner_title_text": "<p>NOS POCHONS RECYCLÉS<\/p>",
         "is_title_big": true,
-        "image_banner_subtitle_text": "UNE BELLE HISTOIRE D'AMOUR ET D'ÉTHIQUE",
+        "image_banner_subtitle_text": "subtitle",
         "is_text_big": true,
         "image_banner_link_text": "",
         "image_banner_link_url": "\/",
