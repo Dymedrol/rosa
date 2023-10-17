@@ -223,19 +223,19 @@
             "url": "\/"
           }
         },
-        "8d1aa989-0424-48f1-b37f-b723ebcbd03d": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Groupe_270_2x_ddf043e1-125f-414c-b9bc-12d9f55a56ee.png",
-            "text": "PACKAGING RECYCLÉ",
-            "url": "\/"
-          }
-        },
         "6d8c597f-8c10-4da7-9dab-1f20fb95a1da": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Groupe_271_2x_9d1c7f0b-c3cf-4220-a8bb-cc0e1fd6c33a.png",
             "text": "PIERRES PRÉCIEUSES 100% TRAÇABLES",
+            "url": "\/"
+          }
+        },
+        "8d1aa989-0424-48f1-b37f-b723ebcbd03d": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Groupe_270_2x_ddf043e1-125f-414c-b9bc-12d9f55a56ee.png",
+            "text": "PACKAGING RECYCLÉ",
             "url": "\/"
           }
         },
@@ -260,8 +260,8 @@
         "c07a10b5-2985-4be2-b674-ca08e024c678",
         "a4018d0e-58bc-485b-b435-ddd0920b5de5",
         "e55a5cf6-aedd-47c7-ba1e-66644d45c1b4",
-        "8d1aa989-0424-48f1-b37f-b723ebcbd03d",
         "6d8c597f-8c10-4da7-9dab-1f20fb95a1da",
+        "8d1aa989-0424-48f1-b37f-b723ebcbd03d",
         "069ea80f-06f5-4fa2-b431-51b1869358c3",
         "c83904e0-b6c3-4325-ac72-42f380849b34"
       ],
@@ -270,7 +270,7 @@
         "is_reverse": true,
         "is_centred": false,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 60
       }
     }
   },
