@@ -2,6 +2,9 @@
   "sections": {
     "9e21e217-4b05-4535-812f-89a8c194ca5d": {
       "type": "image-banner",
+      "custom_css": [
+        "@media ((min-width: 1200px)) {.rosa-jumbotron-title {font: 40px\/45px Cormorant !important;}}"
+      ],
       "settings": {
         "is_full_screen": true,
         "alignment": "center",
