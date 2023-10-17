@@ -48,7 +48,7 @@
             "image_banner_subtitle_text": "",
             "is_text_big": false,
             "image_banner_link_text": "Prendre RDV",
-            "image_banner_link_url": "\/",
+            "image_banner_link_url": "shopify:\/\/pages\/prendre-rendez-vous",
             "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-14.jpg"
           }
         }
@@ -59,7 +59,7 @@
         "c0c37a82-60e7-4577-a3db-8510872ddcb6"
       ],
       "custom_css": [
-        ".rosa-jumbotron-slider-title {margin-bottom: 25px!important;}"
+        ".rosa-jumbotron-slider-title {margin-bottom: 25px !important;}"
       ],
       "settings": {
         "is_full_screen": true,
