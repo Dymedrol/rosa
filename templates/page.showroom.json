@@ -43,6 +43,16 @@
         "description": ""
       }
     },
+    "39ebf9c9-7997-4a70-91a3-5c921a459945": {
+      "type": "rosa-header3",
+      "settings": {
+        "text1": "ROSA MAÏTEA : NOS VALEURS ESSENTIELLES",
+        "text2": "NOS PLUS BELLES VALEURS",
+        "text3": "<p>Rosa Maitea est fière de contribuer à la création d'un monde meilleur. Chacun de nos bijoux éco-responsables incarne notre engagement pour une planète préservée et pour des conditions de travail durables. Plus qu'une marque, Rosa Maïtea<strong> <\/strong>est une vision et la promesse d’une beauté éthique à l'impact positif.<\/p>",
+        "padding_top": 100,
+        "padding_bottom": 45
+      }
+    },
     "60210ce3-b49b-44de-8a98-811cc0c212a7": {
       "type": "rosa-showroom-slides",
       "blocks": {
@@ -144,16 +154,6 @@
         "is_reverse": false,
         "is_centred": false,
         "padding_top": 90,
-        "padding_bottom": 0
-      }
-    },
-    "39ebf9c9-7997-4a70-91a3-5c921a459945": {
-      "type": "rosa-header3",
-      "settings": {
-        "text1": "NOS ENGAGEMENTS",
-        "text2": "LOREM IPSUM DOLOR SIT AMET",
-        "text3": "<p>Suspendisse a ex lacus. Vivamus quis eros sit amet nisi faucibus aliquam. Donec vitae mattis risus. Curabitur neque magna, ornare non erat sit amet, dictum feugiat urna.<\/p>",
-        "padding_top": 165,
         "padding_bottom": 0
       }
     },
@@ -344,9 +344,9 @@
     "7a9ec824-a820-47b1-8d38-37009db6aa3c",
     "feab874b-6598-4de7-8bed-d775d7f2cae9",
     "7b65d900-0344-4e58-9e3d-e6c2160f1271",
+    "39ebf9c9-7997-4a70-91a3-5c921a459945",
     "60210ce3-b49b-44de-8a98-811cc0c212a7",
     "096678f7-ca58-4d2e-8525-b5d1c1e410d4",
-    "39ebf9c9-7997-4a70-91a3-5c921a459945",
     "50a97970-36c4-452e-9885-f6cb72a35c2d",
     "9e23fcfd-12bf-4a74-828f-42229764382f",
     "65045b80-b25d-42bb-a0b7-16e75d63e285",
