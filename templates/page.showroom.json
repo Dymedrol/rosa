@@ -14,7 +14,7 @@
         "is_full_screen": false,
         "alignment": "center",
         "text_color": "#ffffff",
-        "image_banner_title_text": "LA MAISON",
+        "image_banner_title_text": "<p>LA MAISON<\/p>",
         "is_title_big": true,
         "image_banner_subtitle_text": "Lorem ipsum dolor sit amet, consetetur.",
         "is_text_big": true,
@@ -211,7 +211,7 @@
           "type": "heading",
           "settings": {
             "heading1": "LA NAISSANCE DE LA MAISON",
-            "heading2": "ATRICIA PERREDA, FONDATRICE DE ROSA MAITEA"
+            "heading2": "PATRICIA PEREDA, FONDATRICE DE ROSA MAITEA"
           }
         },
         "37ba0929-4e5c-4e01-a9af-3297edf8f43d": {
