@@ -14,9 +14,9 @@
         "is_full_screen": false,
         "alignment": "center",
         "text_color": "#ffffff",
-        "image_banner_title_text": "<p>LA MAISON<\/p>",
+        "image_banner_title_text": "<p>LA MAISON DE ROSA MAÏTEA<\/p>",
         "is_title_big": true,
-        "image_banner_subtitle_text": "Lorem ipsum dolor sit amet, consetetur.",
+        "image_banner_subtitle_text": "UNE BELLE HISTOIRE D'AMOUR ET D'ÉTHIQUE",
         "is_text_big": true,
         "image_banner_link_text": "",
         "image_banner_link_url": "\/",
@@ -150,7 +150,7 @@
         "42b5c479-f34c-44f7-8a44-f3ba7fd109bf"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image_2x_62a081be-16a4-45d9-8338-424cddf925e7.png",
+        "image": "shopify:\/\/shop_images\/Miniere_avec_enfant_500.png",
         "is_reverse": false,
         "is_centred": false,
         "padding_top": 90,
