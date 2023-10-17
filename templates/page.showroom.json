@@ -119,92 +119,6 @@
         "padding_bottom": 0
       }
     },
-    "096678f7-ca58-4d2e-8525-b5d1c1e410d4": {
-      "type": "double",
-      "blocks": {
-        "7c749ca8-9cae-4c62-87f7-61bca63a89a9": {
-          "type": "heading",
-          "settings": {
-            "heading1": "LA RÉALITÉ DE MINES",
-            "heading2": "OREM IPSUM DOLOR SIT AMET"
-          }
-        },
-        "bf01c18d-e99e-4c76-9d03-d66188b38cdb": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Suspendisse a ex lacus. Vivamus quis eros sit amet nisi faucibus aliquam. Donec vitae mattis risus. Curabitur neque magna, ornare non erat sit amet, dictum feugiat urna. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.<\/p>"
-          }
-        },
-        "42b5c479-f34c-44f7-8a44-f3ba7fd109bf": {
-          "type": "link",
-          "settings": {
-            "link_text": "EN SAVOIR PLUS",
-            "link_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "7c749ca8-9cae-4c62-87f7-61bca63a89a9",
-        "bf01c18d-e99e-4c76-9d03-d66188b38cdb",
-        "42b5c479-f34c-44f7-8a44-f3ba7fd109bf"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Miniere_avec_enfant_500.png",
-        "is_reverse": false,
-        "is_centred": false,
-        "padding_top": 90,
-        "padding_bottom": 85
-      }
-    },
-    "50a97970-36c4-452e-9885-f6cb72a35c2d": {
-      "type": "rosa-quote2",
-      "settings": {
-        "text1": "LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. NUNC IN ERAT LOREM.",
-        "text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
-        "padding_top": 90,
-        "padding_bottom": 0
-      }
-    },
-    "9e23fcfd-12bf-4a74-828f-42229764382f": {
-      "type": "rosa-double-link",
-      "settings": {
-        "link1_text": "VOIR PLUS DE TRAÇABILITÉS",
-        "link1_url": "\/",
-        "link2_text": "FABRICATION ET PARTENAIRES",
-        "link2_url": "\/",
-        "padding_top": 45,
-        "padding_bottom": 0
-      }
-    },
-    "65045b80-b25d-42bb-a0b7-16e75d63e285": {
-      "type": "rosa-header2",
-      "settings": {
-        "text1": "IL ÉTTAIT UNE FOIS",
-        "text2": "L’HISTOIRE DE ROSA MAITEA",
-        "padding_top": 160,
-        "padding_bottom": 25
-      }
-    },
-    "9f334f8d-80cf-4b5c-8b10-0f1170745a14": {
-      "type": "video",
-      "settings": {
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify:\/\/shop_images\/video.png",
-        "description": ""
-      }
-    },
-    "3537bbea-543d-4725-8815-7bcbb35927d0": {
-      "type": "rosa-quote",
-      "settings": {
-        "text1": "« Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. »",
-        "text2": "Patricia Perreda - Directrice artistique Rosa Maitea",
-        "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
-        "link_url": "\/",
-        "padding_top": 50,
-        "padding_bottom": 0
-      }
-    },
     "342e88f4-9b57-4a10-bb2d-96c0eb5061a8": {
       "type": "double",
       "blocks": {
@@ -250,14 +164,53 @@
         "padding_bottom": 90
       }
     },
-    "1de1cfcb-2dc7-45a8-bd02-f7716916da12": {
-      "type": "rosa-blogs",
+    "50a97970-36c4-452e-9885-f6cb72a35c2d": {
+      "type": "rosa-quote2",
       "settings": {
-        "text1": "LA JOAILLERIE ÉTHIQUE ET VISIONNAIRE",
-        "text2": "L’ACTUALITÉ ROSA MAITEA",
-        "link_text": "VOIR TOUTES NOS ACTUALITÉS",
+        "text1": "LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. NUNC IN ERAT LOREM.",
+        "text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "9e23fcfd-12bf-4a74-828f-42229764382f": {
+      "type": "rosa-double-link",
+      "settings": {
+        "link1_text": "VOIR PLUS DE TRAÇABILITÉS",
+        "link1_url": "\/",
+        "link2_text": "FABRICATION ET PARTENAIRES",
+        "link2_url": "\/",
+        "padding_top": 45,
+        "padding_bottom": 0
+      }
+    },
+    "65045b80-b25d-42bb-a0b7-16e75d63e285": {
+      "type": "rosa-header2",
+      "settings": {
+        "text1": "IL ÉTAIT UNE FOIS",
+        "text2": "L’HISTOIRE DE ROSA MAITEA",
+        "padding_top": 160,
+        "padding_bottom": 25
+      }
+    },
+    "9f334f8d-80cf-4b5c-8b10-0f1170745a14": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/video.png",
+        "description": ""
+      }
+    },
+    "3537bbea-543d-4725-8815-7bcbb35927d0": {
+      "type": "rosa-quote",
+      "settings": {
+        "text1": "« Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. »",
+        "text2": "Patricia Perreda - Directrice artistique Rosa Maitea",
+        "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
         "link_url": "\/",
-        "blog": "le-blog-de-rosa-maitea"
+        "padding_top": 50,
+        "padding_bottom": 0
       }
     },
     "d946e715-3084-42cd-9331-b75fff4b2453": {
@@ -330,6 +283,43 @@
         "padding_bottom": 55
       }
     },
+    "096678f7-ca58-4d2e-8525-b5d1c1e410d4": {
+      "type": "double",
+      "blocks": {
+        "7c749ca8-9cae-4c62-87f7-61bca63a89a9": {
+          "type": "heading",
+          "settings": {
+            "heading1": "LA RÉALITÉ DE MINES",
+            "heading2": "OREM IPSUM DOLOR SIT AMET"
+          }
+        },
+        "bf01c18d-e99e-4c76-9d03-d66188b38cdb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Suspendisse a ex lacus. Vivamus quis eros sit amet nisi faucibus aliquam. Donec vitae mattis risus. Curabitur neque magna, ornare non erat sit amet, dictum feugiat urna. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.<\/p>"
+          }
+        },
+        "42b5c479-f34c-44f7-8a44-f3ba7fd109bf": {
+          "type": "link",
+          "settings": {
+            "link_text": "EN SAVOIR PLUS",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "7c749ca8-9cae-4c62-87f7-61bca63a89a9",
+        "bf01c18d-e99e-4c76-9d03-d66188b38cdb",
+        "42b5c479-f34c-44f7-8a44-f3ba7fd109bf"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Miniere_avec_enfant_500.png",
+        "is_reverse": false,
+        "is_centred": false,
+        "padding_top": 90,
+        "padding_bottom": 85
+      }
+    },
     "d462669a-9481-42b6-a30f-6421185de238": {
       "type": "rosa-header-controls",
       "settings": {
@@ -345,16 +335,15 @@
     "7b65d900-0344-4e58-9e3d-e6c2160f1271",
     "39ebf9c9-7997-4a70-91a3-5c921a459945",
     "60210ce3-b49b-44de-8a98-811cc0c212a7",
-    "096678f7-ca58-4d2e-8525-b5d1c1e410d4",
+    "342e88f4-9b57-4a10-bb2d-96c0eb5061a8",
     "50a97970-36c4-452e-9885-f6cb72a35c2d",
     "9e23fcfd-12bf-4a74-828f-42229764382f",
     "65045b80-b25d-42bb-a0b7-16e75d63e285",
     "9f334f8d-80cf-4b5c-8b10-0f1170745a14",
     "3537bbea-543d-4725-8815-7bcbb35927d0",
-    "342e88f4-9b57-4a10-bb2d-96c0eb5061a8",
-    "1de1cfcb-2dc7-45a8-bd02-f7716916da12",
     "d946e715-3084-42cd-9331-b75fff4b2453",
     "ece64192-7cd1-4621-8e1c-227f877b30ed",
+    "096678f7-ca58-4d2e-8525-b5d1c1e410d4",
     "d462669a-9481-42b6-a30f-6421185de238"
   ]
 }
