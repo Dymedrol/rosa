@@ -34,21 +34,12 @@
         "padding_bottom": 45
       }
     },
-    "17470121-b250-45ce-a943-32c2364b7e66": {
-      "type": "rosa-quote2",
-      "settings": {
-        "text1": "MANIFESTE",
-        "text2": "Ma vision est simple : mettre de la lumière dans ce monde opaque en faisant des bijoux avec de l’or et des diamants recyclés, et des pierres traçables.Ces matières sont indestructibles, pourquoi continuer à creuser la terre pour les extraire? Donnons-leur une deuxième vie !",
-        "padding_top": 70,
-        "padding_bottom": 70
-      }
-    },
     "7b65d900-0344-4e58-9e3d-e6c2160f1271": {
       "type": "video",
       "settings": {
         "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify:\/\/shop_images\/Image_2x_c4de323d-dc7c-4fc8-9889-fc98efa82c72.png",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=H-iCgfPBpxA",
+        "cover_image": "shopify:\/\/shop_images\/DSC0786.jpg",
         "description": ""
       }
     },
@@ -352,7 +343,6 @@
     "main",
     "7a9ec824-a820-47b1-8d38-37009db6aa3c",
     "feab874b-6598-4de7-8bed-d775d7f2cae9",
-    "17470121-b250-45ce-a943-32c2364b7e66",
     "7b65d900-0344-4e58-9e3d-e6c2160f1271",
     "60210ce3-b49b-44de-8a98-811cc0c212a7",
     "096678f7-ca58-4d2e-8525-b5d1c1e410d4",
