@@ -10,7 +10,11 @@
             {%- when 'text' -%}
               <div class="rosa-backgrounded-text">{{ block.settings.text }}</div>
             {%- when 'item' -%}
-                <div class="rosa-backgrounded-list-item">{{ block.settings.text }}</div>
+                {% if block.settings.url %}
+                  <a href="{{  block.settings.url }}" class="rosa-backgrounded-list-item">{{ block.settings.text }}</a>
+                {% else %}
+                  <div class="rosa-backgrounded-list-item">{{ block.settings.text }}</div>
+                {% endif %}
             {%- when 'link' -%}
               <a href="{{ block.settings.link_url }}" class="rosa-backgrounded-link">{{ block.settings.link_text }}</a>
           {%- endcase -%}
@@ -75,6 +79,11 @@
           "id": "text",
           "default": "text",
           "label": "text"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "url"
         }
       ]
     },

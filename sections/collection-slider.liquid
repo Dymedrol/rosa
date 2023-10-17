@@ -14,9 +14,10 @@
 
 <section class="rosa-collection-slider section-{{ section.id }}-padding">
     <div class="rosa-collection-slider-header container">
+
         <div class="rosa-collection-slider-header-info">
             <div class="rosa-collection-slider-header-info-text1">{{ section.settings.title1 }}</div>
-            <div class="rosa-collection-slider-header-info-text2">{{ section.settings.title2 }}</div>
+            <{{ section.settings.tag }} class="rosa-collection-slider-header-info-text2">{{ section.settings.title2 }}</{{ section.settings.tag }}>
         </div>
 
         <div class="rosa-collection-slider-header-nav">
@@ -67,6 +68,26 @@
     }
   ],
   "settings": [
+    {
+      "type": "select",
+      "id": "tag",
+      "label": "title tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "h1"
+        },
+        {
+          "value": "h2",
+          "label": "h2"
+        },
+        {
+          "value": "div",
+          "label": "none"
+        }
+      ],
+      "default": "div"
+    },
     {
       "type": "text",
       "id": "title1",

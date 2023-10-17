@@ -874,7 +874,7 @@ h1 {
 }
 .rosa-jumbotron-title {
   text-align: left;
-  font: normal normal normal 35px/40px Cormorant;
+  font: normal normal normal 35px/40px Cormorant !important;
   letter-spacing: 0px;
   color: #FFFFFF;
   text-transform: uppercase;
@@ -885,7 +885,7 @@ h1 {
 @media ((min-width: 1200px)) {
   .rosa-jumbotron-title {
     text-align: left;
-    font: normal normal normal 40px/40px Cormorant;
+    font: normal normal normal 40px/40px Cormorant !important;
     letter-spacing: 0px;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -895,7 +895,7 @@ h1 {
 }
 @media ((min-width: 1200px)) {
   .rosa-jumbotron-title_big {
-    font: normal normal normal 60px/45px Cormorant;
+    font: normal normal normal 60px/45px Cormorant !important;
     margin-bottom: 9px;
   }
 }
@@ -965,13 +965,13 @@ h1 {
   }
 }
 .rosa-collection-slider-header-info-text2 {
-  font: normal normal normal 35px/45px Cormorant;
+  font: normal normal normal 35px/45px Cormorant !important;
   color: #000000;
   text-transform: uppercase;
 }
 @media ((min-width: 1200px)) {
   .rosa-collection-slider-header-info-text2 {
-    font: normal normal normal 40px/45px Cormorant;
+    font: normal normal normal 40px/45px Cormorant !important;
   }
 }
 .rosa-collection-slider-header-nav {
@@ -1930,6 +1930,7 @@ h1 {
   margin-bottom: 55px;
 }
 .rosa-backgrounded-list-item {
+  display: block;
   padding-left: 37px;
   position: relative;
   text-align: left;
@@ -1948,6 +1949,9 @@ h1 {
   width: 17px;
   height: 17px;
   background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='17.263' height='17.263' viewBox='0 0 17.263 17.263'%3E%3Cpath id='Tracé_230' data-name='Tracé 230' d='M170.144,176.783a.156.156,0,0,1,0,.312,7.825,7.825,0,0,0-7.822,7.822.154.154,0,1,1-.309,0,7.825,7.825,0,0,0-7.822-7.822.156.156,0,0,1,0-.312,7.822,7.822,0,0,0,7.822-7.82.154.154,0,0,1,.309,0A7.822,7.822,0,0,0,170.144,176.783Z' transform='translate(-153.536 -168.309)' fill='none' stroke='%23000' stroke-width='1'/%3E%3C/svg%3E%0A");
+}
+.rosa-backgrounded-list-item + .rosa-backgrounded-link {
+  margin-top: 40px;
 }
 .rosa-backgrounded-link {
   display: block;
@@ -3312,7 +3316,7 @@ h1 {
 }
 .rosa-collection-banner-title {
   text-align: center;
-  font: normal normal normal 35px/45px Cormorant;
+  font: normal normal normal 35px/45px Cormorant !important;
   letter-spacing: 0px;
   color: #FFFFFF;
   text-transform: uppercase;
@@ -3322,7 +3326,7 @@ h1 {
 @media ((min-width: 1200px)) {
   .rosa-collection-banner-title {
     text-align: center;
-    font: normal normal normal 60px/58px Cormorant;
+    font: normal normal normal 60px/58px Cormorant !important;
     letter-spacing: 0px;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -3431,7 +3435,7 @@ h1 {
 }
 .rosa-pdp-info-title {
   text-align: left;
-  font: normal normal normal 38px/43px Cormorant;
+  font: normal normal normal 38px/43px Cormorant !important;
   letter-spacing: 0px;
   color: #000000;
   text-transform: uppercase;
@@ -3439,7 +3443,7 @@ h1 {
 }
 @media ((min-width: 1200px)) {
   .rosa-pdp-info-title {
-    font: normal normal normal 38px/35px Cormorant;
+    font: normal normal normal 38px/35px Cormorant !important;
     margin-bottom: 12px;
   }
 }

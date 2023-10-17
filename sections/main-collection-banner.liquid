@@ -13,7 +13,7 @@
 
       <div class="rosa-collection-banner-wrapper container">
         <div class="rosa-collection-banner-subtitle">{{ collection.metafields.custom.subtitle }}</div>
-        <div class="rosa-collection-banner-title">{{- collection.title | escape -}}</div>
+        <{{ section.settings.tag }} class="rosa-collection-banner-title">{{- collection.title | escape -}}</{{ section.settings.tag }}>
       </div>
   </section>
 {% endif %}
@@ -21,6 +21,28 @@
 {% schema %}
 {
   "name": "t:sections.main-collection-banner.name",
-  "class": "section"
+  "class": "section",
+  "settings": [
+    {
+      "type": "select",
+      "id": "tag",
+      "label": "title tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "h1"
+        },
+        {
+          "value": "h2",
+          "label": "h2"
+        },
+        {
+          "value": "div",
+          "label": "none"
+        }
+      ],
+      "default": "div"
+    }
+  ]
 }
 {% endschema %}
