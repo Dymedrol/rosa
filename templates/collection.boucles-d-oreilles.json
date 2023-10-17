@@ -5,6 +5,17 @@
       "settings": {
       }
     },
+    "c6956543-4920-40d6-a8d4-37e1934d5bdc": {
+      "type": "rosa-quote",
+      "settings": {
+        "text1": "Elles se portent à l’unité, en paire ou dépareillées. Toutes les BO Rosa Maïtea sont en or recyclé et peuvent s’associer joyeusement sur une même oreille car nous proposons toutes nos boucles d'oreilles à l’unité.",
+        "text2": "",
+        "link_text": "",
+        "link_url": "\/",
+        "padding_top": 80,
+        "padding_bottom": 0
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -108,6 +119,7 @@
   },
   "order": [
     "banner",
+    "c6956543-4920-40d6-a8d4-37e1934d5bdc",
     "product-grid",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
