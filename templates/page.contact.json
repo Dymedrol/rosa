@@ -2,6 +2,9 @@
   "sections": {
     "74bb4f04-de89-45bd-951a-3fe92be32ae4": {
       "type": "image-banner",
+      "custom_css": [
+        ".rosa-jumbotron-title {max-width: 600px!important;}"
+      ],
       "settings": {
         "is_full_screen": false,
         "alignment": "center",
