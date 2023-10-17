@@ -10,6 +10,10 @@
     },
     "7a9ec824-a820-47b1-8d38-37009db6aa3c": {
       "type": "image-banner",
+      "custom_css": [
+        ".rosa-jumbotron-title {max-width: 400px !important;}",
+        "@media ((min-width: 1200px)) {.rosa-jumbotron-title_big {font: 60px\/55px Cormorant !important;}}"
+      ],
       "settings": {
         "is_full_screen": false,
         "alignment": "center",
