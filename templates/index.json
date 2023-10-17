@@ -60,7 +60,7 @@
       ],
       "custom_css": [
         ".rosa-jumbotron-slider-title {margin-bottom: 25px !important;}",
-        ".rosa-jumbotron-slider-text {max-width: 360px!important;}"
+        ".rosa-jumbotron-slider-text {max-width: 360px !important;}"
       ],
       "settings": {
         "is_full_screen": true,
@@ -193,19 +193,19 @@
             "url": ""
           }
         },
-        "e6951df6-74c0-4dc2-8173-2bf78a5ac54f": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Groupe_270_2x_ddf043e1-125f-414c-b9bc-12d9f55a56ee.png",
-            "text": "PACKAGING RECYCLÉ",
-            "url": ""
-          }
-        },
         "243fce36-3873-4aa3-b25f-713204a305ec": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Groupe_271_2x_9d1c7f0b-c3cf-4220-a8bb-cc0e1fd6c33a.png",
             "text": "PIERRES PRÉCIEUSES 100% TRAÇABLES",
+            "url": ""
+          }
+        },
+        "e6951df6-74c0-4dc2-8173-2bf78a5ac54f": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Groupe_270_2x_ddf043e1-125f-414c-b9bc-12d9f55a56ee.png",
+            "text": "PACKAGING RECYCLÉ",
             "url": ""
           }
         },
@@ -230,8 +230,8 @@
         "e78b16e3-a84a-45a3-9f48-e0ab68b0bd90",
         "dd2147c9-6bac-425f-b1ff-40701e97d5f1",
         "cc301d28-41d2-4636-be6c-ed0d8dc8ab67",
-        "e6951df6-74c0-4dc2-8173-2bf78a5ac54f",
         "243fce36-3873-4aa3-b25f-713204a305ec",
+        "e6951df6-74c0-4dc2-8173-2bf78a5ac54f",
         "20637540-e4dd-42b9-83e4-dc4fc58cdcb3",
         "dc525a5f-fbe2-4154-a41b-14e3b349ec3b"
       ],
@@ -306,6 +306,9 @@
         "722c8d1b-fb12-4516-b803-cfda9ddfa333",
         "9a35ee0a-5212-486b-b7c8-0dda8f98ba70",
         "2f93fbf4-a58e-4b4f-95f5-7eff1dae256b"
+      ],
+      "custom_css": [
+        ".rosa-backgrounded-link {margin-bottom: 15px!important;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/2-4.jpg"
