@@ -52,10 +52,10 @@
             "image": "shopify:\/\/shop_images\/DSC0487_2x_31de653b-02b5-4ed0-a2c8-8b7c874d160b.png",
             "title": "L’ÉCONOMIE CIRCULAIRE",
             "link1-text": "<p>OR RECYCLÉ<\/p>",
-            "link1-url": "\/",
+            "link1-url": "shopify:\/\/pages\/notre-or-recycle",
             "link2-text": "<p>DIAMANT RECYCLÉ<\/p>",
-            "link2-url": "\/",
-            "link3-text": "<p>NOS POCHONS RECYCLES<\/p>",
+            "link2-url": "shopify:\/\/pages\/nos-diamants-recycles",
+            "link3-text": "<p>NOS POCHONS RECYCLÉS<\/p>",
             "link3-url": ""
           }
         },
