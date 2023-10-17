@@ -61,7 +61,7 @@
         "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Webp.net-resizeimage.png",
+        "image": "shopify:\/\/shop_images\/DSC8051.jpg",
         "is_reverse": false,
         "is_centred": true,
         "padding_top": 30,
@@ -95,7 +95,6 @@
       "settings": {
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-20.png",
         "description": ""
       }
     },
