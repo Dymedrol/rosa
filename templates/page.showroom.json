@@ -48,7 +48,7 @@
         "text1": "NOS ENGAGEMENTS",
         "text2": "EN QUOI NOUS SOMMES UNIQUES",
         "text3": "<p>Rosa Maitea est fière de contribuer à la création d'un monde meilleur. Chacun de nos bijoux éco-responsables incarne notre engagement pour une planète préservée et pour des conditions de travail durables. Plus qu'une marque, Rosa Maïtea<strong> <\/strong>est une vision et la promesse d’une beauté éthique à l'impact positif.<\/p>",
-        "padding_top": 100,
+        "padding_top": 80,
         "padding_bottom": 45
       }
     },
@@ -115,7 +115,27 @@
         "151b166d-0925-4835-ba45-5d381a73ebaa"
       ],
       "settings": {
-        "padding_top": 90,
+        "padding_top": 70,
+        "padding_bottom": 0
+      }
+    },
+    "50a97970-36c4-452e-9885-f6cb72a35c2d": {
+      "type": "rosa-quote2",
+      "settings": {
+        "text1": "Notre objectif est d'apporter de la lumière et de la transparence à la joaillerie",
+        "text2": "Nos créations sont respectueuses de l'environnement et d’êtres humains qui participent à leurs fabrication. J’ai la conviction, que nous pouvons contribuer à faire changer les choses. Bien sûr, ce ne sera pas parfait du jour au lendemain, les enjeux sont trop vastes, mais contribuer à plus de transparence c’est un premier pas, un premier rayon de soleil qui, je l’espère, se démultipliera.",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "9e23fcfd-12bf-4a74-828f-42229764382f": {
+      "type": "rosa-double-link",
+      "settings": {
+        "link1_text": "VOIR PLUS SUR LE RECYCLAGE de diamants",
+        "link1_url": "shopify:\/\/pages\/nos-diamants-recycles",
+        "link2_text": "FABRICATION DE NOS BIJOUX",
+        "link2_url": "shopify:\/\/pages\/qui-fabrique-nos-bijoux",
+        "padding_top": 45,
         "padding_bottom": 0
       }
     },
@@ -161,7 +181,16 @@
         "is_reverse": true,
         "is_centred": false,
         "padding_top": 90,
-        "padding_bottom": 90
+        "padding_bottom": 50
+      }
+    },
+    "65045b80-b25d-42bb-a0b7-16e75d63e285": {
+      "type": "rosa-header2",
+      "settings": {
+        "text1": "IL ÉTAIT UNE FOIS",
+        "text2": "L’HISTOIRE DE ROSA MAITEA",
+        "padding_top": 80,
+        "padding_bottom": 25
       }
     },
     "9f334f8d-80cf-4b5c-8b10-0f1170745a14": {
@@ -171,35 +200,6 @@
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "cover_image": "shopify:\/\/shop_images\/video.png",
         "description": ""
-      }
-    },
-    "50a97970-36c4-452e-9885-f6cb72a35c2d": {
-      "type": "rosa-quote2",
-      "settings": {
-        "text1": "LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. NUNC IN ERAT LOREM.",
-        "text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
-        "padding_top": 90,
-        "padding_bottom": 0
-      }
-    },
-    "9e23fcfd-12bf-4a74-828f-42229764382f": {
-      "type": "rosa-double-link",
-      "settings": {
-        "link1_text": "VOIR PLUS DE TRAÇABILITÉS",
-        "link1_url": "\/",
-        "link2_text": "FABRICATION ET PARTENAIRES",
-        "link2_url": "\/",
-        "padding_top": 45,
-        "padding_bottom": 0
-      }
-    },
-    "65045b80-b25d-42bb-a0b7-16e75d63e285": {
-      "type": "rosa-header2",
-      "settings": {
-        "text1": "IL ÉTAIT UNE FOIS",
-        "text2": "L’HISTOIRE DE ROSA MAITEA",
-        "padding_top": 160,
-        "padding_bottom": 25
       }
     },
     "3537bbea-543d-4725-8815-7bcbb35927d0": {
@@ -279,7 +279,7 @@
         "2d694221-c05e-452c-bd9a-6b8b00d22945"
       ],
       "settings": {
-        "padding_top": 85,
+        "padding_top": 60,
         "padding_bottom": 55
       }
     },
@@ -335,11 +335,11 @@
     "7b65d900-0344-4e58-9e3d-e6c2160f1271",
     "39ebf9c9-7997-4a70-91a3-5c921a459945",
     "60210ce3-b49b-44de-8a98-811cc0c212a7",
-    "342e88f4-9b57-4a10-bb2d-96c0eb5061a8",
-    "9f334f8d-80cf-4b5c-8b10-0f1170745a14",
     "50a97970-36c4-452e-9885-f6cb72a35c2d",
     "9e23fcfd-12bf-4a74-828f-42229764382f",
+    "342e88f4-9b57-4a10-bb2d-96c0eb5061a8",
     "65045b80-b25d-42bb-a0b7-16e75d63e285",
+    "9f334f8d-80cf-4b5c-8b10-0f1170745a14",
     "3537bbea-543d-4725-8815-7bcbb35927d0",
     "d946e715-3084-42cd-9331-b75fff4b2453",
     "ece64192-7cd1-4621-8e1c-227f877b30ed",
