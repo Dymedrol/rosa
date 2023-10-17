@@ -34,6 +34,16 @@
         "padding_bottom": 45
       }
     },
+    "4016fdd0-0876-4da1-afe4-d71a6188c6b1": {
+      "type": "rosa-header3",
+      "settings": {
+        "text1": "NOTRE RAISON D'ETRE",
+        "text2": "MANIFESTE",
+        "text3": "<p>Ma vision est simple : mettre de la lumière dans ce monde opaque en faisant des bijoux avec de l’or et des diamants recyclés, et des pierres traçables. Rosa Maitea est fière de contribuer à la création d'un monde meilleur. Chacun de nos bijoux éco-responsables incarne notre engagement pour une planète préservée et pour des conditions de travail durables. Plus qu'une marque, Rosa Maïtea est une vision et la promesse d’une beauté éthique à l'impact positif.<\/p>",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "7b65d900-0344-4e58-9e3d-e6c2160f1271": {
       "type": "video",
       "settings": {
@@ -343,6 +353,7 @@
     "main",
     "7a9ec824-a820-47b1-8d38-37009db6aa3c",
     "feab874b-6598-4de7-8bed-d775d7f2cae9",
+    "4016fdd0-0876-4da1-afe4-d71a6188c6b1",
     "7b65d900-0344-4e58-9e3d-e6c2160f1271",
     "39ebf9c9-7997-4a70-91a3-5c921a459945",
     "60210ce3-b49b-44de-8a98-811cc0c212a7",
