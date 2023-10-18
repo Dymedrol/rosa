@@ -1,5 +1,12 @@
 {
   "sections": {
+    "d462669a-9481-42b6-a30f-6421185de238": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#000000",
+        "is_static": true
+      }
+    },
     "48a3eb35-82c1-4835-8ed6-58ff58d72ff8": {
       "type": "rosa-header",
       "settings": {
@@ -91,8 +98,18 @@
         "banner_image": "shopify:\/\/shop_images\/Groupe-175_2x_307a0587-5430-47b0-953b-c3ea649bc258.jpg"
       }
     },
+    "3d7024d0-d6bc-4fe4-aaa5-98fa13a4cfd1": {
+      "type": "rosa-quote5",
+      "settings": {
+        "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
+        "text2": "PATRICIA - CRÉATRICE DE ROSA MAITEA",
+        "padding_top": 45,
+        "padding_bottom": 0
+      }
+    },
     "68a13697-2e98-445f-a2df-17fbee4b14dc": {
       "type": "rosa-quote",
+      "disabled": true,
       "settings": {
         "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
         "text2": "PATRICIA - CRÉATRICE DE ROSA MAITEA",
@@ -411,21 +428,16 @@
         "padding_top": 90,
         "padding_bottom": 85
       }
-    },
-    "d462669a-9481-42b6-a30f-6421185de238": {
-      "type": "rosa-header-controls",
-      "settings": {
-        "color": "#000000",
-        "is_static": true
-      }
     }
   },
   "order": [
+    "d462669a-9481-42b6-a30f-6421185de238",
     "48a3eb35-82c1-4835-8ed6-58ff58d72ff8",
     "11da849c-436d-40a5-8d10-6cf2e448c95c",
     "96ad8a79-2f57-462b-8b07-1a539b6489ff",
     "main",
     "7a9ec824-a820-47b1-8d38-37009db6aa3c",
+    "3d7024d0-d6bc-4fe4-aaa5-98fa13a4cfd1",
     "68a13697-2e98-445f-a2df-17fbee4b14dc",
     "4016fdd0-0876-4da1-afe4-d71a6188c6b1",
     "7b65d900-0344-4e58-9e3d-e6c2160f1271",
@@ -439,7 +451,6 @@
     "3537bbea-543d-4725-8815-7bcbb35927d0",
     "d946e715-3084-42cd-9331-b75fff4b2453",
     "ece64192-7cd1-4621-8e1c-227f877b30ed",
-    "096678f7-ca58-4d2e-8525-b5d1c1e410d4",
-    "d462669a-9481-42b6-a30f-6421185de238"
+    "096678f7-ca58-4d2e-8525-b5d1c1e410d4"
   ]
 }
