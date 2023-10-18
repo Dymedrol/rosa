@@ -98,13 +98,13 @@
         "406eb290-02dc-40ef-8b1c-5d801d393bb8": {
           "type": "text",
           "settings": {
-            "text": "<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »<\/p>"
+            "text": "<p>Les <strong>mines d’or <\/strong>saccagent l’environnement : déforestation massive, cratères visibles depuis la lune, et utilisation de métaux toxiques. <\/p>"
           }
         },
         "f81faf11-05b4-40ac-80b1-5a2b64fa5b44": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
+            "text": "<p>Pour extraire plus facilement l’or, on utilise des <strong>tonnes de mercure et de cyanure<\/strong>qui empoisonnent les mineurs, les eaux des rivières et des lacs et, in fine, les communautés proches des zones d’extraction. Ces produits toxiques pénètrent dans la terre et ne disparaissent jamais.<br\/><br\/>Les mines d'or détruisent des vies : violation des droits de l'homme, travail des enfants, intervention des milices, zones de non-droit...<br\/><br\/>Nous refusons de participer au non-respect de la santé et de la sécurité des travailleurs ainsi qu’à la destruction de l’environnement.<\/p>"
           }
         }
       },
@@ -114,7 +114,7 @@
         "f81faf11-05b4-40ac-80b1-5a2b64fa5b44"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
+        "image": "shopify:\/\/shop_images\/Mine_d_or_Orobel_Autralie_118438e2-70f0-40d8-9c1d-f80395ce971b.jpg",
         "is_reverse": false,
         "is_centred": true,
         "padding_top": 90,
@@ -156,6 +156,15 @@
         "title": "title",
         "padding_top": 90,
         "padding_bottom": 0
+      }
+    },
+    "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb": {
+      "type": "rosa-header2",
+      "settings": {
+        "text1": "",
+        "text2": "Alternative écologique évidente, l’or recyclé n’a aucune incidence additionnelle sur l'environnement.",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "fa2ca636-a51a-4983-8c38-a10ba431017b": {
@@ -204,17 +213,9 @@
         "padding_bottom": 55
       }
     },
-    "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb": {
-      "type": "rosa-header2",
-      "settings": {
-        "text1": "",
-        "text2": "Alternative écologique évidente, l’or recyclé n’a aucune incidence additionnelle sur l'environnement.",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
     "765f2c93-3054-44d3-b881-24dffee4392e": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
@@ -260,8 +261,8 @@
     "f3072a74-e844-4c08-8050-2403211042ce",
     "b2d8975f-fc61-462b-a960-6d219334d501",
     "1de8951e-cc53-47fa-9964-506c7bc6d3a6",
-    "fa2ca636-a51a-4983-8c38-a10ba431017b",
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb",
+    "fa2ca636-a51a-4983-8c38-a10ba431017b",
     "765f2c93-3054-44d3-b881-24dffee4392e",
     "2c729952-939d-43ff-9b51-18cd9b10cd88"
   ]
