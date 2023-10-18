@@ -71,6 +71,7 @@
       "type": "image-banner",
       "disabled": true,
       "settings": {
+        "tag": "div",
         "is_full_screen": true,
         "alignment": "left",
         "text_color": "#000000",
@@ -90,6 +91,7 @@
         "@media screen and (max-width: 480px) {.section-template--19626079813962__7556615b-ec09-4647-80d0-eb3a4b55c8a9-padding {padding-bottom: 0px !important; }}"
       ],
       "settings": {
+        "tag": "h1",
         "title1": "NOS CRÉATIONS ÉTHIQUES ET DURABLES",
         "title2": "LA JOAILLERIE ÉTHIQUE ROSA MAÏTEA",
         "collection": "home-page-selection-on-top",
@@ -261,25 +263,29 @@
         "23019398-10ab-4864-ab19-347f920f5a22": {
           "type": "item",
           "settings": {
-            "text": "MISE À LA TAILLE OFFERTE"
+            "text": "MISE À LA TAILLE OFFERTE",
+            "url": ""
           }
         },
         "ac6501bc-053b-4d1c-b6e9-7143b11a259d": {
           "type": "item",
           "settings": {
-            "text": "CRÉATION SUR MESURE"
+            "text": "CRÉATION SUR MESURE",
+            "url": ""
           }
         },
         "478453b2-4b1d-4930-b000-a249f4ccba1a": {
           "type": "item",
           "settings": {
-            "text": "REDESIGN D’UN ANCIEN BIJOU"
+            "text": "REDESIGN D’UN ANCIEN BIJOU",
+            "url": ""
           }
         },
         "722c8d1b-fb12-4516-b803-cfda9ddfa333": {
           "type": "item",
           "settings": {
-            "text": "RÉPARATIONS ET AMÉLIORATIONS"
+            "text": "RÉPARATIONS ET AMÉLIORATIONS",
+            "url": ""
           }
         },
         "9a35ee0a-5212-486b-b7c8-0dda8f98ba70": {
