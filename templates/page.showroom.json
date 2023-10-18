@@ -244,8 +244,79 @@
         "padding_bottom": 0
       }
     },
+    "39ebf9c9-7997-4a70-91a3-5c921a459945": {
+      "type": "rosa-header3",
+      "settings": {
+        "text1": "RÉSEAU SOCIAUX",
+        "text2": "RETROSPECTIVE SPREAD LOVE",
+        "text3": "<p>Nous rejoindre <a href=\"https:\/\/www.instagram.com\/rosa_maitea\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/rosa_maitea\/\"><strong>@rosamaitea<\/strong><\/a><\/p>",
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "ece64192-7cd1-4621-8e1c-227f877b30ed": {
+      "type": "rosa-picture-slider",
+      "blocks": {
+        "7bfb83bc-27cd-4a16-b77a-b322fde1fb30": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic1.png"
+          }
+        },
+        "7e47179d-3525-4de1-a6b8-8d4f46a840e9": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic2.png"
+          }
+        },
+        "12b1ca17-4d3d-46ec-8e8a-c32b88383481": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic4.png"
+          }
+        },
+        "c573f0e5-2ded-4202-880b-400ace223146": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic3.png"
+          }
+        },
+        "cac26c13-22b5-4361-9f54-9996b468b34a": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic1.png"
+          }
+        },
+        "e13b2de5-896f-4274-94b6-84f9144f98f5": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic2.png"
+          }
+        },
+        "2d694221-c05e-452c-bd9a-6b8b00d22945": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic4.png"
+          }
+        }
+      },
+      "block_order": [
+        "7bfb83bc-27cd-4a16-b77a-b322fde1fb30",
+        "7e47179d-3525-4de1-a6b8-8d4f46a840e9",
+        "12b1ca17-4d3d-46ec-8e8a-c32b88383481",
+        "c573f0e5-2ded-4202-880b-400ace223146",
+        "cac26c13-22b5-4361-9f54-9996b468b34a",
+        "e13b2de5-896f-4274-94b6-84f9144f98f5",
+        "2d694221-c05e-452c-bd9a-6b8b00d22945"
+      ],
+      "settings": {
+        "padding_top": 45,
+        "padding_bottom": 55
+      }
+    },
     "68a13697-2e98-445f-a2df-17fbee4b14dc": {
       "type": "rosa-quote",
+      "disabled": true,
       "settings": {
         "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
         "text2": "PATRICIA - CRÉATRICE DE ROSA MAITEA",
@@ -255,19 +326,9 @@
         "padding_bottom": 45
       }
     },
-    "39ebf9c9-7997-4a70-91a3-5c921a459945": {
-      "type": "rosa-header3",
-      "disabled": true,
-      "settings": {
-        "text1": "NOS ENGAGEMENTS",
-        "text2": "EN QUOI NOUS SOMMES UNIQUES",
-        "text3": "<p>Rosa Maitea est fière de contribuer à la création d'un monde meilleur. Chacun de nos bijoux éco-responsables incarne notre engagement pour une planète préservée et pour des conditions de travail durables. Plus qu'une marque, Rosa Maïtea<strong> <\/strong>est une vision et la promesse d’une beauté éthique à l'impact positif.<\/p>",
-        "padding_top": 80,
-        "padding_bottom": 45
-      }
-    },
     "50a97970-36c4-452e-9885-f6cb72a35c2d": {
       "type": "rosa-quote2",
+      "disabled": true,
       "settings": {
         "text1": "Notre objectif est d'apporter de la lumière et de la transparence à la joaillerie",
         "text2": "Nos créations sont respectueuses de l'environnement et d’êtres humains qui participent à leurs fabrication. J’ai la conviction, que nous pouvons contribuer à faire changer les choses. Bien sûr, ce ne sera pas parfait du jour au lendemain, les enjeux sont trop vastes, mais contribuer à plus de transparence c’est un premier pas, un premier rayon de soleil qui, je l’espère, se démultipliera.",
@@ -277,6 +338,7 @@
     },
     "bfa269c6-ca40-4557-aa21-9313fc5b4531": {
       "type": "rosa-double-link",
+      "disabled": true,
       "settings": {
         "link1_text": "VOIR PLUS SUR LE RECYCLAGE de diamants",
         "link1_url": "shopify:\/\/pages\/nos-diamants-recycles",
@@ -385,66 +447,6 @@
         "padding_top": 50,
         "padding_bottom": 0
       }
-    },
-    "ece64192-7cd1-4621-8e1c-227f877b30ed": {
-      "type": "rosa-picture-slider",
-      "blocks": {
-        "7bfb83bc-27cd-4a16-b77a-b322fde1fb30": {
-          "type": "picture",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pic1.png"
-          }
-        },
-        "7e47179d-3525-4de1-a6b8-8d4f46a840e9": {
-          "type": "picture",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pic2.png"
-          }
-        },
-        "12b1ca17-4d3d-46ec-8e8a-c32b88383481": {
-          "type": "picture",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pic4.png"
-          }
-        },
-        "c573f0e5-2ded-4202-880b-400ace223146": {
-          "type": "picture",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pic3.png"
-          }
-        },
-        "cac26c13-22b5-4361-9f54-9996b468b34a": {
-          "type": "picture",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pic1.png"
-          }
-        },
-        "e13b2de5-896f-4274-94b6-84f9144f98f5": {
-          "type": "picture",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pic2.png"
-          }
-        },
-        "2d694221-c05e-452c-bd9a-6b8b00d22945": {
-          "type": "picture",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pic4.png"
-          }
-        }
-      },
-      "block_order": [
-        "7bfb83bc-27cd-4a16-b77a-b322fde1fb30",
-        "7e47179d-3525-4de1-a6b8-8d4f46a840e9",
-        "12b1ca17-4d3d-46ec-8e8a-c32b88383481",
-        "c573f0e5-2ded-4202-880b-400ace223146",
-        "cac26c13-22b5-4361-9f54-9996b468b34a",
-        "e13b2de5-896f-4274-94b6-84f9144f98f5",
-        "2d694221-c05e-452c-bd9a-6b8b00d22945"
-      ],
-      "settings": {
-        "padding_top": 60,
-        "padding_bottom": 55
-      }
     }
   },
   "order": [
@@ -461,14 +463,14 @@
     "d946e715-3084-42cd-9331-b75fff4b2453",
     "9e23fcfd-12bf-4a74-828f-42229764382f",
     "096678f7-ca58-4d2e-8525-b5d1c1e410d4",
-    "68a13697-2e98-445f-a2df-17fbee4b14dc",
     "39ebf9c9-7997-4a70-91a3-5c921a459945",
+    "ece64192-7cd1-4621-8e1c-227f877b30ed",
+    "68a13697-2e98-445f-a2df-17fbee4b14dc",
     "50a97970-36c4-452e-9885-f6cb72a35c2d",
     "bfa269c6-ca40-4557-aa21-9313fc5b4531",
     "60210ce3-b49b-44de-8a98-811cc0c212a7",
     "65045b80-b25d-42bb-a0b7-16e75d63e285",
     "9f334f8d-80cf-4b5c-8b10-0f1170745a14",
-    "3537bbea-543d-4725-8815-7bcbb35927d0",
-    "ece64192-7cd1-4621-8e1c-227f877b30ed"
+    "3537bbea-543d-4725-8815-7bcbb35927d0"
   ]
 }
