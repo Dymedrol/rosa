@@ -63,7 +63,7 @@
             "alignment": "center",
             "text_color": "#ffffff",
             "image_banner_title_text": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. »",
-            "is_title_big": false,
+            "is_title_big": true,
             "image_banner_subtitle_text": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. »",
             "is_text_big": false,
             "image_banner_link_text": "link",
