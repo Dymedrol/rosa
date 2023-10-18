@@ -13,8 +13,8 @@
 {%- endstyle -%}
 
 
-<section class="rosa-blocks">
-  <div class="rosa-blocks-inner container section-{{ section.id }}-padding">
+<section class="rosa-blocks section-{{ section.id }}-padding">
+  <div class="rosa-blocks-inner container">
     {%- for block in section.blocks -%}
       <div class="rosa-blocks-item">
         <img src="{{ block.settings.image | img_url: 'width 25', crop: 'center' }}" class="rosa-blocks-item-pic" alt="{{ block.settings.image.alt }}" loading="lazy">

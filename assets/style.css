@@ -3844,9 +3844,6 @@ h1 {
   text-transform: uppercase;
   border-bottom: 1px solid #000;
 }
-.rosa-blocks {
-  padding-bottom: 110px;
-}
 .rosa-blocks-inner {
   display: flex;
   flex-wrap: wrap;
