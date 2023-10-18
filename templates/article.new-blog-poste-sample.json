@@ -64,11 +64,22 @@
         "padding_top": 90,
         "padding_bottom": 0
       }
+    },
+    "c05ce1b9-53a6-4d4a-91ac-cb01418d9c94": {
+      "type": "double",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
+        "is_reverse": false,
+        "is_centred": false,
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
     }
   },
   "order": [
     "e060458f-288a-4ae9-9494-e50c63ca1aeb",
     "main",
-    "bf4c0a45-eafb-4fcc-a3c7-5efa696c5321"
+    "bf4c0a45-eafb-4fcc-a3c7-5efa696c5321",
+    "c05ce1b9-53a6-4d4a-91ac-cb01418d9c94"
   ]
 }
