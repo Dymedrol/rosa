@@ -6,7 +6,7 @@
         "is_full_screen": true,
         "alignment": "left",
         "text_color": "#ffffff",
-        "image_banner_title_text": "LOREM IPSUM DOLOR SIT AMET.",
+        "image_banner_title_text": "<p>LOREM IPSUM DOLOR SIT AMET.<\/p>",
         "is_title_big": false,
         "image_banner_subtitle_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
         "is_text_big": false,
@@ -18,6 +18,9 @@
     },
     "main": {
       "type": "main-blog",
+      "custom_css": [
+
+      ],
       "settings": {
       }
     },
