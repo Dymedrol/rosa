@@ -168,13 +168,84 @@
       "settings": {
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=H-iCgfPBpxA",
-        "cover_image": "shopify:\/\/shop_images\/DSC8558_0d0bf297-1bde-4db9-b91c-90c39412ab8e.jpg",
+        "cover_image": "shopify:\/\/shop_images\/Image_2x_aa32a290-a23e-4f1e-9962-faab371765cc.jpg",
         "description": ""
+      }
+    },
+    "d946e715-3084-42cd-9331-b75fff4b2453": {
+      "type": "rosa-header3",
+      "settings": {
+        "text1": "",
+        "text2": "",
+        "text3": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.<\/p>",
+        "padding_top": 15,
+        "padding_bottom": 0
+      }
+    },
+    "9e23fcfd-12bf-4a74-828f-42229764382f": {
+      "type": "rosa-double-link",
+      "settings": {
+        "link1_text": "RÉSERVEZ UN CRÉNEAU D’ESSAYAGE",
+        "link1_url": "shopify:\/\/pages\/prendre-rendez-vous",
+        "link2_text": "",
+        "link2_url": "",
+        "padding_top": 45,
+        "padding_bottom": 0
+      }
+    },
+    "096678f7-ca58-4d2e-8525-b5d1c1e410d4": {
+      "type": "double",
+      "blocks": {
+        "7c749ca8-9cae-4c62-87f7-61bca63a89a9": {
+          "type": "heading",
+          "settings": {
+            "heading1": "NOTRE SHOWROOM",
+            "heading2": "UN ENDROIT INTIMISTE DANS UN DES PLUS BEAU QUARTIER DE PARIS"
+          }
+        },
+        "bf01c18d-e99e-4c76-9d03-d66188b38cdb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.<\/p>"
+          }
+        },
+        "30b3f3f3-6efe-4667-85b0-27b8be830ef1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>ADRESSE <\/strong><\/p><p>Communiquée lors de la prise de rendez-vous, 75009 Paris <\/p>"
+          }
+        },
+        "968229c6-27c2-4c79-a4c1-7f8850b31520": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>HORAIRE D’OUVERTURE <\/strong><\/p><p>Du lundi au vendredi : 9H00 À 19H00 Samedi : 9H00 À 17H00<\/p>"
+          }
+        },
+        "42b5c479-f34c-44f7-8a44-f3ba7fd109bf": {
+          "type": "link",
+          "settings": {
+            "link_text": "PRENDRE RENDEZ-VOUS",
+            "link_url": "shopify:\/\/pages\/prendre-rendez-vous"
+          }
+        }
+      },
+      "block_order": [
+        "7c749ca8-9cae-4c62-87f7-61bca63a89a9",
+        "bf01c18d-e99e-4c76-9d03-d66188b38cdb",
+        "30b3f3f3-6efe-4667-85b0-27b8be830ef1",
+        "968229c6-27c2-4c79-a4c1-7f8850b31520",
+        "42b5c479-f34c-44f7-8a44-f3ba7fd109bf"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
+        "is_reverse": true,
+        "is_centred": false,
+        "padding_top": 90,
+        "padding_bottom": 0
       }
     },
     "68a13697-2e98-445f-a2df-17fbee4b14dc": {
       "type": "rosa-quote",
-      "disabled": true,
       "settings": {
         "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
         "text2": "PATRICIA - CRÉATRICE DE ROSA MAITEA",
@@ -193,6 +264,26 @@
         "text3": "<p>Rosa Maitea est fière de contribuer à la création d'un monde meilleur. Chacun de nos bijoux éco-responsables incarne notre engagement pour une planète préservée et pour des conditions de travail durables. Plus qu'une marque, Rosa Maïtea<strong> <\/strong>est une vision et la promesse d’une beauté éthique à l'impact positif.<\/p>",
         "padding_top": 80,
         "padding_bottom": 45
+      }
+    },
+    "50a97970-36c4-452e-9885-f6cb72a35c2d": {
+      "type": "rosa-quote2",
+      "settings": {
+        "text1": "Notre objectif est d'apporter de la lumière et de la transparence à la joaillerie",
+        "text2": "Nos créations sont respectueuses de l'environnement et d’êtres humains qui participent à leurs fabrication. J’ai la conviction, que nous pouvons contribuer à faire changer les choses. Bien sûr, ce ne sera pas parfait du jour au lendemain, les enjeux sont trop vastes, mais contribuer à plus de transparence c’est un premier pas, un premier rayon de soleil qui, je l’espère, se démultipliera.",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "bfa269c6-ca40-4557-aa21-9313fc5b4531": {
+      "type": "rosa-double-link",
+      "settings": {
+        "link1_text": "VOIR PLUS SUR LE RECYCLAGE de diamants",
+        "link1_url": "shopify:\/\/pages\/nos-diamants-recycles",
+        "link2_text": "FABRICATION DE NOS BIJOUX",
+        "link2_url": "shopify:\/\/pages\/qui-fabrique-nos-bijoux",
+        "padding_top": 45,
+        "padding_bottom": 0
       }
     },
     "60210ce3-b49b-44de-8a98-811cc0c212a7": {
@@ -263,28 +354,6 @@
         "padding_bottom": 0
       }
     },
-    "50a97970-36c4-452e-9885-f6cb72a35c2d": {
-      "type": "rosa-quote2",
-      "disabled": true,
-      "settings": {
-        "text1": "Notre objectif est d'apporter de la lumière et de la transparence à la joaillerie",
-        "text2": "Nos créations sont respectueuses de l'environnement et d’êtres humains qui participent à leurs fabrication. J’ai la conviction, que nous pouvons contribuer à faire changer les choses. Bien sûr, ce ne sera pas parfait du jour au lendemain, les enjeux sont trop vastes, mais contribuer à plus de transparence c’est un premier pas, un premier rayon de soleil qui, je l’espère, se démultipliera.",
-        "padding_top": 20,
-        "padding_bottom": 0
-      }
-    },
-    "9e23fcfd-12bf-4a74-828f-42229764382f": {
-      "type": "rosa-double-link",
-      "disabled": true,
-      "settings": {
-        "link1_text": "VOIR PLUS SUR LE RECYCLAGE de diamants",
-        "link1_url": "shopify:\/\/pages\/nos-diamants-recycles",
-        "link2_text": "FABRICATION DE NOS BIJOUX",
-        "link2_url": "shopify:\/\/pages\/qui-fabrique-nos-bijoux",
-        "padding_top": 45,
-        "padding_bottom": 0
-      }
-    },
     "65045b80-b25d-42bb-a0b7-16e75d63e285": {
       "type": "rosa-header2",
       "disabled": true,
@@ -314,17 +383,6 @@
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM PARISIEN",
         "link_url": "shopify:\/\/pages\/prendre-rendez-vous",
         "padding_top": 50,
-        "padding_bottom": 0
-      }
-    },
-    "d946e715-3084-42cd-9331-b75fff4b2453": {
-      "type": "rosa-header3",
-      "disabled": true,
-      "settings": {
-        "text1": "RÉSEAU SOCIAUX",
-        "text2": "RETROSPECTIVE SPREAD LOVE",
-        "text3": "<p>Nous rejoindre <strong>@rosamaitea<\/strong><\/p>",
-        "padding_top": 130,
         "padding_bottom": 0
       }
     },
@@ -383,48 +441,9 @@
         "e13b2de5-896f-4274-94b6-84f9144f98f5",
         "2d694221-c05e-452c-bd9a-6b8b00d22945"
       ],
-      "disabled": true,
       "settings": {
         "padding_top": 60,
         "padding_bottom": 55
-      }
-    },
-    "096678f7-ca58-4d2e-8525-b5d1c1e410d4": {
-      "type": "double",
-      "blocks": {
-        "7c749ca8-9cae-4c62-87f7-61bca63a89a9": {
-          "type": "heading",
-          "settings": {
-            "heading1": "LA RÉALITÉ DE MINES",
-            "heading2": "OREM IPSUM DOLOR SIT AMET"
-          }
-        },
-        "bf01c18d-e99e-4c76-9d03-d66188b38cdb": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Suspendisse a ex lacus. Vivamus quis eros sit amet nisi faucibus aliquam. Donec vitae mattis risus. Curabitur neque magna, ornare non erat sit amet, dictum feugiat urna. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.<\/p>"
-          }
-        },
-        "42b5c479-f34c-44f7-8a44-f3ba7fd109bf": {
-          "type": "link",
-          "settings": {
-            "link_text": "EN SAVOIR PLUS",
-            "link_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "7c749ca8-9cae-4c62-87f7-61bca63a89a9",
-        "bf01c18d-e99e-4c76-9d03-d66188b38cdb",
-        "42b5c479-f34c-44f7-8a44-f3ba7fd109bf"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Miniere_avec_enfant_500.png",
-        "is_reverse": false,
-        "is_centred": false,
-        "padding_top": 90,
-        "padding_bottom": 85
       }
     }
   },
@@ -439,16 +458,17 @@
     "342e88f4-9b57-4a10-bb2d-96c0eb5061a8",
     "4016fdd0-0876-4da1-afe4-d71a6188c6b1",
     "7b65d900-0344-4e58-9e3d-e6c2160f1271",
+    "d946e715-3084-42cd-9331-b75fff4b2453",
+    "9e23fcfd-12bf-4a74-828f-42229764382f",
+    "096678f7-ca58-4d2e-8525-b5d1c1e410d4",
     "68a13697-2e98-445f-a2df-17fbee4b14dc",
     "39ebf9c9-7997-4a70-91a3-5c921a459945",
-    "60210ce3-b49b-44de-8a98-811cc0c212a7",
     "50a97970-36c4-452e-9885-f6cb72a35c2d",
-    "9e23fcfd-12bf-4a74-828f-42229764382f",
+    "bfa269c6-ca40-4557-aa21-9313fc5b4531",
+    "60210ce3-b49b-44de-8a98-811cc0c212a7",
     "65045b80-b25d-42bb-a0b7-16e75d63e285",
     "9f334f8d-80cf-4b5c-8b10-0f1170745a14",
     "3537bbea-543d-4725-8815-7bcbb35927d0",
-    "d946e715-3084-42cd-9331-b75fff4b2453",
-    "ece64192-7cd1-4621-8e1c-227f877b30ed",
-    "096678f7-ca58-4d2e-8525-b5d1c1e410d4"
+    "ece64192-7cd1-4621-8e1c-227f877b30ed"
   ]
 }
