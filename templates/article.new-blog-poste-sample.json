@@ -11,8 +11,8 @@
         "is_title_big": false,
         "image_banner_subtitle_text": "TITRE DE L’ACTUALITÉ",
         "is_text_big": false,
-        "image_banner_link_text": "link",
-        "image_banner_link_url": "\/",
+        "image_banner_link_text": "",
+        "image_banner_link_url": "",
         "banner_image": "shopify:\/\/shop_images\/Groupe-175_2x_307a0587-5430-47b0-953b-c3ea649bc258.jpg"
       }
     },
@@ -53,10 +53,188 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "bf4c0a45-eafb-4fcc-a3c7-5efa696c5321": {
+      "type": "rosa-quote",
+      "settings": {
+        "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
+        "text2": "",
+        "link_text": "",
+        "link_url": "",
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "c05ce1b9-53a6-4d4a-91ac-cb01418d9c94": {
+      "type": "double",
+      "blocks": {
+        "fc8333d4-b349-4203-9d83-bf28fee95b06": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR<\/strong><\/p>"
+          }
+        },
+        "b73fd6a3-255e-41ea-a4d3-00becd5327bb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »<\/p>"
+          }
+        },
+        "e4bee0bb-cc2b-4bc6-9e96-a5875d89dbdb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "fc8333d4-b349-4203-9d83-bf28fee95b06",
+        "b73fd6a3-255e-41ea-a4d3-00becd5327bb",
+        "e4bee0bb-cc2b-4bc6-9e96-a5875d89dbdb"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 95,
+        "padding_bottom": 0
+      }
+    },
+    "c1f4a1f0-2a34-4b63-b2c3-f0bc3ba85c55": {
+      "type": "rosa-quote4",
+      "settings": {
+        "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
+        "text2": "",
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "922ae636-ee43-40aa-b91d-36e54b030ea4": {
+      "type": "double",
+      "blocks": {
+        "b61b32d1-95ea-4588-a212-9b0b2b50f018": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR<\/strong><\/p>"
+          }
+        },
+        "590df43d-54e9-47e8-95ae-faffd2407fa7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »<\/p>"
+          }
+        },
+        "211b41c1-0aa8-467b-a61b-d4ca9e8505bc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b61b32d1-95ea-4588-a212-9b0b2b50f018",
+        "590df43d-54e9-47e8-95ae-faffd2407fa7",
+        "211b41c1-0aa8-467b-a61b-d4ca9e8505bc"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
+        "is_reverse": false,
+        "is_centred": true,
+        "padding_top": 95,
+        "padding_bottom": 0
+      }
+    },
+    "c8ad16ba-d177-42ab-ae94-ccd49ec0678c": {
+      "type": "rosa-faq",
+      "blocks": {
+        "bd6fb6b3-046f-458e-b60c-94b8c1facb99": {
+          "type": "faq",
+          "settings": {
+            "title": "title",
+            "text": "<p>text<\/p>"
+          }
+        },
+        "e10fb6db-83fc-447d-b7b0-975f7fc740b8": {
+          "type": "faq",
+          "settings": {
+            "title": "title",
+            "text": "<p>text<\/p>"
+          }
+        },
+        "a2c9ec8f-bcbe-40e7-9a22-b9400d3c73d8": {
+          "type": "faq",
+          "settings": {
+            "title": "title",
+            "text": "<p>text<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "bd6fb6b3-046f-458e-b60c-94b8c1facb99",
+        "e10fb6db-83fc-447d-b7b0-975f7fc740b8",
+        "a2c9ec8f-bcbe-40e7-9a22-b9400d3c73d8"
+      ],
+      "settings": {
+        "title": "title",
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "6e8424e9-8280-41ef-b3f0-03d40b28dc17": {
+      "type": "rosa-picture-slider",
+      "blocks": {
+        "e8e10d02-f631-4a92-8f8f-1a53f108683b": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg"
+          }
+        },
+        "c0436d15-f3a2-4723-8ece-aec1d3dabace": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_2x_aa32a290-a23e-4f1e-9962-faab371765cc.jpg"
+          }
+        },
+        "df48a25c-093f-44a5-b598-955742140856": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Groupe-175_2x_307a0587-5430-47b0-953b-c3ea649bc258.jpg"
+          }
+        },
+        "d35f62c5-ff25-4078-b27c-c0e4e01f9869": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/42.jpg"
+          }
+        },
+        "5e0b96cf-7fa2-4269-a111-45e9c84380ce": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/54-6.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "e8e10d02-f631-4a92-8f8f-1a53f108683b",
+        "c0436d15-f3a2-4723-8ece-aec1d3dabace",
+        "df48a25c-093f-44a5-b598-955742140856",
+        "d35f62c5-ff25-4078-b27c-c0e4e01f9869",
+        "5e0b96cf-7fa2-4269-a111-45e9c84380ce"
+      ],
+      "settings": {
+        "padding_top": 120,
+        "padding_bottom": 55
+      }
     }
   },
   "order": [
     "e060458f-288a-4ae9-9494-e50c63ca1aeb",
-    "main"
+    "main",
+    "bf4c0a45-eafb-4fcc-a3c7-5efa696c5321",
+    "c05ce1b9-53a6-4d4a-91ac-cb01418d9c94",
+    "c1f4a1f0-2a34-4b63-b2c3-f0bc3ba85c55",
+    "922ae636-ee43-40aa-b91d-36e54b030ea4",
+    "c8ad16ba-d177-42ab-ae94-ccd49ec0678c",
+    "6e8424e9-8280-41ef-b3f0-03d40b28dc17"
   ]
 }
