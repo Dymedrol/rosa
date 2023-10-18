@@ -12,7 +12,7 @@
       "settings": {
         "text1": "LE SHOWROOM ROSA MAITEA",
         "text2": "Une expérience luxe hors du commun",
-        "padding_top": 100,
+        "padding_top": 90,
         "padding_bottom": 0
       }
     },
@@ -59,7 +59,7 @@
         "4a14c923-2a78-4bed-8179-6492fcc0ff3a"
       ],
       "settings": {
-        "padding_top": 60,
+        "padding_top": 45,
         "padding_bottom": 45
       }
     },
@@ -150,7 +150,7 @@
         "is_reverse": true,
         "is_centred": false,
         "padding_top": 90,
-        "padding_bottom": 50
+        "padding_bottom": 0
       }
     },
     "4016fdd0-0876-4da1-afe4-d71a6188c6b1": {
@@ -159,7 +159,7 @@
         "text1": "EXPÉRIENCE SPREAD LOVE",
         "text2": "DES ESSAYAGES CONFIDENTIELS DANS UN SHOWROOM SECRET",
         "text3": "",
-        "padding_top": 45,
+        "padding_top": 90,
         "padding_bottom": 45
       }
     },
