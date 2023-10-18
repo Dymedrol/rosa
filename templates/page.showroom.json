@@ -9,6 +9,64 @@
         "padding_bottom": 0
       }
     },
+    "11da849c-436d-40a5-8d10-6cf2e448c95c": {
+      "type": "blocks",
+      "blocks": {
+        "55b9bf3d-cad3-47f4-b49d-4c534335ec9f": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/noun-store-1881916.svg",
+            "text1": "",
+            "text2": "9eme, Paris"
+          }
+        },
+        "039101bf-0870-492f-a386-104c4625510a": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_feather-coffee.svg",
+            "text1": "",
+            "text2": "Rendez-vous privatisé Seul, en couple ou en groupe"
+          }
+        },
+        "43bcb7a6-88d3-429b-96e0-43cd96bb4a9a": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/noun-jewelry-1607874.svg",
+            "text1": "",
+            "text2": "Rencontre avec la créatrice"
+          }
+        },
+        "4a14c923-2a78-4bed-8179-6492fcc0ff3a": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/noun-light-5022877.svg",
+            "text1": "",
+            "text2": "Essayage en live"
+          }
+        }
+      },
+      "block_order": [
+        "55b9bf3d-cad3-47f4-b49d-4c534335ec9f",
+        "039101bf-0870-492f-a386-104c4625510a",
+        "43bcb7a6-88d3-429b-96e0-43cd96bb4a9a",
+        "4a14c923-2a78-4bed-8179-6492fcc0ff3a"
+      ],
+      "settings": {
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "96ad8a79-2f57-462b-8b07-1a539b6489ff": {
+      "type": "rosa-double-link",
+      "settings": {
+        "link1_text": "PRENDRE RENDEZ-VOUS",
+        "link1_url": "shopify:\/\/pages\/prendre-rendez-vous",
+        "link2_text": "",
+        "link2_url": "",
+        "padding_top": 0,
+        "padding_bottom": 45
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -24,17 +82,29 @@
         "is_full_screen": false,
         "alignment": "center",
         "text_color": "#ffffff",
-        "image_banner_title_text": "<p>LA MAISON ROSA MAÏTEA<\/p>",
+        "image_banner_title_text": "",
         "is_title_big": true,
-        "image_banner_subtitle_text": "UNE BELLE HISTOIRE D'AMOUR ET D'ÉTHIQUE",
+        "image_banner_subtitle_text": "",
         "is_text_big": true,
         "image_banner_link_text": "",
         "image_banner_link_url": "\/",
-        "banner_image": "shopify:\/\/shop_images\/Cadre_rosamaitea-louison-boucly-studio0476.jpg"
+        "banner_image": "shopify:\/\/shop_images\/Groupe-175_2x_307a0587-5430-47b0-953b-c3ea649bc258.jpg"
+      }
+    },
+    "68a13697-2e98-445f-a2df-17fbee4b14dc": {
+      "type": "rosa-quote",
+      "settings": {
+        "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
+        "text2": "PATRICIA - CRÉATRICE DE ROSA MAITEA",
+        "link_text": "link",
+        "link_url": "",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "4016fdd0-0876-4da1-afe4-d71a6188c6b1": {
       "type": "rosa-header3",
+      "disabled": true,
       "settings": {
         "text1": "NOTRE RAISON D'ETRE",
         "text2": "MANIFESTE",
@@ -45,6 +115,7 @@
     },
     "7b65d900-0344-4e58-9e3d-e6c2160f1271": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=H-iCgfPBpxA",
@@ -54,6 +125,7 @@
     },
     "39ebf9c9-7997-4a70-91a3-5c921a459945": {
       "type": "rosa-header3",
+      "disabled": true,
       "settings": {
         "text1": "NOS ENGAGEMENTS",
         "text2": "EN QUOI NOUS SOMMES UNIQUES",
@@ -124,6 +196,7 @@
         "433747c9-323d-4d56-8b0f-87eaa30b695d",
         "151b166d-0925-4835-ba45-5d381a73ebaa"
       ],
+      "disabled": true,
       "settings": {
         "padding_top": 70,
         "padding_bottom": 0
@@ -131,6 +204,7 @@
     },
     "50a97970-36c4-452e-9885-f6cb72a35c2d": {
       "type": "rosa-quote2",
+      "disabled": true,
       "settings": {
         "text1": "Notre objectif est d'apporter de la lumière et de la transparence à la joaillerie",
         "text2": "Nos créations sont respectueuses de l'environnement et d’êtres humains qui participent à leurs fabrication. J’ai la conviction, que nous pouvons contribuer à faire changer les choses. Bien sûr, ce ne sera pas parfait du jour au lendemain, les enjeux sont trop vastes, mais contribuer à plus de transparence c’est un premier pas, un premier rayon de soleil qui, je l’espère, se démultipliera.",
@@ -140,6 +214,7 @@
     },
     "9e23fcfd-12bf-4a74-828f-42229764382f": {
       "type": "rosa-double-link",
+      "disabled": true,
       "settings": {
         "link1_text": "VOIR PLUS SUR LE RECYCLAGE de diamants",
         "link1_url": "shopify:\/\/pages\/nos-diamants-recycles",
@@ -186,6 +261,7 @@
         "e77061de-405f-40ec-9db4-0ec4d8de035f",
         "535d77d4-0681-4704-88df-09fedbe2aa20"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Image_2x_ed8e1de7-2f02-45d8-8d1e-4c02ef8c5272.png",
         "is_reverse": true,
@@ -196,6 +272,7 @@
     },
     "65045b80-b25d-42bb-a0b7-16e75d63e285": {
       "type": "rosa-header2",
+      "disabled": true,
       "settings": {
         "text1": "IL ÉTAIT UNE FOIS",
         "text2": "L’HISTOIRE DE ROSA MAITEA",
@@ -205,6 +282,7 @@
     },
     "9f334f8d-80cf-4b5c-8b10-0f1170745a14": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
@@ -214,6 +292,7 @@
     },
     "3537bbea-543d-4725-8815-7bcbb35927d0": {
       "type": "rosa-quote",
+      "disabled": true,
       "settings": {
         "text1": "«Je vous raconterais l''histoire dans mon showroom autour d'un café ou d'une coupe de champagne ! »",
         "text2": "Patricia Pereda - Directrice artistique Rosa Maïtea",
@@ -225,6 +304,7 @@
     },
     "d946e715-3084-42cd-9331-b75fff4b2453": {
       "type": "rosa-header3",
+      "disabled": true,
       "settings": {
         "text1": "RÉSEAU SOCIAUX",
         "text2": "RETROSPECTIVE SPREAD LOVE",
@@ -288,6 +368,7 @@
         "e13b2de5-896f-4274-94b6-84f9144f98f5",
         "2d694221-c05e-452c-bd9a-6b8b00d22945"
       ],
+      "disabled": true,
       "settings": {
         "padding_top": 60,
         "padding_bottom": 55
@@ -322,6 +403,7 @@
         "bf01c18d-e99e-4c76-9d03-d66188b38cdb",
         "42b5c479-f34c-44f7-8a44-f3ba7fd109bf"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Miniere_avec_enfant_500.png",
         "is_reverse": false,
@@ -340,8 +422,11 @@
   },
   "order": [
     "48a3eb35-82c1-4835-8ed6-58ff58d72ff8",
+    "11da849c-436d-40a5-8d10-6cf2e448c95c",
+    "96ad8a79-2f57-462b-8b07-1a539b6489ff",
     "main",
     "7a9ec824-a820-47b1-8d38-37009db6aa3c",
+    "68a13697-2e98-445f-a2df-17fbee4b14dc",
     "4016fdd0-0876-4da1-afe4-d71a6188c6b1",
     "7b65d900-0344-4e58-9e3d-e6c2160f1271",
     "39ebf9c9-7997-4a70-91a3-5c921a459945",
