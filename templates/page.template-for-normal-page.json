@@ -85,6 +85,77 @@
         "padding_top": 90,
         "padding_bottom": 0
       }
+    },
+    "b2d8975f-fc61-462b-a960-6d219334d501": {
+      "type": "double",
+      "blocks": {
+        "044de56b-3510-4522-a41e-36063756c9d4": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR<\/strong><\/p>"
+          }
+        },
+        "406eb290-02dc-40ef-8b1c-5d801d393bb8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »<\/p>"
+          }
+        },
+        "f81faf11-05b4-40ac-80b1-5a2b64fa5b44": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "044de56b-3510-4522-a41e-36063756c9d4",
+        "406eb290-02dc-40ef-8b1c-5d801d393bb8",
+        "f81faf11-05b4-40ac-80b1-5a2b64fa5b44"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
+        "is_reverse": false,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "1de8951e-cc53-47fa-9964-506c7bc6d3a6": {
+      "type": "rosa-faq",
+      "blocks": {
+        "a71b233c-abcb-4ce2-83b0-e9e0d6ec0dca": {
+          "type": "faq",
+          "settings": {
+            "title": "title",
+            "text": "<p>text<\/p>"
+          }
+        },
+        "cc111573-5ae2-4010-b337-98c611cc7cde": {
+          "type": "faq",
+          "settings": {
+            "title": "title",
+            "text": "<p>text<\/p>"
+          }
+        },
+        "b4c383fc-a920-4d4d-8954-f6a94b38ea2a": {
+          "type": "faq",
+          "settings": {
+            "title": "title",
+            "text": "<p>text<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "a71b233c-abcb-4ce2-83b0-e9e0d6ec0dca",
+        "cc111573-5ae2-4010-b337-98c611cc7cde",
+        "b4c383fc-a920-4d4d-8954-f6a94b38ea2a"
+      ],
+      "settings": {
+        "title": "title",
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -93,6 +164,8 @@
     "d8037b2c-93f5-4ed8-8ab3-69c24ce46c15",
     "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5",
     "a9539caf-edb1-471f-9d6c-97b6a2b08a04",
-    "f3072a74-e844-4c08-8050-2403211042ce"
+    "f3072a74-e844-4c08-8050-2403211042ce",
+    "b2d8975f-fc61-462b-a960-6d219334d501",
+    "1de8951e-cc53-47fa-9964-506c7bc6d3a6"
   ]
 }
