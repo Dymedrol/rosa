@@ -1,21 +1,5 @@
 {
   "sections": {
-    "e060458f-288a-4ae9-9494-e50c63ca1aeb": {
-      "type": "image-banner",
-      "settings": {
-        "tag": "h1",
-        "is_full_screen": false,
-        "alignment": "center",
-        "text_color": "#ffffff",
-        "image_banner_title_text": "<p>LA JOAILLERIE ÉTHIQUE ET VISIONNAIRE <\/p>",
-        "is_title_big": false,
-        "image_banner_subtitle_text": "TITRE DE L’ACTUALITÉ",
-        "is_text_big": false,
-        "image_banner_link_text": "",
-        "image_banner_link_url": "",
-        "banner_image": "shopify:\/\/shop_images\/Groupe-175_2x_307a0587-5430-47b0-953b-c3ea649bc258.jpg"
-      }
-    },
     "main": {
       "type": "main-article",
       "blocks": {
@@ -52,6 +36,22 @@
       ],
       "disabled": true,
       "settings": {
+      }
+    },
+    "e060458f-288a-4ae9-9494-e50c63ca1aeb": {
+      "type": "image-banner",
+      "settings": {
+        "tag": "h1",
+        "is_full_screen": false,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "<p>LA JOAILLERIE ÉTHIQUE ET VISIONNAIRE <\/p>",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "TITRE DE L’ACTUALITÉ",
+        "is_text_big": false,
+        "image_banner_link_text": "",
+        "image_banner_link_url": "",
+        "banner_image": "shopify:\/\/shop_images\/Groupe-175_2x_307a0587-5430-47b0-953b-c3ea649bc258.jpg"
       }
     },
     "bf4c0a45-eafb-4fcc-a3c7-5efa696c5321": {
@@ -226,49 +226,11 @@
         "padding_bottom": 55
       }
     },
-    "061e6402-7f41-4497-b2f8-cae9aaf8ac9e": {
-      "type": "rosa-quote",
+    "b03dcec2-65c1-4c38-a5a4-4e00782ebe74": {
+      "type": "rosa-header2",
       "settings": {
-        "text1": "text 1",
-        "text2": "text 2",
-        "link_text": "link",
-        "link_url": "\/",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
-    "dd3d4ee3-8a14-44a2-be81-ca1cdcd9d065": {
-      "type": "rosa-quote3",
-      "settings": {
-        "text1": "text 1",
-        "text2": "text 2",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
-    "d88701d0-9d59-4dcf-afa2-fbaa39a07032": {
-      "type": "rosa-quote2",
-      "settings": {
-        "text1": "text 1",
-        "text2": "text 2",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
-    "c552d5a8-6be5-44b0-9bc9-8c68d1730dc3": {
-      "type": "rosa-quote4",
-      "settings": {
-        "text1": "text 1",
-        "text2": "text 2",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
-    "b71dc05a-5446-4d98-855c-12fa05d45413": {
-      "type": "rosa-quote5",
-      "settings": {
-        "text1": "text 1",
-        "text2": "text 2",
+        "text1": "SUR-TITRE ICI",
+        "text2": "LE TITRE DE LA VIDÉO SUIVANTE",
         "padding_top": 45,
         "padding_bottom": 45
       }
@@ -281,22 +243,26 @@
         "cover_image": "shopify:\/\/shop_images\/Image_2x_aa32a290-a23e-4f1e-9962-faab371765cc.jpg",
         "description": ""
       }
+    },
+    "ace2099d-2401-4f24-8819-d725e1afc1ec": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#ffffff",
+        "is_static": false
+      }
     }
   },
   "order": [
-    "e060458f-288a-4ae9-9494-e50c63ca1aeb",
     "main",
+    "e060458f-288a-4ae9-9494-e50c63ca1aeb",
     "bf4c0a45-eafb-4fcc-a3c7-5efa696c5321",
     "c05ce1b9-53a6-4d4a-91ac-cb01418d9c94",
     "c1f4a1f0-2a34-4b63-b2c3-f0bc3ba85c55",
     "922ae636-ee43-40aa-b91d-36e54b030ea4",
     "c8ad16ba-d177-42ab-ae94-ccd49ec0678c",
     "6e8424e9-8280-41ef-b3f0-03d40b28dc17",
-    "061e6402-7f41-4497-b2f8-cae9aaf8ac9e",
-    "dd3d4ee3-8a14-44a2-be81-ca1cdcd9d065",
-    "d88701d0-9d59-4dcf-afa2-fbaa39a07032",
-    "c552d5a8-6be5-44b0-9bc9-8c68d1730dc3",
-    "b71dc05a-5446-4d98-855c-12fa05d45413",
-    "6079c330-d1a9-42fc-830b-2264c477a424"
+    "b03dcec2-65c1-4c38-a5a4-4e00782ebe74",
+    "6079c330-d1a9-42fc-830b-2264c477a424",
+    "ace2099d-2401-4f24-8819-d725e1afc1ec"
   ]
 }
