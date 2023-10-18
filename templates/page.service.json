@@ -11,6 +11,7 @@
     "96f5cea0-93e0-472b-8d70-7418634efd26": {
       "type": "image-banner",
       "settings": {
+        "tag": "div",
         "is_full_screen": false,
         "alignment": "center",
         "text_color": "#ffffff",
@@ -27,7 +28,7 @@
       "type": "rosa-quote3",
       "settings": {
         "text1": "LES SERVICES ROSA MAITEA",
-        "text2": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
+        "text2": "Pour vous offrir une joaillerie véritablement éthique et éco-responsable, Rosa Maïtea s’engage jusque dans ses services et vous propose de donner à vos bijoux Rosa Maïtea une durabilité maximale, de réinventer vos anciens bijoux et de vous proposer des solutions créatives pour upcyler vos diamants. Découvrez tous nos services et nos solutions !",
         "padding_top": 45,
         "padding_bottom": 80
       }
@@ -208,6 +209,7 @@
     "6b98f65d-98ab-42bd-acb7-d3288b2c0a03": {
       "type": "image-banner",
       "settings": {
+        "tag": "div",
         "is_full_screen": false,
         "alignment": "left",
         "text_color": "#ffffff",
@@ -216,8 +218,7 @@
         "image_banner_subtitle_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
         "is_text_big": false,
         "image_banner_link_text": "NOUS CONTACTER",
-        "image_banner_link_url": "\/",
-        "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-16.jpg"
+        "image_banner_link_url": "\/"
       }
     },
     "1d4d01a2-48fb-47e1-8d6a-45cdc9f7a53f": {
