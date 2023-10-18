@@ -56,6 +56,17 @@
         "padding_bottom": 0
       }
     },
+    "96ad8a79-2f57-462b-8b07-1a539b6489ff": {
+      "type": "rosa-double-link",
+      "settings": {
+        "link1_text": "PRENDRE RENDEZ-VOUS",
+        "link1_url": "shopify:\/\/pages\/prendre-rendez-vous",
+        "link2_text": "",
+        "link2_url": "",
+        "padding_top": 0,
+        "padding_bottom": 45
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -388,6 +399,7 @@
   "order": [
     "48a3eb35-82c1-4835-8ed6-58ff58d72ff8",
     "11da849c-436d-40a5-8d10-6cf2e448c95c",
+    "96ad8a79-2f57-462b-8b07-1a539b6489ff",
     "main",
     "7a9ec824-a820-47b1-8d38-37009db6aa3c",
     "4016fdd0-0876-4da1-afe4-d71a6188c6b1",
