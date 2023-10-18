@@ -1,9 +1,14 @@
+import moment from 'moment';
+
 export const initPdp = () => {
+    moment.locale('fr');
     const pdp = $('.rosa-pdp');
 
     if (!pdp.length) {
         return
     }
+    const daysAvailable = 10;
+    const daysUnavailable = 49;
     const form = pdp.find('form');
     const mainSelect = form.find('.js-main-select');
     const mainOptions = mainSelect.find('option');
@@ -14,17 +19,8 @@ export const initPdp = () => {
         selectedOptions[this.name] = this.value;
     });
     const selectedOptionsCount = Object.keys(selectedOptions).length;
-
-    const setSubmitButtonStatus = function(isActive) {
-        const submitButton = form.find('.rosa-pdp-info-button');
-
-        if (isActive) {
-            submitButton.prop('disabled', false);
-            submitButton.val('Ajouter au panier');
-        } else {
-            submitButton.prop('disabled', true);
-        }
-    }
+    const deliveryText = $('.rosa-pdp-info-text2 b');
+    deliveryText.text(moment().add('days', daysAvailable).format('D MMMM'));
 
     const updateMainInput = function(value, name) {
         const selectedValue = value;
@@ -44,6 +40,20 @@ export const initPdp = () => {
 
             if (coincidenceCount === selectedOptionsCount) {
                 mainSelect.val(optionId);
+
+                const inventory_quantity = Number(mainSelect.find('option[value="' + optionId + '"]').attr('data-available'));
+                console.log('inventory_quantity', inventory_quantity)
+                let newDate;
+
+                if (inventory_quantity >= 1) {
+                    // + 10
+                    newDate = moment().add('days', daysAvailable).format('D MMMM');
+                } else {
+                    // + 49
+                    newDate = moment().add('days', daysUnavailable).format('D MMMM');
+                }
+
+                deliveryText.text(newDate);
             }
         });
     }
