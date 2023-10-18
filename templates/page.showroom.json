@@ -113,25 +113,26 @@
         "4f21df82-c462-4587-9711-13531bf23f41": {
           "type": "heading",
           "settings": {
-            "heading1": "LA NAISSANCE DE LA MAISON",
-            "heading2": "PATRICIA PEREDA, FONDATRICE DE ROSA MAITEA"
+            "heading1": "LA NAISSANCE DE LA MAISON",
+            "heading2": "PATRICIA PEREDA, FONDATRICE DE ROSA MAITEA"
           }
         },
         "37ba0929-4e5c-4e01-a9af-3297edf8f43d": {
           "type": "text",
           "settings": {
-            "text": "<p>Je suis Patricia, créatrice de Rosa Maitea. <\/p><p>Je suis née à Bilbao, au Pays basque espagnol, magnifique territoire marqué par la beauté sauvage de l'océan Atlantique et imprégné d’une culture ancestrale. J’ai 12 ans lorsque mes parents s’installent au Mexique à Guadalajara sur les bords du lac Chapala. Et là-bas… Je découvre émerveillée la vivacité des couleurs, les fleurs omniprésentes, une gaieté et un foisonnement culturel si riche qu’il m’inspire encore aujourd’hui. Cette expérience a façonné ma personnalité et éveillé en moi la passion des voyages et de la découverte.<\/p>"
+            "text": "<p>Je suis Patricia, créatrice de Rosa Maitea. <\/p><p>Je suis née à Bilbao, au Pays basque espagnol, magnifique territoire marqué par la beauté sauvage de l'océan Atlantique et imprégné d’une culture ancestrale. J’ai 12 ans lorsque mes parents s’installent au Mexique à Guadalajara sur les bords du lac Chapala. Et là-bas… Je découvre émerveillée la vivacité des couleurs, les fleurs omniprésentes, une gaieté et un foisonnement culturel si riche qu’il m’inspire encore aujourd’hui. Cette expérience a façonné ma personnalité et éveillé en moi la passion des voyages et de la découverte.<\/p>"
           }
         },
         "e77061de-405f-40ec-9db4-0ec4d8de035f": {
           "type": "link",
           "settings": {
-            "link_text": "Plus sur Patricia",
-            "link_url": "shopify:\/\/pages\/notre-histoire"
+            "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM",
+            "link_url": "shopify:\/\/pages\/prendre-rendez-vous"
           }
         },
         "535d77d4-0681-4704-88df-09fedbe2aa20": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "link_text": "PRENDRE RENDEZ-VOUS EN LIVE",
             "link_url": ""
