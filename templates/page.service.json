@@ -54,7 +54,7 @@
     "d74bc6ba-55d1-4378-b52c-11ab222891c9": {
       "type": "rosa-quote2",
       "settings": {
-        "text1": "mise a la taille offerte",
+        "text1": "",
         "text2": "Vous ne savez pas comment mesurer votre taille de doigt ? Si en achetant sur notre site une bague vous vous étés trompé de taille ? surtout  ne vous inquiétez pas car nous allons trouver une solution pour vous.",
         "padding_top": 35,
         "padding_bottom": 0
@@ -72,11 +72,11 @@
     "476d1fa8-f37f-413c-b44e-92c4e1190977": {
       "type": "rosa-double-link",
       "settings": {
-        "link1_text": "EN SAVOIR PLUS",
+        "link1_text": "",
         "link1_url": "\/",
         "link2_text": "NOUS CONTACTER",
         "link2_url": "\/",
-        "padding_top": 65,
+        "padding_top": 35,
         "padding_bottom": 75
       }
     },
