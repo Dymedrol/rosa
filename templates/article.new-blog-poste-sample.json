@@ -67,10 +67,35 @@
     },
     "c05ce1b9-53a6-4d4a-91ac-cb01418d9c94": {
       "type": "double",
+      "blocks": {
+        "fc8333d4-b349-4203-9d83-bf28fee95b06": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR<\/strong><\/p>"
+          }
+        },
+        "b73fd6a3-255e-41ea-a4d3-00becd5327bb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »<\/p>"
+          }
+        },
+        "e4bee0bb-cc2b-4bc6-9e96-a5875d89dbdb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "fc8333d4-b349-4203-9d83-bf28fee95b06",
+        "b73fd6a3-255e-41ea-a4d3-00becd5327bb",
+        "e4bee0bb-cc2b-4bc6-9e96-a5875d89dbdb"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
-        "is_reverse": false,
-        "is_centred": false,
+        "is_reverse": true,
+        "is_centred": true,
         "padding_top": 45,
         "padding_bottom": 45
       }
