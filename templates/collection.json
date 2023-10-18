@@ -3,6 +3,7 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
+        "tag": "div"
       }
     },
     "e6ecc10c-9aff-44b4-b9d1-68b1e63da577": {
@@ -114,8 +115,8 @@
     "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8": {
       "type": "rosa-header-controls",
       "settings": {
-        "color": "#ffffff",
-        "is_static": false
+        "color": "#000000",
+        "is_static": true
       }
     }
   },
