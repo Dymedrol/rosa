@@ -2,6 +2,7 @@
   "sections": {
     "74bb4f04-de89-45bd-951a-3fe92be32ae4": {
       "type": "image-banner",
+      "disabled": true,
       "custom_css": [
         ".rosa-jumbotron-title {max-width: 600px !important;}"
       ],
@@ -9,9 +10,9 @@
         "is_full_screen": false,
         "alignment": "center",
         "text_color": "#121212",
-        "image_banner_title_text": "<p>CONTACTEZ-NOUS<\/p>",
+        "image_banner_title_text": "<p>Boutiques<\/p>",
         "is_title_big": true,
-        "image_banner_subtitle_text": "Pour toute question, n’hésitez pas à nous contacter. Nous serons heureux de pouvoir vous aider.",
+        "image_banner_subtitle_text": "",
         "is_text_big": true,
         "image_banner_link_text": "",
         "image_banner_link_url": "\/",
@@ -28,6 +29,7 @@
     },
     "form": {
       "type": "contact-form",
+      "disabled": true,
       "custom_css": [
         ".rosa-contacts-text1 {font: 500 16px\/19px Montserrat !important;}"
       ],
@@ -41,6 +43,57 @@
         "text7": "Découvrez l’univers de Rosa Maïtea et soyez informés de nos dernières créations, nos évènements et actualités.",
         "text8": "Pour plus d’information, consultez la politique de protection des données de Rosa Maitea.",
         "padding_top": 65,
+        "padding_bottom": 0
+      }
+    },
+    "c3c6c0cf-f2fe-4c17-8148-c00388ab02b9": {
+      "type": "double",
+      "blocks": {
+        "63b7505f-3a3f-4e8c-a69c-0133484aad5b": {
+          "type": "heading",
+          "settings": {
+            "heading1": "NOTRE SHOWROOM",
+            "heading2": "UN ENDROIT INTIMISTE DANS UN DES PLUS BEAU QUARTIER DE PARIS"
+          }
+        },
+        "51bbed8b-c4bc-4ce9-9f52-42230a004d44": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vous pouvez découvrir les collections et l'histoire de la marque dans un cadre intimiste et unique.<\/p>"
+          }
+        },
+        "59b3502d-16cb-4a31-ad1e-c0a8661ab809": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>ADRESSE <\/strong><\/p><p>Communiquée lors de la prise de rendez-vous. Situé dans le 9ème arrondissement de Paris. <\/p>"
+          }
+        },
+        "508835f4-0a49-4ef2-806b-a7bad6ef46f3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>HORAIRES D’OUVERTURE<\/strong><\/p><p> Du mardi au vendredi : 9h00 à 19h00 <\/p><p>Samedi : 10h00 À 13h00<\/p>"
+          }
+        },
+        "5800d796-cf82-40f5-9069-4bfe70cc61a1": {
+          "type": "link",
+          "settings": {
+            "link_text": "PRENDRE RENDEZ-VOUS",
+            "link_url": "shopify:\/\/pages\/prendre-rendez-vous"
+          }
+        }
+      },
+      "block_order": [
+        "63b7505f-3a3f-4e8c-a69c-0133484aad5b",
+        "51bbed8b-c4bc-4ce9-9f52-42230a004d44",
+        "59b3502d-16cb-4a31-ad1e-c0a8661ab809",
+        "508835f4-0a49-4ef2-806b-a7bad6ef46f3",
+        "5800d796-cf82-40f5-9069-4bfe70cc61a1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe_316_2x_6fdcb353-1d1d-4865-99e3-3df7b7fa21e6.png",
+        "is_reverse": false,
+        "is_centred": false,
+        "padding_top": 90,
         "padding_bottom": 0
       }
     },
@@ -106,66 +159,15 @@
       ],
       "settings": {
         "title": "NOS POINTS DE VENTE ET BOUTIQUES",
-        "padding_top": 165,
+        "padding_top": 90,
         "padding_bottom": 165
-      }
-    },
-    "c3c6c0cf-f2fe-4c17-8148-c00388ab02b9": {
-      "type": "double",
-      "blocks": {
-        "63b7505f-3a3f-4e8c-a69c-0133484aad5b": {
-          "type": "heading",
-          "settings": {
-            "heading1": "NOTRE SHOWROOM",
-            "heading2": "UN ENDROIT INTIMISTE DANS UN DES PLUS BEAU QUARTIER DE PARIS"
-          }
-        },
-        "51bbed8b-c4bc-4ce9-9f52-42230a004d44": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Vous pouvez découvrir les collections et l'histoire de la marque dans un cadre intimiste et unique.<\/p>"
-          }
-        },
-        "59b3502d-16cb-4a31-ad1e-c0a8661ab809": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>ADRESSE <\/strong><\/p><p>Communiquée lors de la prise de rendez-vous. Situé dans le 9ème arrondissement de Paris. <\/p>"
-          }
-        },
-        "508835f4-0a49-4ef2-806b-a7bad6ef46f3": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>HORAIRES D’OUVERTURE<\/strong><\/p><p> Du mardi au vendredi : 9h00 à 19h00 <\/p><p>Samedi : 10h00 À 13h00<\/p>"
-          }
-        },
-        "5800d796-cf82-40f5-9069-4bfe70cc61a1": {
-          "type": "link",
-          "settings": {
-            "link_text": "PRENDRE RENDEZ-VOUS",
-            "link_url": "shopify:\/\/pages\/prendre-rendez-vous"
-          }
-        }
-      },
-      "block_order": [
-        "63b7505f-3a3f-4e8c-a69c-0133484aad5b",
-        "51bbed8b-c4bc-4ce9-9f52-42230a004d44",
-        "59b3502d-16cb-4a31-ad1e-c0a8661ab809",
-        "508835f4-0a49-4ef2-806b-a7bad6ef46f3",
-        "5800d796-cf82-40f5-9069-4bfe70cc61a1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Groupe_316_2x_6fdcb353-1d1d-4865-99e3-3df7b7fa21e6.png",
-        "is_reverse": false,
-        "is_centred": false,
-        "padding_top": 0,
-        "padding_bottom": 125
       }
     },
     "e628f936-6394-4398-83d2-56b7e3bef366": {
       "type": "rosa-header-controls",
       "settings": {
-        "color": "#ffffff",
-        "is_static": false
+        "color": "#000000",
+        "is_static": true
       }
     }
   },
@@ -173,8 +175,8 @@
     "74bb4f04-de89-45bd-951a-3fe92be32ae4",
     "main",
     "form",
-    "6ebacf1c-b873-4bc1-b26c-42423042a5d2",
     "c3c6c0cf-f2fe-4c17-8148-c00388ab02b9",
+    "6ebacf1c-b873-4bc1-b26c-42423042a5d2",
     "e628f936-6394-4398-83d2-56b7e3bef366"
   ]
 }

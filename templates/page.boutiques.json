@@ -2,9 +2,6 @@
   "sections": {
     "74bb4f04-de89-45bd-951a-3fe92be32ae4": {
       "type": "image-banner",
-      "custom_css": [
-        ".rosa-jumbotron-title {max-width: 600px !important;}"
-      ],
       "settings": {
         "is_full_screen": false,
         "alignment": "center",
@@ -16,32 +13,6 @@
         "image_banner_link_text": "",
         "image_banner_link_url": "\/",
         "banner_image": "shopify:\/\/shop_images\/Groupe_175_2x_ca20457d-bdd1-471c-ab37-43b6138d883a.png"
-      }
-    },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "form": {
-      "type": "contact-form",
-      "custom_css": [
-        ".rosa-contacts-text1 {font: 500 16px\/19px Montserrat !important;}"
-      ],
-      "settings": {
-        "text1": "POUR TOUTE DEMANDE, VOUS POUVEZ NOUS JOINDRE :",
-        "text2": "Sur whatsapp du lundi au vendredi de 10h à 19h",
-        "text3": "Par rendez-vous au showroom à Paris. Du mardi au vendredi de 9h à 19h Samedi de 10h00 à 12h00",
-        "text4": "PRENDRE RENDEZ-VOUS",
-        "text5": "OU EN REMPLISSANT LE FORMULAIRE CI-DESSOUS.",
-        "text6": "*Champ obligatoire",
-        "text7": "Découvrez l’univers de Rosa Maïtea et soyez informés de nos dernières créations, nos évènements et actualités.",
-        "text8": "Pour plus d’information, consultez la politique de protection des données de Rosa Maitea.",
-        "padding_top": 65,
-        "padding_bottom": 0
       }
     },
     "6ebacf1c-b873-4bc1-b26c-42423042a5d2": {
@@ -74,7 +45,6 @@
         "5c90ce42-7ea0-4bfe-a50d-d8960da6ea65": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/unnamed.png",
             "title": "MUSE BY",
             "adresse": "60 Grand-Rue, 1660 Ville-Haute Luxembourg"
           }
@@ -82,7 +52,6 @@
         "feb48cc3-5706-43b5-8313-0d6f5cf1bffe": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/fred_beard-2_FBEA8773.jpg",
             "title": "LENY JEWELRY",
             "adresse": "Rue Lebeau 65, 1000 Bruxelles, Belgique"
           }
@@ -90,7 +59,6 @@
         "c09604b9-83a7-4a6d-9639-7843eecdc110": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2023-08-04.jpg",
             "title": "LE COLORIS",
             "adresse": "Rue St Adalbert 9, 4000 Liège, Belgique"
           }
@@ -108,6 +76,29 @@
         "title": "NOS POINTS DE VENTE ET BOUTIQUES",
         "padding_top": 165,
         "padding_bottom": 165
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "text1": "POUR TOUTE DEMANDE, VOUS POUVEZ NOUS JOINDRE :",
+        "text2": "Sur whatsapp du lundi au vendredi de 10h à 19h",
+        "text3": "Par rendez-vous au showroom à Paris. Du mardi au vendredi de 9h à 19h Samedi de 10h00 à 12h00",
+        "text4": "PRENDRE RENDEZ-VOUS",
+        "text5": "OU EN REMPLISSANT LE FORMULAIRE CI-DESSOUS.",
+        "text6": "*Champ obligatoire",
+        "text7": "Découvrez l’univers de Rosa Maïtea et soyez informés de nos dernières créations, nos évènements et actualités.",
+        "text8": "Pour plus d’information, consultez la politique de protection des données de Rosa Maitea.",
+        "padding_top": 65,
+        "padding_bottom": 0
       }
     },
     "c3c6c0cf-f2fe-4c17-8148-c00388ab02b9": {
@@ -171,9 +162,9 @@
   },
   "order": [
     "74bb4f04-de89-45bd-951a-3fe92be32ae4",
+    "6ebacf1c-b873-4bc1-b26c-42423042a5d2",
     "main",
     "form",
-    "6ebacf1c-b873-4bc1-b26c-42423042a5d2",
     "c3c6c0cf-f2fe-4c17-8148-c00388ab02b9",
     "e628f936-6394-4398-83d2-56b7e3bef366"
   ]

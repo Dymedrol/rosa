@@ -138,6 +138,7 @@
     },
     "6e02a8cf-0c84-43f0-b182-6ee54d34c2dd": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "is_full_screen": false,
         "alignment": "left",
@@ -147,8 +148,7 @@
         "image_banner_subtitle_text": "",
         "is_text_big": false,
         "image_banner_link_text": "DÉCOUVRIR LA COLLECTION",
-        "image_banner_link_url": "\/",
-        "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-15.jpg"
+        "image_banner_link_url": "\/"
       }
     },
     "719c5cd0-d7bd-4a47-9682-c76fa8c12530": {

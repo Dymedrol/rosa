@@ -4,13 +4,23 @@
       "type": "rosa-header2",
       "settings": {
         "text1": "",
-        "text2": "",
-        "padding_top": 45,
+        "text2": "Prendre Rendez-vous",
+        "padding_top": 80,
         "padding_bottom": 45
+      }
+    },
+    "867a3ad2-51bc-42dd-9ebf-ac89233ec745": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe style=\"width: 100%; height: 1000px; border: 0px; background-color: transparent;\" id=\"ycbmiframerosamaitea\" src=\"https:\/\/rosamaitea.youcanbook.me\/?noframe=true&amp;skipHeaderFooter=true\" allowtransparency=\"true\" frameborder=\"0\"><\/iframe><script>window.addEventListener && window.addEventListener(\"message\", function(event){if (event.origin === \"https:\/\/rosamaitea.youcanbook.me\"){document.getElementById(\"ycbmiframerosamaitea\").style.height = event.data + \"px\";}}, false);<\/script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 0
       }
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -29,6 +39,7 @@
   },
   "order": [
     "5ce2222b-0b31-4f99-9885-c8f19edd09d8",
+    "867a3ad2-51bc-42dd-9ebf-ac89233ec745",
     "main",
     "56870c85-6a0e-4285-85df-c3d84d1fc07c"
   ]

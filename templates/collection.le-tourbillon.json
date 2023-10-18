@@ -11,26 +11,26 @@
         "4c86542f-6c74-4961-94ed-b043fe20da2b": {
           "type": "text",
           "settings": {
-            "text": "<p>Collection le Tourbillon<\/p>"
+            "text": "<p>Collection les Solitaires de Rosa Maitea<\/p>"
           }
         },
         "d2e22a52-2031-49cf-b351-f80fdd768551": {
           "type": "heading",
           "settings": {
             "heading1": "",
-            "heading2": "Tourbillon célèbre le vertige de l’amour selon Rosa Maïtea"
+            "heading2": "La beauté des diamants d’un sertissage unique"
           }
         },
         "72f17976-0055-4da3-bada-32d0ea229273": {
           "type": "text",
           "settings": {
-            "text": "<p>Précieux carrousels de pierres fines 100% traçables et de diamants recyclés, les bagues éco-responsables Tourbillon en or 18ct recyclé rayonnent et illuminent les doigts de mille feux inattendus. Elles mélangent  avec gaieté de lumineuses  pierres fines à l’éclat pur des diamants blancs. <\/p>"
+            "text": "<p>Parure étincelante célébrant la plus brillante des pierres, la collection <em><strong>les éclatants<\/strong><\/em> sublime le <strong>diamant éthique : recyclé ou cultivé. <\/strong>Cette collection signe le tout premier engagement de Rosa Maïtea pour une <strong>joaillerie éthique, durable et totalement traçable<\/strong>. <\/p>"
           }
         },
         "fc054447-71a8-41ce-9100-b52d6b4385ea": {
           "type": "text",
           "settings": {
-            "text": "<p>Rosa Maitea vous propose de créer votre propre bague <em><strong>Tourbillon<\/strong><\/em>, en la personnalisant avec les pierres et les couleurs de votre choix: magnifiquement votre !  <\/p>"
+            "text": "<p>Déclinée à travers des bagues solitaires en diamants blancs recyclés ou en diamants de laboratoire roses, la collection renouvelle le porté de ce bijou traditionnel dans une version plus actuelle, plus joyeuse et décontractée.<\/p>"
           }
         },
         "cd2b9a8a-6684-42b2-a9e3-47ed36321182": {
@@ -50,7 +50,7 @@
         "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/42.jpg",
+        "image": "shopify:\/\/shop_images\/3-ROSA_MAITEA37267.jpg",
         "is_reverse": false,
         "is_centred": true,
         "padding_top": 60,
@@ -84,7 +84,7 @@
       "settings": {
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-20.png",
+        "cover_image": "shopify:\/\/shop_images\/web_DSC9883.jpg",
         "description": ""
       }
     },

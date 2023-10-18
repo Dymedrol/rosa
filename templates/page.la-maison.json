@@ -1,0 +1,353 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "7a9ec824-a820-47b1-8d38-37009db6aa3c": {
+      "type": "image-banner",
+      "custom_css": [
+        ".rosa-jumbotron-title {max-width: 400px !important;}",
+        "@media ((min-width: 1200px)) {.rosa-jumbotron-title_big {font: 60px\/55px Cormorant !important;}}"
+      ],
+      "settings": {
+        "is_full_screen": false,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "<p>LA MAISON ROSA MAÏTEA<\/p>",
+        "is_title_big": true,
+        "image_banner_subtitle_text": "UNE BELLE HISTOIRE D'AMOUR ET D'ÉTHIQUE",
+        "is_text_big": true,
+        "image_banner_link_text": "",
+        "image_banner_link_url": "\/",
+        "banner_image": "shopify:\/\/shop_images\/Cadre_rosamaitea-louison-boucly-studio0476.jpg"
+      }
+    },
+    "4016fdd0-0876-4da1-afe4-d71a6188c6b1": {
+      "type": "rosa-header3",
+      "settings": {
+        "text1": "NOTRE RAISON D'ETRE",
+        "text2": "MANIFESTE",
+        "text3": "<p>Ma vision est simple : mettre de la lumière dans ce monde opaque en faisant des bijoux avec de l’or et des diamants recyclés, et des pierres traçables. Rosa Maitea est fière de contribuer à la création d'un monde meilleur. Chacun de nos bijoux éco-responsables incarne notre engagement pour une planète préservée et pour des conditions de travail durables. Plus qu'une marque, Rosa Maïtea est une vision et la promesse d’une beauté éthique à l'impact positif.<\/p>",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "7b65d900-0344-4e58-9e3d-e6c2160f1271": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=H-iCgfPBpxA",
+        "cover_image": "shopify:\/\/shop_images\/DSC8558_0d0bf297-1bde-4db9-b91c-90c39412ab8e.jpg",
+        "description": ""
+      }
+    },
+    "39ebf9c9-7997-4a70-91a3-5c921a459945": {
+      "type": "rosa-header3",
+      "settings": {
+        "text1": "NOS ENGAGEMENTS",
+        "text2": "EN QUOI NOUS SOMMES UNIQUES",
+        "text3": "<p>Rosa Maitea est fière de contribuer à la création d'un monde meilleur. Chacun de nos bijoux éco-responsables incarne notre engagement pour une planète préservée et pour des conditions de travail durables. Plus qu'une marque, Rosa Maïtea<strong> <\/strong>est une vision et la promesse d’une beauté éthique à l'impact positif.<\/p>",
+        "padding_top": 80,
+        "padding_bottom": 45
+      }
+    },
+    "60210ce3-b49b-44de-8a98-811cc0c212a7": {
+      "type": "rosa-showroom-slides",
+      "blocks": {
+        "b243028c-899d-4225-bc63-c339557469a2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC0487_2x_31de653b-02b5-4ed0-a2c8-8b7c874d160b.png",
+            "title": "L’ÉCONOMIE CIRCULAIRE",
+            "link1-text": "<p>OR RECYCLÉ<\/p>",
+            "link1-url": "shopify:\/\/pages\/notre-or-recycle",
+            "link2-text": "<p>DIAMANT RECYCLÉ<\/p>",
+            "link2-url": "shopify:\/\/pages\/nos-diamants-recycles",
+            "link3-text": "<p>NOS POCHONS RECYCLÉS<\/p>",
+            "link3-url": ""
+          }
+        },
+        "d629ba8c-ba3f-4571-971a-935f6d93063b": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC9972_2x_cb3232c5-9f41-4bb7-9cb0-0bcbe7c2b8dc.png",
+            "title": "LA TRANSPARENCE",
+            "link1-text": "<p>PIERRES FINES TRACABLES<\/p>",
+            "link1-url": "shopify:\/\/pages\/nos-pierres-precieuses-100-tracables",
+            "link2-text": "<p>COMMUNICATION TRANSPARENTE<\/p>",
+            "link2-url": "",
+            "link3-text": "<p>GOUVERNANCE ÉTHIQUE<\/p>",
+            "link3-url": ""
+          }
+        },
+        "433747c9-323d-4d56-8b0f-87eaa30b695d": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC9597_2x_14b457c3-22b6-4c41-96d9-17c25ebc3245.png",
+            "title": "LA JOIE ET LA COULEUR",
+            "link1-text": "<p>L'AMOUR <\/p>",
+            "link1-url": "",
+            "link2-text": "<p>LA CREATIVITÉ<\/p>",
+            "link2-url": "",
+            "link3-text": "",
+            "link3-url": ""
+          }
+        },
+        "151b166d-0925-4835-ba45-5d381a73ebaa": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC9913_2x_40cbf673-2beb-478e-a846-cddca10d4e4e.png",
+            "title": "LE SAVOIR-FAIRE JOAILLIER ANCESTRAL",
+            "link1-text": "<p>NOS FABRICANTS INDIENS<\/p>",
+            "link1-url": "shopify:\/\/pages\/qui-fabrique-nos-bijoux",
+            "link2-text": "",
+            "link2-url": "",
+            "link3-text": "",
+            "link3-url": ""
+          }
+        }
+      },
+      "block_order": [
+        "b243028c-899d-4225-bc63-c339557469a2",
+        "d629ba8c-ba3f-4571-971a-935f6d93063b",
+        "433747c9-323d-4d56-8b0f-87eaa30b695d",
+        "151b166d-0925-4835-ba45-5d381a73ebaa"
+      ],
+      "settings": {
+        "padding_top": 70,
+        "padding_bottom": 0
+      }
+    },
+    "50a97970-36c4-452e-9885-f6cb72a35c2d": {
+      "type": "rosa-quote2",
+      "settings": {
+        "text1": "Notre objectif est d'apporter de la lumière et de la transparence à la joaillerie",
+        "text2": "Nos créations sont respectueuses de l'environnement et d’êtres humains qui participent à leurs fabrication. J’ai la conviction, que nous pouvons contribuer à faire changer les choses. Bien sûr, ce ne sera pas parfait du jour au lendemain, les enjeux sont trop vastes, mais contribuer à plus de transparence c’est un premier pas, un premier rayon de soleil qui, je l’espère, se démultipliera.",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "9e23fcfd-12bf-4a74-828f-42229764382f": {
+      "type": "rosa-double-link",
+      "settings": {
+        "link1_text": "VOIR PLUS SUR LE RECYCLAGE de diamants",
+        "link1_url": "shopify:\/\/pages\/nos-diamants-recycles",
+        "link2_text": "FABRICATION DE NOS BIJOUX",
+        "link2_url": "shopify:\/\/pages\/qui-fabrique-nos-bijoux",
+        "padding_top": 45,
+        "padding_bottom": 0
+      }
+    },
+    "342e88f4-9b57-4a10-bb2d-96c0eb5061a8": {
+      "type": "double",
+      "blocks": {
+        "4f21df82-c462-4587-9711-13531bf23f41": {
+          "type": "heading",
+          "settings": {
+            "heading1": "LA NAISSANCE DE LA MAISON",
+            "heading2": "PATRICIA PEREDA, FONDATRICE DE ROSA MAITEA"
+          }
+        },
+        "37ba0929-4e5c-4e01-a9af-3297edf8f43d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Je suis Patricia, créatrice de Rosa Maitea. <\/p><p>Je suis née à Bilbao, au Pays basque espagnol, magnifique territoire marqué par la beauté sauvage de l'océan Atlantique et imprégné d’une culture ancestrale. J’ai 12 ans lorsque mes parents s’installent au Mexique à Guadalajara sur les bords du lac Chapala. Et là-bas… Je découvre émerveillée la vivacité des couleurs, les fleurs omniprésentes, une gaieté et un foisonnement culturel si riche qu’il m’inspire encore aujourd’hui. Cette expérience a façonné ma personnalité et éveillé en moi la passion des voyages et de la découverte.<\/p>"
+          }
+        },
+        "e77061de-405f-40ec-9db4-0ec4d8de035f": {
+          "type": "link",
+          "settings": {
+            "link_text": "Plus sur Patricia",
+            "link_url": "shopify:\/\/pages\/notre-histoire"
+          }
+        },
+        "535d77d4-0681-4704-88df-09fedbe2aa20": {
+          "type": "link",
+          "settings": {
+            "link_text": "PRENDRE RENDEZ-VOUS EN LIVE",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "4f21df82-c462-4587-9711-13531bf23f41",
+        "37ba0929-4e5c-4e01-a9af-3297edf8f43d",
+        "e77061de-405f-40ec-9db4-0ec4d8de035f",
+        "535d77d4-0681-4704-88df-09fedbe2aa20"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image_2x_ed8e1de7-2f02-45d8-8d1e-4c02ef8c5272.png",
+        "is_reverse": true,
+        "is_centred": false,
+        "padding_top": 90,
+        "padding_bottom": 50
+      }
+    },
+    "65045b80-b25d-42bb-a0b7-16e75d63e285": {
+      "type": "rosa-header2",
+      "settings": {
+        "text1": "IL ÉTAIT UNE FOIS",
+        "text2": "L’HISTOIRE DE ROSA MAITEA",
+        "padding_top": 80,
+        "padding_bottom": 25
+      }
+    },
+    "9f334f8d-80cf-4b5c-8b10-0f1170745a14": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/video.png",
+        "description": ""
+      }
+    },
+    "3537bbea-543d-4725-8815-7bcbb35927d0": {
+      "type": "rosa-quote",
+      "settings": {
+        "text1": "«Je vous raconterais l''histoire dans mon showroom autour d'un café ou d'une coupe de champagne ! »",
+        "text2": "Patricia Pereda - Directrice artistique Rosa Maïtea",
+        "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM PARISIEN",
+        "link_url": "shopify:\/\/pages\/prendre-rendez-vous",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "d946e715-3084-42cd-9331-b75fff4b2453": {
+      "type": "rosa-header3",
+      "settings": {
+        "text1": "RÉSEAU SOCIAUX",
+        "text2": "RETROSPECTIVE SPREAD LOVE",
+        "text3": "<p>Nous rejoindre <strong>@rosamaitea<\/strong><\/p>",
+        "padding_top": 130,
+        "padding_bottom": 0
+      }
+    },
+    "ece64192-7cd1-4621-8e1c-227f877b30ed": {
+      "type": "rosa-picture-slider",
+      "blocks": {
+        "7bfb83bc-27cd-4a16-b77a-b322fde1fb30": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic1.png"
+          }
+        },
+        "7e47179d-3525-4de1-a6b8-8d4f46a840e9": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic2.png"
+          }
+        },
+        "12b1ca17-4d3d-46ec-8e8a-c32b88383481": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic4.png"
+          }
+        },
+        "c573f0e5-2ded-4202-880b-400ace223146": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic3.png"
+          }
+        },
+        "cac26c13-22b5-4361-9f54-9996b468b34a": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic1.png"
+          }
+        },
+        "e13b2de5-896f-4274-94b6-84f9144f98f5": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic2.png"
+          }
+        },
+        "2d694221-c05e-452c-bd9a-6b8b00d22945": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic4.png"
+          }
+        }
+      },
+      "block_order": [
+        "7bfb83bc-27cd-4a16-b77a-b322fde1fb30",
+        "7e47179d-3525-4de1-a6b8-8d4f46a840e9",
+        "12b1ca17-4d3d-46ec-8e8a-c32b88383481",
+        "c573f0e5-2ded-4202-880b-400ace223146",
+        "cac26c13-22b5-4361-9f54-9996b468b34a",
+        "e13b2de5-896f-4274-94b6-84f9144f98f5",
+        "2d694221-c05e-452c-bd9a-6b8b00d22945"
+      ],
+      "settings": {
+        "padding_top": 60,
+        "padding_bottom": 55
+      }
+    },
+    "096678f7-ca58-4d2e-8525-b5d1c1e410d4": {
+      "type": "double",
+      "blocks": {
+        "7c749ca8-9cae-4c62-87f7-61bca63a89a9": {
+          "type": "heading",
+          "settings": {
+            "heading1": "LA RÉALITÉ DE MINES",
+            "heading2": "OREM IPSUM DOLOR SIT AMET"
+          }
+        },
+        "bf01c18d-e99e-4c76-9d03-d66188b38cdb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Suspendisse a ex lacus. Vivamus quis eros sit amet nisi faucibus aliquam. Donec vitae mattis risus. Curabitur neque magna, ornare non erat sit amet, dictum feugiat urna. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.<\/p>"
+          }
+        },
+        "42b5c479-f34c-44f7-8a44-f3ba7fd109bf": {
+          "type": "link",
+          "settings": {
+            "link_text": "EN SAVOIR PLUS",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "7c749ca8-9cae-4c62-87f7-61bca63a89a9",
+        "bf01c18d-e99e-4c76-9d03-d66188b38cdb",
+        "42b5c479-f34c-44f7-8a44-f3ba7fd109bf"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Miniere_avec_enfant_500.png",
+        "is_reverse": false,
+        "is_centred": false,
+        "padding_top": 90,
+        "padding_bottom": 85
+      }
+    },
+    "d462669a-9481-42b6-a30f-6421185de238": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#ffffff",
+        "is_static": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "7a9ec824-a820-47b1-8d38-37009db6aa3c",
+    "4016fdd0-0876-4da1-afe4-d71a6188c6b1",
+    "7b65d900-0344-4e58-9e3d-e6c2160f1271",
+    "39ebf9c9-7997-4a70-91a3-5c921a459945",
+    "60210ce3-b49b-44de-8a98-811cc0c212a7",
+    "50a97970-36c4-452e-9885-f6cb72a35c2d",
+    "9e23fcfd-12bf-4a74-828f-42229764382f",
+    "342e88f4-9b57-4a10-bb2d-96c0eb5061a8",
+    "65045b80-b25d-42bb-a0b7-16e75d63e285",
+    "9f334f8d-80cf-4b5c-8b10-0f1170745a14",
+    "3537bbea-543d-4725-8815-7bcbb35927d0",
+    "d946e715-3084-42cd-9331-b75fff4b2453",
+    "ece64192-7cd1-4621-8e1c-227f877b30ed",
+    "096678f7-ca58-4d2e-8525-b5d1c1e410d4",
+    "d462669a-9481-42b6-a30f-6421185de238"
+  ]
+}
