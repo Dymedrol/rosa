@@ -107,7 +107,7 @@
           "type": "link",
           "settings": {
             "link_text": "PRENDRE RENDEZ-VOUS",
-            "link_url": ""
+            "link_url": "shopify:\/\/pages\/prendre-rendez-vous"
           }
         }
       },
