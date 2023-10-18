@@ -107,6 +107,51 @@
         "padding_bottom": 0
       }
     },
+    "342e88f4-9b57-4a10-bb2d-96c0eb5061a8": {
+      "type": "double",
+      "blocks": {
+        "4f21df82-c462-4587-9711-13531bf23f41": {
+          "type": "heading",
+          "settings": {
+            "heading1": "LA NAISSANCE DE LA MAISON",
+            "heading2": "PATRICIA PEREDA, FONDATRICE DE ROSA MAITEA"
+          }
+        },
+        "37ba0929-4e5c-4e01-a9af-3297edf8f43d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Je suis Patricia, créatrice de Rosa Maitea. <\/p><p>Je suis née à Bilbao, au Pays basque espagnol, magnifique territoire marqué par la beauté sauvage de l'océan Atlantique et imprégné d’une culture ancestrale. J’ai 12 ans lorsque mes parents s’installent au Mexique à Guadalajara sur les bords du lac Chapala. Et là-bas… Je découvre émerveillée la vivacité des couleurs, les fleurs omniprésentes, une gaieté et un foisonnement culturel si riche qu’il m’inspire encore aujourd’hui. Cette expérience a façonné ma personnalité et éveillé en moi la passion des voyages et de la découverte.<\/p>"
+          }
+        },
+        "e77061de-405f-40ec-9db4-0ec4d8de035f": {
+          "type": "link",
+          "settings": {
+            "link_text": "Plus sur Patricia",
+            "link_url": "shopify:\/\/pages\/notre-histoire"
+          }
+        },
+        "535d77d4-0681-4704-88df-09fedbe2aa20": {
+          "type": "link",
+          "settings": {
+            "link_text": "PRENDRE RENDEZ-VOUS EN LIVE",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "4f21df82-c462-4587-9711-13531bf23f41",
+        "37ba0929-4e5c-4e01-a9af-3297edf8f43d",
+        "e77061de-405f-40ec-9db4-0ec4d8de035f",
+        "535d77d4-0681-4704-88df-09fedbe2aa20"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image_2x_ed8e1de7-2f02-45d8-8d1e-4c02ef8c5272.png",
+        "is_reverse": true,
+        "is_centred": false,
+        "padding_top": 90,
+        "padding_bottom": 50
+      }
+    },
     "68a13697-2e98-445f-a2df-17fbee4b14dc": {
       "type": "rosa-quote",
       "disabled": true,
@@ -239,52 +284,6 @@
         "link2_url": "shopify:\/\/pages\/qui-fabrique-nos-bijoux",
         "padding_top": 45,
         "padding_bottom": 0
-      }
-    },
-    "342e88f4-9b57-4a10-bb2d-96c0eb5061a8": {
-      "type": "double",
-      "blocks": {
-        "4f21df82-c462-4587-9711-13531bf23f41": {
-          "type": "heading",
-          "settings": {
-            "heading1": "LA NAISSANCE DE LA MAISON",
-            "heading2": "PATRICIA PEREDA, FONDATRICE DE ROSA MAITEA"
-          }
-        },
-        "37ba0929-4e5c-4e01-a9af-3297edf8f43d": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Je suis Patricia, créatrice de Rosa Maitea. <\/p><p>Je suis née à Bilbao, au Pays basque espagnol, magnifique territoire marqué par la beauté sauvage de l'océan Atlantique et imprégné d’une culture ancestrale. J’ai 12 ans lorsque mes parents s’installent au Mexique à Guadalajara sur les bords du lac Chapala. Et là-bas… Je découvre émerveillée la vivacité des couleurs, les fleurs omniprésentes, une gaieté et un foisonnement culturel si riche qu’il m’inspire encore aujourd’hui. Cette expérience a façonné ma personnalité et éveillé en moi la passion des voyages et de la découverte.<\/p>"
-          }
-        },
-        "e77061de-405f-40ec-9db4-0ec4d8de035f": {
-          "type": "link",
-          "settings": {
-            "link_text": "Plus sur Patricia",
-            "link_url": "shopify:\/\/pages\/notre-histoire"
-          }
-        },
-        "535d77d4-0681-4704-88df-09fedbe2aa20": {
-          "type": "link",
-          "settings": {
-            "link_text": "PRENDRE RENDEZ-VOUS EN LIVE",
-            "link_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "4f21df82-c462-4587-9711-13531bf23f41",
-        "37ba0929-4e5c-4e01-a9af-3297edf8f43d",
-        "e77061de-405f-40ec-9db4-0ec4d8de035f",
-        "535d77d4-0681-4704-88df-09fedbe2aa20"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Image_2x_ed8e1de7-2f02-45d8-8d1e-4c02ef8c5272.png",
-        "is_reverse": true,
-        "is_centred": false,
-        "padding_top": 90,
-        "padding_bottom": 50
       }
     },
     "65045b80-b25d-42bb-a0b7-16e75d63e285": {
@@ -438,6 +437,7 @@
     "main",
     "7a9ec824-a820-47b1-8d38-37009db6aa3c",
     "3d7024d0-d6bc-4fe4-aaa5-98fa13a4cfd1",
+    "342e88f4-9b57-4a10-bb2d-96c0eb5061a8",
     "68a13697-2e98-445f-a2df-17fbee4b14dc",
     "4016fdd0-0876-4da1-afe4-d71a6188c6b1",
     "7b65d900-0344-4e58-9e3d-e6c2160f1271",
@@ -445,7 +445,6 @@
     "60210ce3-b49b-44de-8a98-811cc0c212a7",
     "50a97970-36c4-452e-9885-f6cb72a35c2d",
     "9e23fcfd-12bf-4a74-828f-42229764382f",
-    "342e88f4-9b57-4a10-bb2d-96c0eb5061a8",
     "65045b80-b25d-42bb-a0b7-16e75d63e285",
     "9f334f8d-80cf-4b5c-8b10-0f1170745a14",
     "3537bbea-543d-4725-8815-7bcbb35927d0",
