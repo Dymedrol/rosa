@@ -3,12 +3,12 @@
     "e060458f-288a-4ae9-9494-e50c63ca1aeb": {
       "type": "image-banner",
       "settings": {
-        "tag": "div",
+        "tag": "h1",
         "is_full_screen": false,
         "alignment": "center",
         "text_color": "#ffffff",
         "image_banner_title_text": "<p>LA JOAILLERIE ÉTHIQUE ET VISIONNAIRE <\/p>",
-        "is_title_big": true,
+        "is_title_big": false,
         "image_banner_subtitle_text": "TITRE DE L’ACTUALITÉ",
         "is_text_big": false,
         "image_banner_link_text": "link",
@@ -53,37 +53,10 @@
       "disabled": true,
       "settings": {
       }
-    },
-    "1e87c818-bd95-41ad-8c2a-f7885e38e57a": {
-      "type": "rosa-jumbo-slider",
-      "blocks": {
-        "28054556-9023-4302-8781-540d32296a89": {
-          "type": "slide",
-          "settings": {
-            "alignment": "center",
-            "text_color": "#ffffff",
-            "image_banner_title_text": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. »",
-            "is_title_big": true,
-            "image_banner_subtitle_text": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. »",
-            "is_text_big": false,
-            "image_banner_link_text": "link",
-            "image_banner_link_url": "\/",
-            "banner_image": "shopify:\/\/shop_images\/Groupe-175_2x_307a0587-5430-47b0-953b-c3ea649bc258.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "28054556-9023-4302-8781-540d32296a89"
-      ],
-      "settings": {
-        "is_full_screen": true,
-        "dots_color": "#ffffff"
-      }
     }
   },
   "order": [
     "e060458f-288a-4ae9-9494-e50c63ca1aeb",
-    "main",
-    "1e87c818-bd95-41ad-8c2a-f7885e38e57a"
+    "main"
   ]
 }
