@@ -9,6 +9,53 @@
         "padding_bottom": 0
       }
     },
+    "11da849c-436d-40a5-8d10-6cf2e448c95c": {
+      "type": "blocks",
+      "blocks": {
+        "55b9bf3d-cad3-47f4-b49d-4c534335ec9f": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/noun-store-1881916.svg",
+            "text1": "",
+            "text2": "9eme, Paris"
+          }
+        },
+        "039101bf-0870-492f-a386-104c4625510a": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_feather-coffee.svg",
+            "text1": "",
+            "text2": "Rendez-vous privatisé Seul, en couple ou en groupe"
+          }
+        },
+        "43bcb7a6-88d3-429b-96e0-43cd96bb4a9a": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/noun-jewelry-1607874.svg",
+            "text1": "",
+            "text2": "Rencontre avec la créatrice"
+          }
+        },
+        "4a14c923-2a78-4bed-8179-6492fcc0ff3a": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/noun-light-5022877.svg",
+            "text1": "",
+            "text2": "Essayage en live"
+          }
+        }
+      },
+      "block_order": [
+        "55b9bf3d-cad3-47f4-b49d-4c534335ec9f",
+        "039101bf-0870-492f-a386-104c4625510a",
+        "43bcb7a6-88d3-429b-96e0-43cd96bb4a9a",
+        "4a14c923-2a78-4bed-8179-6492fcc0ff3a"
+      ],
+      "settings": {
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -340,6 +387,7 @@
   },
   "order": [
     "48a3eb35-82c1-4835-8ed6-58ff58d72ff8",
+    "11da849c-436d-40a5-8d10-6cf2e448c95c",
     "main",
     "7a9ec824-a820-47b1-8d38-37009db6aa3c",
     "4016fdd0-0876-4da1-afe4-d71a6188c6b1",
