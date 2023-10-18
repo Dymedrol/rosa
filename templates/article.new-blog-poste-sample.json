@@ -250,6 +250,34 @@
         "color": "#ffffff",
         "is_static": false
       }
+    },
+    "4ab229ae-0287-4f19-9671-a68940d07c04": {
+      "type": "rosa-socials",
+      "blocks": {
+        "eeca2d5b-237a-4496-b52d-bec8f798faa6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_zocial-facebook_2x_ff9ce30e-cb83-419f-8956-7b330b87b5bb.png",
+            "url": "https:\/\/www.facebook.com\/RosaMaitea\/"
+          }
+        },
+        "07c988a2-0613-4ab1-ace7-b657e5eb9ad2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_awesome-instagram_2x_0e007b22-1811-49b5-81d7-27b78e9ec21f.png",
+            "url": "https:\/\/www.instagram.com\/rosa_maitea\/"
+          }
+        }
+      },
+      "block_order": [
+        "eeca2d5b-237a-4496-b52d-bec8f798faa6",
+        "07c988a2-0613-4ab1-ace7-b657e5eb9ad2"
+      ],
+      "settings": {
+        "title": "Partager",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
     }
   },
   "order": [
@@ -263,6 +291,7 @@
     "6e8424e9-8280-41ef-b3f0-03d40b28dc17",
     "b03dcec2-65c1-4c38-a5a4-4e00782ebe74",
     "6079c330-d1a9-42fc-830b-2264c477a424",
-    "ace2099d-2401-4f24-8819-d725e1afc1ec"
+    "ace2099d-2401-4f24-8819-d725e1afc1ec",
+    "4ab229ae-0287-4f19-9671-a68940d07c04"
   ]
 }
