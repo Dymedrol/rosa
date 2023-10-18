@@ -1,0 +1,85 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section class="rosa-text-block1 container section-{{ section.id }}-padding">
+  {% for block in section.blocks %}
+    {% case block.type %}
+      {%- when 'title' -%}
+        <div class="rosa-text-block1-title">{{ block.settings.text }}</div>
+      {%- when 'text' -%}
+        <div class="rosa-text-block1-text">{{ block.settings.text }}</div>
+    {% endcase %}
+  {% endfor %}
+</section>
+
+{% schema %}
+{
+  "name": "rosa text block 1",
+  "presets": [
+    {
+      "name": "rosa text block 1",
+      "category": "Custom"
+    }
+  ],
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 45
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 45
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "name": "title",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "title",
+          "label": "title"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "text",
+          "label": "text"
+        }
+      ]
+    }
+  ]
+}
+
+{% endschema %}

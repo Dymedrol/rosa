@@ -902,6 +902,7 @@ h1 {
     text-transform: uppercase;
     opacity: 1;
     margin-bottom: 7px;
+    max-width: unset;
   }
 }
 @media ((min-width: 1200px)) {
@@ -4848,5 +4849,29 @@ input:focus-visible {
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 30px;
+}
+.rosa-text-block1-title {
+  font: normal normal 500 16px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.rosa-text-block1-text {
+  font: normal normal normal 15px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  margin-bottom: 18px;
+}
+.rosa-text-block2 {
+  max-width: 673px;
+  margin: 0 auto;
+}
+.rosa-text-block2-text {
+  text-align: center;
+  font: normal normal normal 15px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  margin-bottom: 18px;
 }
 
