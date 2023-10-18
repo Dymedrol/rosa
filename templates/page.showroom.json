@@ -1,5 +1,14 @@
 {
   "sections": {
+    "48a3eb35-82c1-4835-8ed6-58ff58d72ff8": {
+      "type": "rosa-header",
+      "settings": {
+        "text1": "LE SHOWROOM ROSA MAITEA",
+        "text2": "Une expérience luxe hors du commun",
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -11,6 +20,7 @@
     "7a9ec824-a820-47b1-8d38-37009db6aa3c": {
       "type": "image-banner",
       "settings": {
+        "tag": "div",
         "is_full_screen": false,
         "alignment": "center",
         "text_color": "#ffffff",
@@ -323,12 +333,13 @@
     "d462669a-9481-42b6-a30f-6421185de238": {
       "type": "rosa-header-controls",
       "settings": {
-        "color": "#ffffff",
-        "is_static": false
+        "color": "#000000",
+        "is_static": true
       }
     }
   },
   "order": [
+    "48a3eb35-82c1-4835-8ed6-58ff58d72ff8",
     "main",
     "7a9ec824-a820-47b1-8d38-37009db6aa3c",
     "4016fdd0-0876-4da1-afe4-d71a6188c6b1",
