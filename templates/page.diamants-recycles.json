@@ -254,13 +254,13 @@
         "padding_bottom": 45
       }
     },
-    "f67034fd-6ecb-4c22-86d3-23ba8412619a": {
-      "type": "rosa-quote4",
+    "48509321-3649-4129-886e-1ffbfb35275e": {
+      "type": "rosa-header2",
       "settings": {
-        "text1": "“Les diamants  recyclés Rosa Maïtea respectent la nature et l’humanité” ",
-        "text2": "",
-        "padding_top": 90,
-        "padding_bottom": 0
+        "text1": "",
+        "text2": "“Les diamants  recyclés Rosa Maïtea respectent la nature et l’humanité” ",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "fa2ca636-a51a-4983-8c38-a10ba431017b": {
@@ -307,15 +307,6 @@
       "settings": {
         "padding_top": 120,
         "padding_bottom": 55
-      }
-    },
-    "48509321-3649-4129-886e-1ffbfb35275e": {
-      "type": "rosa-header2",
-      "settings": {
-        "text1": "",
-        "text2": "“Les diamants  recyclés Rosa Maïtea respectent la nature et l’humanité” ",
-        "padding_top": 45,
-        "padding_bottom": 45
       }
     },
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb": {
@@ -378,9 +369,8 @@
     "b2d8975f-fc61-462b-a960-6d219334d501",
     "1de8951e-cc53-47fa-9964-506c7bc6d3a6",
     "4eb8a992-14cd-4b7c-acc7-dbfc7caebc46",
-    "f67034fd-6ecb-4c22-86d3-23ba8412619a",
-    "fa2ca636-a51a-4983-8c38-a10ba431017b",
     "48509321-3649-4129-886e-1ffbfb35275e",
+    "fa2ca636-a51a-4983-8c38-a10ba431017b",
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb",
     "765f2c93-3054-44d3-b881-24dffee4392e",
     "2c729952-939d-43ff-9b51-18cd9b10cd88"
