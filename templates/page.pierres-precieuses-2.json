@@ -18,11 +18,11 @@
     "d8037b2c-93f5-4ed8-8ab3-69c24ce46c15": {
       "type": "image-banner",
       "settings": {
-        "tag": "h2",
+        "tag": "h1",
         "is_full_screen": false,
         "alignment": "center",
-        "text_color": "#fff",
-        "image_banner_title_text": "<h1>LES PIERRES FINES ENTIÈREMENT TRAÇABLES<\/h1>",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "<p>LES PIERRES FINES ENTIÈREMENT TRAÇABLES<\/p>",
         "is_title_big": false,
         "image_banner_subtitle_text": "De la mine à l’écrin",
         "is_text_big": false,
