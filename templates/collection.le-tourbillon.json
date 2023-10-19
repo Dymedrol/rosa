@@ -71,6 +71,35 @@
         "padding_bottom": 0
       }
     },
+    "6649bb51-9cf5-4a01-bba3-61a21835f000": {
+      "type": "double",
+      "blocks": {
+        "74c5c396-970a-49ec-bded-b64b65ee69cc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rosa Maitea vous propose de créer votre propre bague <em><strong>Tourbillon<\/strong><\/em>, en la personnalisant avec les pierres et les couleurs de votre choix: magnifiquement votre ! <\/p>"
+          }
+        },
+        "d3e809b3-cdcf-4c0b-9e77-cc1af15afea7": {
+          "type": "link",
+          "settings": {
+            "link_text": "CONTACTEZ NOUS",
+            "link_url": "shopify:\/\/pages\/contact"
+          }
+        }
+      },
+      "block_order": [
+        "74c5c396-970a-49ec-bded-b64b65ee69cc",
+        "d3e809b3-cdcf-4c0b-9e77-cc1af15afea7"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_1978_9aab953f-8fbd-4ba9-b5c7-bd11859ca0d1.jpg",
+        "is_reverse": false,
+        "is_centred": false,
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
       "type": "rosa-header2",
       "settings": {
@@ -106,45 +135,16 @@
         "color": "#ffffff",
         "is_static": false
       }
-    },
-    "6649bb51-9cf5-4a01-bba3-61a21835f000": {
-      "type": "double",
-      "blocks": {
-        "74c5c396-970a-49ec-bded-b64b65ee69cc": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Rosa Maitea vous propose de créer votre propre bague <em><strong>Tourbillon<\/strong><\/em>, en la personnalisant avec les pierres et les couleurs de votre choix: magnifiquement votre ! <\/p>"
-          }
-        },
-        "d3e809b3-cdcf-4c0b-9e77-cc1af15afea7": {
-          "type": "link",
-          "settings": {
-            "link_text": "CONTACTEZ NOUS",
-            "link_url": "shopify:\/\/pages\/contact"
-          }
-        }
-      },
-      "block_order": [
-        "74c5c396-970a-49ec-bded-b64b65ee69cc",
-        "d3e809b3-cdcf-4c0b-9e77-cc1af15afea7"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_1978_9aab953f-8fbd-4ba9-b5c7-bd11859ca0d1.jpg",
-        "is_reverse": false,
-        "is_centred": false,
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
     }
   },
   "order": [
     "banner",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
     "product-grid",
+    "6649bb51-9cf5-4a01-bba3-61a21835f000",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
     "c35448d9-1175-475c-9d96-16d0b67db72b",
-    "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8",
-    "6649bb51-9cf5-4a01-bba3-61a21835f000"
+    "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8"
   ]
 }
