@@ -97,8 +97,19 @@
       "settings": {
         "text1": "\"Coup de foudre, ou coup du destin : La joaillerie incarnait tout ce que j'aimais : les couleurs, la beauté de l'art, la transmission d'un savoir-faire, la tradition combinée à l’innovation, la création d’ornements précieux et symboliques transmis avec amour, et par amour. Mais, derrière l’éclat enchanteur de l’or et des diamants allait bientôt apparaître une toute autre histoire…. \"",
         "text2": "",
-        "padding_top": 35,
+        "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "ec7190e2-5195-49ed-8288-b4afe2d71cd0": {
+      "type": "rosa-double-link",
+      "settings": {
+        "link1_text": "LA SUITE DE L'HISTOIRE...IL ETAIT UNE FOIS",
+        "link1_url": "\/",
+        "link2_text": "",
+        "link2_url": "\/",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "b2d8975f-fc61-462b-a960-6d219334d501": {
@@ -266,17 +277,6 @@
         "padding_top": 45,
         "padding_bottom": 45
       }
-    },
-    "ec7190e2-5195-49ed-8288-b4afe2d71cd0": {
-      "type": "rosa-double-link",
-      "settings": {
-        "link1_text": "LA SUITE DE L'HISTOIRE...IL ETAIT UNE FOIS",
-        "link1_url": "\/",
-        "link2_text": "",
-        "link2_url": "\/",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
     }
   },
   "order": [
@@ -286,12 +286,12 @@
     "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5",
     "a9539caf-edb1-471f-9d6c-97b6a2b08a04",
     "f3072a74-e844-4c08-8050-2403211042ce",
+    "ec7190e2-5195-49ed-8288-b4afe2d71cd0",
     "b2d8975f-fc61-462b-a960-6d219334d501",
     "1de8951e-cc53-47fa-9964-506c7bc6d3a6",
     "fa2ca636-a51a-4983-8c38-a10ba431017b",
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb",
     "765f2c93-3054-44d3-b881-24dffee4392e",
-    "2c729952-939d-43ff-9b51-18cd9b10cd88",
-    "ec7190e2-5195-49ed-8288-b4afe2d71cd0"
+    "2c729952-939d-43ff-9b51-18cd9b10cd88"
   ]
 }
