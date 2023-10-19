@@ -17,7 +17,6 @@
     },
     "d8037b2c-93f5-4ed8-8ab3-69c24ce46c15": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
         "tag": "h1",
         "is_full_screen": false,
@@ -30,6 +29,17 @@
         "image_banner_link_text": "",
         "image_banner_link_url": "",
         "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-111.jpg"
+      }
+    },
+    "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5": {
+      "type": "rosa-quote",
+      "settings": {
+        "text1": "Dès lors, afin d’honorer son engagement pour une joaillerie durable et respectueuse de l'environnement,  Rosa Maïtea a exploré la piste de la traçabilité. A force de recherches et de persévérance, nous avons identifié une filière offrant toutes les garanties de traçabilité des pierres, de la mine au bijou : nom de la mine, pays d'origine, ateliers de taille et de création.",
+        "text2": "LES PIERRES FINES ROSA MAÏTEA ENTIÈREMENT TRAÇABLES SONT: LES SPINELLES ET GRENATS DE TANZANIE, LA TOURMALINE DE NAMIBIE.",
+        "link_text": "",
+        "link_url": "",
+        "padding_top": 90,
+        "padding_bottom": 0
       }
     },
     "a9539caf-edb1-471f-9d6c-97b6a2b08a04": {
@@ -74,17 +84,6 @@
         "text1": "Si l’or et les diamants se recyclent, pourquoi ne recycle-t-on pas les pierres fines ? Tout simplement pas elles sont très fragiles et ne peuvent être désserties avec les outils adéquats sans se briser. Ainsi, maintenant que nous connaissons les mines d’origine, nous mettons en place des partenariats avec des acteurs locaux et apportons notre contribution à l’amélioration des conditions de vie des mineurs.",
         "text2": "",
         "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5": {
-      "type": "rosa-quote",
-      "settings": {
-        "text1": "Dès lors, afin d’honorer son engagement pour une joaillerie durable et respectueuse de l'environnement,  Rosa Maïtea a exploré la piste de la traçabilité. A force de recherches et de persévérance, nous avons identifié une filière offrant toutes les garanties de traçabilité des pierres, de la mine au bijou : nom de la mine, pays d'origine, ateliers de taille et de création.",
-        "text2": "LES PIERRES FINES ROSA MAÏTEA ENTIÈREMENT TRAÇABLES SONT: LES SPINELLES ET GRENATS DE TANZANIE, LA TOURMALINE DE NAMIBIE.",
-        "link_text": "",
-        "link_url": "",
-        "padding_top": 90,
         "padding_bottom": 0
       }
     },
@@ -296,9 +295,9 @@
     "main",
     "237458dd-360c-4b77-b13f-be299496a576",
     "d8037b2c-93f5-4ed8-8ab3-69c24ce46c15",
+    "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5",
     "a9539caf-edb1-471f-9d6c-97b6a2b08a04",
     "f3072a74-e844-4c08-8050-2403211042ce",
-    "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5",
     "b2d8975f-fc61-462b-a960-6d219334d501",
     "59869e95-45a6-4636-95a7-c48ce0d6d913",
     "1de8951e-cc53-47fa-9964-506c7bc6d3a6",
