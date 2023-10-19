@@ -221,7 +221,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-113.jpg",
-        "is_reverse": false,
+        "is_reverse": true,
         "is_centred": true,
         "padding_top": 40,
         "padding_bottom": 0
