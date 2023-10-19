@@ -48,7 +48,7 @@
         "12885c87-59cb-4326-9fcc-17f286f4f6e3": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR<\/strong><\/p>"
+            "text": "<p><strong>1.<\/strong> <strong>Contactez-nous pour prendre RDV<\/strong><\/p>"
           }
         },
         "0620a0d2-7a07-4416-a19a-63efa991f170": {
@@ -68,6 +68,111 @@
         "12885c87-59cb-4326-9fcc-17f286f4f6e3",
         "0620a0d2-7a07-4416-a19a-63efa991f170",
         "076c0977-c63c-4883-b8f1-65288eed9274"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "952089c7-230c-48a5-b568-b6914c981883": {
+      "type": "double",
+      "blocks": {
+        "96145a24-493b-4838-b53d-7b8ea11a653f": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR<\/strong><\/p>"
+          }
+        },
+        "b00f3928-c9b1-4f1a-b329-c54af0462ddf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »<\/p>"
+          }
+        },
+        "b6165588-dfb1-475e-bfed-740c466eb0a8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "96145a24-493b-4838-b53d-7b8ea11a653f",
+        "b00f3928-c9b1-4f1a-b329-c54af0462ddf",
+        "b6165588-dfb1-475e-bfed-740c466eb0a8"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "2e7689c0-e154-460c-9768-bb456202294d": {
+      "type": "double",
+      "blocks": {
+        "7ef07e35-a690-41d4-98a8-4a1304cee569": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR<\/strong><\/p>"
+          }
+        },
+        "fc45abf6-ec06-4646-95fb-afe1f21eb6a2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »<\/p>"
+          }
+        },
+        "4ccfc160-175c-4095-8bbb-3573c46f78b5": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "7ef07e35-a690-41d4-98a8-4a1304cee569",
+        "fc45abf6-ec06-4646-95fb-afe1f21eb6a2",
+        "4ccfc160-175c-4095-8bbb-3573c46f78b5"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "340cfd99-15f9-4396-a713-e8d4dfe6caf7": {
+      "type": "double",
+      "blocks": {
+        "edfaf509-8198-4878-8dac-cd6745b83eaa": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR<\/strong><\/p>"
+          }
+        },
+        "9cd9bae2-516f-452e-9f3a-c6fc18596f53": {
+          "type": "text",
+          "settings": {
+            "text": "<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »<\/p>"
+          }
+        },
+        "01828e1a-d84e-47c9-a6f4-a51f8b0b816b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "edfaf509-8198-4878-8dac-cd6745b83eaa",
+        "9cd9bae2-516f-452e-9f3a-c6fc18596f53",
+        "01828e1a-d84e-47c9-a6f4-a51f8b0b816b"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
@@ -256,6 +361,9 @@
     "d8037b2c-93f5-4ed8-8ab3-69c24ce46c15",
     "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5",
     "a9539caf-edb1-471f-9d6c-97b6a2b08a04",
+    "952089c7-230c-48a5-b568-b6914c981883",
+    "2e7689c0-e154-460c-9768-bb456202294d",
+    "340cfd99-15f9-4396-a713-e8d4dfe6caf7",
     "f3072a74-e844-4c08-8050-2403211042ce",
     "b2d8975f-fc61-462b-a960-6d219334d501",
     "1de8951e-cc53-47fa-9964-506c7bc6d3a6",
