@@ -28,7 +28,7 @@
         "is_text_big": false,
         "image_banner_link_text": "",
         "image_banner_link_url": "",
-        "banner_image": "shopify:\/\/shop_images\/Groupe-175_2x_307a0587-5430-47b0-953b-c3ea649bc258.jpg"
+        "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-116_0c9ff459-7fd9-48bd-9ab9-9958eaca760f.jpg"
       }
     },
     "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5": {
@@ -128,6 +128,7 @@
         "406eb290-02dc-40ef-8b1c-5d801d393bb8",
         "f81faf11-05b4-40ac-80b1-5a2b64fa5b44"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
         "is_reverse": false,
