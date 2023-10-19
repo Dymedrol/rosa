@@ -342,6 +342,7 @@
     },
     "765f2c93-3054-44d3-b881-24dffee4392e": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
