@@ -257,8 +257,8 @@
         "b4c383fc-a920-4d4d-8954-f6a94b38ea2a": {
           "type": "faq",
           "settings": {
-            "title": "title",
-            "text": "<p>text<\/p>"
+            "title": "Est-ce que mon bijou sera unique ?",
+            "text": "<p>Complètement unique !<\/p>"
           }
         }
       },
