@@ -74,6 +74,12 @@
     "6649bb51-9cf5-4a01-bba3-61a21835f000": {
       "type": "double",
       "blocks": {
+        "5f9db6ef-10ed-4282-b96c-94f61448d409": {
+          "type": "text",
+          "settings": {
+            "text": "<p>LE TOURBILLON UNIQUE CRÉE PAR VOUS<\/p>"
+          }
+        },
         "74c5c396-970a-49ec-bded-b64b65ee69cc": {
           "type": "text",
           "settings": {
@@ -89,6 +95,7 @@
         }
       },
       "block_order": [
+        "5f9db6ef-10ed-4282-b96c-94f61448d409",
         "74c5c396-970a-49ec-bded-b64b65ee69cc",
         "d3e809b3-cdcf-4c0b-9e77-cc1af15afea7"
       ],
