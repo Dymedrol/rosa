@@ -324,6 +324,17 @@
     },
     "4eb8a992-14cd-4b7c-acc7-dbfc7caebc46": {
       "type": "double",
+      "blocks": {
+        "0c8e9f80-4a02-454c-accc-b119eecf8415": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Les (terribles) mines de diamants<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0c8e9f80-4a02-454c-accc-b119eecf8415"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Mine_Mirny_f6ef8efa-1d47-48df-b006-68a16462e3bb.jpg",
         "is_reverse": true,
