@@ -45,12 +45,6 @@
     "a9539caf-edb1-471f-9d6c-97b6a2b08a04": {
       "type": "double",
       "blocks": {
-        "12885c87-59cb-4326-9fcc-17f286f4f6e3": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR<\/strong><\/p>"
-          }
-        },
         "0620a0d2-7a07-4416-a19a-63efa991f170": {
           "type": "text",
           "settings": {
@@ -68,13 +62,19 @@
           "settings": {
             "text": "<p>Après avoir achevé mes études de droit et finances en Espagne, j'ai de nouveau pris le large et entrepris une carrière à Los Angeles, Londres, Madrid et enfin, à Paris. Paris, dont je me suis toujours sentie proche depuis que, petite, j'écoutais mon grand-père, un grand amoureux de la France, me raconter Paris. <\/p>"
           }
+        },
+        "6ed8f56b-c8b0-4673-b8e4-6ca5c3aa7ff5": {
+          "type": "text",
+          "settings": {
+            "text": "<p>J'ai fini par m'installer dans la ville Lumière où je me suis spécialisée dans le marketing du luxe au sein de grandes maisons. C'est là, en tant que Directrice de l'offre et de l'image d'une maison de joaillerie française, que j'ai découvert un univers fascinant.<\/p><p>Coup de foudre, ou coup du destin : La joaillerie incarnait tout ce que j'aimais : les couleurs, la beauté de l'art, la transmission d'un savoir-faire, la tradition combinée à l’innovation, la création d’ornements précieux et symboliques transmis avec amour, et par amour. Mais, derrière l’éclat enchanteur de l’or et des diamants allait bientôt apparaître une toute autre histoire…. <\/p>"
+          }
         }
       },
       "block_order": [
-        "12885c87-59cb-4326-9fcc-17f286f4f6e3",
         "0620a0d2-7a07-4416-a19a-63efa991f170",
         "076c0977-c63c-4883-b8f1-65288eed9274",
-        "6881aa89-689f-415c-b291-37ac01685328"
+        "6881aa89-689f-415c-b291-37ac01685328",
+        "6ed8f56b-c8b0-4673-b8e4-6ca5c3aa7ff5"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-115_fb268bbd-39e0-4e71-af2f-14269f33c8ac.jpg",
