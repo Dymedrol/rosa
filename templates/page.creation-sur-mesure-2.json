@@ -115,7 +115,7 @@
         "image": "shopify:\/\/shop_images\/3D.jpg",
         "is_reverse": true,
         "is_centred": true,
-        "padding_top": 90,
+        "padding_top": 40,
         "padding_bottom": 0
       }
     },
@@ -151,7 +151,7 @@
         "image": "shopify:\/\/shop_images\/IMG_6543.jpg",
         "is_reverse": true,
         "is_centred": true,
-        "padding_top": 45,
+        "padding_top": 35,
         "padding_bottom": 0
       }
     },
