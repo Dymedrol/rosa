@@ -11,6 +11,7 @@
     "ed7bf743-b31a-4219-8b4a-159b8363584e": {
       "type": "image-banner",
       "settings": {
+        "tag": "h1",
         "is_full_screen": false,
         "alignment": "center",
         "text_color": "#ffffff",
@@ -19,7 +20,7 @@
         "image_banner_subtitle_text": "",
         "is_text_big": false,
         "image_banner_link_text": "",
-        "image_banner_link_url": "\/",
+        "image_banner_link_url": "",
         "banner_image": "shopify:\/\/shop_images\/Groupe_175_2x_f3764dad-214f-4f00-8fc0-ed7e57661974.png"
       }
     },
@@ -30,21 +31,21 @@
           "type": "faq",
           "settings": {
             "title": "Dois-je payer les frais de livraison ? Et que se passe-t-il en cas de retour du produit ?",
-            "text": "Non, nous vous offrons la livraison et nous prenons en charge les frais de retour. Vous pouvez nous contacter par mail au patriciapereda@rosamaitea.com et nous vous enverrons une étiquette prépayée de Colissimo pour nous renvoyer le bijou que vous ne souhaitez plus garder. "
+            "text": "<p>Non, nous vous offrons la livraison et nous prenons en charge les frais de retour. Vous pouvez nous contacter par mail au patriciapereda@rosamaitea.com et nous vous enverrons une étiquette prépayée de Colissimo pour nous renvoyer le bijou que vous ne souhaitez plus garder. <\/p>"
           }
         },
         "e2ed839a-4204-4080-a1a3-278c52b7d4e2": {
           "type": "faq",
           "settings": {
             "title": "Comment puis-je suivre ma commande ?",
-            "text": "Une fois votre commande validée, vous recevrez un e-mail de confirmation avec les instructions pour suivre votre colis. Nous expédions votre commande par Colissimo, avec une assurance couvrant la valeur de votre bijou."
+            "text": "<p>Une fois votre commande validée, vous recevrez un e-mail de confirmation avec les instructions pour suivre votre colis. Nous expédions votre commande par Colissimo, avec une assurance couvrant la valeur de votre bijou.<\/p>"
           }
         },
         "002da1ca-47d2-4c66-9357-8ea19bcbd29a": {
           "type": "faq",
           "settings": {
             "title": "Comment puis-je retourner ma commande ?",
-            "text": "Envoyez-nous un e-mail à patriciapereda@rosamaitea.com, et nous vous fournirons les informations nécessaires. La démarche est simple et gratuite si la demande est faite dans les 14 jours suivant la réception de votre commande. Une fois que nous aurons reçu et vérifié les produits retournés, accompagnés de leur pochon et de leur boîte d'origine, nous procéderons au remboursement sur le moyen de paiement que vous avez utilisé pour votre commande."
+            "text": "<p>Envoyez-nous un e-mail à patriciapereda@rosamaitea.com, et nous vous fournirons les informations nécessaires. La démarche est simple et gratuite si la demande est faite dans les 14 jours suivant la réception de votre commande. Une fois que nous aurons reçu et vérifié les produits retournés, accompagnés de leur pochon et de leur boîte d'origine, nous procéderons au remboursement sur le moyen de paiement que vous avez utilisé pour votre commande.<\/p>"
           }
         }
       },
@@ -66,35 +67,35 @@
           "type": "faq",
           "settings": {
             "title": "Quels moyens de paiement acceptez-vous ?",
-            "text": "Nous acceptons les principales cartes de paiement en circulation en Europe, notamment Visa, Mastercard et American Express. Nous proposons également le paiement via PayPal."
+            "text": "<p>Nous acceptons les principales cartes de paiement en circulation en Europe, notamment Visa, Mastercard et American Express. Nous proposons également le paiement via PayPal.<\/p>"
           }
         },
         "e7453211-1f9c-44e3-a8be-618301846d17": {
           "type": "faq",
           "settings": {
             "title": "Les paiements sont-ils sécurisés ?",
-            "text": "Oui, toutes les transactions sont entièrement sécurisées. Les paiements par carte bancaire sont traités par notre partenaire Stripe, qui détient la certification PCI1, le niveau de sécurité le plus élevé disponible sur Internet. Vos données personnelles sont cryptées et ne transitent JAMAIS par nos serveurs."
+            "text": "<p>Oui, toutes les transactions sont entièrement sécurisées. Les paiements par carte bancaire sont traités par notre partenaire Stripe, qui détient la certification PCI1, le niveau de sécurité le plus élevé disponible sur Internet. Vos données personnelles sont cryptées et ne transitent JAMAIS par nos serveurs.<\/p>"
           }
         },
         "cd0dfd1a-083c-4307-bc86-91db790ae9c9": {
           "type": "faq",
           "settings": {
             "title": "Conservez-vous les informations de mon moyen de paiement ?",
-            "text": "Non, nous ne les conservons pas. Cependant, veillez à vérifier que ces informations ne sont pas stockées dans votre navigateur Internet."
+            "text": "<p>Non, nous ne les conservons pas. Cependant, veillez à vérifier que ces informations ne sont pas stockées dans votre navigateur Internet.<\/p>"
           }
         },
         "ab6aab5d-10a0-43af-bf92-f749c6ddd1cc": {
           "type": "faq",
           "settings": {
             "title": "Que se passe-t-il si mon paiement est refusé ?",
-            "text": "Dans ce cas, votre commande ne sera pas validée."
+            "text": "<p>Dans ce cas, votre commande ne sera pas validée.<\/p>"
           }
         },
         "f49af138-44d8-4a16-8a94-4c1160c5b73d": {
           "type": "faq",
           "settings": {
             "title": "Que faites-vous de mes données personnelles ?",
-            "text": "Nous utilisons vos données personnelles uniquement pour vous offrir le meilleur service possible. Si vous nous y autorisez, nous les conservons et les protégeons précieusement pour vos futurs achats. Vous pouvez consulter notre politique de confidentialité ici."
+            "text": "<p>Nous utilisons vos données personnelles uniquement pour vous offrir le meilleur service possible. Si vous nous y autorisez, nous les conservons et les protégeons précieusement pour vos futurs achats. Vous pouvez consulter notre politique de confidentialité ici.<\/p>"
           }
         }
       },
@@ -118,21 +119,21 @@
           "type": "faq",
           "settings": {
             "title": "Où sont fabriqués nos bijoux ?",
-            "text": "Nos bijoux sont conçus à Paris et fabriqués à Mumbai, en Inde, dans un atelier familial qui transmet de génération en génération le savoir-faire artisanal en joaillerie. Cet atelier détient un certificat du \"Responsible Jewelry Council\" (RJC), une organisation internationale qui certifie les bonnes pratiques des entreprises de la chaîne d'approvisionnement de l'or ou des diamants, de la mine à la distribution."
+            "text": "<p>Nos bijoux sont conçus à Paris et fabriqués à Mumbai, en Inde, dans un atelier familial qui transmet de génération en génération le savoir-faire artisanal en joaillerie. Cet atelier détient un certificat du \"Responsible Jewelry Council\" (RJC), une organisation internationale qui certifie les bonnes pratiques des entreprises de la chaîne d'approvisionnement de l'or ou des diamants, de la mine à la distribution.<\/p>"
           }
         },
         "d198dc81-800a-4d83-9e63-266260a101cb": {
           "type": "faq",
           "settings": {
             "title": "D'où proviennent les matières premières que vous utilisez ?",
-            "text": "L'or que nous utilisons est issu du recyclage de bijoux provenant du monde entier. Les diamants sont également recyclés. Quant aux pierres fines, telles que les spinelles et les grenats, elles sont traçables jusqu'à différentes mines en Tanzanie (Tunduru, Mahenge, Merelani...). La traçabilité des pierres fines est encore peu répandue dans le secteur de la joaillerie, et l'origine de ces pierres manque souvent de transparence. Les chaînes et les poussettes de nos bijoux sont fabriquées en Italie. Pour l'instant, nous ne connaissons pas l'origine de l'or utilisé dans ces produits, car les usines de chaînes et d'apprêts n'utilisent pas d'or recyclé. Nous sommes actuellement à la recherche de fabricants de chaînes en or recyclé. Si vous en connaissez, n'hésitez pas à nous contacter !"
+            "text": "<p>L'or que nous utilisons est issu du recyclage de bijoux provenant du monde entier. Les diamants sont également recyclés. Quant aux pierres fines, telles que les spinelles et les grenats, elles sont traçables jusqu'à différentes mines en Tanzanie (Tunduru, Mahenge, Merelani...). La traçabilité des pierres fines est encore peu répandue dans le secteur de la joaillerie, et l'origine de ces pierres manque souvent de transparence. Les chaînes et les poussettes de nos bijoux sont fabriquées en Italie. Pour l'instant, nous ne connaissons pas l'origine de l'or utilisé dans ces produits, car les usines de chaînes et d'apprêts n'utilisent pas d'or recyclé. Nous sommes actuellement à la recherche de fabricants de chaînes en or recyclé. Si vous en connaissez, n'hésitez pas à nous contacter !<\/p>"
           }
         },
         "077f0cfa-f150-43eb-aa5a-0f05d4fe38f0": {
           "type": "faq",
           "settings": {
             "title": "Comment choisir la taille de ma bague ?",
-            "text": "Nous vous recommandons de choisir une taille inférieure à votre taille habituelle (par exemple, si votre taille habituelle est 54, la taille idéale de votre bague sera 53). Vous trouverez des informations détaillées dans notre guide des tailles."
+            "text": "<p>Nous vous recommandons de choisir une taille inférieure à votre taille habituelle (par exemple, si votre taille habituelle est 54, la taille idéale de votre bague sera 53). Vous trouverez des informations détaillées dans notre guide des tailles.<\/p>"
           }
         }
       },
@@ -154,21 +155,21 @@
           "type": "faq",
           "settings": {
             "title": "D'où provient le nom Rosa Maïtea ?",
-            "text": "Le nom Rosa est celui de la mère de Patricia, la créatrice de la marque, décédée en janvier 2020, le mois où l'idée de créer Rosa Maïtea a germé. Maïtea signifie \"la bien-aimée\" en basque, la langue de la région d'origine de Patricia, le Pays Basque espagnol. Ce nom rend hommage à sa mère et à toutes les mères du monde."
+            "text": "<p>Le nom Rosa est celui de la mère de Patricia, la créatrice de la marque, décédée en janvier 2020, le mois où l'idée de créer Rosa Maïtea a germé. Maïtea signifie \"la bien-aimée\" en basque, la langue de la région d'origine de Patricia, le Pays Basque espagnol. Ce nom rend hommage à sa mère et à toutes les mères du monde.<\/p>"
           }
         },
         "ceb3b595-7bcd-495e-aba2-f2783f767d08": {
           "type": "faq",
           "settings": {
             "title": "Recrutez-vous ?",
-            "text": "Rosa Maïtea est une entreprise très récente, mais nous serons ravis de recevoir vos candidatures motivées. Contactez-nous à patriciapereda@rosamaitea.com."
+            "text": "<p>Rosa Maïtea est une entreprise très récente, mais nous serons ravis de recevoir vos candidatures motivées. Contactez-nous à patriciapereda@rosamaitea.com.<\/p>"
           }
         },
         "90632d4d-e279-47c0-ade3-aa0dc0e4bee6": {
           "type": "faq",
           "settings": {
             "title": "Cherchez-vous des investisseurs ou des partenaires pour développer votre marque ?",
-            "text": "Si vous appréciez notre marque et souhaitez unir vos forces aux nôtres pour contribuer à un monde meilleur, vous pouvez nous contacter à patriciapereda@rosamaitea.com."
+            "text": "<p>Si vous appréciez notre marque et souhaitez unir vos forces aux nôtres pour contribuer à un monde meilleur, vous pouvez nous contacter à patriciapereda@rosamaitea.com.<\/p>"
           }
         }
       },
@@ -190,14 +191,14 @@
           "type": "faq",
           "settings": {
             "title": "L'engagement éthique et environnemental est au cœur de nos valeurs.",
-            "text": "Cet engagement guide toutes nos décisions, sans exception. La transparence et l'honnêteté sont au cœur de notre ADN, et nous vous informons de manière transparente sur ce que nous faisons et comment nous le faisons. Nous sommes déterminés à être transparents et engagés envers toutes les personnes impliquées dans la création des bijoux Rosa Maïtea."
+            "text": "<p>Cet engagement guide toutes nos décisions, sans exception. La transparence et l'honnêteté sont au cœur de notre ADN, et nous vous informons de manière transparente sur ce que nous faisons et comment nous le faisons. Nous sommes déterminés à être transparents et engagés envers toutes les personnes impliquées dans la création des bijoux Rosa Maïtea.<\/p>"
           }
         },
         "f24cdb5d-4490-407d-89bd-00bf865c57fc": {
           "type": "faq",
           "settings": {
             "title": "Quelles sont nos actions concrètes en faveur de l'environnement ?",
-            "text": "La réduction de l'impact de la production en ne fabriquant que des bijoux en précommande, sans stock inutile.L'utilisation de matières premières recyclées de qualité, telles que l'or et les diamants.L'utilisation de pochons en tissu recyclé faits main et de boîtes en carton recyclé, avec du papier labellisé FSC.Une garantie de 2 ans sur nos bijoux, prenant en compte la responsabilité du produit.Une communication honnête et transparente pour partager nos actions et nos progrès.Nous sommes conscients qu'il reste encore beaucoup à faire pour parvenir à une transparence totale et à un respect maximal de la nature. Cependant, nous sommes déterminés à changer les normes de l'industrie de la joaillerie et à vous embarquer dans cette aventure."
+            "text": "<p>La réduction de l'impact de la production en ne fabriquant que des bijoux en précommande, sans stock inutile.L'utilisation de matières premières recyclées de qualité, telles que l'or et les diamants.L'utilisation de pochons en tissu recyclé faits main et de boîtes en carton recyclé, avec du papier labellisé FSC.Une garantie de 2 ans sur nos bijoux, prenant en compte la responsabilité du produit.Une communication honnête et transparente pour partager nos actions et nos progrès.Nous sommes conscients qu'il reste encore beaucoup à faire pour parvenir à une transparence totale et à un respect maximal de la nature. Cependant, nous sommes déterminés à changer les normes de l'industrie de la joaillerie et à vous embarquer dans cette aventure.<\/p>"
           }
         }
       },
@@ -218,14 +219,14 @@
           "type": "faq",
           "settings": {
             "title": "Comment puis-je vous contacter ?",
-            "text": "Vous pouvez nous contacter par e-mail à patriciapereda@rosamaitea.com ou par téléphone\/WhatsApp au +33 (0) 6 81 48 71 74."
+            "text": "<p>Vous pouvez nous contacter par e-mail à patriciapereda@rosamaitea.com ou par téléphone\/WhatsApp au +33 (0) 6 81 48 71 74.<\/p>"
           }
         },
         "317d585d-2efb-43aa-8b80-3c8225ac27fd": {
           "type": "faq",
           "settings": {
             "title": "Pouvons-nous trouver vos produits ailleurs que sur rosamaitea.com ?",
-            "text": "Nos produits sont principalement disponibles sur notre site web. Vous pouvez également les trouver sur Instagram et dans des boutiques éphémères. Si vous souhaitez essayer le bijou de vos rêves, vous pouvez prendre rendez-vous dans notre showroom à Paris.N'hésitez pas à vous inscrire à notre newsletter pour recevoir les dernières nouvelles sur la page d'accueil de notre site."
+            "text": "<p>Nos produits sont principalement disponibles sur notre site web. Vous pouvez également les trouver sur Instagram et dans des boutiques éphémères. Si vous souhaitez essayer le bijou de vos rêves, vous pouvez prendre rendez-vous dans notre showroom à Paris.N'hésitez pas à vous inscrire à notre newsletter pour recevoir les dernières nouvelles sur la page d'accueil de notre site.<\/p>"
           }
         }
       },
@@ -246,7 +247,7 @@
           "type": "faq",
           "settings": {
             "title": "Comment entretenir mon bijou ?",
-            "text": "Pour conserver l'éclat de votre bijou, nous vous recommandons de nettoyer les pierres environ tous les 3 mois en les trempant dans de l'eau tiède avec un peu de liquide vaisselle pendant une nuit. Ensuite, frottez-les délicatement avec une brosse à dents très souple.Si vous souhaitez restaurer l'éclat initial de votre bijou, vous pouvez le faire polir et rhodier. Contactez-nous, et nous vous fournirons les bonnes adresses pour effectuer cette opération."
+            "text": "<p>Pour conserver l'éclat de votre bijou, nous vous recommandons de nettoyer les pierres environ tous les 3 mois en les trempant dans de l'eau tiède avec un peu de liquide vaisselle pendant une nuit. Ensuite, frottez-les délicatement avec une brosse à dents très souple.Si vous souhaitez restaurer l'éclat initial de votre bijou, vous pouvez le faire polir et rhodier. Contactez-nous, et nous vous fournirons les bonnes adresses pour effectuer cette opération.<\/p>"
           }
         }
       },
@@ -266,14 +267,14 @@
           "type": "faq",
           "settings": {
             "title": "Si mon bijoux se casse ou perd une pierre qu'est-ce qu'il se passe ?",
-            "text": "Nous offrons une garantie de deux ans. Dans ces cas là nous prenons en charge l'envoi du bijoux, sa reparation et l'envoi de retour. Vous pouvez contacter : albane@rosamaitea.com"
+            "text": "<p>Nous offrons une garantie de deux ans. Dans ces cas là nous prenons en charge l'envoi du bijoux, sa reparation et l'envoi de retour. Vous pouvez contacter : albane@rosamaitea.com<\/p>"
           }
         },
         "09a5a310-b873-45cd-b6d2-fc67c987db42": {
           "type": "faq",
           "settings": {
             "title": "Avez vous une garantie ?",
-            "text": "Oui en effet nous garantissons vos bijoux pour 2 ans."
+            "text": "<p>Oui en effet nous garantissons vos bijoux pour 2 ans.<\/p>"
           }
         }
       },
