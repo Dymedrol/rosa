@@ -21,7 +21,7 @@
         "tag": "h1",
         "is_full_screen": false,
         "alignment": "center",
-        "text_color": "#ffffff",
+        "text_color": "#000000",
         "image_banner_title_text": "<p>CRÉATION SUR MESURE<\/p>",
         "is_title_big": false,
         "image_banner_subtitle_text": "Faire revivre un  ancien bijou",
@@ -325,6 +325,7 @@
         "83edf634-a541-48ca-b04d-8ee9e2230a31",
         "aebe5553-6e0a-434b-beda-1b96977d9375"
       ],
+      "disabled": true,
       "settings": {
         "padding_top": 70,
         "padding_bottom": 55
