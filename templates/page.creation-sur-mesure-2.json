@@ -229,6 +229,7 @@
     },
     "f3072a74-e844-4c08-8050-2403211042ce": {
       "type": "rosa-quote4",
+      "disabled": true,
       "settings": {
         "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
         "text2": "",
@@ -242,8 +243,8 @@
         "a71b233c-abcb-4ce2-83b0-e9e0d6ec0dca": {
           "type": "faq",
           "settings": {
-            "title": "title",
-            "text": "<p>text<\/p>"
+            "title": "COMBIEN DE TEMPS DURE LE PROJET",
+            "text": "<p>Entre 3 et 4 mois<\/p>"
           }
         },
         "cc111573-5ae2-4010-b337-98c611cc7cde": {
