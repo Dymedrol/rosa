@@ -62,12 +62,19 @@
           "settings": {
             "text": "<p>Cette expérience a façonné ma personnalité et éveillé en moi la passion des voyages et de la découverte.<\/p><p>Au fil des années, j'ai continué à explorer le monde, à la rencontre de civilisations incroyables : de l'Inde à l’Italie, de Malte au Pérou, en passant par le Vietnam. Je garde en mémoire de précieux souvenirs de chacune de ces destinations, de leurs trésors esthétiques, de leur artisanat et des formidables moments d’humanité qu’elles ont pu m’offrir. <\/p>"
           }
+        },
+        "6881aa89-689f-415c-b291-37ac01685328": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Après avoir achevé mes études de droit et finances en Espagne, j'ai de nouveau pris le large et entrepris une carrière à Los Angeles, Londres, Madrid et enfin, à Paris. Paris, dont je me suis toujours sentie proche depuis que, petite, j'écoutais mon grand-père, un grand amoureux de la France, me raconter Paris. <\/p>"
+          }
         }
       },
       "block_order": [
         "12885c87-59cb-4326-9fcc-17f286f4f6e3",
         "0620a0d2-7a07-4416-a19a-63efa991f170",
-        "076c0977-c63c-4883-b8f1-65288eed9274"
+        "076c0977-c63c-4883-b8f1-65288eed9274",
+        "6881aa89-689f-415c-b291-37ac01685328"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-115_fb268bbd-39e0-4e71-af2f-14269f33c8ac.jpg",
