@@ -106,6 +106,50 @@
         "color": "#ffffff",
         "is_static": false
       }
+    },
+    "6649bb51-9cf5-4a01-bba3-61a21835f000": {
+      "type": "double",
+      "blocks": {
+        "74c5c396-970a-49ec-bded-b64b65ee69cc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rosa Maitea vous propose de créer votre propre bague <em><strong>Tourbillon<\/strong><\/em>, en la personnalisant avec les pierres et les couleurs de votre choix: magnifiquement votre ! <\/p>"
+          }
+        },
+        "0d5c1c30-37e2-4e56-ad01-98c542e01caf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>text<\/p>"
+          }
+        },
+        "4e25926b-8432-4b19-9f06-203a34c49bd3": {
+          "type": "item",
+          "settings": {
+            "text": "text",
+            "url": "\/"
+          }
+        },
+        "d3e809b3-cdcf-4c0b-9e77-cc1af15afea7": {
+          "type": "link",
+          "settings": {
+            "link_text": "link text",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "74c5c396-970a-49ec-bded-b64b65ee69cc",
+        "0d5c1c30-37e2-4e56-ad01-98c542e01caf",
+        "4e25926b-8432-4b19-9f06-203a34c49bd3",
+        "d3e809b3-cdcf-4c0b-9e77-cc1af15afea7"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_1978_9aab953f-8fbd-4ba9-b5c7-bd11859ca0d1.jpg",
+        "is_reverse": false,
+        "is_centred": false,
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
     }
   },
   "order": [
@@ -115,6 +159,7 @@
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
     "c35448d9-1175-475c-9d96-16d0b67db72b",
-    "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8"
+    "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8",
+    "6649bb51-9cf5-4a01-bba3-61a21835f000"
   ]
 }
