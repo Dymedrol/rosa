@@ -107,12 +107,20 @@
           "settings": {
             "text": "<p>Le grenat existe dans une farandole de couleurs à travers ses différentes incarnations: les spessartites allant du bleu profond au gris léger, les rhodolites du rouge presque pourpre au rose bébé et les tsavorites aux verts profonds et changeants. <\/p>"
           }
+        },
+        "cdf7beda-d7ac-43e6-94bb-012bdc4c191b": {
+          "type": "heading",
+          "settings": {
+            "heading1": "Image with text",
+            "heading2": "LES GRENATS DE TANZANIE"
+          }
         }
       },
       "block_order": [
         "044de56b-3510-4522-a41e-36063756c9d4",
         "406eb290-02dc-40ef-8b1c-5d801d393bb8",
-        "f81faf11-05b4-40ac-80b1-5a2b64fa5b44"
+        "f81faf11-05b4-40ac-80b1-5a2b64fa5b44",
+        "cdf7beda-d7ac-43e6-94bb-012bdc4c191b"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_1980_53515811-60f8-48fc-a4b5-028649f60a09.jpg",
