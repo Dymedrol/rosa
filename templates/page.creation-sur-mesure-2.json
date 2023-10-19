@@ -161,7 +161,7 @@
         "edfaf509-8198-4878-8dac-cd6745b83eaa": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR<\/strong><\/p>"
+            "text": "<p><strong>4. VOTRE BIJOU SUR-MESURE, PETITE BOMBE D'AMOUR ÉCO-RESPONSABLE EST EN COURS DE FABRICATION <\/strong><\/p>"
           }
         },
         "9cd9bae2-516f-452e-9f3a-c6fc18596f53": {
@@ -205,7 +205,7 @@
         "044de56b-3510-4522-a41e-36063756c9d4": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>4. VOTRE BIJOU SUR-MESURE, PETITE BOMBE D'AMOUR ÉCO-RESPONSABLE EST EN COURS DE FABRICATION <\/strong><\/p>"
+            "text": ""
           }
         },
         "406eb290-02dc-40ef-8b1c-5d801d393bb8": {
@@ -216,6 +216,7 @@
         },
         "f81faf11-05b4-40ac-80b1-5a2b64fa5b44": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
           }
