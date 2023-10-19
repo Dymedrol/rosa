@@ -35,8 +35,8 @@
       "type": "rosa-quote",
       "settings": {
         "text1": "Les diamants sont éternels mais ils ne sont pas inépuisables. Leur formation géologique au cœur de la terre demande plusieurs milliards d’années, et le rythme de la demande mondiale épuise les ressources disponibles.",
-        "text2": "",
-        "link_text": "",
+        "text2": "Rosa Maïtea s’engage pour une joaillerie durable en recyclant des diamants provenant de bijoux existants. Certes le design de nos bijoux doit s’adapter aux formes et aux tailles des diamants disponibles, mais nous faisons de cette contrainte un challenge créatif pour vous offrir une nouvelle vision du diamant, magnifiée par l’authenticité de notre engagement. “Les diamants  recyclés Rosa Maïtea respectent la nature et l’humanité\"                                    ",
+        "link_text": "Découvrez les différentes étapes du recyclage des diamants:",
         "link_url": "",
         "padding_top": 90,
         "padding_bottom": 0
@@ -48,13 +48,13 @@
         "12885c87-59cb-4326-9fcc-17f286f4f6e3": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR<\/strong><\/p>"
+            "text": "<p><strong>L’origine des diamants<\/strong><\/p>"
           }
         },
         "0620a0d2-7a07-4416-a19a-63efa991f170": {
           "type": "text",
           "settings": {
-            "text": "<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »<\/p>"
+            "text": "<p>A l’origine de notre démarche, nous avons initié un partenariat avec notre atelier fabricant pour créer une véritable filière d’upcycling.  Les diamants des bijoux invendus ou cassés retournés à l’atelier sont upcyclés afin de donner à ces gemmes qui n’ont rien perdu de leur beauté  une nouvelle vie ! <\/p>"
           }
         },
         "076c0977-c63c-4883-b8f1-65288eed9274": {
@@ -68,6 +68,76 @@
         "12885c87-59cb-4326-9fcc-17f286f4f6e3",
         "0620a0d2-7a07-4416-a19a-63efa991f170",
         "076c0977-c63c-4883-b8f1-65288eed9274"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "9051c441-1b8f-4b41-9a56-55ab590e8bf6": {
+      "type": "double",
+      "blocks": {
+        "89a7b0af-fad4-4f36-98a0-9470b2c06eb9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR<\/strong><\/p>"
+          }
+        },
+        "16cd9a22-e03c-4f0a-84d5-13230cb5b6b1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »<\/p>"
+          }
+        },
+        "100ed3e3-f46e-4783-bd57-d8506b230b8f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "89a7b0af-fad4-4f36-98a0-9470b2c06eb9",
+        "16cd9a22-e03c-4f0a-84d5-13230cb5b6b1",
+        "100ed3e3-f46e-4783-bd57-d8506b230b8f"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "e1e83658-2247-4270-8560-9db954de0408": {
+      "type": "double",
+      "blocks": {
+        "b7d06372-215d-4e51-be34-e806a85e35a8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR<\/strong><\/p>"
+          }
+        },
+        "90a50d63-5e85-48d8-b814-342c5ce0734c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »<\/p>"
+          }
+        },
+        "7dd0c19f-fd37-47f1-8ad0-fdc3769ea6cd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b7d06372-215d-4e51-be34-e806a85e35a8",
+        "90a50d63-5e85-48d8-b814-342c5ce0734c",
+        "7dd0c19f-fd37-47f1-8ad0-fdc3769ea6cd"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
@@ -151,6 +221,7 @@
         "cc111573-5ae2-4010-b337-98c611cc7cde",
         "b4c383fc-a920-4d4d-8954-f6a94b38ea2a"
       ],
+      "disabled": true,
       "settings": {
         "title": "title",
         "padding_top": 90,
@@ -214,6 +285,7 @@
     },
     "765f2c93-3054-44d3-b881-24dffee4392e": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
@@ -256,6 +328,8 @@
     "d8037b2c-93f5-4ed8-8ab3-69c24ce46c15",
     "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5",
     "a9539caf-edb1-471f-9d6c-97b6a2b08a04",
+    "9051c441-1b8f-4b41-9a56-55ab590e8bf6",
+    "e1e83658-2247-4270-8560-9db954de0408",
     "f3072a74-e844-4c08-8050-2403211042ce",
     "b2d8975f-fc61-462b-a960-6d219334d501",
     "1de8951e-cc53-47fa-9964-506c7bc6d3a6",
