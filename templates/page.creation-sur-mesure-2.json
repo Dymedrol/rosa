@@ -273,6 +273,17 @@
         "padding_bottom": 0
       }
     },
+    "5c24a79d-90ff-4c6c-af19-0b0e08247086": {
+      "type": "rosa-double-link",
+      "settings": {
+        "link1_text": "CONTACTEZ-NOUS",
+        "link1_url": "shopify:\/\/pages\/contact",
+        "link2_text": "",
+        "link2_url": "\/",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "fa2ca636-a51a-4983-8c38-a10ba431017b": {
       "type": "rosa-picture-slider",
       "blocks": {
@@ -364,17 +375,6 @@
         "padding_top": 45,
         "padding_bottom": 45
       }
-    },
-    "5c24a79d-90ff-4c6c-af19-0b0e08247086": {
-      "type": "rosa-double-link",
-      "settings": {
-        "link1_text": "CONTACTEZ-NOUS",
-        "link1_url": "shopify:\/\/pages\/contact",
-        "link2_text": "",
-        "link2_url": "\/",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
     }
   },
   "order": [
@@ -389,10 +389,10 @@
     "b2d8975f-fc61-462b-a960-6d219334d501",
     "f3072a74-e844-4c08-8050-2403211042ce",
     "1de8951e-cc53-47fa-9964-506c7bc6d3a6",
+    "5c24a79d-90ff-4c6c-af19-0b0e08247086",
     "fa2ca636-a51a-4983-8c38-a10ba431017b",
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb",
     "765f2c93-3054-44d3-b881-24dffee4392e",
-    "2c729952-939d-43ff-9b51-18cd9b10cd88",
-    "5c24a79d-90ff-4c6c-af19-0b0e08247086"
+    "2c729952-939d-43ff-9b51-18cd9b10cd88"
   ]
 }
