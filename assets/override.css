@@ -11,7 +11,9 @@ font: 500 16px/20px Montserrat !important;
 font: 500 16px/20px Montserrat !important;
 }
 
-
+.rosa-blogs-header-subtitle
+font: 500 16px/20px Montserrat !important;
+}
 
 @media screen and (max-width: 480px) {
 .collecton-list-item-title {
