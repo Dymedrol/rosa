@@ -245,6 +245,7 @@
     },
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb": {
       "type": "rosa-header2",
+      "disabled": true,
       "settings": {
         "text1": "SUR-TITRE ICI",
         "text2": "LE TITRE DE LA VIDÉO SUIVANTE",
@@ -254,6 +255,7 @@
     },
     "765f2c93-3054-44d3-b881-24dffee4392e": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
