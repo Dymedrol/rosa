@@ -80,6 +80,13 @@
             "text": "<p>LE TOURBILLON UNIQUE CRÉE PAR VOUS<\/p>"
           }
         },
+        "15a60f6d-ee7c-445d-b726-091a97db6cb6": {
+          "type": "heading",
+          "settings": {
+            "heading1": "",
+            "heading2": "personnalisez votre tourbillon"
+          }
+        },
         "74c5c396-970a-49ec-bded-b64b65ee69cc": {
           "type": "text",
           "settings": {
@@ -92,20 +99,13 @@
             "link_text": "CONTACTEZ NOUS",
             "link_url": "shopify:\/\/pages\/contact"
           }
-        },
-        "15a60f6d-ee7c-445d-b726-091a97db6cb6": {
-          "type": "heading",
-          "settings": {
-            "heading1": "Image with text",
-            "heading2": "personnalisez votre tourbillon"
-          }
         }
       },
       "block_order": [
         "5f9db6ef-10ed-4282-b96c-94f61448d409",
+        "15a60f6d-ee7c-445d-b726-091a97db6cb6",
         "74c5c396-970a-49ec-bded-b64b65ee69cc",
-        "d3e809b3-cdcf-4c0b-9e77-cc1af15afea7",
-        "15a60f6d-ee7c-445d-b726-091a97db6cb6"
+        "d3e809b3-cdcf-4c0b-9e77-cc1af15afea7"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_1978_9aab953f-8fbd-4ba9-b5c7-bd11859ca0d1.jpg",
