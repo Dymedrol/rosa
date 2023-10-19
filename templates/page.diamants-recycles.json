@@ -182,15 +182,6 @@
         "padding_bottom": 0
       }
     },
-    "f3072a74-e844-4c08-8050-2403211042ce": {
-      "type": "rosa-quote4",
-      "settings": {
-        "text1": "“Les diamants  recyclés Rosa Maïtea respectent la nature et l’humanité” ",
-        "text2": "",
-        "padding_top": 90,
-        "padding_bottom": 0
-      }
-    },
     "1de8951e-cc53-47fa-9964-506c7bc6d3a6": {
       "type": "rosa-faq",
       "blocks": {
@@ -224,6 +215,50 @@
       "disabled": true,
       "settings": {
         "title": "title",
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "4eb8a992-14cd-4b7c-acc7-dbfc7caebc46": {
+      "type": "double",
+      "blocks": {
+        "0c8e9f80-4a02-454c-accc-b119eecf8415": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Les (terribles) mines de diamants<\/strong><\/p>"
+          }
+        },
+        "3bce2705-c98a-4e62-9781-ae22e494d10b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Les mines de diamants engendrent un lourd impact environnemental, marqué par des émissions élevées de carbone, une consommation importante d'eau et d'énergie, la production de déchets, la déforestation, et la création des plus grands cratères terrestres. Par ailleurs, des accidents fréquents surviennent dans ces mines.<\/p>"
+          }
+        },
+        "6145e7f0-5f3f-4baa-b896-e88b20584d0d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Malgré les efforts du secteur diamantaire, les \"diamants de sang\" qui financent des conflits armés perdurent et alimentent les économies clandestines. Rosa Maïtea rejette toute implication dans la perpétuation de ces conflits et dans la détérioration de l'environnement.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0c8e9f80-4a02-454c-accc-b119eecf8415",
+        "3bce2705-c98a-4e62-9781-ae22e494d10b",
+        "6145e7f0-5f3f-4baa-b896-e88b20584d0d"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mine_Mirny_f6ef8efa-1d47-48df-b006-68a16462e3bb.jpg",
+        "is_reverse": true,
+        "is_centred": false,
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "f67034fd-6ecb-4c22-86d3-23ba8412619a": {
+      "type": "rosa-quote4",
+      "settings": {
+        "text1": "“Les diamants  recyclés Rosa Maïtea respectent la nature et l’humanité” ",
+        "text2": "",
         "padding_top": 90,
         "padding_bottom": 0
       }
@@ -272,41 +307,6 @@
       "settings": {
         "padding_top": 120,
         "padding_bottom": 55
-      }
-    },
-    "4eb8a992-14cd-4b7c-acc7-dbfc7caebc46": {
-      "type": "double",
-      "blocks": {
-        "0c8e9f80-4a02-454c-accc-b119eecf8415": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Les (terribles) mines de diamants<\/strong><\/p>"
-          }
-        },
-        "3bce2705-c98a-4e62-9781-ae22e494d10b": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Les mines de diamants engendrent un lourd impact environnemental, marqué par des émissions élevées de carbone, une consommation importante d'eau et d'énergie, la production de déchets, la déforestation, et la création des plus grands cratères terrestres. Par ailleurs, des accidents fréquents surviennent dans ces mines.<\/p>"
-          }
-        },
-        "6145e7f0-5f3f-4baa-b896-e88b20584d0d": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Malgré les efforts du secteur diamantaire, les \"diamants de sang\" qui financent des conflits armés perdurent et alimentent les économies clandestines. Rosa Maïtea rejette toute implication dans la perpétuation de ces conflits et dans la détérioration de l'environnement.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "0c8e9f80-4a02-454c-accc-b119eecf8415",
-        "3bce2705-c98a-4e62-9781-ae22e494d10b",
-        "6145e7f0-5f3f-4baa-b896-e88b20584d0d"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Mine_Mirny_f6ef8efa-1d47-48df-b006-68a16462e3bb.jpg",
-        "is_reverse": true,
-        "is_centred": false,
-        "padding_top": 45,
-        "padding_bottom": 45
       }
     },
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb": {
@@ -367,10 +367,10 @@
     "9051c441-1b8f-4b41-9a56-55ab590e8bf6",
     "e1e83658-2247-4270-8560-9db954de0408",
     "b2d8975f-fc61-462b-a960-6d219334d501",
-    "f3072a74-e844-4c08-8050-2403211042ce",
     "1de8951e-cc53-47fa-9964-506c7bc6d3a6",
-    "fa2ca636-a51a-4983-8c38-a10ba431017b",
     "4eb8a992-14cd-4b7c-acc7-dbfc7caebc46",
+    "f67034fd-6ecb-4c22-86d3-23ba8412619a",
+    "fa2ca636-a51a-4983-8c38-a10ba431017b",
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb",
     "765f2c93-3054-44d3-b881-24dffee4392e",
     "2c729952-939d-43ff-9b51-18cd9b10cd88"
