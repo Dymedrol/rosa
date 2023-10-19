@@ -54,13 +54,13 @@
         "0620a0d2-7a07-4416-a19a-63efa991f170": {
           "type": "text",
           "settings": {
-            "text": "<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »<\/p>"
+            "text": "<p>Prenez RDV <span style=\"text-decoration:underline\">ici<\/span> <em>(lien actif)<\/em> dans notre show-room parisien ou en visio pour nous présenter votre projet et réveiller vos anciens bijoux, ces petites bombes d’amour endormies à qui Patricia, la créatrice de Rosa Maïtea donnera une nouvelle vie.<\/p>"
           }
         },
         "076c0977-c63c-4883-b8f1-65288eed9274": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
+            "text": "<p>Nous vous confirmerons l’adresse et l’heure précise de votre RDV par retour de mail.<\/p>"
           }
         }
       },
@@ -83,19 +83,19 @@
         "96145a24-493b-4838-b53d-7b8ea11a653f": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR<\/strong><\/p>"
+            "text": "<p><strong>2.  Parlez nous de vos envies, nous étudions votre projet  <\/strong><\/p>"
           }
         },
         "b00f3928-c9b1-4f1a-b329-c54af0462ddf": {
           "type": "text",
           "settings": {
-            "text": "<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »<\/p>"
+            "text": "<p>Lors de votre rencontre, Patricia va étudier avec soin l’état et les possibilités offertes par les gemmes qui composent votre bijou. N’hésitez pas à partager son histoire et à lui parler de sa valeur émotionnelle. Vous pouvez choisir de garder uniquement les éléments existants ou bien de rajouter des pierres fines traçables ou des diamants recyclés garantis par Rosa Maïtea. <\/p>"
           }
         },
         "b6165588-dfb1-475e-bfed-740c466eb0a8": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
+            "text": "<p>Patricia imaginera le plus beau des designs pour le réinventer. Votre bijou sera réalisé sur-mesure, uniquement pour vous.<\/p>"
           }
         }
       },
