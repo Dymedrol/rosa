@@ -3,10 +3,26 @@
 }
 
 }
-.rosa-blogs-header-subtitle, .rosa-header2-subtitle, .rosa-blogs-header-subtitle, .rosa-collection-slider2-info-text1 {
+.rosa-blogs-header-subtitle {
 font: 500 16px/20px Montserrat !important;
 padding-bottom: 10px !important;
 }
+
+.rosa-header2-subtitle {
+font: 500 16px/20px Montserrat !important;
+padding-bottom: 10px !important;
+}
+
+.rosa-blogs-header-subtitle {
+font: 500 16px/20px Montserrat !important;
+padding-bottom: 10px !important;
+}
+
+.rosa-collection-slider2-info-text1 {
+font: 500 16px/20px Montserrat !important;
+padding-bottom: 10px !important
+}
+
 
 
 @media screen and (max-width: 480px) {
