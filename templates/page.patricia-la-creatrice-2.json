@@ -68,13 +68,21 @@
           "settings": {
             "text": "<p>J'ai fini par m'installer dans la ville Lumière où je me suis spécialisée dans le marketing du luxe au sein de grandes maisons. C'est là, en tant que Directrice de l'offre et de l'image d'une maison de joaillerie française, que j'ai découvert un univers fascinant..<\/p>"
           }
+        },
+        "b2a676fa-7f61-4b99-969f-a1b123eb62e1": {
+          "type": "heading",
+          "settings": {
+            "heading1": "JE SUIS PATRICIA, Créatrice de Rosa Maïtea",
+            "heading2": ""
+          }
         }
       },
       "block_order": [
         "0620a0d2-7a07-4416-a19a-63efa991f170",
         "076c0977-c63c-4883-b8f1-65288eed9274",
         "6881aa89-689f-415c-b291-37ac01685328",
-        "6ed8f56b-c8b0-4673-b8e4-6ca5c3aa7ff5"
+        "6ed8f56b-c8b0-4673-b8e4-6ca5c3aa7ff5",
+        "b2a676fa-7f61-4b99-969f-a1b123eb62e1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-115_fb268bbd-39e0-4e71-af2f-14269f33c8ac.jpg",
