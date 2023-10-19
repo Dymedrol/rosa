@@ -97,12 +97,19 @@
           "settings": {
             "text": "<p>Patricia imaginera le plus beau des designs pour le réinventer. Votre bijou sera réalisé sur-mesure, uniquement pour vous.<\/p>"
           }
+        },
+        "8a556c91-80f4-4807-8897-8eb7dc6d9817": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Des devis assortis de différentes propositions créatives sous forme de croquis, vous seront envoyés par mail dans les jours suivant votre RDV.<\/p>"
+          }
         }
       },
       "block_order": [
         "96145a24-493b-4838-b53d-7b8ea11a653f",
         "b00f3928-c9b1-4f1a-b329-c54af0462ddf",
-        "b6165588-dfb1-475e-bfed-740c466eb0a8"
+        "b6165588-dfb1-475e-bfed-740c466eb0a8",
+        "8a556c91-80f4-4807-8897-8eb7dc6d9817"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
