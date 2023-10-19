@@ -190,22 +190,13 @@
         "padding_bottom": 0
       }
     },
-    "f3072a74-e844-4c08-8050-2403211042ce": {
-      "type": "rosa-quote4",
-      "settings": {
-        "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
-        "text2": "",
-        "padding_top": 90,
-        "padding_bottom": 0
-      }
-    },
     "b2d8975f-fc61-462b-a960-6d219334d501": {
       "type": "double",
       "blocks": {
         "044de56b-3510-4522-a41e-36063756c9d4": {
           "type": "text",
           "settings": {
-            "text": ""
+            "text": "<p><strong>5. REDÉCOUVREZ VOTRE BIJOU : NOUVEAU LOOK, ÉMOTION INTACTE<\/strong><\/p>"
           }
         },
         "406eb290-02dc-40ef-8b1c-5d801d393bb8": {
@@ -231,6 +222,15 @@
         "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
         "is_reverse": false,
         "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "f3072a74-e844-4c08-8050-2403211042ce": {
+      "type": "rosa-quote4",
+      "settings": {
+        "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
+        "text2": "",
         "padding_top": 90,
         "padding_bottom": 0
       }
@@ -373,8 +373,8 @@
     "952089c7-230c-48a5-b568-b6914c981883",
     "2e7689c0-e154-460c-9768-bb456202294d",
     "340cfd99-15f9-4396-a713-e8d4dfe6caf7",
-    "f3072a74-e844-4c08-8050-2403211042ce",
     "b2d8975f-fc61-462b-a960-6d219334d501",
+    "f3072a74-e844-4c08-8050-2403211042ce",
     "1de8951e-cc53-47fa-9964-506c7bc6d3a6",
     "fa2ca636-a51a-4983-8c38-a10ba431017b",
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb",
