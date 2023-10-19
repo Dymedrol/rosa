@@ -328,12 +328,26 @@
         "0c8e9f80-4a02-454c-accc-b119eecf8415": {
           "type": "text",
           "settings": {
-            "text": "<p>Les (terribles) mines de diamants<\/p>"
+            "text": "<p><strong>Les (terribles) mines de diamants<\/strong><\/p>"
+          }
+        },
+        "3bce2705-c98a-4e62-9781-ae22e494d10b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Les mines de diamants engendrent un lourd impact environnemental, marqué par des émissions élevées de carbone, une consommation importante d'eau et d'énergie, la production de déchets, la déforestation, et la création des plus grands cratères terrestres. Par ailleurs, des accidents fréquents surviennent dans ces mines.<\/p>"
+          }
+        },
+        "6145e7f0-5f3f-4baa-b896-e88b20584d0d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>text<\/p>"
           }
         }
       },
       "block_order": [
-        "0c8e9f80-4a02-454c-accc-b119eecf8415"
+        "0c8e9f80-4a02-454c-accc-b119eecf8415",
+        "3bce2705-c98a-4e62-9781-ae22e494d10b",
+        "6145e7f0-5f3f-4baa-b896-e88b20584d0d"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Mine_Mirny_f6ef8efa-1d47-48df-b006-68a16462e3bb.jpg",
