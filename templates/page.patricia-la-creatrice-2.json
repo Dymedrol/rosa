@@ -166,6 +166,7 @@
         "cc111573-5ae2-4010-b337-98c611cc7cde",
         "b4c383fc-a920-4d4d-8954-f6a94b38ea2a"
       ],
+      "disabled": true,
       "settings": {
         "title": "title",
         "padding_top": 90,
@@ -213,6 +214,7 @@
         "83edf634-a541-48ca-b04d-8ee9e2230a31",
         "aebe5553-6e0a-434b-beda-1b96977d9375"
       ],
+      "disabled": true,
       "settings": {
         "padding_top": 120,
         "padding_bottom": 55
