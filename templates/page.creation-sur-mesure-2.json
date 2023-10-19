@@ -167,11 +167,12 @@
         "9cd9bae2-516f-452e-9f3a-c6fc18596f53": {
           "type": "text",
           "settings": {
-            "text": "<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »<\/p>"
+            "text": "<p>Pour une pièce unique Rosa Maïtea, comptez environ 6 semaines de fabrication une fois la conception 3D choisie. Une fois la pièce terminée et vérifiée par les soins de Patricia, nous vous contacterons, pour vous la présenter. <\/p>"
           }
         },
         "01828e1a-d84e-47c9-a6f4-a51f8b0b816b": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
           }
@@ -202,14 +203,14 @@
         "406eb290-02dc-40ef-8b1c-5d801d393bb8": {
           "type": "text",
           "settings": {
-            "text": "<p>Pour une pièce unique Rosa Maïtea, comptez environ 6 semaines de fabrication une fois la conception 3D choisie. Une fois la pièce terminée et vérifiée par les soins de Patricia, nous vous contacterons, pour vous la présenter. <\/p>"
+            "text": "<p>Selon vos préférences, vous serez bienvenus au show-room pour découvrir votre bijou, mais nous pouvons également vous le faire parvenir à votre adresse par envoi assuré et sécurisé, sous 48h, et remis contre signature. <\/p>"
           }
         },
         "f81faf11-05b4-40ac-80b1-5a2b64fa5b44": {
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
+            "text": "<p>Votre bijou vous sera remis dans un bel écrin recyclé accompagné d’un certificat d’authenticité Rosa Maïtea.<\/p>"
           }
         }
       },
