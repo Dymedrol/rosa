@@ -60,7 +60,7 @@
         "076c0977-c63c-4883-b8f1-65288eed9274": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
+            "text": ""
           }
         }
       },
@@ -83,19 +83,19 @@
         "89a7b0af-fad4-4f36-98a0-9470b2c06eb9": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR<\/strong><\/p>"
+            "text": "<p><strong>Le “déssertissage”: un geste de précision<\/strong><\/p>"
           }
         },
         "16cd9a22-e03c-4f0a-84d5-13230cb5b6b1": {
           "type": "text",
           "settings": {
-            "text": "<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »<\/p>"
+            "text": "<p>Lorsque ces bijoux nous parviennent, nous préservons soigneusement leur or et leurs diamants. Nous récupérons soigneusement les diamants en les déssertissant avec soin.  L'éclat et la pureté des diamants restent inaltérés, car ils sont constitués de carbone, la matière naturelle la plus robuste au monde.<\/p>"
           }
         },
         "100ed3e3-f46e-4783-bd57-d8506b230b8f": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
+            "text": ""
           }
         }
       },
@@ -106,7 +106,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
-        "is_reverse": true,
+        "is_reverse": false,
         "is_centred": true,
         "padding_top": 90,
         "padding_bottom": 0
@@ -118,19 +118,19 @@
         "b7d06372-215d-4e51-be34-e806a85e35a8": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR<\/strong><\/p>"
+            "text": "<p><strong>L'avènement d'un nouveau savoir-faire<\/strong><\/p>"
           }
         },
         "90a50d63-5e85-48d8-b814-342c5ce0734c": {
           "type": "text",
           "settings": {
-            "text": "<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »<\/p>"
+            "text": "<p>La mise en place d’une filière innovante dédiée à la récupération des diamants, permet de répertorier distinctement des gemmes recyclées de celles extraites des mines. Naturellement, nos réserves de diamants recyclés ne sont pas infinies, ce qui donne à nos bijoux leur rareté et leur unicité.<\/p>"
           }
         },
         "7dd0c19f-fd37-47f1-8ad0-fdc3769ea6cd": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
+            "text": ""
           }
         }
       },
@@ -147,34 +147,25 @@
         "padding_bottom": 0
       }
     },
-    "f3072a74-e844-4c08-8050-2403211042ce": {
-      "type": "rosa-quote4",
-      "settings": {
-        "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
-        "text2": "",
-        "padding_top": 90,
-        "padding_bottom": 0
-      }
-    },
     "b2d8975f-fc61-462b-a960-6d219334d501": {
       "type": "double",
       "blocks": {
         "044de56b-3510-4522-a41e-36063756c9d4": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR<\/strong><\/p>"
+            "text": "<p><strong>L'Upcycling des diamants : Une renaissance étincelante, un luxe éthique<\/strong><\/p>"
           }
         },
         "406eb290-02dc-40ef-8b1c-5d801d393bb8": {
           "type": "text",
           "settings": {
-            "text": "<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »<\/p>"
+            "text": "<p>Les créations de Rosa Maïtea prennent vie en sélectionnant avec génie les tailles et les formes de diamants les plus inspirantes. Chacun de ces joyaux est soigneusement serti à nouveau, offrant à ces diamants une seconde chance de briller et de réchauffer les cœurs.<\/p>"
           }
         },
         "f81faf11-05b4-40ac-80b1-5a2b64fa5b44": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
+            "text": ""
           }
         }
       },
@@ -187,6 +178,15 @@
         "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
         "is_reverse": false,
         "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "f3072a74-e844-4c08-8050-2403211042ce": {
+      "type": "rosa-quote4",
+      "settings": {
+        "text1": "“Les diamants  recyclés Rosa Maïtea respectent la nature et l’humanité” ",
+        "text2": "",
         "padding_top": 90,
         "padding_bottom": 0
       }
@@ -330,8 +330,8 @@
     "a9539caf-edb1-471f-9d6c-97b6a2b08a04",
     "9051c441-1b8f-4b41-9a56-55ab590e8bf6",
     "e1e83658-2247-4270-8560-9db954de0408",
-    "f3072a74-e844-4c08-8050-2403211042ce",
     "b2d8975f-fc61-462b-a960-6d219334d501",
+    "f3072a74-e844-4c08-8050-2403211042ce",
     "1de8951e-cc53-47fa-9964-506c7bc6d3a6",
     "fa2ca636-a51a-4983-8c38-a10ba431017b",
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb",

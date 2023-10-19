@@ -18,24 +18,24 @@
     "d8037b2c-93f5-4ed8-8ab3-69c24ce46c15": {
       "type": "image-banner",
       "settings": {
-        "tag": "h1",
+        "tag": "h2",
         "is_full_screen": false,
         "alignment": "center",
-        "text_color": "#ffffff",
-        "image_banner_title_text": "<p>LA JOAILLERIE ÉTHIQUE ET VISIONNAIRE <\/p>",
+        "text_color": "#fff",
+        "image_banner_title_text": "<h1>LES PIERRES FINES ENTIÈREMENT TRAÇABLES<\/h1>",
         "is_title_big": false,
-        "image_banner_subtitle_text": "TITRE DE L’ACTUALITÉ",
+        "image_banner_subtitle_text": "De la mine à l’écrin",
         "is_text_big": false,
         "image_banner_link_text": "",
         "image_banner_link_url": "",
-        "banner_image": "shopify:\/\/shop_images\/Groupe-175_2x_307a0587-5430-47b0-953b-c3ea649bc258.jpg"
+        "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-111.jpg"
       }
     },
     "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5": {
       "type": "rosa-quote",
       "settings": {
-        "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
-        "text2": "",
+        "text1": "Dès lors, afin d’honorer son engagement pour une joaillerie durable et respectueuse de l'environnement,  Rosa Maïtea a exploré la piste de la traçabilité. A force de recherches et de persévérance, nous avons identifié une filière offrant toutes les garanties de traçabilité des pierres, de la mine au bijou : nom de la mine, pays d'origine, ateliers de taille et de création.",
+        "text2": "LES PIERRES FINES ROSA MAÏTEA ENTIÈREMENT TRAÇABLES SONT: LES SPINELLES ET GRENATS DE TANZANIE, LA TOURMALINE DE NAMIBIE.",
         "link_text": "",
         "link_url": "",
         "padding_top": 90,
@@ -48,19 +48,19 @@
         "12885c87-59cb-4326-9fcc-17f286f4f6e3": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR<\/strong><\/p>"
+            "text": "<p><strong>LES SPINELLES<\/strong><\/p>"
           }
         },
         "0620a0d2-7a07-4416-a19a-63efa991f170": {
           "type": "text",
           "settings": {
-            "text": "<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »<\/p>"
+            "text": "<p>Provenant de mines en Tanzanie et au Mozambique, le spinelle aurait une double étymologie à la fois grec : “étincelle”et latine: “spina”, qui signifie “épine”. C'est un oxyde d’aluminium et de magnésium coloré par la présence de fer, de chrome, de cobalt ou de vanadium. On le trouve en blanc, jaune safran, bleu ciel, marine, indigo, rouge, rouge cramoisi, orange et noir. La symbolique du spinelle est associée au courage et à la puissance.<\/p>"
           }
         },
         "076c0977-c63c-4883-b8f1-65288eed9274": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
+            "text": ""
           }
         }
       },
@@ -80,7 +80,7 @@
     "f3072a74-e844-4c08-8050-2403211042ce": {
       "type": "rosa-quote4",
       "settings": {
-        "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
+        "text1": "Si l’or et les diamants se recyclent, pourquoi ne recycle-t-on pas les pierres fines ? Tout simplement pas elles sont très fragiles et ne peuvent être désserties avec les outils adéquats sans se briser. Ainsi, maintenant que nous connaissons les mines d’origine, nous mettons en place des partenariats avec des acteurs locaux et apportons notre contribution à l’amélioration des conditions de vie des mineurs.",
         "text2": "",
         "padding_top": 90,
         "padding_bottom": 0
@@ -92,19 +92,19 @@
         "044de56b-3510-4522-a41e-36063756c9d4": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR<\/strong><\/p>"
+            "text": "<p><strong>LES GRENATS DE TOUTES LES COULEURS<\/strong><\/p>"
           }
         },
         "406eb290-02dc-40ef-8b1c-5d801d393bb8": {
           "type": "text",
           "settings": {
-            "text": "<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »<\/p>"
+            "text": "<p>Ils proviennent également de Tanzanie et du Mozambique selon la couleur. Le terme “Grenat” est issu du latin « malum granatum » signifiant « pomme à grains, grenade » pour sa couleur et du latin « granum » signifiant « grain » pour sa forme. Le grenat détient de nombreuses propriétés, apportant ainsi joie de vivre, énergie, courage et confiance en soi. On lui associe la puissance de la volonté et le succès. <\/p>"
           }
         },
         "f81faf11-05b4-40ac-80b1-5a2b64fa5b44": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
+            "text": "<p>Le grenat existe dans une farandole de couleurs à travers ses différentes incarnations: les spessartites allant du bleu profond au gris léger, les rhodolites du rouge presque pourpre au rose bébé et les tsavorites aux verts profonds et changeants. <\/p>"
           }
         }
       },
@@ -119,6 +119,42 @@
         "is_centred": true,
         "padding_top": 90,
         "padding_bottom": 0
+      }
+    },
+    "59869e95-45a6-4636-95a7-c48ce0d6d913": {
+      "type": "double",
+      "blocks": {
+        "3625c8dd-e07a-468e-a752-639e03b96c93": {
+          "type": "heading",
+          "settings": {
+            "heading1": "ORIGINAIRE DE NAMIBIE",
+            "heading2": "LES TOURMALINES"
+          }
+        },
+        "7f606635-29fc-452c-aafd-8547ad7b68b6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HELLO <\/p>"
+          }
+        },
+        "b762b44a-3b00-4637-8411-b950e8d51860": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La tourmaline possède une étymologie intrigante, mêlant le grec \"tourmalos\" signifiant \"pierre attirante\" et le cinghalais \"turamali\" qui évoque les \"pierres aux couleurs mélangées\". Rosa Maïtea la choisit dans ses envoûtantes versions vert émeraude et rose délicat. On prête à la tourmaline, pierre aux mille facettes, des pouvoirs d'harmonisation et de protection, ainsi qu'une capacité à apporter un équilibre émotionnel.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "3625c8dd-e07a-468e-a752-639e03b96c93",
+        "7f606635-29fc-452c-aafd-8547ad7b68b6",
+        "b762b44a-3b00-4637-8411-b950e8d51860"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_7426.jpg",
+        "is_reverse": true,
+        "is_centred": false,
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "1de8951e-cc53-47fa-9964-506c7bc6d3a6": {
@@ -151,6 +187,7 @@
         "cc111573-5ae2-4010-b337-98c611cc7cde",
         "b4c383fc-a920-4d4d-8954-f6a94b38ea2a"
       ],
+      "disabled": true,
       "settings": {
         "title": "title",
         "padding_top": 90,
@@ -258,6 +295,7 @@
     "a9539caf-edb1-471f-9d6c-97b6a2b08a04",
     "f3072a74-e844-4c08-8050-2403211042ce",
     "b2d8975f-fc61-462b-a960-6d219334d501",
+    "59869e95-45a6-4636-95a7-c48ce0d6d913",
     "1de8951e-cc53-47fa-9964-506c7bc6d3a6",
     "fa2ca636-a51a-4983-8c38-a10ba431017b",
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb",
