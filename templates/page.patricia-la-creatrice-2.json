@@ -17,6 +17,7 @@
     },
     "d8037b2c-93f5-4ed8-8ab3-69c24ce46c15": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "tag": "h1",
         "is_full_screen": false,
@@ -33,6 +34,7 @@
     },
     "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5": {
       "type": "rosa-quote",
+      "disabled": true,
       "settings": {
         "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
         "text2": "",
@@ -70,7 +72,7 @@
         "076c0977-c63c-4883-b8f1-65288eed9274"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
+        "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-115_fb268bbd-39e0-4e71-af2f-14269f33c8ac.jpg",
         "is_reverse": true,
         "is_centred": true,
         "padding_top": 90,
