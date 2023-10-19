@@ -28,8 +28,7 @@
         "is_text_big": false,
         "image_banner_link_text": "",
         "image_banner_link_url": "",
-        "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-111.jpg",
-        "banner_image_mobile": "shopify:\/\/shop_images\/Webp.net-resizeimage-108.jpg"
+        "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-111.jpg"
       }
     },
     "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5": {
@@ -75,7 +74,7 @@
         "image": "shopify:\/\/shop_images\/spinelle-brute_jpg.webp",
         "is_reverse": true,
         "is_centred": true,
-        "padding_top": 90,
+        "padding_top": 35,
         "padding_bottom": 0
       }
     },
