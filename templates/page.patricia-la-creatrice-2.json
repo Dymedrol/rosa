@@ -45,16 +45,23 @@
     "a9539caf-edb1-471f-9d6c-97b6a2b08a04": {
       "type": "double",
       "blocks": {
+        "b2a676fa-7f61-4b99-969f-a1b123eb62e1": {
+          "type": "heading",
+          "settings": {
+            "heading1": "JE SUIS PATRICIA, Créatrice de Rosa Maïtea",
+            "heading2": ""
+          }
+        },
         "0620a0d2-7a07-4416-a19a-63efa991f170": {
           "type": "text",
           "settings": {
-            "text": "<p>Je suis Patricia, créatrice de Rosa Maitea. <\/p><p>Je suis née à Bilbao, au Pays basque espagnol, magnifique territoire marqué par la beauté sauvage de l'océan Atlantique et imprégné d’une culture ancestrale. J’ai 12 ans lorsque mes parents s’installent au Mexique à Guadalajara sur les bords du lac Chapala. Et là-bas… Je découvre émerveillée la vivacité des couleurs, les fleurs omniprésentes, une gaieté et un foisonnement culturel si riche qu’il m’inspire encore aujourd’hui. <\/p>"
+            "text": "<p>Je suis née à Bilbao, au Pays basque espagnol, magnifique territoire marqué par la beauté sauvage de l'océan Atlantique et imprégné d’une culture ancestrale. J’ai 12 ans lorsque mes parents s’installent au Mexique à Guadalajara sur les bords du lac Chapala. Et là-bas… Je découvre émerveillée la vivacité des couleurs, les fleurs omniprésentes, une gaieté et un foisonnement culturel si riche qu’il m’inspire encore aujourd’hui. <\/p>"
           }
         },
         "076c0977-c63c-4883-b8f1-65288eed9274": {
           "type": "text",
           "settings": {
-            "text": "<p>Cette expérience a façonné ma personnalité et éveillé en moi la passion des voyages et de la découverte.<\/p><p>Au fil des années, j'ai continué à explorer le monde, à la rencontre de civilisations incroyables : de l'Inde à l’Italie, de Malte au Pérou, en passant par le Vietnam. Je garde en mémoire de précieux souvenirs de chacune de ces destinations, de leurs trésors esthétiques, de leur artisanat et des formidables moments d’humanité qu’elles ont pu m’offrir. <\/p>"
+            "text": "<p>Au fil des années, j'ai continué à explorer le monde, à la rencontre de civilisations incroyables : de l'Inde à l’Italie, de Malte au Pérou, en passant par le Vietnam. Je garde en mémoire de précieux souvenirs de chacune de ces destinations, de leurs trésors esthétiques, de leur artisanat et des formidables moments d’humanité qu’elles ont pu m’offrir. <\/p>"
           }
         },
         "6881aa89-689f-415c-b291-37ac01685328": {
@@ -68,21 +75,14 @@
           "settings": {
             "text": "<p>J'ai fini par m'installer dans la ville Lumière où je me suis spécialisée dans le marketing du luxe au sein de grandes maisons. C'est là, en tant que Directrice de l'offre et de l'image d'une maison de joaillerie française, que j'ai découvert un univers fascinant..<\/p>"
           }
-        },
-        "b2a676fa-7f61-4b99-969f-a1b123eb62e1": {
-          "type": "heading",
-          "settings": {
-            "heading1": "JE SUIS PATRICIA, Créatrice de Rosa Maïtea",
-            "heading2": ""
-          }
         }
       },
       "block_order": [
+        "b2a676fa-7f61-4b99-969f-a1b123eb62e1",
         "0620a0d2-7a07-4416-a19a-63efa991f170",
         "076c0977-c63c-4883-b8f1-65288eed9274",
         "6881aa89-689f-415c-b291-37ac01685328",
-        "6ed8f56b-c8b0-4673-b8e4-6ca5c3aa7ff5",
-        "b2a676fa-7f61-4b99-969f-a1b123eb62e1"
+        "6ed8f56b-c8b0-4673-b8e4-6ca5c3aa7ff5"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-115_fb268bbd-39e0-4e71-af2f-14269f33c8ac.jpg",
