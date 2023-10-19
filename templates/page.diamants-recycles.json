@@ -321,6 +321,16 @@
         "padding_top": 45,
         "padding_bottom": 45
       }
+    },
+    "4eb8a992-14cd-4b7c-acc7-dbfc7caebc46": {
+      "type": "double",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mine_Mirny_f6ef8efa-1d47-48df-b006-68a16462e3bb.jpg",
+        "is_reverse": true,
+        "is_centred": false,
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
     }
   },
   "order": [
@@ -337,6 +347,7 @@
     "fa2ca636-a51a-4983-8c38-a10ba431017b",
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb",
     "765f2c93-3054-44d3-b881-24dffee4392e",
-    "2c729952-939d-43ff-9b51-18cd9b10cd88"
+    "2c729952-939d-43ff-9b51-18cd9b10cd88",
+    "4eb8a992-14cd-4b7c-acc7-dbfc7caebc46"
   ]
 }
