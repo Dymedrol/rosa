@@ -1,3 +1,8 @@
 .rosa-blogs-page-title {
   display:none!important;
 }
+@media screen and (max-width: 480px) {
+.collecton-list-item-title {
+font: 14px/14px Montserrat !important;
+}  
+}
