@@ -46,10 +46,11 @@
     "a9539caf-edb1-471f-9d6c-97b6a2b08a04": {
       "type": "double",
       "blocks": {
-        "12885c87-59cb-4326-9fcc-17f286f4f6e3": {
-          "type": "text",
+        "b40c25a6-4c33-4b98-bf0e-d20db3d9dcdb": {
+          "type": "heading",
           "settings": {
-            "text": "<p><strong>LES SPINELLES<\/strong><\/p>"
+            "heading1": "DE TANZANIE",
+            "heading2": "LES SPINELLES PRECIEUSES"
           }
         },
         "0620a0d2-7a07-4416-a19a-63efa991f170": {
@@ -63,20 +64,12 @@
           "settings": {
             "text": ""
           }
-        },
-        "b40c25a6-4c33-4b98-bf0e-d20db3d9dcdb": {
-          "type": "heading",
-          "settings": {
-            "heading1": "DE TANZANIE",
-            "heading2": "LES SPINELLES PRECIEUSES"
-          }
         }
       },
       "block_order": [
-        "12885c87-59cb-4326-9fcc-17f286f4f6e3",
+        "b40c25a6-4c33-4b98-bf0e-d20db3d9dcdb",
         "0620a0d2-7a07-4416-a19a-63efa991f170",
-        "076c0977-c63c-4883-b8f1-65288eed9274",
-        "b40c25a6-4c33-4b98-bf0e-d20db3d9dcdb"
+        "076c0977-c63c-4883-b8f1-65288eed9274"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/spinelle-brute_jpg.webp",
@@ -137,7 +130,7 @@
         "3625c8dd-e07a-468e-a752-639e03b96c93": {
           "type": "heading",
           "settings": {
-            "heading1": "ORIGINAIRE DE NAMIBIE",
+            "heading1": "ORIGINAIRES DE NAMIBIE",
             "heading2": "LES TOURMALINES"
           }
         },
