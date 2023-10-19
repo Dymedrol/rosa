@@ -317,7 +317,8 @@
         ".rosa-backgrounded-link {margin-bottom: 15px !important;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/2-4.jpg"
+        "image": "shopify:\/\/shop_images\/2-4.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Rosa_Maitea.jpg"
       }
     },
     "9603023c-6e27-4890-b9e6-e92093169f5b": {
