@@ -39,7 +39,7 @@
         "text1": "MISE À TAILLE OFFERTE",
         "text2": "",
         "padding_top": 0,
-        "padding_bottom": 35
+        "padding_bottom": 20
       }
     },
     "789667e1-b6a9-4c7e-a974-b3b8bf0ac6a3": {
@@ -138,7 +138,7 @@
         "6de1aad1-4bbd-4934-91d7-3df7b755e977": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.<\/p>"
+            "text": "<p>Nos collections Tourbillon, Arcoiris et La Favorite sont customisables et peuvent être composées avec les couleurs de pierres de votre choix. Prenez RDV <span style=\"text-decoration:underline\">ici<\/span> (lien actif) pour venir choisir les pierres aux couleurs de vos rêves. <\/p>"
           }
         },
         "b199ddc7-e318-418a-a3e3-7aa44eb125d5": {
@@ -217,6 +217,7 @@
     },
     "6b98f65d-98ab-42bd-acb7-d3288b2c0a03": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "tag": "div",
         "is_full_screen": false,
