@@ -49,7 +49,7 @@
         "12885c87-59cb-4326-9fcc-17f286f4f6e3": {
           "type": "text",
           "settings": {
-            "text": "<h4>CONSEILS POUR PROTEGER VOS BIJOUX <\/h4>"
+            "text": "<h4>Conseils pour protéger vos bijoux<\/h4>"
           }
         },
         "0620a0d2-7a07-4416-a19a-63efa991f170": {
@@ -63,12 +63,20 @@
           "settings": {
             "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
           }
+        },
+        "98b1360f-6789-4ab0-92bc-5ea09e2945b8": {
+          "type": "heading",
+          "settings": {
+            "heading1": "Image with text",
+            "heading2": "CONSEILS POUR PROTEGER VOS BIJOUX"
+          }
         }
       },
       "block_order": [
         "12885c87-59cb-4326-9fcc-17f286f4f6e3",
         "0620a0d2-7a07-4416-a19a-63efa991f170",
-        "076c0977-c63c-4883-b8f1-65288eed9274"
+        "076c0977-c63c-4883-b8f1-65288eed9274",
+        "98b1360f-6789-4ab0-92bc-5ea09e2945b8"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
