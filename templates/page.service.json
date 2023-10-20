@@ -254,7 +254,7 @@
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Icon_awesome-heart_2x_996b6797-3187-432c-8e3f-8042e0406921.png",
-            "text1": "RETOUR ET ECHANGES GRATUITS",
+            "text1": "RETOUR GRATUITS",
             "text2": "Dans un délai de 14 jours après réception du bijou"
           }
         },
@@ -262,7 +262,7 @@
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Trace_223_2x_ad984d2d-02db-40d4-a193-14d766f55a68.png",
-            "text1": "2 ANS DE GARANTIE POUR VOTRE BIJOU",
+            "text1": "2 ANS DE GARANTIE",
             "text2": "Pour vises de fabrication"
           }
         }
