@@ -45,10 +45,11 @@
     "a9539caf-edb1-471f-9d6c-97b6a2b08a04": {
       "type": "double",
       "blocks": {
-        "12885c87-59cb-4326-9fcc-17f286f4f6e3": {
-          "type": "text",
+        "c1f9f342-3a79-48a1-a6ab-f84c104f8a1e": {
+          "type": "heading",
           "settings": {
-            "text": "<p>Il était une fois….<strong>ROSA MAÏTEA<\/strong><\/p>"
+            "heading1": "Image with text",
+            "heading2": "IL ETAIT UNE FOIS.... ROSA MAÏTEA"
           }
         },
         "0620a0d2-7a07-4416-a19a-63efa991f170": {
@@ -71,7 +72,7 @@
         }
       },
       "block_order": [
-        "12885c87-59cb-4326-9fcc-17f286f4f6e3",
+        "c1f9f342-3a79-48a1-a6ab-f84c104f8a1e",
         "0620a0d2-7a07-4416-a19a-63efa991f170",
         "076c0977-c63c-4883-b8f1-65288eed9274",
         "f5edfb25-27c0-4da9-ae6a-6d9bb2bee897"
