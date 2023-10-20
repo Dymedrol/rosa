@@ -90,6 +90,7 @@
       "blocks": {
         "b6f0de73-71da-4153-add4-cffc8432ddee": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading1": "LA NAISSANCE DE LA MARQUE",
             "heading2": "IL ETAIT UNE FOIS.... ROSA MAÏTEA"
@@ -98,7 +99,7 @@
         "2bd50692-d22f-4f4a-9bdb-193e3666b0fa": {
           "type": "text",
           "settings": {
-            "text": "<p>Rosa comme le prénom de ma mère, car c’est au moment où naissait en moi l’idée de créer une marque de joaillerie durable qu’elle nous a quittés, en janvier 2020. Maïtea signifie « la bien aimée » en basque. Rosa Maïtea est donc nommée en  hommage à ma mère et à toutes les mères du monde. <\/p>"
+            "text": "<p><strong>Rosa<\/strong> comme le prénom de ma mère, car c’est au moment où naissait en moi l’idée de créer une marque de joaillerie durable qu’elle nous a quittés, en janvier 2020. <strong>Maïtea<\/strong> signifie « la bien aimée » en basque. Rosa Maïtea est donc nommée en  hommage à ma mère et à toutes les mères du monde. <\/p>"
           }
         },
         "dbb9a09f-646b-43fa-8604-4decd75706d5": {
@@ -138,6 +139,7 @@
     },
     "f3072a74-e844-4c08-8050-2403211042ce": {
       "type": "rosa-quote4",
+      "disabled": true,
       "settings": {
         "text1": "\" Mais derrière tous ces défis nous sommes très fiers de contribuer à créer un monde meilleur \"",
         "text2": "",
@@ -187,7 +189,7 @@
         "aebe5553-6e0a-434b-beda-1b96977d9375"
       ],
       "settings": {
-        "padding_top": 120,
+        "padding_top": 55,
         "padding_bottom": 55
       }
     },
