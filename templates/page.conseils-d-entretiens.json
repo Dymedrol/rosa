@@ -207,6 +207,7 @@
         "cc111573-5ae2-4010-b337-98c611cc7cde",
         "b4c383fc-a920-4d4d-8954-f6a94b38ea2a"
       ],
+      "disabled": true,
       "settings": {
         "title": "title",
         "padding_top": 90,
@@ -262,8 +263,8 @@
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb": {
       "type": "rosa-header2",
       "settings": {
-        "text1": "SUR-TITRE ICI",
-        "text2": "LE TITRE DE LA VIDÉO SUIVANTE",
+        "text1": "Conseils d'entretien",
+        "text2": "NOS CONSEILS EN VIDEO",
         "padding_top": 45,
         "padding_bottom": 45
       }
