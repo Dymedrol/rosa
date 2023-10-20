@@ -132,10 +132,9 @@
         },
         "535d77d4-0681-4704-88df-09fedbe2aa20": {
           "type": "link",
-          "disabled": true,
           "settings": {
-            "link_text": "PRENDRE RENDEZ-VOUS EN LIVE",
-            "link_url": ""
+            "link_text": "CONNAITRE PLUS SUR PATRICIA",
+            "link_url": "shopify:\/\/pages\/notre-histoire"
           }
         }
       },
@@ -196,6 +195,13 @@
     "096678f7-ca58-4d2e-8525-b5d1c1e410d4": {
       "type": "double",
       "blocks": {
+        "eb2bb790-a51f-4ac3-87da-64d9ed1c3e2f": {
+          "type": "link",
+          "settings": {
+            "link_text": "CONNAITRE PLUS SUR PATRICIA",
+            "link_url": "shopify:\/\/pages\/notre-histoire"
+          }
+        },
         "7c749ca8-9cae-4c62-87f7-61bca63a89a9": {
           "type": "heading",
           "settings": {
@@ -227,22 +233,15 @@
             "link_text": "PRENDRE RENDEZ-VOUS",
             "link_url": "shopify:\/\/pages\/prendre-rendez-vous"
           }
-        },
-        "eb2bb790-a51f-4ac3-87da-64d9ed1c3e2f": {
-          "type": "link",
-          "settings": {
-            "link_text": "CONNAITRE PLUS SUR PATRICIA",
-            "link_url": "shopify:\/\/pages\/notre-histoire"
-          }
         }
       },
       "block_order": [
+        "eb2bb790-a51f-4ac3-87da-64d9ed1c3e2f",
         "7c749ca8-9cae-4c62-87f7-61bca63a89a9",
         "bf01c18d-e99e-4c76-9d03-d66188b38cdb",
         "30b3f3f3-6efe-4667-85b0-27b8be830ef1",
         "968229c6-27c2-4c79-a4c1-7f8850b31520",
-        "42b5c479-f34c-44f7-8a44-f3ba7fd109bf",
-        "eb2bb790-a51f-4ac3-87da-64d9ed1c3e2f"
+        "42b5c479-f34c-44f7-8a44-f3ba7fd109bf"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
