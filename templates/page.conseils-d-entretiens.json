@@ -155,10 +155,11 @@
             "text": "<p>Laissez le bijou tremper dans de l’eau tiède avec un peu de savon de vaisselle pendant un moment. Ensuite frottez-le avec une brosse à dents très souple. Vous pourrez atteindre les moindres recoins de votre bijou avec délicatesse et éliminer toutes traces de poussière, pour redonner à vos pierres leur éclat naturel.<\/p><p>Et si vous souhaitez redonner son éclat initial à votre bijou, vous pouvez, de temps en temps le faire repolir et re-rhodier. Contactez nous et l'on vous donnera de bonnes adresses pour le faire.<\/p>"
           }
         },
-        "f81faf11-05b4-40ac-80b1-5a2b64fa5b44": {
-          "type": "text",
+        "aaecdf8d-5b57-4907-b09e-1224e9957555": {
+          "type": "link",
           "settings": {
-            "text": ""
+            "link_text": "Contactez-nous",
+            "link_url": "shopify:\/\/pages\/contact"
           }
         }
       },
@@ -166,7 +167,7 @@
         "63d4d33e-efa8-4785-9c20-b0d0dd6fc08e",
         "044de56b-3510-4522-a41e-36063756c9d4",
         "406eb290-02dc-40ef-8b1c-5d801d393bb8",
-        "f81faf11-05b4-40ac-80b1-5a2b64fa5b44"
+        "aaecdf8d-5b57-4907-b09e-1224e9957555"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
