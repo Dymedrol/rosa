@@ -333,6 +333,7 @@
     },
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb": {
       "type": "rosa-header2",
+      "disabled": true,
       "settings": {
         "text1": "SUR-TITRE ICI",
         "text2": "LE TITRE DE LA VIDÉO SUIVANTE",
