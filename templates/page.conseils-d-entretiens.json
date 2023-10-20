@@ -127,7 +127,7 @@
     "f3072a74-e844-4c08-8050-2403211042ce": {
       "type": "rosa-quote4",
       "settings": {
-        "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
+        "text1": "Au quotidien, poussières et petites saletés s’accumulent à l’arrière d’une pierre et empêchent la lumière de passer au travers. Cela rend votre bijou plus terne et moins brillant. Heureusement, il suffit de nettoyer vos pierres environ tous les 3 mois pour qu’elles retrouvent tout leur éclat.",
         "text2": "",
         "padding_top": 90,
         "padding_bottom": 0
@@ -152,7 +152,7 @@
         "406eb290-02dc-40ef-8b1c-5d801d393bb8": {
           "type": "text",
           "settings": {
-            "text": "<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »<\/p>"
+            "text": ""
           }
         },
         "f81faf11-05b4-40ac-80b1-5a2b64fa5b44": {
