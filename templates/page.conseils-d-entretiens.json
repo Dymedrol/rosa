@@ -143,12 +143,6 @@
             "heading2": "CONSEILS POUR NETTOYER VOS PIERRES"
           }
         },
-        "044de56b-3510-4522-a41e-36063756c9d4": {
-          "type": "text",
-          "settings": {
-            "text": "<h2>CONSEILS POUR NETTOYER LES PIERRES<\/h2><h2><\/h2>"
-          }
-        },
         "406eb290-02dc-40ef-8b1c-5d801d393bb8": {
           "type": "text",
           "settings": {
@@ -165,7 +159,6 @@
       },
       "block_order": [
         "63d4d33e-efa8-4785-9c20-b0d0dd6fc08e",
-        "044de56b-3510-4522-a41e-36063756c9d4",
         "406eb290-02dc-40ef-8b1c-5d801d393bb8",
         "aaecdf8d-5b57-4907-b09e-1224e9957555"
       ],
