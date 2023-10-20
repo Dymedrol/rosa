@@ -62,12 +62,19 @@
           "settings": {
             "text": "<p>Jusqu’au jour où j’ai été invitée à une conférence de l’<a href=\"https:\/\/www.carefrance.org\/\" target=\"_blank\">Association Care<\/a> sur la <strong>réalité des mines<\/strong> de rubis à Madagascar et au Sri Lanka, où des hommes extraient les pierres de façon artisanale, de l’eau jusqu’à la taille, dans des conditions insupportables. Drogue, prostitution, rémunération misérable …<\/p><p>J’ai également découvert l’utilisation de métaux lourds, notamment du <strong>mercure<\/strong>, dans le processus d’extraction et pris conscience de l’<strong>impact sur la nature<\/strong> des mines, gigantesques cratères creusés par l’homme.     <\/p>"
           }
+        },
+        "f5edfb25-27c0-4da9-ae6a-6d9bb2bee897": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cette prise de conscience m’a fait réagir et j’ai décidé de repenser notre chaîne d’approvisionnement. Mais le marché n’était pas encore prêt... Trouver des fournisseurs responsables et rendre la création des bijoux plus respectueuse s’est révélée très difficile et très lent.<\/p><p>C’est alors que j’ai décidé de créer ma propre marque, <strong>Rosa Maïtea<\/strong>, pour mener mon action en toute liberté et contribuer à changer ce marché. J’ai dû faire des choix quant aux matières premières que j’utilise, or et diamants recyclés, pierres 100% traçables et adapter mes dessins aux pierres disponibles. <\/p><p>Les coûts sont également plus importants et les délais plus longs.  <\/p>"
+          }
         }
       },
       "block_order": [
         "12885c87-59cb-4326-9fcc-17f286f4f6e3",
         "0620a0d2-7a07-4416-a19a-63efa991f170",
-        "076c0977-c63c-4883-b8f1-65288eed9274"
+        "076c0977-c63c-4883-b8f1-65288eed9274",
+        "f5edfb25-27c0-4da9-ae6a-6d9bb2bee897"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
