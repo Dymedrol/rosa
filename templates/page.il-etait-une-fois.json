@@ -85,6 +85,49 @@
         "padding_bottom": 0
       }
     },
+    "4de1ac90-e57f-4e25-8ed8-28dfc0b1e0b4": {
+      "type": "double",
+      "blocks": {
+        "b6f0de73-71da-4153-add4-cffc8432ddee": {
+          "type": "heading",
+          "settings": {
+            "heading1": "LA NAISSANCE DE LA MARQUE",
+            "heading2": "IL ETAIT UNE FOIS.... ROSA MAÏTEA"
+          }
+        },
+        "2bd50692-d22f-4f4a-9bdb-193e3666b0fa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rosa comme le prénom de ma mère, car c’est au moment où naissait en moi l’idée de créer une marque de joaillerie durable qu’elle nous a quittés, en janvier 2020. Maïtea signifie « la bien aimée » en basque. Rosa Maïtea est donc nommée en  hommage à ma mère et à toutes les mères du monde. <\/p>"
+          }
+        },
+        "dbb9a09f-646b-43fa-8604-4decd75706d5": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tout a basculé le jour où j’ai été invitée à une conférence de l’<a href=\"https:\/\/www.carefrance.org\/\"><span style=\"text-decoration:underline\">Association Care<\/span><\/a>. Ce jour-là, j’ai découvert la réalité des conditions de travail dans les mines de rubis à Madagascar et au Sri Lanka. Dans ces mines dites artisanales, des hommes et des femmes extraient des pierres de la roche, immergés, de l’eau jusqu’à la taille. Ils travaillent dans des conditions insupportables, en utilisant des produits toxiques contenant des métaux lourds comme le mercure, pour une rémunération misérable. <\/p><p>Ces mines, gigantesques cratères à ciel ouvert défigurant l’environement naturel abritent en outre tous les traffics : drogue, prostitution, esclavage…   <\/p>"
+          }
+        },
+        "912cd165-462c-4988-9b45-a22fa0d5203b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Forte de cette prise de conscience, j'ai entrepris de réinventer notre chaîne d'approvisionnement, mais il est vite devenu évident que le marché n'était pas encore prêt pour cette révolution. <\/p><p>La quête de fournisseurs responsables et le désir de rendre la création de bijoux plus respectueuse de l'environnement se sont avérés être des défis redoutables. <\/p><p>L’issue ? M’affranchir autant que possible de toutes ces contraintes en créant ma propre marque…. <strong>Et ainsi naquit Rosa Maïtea. <\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b6f0de73-71da-4153-add4-cffc8432ddee",
+        "2bd50692-d22f-4f4a-9bdb-193e3666b0fa",
+        "dbb9a09f-646b-43fa-8604-4decd75706d5",
+        "912cd165-462c-4988-9b45-a22fa0d5203b"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
     "f3072a74-e844-4c08-8050-2403211042ce": {
       "type": "rosa-quote4",
       "settings": {
@@ -194,6 +237,7 @@
     "d8037b2c-93f5-4ed8-8ab3-69c24ce46c15",
     "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5",
     "a9539caf-edb1-471f-9d6c-97b6a2b08a04",
+    "4de1ac90-e57f-4e25-8ed8-28dfc0b1e0b4",
     "f3072a74-e844-4c08-8050-2403211042ce",
     "fa2ca636-a51a-4983-8c38-a10ba431017b",
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb",
