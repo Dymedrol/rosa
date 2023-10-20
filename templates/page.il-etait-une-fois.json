@@ -61,7 +61,7 @@
         "076c0977-c63c-4883-b8f1-65288eed9274": {
           "type": "text",
           "settings": {
-            "text": "<p>Jusqu’au jour où j’ai été invitée à une conférence de l’<a href=\"https:\/\/www.carefrance.org\/\" target=\"_blank\">Association Care<\/a> sur la <strong>réalité des mines<\/strong> de rubis à Madagascar et au Sri Lanka, où des hommes extraient les pierres de façon artisanale, de l’eau jusqu’à la taille, dans des conditions insupportables. Drogue, prostitution, rémunération misérable …<\/p><p>J’ai également découvert l’utilisation de métaux lourds, notamment du <strong>mercure<\/strong>, dans le processus d’extraction et pris conscience de l’<strong>impact sur la nature<\/strong> des mines, gigantesques cratères creusés par l’homme.     <\/p>"
+            "text": "<p>Tout a basculé le jour où j’ai été invitée à une conférence de l’<a href=\"https:\/\/www.carefrance.org\/\"><span style=\"text-decoration:underline\">Association Care<\/span><\/a>. Ce jour-là, j’ai découvert la réalité des conditions de travail dans les mines de rubis à Madagascar et au Sri Lanka. Dans ces mines dites artisanales, des hommes et des femmes extraient des pierres de la roche, immergés, de l’eau jusqu’à la taille. Ils travaillent dans des conditions insupportables, en utilisant des produits toxiques contenant des métaux lourds comme le mercure, pour une rémunération misérable. <\/p><p>Ces mines, gigantesques cratères à ciel ouvert défigurant l’environement naturel abritent en outre tous les traffics : drogue, prostitution, esclavage…   <\/p>"
           }
         },
         "f5edfb25-27c0-4da9-ae6a-6d9bb2bee897": {
@@ -152,7 +152,6 @@
     },
     "765f2c93-3054-44d3-b881-24dffee4392e": {
       "type": "video",
-      "disabled": true,
       "settings": {
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
