@@ -317,6 +317,7 @@
         "bf01c18d-e99e-4c76-9d03-d66188b38cdb",
         "42b5c479-f34c-44f7-8a44-f3ba7fd109bf"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Miniere_avec_enfant_500.png",
         "is_reverse": false,
