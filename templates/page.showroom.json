@@ -120,7 +120,7 @@
         "37ba0929-4e5c-4e01-a9af-3297edf8f43d": {
           "type": "text",
           "settings": {
-            "text": "<p>Je suis Patricia, créatrice de Rosa Maitea. <\/p><p>Je suis née à Bilbao, au Pays basque espagnol, magnifique territoire marqué par la beauté sauvage de l'océan Atlantique et imprégné d’une culture ancestrale. J’ai 12 ans lorsque mes parents s’installent au Mexique à Guadalajara sur les bords du lac Chapala. Et là-bas… Je découvre émerveillée la vivacité des couleurs, les fleurs omniprésentes, une gaieté et un foisonnement culturel si riche qu’il m’inspire encore aujourd’hui. Cette expérience a façonné ma personnalité et éveillé en moi la passion des voyages et de la découverte.<\/p>"
+            "text": "<p>Je suis Patricia, créatrice de Rosa Maitea. <\/p><p>Quand je suis devenu directrice de l'offre et de l'image d'une maison de joaillerie ça a été un coup de foudre, ou coup du destin : La joaillerie incarnait tout ce que j'aimais : les couleurs, la beauté de l'art, la transmission d'un savoir-faire, la tradition combinée à l’innovation, la création d’ornements précieux et symboliques transmis avec amour, et par amour. Mais, derrière l’éclat enchanteur de l’or et des diamants allait bientôt apparaître une toute autre histoire…. <\/p><p><\/p><p>Venez me voir et vous la raconte...<\/p>"
           }
         },
         "e77061de-405f-40ec-9db4-0ec4d8de035f": {
@@ -195,13 +195,6 @@
     "096678f7-ca58-4d2e-8525-b5d1c1e410d4": {
       "type": "double",
       "blocks": {
-        "eb2bb790-a51f-4ac3-87da-64d9ed1c3e2f": {
-          "type": "link",
-          "settings": {
-            "link_text": "CONNAITRE PLUS SUR PATRICIA",
-            "link_url": "shopify:\/\/pages\/notre-histoire"
-          }
-        },
         "7c749ca8-9cae-4c62-87f7-61bca63a89a9": {
           "type": "heading",
           "settings": {
@@ -236,7 +229,6 @@
         }
       },
       "block_order": [
-        "eb2bb790-a51f-4ac3-87da-64d9ed1c3e2f",
         "7c749ca8-9cae-4c62-87f7-61bca63a89a9",
         "bf01c18d-e99e-4c76-9d03-d66188b38cdb",
         "30b3f3f3-6efe-4667-85b0-27b8be830ef1",
@@ -244,7 +236,7 @@
         "42b5c479-f34c-44f7-8a44-f3ba7fd109bf"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
+        "image": "shopify:\/\/shop_images\/DSC9804.jpg",
         "is_reverse": true,
         "is_centred": false,
         "padding_top": 90,
