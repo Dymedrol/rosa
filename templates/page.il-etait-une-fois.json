@@ -34,7 +34,7 @@
     "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5": {
       "type": "rosa-quote",
       "settings": {
-        "text1": "“ Ce jour-là, j’ai réalisé que la vraie beauté ne peut être créée qu’avec de l’amour et du respect. On ne peut pas dire qu’un objet est beau s’il n’a pas été réalisé sans respecter les hommes et les femmes qui participent à sa création. Il en est de même pour la nature qui nous donne la vie : nous devons la respecter. ”",
+        "text1": "\" Ce jour-là, j’ai su que la beauté véritable naît de l'amour et du respect. Aucun objet ne peut prétendre à la beauté s'il n'est pas conçu avec une profonde considération pour les hommes et les femmes qui contribuent à sa création. Quant à la nature, source de toute vie, nous lui devons un respect inconditionnel \"",
         "text2": "",
         "link_text": "",
         "link_url": "",
@@ -110,7 +110,14 @@
         "912cd165-462c-4988-9b45-a22fa0d5203b": {
           "type": "text",
           "settings": {
-            "text": "<p>Forte de cette prise de conscience, j'ai entrepris de réinventer notre chaîne d'approvisionnement, mais il est vite devenu évident que le marché n'était pas encore prêt pour cette révolution. <\/p><p>La quête de fournisseurs responsables et le désir de rendre la création de bijoux plus respectueuse de l'environnement se sont avérés être des défis redoutables. <\/p><p>L’issue ? M’affranchir autant que possible de toutes ces contraintes en créant ma propre marque…. <strong>Et ainsi naquit Rosa Maïtea. <\/strong><\/p>"
+            "text": "<p>En relevant ces différents défis, Rosa Maitea est fière de contribuer à la création d'un monde meilleur. Chacun de nos bijoux éco-responsables incarne notre engagement pour une planète préservée et pour des conditions de travail durables. Plus qu'une marque, Rosa Maïtea<strong> <\/strong>est une vision et la promesse d’une beauté éthique à l'impact positif.<\/p>"
+          }
+        },
+        "449116a5-448e-4077-938a-2ce6a5142ca2": {
+          "type": "link",
+          "settings": {
+            "link_text": "link text",
+            "link_url": ""
           }
         }
       },
@@ -118,7 +125,8 @@
         "b6f0de73-71da-4153-add4-cffc8432ddee",
         "2bd50692-d22f-4f4a-9bdb-193e3666b0fa",
         "dbb9a09f-646b-43fa-8604-4decd75706d5",
-        "912cd165-462c-4988-9b45-a22fa0d5203b"
+        "912cd165-462c-4988-9b45-a22fa0d5203b",
+        "449116a5-448e-4077-938a-2ce6a5142ca2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
