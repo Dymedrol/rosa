@@ -170,11 +170,30 @@
         "aaecdf8d-5b57-4907-b09e-1224e9957555"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
+        "image": "shopify:\/\/shop_images\/DSC9804.jpg",
         "is_reverse": false,
         "is_centred": true,
         "padding_top": 90,
         "padding_bottom": 0
+      }
+    },
+    "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb": {
+      "type": "rosa-header2",
+      "settings": {
+        "text1": "Conseils d'entretien",
+        "text2": "NOS CONSEILS D'ENTRETIEN EN VIDEO",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "765f2c93-3054-44d3-b881-24dffee4392e": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/Joaillerie éthique et joyeuse.mp4",
+        "video_url": "",
+        "cover_image": "shopify:\/\/shop_images\/Image_2x_aa32a290-a23e-4f1e-9962-faab371765cc.jpg",
+        "description": ""
       }
     },
     "1de8951e-cc53-47fa-9964-506c7bc6d3a6": {
@@ -260,25 +279,6 @@
         "padding_bottom": 55
       }
     },
-    "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb": {
-      "type": "rosa-header2",
-      "settings": {
-        "text1": "Conseils d'entretien",
-        "text2": "NOS CONSEILS D'ENTRETIEN EN VIDEO",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
-    "765f2c93-3054-44d3-b881-24dffee4392e": {
-      "type": "video",
-      "settings": {
-        "enable_video_looping": false,
-        "video": "shopify:\/\/files\/videos\/PV SITE ROSA ROSE.mov",
-        "video_url": "",
-        "cover_image": "shopify:\/\/shop_images\/Image_2x_aa32a290-a23e-4f1e-9962-faab371765cc.jpg",
-        "description": ""
-      }
-    },
     "2c729952-939d-43ff-9b51-18cd9b10cd88": {
       "type": "rosa-socials",
       "blocks": {
@@ -318,10 +318,10 @@
     "e982d6c6-b78a-4598-90e5-de88270dbc6a",
     "f3072a74-e844-4c08-8050-2403211042ce",
     "b2d8975f-fc61-462b-a960-6d219334d501",
-    "1de8951e-cc53-47fa-9964-506c7bc6d3a6",
-    "fa2ca636-a51a-4983-8c38-a10ba431017b",
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb",
     "765f2c93-3054-44d3-b881-24dffee4392e",
+    "1de8951e-cc53-47fa-9964-506c7bc6d3a6",
+    "fa2ca636-a51a-4983-8c38-a10ba431017b",
     "2c729952-939d-43ff-9b51-18cd9b10cd88"
   ]
 }
