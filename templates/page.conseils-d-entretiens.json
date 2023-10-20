@@ -136,10 +136,17 @@
     "b2d8975f-fc61-462b-a960-6d219334d501": {
       "type": "double",
       "blocks": {
+        "63d4d33e-efa8-4785-9c20-b0d0dd6fc08e": {
+          "type": "heading",
+          "settings": {
+            "heading1": "Image with text",
+            "heading2": "COMMENT NETTOYER VOS BIJOUX ?"
+          }
+        },
         "044de56b-3510-4522-a41e-36063756c9d4": {
           "type": "text",
           "settings": {
-            "text": "<h3>Conseils pour nettoyer vos pierres<\/h3><p>Au quotidien, poussières et petites saletés s’accumulent à l’arrière d’une pierre et empêchent la lumière de passer au travers. Cela rend votre bijou plus terne et moins brillant. Heureusement, il suffit de nettoyer vos pierres environ tous les 3 mois pour qu’elles retrouvent tout leur éclat.<\/p>"
+            "text": "<h2>CONSEILS POUR NETTOYER LES PIERRES<\/h2><h2><\/h2>"
           }
         },
         "406eb290-02dc-40ef-8b1c-5d801d393bb8": {
@@ -156,6 +163,7 @@
         }
       },
       "block_order": [
+        "63d4d33e-efa8-4785-9c20-b0d0dd6fc08e",
         "044de56b-3510-4522-a41e-36063756c9d4",
         "406eb290-02dc-40ef-8b1c-5d801d393bb8",
         "f81faf11-05b4-40ac-80b1-5a2b64fa5b44"
