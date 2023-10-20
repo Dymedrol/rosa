@@ -67,7 +67,7 @@
           "type": "link",
           "settings": {
             "link_text": "PRENDRE RENDEZ-VOUS",
-            "link_url": ""
+            "link_url": "shopify:\/\/pages\/prendre-rendez-vous"
           }
         }
       },
@@ -276,7 +276,7 @@
         "b4c383fc-a920-4d4d-8954-f6a94b38ea2a"
       ],
       "settings": {
-        "title": "D'autres questions ?  contactez nous !",
+        "title": "D'autres questions ?",
         "padding_top": 40,
         "padding_bottom": 0
       }
