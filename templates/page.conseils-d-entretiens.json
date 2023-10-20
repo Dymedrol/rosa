@@ -53,12 +53,6 @@
             "heading2": "CONSEILS POUR PROTEGER VOS BIJOUX"
           }
         },
-        "12885c87-59cb-4326-9fcc-17f286f4f6e3": {
-          "type": "text",
-          "settings": {
-            "text": "<h4>Conseils pour protéger vos bijoux<\/h4>"
-          }
-        },
         "0620a0d2-7a07-4416-a19a-63efa991f170": {
           "type": "text",
           "settings": {
@@ -74,7 +68,6 @@
       },
       "block_order": [
         "98b1360f-6789-4ab0-92bc-5ea09e2945b8",
-        "12885c87-59cb-4326-9fcc-17f286f4f6e3",
         "0620a0d2-7a07-4416-a19a-63efa991f170",
         "076c0977-c63c-4883-b8f1-65288eed9274"
       ],
