@@ -1,0 +1,267 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "237458dd-360c-4b77-b13f-be299496a576": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#ffffff",
+        "is_static": false
+      }
+    },
+    "d8037b2c-93f5-4ed8-8ab3-69c24ce46c15": {
+      "type": "image-banner",
+      "settings": {
+        "tag": "h1",
+        "is_full_screen": false,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "<p>LA JOAILLERIE ÉTHIQUE ET VISIONNAIRE <\/p>",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "TITRE DE L’ACTUALITÉ",
+        "is_text_big": false,
+        "image_banner_link_text": "",
+        "image_banner_link_url": "",
+        "banner_image": "shopify:\/\/shop_images\/Groupe-175_2x_307a0587-5430-47b0-953b-c3ea649bc258.jpg"
+      }
+    },
+    "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5": {
+      "type": "rosa-quote",
+      "settings": {
+        "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
+        "text2": "",
+        "link_text": "",
+        "link_url": "",
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "a9539caf-edb1-471f-9d6c-97b6a2b08a04": {
+      "type": "double",
+      "blocks": {
+        "12885c87-59cb-4326-9fcc-17f286f4f6e3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR<\/strong><\/p>"
+          }
+        },
+        "0620a0d2-7a07-4416-a19a-63efa991f170": {
+          "type": "text",
+          "settings": {
+            "text": "<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »<\/p>"
+          }
+        },
+        "076c0977-c63c-4883-b8f1-65288eed9274": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "12885c87-59cb-4326-9fcc-17f286f4f6e3",
+        "0620a0d2-7a07-4416-a19a-63efa991f170",
+        "076c0977-c63c-4883-b8f1-65288eed9274"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "f3072a74-e844-4c08-8050-2403211042ce": {
+      "type": "rosa-quote4",
+      "settings": {
+        "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
+        "text2": "",
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "b2d8975f-fc61-462b-a960-6d219334d501": {
+      "type": "double",
+      "blocks": {
+        "044de56b-3510-4522-a41e-36063756c9d4": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR<\/strong><\/p>"
+          }
+        },
+        "406eb290-02dc-40ef-8b1c-5d801d393bb8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. »<\/p>"
+          }
+        },
+        "f81faf11-05b4-40ac-80b1-5a2b64fa5b44": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "044de56b-3510-4522-a41e-36063756c9d4",
+        "406eb290-02dc-40ef-8b1c-5d801d393bb8",
+        "f81faf11-05b4-40ac-80b1-5a2b64fa5b44"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
+        "is_reverse": false,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "1de8951e-cc53-47fa-9964-506c7bc6d3a6": {
+      "type": "rosa-faq",
+      "blocks": {
+        "a71b233c-abcb-4ce2-83b0-e9e0d6ec0dca": {
+          "type": "faq",
+          "settings": {
+            "title": "title",
+            "text": "<p>text<\/p>"
+          }
+        },
+        "cc111573-5ae2-4010-b337-98c611cc7cde": {
+          "type": "faq",
+          "settings": {
+            "title": "title",
+            "text": "<p>text<\/p>"
+          }
+        },
+        "b4c383fc-a920-4d4d-8954-f6a94b38ea2a": {
+          "type": "faq",
+          "settings": {
+            "title": "title",
+            "text": "<p>text<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "a71b233c-abcb-4ce2-83b0-e9e0d6ec0dca",
+        "cc111573-5ae2-4010-b337-98c611cc7cde",
+        "b4c383fc-a920-4d4d-8954-f6a94b38ea2a"
+      ],
+      "settings": {
+        "title": "title",
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "fa2ca636-a51a-4983-8c38-a10ba431017b": {
+      "type": "rosa-picture-slider",
+      "blocks": {
+        "fe43283f-3c04-4a05-8738-70fcd481d93b": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg"
+          }
+        },
+        "6d44e858-7b34-4a1c-b025-1bfef2fa9f59": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2023-08-04.jpg"
+          }
+        },
+        "a5d5ee87-561e-4670-b3cb-10875516ff20": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/42.jpg"
+          }
+        },
+        "83edf634-a541-48ca-b04d-8ee9e2230a31": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4-6.jpg"
+          }
+        },
+        "aebe5553-6e0a-434b-beda-1b96977d9375": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/web-ROSA_MAITEA36775.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "fe43283f-3c04-4a05-8738-70fcd481d93b",
+        "6d44e858-7b34-4a1c-b025-1bfef2fa9f59",
+        "a5d5ee87-561e-4670-b3cb-10875516ff20",
+        "83edf634-a541-48ca-b04d-8ee9e2230a31",
+        "aebe5553-6e0a-434b-beda-1b96977d9375"
+      ],
+      "settings": {
+        "padding_top": 120,
+        "padding_bottom": 55
+      }
+    },
+    "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb": {
+      "type": "rosa-header2",
+      "settings": {
+        "text1": "SUR-TITRE ICI",
+        "text2": "LE TITRE DE LA VIDÉO SUIVANTE",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "765f2c93-3054-44d3-b881-24dffee4392e": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/Image_2x_aa32a290-a23e-4f1e-9962-faab371765cc.jpg",
+        "description": ""
+      }
+    },
+    "2c729952-939d-43ff-9b51-18cd9b10cd88": {
+      "type": "rosa-socials",
+      "blocks": {
+        "39f793d3-34d2-4ba8-885e-f0d8ff578ba6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_zocial-facebook_2x_ff9ce30e-cb83-419f-8956-7b330b87b5bb.png",
+            "url": "https:\/\/www.facebook.com\/RosaMaitea\/"
+          }
+        },
+        "9594b2d0-3b22-427e-ace0-5065d21be64c": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_awesome-instagram_2x_0e007b22-1811-49b5-81d7-27b78e9ec21f.png",
+            "url": "https:\/\/www.instagram.com\/rosa_maitea\/"
+          }
+        }
+      },
+      "block_order": [
+        "39f793d3-34d2-4ba8-885e-f0d8ff578ba6",
+        "9594b2d0-3b22-427e-ace0-5065d21be64c"
+      ],
+      "settings": {
+        "title": "Partager",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    }
+  },
+  "order": [
+    "main",
+    "237458dd-360c-4b77-b13f-be299496a576",
+    "d8037b2c-93f5-4ed8-8ab3-69c24ce46c15",
+    "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5",
+    "a9539caf-edb1-471f-9d6c-97b6a2b08a04",
+    "f3072a74-e844-4c08-8050-2403211042ce",
+    "b2d8975f-fc61-462b-a960-6d219334d501",
+    "1de8951e-cc53-47fa-9964-506c7bc6d3a6",
+    "fa2ca636-a51a-4983-8c38-a10ba431017b",
+    "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb",
+    "765f2c93-3054-44d3-b881-24dffee4392e",
+    "2c729952-939d-43ff-9b51-18cd9b10cd88"
+  ]
+}
