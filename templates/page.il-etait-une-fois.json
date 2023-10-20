@@ -130,10 +130,10 @@
         "449116a5-448e-4077-938a-2ce6a5142ca2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_7153_2.jpg",
+        "image": "shopify:\/\/shop_images\/IMG_7157.jpg",
         "is_reverse": true,
         "is_centred": true,
-        "padding_top": 90,
+        "padding_top": 45,
         "padding_bottom": 0
       }
     },
