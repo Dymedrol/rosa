@@ -81,7 +81,7 @@
         "image": "shopify:\/\/shop_images\/IMG_7311.jpg",
         "is_reverse": true,
         "is_centred": true,
-        "padding_top": 90,
+        "padding_top": 50,
         "padding_bottom": 0
       }
     },
@@ -159,7 +159,7 @@
         "6d44e858-7b34-4a1c-b025-1bfef2fa9f59": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mine_d_or_Orobel_Autralie_118438e2-70f0-40d8-9c1d-f80395ce971b.jpg"
+            "image": "shopify:\/\/shop_images\/32.jpg"
           }
         },
         "a5d5ee87-561e-4670-b3cb-10875516ff20": {
