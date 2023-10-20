@@ -28,7 +28,7 @@
         "is_text_big": false,
         "image_banner_link_text": "",
         "image_banner_link_url": "",
-        "banner_image": "shopify:\/\/shop_images\/IMG_0244.jpg"
+        "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-124.jpg"
       }
     },
     "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5": {
@@ -158,6 +158,7 @@
         "cc111573-5ae2-4010-b337-98c611cc7cde",
         "b4c383fc-a920-4d4d-8954-f6a94b38ea2a"
       ],
+      "disabled": true,
       "settings": {
         "title": "title",
         "padding_top": 90,
