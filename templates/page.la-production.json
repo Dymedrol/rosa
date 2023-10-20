@@ -62,12 +62,19 @@
           "settings": {
             "text": "<p>Il a obtenu le certificat du<a href=\"https:\/\/www.responsiblejewellery.com\/\" target=\"_blank\">\"Responsable Jewelry Council\"<\/a>(RJC), organisation internationale qui a pour mission de certifier les bonnes pratiques des entreprises contribuant à la chaîne d'approvisionnement de l'or ou des diamants, de la mine jusqu'à la distribution. Récemment le RJC a inclus les pierres précieuses et les pierres fines dans sa démarche, améliorant ainsi la transparence de l’approvisionnement.<\/p><p><\/p>"
           }
+        },
+        "a9711fb6-fab9-41aa-bc98-41ff3f4d2bd8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dès le premier contact, ils ont cru en mon projet Rosa Maïtea, ils sont devenus de<strong>véritables partenaires<\/strong>qui ont tout mis en place pour trouver des solutions pertinentes aux problèmes que nous avons rencontrés. Rosa Maïtea n’était pas encore née qu’ils avaient déjà parié sur son succès et je leur en suis très reconnaissante.<\/p>"
+          }
         }
       },
       "block_order": [
         "12885c87-59cb-4326-9fcc-17f286f4f6e3",
         "0620a0d2-7a07-4416-a19a-63efa991f170",
-        "076c0977-c63c-4883-b8f1-65288eed9274"
+        "076c0977-c63c-4883-b8f1-65288eed9274",
+        "a9711fb6-fab9-41aa-bc98-41ff3f4d2bd8"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
