@@ -62,12 +62,20 @@
           "settings": {
             "text": "<p>Nous vous confirmerons l’adresse et l’heure précise de votre RDV par retour de mail.<\/p>"
           }
+        },
+        "6df88f96-3cdb-4da1-bdf8-4888e92115d0": {
+          "type": "link",
+          "settings": {
+            "link_text": "PRENDRE RENDEZ-VOUS",
+            "link_url": ""
+          }
         }
       },
       "block_order": [
         "12885c87-59cb-4326-9fcc-17f286f4f6e3",
         "0620a0d2-7a07-4416-a19a-63efa991f170",
-        "076c0977-c63c-4883-b8f1-65288eed9274"
+        "076c0977-c63c-4883-b8f1-65288eed9274",
+        "6df88f96-3cdb-4da1-bdf8-4888e92115d0"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-114.jpg",
