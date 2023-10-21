@@ -262,6 +262,41 @@
         "padding_bottom": 0
       }
     },
+    "52f9c683-6b4c-431f-bed8-9b7d7ffb737e": {
+      "type": "double",
+      "blocks": {
+        "afc15055-196a-40ae-a7a5-e2422ab5740e": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>L'INDÉPENDENCE<\/strong><\/p>"
+          }
+        },
+        "ce139870-7e4d-44b7-91e3-a56032ba3427": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La beauté est dans l'œil de la personne qui la regarde. En observatrice avisée, toujours avide de nouvelles connaissances, Rosa Maïtea s’intéresse avec ingénuité à tout ce qui l’entoure, parce que dans notre esprit tout est intéressant ! Cette heureuse disposition nous permet d’innover sans cesse et fait de nous de brillantes anticonformistes. <\/p>"
+          }
+        },
+        "9988d13f-bd0d-40e5-a888-9087322b689b": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "afc15055-196a-40ae-a7a5-e2422ab5740e",
+        "ce139870-7e4d-44b7-91e3-a56032ba3427",
+        "9988d13f-bd0d-40e5-a888-9087322b689b"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
+        "is_reverse": false,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
     "1de8951e-cc53-47fa-9964-506c7bc6d3a6": {
       "type": "rosa-faq",
       "blocks": {
@@ -403,6 +438,7 @@
     "3a31555a-cab7-4a74-8452-f23ec45fea73",
     "e9f36cf8-17ab-497e-bbf9-92523d4b7d4f",
     "d31f9635-6748-42df-99c0-7c3ae6412227",
+    "52f9c683-6b4c-431f-bed8-9b7d7ffb737e",
     "1de8951e-cc53-47fa-9964-506c7bc6d3a6",
     "fa2ca636-a51a-4983-8c38-a10ba431017b",
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb",
