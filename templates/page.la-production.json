@@ -87,9 +87,9 @@
     "f3072a74-e844-4c08-8050-2403211042ce": {
       "type": "rosa-quote4",
       "settings": {
-        "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
+        "text1": "Ils nous accompagnent et s’engagent à nos côtés dans la quête de solutions pertinentes face aux défis que nous avons rencontrés.",
         "text2": "",
-        "padding_top": 90,
+        "padding_top": 75,
         "padding_bottom": 0
       }
     },
@@ -171,13 +171,13 @@
         "fe43283f-3c04-4a05-8738-70fcd481d93b": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg"
+            "image": "shopify:\/\/shop_images\/IMG_6843.jpg"
           }
         },
         "6d44e858-7b34-4a1c-b025-1bfef2fa9f59": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2023-08-04.jpg"
+            "image": "shopify:\/\/shop_images\/IMG_6949.jpg"
           }
         },
         "a5d5ee87-561e-4670-b3cb-10875516ff20": {
