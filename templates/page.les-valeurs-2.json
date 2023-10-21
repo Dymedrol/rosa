@@ -22,9 +22,9 @@
         "is_full_screen": false,
         "alignment": "center",
         "text_color": "#ffffff",
-        "image_banner_title_text": "<p>LA JOAILLERIE ÉTHIQUE ET VISIONNAIRE <\/p>",
+        "image_banner_title_text": "<p>NOS PLUS BELLES VALEURS<\/p>",
         "is_title_big": false,
-        "image_banner_subtitle_text": "TITRE DE L’ACTUALITÉ",
+        "image_banner_subtitle_text": "6 valeurs rayonantes",
         "is_text_big": false,
         "image_banner_link_text": "",
         "image_banner_link_url": "",
@@ -48,7 +48,7 @@
         "12885c87-59cb-4326-9fcc-17f286f4f6e3": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR<\/strong><\/p>"
+            "text": "<p><strong>L'AMOUR<\/strong><\/p>"
           }
         },
         "0620a0d2-7a07-4416-a19a-63efa991f170": {
