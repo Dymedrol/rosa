@@ -87,41 +87,6 @@
         "padding_bottom": 0
       }
     },
-    "b2d8975f-fc61-462b-a960-6d219334d501": {
-      "type": "double",
-      "blocks": {
-        "044de56b-3510-4522-a41e-36063756c9d4": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>L'AMOUR<\/strong><\/p>"
-          }
-        },
-        "406eb290-02dc-40ef-8b1c-5d801d393bb8": {
-          "type": "text",
-          "settings": {
-            "text": "<p>La joie illumine notre perception du monde, l'embellit de mille couleurs, et nous insuffle l'énergie d’aller de l’avant, le sourire au lèvres. Optimiste née, Rosa Maïtea<strong> <\/strong>s’engage avec passion pour une joaillerie responsable. Si notre bonne humeur est communicative, c’est parce que nous faisons de la joie notre boussole, guidant chacun de nos pas vers un avenir meilleur.<\/p>"
-          }
-        },
-        "f81faf11-05b4-40ac-80b1-5a2b64fa5b44": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "044de56b-3510-4522-a41e-36063756c9d4",
-        "406eb290-02dc-40ef-8b1c-5d801d393bb8",
-        "f81faf11-05b4-40ac-80b1-5a2b64fa5b44"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
-        "is_reverse": false,
-        "is_centred": true,
-        "padding_top": 90,
-        "padding_bottom": 0
-      }
-    },
     "82669973-c95a-4858-8d02-7658829e0a3d": {
       "type": "double",
       "blocks": {
@@ -186,7 +151,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
-        "is_reverse": false,
+        "is_reverse": true,
         "is_centred": true,
         "padding_top": 90,
         "padding_bottom": 0
@@ -433,7 +398,6 @@
     "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5",
     "a9539caf-edb1-471f-9d6c-97b6a2b08a04",
     "f3072a74-e844-4c08-8050-2403211042ce",
-    "b2d8975f-fc61-462b-a960-6d219334d501",
     "82669973-c95a-4858-8d02-7658829e0a3d",
     "3a31555a-cab7-4a74-8452-f23ec45fea73",
     "e9f36cf8-17ab-497e-bbf9-92523d4b7d4f",
