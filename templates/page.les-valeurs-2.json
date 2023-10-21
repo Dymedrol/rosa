@@ -340,6 +340,7 @@
         "83edf634-a541-48ca-b04d-8ee9e2230a31",
         "aebe5553-6e0a-434b-beda-1b96977d9375"
       ],
+      "disabled": true,
       "settings": {
         "padding_top": 120,
         "padding_bottom": 55
