@@ -120,6 +120,7 @@
         "406eb290-02dc-40ef-8b1c-5d801d393bb8",
         "f81faf11-05b4-40ac-80b1-5a2b64fa5b44"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
         "is_reverse": false,
@@ -177,7 +178,7 @@
         "6d44e858-7b34-4a1c-b025-1bfef2fa9f59": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_6949.jpg"
+            "image": "shopify:\/\/shop_images\/IMG_6989.jpg"
           }
         },
         "a5d5ee87-561e-4670-b3cb-10875516ff20": {
@@ -213,6 +214,7 @@
     },
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb": {
       "type": "rosa-header2",
+      "disabled": true,
       "settings": {
         "text1": "SUR-TITRE ICI",
         "text2": "LE TITRE DE LA VIDÉO SUIVANTE",
@@ -222,6 +224,7 @@
     },
     "765f2c93-3054-44d3-b881-24dffee4392e": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
