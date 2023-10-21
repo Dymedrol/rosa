@@ -70,7 +70,7 @@
         "076c0977-c63c-4883-b8f1-65288eed9274"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
+        "image": "shopify:\/\/shop_images\/Coeur_Saint_Valentin_51f121ea-f4ed-4781-8c06-a7426a137e75.jpg",
         "is_reverse": true,
         "is_centred": true,
         "padding_top": 90,
@@ -292,6 +292,7 @@
         "cc111573-5ae2-4010-b337-98c611cc7cde",
         "b4c383fc-a920-4d4d-8954-f6a94b38ea2a"
       ],
+      "disabled": true,
       "settings": {
         "title": "title",
         "padding_top": 90,
@@ -346,6 +347,7 @@
     },
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb": {
       "type": "rosa-header2",
+      "disabled": true,
       "settings": {
         "text1": "SUR-TITRE ICI",
         "text2": "LE TITRE DE LA VIDÉO SUIVANTE",
@@ -355,6 +357,7 @@
     },
     "765f2c93-3054-44d3-b881-24dffee4392e": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
