@@ -122,6 +122,146 @@
         "padding_bottom": 0
       }
     },
+    "82669973-c95a-4858-8d02-7658829e0a3d": {
+      "type": "double",
+      "blocks": {
+        "7d02f857-1733-4e65-a5c0-a6fd96ee198f": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>LA JOIE <\/strong><\/p>"
+          }
+        },
+        "7e5da056-e143-4a88-bec2-d32a0797d88e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La joie illumine notre perception du monde, l'embellit de mille couleurs, et nous insuffle l'énergie d’aller de l’avant, le sourire au lèvres. Optimiste née, Rosa Maïtea<strong> <\/strong>s’engage avec passion pour une joaillerie responsable. Si notre bonne humeur est communicative, c’est parce que nous faisons de la joie notre boussole, guidant chacun de nos pas vers un avenir meilleur.<\/p>"
+          }
+        },
+        "2f4c3dbf-83b8-4031-8e9b-83d8d9a346ba": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "7d02f857-1733-4e65-a5c0-a6fd96ee198f",
+        "7e5da056-e143-4a88-bec2-d32a0797d88e",
+        "2f4c3dbf-83b8-4031-8e9b-83d8d9a346ba"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
+        "is_reverse": false,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "3a31555a-cab7-4a74-8452-f23ec45fea73": {
+      "type": "double",
+      "blocks": {
+        "193614b9-7f13-46ff-be04-5e32d6bb4764": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>L’ENGAGEMENT<\/strong><\/p>"
+          }
+        },
+        "1ea8cb70-f082-41c2-9825-de8fe6e965e8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La joie illumine notre perception du monde, l'embellit de mille couleurs, et nous insuffle l'énergie d’aller de l’avant, le sourire au lèvres. Optimiste née, Rosa Maïtea<strong> <\/strong>s’engage avec passion pour une joaillerie responsable. Si notre bonne humeur est communicative, c’est parce que nous faisons de la joie notre boussole, guidant chacun de nos pas vers un avenir meilleur.<\/p>"
+          }
+        },
+        "096334ef-2059-4922-8600-72e5887d8691": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "193614b9-7f13-46ff-be04-5e32d6bb4764",
+        "1ea8cb70-f082-41c2-9825-de8fe6e965e8",
+        "096334ef-2059-4922-8600-72e5887d8691"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
+        "is_reverse": false,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "e9f36cf8-17ab-497e-bbf9-92523d4b7d4f": {
+      "type": "double",
+      "blocks": {
+        "884c4e60-ce0e-4c08-a8e2-5501cf4ee9f2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>LA JOIE <\/strong><\/p>"
+          }
+        },
+        "a5e47b88-6cd2-4b58-8030-383e05866c51": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La joie illumine notre perception du monde, l'embellit de mille couleurs, et nous insuffle l'énergie d’aller de l’avant, le sourire au lèvres. Optimiste née, Rosa Maïtea<strong> <\/strong>s’engage avec passion pour une joaillerie responsable. Si notre bonne humeur est communicative, c’est parce que nous faisons de la joie notre boussole, guidant chacun de nos pas vers un avenir meilleur.<\/p>"
+          }
+        },
+        "4d456a67-e508-43b4-b72e-355f1bf205a9": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "884c4e60-ce0e-4c08-a8e2-5501cf4ee9f2",
+        "a5e47b88-6cd2-4b58-8030-383e05866c51",
+        "4d456a67-e508-43b4-b72e-355f1bf205a9"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
+        "is_reverse": false,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "d31f9635-6748-42df-99c0-7c3ae6412227": {
+      "type": "double",
+      "blocks": {
+        "a2bd12ec-3cec-47be-b003-66bc7c23fcfb": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>LA JOIE <\/strong><\/p>"
+          }
+        },
+        "7c816968-30cf-4405-b782-e5d19c6ce01f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La joie illumine notre perception du monde, l'embellit de mille couleurs, et nous insuffle l'énergie d’aller de l’avant, le sourire au lèvres. Optimiste née, Rosa Maïtea<strong> <\/strong>s’engage avec passion pour une joaillerie responsable. Si notre bonne humeur est communicative, c’est parce que nous faisons de la joie notre boussole, guidant chacun de nos pas vers un avenir meilleur.<\/p>"
+          }
+        },
+        "661bd1f4-4934-4ae0-abcb-9b13007fdab8": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "a2bd12ec-3cec-47be-b003-66bc7c23fcfb",
+        "7c816968-30cf-4405-b782-e5d19c6ce01f",
+        "661bd1f4-4934-4ae0-abcb-9b13007fdab8"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
+        "is_reverse": false,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
     "1de8951e-cc53-47fa-9964-506c7bc6d3a6": {
       "type": "rosa-faq",
       "blocks": {
@@ -259,6 +399,10 @@
     "a9539caf-edb1-471f-9d6c-97b6a2b08a04",
     "f3072a74-e844-4c08-8050-2403211042ce",
     "b2d8975f-fc61-462b-a960-6d219334d501",
+    "82669973-c95a-4858-8d02-7658829e0a3d",
+    "3a31555a-cab7-4a74-8452-f23ec45fea73",
+    "e9f36cf8-17ab-497e-bbf9-92523d4b7d4f",
+    "d31f9635-6748-42df-99c0-7c3ae6412227",
     "1de8951e-cc53-47fa-9964-506c7bc6d3a6",
     "fa2ca636-a51a-4983-8c38-a10ba431017b",
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb",
