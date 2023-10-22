@@ -29,6 +29,9 @@ font: 500 16px/20px Montserrat !important;
 padding-bottom: 10px !important
 }
 
+.rosa-double-info-list-item-pic {
+height: 20px !important;
+}
 
 
 @media screen and (max-width: 480px) {
