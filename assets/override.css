@@ -36,10 +36,10 @@ height: 20px !important;
 
 @media screen and (max-width: 480px) {
 .collecton-list-item-title {
-  font: 14px/14px Montserrat !important;
+  font: 14px/16px Montserrat !important;
 }
 .rosa-collection-slider-item-title {
-  font: 14px/14px Montserrat !important;
+  font: 14px/16px Montserrat !important;
 }
 .rosa-collections-item-title {
   font: 14px/16px Montserrat !important;
