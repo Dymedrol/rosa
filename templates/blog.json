@@ -4,15 +4,15 @@
       "type": "image-banner",
       "settings": {
         "tag": "div",
-        "is_full_screen": true,
+        "is_full_screen": false,
         "alignment": "left",
         "text_color": "#ffffff",
         "image_banner_title_text": "<p>LOVE STORIES DE ROSA MAÏTEA<\/p>",
         "is_title_big": false,
         "image_banner_subtitle_text": "L'actualité de Rosa Maïtea que pour vous !",
         "is_text_big": false,
-        "image_banner_link_text": "EN SAVOIR PLUS",
-        "image_banner_link_url": "\/",
+        "image_banner_link_text": "",
+        "image_banner_link_url": "",
         "banner_image": "shopify:\/\/shop_images\/Groupe_347_2x_22f2e4da-ad31-404d-827e-f4835ae0613a.png",
         "banner_image_mobile": "shopify:\/\/shop_images\/Groupe_347_2x_22f2e4da-ad31-404d-827e-f4835ae0613a.png"
       }
