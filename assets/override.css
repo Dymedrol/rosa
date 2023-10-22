@@ -68,5 +68,9 @@ height: 20px !important;
 .mobile-facets__inner {
   width: 100%!important;
 }
+
+.no-js-hidden.button.button--primary {
+  font-size: 1rem!important;
+}
   
 }
