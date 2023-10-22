@@ -3,8 +3,8 @@
     "4ac02123-1612-4ceb-8786-a026ef0fa296": {
       "type": "image-banner",
       "settings": {
-        "tag": "div",
-        "is_full_screen": false,
+        "tag": "h1",
+        "is_full_screen": true,
         "alignment": "left",
         "text_color": "#ffffff",
         "image_banner_title_text": "<p>LOVE STORIES DE ROSA MAÏTEA<\/p>",
