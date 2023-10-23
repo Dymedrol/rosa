@@ -78,6 +78,16 @@ export const initPdp = () => {
             $(this).hide();
         }
     });
+
+    const container = document.getElementById("myCarousel");
+    const options = {
+      Dots: false,
+      Thumbs: {
+        type: "classic",
+      },
+    };
+
+    new Carousel(container, options, { Thumbs });
 }
 
 

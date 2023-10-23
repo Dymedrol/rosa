@@ -3409,6 +3409,27 @@ h1 {
     gap: 13px;
   }
 }
+@media ((min-width: 1200px)) {
+  .rosa-pdp-pics-mobile {
+    display: none !important;
+  }
+}
+.rosa-pdp-pics-mobile .f-button {
+  display: none;
+}
+@media ((min-width: 1200px)) {
+  .rosa-pdp-pics-mobile + .f-thumbs {
+    display: none !important;
+  }
+}
+.rosa-pdp-pics-desktop {
+  display: none;
+}
+@media ((min-width: 1200px)) {
+  .rosa-pdp-pics-desktop {
+    display: flex;
+  }
+}
 .rosa-pdp-pics-pic {
   display: block;
   width: 65px;
@@ -3425,6 +3446,7 @@ h1 {
 .rosa-pdp-pics-pic img {
   height: 100%;
   width: 100%;
+  object-fit: contain;
 }
 @media ((min-width: 1200px)) {
   .rosa-pdp-pics-pic img {

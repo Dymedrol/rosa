@@ -8,7 +8,16 @@
     <div class="rosa-pdp-content">
 
         <div class="rosa-pdp-col rosa-pdp-col1">
-            <div class="rosa-pdp-pics">
+
+            <div class="rosa-pdp-pics rosa-pdp-pics-mobile f-carousel" id="myCarousel">
+                {%- for media in product.media -%}
+                    <a href="{{ media | image_url: width: 2200 }}" class="rosa-pdp-pics-pic f-carousel__slide" data-fancybox="gallery" data-thumb-src="{{ media.preview_image | image_url: width: 65 }}">
+                        <img  srcset="{{ media.preview_image | image_url: width: 1100 }} 1x, {{ media.preview_image | image_url: width: 2200 }} 2x" src="{{ media.preview_image | image_url: width: 1100 }}" alt="">
+                    </a>
+                {%- endfor -%}
+            </div>
+
+            <div class="rosa-pdp-pics rosa-pdp-pics-desktop">
                 {%- for media in product.media -%}
                     <a href="{{ media | image_url: width: 2200 }}" data-fancybox="gallery" class="rosa-pdp-pics-pic">
                         <img srcset="{{ media.preview_image | image_url: width: 1100 }} 1x, {{ media.preview_image | image_url: width: 2200 }} 2x" src="{{ media.preview_image | image_url: width: 1100 }}" alt="">

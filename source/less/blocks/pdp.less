@@ -70,6 +70,31 @@
     }
 }
 
+.rosa-pdp-pics-mobile {
+
+    @media (@L) {
+        display: none !important;
+    }
+
+    & .f-button {
+        display: none;
+    }
+
+    & + .f-thumbs {
+        @media (@L) {
+            display: none !important;
+        }
+    }
+}
+
+.rosa-pdp-pics-desktop {
+    display: none;
+
+    @media (@L) {
+        display: flex;
+    }
+}
+
 .rosa-pdp-pics-pic {
     display: block;
     width: 65px;
@@ -85,6 +110,7 @@
     & img {
         height: 100%;
         width: 100%;
+        object-fit: contain;
 
         @media (@L) {
             aspect-ratio: 1 / 1;
