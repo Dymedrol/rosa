@@ -454,6 +454,7 @@ h1 {
 }
 .rosa-menu-logo-wrapper {
   font-size: 0;
+  width: 228px;
   max-width: 70%;
 }
 @media ((min-width: 1200px)) {
