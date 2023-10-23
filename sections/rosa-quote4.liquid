@@ -13,7 +13,7 @@
 {%- endstyle -%}
 
 <section class="rosa-quote4 container section-{{ section.id }}-padding">
-    <div class="rosa-quote4-text">{{ section.settings.text1 }}</div>
+    <{{ section.settings.tag }} class="rosa-quote4-text">{{ section.settings.text1 }}</{{ section.settings.tag }}>
     <div class="rosa-quote4-text2">{{ section.settings.text2 }}</div>
 </section>
 
@@ -27,6 +27,26 @@
     }
   ],
   "settings": [
+    {
+      "type": "select",
+      "id": "tag",
+      "label": "title tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "h1"
+        },
+        {
+          "value": "h2",
+          "label": "h2"
+        },
+        {
+          "value": "div",
+          "label": "none"
+        }
+      ],
+      "default": "div"
+    },
     {
       "type": "text",
       "id": "text1",

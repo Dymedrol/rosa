@@ -14,7 +14,7 @@
 
 <section class="rosa-header3 container section-{{ section.id }}-padding">
     <div class="rosa-header3-subtitle">{{ section.settings.text1 }}</div>
-    <div class="rosa-header3-title">{{ section.settings.text2 }}</div>
+    <{{ section.settings.tag }} class="rosa-header3-title">{{ section.settings.text2 }}</{{ section.settings.tag }}>
     <div class="rosa-header3-link">{{ section.settings.text3 }}</div>
 </section>
 
@@ -28,6 +28,26 @@
     }
   ],
   "settings": [
+    {
+      "type": "select",
+      "id": "tag",
+      "label": "title tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "h1"
+        },
+        {
+          "value": "h2",
+          "label": "h2"
+        },
+        {
+          "value": "div",
+          "label": "none"
+        }
+      ],
+      "default": "div"
+    },
     {
       "type": "text",
       "id": "text1",
