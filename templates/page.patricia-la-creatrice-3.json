@@ -10,6 +10,7 @@
     "48a3eb35-82c1-4835-8ed6-58ff58d72ff8": {
       "type": "rosa-header",
       "settings": {
+        "tag": "div",
         "text1": "LE SHOWROOM ROSA MAITEA",
         "text2": "Une expérience luxe hors du commun",
         "padding_top": 90,
@@ -101,6 +102,7 @@
     "3d7024d0-d6bc-4fe4-aaa5-98fa13a4cfd1": {
       "type": "rosa-quote5",
       "settings": {
+        "tag": "div",
         "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
         "text2": "PATRICIA - CRÉATRICE DE ROSA MAITEA",
         "padding_top": 45,
@@ -156,8 +158,9 @@
     "4016fdd0-0876-4da1-afe4-d71a6188c6b1": {
       "type": "rosa-header3",
       "settings": {
+        "tag": "div",
         "text1": "EXPÉRIENCE SPREAD LOVE",
-        "text2": "DES ESSAYAGES CONFIDENTIELS DANS UN SHOWROOM SECRET",
+        "text2": "DES ESSAYAGES CONFIDENTIELS DANS UN SHOWROOM SECRET",
         "text3": "",
         "padding_top": 90,
         "padding_bottom": 45
@@ -175,6 +178,7 @@
     "d946e715-3084-42cd-9331-b75fff4b2453": {
       "type": "rosa-header3",
       "settings": {
+        "tag": "div",
         "text1": "",
         "text2": "",
         "text3": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.<\/p>",
@@ -247,6 +251,7 @@
     "39ebf9c9-7997-4a70-91a3-5c921a459945": {
       "type": "rosa-header3",
       "settings": {
+        "tag": "div",
         "text1": "RÉSEAU SOCIAUX",
         "text2": "RETROSPECTIVE SPREAD LOVE",
         "text3": "<p>Nous rejoindre <a href=\"https:\/\/www.instagram.com\/rosa_maitea\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/rosa_maitea\/\"><strong>@rosamaitea<\/strong><\/a><\/p>",
@@ -318,6 +323,7 @@
       "type": "rosa-quote",
       "disabled": true,
       "settings": {
+        "tag": "div",
         "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
         "text2": "PATRICIA - CRÉATRICE DE ROSA MAITEA",
         "link_text": "link",
@@ -330,6 +336,7 @@
       "type": "rosa-quote2",
       "disabled": true,
       "settings": {
+        "tag": "div",
         "text1": "Notre objectif est d'apporter de la lumière et de la transparence à la joaillerie",
         "text2": "Nos créations sont respectueuses de l'environnement et d’êtres humains qui participent à leurs fabrication. J’ai la conviction, que nous pouvons contribuer à faire changer les choses. Bien sûr, ce ne sera pas parfait du jour au lendemain, les enjeux sont trop vastes, mais contribuer à plus de transparence c’est un premier pas, un premier rayon de soleil qui, je l’espère, se démultipliera.",
         "padding_top": 20,
@@ -420,6 +427,7 @@
       "type": "rosa-header2",
       "disabled": true,
       "settings": {
+        "tag": "div",
         "text1": "IL ÉTAIT UNE FOIS",
         "text2": "L’HISTOIRE DE ROSA MAITEA",
         "padding_top": 80,
@@ -440,6 +448,7 @@
       "type": "rosa-quote",
       "disabled": true,
       "settings": {
+        "tag": "div",
         "text1": "«Je vous raconterais l''histoire dans mon showroom autour d'un café ou d'une coupe de champagne ! »",
         "text2": "Patricia Pereda - Directrice artistique Rosa Maïtea",
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM PARISIEN",
