@@ -3680,9 +3680,12 @@ h1 {
   background: #000000;
   margin-top: 45px;
 }
+.fancybox__infobar {
+  display: none;
+}
 .fancybox__backdrop {
   display: block !important;
-  background: rgba(222, 222, 222, 0.9) !important;
+  background: #fff !important;
 }
 .rosa-cart {
   padding-top: 277px;
