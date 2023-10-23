@@ -115,6 +115,7 @@
     "f997dd8a-2291-4fc6-bedc-9faa72cbe9bc": {
       "type": "rosa-header",
       "settings": {
+        "tag": "div",
         "text1": "Des collections éthiques, une joaillerie engagée",
         "text2": "Les créations Rosa Maïtea perpétuent en beauté l’éclat de l’or, des diamants et des pierres fines en les upcyclant dans des créations à la beauté très actuelle.",
         "padding_top": 30,
@@ -324,6 +325,7 @@
     "9603023c-6e27-4890-b9e6-e92093169f5b": {
       "type": "rosa-header2",
       "settings": {
+        "tag": "div",
         "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
         "text2": "UNE MARQUE HUMAINE À VIVRE",
         "padding_top": 65,
@@ -342,8 +344,9 @@
     "b833affc-7703-42d3-b1d2-d0a348e47159": {
       "type": "rosa-quote",
       "settings": {
+        "tag": "div",
         "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun.»",
-        "text2": "Patricia Perreda - Directrice artistique Rosa Maitea",
+        "text2": "Patricia Pereda - Directrice artistique Rosa Maitea",
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM",
         "link_url": "shopify:\/\/pages\/prendre-rendez-vous",
         "padding_top": 50,
@@ -366,6 +369,7 @@
     "2da02395-1cac-422e-870f-a68533546811": {
       "type": "rosa-header3",
       "settings": {
+        "tag": "div",
         "text1": "RÉSEAU SOCIAUX",
         "text2": "RETROSPECTIVE SPREAD LOVE",
         "text3": "<p>Nous rejoindre <a href=\"https:\/\/www.instagram.com\/rosa_maitea\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/rosa_maitea\/\">@rosamaitea<\/a><\/p>",
