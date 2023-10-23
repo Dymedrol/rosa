@@ -1,5 +1,5 @@
 // Get all the <a> elements on the page
-const links = document.querySelectorAll('a');
+const links = document.querySelectorAll('.rosa-menu-open a');
 
 // Loop through the <a> elements
 for (const link of links) {
