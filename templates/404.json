@@ -1,10 +1,20 @@
 {
   "sections": {
     "main": {
-      "type": "main-404"
+      "type": "main-404",
+      "settings": {
+      }
+    },
+    "d9ecc0a2-23ee-48d8-bc1d-015e88714f1a": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#000000",
+        "is_static": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "d9ecc0a2-23ee-48d8-bc1d-015e88714f1a"
   ]
 }
