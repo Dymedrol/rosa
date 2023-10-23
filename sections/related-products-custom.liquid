@@ -1,0 +1,102 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section class="rosa-related-slider-custom section-{{ section.id }}-padding">
+    <div class="rosa-related-slider-custom-header container">
+        <div class="rosa-related-slider-custom-header-info">
+            <div class="rosa-related-slider-custom-header-info-text2">{{ section.settings.title1 }}</div>
+        </div>
+        <div class="rosa-related-slider-custom-header-nav">
+            <svg class="rosa-related-slider-custom-header-nav-arrow rosa-related-slider-custom-header-nav-arrow-prev" xmlns="http://www.w3.org/2000/svg" width="18.808" height="14.897" viewBox="0 0 18.808 14.897">
+              <g id="Groupe_172" data-name="Groupe 172" transform="translate(0.333 0.373)">
+                <line id="Ligne_4" data-name="Ligne 4" x1="18.474" transform="translate(0 7.076)" fill="none" stroke="#000" stroke-width="1"/>
+                <line id="Ligne_5" data-name="Ligne 5" x1="7.909" y2="7.076" transform="translate(0 0)" fill="none" stroke="#000" stroke-width="1"/>
+                <line id="Ligne_6" data-name="Ligne 6" x2="7.909" y2="7.076" transform="translate(0 7.076)" fill="none" stroke="#000" stroke-width="1"/>
+              </g>
+            </svg>
+            <svg class="rosa-related-slider-custom-header-nav-arrow rosa-related-slider-custom-header-nav-arrow-next" xmlns="http://www.w3.org/2000/svg" width="18.808" height="14.897" viewBox="0 0 18.808 14.897">
+              <g id="Groupe_173" data-name="Groupe 173" transform="translate(0 0.373)">
+                <line id="Ligne_4" data-name="Ligne 4" x2="18.474" transform="translate(0 7.076)" fill="none" stroke="#000" stroke-width="1"/>
+                <line id="Ligne_5" data-name="Ligne 5" x2="7.909" y2="7.076" transform="translate(10.565 0)" fill="none" stroke="#000" stroke-width="1"/>
+                <line id="Ligne_6" data-name="Ligne 6" x1="7.909" y2="7.076" transform="translate(10.565 7.076)" fill="none" stroke="#000" stroke-width="1"/>
+              </g>
+            </svg>
+        </div>
+    </div>
+
+    <div class="rosa-related-slider-custom-inner rosa-related-slider-custom-inner  owl-carousel">
+        {% for recommendation in section.settings.product_list %}
+
+          <a href="{{ recommendation.url }}" class="rosa-related-slider-custom-item">
+              <img src="{{ recommendation.featured_image | img_url: '436x406', crop: 'center' }}" alt="" class="rosa-related-slider-custom-item-pic">
+              <div class="rosa-related-slider-custom-item-title">{{ recommendation.title }}</div>
+              <div class="rosa-related-slider-custom-item-text">{{ recommendation.vendor }}</div>
+              <div class="rosa-related-slider-custom-item-price">{{ recommendation.price | money_without_trailing_zeros }}</div>
+              <div class="rosa-related-slider-custom-item-hover">
+                <img src="{{ recommendation.images[1] | img_url: '475x542', crop: 'center' }}" alt="" class="rosa-related-slider-custom-item-pic2">
+                <div  class="rosa-related-slider-custom-item-link">FICHE PRODUIT</div>
+              </div>
+          </a>
+
+        {% endfor %}
+    </div>
+
+</section>
+
+{% schema %}
+{
+  "name": "related slider custom",
+  "presets": [
+    {
+      "name": "related slider custom",
+      "category": "Custom"
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "title1",
+      "label": "title",
+      "default": "VOUS ALLEZ AUSSI AIMER :"
+    },
+    {
+      "type": "product_list",
+      "id": "product_list",
+      "label": "Products",
+      "limit": 12
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 45
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 45
+    }
+  ]
+}
+
+{% endschema %}
