@@ -1,5 +1,10 @@
 <section class="rosa-backgrounded">
-    <img src="{{ section.settings.image_mobile | img_url: '2732x1336', crop: 'center' }}" alt="" loading="lazy" class="rosa-backgrounded-pic-mobile">
+    {% if section.settings.image_mobile %}
+      <img src="{{ section.settings.image_mobile | img_url: '2732x1336', crop: 'center' }}" alt="" loading="lazy" class="rosa-backgrounded-pic-mobile">
+    {% else %}
+      <img src="{{ section.settings.image | img_url: '2732x1336', crop: 'center' }}" alt="" loading="lazy" class="rosa-backgrounded-pic-mobile">
+    {% endif %}
+
     <img src="{{ section.settings.image | img_url: '2732x1336', crop: 'center' }}" alt="" loading="lazy" class="rosa-backgrounded-pic">
 
     <div class="rosa-backgrounded-inner">
@@ -24,7 +29,7 @@
 
 {% schema %}
 {
-  "name": "rosa text this background",
+  "name": "rosa text with background",
   "presets": [
     {
       "name": "rosa text with background",
