@@ -209,7 +209,7 @@
             <div class="rosa-menu-nav-bottom">
                 <div class="rosa-menu-nav-bottom-links">
 
-                    {% for link in linklists.new-main-menu.links limit:4 %}
+                    {% for link in linklists.new-main-menu.links limit:6 %}
                         {% if link.links.size > 0 %}
                             <div class="rosa-menu-nav-item_arrow" data-button-undex="{{ forloop.index }}">
                                 <span>{{ link.title }}</span>
