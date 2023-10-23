@@ -3,6 +3,7 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
+        "tag": "h1"
       }
     },
     "d8bb61d6-b45a-423a-8958-92a188e81e4e": {

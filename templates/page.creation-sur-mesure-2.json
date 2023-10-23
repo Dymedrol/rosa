@@ -1,0 +1,409 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "237458dd-360c-4b77-b13f-be299496a576": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#ffffff",
+        "is_static": false
+      }
+    },
+    "d8037b2c-93f5-4ed8-8ab3-69c24ce46c15": {
+      "type": "image-banner",
+      "settings": {
+        "tag": "h1",
+        "is_full_screen": false,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "<p>CRÉATION SUR MESURE<\/p>",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "Faire revivre un  ancien bijou",
+        "is_text_big": false,
+        "image_banner_link_text": "",
+        "image_banner_link_url": "",
+        "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-111_1438e6cd-513b-4d62-9a2b-3189a9fa1de7.jpg"
+      }
+    },
+    "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5": {
+      "type": "rosa-quote",
+      "settings": {
+        "text1": "Qu’il soit un peu démodé, un peu oublié mais cher à votre cœur, qu’il soit un souvenir, un cadeau d’un être aimé ou simplement une jolie chose endormie, Rosa Maïtea le réinvente en beauté, et lui donne une nouvelle vie, un nouvel éclat. ",
+        "text2": "",
+        "link_text": "",
+        "link_url": "",
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "a9539caf-edb1-471f-9d6c-97b6a2b08a04": {
+      "type": "double",
+      "blocks": {
+        "12885c87-59cb-4326-9fcc-17f286f4f6e3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>1. CONTACTEZ-NOUS POUR PRENDRE RDV<\/strong><\/p>"
+          }
+        },
+        "0620a0d2-7a07-4416-a19a-63efa991f170": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Prenez RDV dans notre show-room parisien ou en visio pour nous présenter votre projet et réveiller vos anciens bijoux, ces petites bombes d’amour endormies à qui Patricia, la créatrice de Rosa Maïtea donnera une nouvelle vie.<\/p>"
+          }
+        },
+        "076c0977-c63c-4883-b8f1-65288eed9274": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nous vous confirmerons l’adresse et l’heure précise de votre RDV par retour de mail.<\/p>"
+          }
+        },
+        "6df88f96-3cdb-4da1-bdf8-4888e92115d0": {
+          "type": "link",
+          "settings": {
+            "link_text": "PRENDRE RENDEZ-VOUS",
+            "link_url": "shopify:\/\/pages\/prendre-rendez-vous"
+          }
+        }
+      },
+      "block_order": [
+        "12885c87-59cb-4326-9fcc-17f286f4f6e3",
+        "0620a0d2-7a07-4416-a19a-63efa991f170",
+        "076c0977-c63c-4883-b8f1-65288eed9274",
+        "6df88f96-3cdb-4da1-bdf8-4888e92115d0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-114.jpg",
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 45,
+        "padding_bottom": 0
+      }
+    },
+    "952089c7-230c-48a5-b568-b6914c981883": {
+      "type": "double",
+      "blocks": {
+        "96145a24-493b-4838-b53d-7b8ea11a653f": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>2.  PARLEZ NOUS DE VOS ENVIES, NOUS ÉTUDIONS VOTRE PROJET <\/strong><\/p>"
+          }
+        },
+        "b00f3928-c9b1-4f1a-b329-c54af0462ddf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lors de votre rencontre, Patricia va étudier avec soin l’état et les possibilités offertes par les gemmes qui composent votre bijou. N’hésitez pas à partager son histoire et à lui parler de sa valeur émotionnelle. Vous pouvez choisir de garder uniquement les éléments existants ou bien de rajouter des pierres fines traçables ou des diamants recyclés garantis par Rosa Maïtea. <\/p>"
+          }
+        },
+        "b6165588-dfb1-475e-bfed-740c466eb0a8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Patricia imaginera le plus beau des designs pour le réinventer. Votre bijou sera réalisé sur-mesure, uniquement pour vous.<\/p>"
+          }
+        },
+        "8a556c91-80f4-4807-8897-8eb7dc6d9817": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Des devis assortis de différentes propositions créatives sous forme de croquis, vous seront envoyés par mail dans les jours suivant votre RDV.<\/p><p><\/p><p>Vous pourrez joindre Patricia afin de poser toutes vos questions et lui confirmer la proposition de votre choix ou y apporter quelques modifications.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "96145a24-493b-4838-b53d-7b8ea11a653f",
+        "b00f3928-c9b1-4f1a-b329-c54af0462ddf",
+        "b6165588-dfb1-475e-bfed-740c466eb0a8",
+        "8a556c91-80f4-4807-8897-8eb7dc6d9817"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-110_84928ba1-3348-4832-97c0-5614c2dc89e1.jpg",
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "2e7689c0-e154-460c-9768-bb456202294d": {
+      "type": "double",
+      "blocks": {
+        "7ef07e35-a690-41d4-98a8-4a1304cee569": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>3. PATIENCE, VOUS ALLEZ RECEVOIR NOTRE PROPOSITION DE DESIGN EN 3D <\/strong><\/p>"
+          }
+        },
+        "fc45abf6-ec06-4646-95fb-afe1f21eb6a2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vous allez recevoir sous une à deux semaines, les premières images 3D de votre bijou.  Dites-nous ce que vous en pensez, par mail ou par téléphone, nous commencerons la fabrication dès réception de votre validation !<\/p>"
+          }
+        },
+        "4ccfc160-175c-4095-8bbb-3573c46f78b5": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "7ef07e35-a690-41d4-98a8-4a1304cee569",
+        "fc45abf6-ec06-4646-95fb-afe1f21eb6a2",
+        "4ccfc160-175c-4095-8bbb-3573c46f78b5"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_6543.jpg",
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 35,
+        "padding_bottom": 0
+      }
+    },
+    "340cfd99-15f9-4396-a713-e8d4dfe6caf7": {
+      "type": "double",
+      "blocks": {
+        "edfaf509-8198-4878-8dac-cd6745b83eaa": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>4. VOTRE BIJOU SUR-MESURE, PETITE BOMBE D'AMOUR ÉCO-RESPONSABLE EST EN COURS DE FABRICATION <\/strong><\/p>"
+          }
+        },
+        "9cd9bae2-516f-452e-9f3a-c6fc18596f53": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pour une pièce unique Rosa Maïtea, comptez environ 6 semaines de fabrication une fois la conception 3D choisie. Une fois la pièce terminée et vérifiée par les soins de Patricia, nous vous contacterons, pour vous la présenter. <\/p>"
+          }
+        },
+        "01828e1a-d84e-47c9-a6f4-a51f8b0b816b": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "edfaf509-8198-4878-8dac-cd6745b83eaa",
+        "9cd9bae2-516f-452e-9f3a-c6fc18596f53",
+        "01828e1a-d84e-47c9-a6f4-a51f8b0b816b"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ATELIERS.png",
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "b2d8975f-fc61-462b-a960-6d219334d501": {
+      "type": "double",
+      "blocks": {
+        "044de56b-3510-4522-a41e-36063756c9d4": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>5. REDÉCOUVREZ VOTRE BIJOU : NOUVEAU LOOK, ÉMOTION INTACTE<\/strong><\/p>"
+          }
+        },
+        "406eb290-02dc-40ef-8b1c-5d801d393bb8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Selon vos préférences, vous serez bienvenus au show-room pour découvrir votre bijou, mais nous pouvons également vous le faire parvenir à votre adresse par envoi assuré et sécurisé, sous 48h, et remis contre signature. <\/p>"
+          }
+        },
+        "f81faf11-05b4-40ac-80b1-5a2b64fa5b44": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Votre bijou vous sera remis dans un bel écrin recyclé accompagné d’un certificat d’authenticité Rosa Maïtea.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "044de56b-3510-4522-a41e-36063756c9d4",
+        "406eb290-02dc-40ef-8b1c-5d801d393bb8",
+        "f81faf11-05b4-40ac-80b1-5a2b64fa5b44"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-113.jpg",
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "f3072a74-e844-4c08-8050-2403211042ce": {
+      "type": "rosa-quote4",
+      "disabled": true,
+      "settings": {
+        "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
+        "text2": "",
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "1de8951e-cc53-47fa-9964-506c7bc6d3a6": {
+      "type": "rosa-faq",
+      "blocks": {
+        "a71b233c-abcb-4ce2-83b0-e9e0d6ec0dca": {
+          "type": "faq",
+          "settings": {
+            "title": "COMBIEN DE TEMPS DURE LE PROJET",
+            "text": "<p>Entre 3 et 4 mois<\/p>"
+          }
+        },
+        "cc111573-5ae2-4010-b337-98c611cc7cde": {
+          "type": "faq",
+          "settings": {
+            "title": "Est-ce que on peut rajouter d'autres pierres en plus ?",
+            "text": "<p>Bien sur, si le design le veut on peut rajouter des diamants et d'autres pierres qui ne font pas partie de vos bijoux. <\/p>"
+          }
+        },
+        "b4c383fc-a920-4d4d-8954-f6a94b38ea2a": {
+          "type": "faq",
+          "settings": {
+            "title": "Est-ce que mon bijou sera unique ?",
+            "text": "<p>Complètement unique !<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "a71b233c-abcb-4ce2-83b0-e9e0d6ec0dca",
+        "cc111573-5ae2-4010-b337-98c611cc7cde",
+        "b4c383fc-a920-4d4d-8954-f6a94b38ea2a"
+      ],
+      "settings": {
+        "title": "D'autres questions ?",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "5c24a79d-90ff-4c6c-af19-0b0e08247086": {
+      "type": "rosa-double-link",
+      "settings": {
+        "link1_text": "CONTACTEZ-NOUS",
+        "link1_url": "shopify:\/\/pages\/contact",
+        "link2_text": "",
+        "link2_url": "\/",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "fa2ca636-a51a-4983-8c38-a10ba431017b": {
+      "type": "rosa-picture-slider",
+      "blocks": {
+        "fe43283f-3c04-4a05-8738-70fcd481d93b": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg"
+          }
+        },
+        "6d44e858-7b34-4a1c-b025-1bfef2fa9f59": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2023-08-04.jpg"
+          }
+        },
+        "a5d5ee87-561e-4670-b3cb-10875516ff20": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/42.jpg"
+          }
+        },
+        "83edf634-a541-48ca-b04d-8ee9e2230a31": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4-6.jpg"
+          }
+        },
+        "aebe5553-6e0a-434b-beda-1b96977d9375": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/web-ROSA_MAITEA36775.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "fe43283f-3c04-4a05-8738-70fcd481d93b",
+        "6d44e858-7b34-4a1c-b025-1bfef2fa9f59",
+        "a5d5ee87-561e-4670-b3cb-10875516ff20",
+        "83edf634-a541-48ca-b04d-8ee9e2230a31",
+        "aebe5553-6e0a-434b-beda-1b96977d9375"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": 70,
+        "padding_bottom": 55
+      }
+    },
+    "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb": {
+      "type": "rosa-header2",
+      "disabled": true,
+      "settings": {
+        "text1": "SUR-TITRE ICI",
+        "text2": "LE TITRE DE LA VIDÉO SUIVANTE",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "765f2c93-3054-44d3-b881-24dffee4392e": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/Image_2x_aa32a290-a23e-4f1e-9962-faab371765cc.jpg",
+        "description": ""
+      }
+    },
+    "2c729952-939d-43ff-9b51-18cd9b10cd88": {
+      "type": "rosa-socials",
+      "blocks": {
+        "39f793d3-34d2-4ba8-885e-f0d8ff578ba6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_zocial-facebook_2x_ff9ce30e-cb83-419f-8956-7b330b87b5bb.png",
+            "url": "https:\/\/www.facebook.com\/RosaMaitea\/"
+          }
+        },
+        "9594b2d0-3b22-427e-ace0-5065d21be64c": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_awesome-instagram_2x_0e007b22-1811-49b5-81d7-27b78e9ec21f.png",
+            "url": "https:\/\/www.instagram.com\/rosa_maitea\/"
+          }
+        }
+      },
+      "block_order": [
+        "39f793d3-34d2-4ba8-885e-f0d8ff578ba6",
+        "9594b2d0-3b22-427e-ace0-5065d21be64c"
+      ],
+      "settings": {
+        "title": "Partager",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    }
+  },
+  "order": [
+    "main",
+    "237458dd-360c-4b77-b13f-be299496a576",
+    "d8037b2c-93f5-4ed8-8ab3-69c24ce46c15",
+    "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5",
+    "a9539caf-edb1-471f-9d6c-97b6a2b08a04",
+    "952089c7-230c-48a5-b568-b6914c981883",
+    "2e7689c0-e154-460c-9768-bb456202294d",
+    "340cfd99-15f9-4396-a713-e8d4dfe6caf7",
+    "b2d8975f-fc61-462b-a960-6d219334d501",
+    "f3072a74-e844-4c08-8050-2403211042ce",
+    "1de8951e-cc53-47fa-9964-506c7bc6d3a6",
+    "5c24a79d-90ff-4c6c-af19-0b0e08247086",
+    "fa2ca636-a51a-4983-8c38-a10ba431017b",
+    "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb",
+    "765f2c93-3054-44d3-b881-24dffee4392e",
+    "2c729952-939d-43ff-9b51-18cd9b10cd88"
+  ]
+}

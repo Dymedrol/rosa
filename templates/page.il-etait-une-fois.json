@@ -1,0 +1,256 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "237458dd-360c-4b77-b13f-be299496a576": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#ffffff",
+        "is_static": false
+      }
+    },
+    "d8037b2c-93f5-4ed8-8ab3-69c24ce46c15": {
+      "type": "image-banner",
+      "settings": {
+        "tag": "h1",
+        "is_full_screen": false,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "<p>IL ÉTAIT UNE FOIS...<\/p>",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "LA NAISSANCE DE ROSA MAÏTEA",
+        "is_text_big": false,
+        "image_banner_link_text": "",
+        "image_banner_link_url": "",
+        "banner_image": "shopify:\/\/shop_images\/2-4.jpg"
+      }
+    },
+    "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5": {
+      "type": "rosa-quote",
+      "settings": {
+        "text1": "\" Ce jour-là, j’ai su que la beauté véritable naît de l'amour et du respect. Aucun objet ne peut prétendre à la beauté s'il n'est pas conçu avec une profonde considération pour les hommes et les femmes qui contribuent à sa création. Quant à la nature, source de toute vie, nous lui devons un respect inconditionnel \"",
+        "text2": "",
+        "link_text": "",
+        "link_url": "",
+        "padding_top": 65,
+        "padding_bottom": 0
+      }
+    },
+    "a9539caf-edb1-471f-9d6c-97b6a2b08a04": {
+      "type": "double",
+      "blocks": {
+        "c1f9f342-3a79-48a1-a6ab-f84c104f8a1e": {
+          "type": "heading",
+          "settings": {
+            "heading1": "LA NAISSANCE DE LA MARQUE",
+            "heading2": "IL ETAIT UNE FOIS.... ROSA MAÏTEA"
+          }
+        },
+        "0620a0d2-7a07-4416-a19a-63efa991f170": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En tant que directrice de l’offre et de l’image d’une belle marque de joaillerie, j'avais la mission de remettre cette marque dans l’air du temps. <\/p><p>Nous lancions beaucoup de collections, près de 12 par an. Pour nous fournir en matières premières nous allions à <strong>Bangkok <\/strong>acheter des pierres précieuses, en <strong>Inde<\/strong> des pierres de couleurs, à <strong>Anvers <\/strong>des diamants, et au <strong>Japon <\/strong>des perles… <\/p><p>Du beau travail, vraiment intéressant et une équipe au top ! Personne ne se posait de questions sur l’origine des pierres et j’étais heureuse de créer de la beauté. <\/p>"
+          }
+        },
+        "076c0977-c63c-4883-b8f1-65288eed9274": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tout a basculé le jour où j’ai été invitée à une conférence de l’<a href=\"https:\/\/www.carefrance.org\/\"><span style=\"text-decoration:underline\">Association Care<\/span><\/a>. Ce jour-là, j’ai découvert la réalité des conditions de travail dans les mines de rubis à Madagascar et au Sri Lanka. Dans ces mines dites artisanales, des hommes et des femmes extraient des pierres de la roche, immergés, de l’eau jusqu’à la taille. Ils travaillent dans des conditions insupportables, en utilisant des produits toxiques contenant des métaux lourds comme le mercure, pour une rémunération misérable. <\/p><p>Ces mines, gigantesques cratères à ciel ouvert défigurant l’environement naturel abritent en outre tous les traffics : drogue, prostitution, esclavage…   <\/p>"
+          }
+        },
+        "f5edfb25-27c0-4da9-ae6a-6d9bb2bee897": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Forte de cette prise de conscience, j'ai entrepris de réinventer notre chaîne d'approvisionnement, mais il est vite devenu évident que le marché n'était pas encore prêt pour cette révolution. <\/p><p>La quête de fournisseurs responsables et le désir de rendre la création de bijoux plus respectueuse de l'environnement se sont avérés être des défis redoutables. <\/p><p>L’issue ? M’affranchir autant que possible de toutes ces contraintes en créant ma propre marque…. <strong>Et ainsi naquit Rosa Maïtea. <\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "c1f9f342-3a79-48a1-a6ab-f84c104f8a1e",
+        "0620a0d2-7a07-4416-a19a-63efa991f170",
+        "076c0977-c63c-4883-b8f1-65288eed9274",
+        "f5edfb25-27c0-4da9-ae6a-6d9bb2bee897"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_7311.jpg",
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "4de1ac90-e57f-4e25-8ed8-28dfc0b1e0b4": {
+      "type": "double",
+      "blocks": {
+        "b6f0de73-71da-4153-add4-cffc8432ddee": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading1": "LA NAISSANCE DE LA MARQUE",
+            "heading2": "IL ETAIT UNE FOIS.... ROSA MAÏTEA"
+          }
+        },
+        "2bd50692-d22f-4f4a-9bdb-193e3666b0fa": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Rosa<\/strong> comme le prénom de ma mère, car c’est au moment où naissait en moi l’idée de créer une marque de joaillerie durable qu’elle nous a quittés, en janvier 2020. <strong>Maïtea<\/strong> signifie « la bien aimée » en basque. Rosa Maïtea est donc nommée en  hommage à ma mère et à toutes les mères du monde. <\/p>"
+          }
+        },
+        "dbb9a09f-646b-43fa-8604-4decd75706d5": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rosa Maïtea m’a permis d’être libre et totalement indépendante pour conduire cet ambitieux projet :  transformer les pratiques de la joaillerie, de façon à influencer positivement un marché en mutation. J'ai pris des décisions cruciales concernant les matières premières que j'utilisais, optant pour de l'or et des diamants recyclés, ainsi que pour des pierres précieuses 100% traçables. J'ai également adapté mes créations en les imaginant à partir des tailles et des formes de diamants existants. Certes, cela a entraîné des coûts plus élevés et des délais de fabrication plus longs, mais je ne reviendrai pas en arrière. <\/p>"
+          }
+        },
+        "912cd165-462c-4988-9b45-a22fa0d5203b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En relevant ces différents défis, Rosa Maitea est fière de contribuer à la création d'un monde meilleur. Chacun de nos bijoux éco-responsables incarne notre engagement pour une planète préservée et pour des conditions de travail durables. Plus qu'une marque, Rosa Maïtea<strong> <\/strong>est une vision et la promesse d’une beauté éthique à l'impact positif.<\/p>"
+          }
+        },
+        "449116a5-448e-4077-938a-2ce6a5142ca2": {
+          "type": "link",
+          "settings": {
+            "link_text": "link text",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "b6f0de73-71da-4153-add4-cffc8432ddee",
+        "2bd50692-d22f-4f4a-9bdb-193e3666b0fa",
+        "dbb9a09f-646b-43fa-8604-4decd75706d5",
+        "912cd165-462c-4988-9b45-a22fa0d5203b",
+        "449116a5-448e-4077-938a-2ce6a5142ca2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Logo_Coeur_6.png",
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 45,
+        "padding_bottom": 0
+      }
+    },
+    "f3072a74-e844-4c08-8050-2403211042ce": {
+      "type": "rosa-quote4",
+      "disabled": true,
+      "settings": {
+        "text1": "\" Mais derrière tous ces défis nous sommes très fiers de contribuer à créer un monde meilleur \"",
+        "text2": "",
+        "padding_top": 45,
+        "padding_bottom": 0
+      }
+    },
+    "fa2ca636-a51a-4983-8c38-a10ba431017b": {
+      "type": "rosa-picture-slider",
+      "blocks": {
+        "fe43283f-3c04-4a05-8738-70fcd481d93b": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-110_84928ba1-3348-4832-97c0-5614c2dc89e1.jpg"
+          }
+        },
+        "6d44e858-7b34-4a1c-b025-1bfef2fa9f59": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/32.jpg"
+          }
+        },
+        "a5d5ee87-561e-4670-b3cb-10875516ff20": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Coeur_Saint_Valentin_51f121ea-f4ed-4781-8c06-a7426a137e75.jpg"
+          }
+        },
+        "83edf634-a541-48ca-b04d-8ee9e2230a31": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1980.jpg"
+          }
+        },
+        "aebe5553-6e0a-434b-beda-1b96977d9375": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-114.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "fe43283f-3c04-4a05-8738-70fcd481d93b",
+        "6d44e858-7b34-4a1c-b025-1bfef2fa9f59",
+        "a5d5ee87-561e-4670-b3cb-10875516ff20",
+        "83edf634-a541-48ca-b04d-8ee9e2230a31",
+        "aebe5553-6e0a-434b-beda-1b96977d9375"
+      ],
+      "settings": {
+        "padding_top": 55,
+        "padding_bottom": 55
+      }
+    },
+    "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb": {
+      "type": "rosa-header2",
+      "settings": {
+        "text1": "the reason why",
+        "text2": "LE MANIFESTO DE ROSA MAÏTEA",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "765f2c93-3054-44d3-b881-24dffee4392e": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=H-iCgfPBpxA",
+        "cover_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-117_8be81dd2-0e39-45c0-a6a4-0427761c5052.jpg",
+        "description": ""
+      }
+    },
+    "2c729952-939d-43ff-9b51-18cd9b10cd88": {
+      "type": "rosa-socials",
+      "blocks": {
+        "39f793d3-34d2-4ba8-885e-f0d8ff578ba6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_zocial-facebook_2x_ff9ce30e-cb83-419f-8956-7b330b87b5bb.png",
+            "url": "https:\/\/www.facebook.com\/RosaMaitea\/"
+          }
+        },
+        "9594b2d0-3b22-427e-ace0-5065d21be64c": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_awesome-instagram_2x_0e007b22-1811-49b5-81d7-27b78e9ec21f.png",
+            "url": "https:\/\/www.instagram.com\/rosa_maitea\/"
+          }
+        }
+      },
+      "block_order": [
+        "39f793d3-34d2-4ba8-885e-f0d8ff578ba6",
+        "9594b2d0-3b22-427e-ace0-5065d21be64c"
+      ],
+      "settings": {
+        "title": "Partager",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    }
+  },
+  "order": [
+    "main",
+    "237458dd-360c-4b77-b13f-be299496a576",
+    "d8037b2c-93f5-4ed8-8ab3-69c24ce46c15",
+    "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5",
+    "a9539caf-edb1-471f-9d6c-97b6a2b08a04",
+    "4de1ac90-e57f-4e25-8ed8-28dfc0b1e0b4",
+    "f3072a74-e844-4c08-8050-2403211042ce",
+    "fa2ca636-a51a-4983-8c38-a10ba431017b",
+    "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb",
+    "765f2c93-3054-44d3-b881-24dffee4392e",
+    "2c729952-939d-43ff-9b51-18cd9b10cd88"
+  ]
+}

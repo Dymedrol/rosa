@@ -3,6 +3,7 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
+        "tag": "h1"
       }
     },
     "a18dc5c5-a2f5-49a0-a34f-c01a3a927197": {
@@ -11,7 +12,7 @@
         "text1": "Ravissantes chaînes en or recyclé, les bracelets éco-responsables Rosa Maïtea sont constellés de diamants recyclés montés en solitaires ou en étoiles. Ils se portent aussi bien seuls, en accumulation ou avec tous vos autres bracelets.",
         "text2": "",
         "link_text": "",
-        "link_url": "\/",
+        "link_url": "",
         "padding_top": 80,
         "padding_bottom": 0
       }
@@ -66,7 +67,7 @@
         "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rosa_Maitea_boucle_doreilles_cascade_detoiles_labonne_etoile_diamants_spread_love.jpg",
+        "image": "shopify:\/\/shop_images\/rosa_Maitea_joaillerie_ethique_en_or_18_carats_recycle_et_diamants_recycles.jpg",
         "is_reverse": false,
         "is_centred": true,
         "padding_top": 30,

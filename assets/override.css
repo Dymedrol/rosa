@@ -1,3 +1,76 @@
 .rosa-blogs-page-title {
   display:none!important;
 }
+
+.page-title {
+text-align: center !important;
+padding-top: 90px !important;
+text-transform: uppercase !important;
+}
+
+}
+.rosa-blogs-header-subtitle {
+font: 500 16px/20px Montserrat !important;
+padding-bottom: 10px !important;
+}
+
+.rosa-header2-subtitle {
+font: 500 16px/20px Montserrat !important;
+padding-bottom: 10px !important;
+}
+
+.rosa-blogs-header-subtitle {
+font: 500 16px/20px Montserrat !important;
+padding-bottom: 10px !important;
+}
+
+.rosa-collection-slider2-info-text1 {
+font: 500 16px/20px Montserrat !important;
+padding-bottom: 10px !important
+}
+
+.rosa-double-info-list-item-pic {
+height: 20px !important;
+}
+
+
+@media screen and (max-width: 480px) {
+.collecton-list-item-title {
+  font: 14px/16px Montserrat !important;
+}
+.rosa-collection-slider-item-title {
+  font: 14px/16px Montserrat !important;
+}
+.rosa-collections-item-title {
+  font: 14px/16px Montserrat !important;
+}
+
+.rosa-double-info-inner {
+  max-width: 100% !important;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.rosa-collection-slider2-info {
+  max-width: 100% !important;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.collection.page-width {
+  padding: 0!important;
+}
+
+.mobile-facets__label {
+  padding: 1.5rem 2rem 0rem 2.5rem !important;
+}
+
+.mobile-facets__inner {
+  width: 100%!important;
+}
+
+.no-js-hidden.button.button--primary {
+  font-size: 1rem!important;
+}
+  
+}

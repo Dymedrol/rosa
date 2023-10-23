@@ -13,6 +13,7 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
+        "tag": "h1"
       }
     },
     "fb91555e-2e70-4b71-be1d-ddabcc164bb5": {

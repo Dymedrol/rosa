@@ -20,7 +20,7 @@
         "image_banner_subtitle_text": "",
         "is_text_big": false,
         "image_banner_link_text": "",
-        "image_banner_link_url": "\/",
+        "image_banner_link_url": "",
         "banner_image": "shopify:\/\/shop_images\/Groupe_175_2x_d86833ec-58e3-4f65-a891-8fe1984f52e3.png"
       }
     },
@@ -36,10 +36,10 @@
     "e496dc6b-59cf-4d1c-8bee-d87875cbdd09": {
       "type": "rosa-quote3",
       "settings": {
-        "text1": "MISE À TAILLE ROSA MAITEA",
+        "text1": "MISE À TAILLE OFFERTE",
         "text2": "",
         "padding_top": 0,
-        "padding_bottom": 35
+        "padding_bottom": 20
       }
     },
     "789667e1-b6a9-4c7e-a974-b3b8bf0ac6a3": {
@@ -55,19 +55,28 @@
       "type": "rosa-quote2",
       "settings": {
         "text1": "",
-        "text2": "Suspendisse a ex lacus. Vivamus quis eros sit amet nisi faucibus aliquam. Donec vitae mattis risus. Curabitur neque magna, ornare non erat sit amet,.",
-        "padding_top": 45,
-        "padding_bottom": 45
+        "text2": "Vous ne savez pas comment mesurer votre taille de doigt ? Si en achetant sur notre site une bague vous vous étés trompé de taille ? surtout  ne vous inquiétez pas car nous allons trouver une solution pour vous.",
+        "padding_top": 35,
+        "padding_bottom": 0
+      }
+    },
+    "ae189300-c6d3-4c78-a626-e897c99b904c": {
+      "type": "rosa-quote2",
+      "settings": {
+        "text1": "",
+        "text2": "Nous vous enverrons une etiquette colissimo pour le retour de la bague, nous allons la mettre a la taille et vous la renvoie dans un délais de maximum 15 jours.",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "476d1fa8-f37f-413c-b44e-92c4e1190977": {
       "type": "rosa-double-link",
       "settings": {
-        "link1_text": "EN SAVOIR PLUS",
+        "link1_text": "",
         "link1_url": "\/",
         "link2_text": "NOUS CONTACTER",
         "link2_url": "\/",
-        "padding_top": 0,
+        "padding_top": 35,
         "padding_bottom": 75
       }
     },
@@ -78,27 +87,27 @@
           "type": "heading",
           "settings": {
             "heading1": "",
-            "heading2": "CRÉATION SUR-MESURE"
+            "heading2": "REDESIGN D'UN BIJOU ANCIEN"
           }
         },
         "f86c7c0c-c588-4828-91cf-2ffe867ada45": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.<\/p>"
+            "text": "<p>Qu’il soit un peu démodé, un peu oublié mais cher à votre cœur, qu’il soit un souvenir, un cadeau d’un être aimé ou simplement une jolie chose endormie, Rosa Maïtea le réinvente en beauté, et lui donne une nouvelle vie, un nouvel éclat. <\/p>"
           }
         },
         "51957528-4714-4966-bc8d-c630babb7d21": {
           "type": "link",
           "settings": {
-            "link_text": "EN SAVOIR PLUS",
-            "link_url": ""
+            "link_text": "En savoir plus",
+            "link_url": "shopify:\/\/pages\/creation-sur-mesure"
           }
         },
         "9f04539e-7912-4705-9429-63a9e94cf307": {
           "type": "link",
           "settings": {
             "link_text": "PRENDRE RENDEZ-VOUS",
-            "link_url": ""
+            "link_url": "shopify:\/\/pages\/prendre-rendez-vous"
           }
         }
       },
@@ -123,19 +132,19 @@
           "type": "heading",
           "settings": {
             "heading1": "",
-            "heading2": "REDESIGN D’UN ANCIEN BIJOU"
+            "heading2": "CRÉATION SUR-MESURE"
           }
         },
         "6de1aad1-4bbd-4934-91d7-3df7b755e977": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.<\/p>"
+            "text": "<p>Nos collections Tourbillon, Arcoiris et La Favorite sont customisables et peuvent être composées avec les couleurs de pierres de votre choix. Prenez RDV <span style=\"text-decoration:underline\">ici<\/span> (lien actif) pour venir choisir les pierres aux couleurs de vos rêves. <\/p>"
           }
         },
         "b199ddc7-e318-418a-a3e3-7aa44eb125d5": {
           "type": "link",
           "settings": {
-            "link_text": "EN SAVOIR PLUS",
+            "link_text": "",
             "link_url": ""
           }
         },
@@ -154,7 +163,7 @@
         "0291ac80-5be9-4763-b19b-c4d107dde87f"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Groupe_319_2x_449b5c14-cf6d-407a-9779-2bb58b4381a0.png",
+        "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-114.jpg",
         "is_reverse": false,
         "is_centred": true,
         "padding_top": 0,
@@ -174,20 +183,20 @@
         "577d1247-e8fc-4a1d-8e3b-03f68e9f80cf": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.<\/p>"
+            "text": "<p>Les bijoux Rosa Maïtea  sont<strong> garantis deux<\/strong> ans après leur achat. Nous vous proposons de les réparer s'ils se cassent ou si ils perdent une pierre dans la limite de cette garantie. <\/p><p><br\/><\/p><p>Ces services sont accessibles uniquement sur RDV et la remise des pièces à réparer se fait en main propre à Paris ou par colissimo en dehors de Paris.<\/p>"
           }
         },
         "328d028b-e38e-4d39-a41b-8a8c0cfe2890": {
           "type": "link",
           "settings": {
-            "link_text": "EN SAVOIR PLUS",
+            "link_text": "",
             "link_url": ""
           }
         },
         "dc128fd2-219e-4cab-8e9d-7391c3c455b0": {
           "type": "link",
           "settings": {
-            "link_text": "PRENDRE RENDEZ-VOUS",
+            "link_text": "NOUS CONTACTER",
             "link_url": ""
           }
         }
@@ -208,6 +217,7 @@
     },
     "6b98f65d-98ab-42bd-acb7-d3288b2c0a03": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "tag": "div",
         "is_full_screen": false,
@@ -228,32 +238,32 @@
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Icon_material-local-shipping_2x_2cdf7ca6-971b-4b3c-afef-87e9edb4ba4a.png",
-            "text1": "LIVRAISON OFFERTE LOREM IPSUM",
-            "text2": "Suspendisse a ex lacus. Vivamus quis eros sit amet."
+            "text1": "LIVRAISON OFFERTE",
+            "text2": "Partout en France et dans toute l'Union européenne"
           }
         },
         "78b9a805-9c20-4a08-bf75-9d0bbd65f508": {
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Icon_open-credit-card_2x_3cedf885-c3e5-458f-9243-e46fe9b92761.png",
-            "text1": "SÉCURITÉ BANCAIRE LOREM IPSUM",
-            "text2": "Suspendisse a ex lacus. Vivamus quis eros sit amet."
+            "text1": "SÉCURITÉ BANCAIRE",
+            "text2": "Grâce a nos partenaires STRIPE et PAYPAL"
           }
         },
         "34083cf9-b604-4372-bde5-0c392a3b0404": {
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Icon_awesome-heart_2x_996b6797-3187-432c-8e3f-8042e0406921.png",
-            "text1": "SATISFAIT OU REMBOURSÉ",
-            "text2": "Suspendisse a ex lacus. Vivamus quis eros sit amet."
+            "text1": "RETOUR GRATUITS",
+            "text2": "Dans un délai de 14 jours après réception du bijou"
           }
         },
         "3cf1a19b-f02b-4127-befe-8176d0c8a7f2": {
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Trace_223_2x_ad984d2d-02db-40d4-a193-14d766f55a68.png",
-            "text1": "RÉPARATIONS LOREM IPSUM",
-            "text2": "Suspendisse a ex lacus. Vivamus quis eros sit amet."
+            "text1": "2 ANS DE GARANTIE",
+            "text2": "Pour vises de fabrication"
           }
         }
       },
@@ -264,8 +274,8 @@
         "3cf1a19b-f02b-4127-befe-8176d0c8a7f2"
       ],
       "settings": {
-        "padding_top": 45,
-        "padding_bottom": 0
+        "padding_top": 95,
+        "padding_bottom": 90
       }
     },
     "b48ab1fe-3911-4db3-9e9a-dcf51a8bf188": {
@@ -283,6 +293,7 @@
     "e496dc6b-59cf-4d1c-8bee-d87875cbdd09",
     "789667e1-b6a9-4c7e-a974-b3b8bf0ac6a3",
     "d74bc6ba-55d1-4378-b52c-11ab222891c9",
+    "ae189300-c6d3-4c78-a626-e897c99b904c",
     "476d1fa8-f37f-413c-b44e-92c4e1190977",
     "832bbc0e-b6af-42fe-b2e3-cff8bef04be7",
     "89163613-924f-42ad-b20e-fe2ca9ab2d98",

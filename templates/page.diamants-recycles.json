@@ -1,0 +1,378 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "237458dd-360c-4b77-b13f-be299496a576": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#ffffff",
+        "is_static": false
+      }
+    },
+    "d8037b2c-93f5-4ed8-8ab3-69c24ce46c15": {
+      "type": "image-banner",
+      "settings": {
+        "tag": "h1",
+        "is_full_screen": false,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "<p>LES DIAMANTS RECYCLÉS PAR ROSA MAÏTEA<\/p>",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "",
+        "is_text_big": false,
+        "image_banner_link_text": "",
+        "image_banner_link_url": "",
+        "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-109.jpg"
+      }
+    },
+    "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5": {
+      "type": "rosa-quote",
+      "settings": {
+        "text1": "Les diamants sont éternels mais ils ne sont pas inépuisables. Leur formation géologique au cœur de la terre demande plusieurs milliards d’années, et le rythme de la demande mondiale épuise les ressources disponibles.",
+        "text2": "Rosa Maïtea s’engage pour une joaillerie durable en recyclant des diamants provenant de bijoux existants. Certes le design de nos bijoux doit s’adapter aux formes et aux tailles des diamants disponibles, mais nous faisons de cette contrainte un challenge créatif pour vous offrir une nouvelle vision du diamant, magnifiée par l’authenticité de notre engagement. “Les diamants  recyclés Rosa Maïtea respectent la nature et l’humanité\"                                    ",
+        "link_text": "Découvrez les différentes étapes du recyclage des diamants:",
+        "link_url": "",
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "a9539caf-edb1-471f-9d6c-97b6a2b08a04": {
+      "type": "double",
+      "blocks": {
+        "12885c87-59cb-4326-9fcc-17f286f4f6e3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>L’origine des diamants<\/strong><\/p>"
+          }
+        },
+        "0620a0d2-7a07-4416-a19a-63efa991f170": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A l’origine de notre démarche, nous avons initié un partenariat avec notre atelier fabricant pour créer une véritable filière d’upcycling.  Les diamants des bijoux invendus ou cassés retournés à l’atelier sont upcyclés afin de donner à ces gemmes qui n’ont rien perdu de leur beauté  une nouvelle vie ! <\/p>"
+          }
+        },
+        "076c0977-c63c-4883-b8f1-65288eed9274": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "12885c87-59cb-4326-9fcc-17f286f4f6e3",
+        "0620a0d2-7a07-4416-a19a-63efa991f170",
+        "076c0977-c63c-4883-b8f1-65288eed9274"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_7619_2.jpg",
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "9051c441-1b8f-4b41-9a56-55ab590e8bf6": {
+      "type": "double",
+      "blocks": {
+        "89a7b0af-fad4-4f36-98a0-9470b2c06eb9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Le “déssertissage”: un geste de précision<\/strong><\/p>"
+          }
+        },
+        "16cd9a22-e03c-4f0a-84d5-13230cb5b6b1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorsque ces bijoux nous parviennent, nous préservons soigneusement leur or et leurs diamants. Nous récupérons soigneusement les diamants en les déssertissant avec soin.  L'éclat et la pureté des diamants restent inaltérés, car ils sont constitués de carbone, la matière naturelle la plus robuste au monde.<\/p>"
+          }
+        },
+        "100ed3e3-f46e-4783-bd57-d8506b230b8f": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "89a7b0af-fad4-4f36-98a0-9470b2c06eb9",
+        "16cd9a22-e03c-4f0a-84d5-13230cb5b6b1",
+        "100ed3e3-f46e-4783-bd57-d8506b230b8f"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_0646_2.jpg",
+        "is_reverse": false,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "e1e83658-2247-4270-8560-9db954de0408": {
+      "type": "double",
+      "blocks": {
+        "b7d06372-215d-4e51-be34-e806a85e35a8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>L'avènement d'un nouveau savoir-faire<\/strong><\/p>"
+          }
+        },
+        "90a50d63-5e85-48d8-b814-342c5ce0734c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La mise en place d’une filière innovante dédiée à la récupération des diamants, permet de répertorier distinctement des gemmes recyclées de celles extraites des mines. Naturellement, nos réserves de diamants recyclés ne sont pas infinies, ce qui donne à nos bijoux leur rareté et leur unicité.<\/p>"
+          }
+        },
+        "7dd0c19f-fd37-47f1-8ad0-fdc3769ea6cd": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "b7d06372-215d-4e51-be34-e806a85e35a8",
+        "90a50d63-5e85-48d8-b814-342c5ce0734c",
+        "7dd0c19f-fd37-47f1-8ad0-fdc3769ea6cd"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_7616.jpg",
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "b2d8975f-fc61-462b-a960-6d219334d501": {
+      "type": "double",
+      "blocks": {
+        "044de56b-3510-4522-a41e-36063756c9d4": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>L'Upcycling des diamants : Une renaissance étincelante, un luxe éthique<\/strong><\/p>"
+          }
+        },
+        "406eb290-02dc-40ef-8b1c-5d801d393bb8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Les créations de Rosa Maïtea prennent vie en sélectionnant avec génie les tailles et les formes de diamants les plus inspirantes. Chacun de ces joyaux est soigneusement serti à nouveau, offrant à ces diamants une seconde chance de briller et de réchauffer les cœurs.<\/p>"
+          }
+        },
+        "f81faf11-05b4-40ac-80b1-5a2b64fa5b44": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "044de56b-3510-4522-a41e-36063756c9d4",
+        "406eb290-02dc-40ef-8b1c-5d801d393bb8",
+        "f81faf11-05b4-40ac-80b1-5a2b64fa5b44"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bague_Bandeau_Multi-Etoiles_diamants.png",
+        "is_reverse": false,
+        "is_centred": true,
+        "padding_top": 5,
+        "padding_bottom": 0
+      }
+    },
+    "1de8951e-cc53-47fa-9964-506c7bc6d3a6": {
+      "type": "rosa-faq",
+      "blocks": {
+        "a71b233c-abcb-4ce2-83b0-e9e0d6ec0dca": {
+          "type": "faq",
+          "settings": {
+            "title": "title",
+            "text": "<p>text<\/p>"
+          }
+        },
+        "cc111573-5ae2-4010-b337-98c611cc7cde": {
+          "type": "faq",
+          "settings": {
+            "title": "title",
+            "text": "<p>text<\/p>"
+          }
+        },
+        "b4c383fc-a920-4d4d-8954-f6a94b38ea2a": {
+          "type": "faq",
+          "settings": {
+            "title": "title",
+            "text": "<p>text<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "a71b233c-abcb-4ce2-83b0-e9e0d6ec0dca",
+        "cc111573-5ae2-4010-b337-98c611cc7cde",
+        "b4c383fc-a920-4d4d-8954-f6a94b38ea2a"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "title",
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "4eb8a992-14cd-4b7c-acc7-dbfc7caebc46": {
+      "type": "double",
+      "blocks": {
+        "0c8e9f80-4a02-454c-accc-b119eecf8415": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Les (terribles) mines de diamants<\/strong><\/p>"
+          }
+        },
+        "3bce2705-c98a-4e62-9781-ae22e494d10b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Les mines de diamants engendrent un lourd impact environnemental, marqué par des émissions élevées de carbone, une consommation importante d'eau et d'énergie, la production de déchets, la déforestation, et la création des plus grands cratères terrestres. Par ailleurs, des accidents fréquents surviennent dans ces mines.<\/p>"
+          }
+        },
+        "6145e7f0-5f3f-4baa-b896-e88b20584d0d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Malgré les efforts du secteur diamantaire, les \"diamants de sang\" qui financent des conflits armés perdurent et alimentent les économies clandestines. Rosa Maïtea rejette toute implication dans la perpétuation de ces conflits et dans la détérioration de l'environnement.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0c8e9f80-4a02-454c-accc-b119eecf8415",
+        "3bce2705-c98a-4e62-9781-ae22e494d10b",
+        "6145e7f0-5f3f-4baa-b896-e88b20584d0d"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mine_Mirny_f6ef8efa-1d47-48df-b006-68a16462e3bb.jpg",
+        "is_reverse": true,
+        "is_centred": false,
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "48509321-3649-4129-886e-1ffbfb35275e": {
+      "type": "rosa-header2",
+      "settings": {
+        "text1": "",
+        "text2": "“Les diamants  recyclés Rosa Maïtea respectent la nature et l’humanité” ",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "fa2ca636-a51a-4983-8c38-a10ba431017b": {
+      "type": "rosa-picture-slider",
+      "blocks": {
+        "fe43283f-3c04-4a05-8738-70fcd481d93b": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-114_2.jpg"
+          }
+        },
+        "6d44e858-7b34-4a1c-b025-1bfef2fa9f59": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_7619.jpg"
+          }
+        },
+        "a5d5ee87-561e-4670-b3cb-10875516ff20": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rosa_Maitea_bague_ethique_en_or_recycle_18_carats_la_bonne_etoile_diamants_recycles.jpg"
+          }
+        },
+        "83edf634-a541-48ca-b04d-8ee9e2230a31": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Conclict_diamonds.jpg"
+          }
+        },
+        "aebe5553-6e0a-434b-beda-1b96977d9375": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-110.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "fe43283f-3c04-4a05-8738-70fcd481d93b",
+        "6d44e858-7b34-4a1c-b025-1bfef2fa9f59",
+        "a5d5ee87-561e-4670-b3cb-10875516ff20",
+        "83edf634-a541-48ca-b04d-8ee9e2230a31",
+        "aebe5553-6e0a-434b-beda-1b96977d9375"
+      ],
+      "settings": {
+        "padding_top": 120,
+        "padding_bottom": 55
+      }
+    },
+    "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb": {
+      "type": "rosa-header2",
+      "disabled": true,
+      "settings": {
+        "text1": "SUR-TITRE ICI",
+        "text2": "LE TITRE DE LA VIDÉO SUIVANTE",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "765f2c93-3054-44d3-b881-24dffee4392e": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/Image_2x_aa32a290-a23e-4f1e-9962-faab371765cc.jpg",
+        "description": ""
+      }
+    },
+    "2c729952-939d-43ff-9b51-18cd9b10cd88": {
+      "type": "rosa-socials",
+      "blocks": {
+        "39f793d3-34d2-4ba8-885e-f0d8ff578ba6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_zocial-facebook_2x_ff9ce30e-cb83-419f-8956-7b330b87b5bb.png",
+            "url": "https:\/\/www.facebook.com\/RosaMaitea\/"
+          }
+        },
+        "9594b2d0-3b22-427e-ace0-5065d21be64c": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_awesome-instagram_2x_0e007b22-1811-49b5-81d7-27b78e9ec21f.png",
+            "url": "https:\/\/www.instagram.com\/rosa_maitea\/"
+          }
+        }
+      },
+      "block_order": [
+        "39f793d3-34d2-4ba8-885e-f0d8ff578ba6",
+        "9594b2d0-3b22-427e-ace0-5065d21be64c"
+      ],
+      "settings": {
+        "title": "Partager",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    }
+  },
+  "order": [
+    "main",
+    "237458dd-360c-4b77-b13f-be299496a576",
+    "d8037b2c-93f5-4ed8-8ab3-69c24ce46c15",
+    "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5",
+    "a9539caf-edb1-471f-9d6c-97b6a2b08a04",
+    "9051c441-1b8f-4b41-9a56-55ab590e8bf6",
+    "e1e83658-2247-4270-8560-9db954de0408",
+    "b2d8975f-fc61-462b-a960-6d219334d501",
+    "1de8951e-cc53-47fa-9964-506c7bc6d3a6",
+    "4eb8a992-14cd-4b7c-acc7-dbfc7caebc46",
+    "48509321-3649-4129-886e-1ffbfb35275e",
+    "fa2ca636-a51a-4983-8c38-a10ba431017b",
+    "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb",
+    "765f2c93-3054-44d3-b881-24dffee4392e",
+    "2c729952-939d-43ff-9b51-18cd9b10cd88"
+  ]
+}

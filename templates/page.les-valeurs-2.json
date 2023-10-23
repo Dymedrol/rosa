@@ -1,0 +1,416 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "237458dd-360c-4b77-b13f-be299496a576": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#ffffff",
+        "is_static": false
+      }
+    },
+    "d8037b2c-93f5-4ed8-8ab3-69c24ce46c15": {
+      "type": "image-banner",
+      "settings": {
+        "tag": "h1",
+        "is_full_screen": false,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "<p>NOS PLUS BELLES VALEURS<\/p>",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "6 valeurs rayonantes",
+        "is_text_big": false,
+        "image_banner_link_text": "",
+        "image_banner_link_url": "",
+        "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-121.jpg"
+      }
+    },
+    "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5": {
+      "type": "rosa-quote",
+      "settings": {
+        "text1": "Les six rayons qui partent du cœur représentent nos 6 valeurs essentielles qui inspirent la marque et lui insufflent l'énergie pour avancer et aller plus loin.",
+        "text2": "",
+        "link_text": "",
+        "link_url": "",
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "a9539caf-edb1-471f-9d6c-97b6a2b08a04": {
+      "type": "double",
+      "blocks": {
+        "12885c87-59cb-4326-9fcc-17f286f4f6e3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>L'AMOUR<\/strong><\/p>"
+          }
+        },
+        "0620a0d2-7a07-4416-a19a-63efa991f170": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pour Rosa Maitea, L'amour est la quintessence de la reconnaissance. Nos créations sont comme des “petites bombes d’amour”, célébrant tout à la fois les artisans qui les façonnent, ceux qui les choisissent par amour de soi, et ceux qui les offrent à leurs êtres chers. <\/p>"
+          }
+        },
+        "076c0977-c63c-4883-b8f1-65288eed9274": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Chaque bijou éco-responsable de Rosa Maïtea est une invitation à partager la plus précieuse des émotions. Notre vocation est de diffuser cet amour à travers le monde car il possède le pouvoir magique de rendre notre monde meilleur et notre nature plus belle. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "12885c87-59cb-4326-9fcc-17f286f4f6e3",
+        "0620a0d2-7a07-4416-a19a-63efa991f170",
+        "076c0977-c63c-4883-b8f1-65288eed9274"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-127_9e98183a-55e2-433e-85c4-d335a7dc9470.jpg",
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "f3072a74-e844-4c08-8050-2403211042ce": {
+      "type": "rosa-quote4",
+      "disabled": true,
+      "settings": {
+        "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
+        "text2": "",
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "82669973-c95a-4858-8d02-7658829e0a3d": {
+      "type": "double",
+      "blocks": {
+        "7d02f857-1733-4e65-a5c0-a6fd96ee198f": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>LA JOIE <\/strong><\/p>"
+          }
+        },
+        "7e5da056-e143-4a88-bec2-d32a0797d88e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La joie illumine notre perception du monde, l'embellit de mille couleurs, et nous insuffle l'énergie d’aller de l’avant, le sourire au lèvres. Optimiste née, Rosa Maïtea<strong> <\/strong>s’engage avec passion pour une joaillerie responsable. Si notre bonne humeur est communicative, c’est parce que nous faisons de la joie notre boussole, guidant chacun de nos pas vers un avenir meilleur.<\/p>"
+          }
+        },
+        "2f4c3dbf-83b8-4031-8e9b-83d8d9a346ba": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "7d02f857-1733-4e65-a5c0-a6fd96ee198f",
+        "7e5da056-e143-4a88-bec2-d32a0797d88e",
+        "2f4c3dbf-83b8-4031-8e9b-83d8d9a346ba"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/rosa_Maitea_joaillerie_ethique_en_or_18_carats_recycle_et_diamants_recycles.jpg",
+        "is_reverse": false,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "3a31555a-cab7-4a74-8452-f23ec45fea73": {
+      "type": "double",
+      "blocks": {
+        "193614b9-7f13-46ff-be04-5e32d6bb4764": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>L’ENGAGEMENT<\/strong><\/p>"
+          }
+        },
+        "1ea8cb70-f082-41c2-9825-de8fe6e965e8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A la fois composante fondamentale de notre ADN et axe premier de notre développement, l'engagement éthique est l’étoile qui guide Rosa Maïtea dans toutes ses décisions. Nous nous engageons à concevoir, produire et commercialiser des bijoux utilisant des matières recyclées, ou issues de pratiques durables. <\/p>"
+          }
+        },
+        "096334ef-2059-4922-8600-72e5887d8691": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nous communiquons de manière transparente et honnête sur les procédés utilisés et nous sommes à chaque étape du processus de fabrication aux côtés des artisans créateurs de nos bijoux. Pas à pas, l’engagement éthique devient savoir-faire et renouvelle l’art de la joaillerie. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "193614b9-7f13-46ff-be04-5e32d6bb4764",
+        "1ea8cb70-f082-41c2-9825-de8fe6e965e8",
+        "096334ef-2059-4922-8600-72e5887d8691"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-130.jpg",
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "e9f36cf8-17ab-497e-bbf9-92523d4b7d4f": {
+      "type": "double",
+      "blocks": {
+        "884c4e60-ce0e-4c08-a8e2-5501cf4ee9f2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>LA CRÉATIVITÉ <\/strong><\/p>"
+          }
+        },
+        "a5e47b88-6cd2-4b58-8030-383e05866c51": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La créativité survient lorsque l’intelligence s’amuse. Inspirée par les valeurs de joie et d’amour, la créatrice de Rosa Maïtea joue avec toutes les possibilités offertes par les gemmes à sa disposition, sublime leurs formes, harmonise leurs couleurs, et nous offre, par la grâce de son imagination, ces admirables parures aux noms évocateurs : tourbillon, margarita, jardin cosmique…. Pour nous, la créativité est le moyen idéal de donner vie à l'inédit. Quoi de plus exaltant que de créer un univers empreint de splendeurs et d’émotions ? <\/p>"
+          }
+        },
+        "4d456a67-e508-43b4-b72e-355f1bf205a9": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "884c4e60-ce0e-4c08-a8e2-5501cf4ee9f2",
+        "a5e47b88-6cd2-4b58-8030-383e05866c51",
+        "4d456a67-e508-43b4-b72e-355f1bf205a9"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-125.jpg",
+        "is_reverse": false,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "d31f9635-6748-42df-99c0-7c3ae6412227": {
+      "type": "double",
+      "blocks": {
+        "a2bd12ec-3cec-47be-b003-66bc7c23fcfb": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>LA CURIOSITÉ<\/strong><\/p>"
+          }
+        },
+        "7c816968-30cf-4405-b782-e5d19c6ce01f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La beauté est dans l'œil de la personne qui la regarde. En observatrice avisée, toujours avide de nouvelles connaissances, Rosa Maïtea s’intéresse avec ingénuité à tout ce qui l’entoure, parce que dans notre esprit tout est intéressant ! Cette heureuse disposition nous permet d’innover sans cesse et fait de nous de brillantes anticonformistes. <\/p>"
+          }
+        },
+        "661bd1f4-4934-4ae0-abcb-9b13007fdab8": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "a2bd12ec-3cec-47be-b003-66bc7c23fcfb",
+        "7c816968-30cf-4405-b782-e5d19c6ce01f",
+        "661bd1f4-4934-4ae0-abcb-9b13007fdab8"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_7619_2.jpg",
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "52f9c683-6b4c-431f-bed8-9b7d7ffb737e": {
+      "type": "double",
+      "blocks": {
+        "afc15055-196a-40ae-a7a5-e2422ab5740e": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>L'INDÉPENDENCE<\/strong><\/p>"
+          }
+        },
+        "ce139870-7e4d-44b7-91e3-a56032ba3427": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Âme libre et rayonnante, Rosa Maïtea est née en cultivant sa propre indépendance. Gage indispensable de notre liberté, l’indépendance nous affranchit de tout diktat. Notre quête d'alternatives plus justes naît de notre insatisfaction envers les pratiques existantes.<\/p>"
+          }
+        },
+        "9988d13f-bd0d-40e5-a888-9087322b689b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>C’est à l’aune de nos convictions que nous avons forgé nos critères et nous ne sacrifions rien à nos ambitions. Sur les formes scintillantes, sur les cloches des couleurs, avec les artistes et tous ceux qui font que le monde change,  nous écrivons le mot liberté.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "afc15055-196a-40ae-a7a5-e2422ab5740e",
+        "ce139870-7e4d-44b7-91e3-a56032ba3427",
+        "9988d13f-bd0d-40e5-a888-9087322b689b"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-129.jpg",
+        "is_reverse": false,
+        "is_centred": true,
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "1de8951e-cc53-47fa-9964-506c7bc6d3a6": {
+      "type": "rosa-faq",
+      "blocks": {
+        "a71b233c-abcb-4ce2-83b0-e9e0d6ec0dca": {
+          "type": "faq",
+          "settings": {
+            "title": "title",
+            "text": "<p>text<\/p>"
+          }
+        },
+        "cc111573-5ae2-4010-b337-98c611cc7cde": {
+          "type": "faq",
+          "settings": {
+            "title": "title",
+            "text": "<p>text<\/p>"
+          }
+        },
+        "b4c383fc-a920-4d4d-8954-f6a94b38ea2a": {
+          "type": "faq",
+          "settings": {
+            "title": "title",
+            "text": "<p>text<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "a71b233c-abcb-4ce2-83b0-e9e0d6ec0dca",
+        "cc111573-5ae2-4010-b337-98c611cc7cde",
+        "b4c383fc-a920-4d4d-8954-f6a94b38ea2a"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "title",
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "fa2ca636-a51a-4983-8c38-a10ba431017b": {
+      "type": "rosa-picture-slider",
+      "blocks": {
+        "fe43283f-3c04-4a05-8738-70fcd481d93b": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg"
+          }
+        },
+        "6d44e858-7b34-4a1c-b025-1bfef2fa9f59": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2023-08-04.jpg"
+          }
+        },
+        "a5d5ee87-561e-4670-b3cb-10875516ff20": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/42.jpg"
+          }
+        },
+        "83edf634-a541-48ca-b04d-8ee9e2230a31": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4-6.jpg"
+          }
+        },
+        "aebe5553-6e0a-434b-beda-1b96977d9375": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/web-ROSA_MAITEA36775.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "fe43283f-3c04-4a05-8738-70fcd481d93b",
+        "6d44e858-7b34-4a1c-b025-1bfef2fa9f59",
+        "a5d5ee87-561e-4670-b3cb-10875516ff20",
+        "83edf634-a541-48ca-b04d-8ee9e2230a31",
+        "aebe5553-6e0a-434b-beda-1b96977d9375"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": 120,
+        "padding_bottom": 55
+      }
+    },
+    "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb": {
+      "type": "rosa-header2",
+      "disabled": true,
+      "settings": {
+        "text1": "SUR-TITRE ICI",
+        "text2": "LE TITRE DE LA VIDÉO SUIVANTE",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "765f2c93-3054-44d3-b881-24dffee4392e": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/Image_2x_aa32a290-a23e-4f1e-9962-faab371765cc.jpg",
+        "description": ""
+      }
+    },
+    "2c729952-939d-43ff-9b51-18cd9b10cd88": {
+      "type": "rosa-socials",
+      "blocks": {
+        "39f793d3-34d2-4ba8-885e-f0d8ff578ba6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_zocial-facebook_2x_ff9ce30e-cb83-419f-8956-7b330b87b5bb.png",
+            "url": "https:\/\/www.facebook.com\/RosaMaitea\/"
+          }
+        },
+        "9594b2d0-3b22-427e-ace0-5065d21be64c": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_awesome-instagram_2x_0e007b22-1811-49b5-81d7-27b78e9ec21f.png",
+            "url": "https:\/\/www.instagram.com\/rosa_maitea\/"
+          }
+        }
+      },
+      "block_order": [
+        "39f793d3-34d2-4ba8-885e-f0d8ff578ba6",
+        "9594b2d0-3b22-427e-ace0-5065d21be64c"
+      ],
+      "settings": {
+        "title": "Partager",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    }
+  },
+  "order": [
+    "main",
+    "237458dd-360c-4b77-b13f-be299496a576",
+    "d8037b2c-93f5-4ed8-8ab3-69c24ce46c15",
+    "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5",
+    "a9539caf-edb1-471f-9d6c-97b6a2b08a04",
+    "f3072a74-e844-4c08-8050-2403211042ce",
+    "82669973-c95a-4858-8d02-7658829e0a3d",
+    "3a31555a-cab7-4a74-8452-f23ec45fea73",
+    "e9f36cf8-17ab-497e-bbf9-92523d4b7d4f",
+    "d31f9635-6748-42df-99c0-7c3ae6412227",
+    "52f9c683-6b4c-431f-bed8-9b7d7ffb737e",
+    "1de8951e-cc53-47fa-9964-506c7bc6d3a6",
+    "fa2ca636-a51a-4983-8c38-a10ba431017b",
+    "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb",
+    "765f2c93-3054-44d3-b881-24dffee4392e",
+    "2c729952-939d-43ff-9b51-18cd9b10cd88"
+  ]
+}

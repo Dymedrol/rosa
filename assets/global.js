@@ -1,3 +1,17 @@
+// Get all the <a> elements on the page
+const links = document.querySelectorAll('a');
+
+// Loop through the <a> elements
+for (const link of links) {
+  // Check if the href attribute is equal to "#"
+  if (link.getAttribute('href') === '#') {
+    // Set the display property to "none" to hide the element
+    link.style.display = 'none';
+  }
+}
+
+
+
 function getFocusableElements(container) {
   return Array.from(
     container.querySelectorAll(

@@ -3,6 +3,7 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
+        "tag": "h1"
       }
     },
     "9b7251da-a436-4ee3-86d9-43e5a2375824": {
@@ -24,13 +25,13 @@
         "72f17976-0055-4da3-bada-32d0ea229273": {
           "type": "text",
           "settings": {
-            "text": "<p>Revisitée en mode contemporain, la bague fleur devient intemporelle et se pare des nuances inédites de tourmalines roses et vertes <strong>100% traçables.<\/strong>  Son cœur joliment taillé en ovale est frangé d’une vibrante  fantaisie de grenats et de spinelles multicolores.<\/p>"
+            "text": "<p>Revisitée en mode contemporain, la bague fleur devient intemporelle et se pare des nuances inédites de tourmalines roses et vertes 100% traçables. <\/p><p>Son cœur joliment taillé en ovale est frangé d’une vibrante  fantaisie de grenats et de spinelles multicolores.<\/p>"
           }
         },
         "fc054447-71a8-41ce-9100-b52d6b4385ea": {
           "type": "text",
           "settings": {
-            "text": "<p>Caché sous son pistil de pierres fines, un cœur d'or secret, couronné d’un double bandeau de petits cœurs ajourés, laisse briller la lumière magnifiant encore le chatoiement des tourmalines. Le cœur ouvragé agit comme un talisman qui protégerait toujours, un gage d’amour à même la peau.<\/p>"
+            "text": "<p>Caché sous son pistil de pierres fines, un cœur d'or secret, couronné d’un double bandeau de petits cœurs ajourés, laisse briller la lumière magnifiant encore le chatoiement des tourmalines. <\/p><p>Le cœur ouvragé agit comme un talisman qui protégerait toujours, un gage d’amour à même la peau.<\/p>"
           }
         },
         "cd2b9a8a-6684-42b2-a9e3-47ed36321182": {

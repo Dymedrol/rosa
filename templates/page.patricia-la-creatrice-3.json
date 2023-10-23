@@ -32,7 +32,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Icon_feather-coffee.svg",
             "text1": "",
-            "text2": "Rendez-vous privatisé"
+            "text2": "Rendez-vous privatisé Seul, en couple ou en groupe"
           }
         },
         "43bcb7a6-88d3-429b-96e0-43cd96bb4a9a": {
@@ -95,13 +95,13 @@
         "is_text_big": true,
         "image_banner_link_text": "",
         "image_banner_link_url": "\/",
-        "banner_image": "shopify:\/\/shop_images\/DSC9738.jpg"
+        "banner_image": "shopify:\/\/shop_images\/Groupe-175_2x_307a0587-5430-47b0-953b-c3ea649bc258.jpg"
       }
     },
     "3d7024d0-d6bc-4fe4-aaa5-98fa13a4cfd1": {
       "type": "rosa-quote5",
       "settings": {
-        "text1": "« J'adore accueillir les clients dans notre showroom. Nous prenons le temps de discuter de leurs besoins, de leurs envies et de la raison de leur visite. Cette expérience est extrêmement enrichissante pour eux, tout comme pour moi. »",
+        "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
         "text2": "PATRICIA - CRÉATRICE DE ROSA MAITEA",
         "padding_top": 45,
         "padding_bottom": 0
@@ -120,7 +120,7 @@
         "37ba0929-4e5c-4e01-a9af-3297edf8f43d": {
           "type": "text",
           "settings": {
-            "text": "<p>Je suis Patricia, créatrice de Rosa Maitea. <\/p><p>Quand je suis devenu directrice de l'offre et de l'image d'une maison de joaillerie ça a été un coup de foudre, ou coup du destin : La joaillerie incarnait tout ce que j'aimais : les couleurs, la beauté de l'art, la transmission d'un savoir-faire, la tradition combinée à l’innovation, la création d’ornements précieux et symboliques transmis avec amour, et par amour. Mais, derrière l’éclat enchanteur de l’or et des diamants allait bientôt apparaître une toute autre histoire…. <\/p><p><\/p><p>Venez me voir et vous la raconte...<\/p>"
+            "text": "<p>Je suis Patricia, créatrice de Rosa Maitea. <\/p><p>Je suis née à Bilbao, au Pays basque espagnol, magnifique territoire marqué par la beauté sauvage de l'océan Atlantique et imprégné d’une culture ancestrale. J’ai 12 ans lorsque mes parents s’installent au Mexique à Guadalajara sur les bords du lac Chapala. Et là-bas… Je découvre émerveillée la vivacité des couleurs, les fleurs omniprésentes, une gaieté et un foisonnement culturel si riche qu’il m’inspire encore aujourd’hui. Cette expérience a façonné ma personnalité et éveillé en moi la passion des voyages et de la découverte.<\/p>"
           }
         },
         "e77061de-405f-40ec-9db4-0ec4d8de035f": {
@@ -132,9 +132,10 @@
         },
         "535d77d4-0681-4704-88df-09fedbe2aa20": {
           "type": "link",
+          "disabled": true,
           "settings": {
-            "link_text": "CONNAITRE PLUS SUR PATRICIA",
-            "link_url": "shopify:\/\/pages\/notre-histoire"
+            "link_text": "PRENDRE RENDEZ-VOUS EN LIVE",
+            "link_url": ""
           }
         }
       },
@@ -176,7 +177,7 @@
       "settings": {
         "text1": "",
         "text2": "",
-        "text3": "",
+        "text3": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.<\/p>",
         "padding_top": 15,
         "padding_bottom": 0
       }
@@ -205,7 +206,7 @@
         "bf01c18d-e99e-4c76-9d03-d66188b38cdb": {
           "type": "text",
           "settings": {
-            "text": "<p>Prendre RDV dans notre showroom est très simple !<\/p>"
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.<\/p>"
           }
         },
         "30b3f3f3-6efe-4667-85b0-27b8be830ef1": {
@@ -236,7 +237,7 @@
         "42b5c479-f34c-44f7-8a44-f3ba7fd109bf"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSC9804.jpg",
+        "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg",
         "is_reverse": true,
         "is_centred": false,
         "padding_top": 90,
@@ -246,8 +247,8 @@
     "39ebf9c9-7997-4a70-91a3-5c921a459945": {
       "type": "rosa-header3",
       "settings": {
-        "text1": "",
-        "text2": "SHOWROOM ROSA MAÏTEA",
+        "text1": "RÉSEAU SOCIAUX",
+        "text2": "RETROSPECTIVE SPREAD LOVE",
         "text3": "<p>Nous rejoindre <a href=\"https:\/\/www.instagram.com\/rosa_maitea\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/rosa_maitea\/\"><strong>@rosamaitea<\/strong><\/a><\/p>",
         "padding_top": 90,
         "padding_bottom": 0
@@ -259,7 +260,13 @@
         "7bfb83bc-27cd-4a16-b77a-b322fde1fb30": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC9694.jpg"
+            "image": "shopify:\/\/shop_images\/pic1.png"
+          }
+        },
+        "7e47179d-3525-4de1-a6b8-8d4f46a840e9": {
+          "type": "picture",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic2.png"
           }
         },
         "12b1ca17-4d3d-46ec-8e8a-c32b88383481": {
@@ -271,22 +278,16 @@
         "c573f0e5-2ded-4202-880b-400ace223146": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC9708.jpg"
+            "image": "shopify:\/\/shop_images\/pic3.png"
           }
         },
         "cac26c13-22b5-4361-9f54-9996b468b34a": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC9738.jpg"
+            "image": "shopify:\/\/shop_images\/pic1.png"
           }
         },
         "e13b2de5-896f-4274-94b6-84f9144f98f5": {
-          "type": "picture",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC9779_d7fec151-64f6-4dd1-8a24-a454d0350b14.jpg"
-          }
-        },
-        "7e47179d-3525-4de1-a6b8-8d4f46a840e9": {
           "type": "picture",
           "settings": {
             "image": "shopify:\/\/shop_images\/pic2.png"
@@ -301,11 +302,11 @@
       },
       "block_order": [
         "7bfb83bc-27cd-4a16-b77a-b322fde1fb30",
+        "7e47179d-3525-4de1-a6b8-8d4f46a840e9",
         "12b1ca17-4d3d-46ec-8e8a-c32b88383481",
         "c573f0e5-2ded-4202-880b-400ace223146",
         "cac26c13-22b5-4361-9f54-9996b468b34a",
         "e13b2de5-896f-4274-94b6-84f9144f98f5",
-        "7e47179d-3525-4de1-a6b8-8d4f46a840e9",
         "2d694221-c05e-452c-bd9a-6b8b00d22945"
       ],
       "settings": {

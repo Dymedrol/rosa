@@ -3,13 +3,14 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
+        "tag": "h1"
       }
     },
     "900733a4-d6dd-4389-88a9-2389791a365d": {
       "type": "rosa-quote",
       "settings": {
         "text1": "Symbole absolu de l’amour éternel, les diamants illuminent les joyaux des mariages et des fiançailles. Pour Rosa Maïtea, ces précieux joyaux sont les preuves d’amour éthiques et véritablement durables destinées à tous ceux qu’on aime. Les collections de bijoux éthiques La bonne Étoile, Les Solitaires et Jardin Cosmique proposent des bagues, colliers, bracelets et Boucles d’oreilles en or blanc ou en or jaune et en diamants recyclés, comme autant de cadeaux qui font battre le coeur en célébrant l’amour mais aussi l’amitié, l’admiration, la gratitude…",
-        "text2": "",
+        "text2": "L’éclat pur des diamants blancs recyclés allié à la brillance de l’or 18 ct recyclé sacralise l’union de deux êtres qui s’aiment et celle de l’humanité avec la nature.",
         "link_text": "",
         "link_url": "",
         "padding_top": 80,
@@ -19,24 +20,11 @@
     "8f144bf1-2707-4150-bf0d-2b4a09787f26": {
       "type": "rosa-quote",
       "settings": {
-        "text1": "L’éclat pur des diamants blancs recyclés allié à la brillance de l’or 18 ct recyclé sacralise l’union de deux êtres qui s’aiment et celle de l’humanité avec la nature.",
+        "text1": "",
         "text2": "",
         "link_text": "",
         "link_url": "",
         "padding_top": 30,
-        "padding_bottom": 0
-      }
-    },
-    "product-grid": {
-      "type": "main-collection-product-grid",
-      "settings": {
-        "enable_promo_card": false,
-        "enable_filtering": true,
-        "enable_filtering_by_product_type": false,
-        "filter_type": "horizontal",
-        "enable_sorting": true,
-        "columns_mobile": "2",
-        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -91,6 +79,19 @@
         "padding_bottom": 15
       }
     },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "enable_promo_card": false,
+        "enable_filtering": true,
+        "enable_filtering_by_product_type": false,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
       "type": "rosa-header2",
       "settings": {
@@ -132,8 +133,8 @@
     "banner",
     "900733a4-d6dd-4389-88a9-2389791a365d",
     "8f144bf1-2707-4150-bf0d-2b4a09787f26",
-    "product-grid",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
+    "product-grid",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
     "c35448d9-1175-475c-9d96-16d0b67db72b",
