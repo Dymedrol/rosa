@@ -149,6 +149,25 @@
         "padding_bottom": 0
       }
     },
+    "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb": {
+      "type": "rosa-header2",
+      "settings": {
+        "tag": "div",
+        "text1": "the reason why",
+        "text2": "la naissance de Rosa Maïtea raconté par patricia",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "765f2c93-3054-44d3-b881-24dffee4392e": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=H-iCgfPBpxA",
+        "cover_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-117_8be81dd2-0e39-45c0-a6a4-0427761c5052.jpg",
+        "description": ""
+      }
+    },
     "fa2ca636-a51a-4983-8c38-a10ba431017b": {
       "type": "rosa-picture-slider",
       "blocks": {
@@ -191,27 +210,8 @@
         "aebe5553-6e0a-434b-beda-1b96977d9375"
       ],
       "settings": {
-        "padding_top": 55,
+        "padding_top": 95,
         "padding_bottom": 55
-      }
-    },
-    "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb": {
-      "type": "rosa-header2",
-      "settings": {
-        "tag": "div",
-        "text1": "the reason why",
-        "text2": "la naissance de Rosa Maïtea raconté par patricia",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
-    "765f2c93-3054-44d3-b881-24dffee4392e": {
-      "type": "video",
-      "settings": {
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=H-iCgfPBpxA",
-        "cover_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-117_8be81dd2-0e39-45c0-a6a4-0427761c5052.jpg",
-        "description": ""
       }
     },
     "2c729952-939d-43ff-9b51-18cd9b10cd88": {
@@ -251,9 +251,9 @@
     "a9539caf-edb1-471f-9d6c-97b6a2b08a04",
     "4de1ac90-e57f-4e25-8ed8-28dfc0b1e0b4",
     "f3072a74-e844-4c08-8050-2403211042ce",
-    "fa2ca636-a51a-4983-8c38-a10ba431017b",
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb",
     "765f2c93-3054-44d3-b881-24dffee4392e",
+    "fa2ca636-a51a-4983-8c38-a10ba431017b",
     "2c729952-939d-43ff-9b51-18cd9b10cd88"
   ]
 }
