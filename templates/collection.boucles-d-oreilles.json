@@ -6,7 +6,7 @@
         ".rosa-collection-banner-title {display: none !important;}"
       ],
       "settings": {
-        "tag": "h1"
+        "tag": "div"
       }
     },
     "f5750e82-a8a0-415f-bfd9-167153451029": {
@@ -15,7 +15,7 @@
         "tag": "h1",
         "text1": "",
         "text2": "Boucles d'oreilles éthiques",
-        "padding_top": 60,
+        "padding_top": 70,
         "padding_bottom": 0
       }
     },
