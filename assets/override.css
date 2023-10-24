@@ -44,7 +44,9 @@ height: 20px !important;
 
 @media screen and (max-width: 480px) {
 
-
+.template-search__header .h2.center {
+  font: 30px/40px Cormorant !important;
+}
   
 .collecton-list-item-title {
   font: 14px/16px Montserrat !important;
