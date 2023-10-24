@@ -9,11 +9,12 @@
     "c6956543-4920-40d6-a8d4-37e1934d5bdc": {
       "type": "rosa-quote",
       "settings": {
+        "tag": "div",
         "text1": "Elles se portent à l’unité, en paire ou dépareillées. Toutes les BO Rosa Maïtea sont en or recyclé et peuvent s’associer joyeusement sur une même oreille car nous proposons toutes nos boucles d'oreilles à l’unité.",
         "text2": "",
         "link_text": "",
         "link_url": "",
-        "padding_top": 80,
+        "padding_top": 50,
         "padding_bottom": 0
       }
     },
@@ -84,6 +85,7 @@
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
       "type": "rosa-header2",
       "settings": {
+        "tag": "div",
         "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
         "text2": "NOUS VOUS ACCUEILLONS DANS NOTRE SHOWROOM AVEC JOIE",
         "padding_top": 45,
@@ -102,6 +104,7 @@
     "c35448d9-1175-475c-9d96-16d0b67db72b": {
       "type": "rosa-quote",
       "settings": {
+        "tag": "div",
         "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun.»",
         "text2": "Patricia Pereda - Directrice artistique et fondatrice de Rosa Maïtea",
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
