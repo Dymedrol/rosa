@@ -13,6 +13,9 @@
     },
     "banner": {
       "type": "main-collection-banner",
+      "custom_css": [
+        ".rosa-collection-banner-title {display: none !important;}"
+      ],
       "settings": {
         "tag": "div"
       }
