@@ -7,6 +7,7 @@
         ".rosa-jumbotron-title {max-width: 600px !important;}"
       ],
       "settings": {
+        "tag": "div",
         "is_full_screen": false,
         "alignment": "center",
         "text_color": "#121212",
@@ -169,6 +170,24 @@
         "color": "#000000",
         "is_static": true
       }
+    },
+    "fa9da838-6f0e-4176-a21f-4d69ca270bb5": {
+      "type": "rosa-header",
+      "settings": {
+        "tag": "div",
+        "text1": "NOS POINTS DE VENTE EN VIDEO",
+        "text2": "",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "a49341bb-67c0-4a3f-9bd2-c0c627260a7b": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": ""
+      }
     }
   },
   "order": [
@@ -177,6 +196,8 @@
     "form",
     "c3c6c0cf-f2fe-4c17-8148-c00388ab02b9",
     "6ebacf1c-b873-4bc1-b26c-42423042a5d2",
-    "e628f936-6394-4398-83d2-56b7e3bef366"
+    "e628f936-6394-4398-83d2-56b7e3bef366",
+    "fa9da838-6f0e-4176-a21f-4d69ca270bb5",
+    "a49341bb-67c0-4a3f-9bd2-c0c627260a7b"
   ]
 }
