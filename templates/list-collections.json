@@ -104,7 +104,7 @@
     "b9f73162-daa1-4632-bc3a-6e475aaa979b": {
       "type": "collection-slider-with-pic",
       "settings": {
-        "is_reverse": false,
+        "is_reverse": true,
         "slider_2_image": "shopify:\/\/shop_images\/Rosa_Maitea_bague_ethique_la_favorite_en_or_recycle_18_carats_et_tourmaline_rose.jpg",
         "text1": "JOAILLERIE ETHIQUE",
         "text2": "LA FAVORITE",
