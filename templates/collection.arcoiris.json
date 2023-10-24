@@ -9,7 +9,7 @@
     "0aaeab22-bf30-435f-bd26-e9dce58dc3b7": {
       "type": "rosa-header2",
       "settings": {
-        "tag": "div",
+        "tag": "h2",
         "text1": "",
         "text2": "ARCOIRIS",
         "padding_top": 30,
