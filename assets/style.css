@@ -583,6 +583,7 @@ h1 {
 }
 .rosa-menu-mobile-header-logo {
   width: 228px;
+  max-width: 80%;
 }
 .rosa-menu-mobile-header-close {
   cursor: pointer;
