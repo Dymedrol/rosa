@@ -2,18 +2,32 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "custom_css": [
+        ".rosa-collection-banner-title {display: none !important;}"
+      ],
       "settings": {
-        "tag": "h1"
+        "tag": "div"
+      }
+    },
+    "8fe5c9ae-918d-4ee5-a95d-d0b0b6f62f77": {
+      "type": "rosa-header2",
+      "settings": {
+        "tag": "h1",
+        "text1": "",
+        "text2": "Créoles éthiques",
+        "padding_top": 70,
+        "padding_bottom": 0
       }
     },
     "45d5b17d-740f-4e4c-928f-e8b2222b18fd": {
       "type": "rosa-quote",
       "settings": {
+        "tag": "div",
         "text1": "Les créoles d'amour Rosa Maïtea sont éco-responsables et offrent de jolies variations en or et  diamants recyclés : étoiles, cascades et solitaires s’animent au gré des mouvements et subliment les contours du visage de leurs éclat chatoyant.",
         "text2": "",
         "link_text": "",
         "link_url": "",
-        "padding_top": 80,
+        "padding_top": 30,
         "padding_bottom": 0
       }
     },
@@ -84,6 +98,7 @@
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
       "type": "rosa-header2",
       "settings": {
+        "tag": "div",
         "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
         "text2": "NOUS VOUS ACCUEILLONS DANS NOTRE SHOWROOM AVEC JOIE",
         "padding_top": 45,
@@ -102,6 +117,7 @@
     "c35448d9-1175-475c-9d96-16d0b67db72b": {
       "type": "rosa-quote",
       "settings": {
+        "tag": "div",
         "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun.»",
         "text2": "Patricia Pereda - Directrice artistique et fondatrice de Rosa Maïtea",
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
@@ -120,6 +136,7 @@
   },
   "order": [
     "banner",
+    "8fe5c9ae-918d-4ee5-a95d-d0b0b6f62f77",
     "45d5b17d-740f-4e4c-928f-e8b2222b18fd",
     "product-grid",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
