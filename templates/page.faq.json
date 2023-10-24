@@ -45,7 +45,7 @@
           "type": "faq",
           "settings": {
             "title": "Comment puis-je retourner ma commande ?",
-            "text": "<p>Envoyez-nous un e-mail à patriciapereda@rosamaitea.com, et nous vous fournirons les informations nécessaires. La démarche est simple et gratuite si la demande est faite dans les 14 jours suivant la réception de votre commande. Une fois que nous aurons reçu et vérifié les produits retournés, accompagnés de leur pochon et de leur boîte d'origine, nous procéderons au remboursement sur le moyen de paiement que vous avez utilisé pour votre commande.<\/p>"
+            "text": "<p>Envoyez-nous un e-mail à <a href=\"mailto:rosa@rosamaitea.com\" title=\"mailto:rosa@rosamaitea.com\">rosa@rosamaitea.com<\/a>, et nous vous fournirons les informations nécessaires. La démarche est simple et gratuite si la demande est faite dans les 14 jours suivant la réception de votre commande. Une fois que nous aurons reçu et vérifié les produits retournés, accompagnés de leur pochon et de leur boîte d'origine, nous procéderons au remboursement sur le moyen de paiement que vous avez utilisé pour votre commande.<\/p>"
           }
         }
       },
