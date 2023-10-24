@@ -31,7 +31,7 @@
           "type": "faq",
           "settings": {
             "title": "Dois-je payer les frais de livraison ? Et que se passe-t-il en cas de retour du produit ?",
-            "text": "<p>Non, nous vous offrons la livraison et nous prenons en charge les frais de retour. Vous pouvez nous contacter par mail au patriciapereda@rosamaitea.com et nous vous enverrons une étiquette prépayée de Colissimo pour nous renvoyer le bijou que vous ne souhaitez plus garder. <\/p>"
+            "text": "<p>Non, nous vous offrons la livraison et nous prenons en charge les frais de retour. Vous pouvez nous contacter par mail au <a href=\"mailto:rosa@rosamaitea.com\" title=\"mailto:rosa@rosamaitea.com\">rosa@rosamaitea.com<\/a> et nous vous enverrons une étiquette prépayée de Colissimo pour nous renvoyer le bijou que vous ne souhaitez plus garder. <\/p>"
           }
         },
         "e2ed839a-4204-4080-a1a3-278c52b7d4e2": {
@@ -45,7 +45,7 @@
           "type": "faq",
           "settings": {
             "title": "Comment puis-je retourner ma commande ?",
-            "text": "<p>Envoyez-nous un e-mail à patriciapereda@rosamaitea.com, et nous vous fournirons les informations nécessaires. La démarche est simple et gratuite si la demande est faite dans les 14 jours suivant la réception de votre commande. Une fois que nous aurons reçu et vérifié les produits retournés, accompagnés de leur pochon et de leur boîte d'origine, nous procéderons au remboursement sur le moyen de paiement que vous avez utilisé pour votre commande.<\/p>"
+            "text": "<p>Envoyez-nous un e-mail à <a href=\"mailto:rosa@rosamaitea.com\" title=\"mailto:rosa@rosamaitea.com\">rosa@rosamaitea.com<\/a>, et nous vous fournirons les informations nécessaires. La démarche est simple et gratuite si la demande est faite dans les 14 jours suivant la réception de votre commande. Une fois que nous aurons reçu et vérifié les produits retournés, accompagnés de leur pochon et de leur boîte d'origine, nous procéderons au remboursement sur le moyen de paiement que vous avez utilisé pour votre commande.<\/p>"
           }
         }
       },
@@ -95,7 +95,7 @@
           "type": "faq",
           "settings": {
             "title": "Que faites-vous de mes données personnelles ?",
-            "text": "<p>Nous utilisons vos données personnelles uniquement pour vous offrir le meilleur service possible. Si vous nous y autorisez, nous les conservons et les protégeons précieusement pour vos futurs achats. Vous pouvez consulter notre politique de confidentialité ici.<\/p>"
+            "text": "<p>Nous utilisons vos données personnelles uniquement pour vous offrir le meilleur service possible. Si vous nous y autorisez, nous les conservons et les protégeons précieusement pour vos futurs achats. Vous pouvez consulter notre politique de confidentialité <a href=\"https:\/\/rosamaitea.com\/pages\/politique-de-confidentialite\" title=\"https:\/\/rosamaitea.com\/pages\/politique-de-confidentialite\">ici.<\/a><\/p>"
           }
         }
       },
@@ -133,7 +133,7 @@
           "type": "faq",
           "settings": {
             "title": "Comment choisir la taille de ma bague ?",
-            "text": "<p>Nous vous recommandons de choisir une taille inférieure à votre taille habituelle (par exemple, si votre taille habituelle est 54, la taille idéale de votre bague sera 53). Vous trouverez des informations détaillées dans notre guide des tailles.<\/p>"
+            "text": "<p>Nous vous recommandons de choisir une taille inférieure à votre taille habituelle (par exemple, si votre taille habituelle est 54, la taille idéale de votre bague sera 53). Vous trouverez des informations détaillées dans notre <a href=\"https:\/\/rosamaitea.com\/pages\/baguier-rosa-maitea\" title=\"https:\/\/rosamaitea.com\/pages\/baguier-rosa-maitea\">guide des tailles<\/a>.<\/p>"
           }
         }
       },
@@ -162,14 +162,14 @@
           "type": "faq",
           "settings": {
             "title": "Recrutez-vous ?",
-            "text": "<p>Rosa Maïtea est une entreprise très récente, mais nous serons ravis de recevoir vos candidatures motivées. Contactez-nous à patriciapereda@rosamaitea.com.<\/p>"
+            "text": "<p>Rosa Maïtea est une entreprise très récente, mais nous serons ravis de recevoir vos candidatures motivées. Contactez-nous à <a href=\"mailto:rosa@rosamaitea.com\" title=\"mailto:rosa@rosamaitea.com\">rosa@rosamaitea.com<\/a><\/p>"
           }
         },
         "90632d4d-e279-47c0-ade3-aa0dc0e4bee6": {
           "type": "faq",
           "settings": {
             "title": "Cherchez-vous des investisseurs ou des partenaires pour développer votre marque ?",
-            "text": "<p>Si vous appréciez notre marque et souhaitez unir vos forces aux nôtres pour contribuer à un monde meilleur, vous pouvez nous contacter à patriciapereda@rosamaitea.com.<\/p>"
+            "text": "<p>Si vous appréciez notre marque et souhaitez unir vos forces aux nôtres pour contribuer à un monde meilleur, vous pouvez nous contacter à <a href=\"mailto:rosa@rosamaitea.com\" title=\"mailto:rosa@rosamaitea.com\">rosa@rosamaitea.com.<\/a><\/p>"
           }
         }
       },
@@ -191,7 +191,7 @@
           "type": "faq",
           "settings": {
             "title": "L'engagement éthique et environnemental est au cœur de nos valeurs.",
-            "text": "<p>Cet engagement guide toutes nos décisions, sans exception. La transparence et l'honnêteté sont au cœur de notre ADN, et nous vous informons de manière transparente sur ce que nous faisons et comment nous le faisons. Nous sommes déterminés à être transparents et engagés envers toutes les personnes impliquées dans la création des bijoux Rosa Maïtea.<\/p>"
+            "text": "<p>Cet engagement guide toutes nos décisions, sans exception. La transparence et l'honnêteté sont au cœur de notre ADN, et nous vous informons de manière transparente sur ce que nous faisons et comment nous le faisons. Nous sommes déterminés à être transparents et engagés envers toutes les personnes impliquées dans la <a href=\"https:\/\/rosamaitea.com\/pages\/notre-or-recycle\" title=\"https:\/\/rosamaitea.com\/pages\/notre-or-recycle\">création des bijoux Rosa Maïtea.<\/a><\/p>"
           }
         },
         "f24cdb5d-4490-407d-89bd-00bf865c57fc": {

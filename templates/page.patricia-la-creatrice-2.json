@@ -84,7 +84,7 @@
         "6ed8f56b-c8b0-4673-b8e4-6ca5c3aa7ff5"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-115_fb268bbd-39e0-4e71-af2f-14269f33c8ac.jpg",
+        "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-105.jpg",
         "is_reverse": true,
         "is_centred": true,
         "padding_top": 55,
@@ -226,8 +226,8 @@
       "type": "rosa-header2",
       "settings": {
         "tag": "div",
-        "text1": "SUR-TITRE ICI",
-        "text2": "LE TITRE DE LA VIDÉO SUIVANTE",
+        "text1": "",
+        "text2": "Patricia nous raconte...",
         "padding_top": 45,
         "padding_bottom": 45
       }
@@ -236,6 +236,7 @@
       "type": "video",
       "settings": {
         "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/La naissance de Rosa Maïtea .mov",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "cover_image": "shopify:\/\/shop_images\/Image_2x_aa32a290-a23e-4f1e-9962-faab371765cc.jpg",
         "description": ""
