@@ -236,6 +236,7 @@
       "type": "video",
       "settings": {
         "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/La naissance de Rosa Maïtea .mov",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "cover_image": "shopify:\/\/shop_images\/Image_2x_aa32a290-a23e-4f1e-9962-faab371765cc.jpg",
         "description": ""
