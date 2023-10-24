@@ -2,13 +2,27 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "custom_css": [
+        ".rosa-collection-banner-title {display: none !important;}"
+      ],
       "settings": {
-        "tag": "h1"
+        "tag": "div"
+      }
+    },
+    "1014d586-0086-4bf2-85e9-b0bbe79ebe2c": {
+      "type": "rosa-header2",
+      "settings": {
+        "tag": "h1",
+        "text1": "",
+        "text2": "Chaînes Rosa Maitea",
+        "padding_top": 70,
+        "padding_bottom": 0
       }
     },
     "d8bb61d6-b45a-423a-8958-92a188e81e4e": {
       "type": "rosa-quote",
       "settings": {
+        "tag": "div",
         "text1": "Les chaînes éco-responsables Rosa Maïtea sont ornées de diamants recyclés ou de pierres fines traçables. Elles sont magnifiques portées seules grâce à leurs diamants scintillants et sont tout aussi parfaites pour sublimer les pendentifs Bonne Étoile ou Arcoiris.",
         "text2": "",
         "link_text": "",
@@ -77,6 +91,7 @@
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
       "type": "rosa-header2",
       "settings": {
+        "tag": "div",
         "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
         "text2": "NOUS VOUS ACCUEILLONS DANS NOTRE SHOWROOM AVEC JOIE",
         "padding_top": 45,
@@ -95,6 +110,7 @@
     "c35448d9-1175-475c-9d96-16d0b67db72b": {
       "type": "rosa-quote",
       "settings": {
+        "tag": "div",
         "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun.»",
         "text2": "Patricia Pereda - Directrice artistique et fondatrice de Rosa Maïtea",
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
@@ -106,13 +122,14 @@
     "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8": {
       "type": "rosa-header-controls",
       "settings": {
-        "color": "#ffffff",
+        "color": "#000000",
         "is_static": false
       }
     }
   },
   "order": [
     "banner",
+    "1014d586-0086-4bf2-85e9-b0bbe79ebe2c",
     "d8bb61d6-b45a-423a-8958-92a188e81e4e",
     "product-grid",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
