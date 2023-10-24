@@ -219,7 +219,7 @@
           "type": "faq",
           "settings": {
             "title": "Comment puis-je vous contacter ?",
-            "text": "<p>Vous pouvez nous contacter par e-mail à patriciapereda@rosamaitea.com ou par téléphone\/WhatsApp au +33 (0) 6 81 48 71 74.<\/p>"
+            "text": "<p>Vous pouvez nous contacter par e-mail à <a href=\"mailto:rosa@rosamaitea.com\" title=\"mailto:rosa@rosamaitea.com\">rosa@rosamaitea.com<\/a> ou par téléphone\/WhatsApp au +33 (0) 6 81 48 71 74.<\/p>"
           }
         },
         "317d585d-2efb-43aa-8b80-3c8225ac27fd": {

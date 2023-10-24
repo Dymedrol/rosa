@@ -19,6 +19,18 @@
         "padding_bottom": 0
       }
     },
+    "4bd0fe79-7293-400b-b3dc-cf37292999ca": {
+      "type": "rosa-quote",
+      "settings": {
+        "tag": "div",
+        "text1": "Parmi les trésors de Rosa Maïtea, La Favorite, réinterprète une pièce d'orfèvrerie légendaire : la traditionnelle bague Marguerite, joyaux des favorites royales et des fiançailles élégantes. ",
+        "text2": "",
+        "link_text": "",
+        "link_url": "\/",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "9b7251da-a436-4ee3-86d9-43e5a2375824": {
       "type": "double",
       "blocks": {
@@ -126,6 +138,7 @@
   "order": [
     "banner",
     "a99a476d-07c7-4cdc-b0af-92ac7e465b5f",
+    "4bd0fe79-7293-400b-b3dc-cf37292999ca",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
     "product-grid",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
