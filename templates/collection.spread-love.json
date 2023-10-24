@@ -9,17 +9,19 @@
     "900733a4-d6dd-4389-88a9-2389791a365d": {
       "type": "rosa-quote",
       "settings": {
-        "text1": "Symbole absolu de l’amour éternel, les diamants illuminent les joyaux des mariages et des fiançailles. Pour Rosa Maïtea, ces précieux joyaux sont les preuves d’amour éthiques et véritablement durables destinées à tous ceux qu’on aime. Les collections de bijoux éthiques La bonne Étoile, Les Solitaires et Jardin Cosmique proposent des bagues, colliers, bracelets et Boucles d’oreilles en or blanc ou en or jaune et en diamants recyclés, comme autant de cadeaux qui font battre le coeur en célébrant l’amour mais aussi l’amitié, l’admiration, la gratitude…",
-        "text2": "L’éclat pur des diamants blancs recyclés allié à la brillance de l’or 18 ct recyclé sacralise l’union de deux êtres qui s’aiment et celle de l’humanité avec la nature.",
+        "tag": "div",
+        "text1": "Symbole absolu de l’amour éternel, les diamants illuminent les joyaux des mariages et des fiançailles. Pour Rosa Maïtea, ces précieux joyaux sont les preuves d’amour éthiques et véritablement durables destinées à tous ceux qu’on aime. Les collections de bijoux éthiques La bonne Étoile, Les Solitaires et Jardin Cosmique proposent des bagues, colliers, bracelets et Boucles d’oreilles en or blanc ou en or jaune et en diamants recyclés, qui célèbrent l’amour...",
+        "text2": "",
         "link_text": "",
         "link_url": "",
-        "padding_top": 80,
+        "padding_top": 25,
         "padding_bottom": 0
       }
     },
     "8f144bf1-2707-4150-bf0d-2b4a09787f26": {
       "type": "rosa-quote",
       "settings": {
+        "tag": "div",
         "text1": "",
         "text2": "",
         "link_text": "",
@@ -95,6 +97,7 @@
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
       "type": "rosa-header2",
       "settings": {
+        "tag": "div",
         "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
         "text2": "NOUS VOUS ACCUEILLONS DANS NOTRE SHOWROOM AVEC JOIE",
         "padding_top": 45,
@@ -113,6 +116,7 @@
     "c35448d9-1175-475c-9d96-16d0b67db72b": {
       "type": "rosa-quote",
       "settings": {
+        "tag": "div",
         "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun.»",
         "text2": "Patricia Pereda - Directrice artistique et fondatrice de Rosa Maïtea",
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
