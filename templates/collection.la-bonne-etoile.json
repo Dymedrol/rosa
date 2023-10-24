@@ -108,16 +108,6 @@
         "description": ""
       }
     },
-    "b6e62c27-c59e-4032-b06b-226d964f97b7": {
-      "type": "double",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DSC9708.jpg",
-        "is_reverse": false,
-        "is_centred": true,
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
     "c35448d9-1175-475c-9d96-16d0b67db72b": {
       "type": "rosa-quote",
       "settings": {
@@ -146,7 +136,6 @@
     "product-grid",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
-    "b6e62c27-c59e-4032-b06b-226d964f97b7",
     "c35448d9-1175-475c-9d96-16d0b67db72b",
     "bd2cf2d8-2e6d-4282-95ab-d8c4a06bcfbc"
   ]
