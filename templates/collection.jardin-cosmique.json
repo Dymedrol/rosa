@@ -19,6 +19,18 @@
         "padding_bottom": 30
       }
     },
+    "b94811bd-a757-4e58-9781-f66118edcb9c": {
+      "type": "rosa-quote",
+      "settings": {
+        "tag": "div",
+        "text1": "Jardin cosmique célèbre avec joie la beauté et la puissance des astres de l’univers. ",
+        "text2": "",
+        "link_text": "",
+        "link_url": "shopify:\/\/pages\/prendre-rendez-vous",
+        "padding_top": 50,
+        "padding_bottom": 40
+      }
+    },
     "9b7251da-a436-4ee3-86d9-43e5a2375824": {
       "type": "double",
       "blocks": {
@@ -126,6 +138,7 @@
   "order": [
     "banner",
     "5a2e39e3-5f06-4d2f-ba2b-a3f3cd30a2e0",
+    "b94811bd-a757-4e58-9781-f66118edcb9c",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
     "product-grid",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
