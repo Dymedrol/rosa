@@ -324,6 +324,7 @@
     },
     "9603023c-6e27-4890-b9e6-e92093169f5b": {
       "type": "rosa-header2",
+      "disabled": true,
       "settings": {
         "tag": "div",
         "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
@@ -334,6 +335,7 @@
     },
     "fb0161b6-421e-47b5-8d9b-cb8f4b27ec2b": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
@@ -345,7 +347,7 @@
       "type": "rosa-quote",
       "settings": {
         "tag": "div",
-        "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun.»",
+        "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun»",
         "text2": "Patricia Pereda - Directrice artistique Rosa Maitea",
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM",
         "link_url": "shopify:\/\/pages\/prendre-rendez-vous",
