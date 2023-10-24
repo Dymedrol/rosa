@@ -27,6 +27,7 @@
     "b9b51502-1ed5-4667-b832-6951f9a0061d": {
       "type": "rosa-quote3",
       "settings": {
+        "tag": "div",
         "text1": "LES SERVICES ROSA MAITEA",
         "text2": "Pour vous offrir une joaillerie véritablement éthique et éco-responsable, Rosa Maïtea s’engage jusque dans ses services et vous propose de donner à vos bijoux Rosa Maïtea une durabilité maximale, de réinventer vos anciens bijoux et de vous proposer des solutions créatives pour upcyler vos diamants. Découvrez tous nos services et nos solutions !",
         "padding_top": 45,
@@ -36,6 +37,7 @@
     "e496dc6b-59cf-4d1c-8bee-d87875cbdd09": {
       "type": "rosa-quote3",
       "settings": {
+        "tag": "div",
         "text1": "MISE À TAILLE OFFERTE",
         "text2": "",
         "padding_top": 0,
@@ -54,6 +56,7 @@
     "d74bc6ba-55d1-4378-b52c-11ab222891c9": {
       "type": "rosa-quote2",
       "settings": {
+        "tag": "div",
         "text1": "",
         "text2": "Vous ne savez pas comment mesurer votre taille de doigt ? Si en achetant sur notre site une bague vous vous étés trompé de taille ? surtout  ne vous inquiétez pas car nous allons trouver une solution pour vous.",
         "padding_top": 35,
@@ -63,6 +66,7 @@
     "ae189300-c6d3-4c78-a626-e897c99b904c": {
       "type": "rosa-quote2",
       "settings": {
+        "tag": "div",
         "text1": "",
         "text2": "Nous vous enverrons une etiquette colissimo pour le retour de la bague, nous allons la mettre a la taille et vous la renvoie dans un délais de maximum 15 jours.",
         "padding_top": 0,
@@ -75,7 +79,7 @@
         "link1_text": "",
         "link1_url": "\/",
         "link2_text": "NOUS CONTACTER",
-        "link2_url": "\/",
+        "link2_url": "https:\/\/rosamaitea.com\/pages\/nous-contacter",
         "padding_top": 35,
         "padding_bottom": 75
       }
