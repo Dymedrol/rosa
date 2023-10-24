@@ -84,7 +84,7 @@
     "250b9dab-5f87-4c94-a1ee-edce9dae1d8c": {
       "type": "collection-slider-with-pic",
       "settings": {
-        "is_reverse": true,
+        "is_reverse": false,
         "slider_2_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-157.jpg",
         "text1": "TOURBILLON",
         "text2": "D'AMOUR",
