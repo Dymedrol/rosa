@@ -31,14 +31,13 @@
         "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-118_05534344-1759-49cc-b141-0ef246633dd3.jpg"
       }
     },
-    "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5": {
-      "type": "rosa-quote",
+    "f3072a74-e844-4c08-8050-2403211042ce": {
+      "type": "rosa-quote4",
       "settings": {
-        "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
+        "tag": "div",
+        "text1": "\"Coup de foudre, ou coup du destin : La joaillerie incarnait tout ce que j'aimais : les couleurs, la beauté de l'art, la transmission d'un savoir-faire, la tradition combinée à l’innovation, la création d’ornements précieux et symboliques transmis avec amour, et par amour. Mais, derrière l’éclat enchanteur de l’or et des diamants allait bientôt apparaître une toute autre histoire…. \"",
         "text2": "",
-        "link_text": "",
-        "link_url": "",
-        "padding_top": 90,
+        "padding_top": 30,
         "padding_bottom": 0
       }
     },
@@ -89,15 +88,6 @@
         "is_reverse": true,
         "is_centred": true,
         "padding_top": 90,
-        "padding_bottom": 0
-      }
-    },
-    "f3072a74-e844-4c08-8050-2403211042ce": {
-      "type": "rosa-quote4",
-      "settings": {
-        "text1": "\"Coup de foudre, ou coup du destin : La joaillerie incarnait tout ce que j'aimais : les couleurs, la beauté de l'art, la transmission d'un savoir-faire, la tradition combinée à l’innovation, la création d’ornements précieux et symboliques transmis avec amour, et par amour. Mais, derrière l’éclat enchanteur de l’or et des diamants allait bientôt apparaître une toute autre histoire…. \"",
-        "text2": "",
-        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -235,6 +225,7 @@
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb": {
       "type": "rosa-header2",
       "settings": {
+        "tag": "div",
         "text1": "SUR-TITRE ICI",
         "text2": "LE TITRE DE LA VIDÉO SUIVANTE",
         "padding_top": 45,
@@ -283,9 +274,8 @@
     "main",
     "237458dd-360c-4b77-b13f-be299496a576",
     "d8037b2c-93f5-4ed8-8ab3-69c24ce46c15",
-    "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5",
-    "a9539caf-edb1-471f-9d6c-97b6a2b08a04",
     "f3072a74-e844-4c08-8050-2403211042ce",
+    "a9539caf-edb1-471f-9d6c-97b6a2b08a04",
     "ec7190e2-5195-49ed-8288-b4afe2d71cd0",
     "b2d8975f-fc61-462b-a960-6d219334d501",
     "1de8951e-cc53-47fa-9964-506c7bc6d3a6",
