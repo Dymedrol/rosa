@@ -9,7 +9,7 @@
         "text_color": "#ffffff",
         "image_banner_title_text": "<p>LOVE STORIES DE ROSA MAÏTEA<\/p>",
         "is_title_big": false,
-        "image_banner_subtitle_text": "L'actualité de Rosa Maïtea que pour vous !",
+        "image_banner_subtitle_text": "Le blog d'actualité de Rosa Maïtea que pour vous !",
         "is_text_big": false,
         "image_banner_link_text": "",
         "image_banner_link_url": "",
@@ -20,6 +20,7 @@
     "cbc57f6e-6bf4-4e04-8f7b-dece065c90b3": {
       "type": "rosa-header3",
       "settings": {
+        "tag": "div",
         "text1": "L’ACTUALITÉ ROSA MAITEA",
         "text2": "STORIES OF LOVE",
         "text3": "",
