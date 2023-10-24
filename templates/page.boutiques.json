@@ -3,6 +3,7 @@
     "74bb4f04-de89-45bd-951a-3fe92be32ae4": {
       "type": "image-banner",
       "settings": {
+        "tag": "div",
         "is_full_screen": false,
         "alignment": "center",
         "text_color": "#121212",
@@ -45,6 +46,7 @@
         "5c90ce42-7ea0-4bfe-a50d-d8960da6ea65": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/unnamed_c2809bb5-fee8-472c-8780-acb08e0c363b.png",
             "title": "MUSE BY",
             "adresse": "60 Grand-Rue, 1660 Ville-Haute Luxembourg"
           }
@@ -52,6 +54,7 @@
         "feb48cc3-5706-43b5-8313-0d6f5cf1bffe": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/fred_beard-2_FBEA8773_5c7cd38b-b7f8-4bf4-9cb6-ec5cc5979b40.jpg",
             "title": "LENY JEWELRY",
             "adresse": "Rue Lebeau 65, 1000 Bruxelles, Belgique"
           }
