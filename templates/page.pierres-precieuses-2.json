@@ -34,6 +34,7 @@
     "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5": {
       "type": "rosa-quote",
       "settings": {
+        "tag": "div",
         "text1": "Dès lors, afin d’honorer son engagement pour une joaillerie durable et respectueuse de l'environnement,  Rosa Maïtea a exploré la piste de la traçabilité. A force de recherches et de persévérance, nous avons identifié une filière offrant toutes les garanties de traçabilité des pierres, de la mine au bijou : nom de la mine, pays d'origine, ateliers de taille et de création.",
         "text2": "LES PIERRES FINES ROSA MAÏTEA ENTIÈREMENT TRAÇABLES SONT: LES SPINELLES ET GRENATS DE TANZANIE, LA TOURMALINE DE NAMIBIE.",
         "link_text": "",
@@ -81,6 +82,7 @@
     "f3072a74-e844-4c08-8050-2403211042ce": {
       "type": "rosa-quote4",
       "settings": {
+        "tag": "div",
         "text1": "Si l’or et les diamants se recyclent, pourquoi ne recycle-t-on pas les pierres fines ? Tout simplement pas elles sont très fragiles et ne peuvent être désserties avec les outils adéquats sans se briser. Ainsi, maintenant que nous connaissons les mines d’origine, nous mettons en place des partenariats avec des acteurs locaux et apportons notre contribution à l’amélioration des conditions de vie des mineurs.",
         "text2": "",
         "padding_top": 40,
@@ -142,7 +144,7 @@
         "b762b44a-3b00-4637-8411-b950e8d51860": {
           "type": "text",
           "settings": {
-            "text": "<p>La tourmaline possède une étymologie intrigante, mêlant le grec \"tourmalos\" signifiant \"pierre attirante\" et le cinghalais \"turamali\" qui évoque les \"pierres aux couleurs mélangées\". Rosa Maïtea la choisit dans ses envoûtantes versions vert émeraude et rose délicat. On prête à la tourmaline, pierre aux mille facettes, des pouvoirs d'harmonisation et de protection, ainsi qu'une capacité à apporter un équilibre émotionnel.<\/p>"
+            "text": "<p>La tourmaline possède une étymologie intrigante, mêlant le grec \"tourmalos\" signifiant \"pierre attirante\" et le cinghalais \"turamali\" qui évoque les \"pierres aux couleurs mélangées\". <a href=\"https:\/\/rosamaitea.com\/collections\/la-favorita-de-rosa-maitea\" title=\"https:\/\/rosamaitea.com\/collections\/la-favorita-de-rosa-maitea\">Rosa Maïtea la choisit dans ses envoûtantes versions vert émeraude et rose délicat<\/a>. On prête à la tourmaline, pierre aux mille facettes, des pouvoirs d'harmonisation et de protection, ainsi qu'une capacité à apporter un équilibre émotionnel.<\/p>"
           }
         }
       },
@@ -246,6 +248,7 @@
       "type": "rosa-header2",
       "disabled": true,
       "settings": {
+        "tag": "div",
         "text1": "SUR-TITRE ICI",
         "text2": "LE TITRE DE LA VIDÉO SUIVANTE",
         "padding_top": 45,
