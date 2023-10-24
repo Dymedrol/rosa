@@ -15,7 +15,7 @@
         "tag": "h1",
         "text1": "",
         "text2": "ARCOIRIS",
-        "padding_top": 30,
+        "padding_top": 60,
         "padding_bottom": 0
       }
     },
@@ -102,7 +102,7 @@
         "tag": "div",
         "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
         "text2": "NOUS VOUS ACCUEILLONS DANS NOTRE SHOWROOM",
-        "padding_top": 45,
+        "padding_top": 60,
         "padding_bottom": 25
       }
     },
@@ -123,8 +123,8 @@
         "text2": "Patricia Pereda - Directrice artistique et fondatrice de Rosa Maïtea",
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
         "link_url": "shopify:\/\/pages\/prendre-rendez-vous",
-        "padding_top": 80,
-        "padding_bottom": 85
+        "padding_top": 70,
+        "padding_bottom": 80
       }
     },
     "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8": {
