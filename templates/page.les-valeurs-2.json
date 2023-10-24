@@ -34,6 +34,7 @@
     "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5": {
       "type": "rosa-quote",
       "settings": {
+        "tag": "div",
         "text1": "Les six rayons qui partent du cœur représentent nos 6 valeurs essentielles qui inspirent la marque et lui insufflent l'énergie pour avancer et aller plus loin.",
         "text2": "",
         "link_text": "",
@@ -81,6 +82,7 @@
       "type": "rosa-quote4",
       "disabled": true,
       "settings": {
+        "tag": "div",
         "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
         "text2": "",
         "padding_top": 90,
@@ -134,7 +136,7 @@
         "1ea8cb70-f082-41c2-9825-de8fe6e965e8": {
           "type": "text",
           "settings": {
-            "text": "<p>A la fois composante fondamentale de notre ADN et axe premier de notre développement, l'engagement éthique est l’étoile qui guide Rosa Maïtea dans toutes ses décisions. Nous nous engageons à concevoir, produire et commercialiser des bijoux utilisant des matières recyclées, ou issues de pratiques durables. <\/p>"
+            "text": "<p>A la fois composante fondamentale de notre ADN et axe premier de notre développement, l'engagement éthique est l’étoile qui guide Rosa Maïtea dans toutes ses décisions. Nous nous engageons à concevoir, produire et commercialiser des bijoux utilisant des <a href=\"https:\/\/rosamaitea.com\/pages\/nos-diamants-recycles\" title=\"https:\/\/rosamaitea.com\/pages\/nos-diamants-recycles\">matières recyclées<\/a>, ou issues de pratiques durables. <\/p>"
           }
         },
         "096334ef-2059-4922-8600-72e5887d8691": {
@@ -350,6 +352,7 @@
       "type": "rosa-header2",
       "disabled": true,
       "settings": {
+        "tag": "div",
         "text1": "SUR-TITRE ICI",
         "text2": "LE TITRE DE LA VIDÉO SUIVANTE",
         "padding_top": 45,
