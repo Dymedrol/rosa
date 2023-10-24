@@ -2,8 +2,21 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "custom_css": [
+        ".rosa-collection-banner-title {display: none !important;}"
+      ],
       "settings": {
-        "tag": "h1"
+        "tag": "div"
+      }
+    },
+    "374b95c0-0dcd-4404-92dc-32f8188ad207": {
+      "type": "rosa-header2",
+      "settings": {
+        "tag": "h1",
+        "text1": "",
+        "text2": "Tourbillon",
+        "padding_top": 70,
+        "padding_bottom": 0
       }
     },
     "9b7251da-a436-4ee3-86d9-43e5a2375824": {
@@ -55,7 +68,7 @@
         "is_reverse": false,
         "is_centred": true,
         "padding_top": 60,
-        "padding_bottom": 15
+        "padding_bottom": 30
       }
     },
     "product-grid": {
@@ -67,7 +80,7 @@
         "filter_type": "horizontal",
         "enable_sorting": false,
         "columns_mobile": "2",
-        "padding_top": 0,
+        "padding_top": 30,
         "padding_bottom": 0
       }
     },
@@ -157,6 +170,7 @@
   },
   "order": [
     "banner",
+    "374b95c0-0dcd-4404-92dc-32f8188ad207",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
     "product-grid",
     "6649bb51-9cf5-4a01-bba3-61a21835f000",
