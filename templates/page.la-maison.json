@@ -31,6 +31,7 @@
     "4016fdd0-0876-4da1-afe4-d71a6188c6b1": {
       "type": "rosa-header3",
       "settings": {
+        "tag": "div",
         "text1": "NOTRE RAISON D'ETRE",
         "text2": "MANIFESTE",
         "text3": "<p>Ma vision est simple : mettre de la lumière dans ce monde opaque en faisant des bijoux avec de l’or et des diamants recyclés, et des pierres traçables. Rosa Maitea est fière de contribuer à la création d'un monde meilleur. Chacun de nos bijoux éco-responsables incarne notre engagement pour une planète préservée et pour des conditions de travail durables. Plus qu'une marque, Rosa Maïtea est une vision et la promesse d’une beauté éthique à l'impact positif.<\/p>",
@@ -50,6 +51,7 @@
     "39ebf9c9-7997-4a70-91a3-5c921a459945": {
       "type": "rosa-header3",
       "settings": {
+        "tag": "div",
         "text1": "NOS ENGAGEMENTS",
         "text2": "EN QUOI NOUS SOMMES UNIQUES",
         "text3": "<p>Rosa Maitea est fière de contribuer à la création d'un monde meilleur. Chacun de nos bijoux éco-responsables incarne notre engagement pour une planète préservée et pour des conditions de travail durables. Plus qu'une marque, Rosa Maïtea<strong> <\/strong>est une vision et la promesse d’une beauté éthique à l'impact positif.<\/p>",
@@ -70,7 +72,7 @@
             "link2-text": "<p>DIAMANT RECYCLÉ<\/p>",
             "link2-url": "shopify:\/\/pages\/nos-diamants-recycles",
             "link3-text": "<p>NOS POCHONS RECYCLÉS<\/p>",
-            "link3-url": ""
+            "link3-url": "shopify:\/\/pages\/packaging-recycle"
           }
         },
         "d629ba8c-ba3f-4571-971a-935f6d93063b": {
@@ -127,6 +129,7 @@
     "50a97970-36c4-452e-9885-f6cb72a35c2d": {
       "type": "rosa-quote2",
       "settings": {
+        "tag": "div",
         "text1": "Notre objectif est d'apporter de la lumière et de la transparence à la joaillerie",
         "text2": "Nos créations sont respectueuses de l'environnement et d’êtres humains qui participent à leurs fabrication. J’ai la conviction, que nous pouvons contribuer à faire changer les choses. Bien sûr, ce ne sera pas parfait du jour au lendemain, les enjeux sont trop vastes, mais contribuer à plus de transparence c’est un premier pas, un premier rayon de soleil qui, je l’espère, se démultipliera.",
         "padding_top": 20,
@@ -192,6 +195,7 @@
     "65045b80-b25d-42bb-a0b7-16e75d63e285": {
       "type": "rosa-header2",
       "settings": {
+        "tag": "div",
         "text1": "IL ÉTAIT UNE FOIS",
         "text2": "L’HISTOIRE DE ROSA MAITEA",
         "padding_top": 80,
@@ -210,6 +214,7 @@
     "3537bbea-543d-4725-8815-7bcbb35927d0": {
       "type": "rosa-quote",
       "settings": {
+        "tag": "div",
         "text1": "«Je vous raconterais l''histoire dans mon showroom autour d'un café ou d'une coupe de champagne ! »",
         "text2": "Patricia Pereda - Directrice artistique Rosa Maïtea",
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM PARISIEN",
@@ -221,6 +226,7 @@
     "d946e715-3084-42cd-9331-b75fff4b2453": {
       "type": "rosa-header3",
       "settings": {
+        "tag": "div",
         "text1": "RÉSEAU SOCIAUX",
         "text2": "RETROSPECTIVE SPREAD LOVE",
         "text3": "<p>Nous rejoindre <strong>@rosamaitea<\/strong><\/p>",
