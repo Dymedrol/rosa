@@ -6,7 +6,7 @@
         ".rosa-collection-banner-title {display: none !important;}"
       ],
       "settings": {
-        "tag": "h1"
+        "tag": "div"
       }
     },
     "8d1b1f4e-8950-4fd5-bacf-6fcfb6f64906": {
