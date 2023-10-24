@@ -42,8 +42,9 @@
     "7b65d900-0344-4e58-9e3d-e6c2160f1271": {
       "type": "video",
       "settings": {
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=H-iCgfPBpxA",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/Manifesto Rosa Maïtea sous-titre français.mp4",
+        "video_url": "",
         "cover_image": "shopify:\/\/shop_images\/DSC8558_0d0bf297-1bde-4db9-b91c-90c39412ab8e.jpg",
         "description": ""
       }
