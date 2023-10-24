@@ -8,7 +8,7 @@
         "alignment": "center",
         "text_color": "#fff",
         "image_banner_title_text": "<p>CONTACTEZ-NOUS<\/p>",
-        "is_title_big": true,
+        "is_title_big": false,
         "image_banner_subtitle_text": "Pour toute question, n’hésitez pas à nous contacter. Nous serons heureux de pouvoir vous aider.",
         "is_text_big": true,
         "image_banner_link_text": "",
