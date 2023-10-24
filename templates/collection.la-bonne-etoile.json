@@ -113,7 +113,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/DSC9708.jpg",
         "is_reverse": false,
-        "is_centred": false,
+        "is_centred": true,
         "padding_top": 45,
         "padding_bottom": 45
       }
