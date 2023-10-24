@@ -20,12 +20,12 @@
         "alignment": "center",
         "text_color": "#ffffff",
         "image_banner_title_text": "<p>LA MAISON ROSA MAÏTEA<\/p>",
-        "is_title_big": true,
+        "is_title_big": false,
         "image_banner_subtitle_text": "UNE BELLE HISTOIRE D'AMOUR ET D'ÉTHIQUE",
         "is_text_big": false,
         "image_banner_link_text": "",
         "image_banner_link_url": "",
-        "banner_image": "shopify:\/\/shop_images\/Cadre_rosamaitea-louison-boucly-studio0476.jpg"
+        "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-127_9e98183a-55e2-433e-85c4-d335a7dc9470.jpg"
       }
     },
     "4016fdd0-0876-4da1-afe4-d71a6188c6b1": {
@@ -189,7 +189,7 @@
         "image": "shopify:\/\/shop_images\/Image_2x_ed8e1de7-2f02-45d8-8d1e-4c02ef8c5272.png",
         "is_reverse": true,
         "is_centred": true,
-        "padding_top": 80,
+        "padding_top": 70,
         "padding_bottom": 50
       }
     },
