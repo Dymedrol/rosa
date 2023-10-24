@@ -28,7 +28,7 @@
         "link_text": "",
         "link_url": "shopify:\/\/pages\/prendre-rendez-vous",
         "padding_top": 40,
-        "padding_bottom": 0
+        "padding_bottom": 35
       }
     },
     "9b7251da-a436-4ee3-86d9-43e5a2375824": {
@@ -80,7 +80,7 @@
         "is_reverse": false,
         "is_centred": true,
         "padding_top": 30,
-        "padding_bottom": 15
+        "padding_bottom": 40
       }
     },
     "product-grid": {
