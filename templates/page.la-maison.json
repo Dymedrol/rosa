@@ -174,7 +174,7 @@
           "type": "link",
           "settings": {
             "link_text": "PRENDRE RENDEZ-VOUS EN LIVE",
-            "link_url": ""
+            "link_url": "shopify:\/\/pages\/prendre-rendez-vous"
           }
         }
       },
