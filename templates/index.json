@@ -300,7 +300,7 @@
           "type": "link",
           "settings": {
             "link_text": "NOUS CONTACTER",
-            "link_url": "shopify:\/\/pages\/nous-contacter"
+            "link_url": "https:\/\/rosamaitea.com\/pages\/contact"
           }
         }
       },
