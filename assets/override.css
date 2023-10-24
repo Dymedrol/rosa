@@ -2,6 +2,10 @@
   display:none!important;
 }
 
+.template-search__header .h2.center {
+  text-transform: uppercase;
+}
+
 .rosa-quote5-text2 {
   padding-top: 10px;
 }
