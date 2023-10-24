@@ -18,18 +18,6 @@
         "padding_bottom": 0
       }
     },
-    "8f144bf1-2707-4150-bf0d-2b4a09787f26": {
-      "type": "rosa-quote",
-      "settings": {
-        "tag": "div",
-        "text1": "",
-        "text2": "",
-        "link_text": "",
-        "link_url": "",
-        "padding_top": 30,
-        "padding_bottom": 0
-      }
-    },
     "9b7251da-a436-4ee3-86d9-43e5a2375824": {
       "type": "double",
       "blocks": {
@@ -77,8 +65,8 @@
         "image": "shopify:\/\/shop_images\/Rosa_maitea_chaine_et_pendentif_la_bonne_etoile_diamants_spread_love.jpg",
         "is_reverse": false,
         "is_centred": true,
-        "padding_top": 30,
-        "padding_bottom": 15
+        "padding_top": 10,
+        "padding_bottom": 10
       }
     },
     "product-grid": {
@@ -136,7 +124,6 @@
   "order": [
     "banner",
     "900733a4-d6dd-4389-88a9-2389791a365d",
-    "8f144bf1-2707-4150-bf0d-2b4a09787f26",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
     "product-grid",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
