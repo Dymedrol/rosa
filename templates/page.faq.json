@@ -169,7 +169,7 @@
           "type": "faq",
           "settings": {
             "title": "Cherchez-vous des investisseurs ou des partenaires pour développer votre marque ?",
-            "text": "<p>Si vous appréciez notre marque et souhaitez unir vos forces aux nôtres pour contribuer à un monde meilleur, vous pouvez nous contacter à patriciapereda@rosamaitea.com.<\/p>"
+            "text": "<p>Si vous appréciez notre marque et souhaitez unir vos forces aux nôtres pour contribuer à un monde meilleur, vous pouvez nous contacter à <a href=\"mailto:rosa@rosamaitea.com\" title=\"mailto:rosa@rosamaitea.com\">rosa@rosamaitea.com.<\/a><\/p>"
           }
         }
       },
