@@ -34,6 +34,7 @@
     "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5": {
       "type": "rosa-quote",
       "settings": {
+        "tag": "div",
         "text1": "L’or peut se fondre à l’infini et être perpétuellement récyclé sans perdre ses qualités intrinsèques ni altérer sa beauté. Le métal fondu, entre 1000 et 1100 °C au plus près du point de fusion, peut être réutilisé et demeure identique, il est malléable, ductile et conserve toute sa lumineuse beauté. ",
         "text2": "",
         "link_text": "",
@@ -80,6 +81,7 @@
     "f3072a74-e844-4c08-8050-2403211042ce": {
       "type": "rosa-quote4",
       "settings": {
+        "tag": "div",
         "text1": "L’or recyclé utilisé par Rosa Maïtea est certifié par le label RJC-COC : Responsible Jewelry Council-Chain of Custody. Contraignant pour les fabricants, il impose une série de normes et conditions sur le sourcing et le traçage de l’or qui garantissent aux marques et à leurs clients un or éthique et éco-responsable.  ",
         "text2": "",
         "padding_top": 90,
@@ -161,10 +163,11 @@
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb": {
       "type": "rosa-header2",
       "settings": {
+        "tag": "div",
         "text1": "",
         "text2": "Alternative écologique évidente, l’or recyclé n’a aucune incidence additionnelle sur l'environnement.",
         "padding_top": 45,
-        "padding_bottom": 45
+        "padding_bottom": 5
       }
     },
     "fa2ca636-a51a-4983-8c38-a10ba431017b": {
