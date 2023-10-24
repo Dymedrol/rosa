@@ -44,7 +44,7 @@ height: 20px !important;
 
 @media screen and (max-width: 480px) {
 
-.template-search__header .h2.center {
+.template-search__header .h2.center, .main-page-title.page-title {
   font: 30px/40px Cormorant !important;
 }
   
