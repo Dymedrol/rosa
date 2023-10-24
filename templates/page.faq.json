@@ -133,7 +133,7 @@
           "type": "faq",
           "settings": {
             "title": "Comment choisir la taille de ma bague ?",
-            "text": "<p>Nous vous recommandons de choisir une taille inférieure à votre taille habituelle (par exemple, si votre taille habituelle est 54, la taille idéale de votre bague sera 53). Vous trouverez des informations détaillées dans notre guide des tailles.<\/p>"
+            "text": "<p>Nous vous recommandons de choisir une taille inférieure à votre taille habituelle (par exemple, si votre taille habituelle est 54, la taille idéale de votre bague sera 53). Vous trouverez des informations détaillées dans notre <a href=\"https:\/\/rosamaitea.com\/pages\/baguier-rosa-maitea\" title=\"https:\/\/rosamaitea.com\/pages\/baguier-rosa-maitea\">guide des tailles<\/a>.<\/p>"
           }
         }
       },
