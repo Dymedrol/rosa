@@ -188,8 +188,8 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Image_2x_ed8e1de7-2f02-45d8-8d1e-4c02ef8c5272.png",
         "is_reverse": true,
-        "is_centred": false,
-        "padding_top": 90,
+        "is_centred": true,
+        "padding_top": 80,
         "padding_bottom": 50
       }
     },
