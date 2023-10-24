@@ -6,6 +6,7 @@
         "@media ((min-width: 1200px)) {.rosa-jumbotron-title {font: 40px\/45px Cormorant !important; }}"
       ],
       "settings": {
+        "tag": "div",
         "is_full_screen": true,
         "alignment": "center",
         "text_color": "#ffffff",
@@ -72,6 +73,19 @@
       "settings": {
         "is_reverse": true,
         "slider_2_image": "shopify:\/\/shop_images\/Rosa_Maitea_pendentif_diamants_la_bonne_etoile_spread_love.jpg",
+        "text1": "LE MARIAGE ÉTHIQUE DE ROSA MAITEA",
+        "text2": "SPREAD LOVE",
+        "text3": "Symbole absolu de l’amour éternel, les diamants illuminent les joyaux des mariages et des fiançailles.",
+        "collection": "spread-love",
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
+    },
+    "250b9dab-5f87-4c94-a1ee-edce9dae1d8c": {
+      "type": "collection-slider-with-pic",
+      "settings": {
+        "is_reverse": true,
+        "slider_2_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-157.jpg",
         "text1": "LE MARIAGE ÉTHIQUE DE ROSA MAITEA",
         "text2": "SPREAD LOVE",
         "text3": "Symbole absolu de l’amour éternel, les diamants illuminent les joyaux des mariages et des fiançailles.",
@@ -165,6 +179,7 @@
     "08507394-5aa3-493c-88b0-98fa8f0b6564": {
       "type": "rosa-header2",
       "settings": {
+        "tag": "div",
         "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
         "text2": "UNE MARQUE HUMAINE À VIVRE",
         "padding_top": 0,
@@ -183,6 +198,7 @@
     "93b5672a-4fb6-4b8a-8880-ffec0bccf5fe": {
       "type": "rosa-quote",
       "settings": {
+        "tag": "div",
         "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun.»",
         "text2": "Patricia Perreda - Directrice artistique Rosa Maitea",
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
@@ -281,6 +297,7 @@
     "b9e5d08b-4bcc-42a0-bd02-b0a53972b7ca",
     "27f470dc-84fb-4a95-b1a7-9bce1791a6a7",
     "6fbb0f32-8f2d-4d5d-b36c-eb2cd570ff42",
+    "250b9dab-5f87-4c94-a1ee-edce9dae1d8c",
     "d7288492-ad09-431b-a31b-1f05838ff9b6",
     "b9f73162-daa1-4632-bc3a-6e475aaa979b",
     "2dcff7fa-aa57-4e02-ad3e-58106b26f48f",
