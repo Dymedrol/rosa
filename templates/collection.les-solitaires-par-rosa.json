@@ -2,8 +2,21 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "custom_css": [
+        ".rosa-collection-banner-title {display: none !important;}"
+      ],
       "settings": {
-        "tag": "h1"
+        "tag": "div"
+      }
+    },
+    "1d45b9f8-0add-459a-a650-da512291d3a7": {
+      "type": "rosa-header2",
+      "settings": {
+        "tag": "h1",
+        "text1": "",
+        "text2": "Les solitaires par Rosa Maïtea",
+        "padding_top": 70,
+        "padding_bottom": 0
       }
     },
     "product-grid": {
@@ -15,7 +28,7 @@
         "filter_type": "horizontal",
         "enable_sorting": true,
         "columns_mobile": "2",
-        "padding_top": 0,
+        "padding_top": 30,
         "padding_bottom": 0
       }
     },
@@ -73,6 +86,7 @@
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
       "type": "rosa-header2",
       "settings": {
+        "tag": "div",
         "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
         "text2": "NOUS VOUS ACCUEILLONS DANS NOTRE SHOWROOM AVEC JOIE",
         "padding_top": 45,
@@ -91,6 +105,7 @@
     "c35448d9-1175-475c-9d96-16d0b67db72b": {
       "type": "rosa-quote",
       "settings": {
+        "tag": "div",
         "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun.»",
         "text2": "Patricia Pereda - Directrice artistique et fondatrice de Rosa Maïtea",
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
@@ -109,6 +124,7 @@
   },
   "order": [
     "banner",
+    "1d45b9f8-0add-459a-a650-da512291d3a7",
     "product-grid",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
