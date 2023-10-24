@@ -34,6 +34,7 @@
     "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5": {
       "type": "rosa-quote",
       "settings": {
+        "tag": "div",
         "text1": "Les diamants sont éternels mais ils ne sont pas inépuisables. Leur formation géologique au cœur de la terre demande plusieurs milliards d’années, et le rythme de la demande mondiale épuise les ressources disponibles.",
         "text2": "Rosa Maïtea s’engage pour une joaillerie durable en recyclant des diamants provenant de bijoux existants. Certes le design de nos bijoux doit s’adapter aux formes et aux tailles des diamants disponibles, mais nous faisons de cette contrainte un challenge créatif pour vous offrir une nouvelle vision du diamant, magnifiée par l’authenticité de notre engagement. “Les diamants  recyclés Rosa Maïtea respectent la nature et l’humanité\"                                    ",
         "link_text": "Découvrez les différentes étapes du recyclage des diamants:",
@@ -124,7 +125,7 @@
         "90a50d63-5e85-48d8-b814-342c5ce0734c": {
           "type": "text",
           "settings": {
-            "text": "<p>La mise en place d’une filière innovante dédiée à la récupération des diamants, permet de répertorier distinctement des gemmes recyclées de celles extraites des mines. Naturellement, nos réserves de diamants recyclés ne sont pas infinies, ce qui donne à nos bijoux leur rareté et leur unicité.<\/p>"
+            "text": "<p>La mise en place d’une filière innovante dédiée à la récupération des diamants, permet de répertorier distinctement des gemmes recyclées de celles extraites des mines. Naturellement, nos réserves de diamants recyclés ne sont pas infinies, ce qui donne à <a href=\"https:\/\/rosamaitea.com\/collections\" title=\"https:\/\/rosamaitea.com\/collections\">nos bijoux <\/a>leur rareté et leur unicité.<\/p>"
           }
         },
         "7dd0c19f-fd37-47f1-8ad0-fdc3769ea6cd": {
@@ -257,6 +258,7 @@
     "48509321-3649-4129-886e-1ffbfb35275e": {
       "type": "rosa-header2",
       "settings": {
+        "tag": "div",
         "text1": "",
         "text2": "“Les diamants  recyclés Rosa Maïtea respectent la nature et l’humanité” ",
         "padding_top": 45,
@@ -313,6 +315,7 @@
       "type": "rosa-header2",
       "disabled": true,
       "settings": {
+        "tag": "div",
         "text1": "SUR-TITRE ICI",
         "text2": "LE TITRE DE LA VIDÉO SUIVANTE",
         "padding_top": 45,
