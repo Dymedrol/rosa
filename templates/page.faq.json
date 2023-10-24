@@ -95,7 +95,7 @@
           "type": "faq",
           "settings": {
             "title": "Que faites-vous de mes données personnelles ?",
-            "text": "<p>Nous utilisons vos données personnelles uniquement pour vous offrir le meilleur service possible. Si vous nous y autorisez, nous les conservons et les protégeons précieusement pour vos futurs achats. Vous pouvez consulter notre politique de confidentialité ici.<\/p>"
+            "text": "<p>Nous utilisons vos données personnelles uniquement pour vous offrir le meilleur service possible. Si vous nous y autorisez, nous les conservons et les protégeons précieusement pour vos futurs achats. Vous pouvez consulter notre politique de confidentialité <a href=\"https:\/\/rosamaitea.com\/pages\/politique-de-confidentialite\" title=\"https:\/\/rosamaitea.com\/pages\/politique-de-confidentialite\">ici.<\/a><\/p>"
           }
         }
       },
