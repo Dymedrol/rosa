@@ -35,7 +35,7 @@
           "type": "accordion",
           "settings": {
             "title": "GUIDE DE TAILLES",
-            "text": "<p>Pour vous assurer de recevoir votre bague à la taille idéale, veuillez consulter notre guide des tailles ici.<\/p>"
+            "text": "<p>Pour vous assurer de recevoir votre bague à la taille idéale, veuillez consulter notre guide des tailles <a href=\"\/pages\/baguier-rosa-maitea\" target=\"_blank\" title=\"Baguier Rosa Maïtea\">ici<\/a>.<\/p>"
           }
         },
         "f8d51ad8-08af-4da4-9a69-3984b3b0ea56": {
@@ -111,6 +111,7 @@
     "0f32b7f0-f6d3-48bc-a764-d95b9d90cd6a": {
       "type": "rosa-header2",
       "settings": {
+        "tag": "div",
         "text1": "LES CONSEILS DE ROSA MAITEA",
         "text2": "PRENDRE SOIN DE SON BIJOUX",
         "padding_top": 0,
@@ -129,6 +130,7 @@
     "39eed9dc-0490-4ebf-9f39-f286ac72d387": {
       "type": "rosa-header3",
       "settings": {
+        "tag": "div",
         "text1": "Pour garder l'éclat de votre bijoux et lui aider à vivre plus longtemps, nous vous conseillons de nettoyer vos bijoux régulièrement. Les bijoux accumulent de saletés et de poussières qui peuvent les rendre plus ternes. Voici nos conseils d'entretiens de votre bijoux.",
         "text2": "",
         "text3": "<p>Conseils d'entretiens de vos bijoux<\/p>",
