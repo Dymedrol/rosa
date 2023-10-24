@@ -34,11 +34,12 @@
     "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5": {
       "type": "rosa-quote",
       "settings": {
+        "tag": "div",
         "text1": "\" Ce jour-là, j’ai su que la beauté véritable naît de l'amour et du respect. Aucun objet ne peut prétendre à la beauté s'il n'est pas conçu avec une profonde considération pour les hommes et les femmes qui contribuent à sa création. Quant à la nature, source de toute vie, nous lui devons un respect inconditionnel \"",
         "text2": "",
         "link_text": "",
         "link_url": "",
-        "padding_top": 65,
+        "padding_top": 50,
         "padding_bottom": 0
       }
     },
@@ -141,6 +142,7 @@
       "type": "rosa-quote4",
       "disabled": true,
       "settings": {
+        "tag": "div",
         "text1": "\" Mais derrière tous ces défis nous sommes très fiers de contribuer à créer un monde meilleur \"",
         "text2": "",
         "padding_top": 45,
@@ -196,6 +198,7 @@
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb": {
       "type": "rosa-header2",
       "settings": {
+        "tag": "div",
         "text1": "the reason why",
         "text2": "LE MANIFESTO DE ROSA MAÏTEA",
         "padding_top": 45,
