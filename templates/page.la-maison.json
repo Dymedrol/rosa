@@ -30,6 +30,9 @@
     },
     "4016fdd0-0876-4da1-afe4-d71a6188c6b1": {
       "type": "rosa-header3",
+      "custom_css": [
+        ".rosa-header3-link a {padding-bottom: 0px !important;}"
+      ],
       "settings": {
         "tag": "div",
         "text1": "RAISON D'ETRE",
