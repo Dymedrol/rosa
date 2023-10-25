@@ -6,6 +6,7 @@
         ".rosa-jumbotron-title {max-width: 600px !important;}"
       ],
       "settings": {
+        "tag": "div",
         "is_full_screen": false,
         "alignment": "center",
         "text_color": "#121212",
@@ -33,7 +34,7 @@
       ],
       "settings": {
         "text1": "POUR TOUTE DEMANDE, VOUS POUVEZ NOUS JOINDRE :",
-        "text2": "Sur whatsapp du lundi au vendredi de 10h à 19h",
+        "text2": "Sur whatsapp du lundi au vendredi de 10h à 19h au +33 (0) 6 81 48 71 74",
         "text3": "Par rendez-vous au showroom à Paris. Du mardi au vendredi de 9h à 19h Samedi de 10h00 à 12h00",
         "text4": "PRENDRE RENDEZ-VOUS",
         "text5": "OU EN REMPLISSANT LE FORMULAIRE CI-DESSOUS.",
