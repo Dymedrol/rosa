@@ -1,0 +1,142 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [
+        ".rosa-collection-banner-title {display: none !important;}"
+      ],
+      "settings": {
+        "tag": "div"
+      }
+    },
+    "e6776257-73a5-4094-8fe0-a233559841b0": {
+      "type": "rosa-header2",
+      "settings": {
+        "tag": "h1",
+        "text1": "",
+        "text2": "La Bonne Étoile",
+        "padding_top": 70,
+        "padding_bottom": 0
+      }
+    },
+    "67a0277f-e075-40aa-a11c-7bbd9fc4ba63": {
+      "type": "rosa-quote5",
+      "settings": {
+        "tag": "div",
+        "text1": "«Des créoles serties de diamants blancs montés en étoiles, des cascades étoilées s'égrenant sur des BO, des puces d’oreilles portées en accumulation comme des voix lactées ornent les oreilles tandis que les doigts se parent de solitaires ou de bouquets d’étoiles »",
+        "text2": "",
+        "padding_top": 30,
+        "padding_bottom": 40
+      }
+    },
+    "0abbb850-d583-4385-bff9-39737b4428f7": {
+      "type": "double",
+      "blocks": {
+        "b48d1b07-f783-4860-9bae-f0696b4768df": {
+          "type": "heading",
+          "settings": {
+            "heading1": "JOAILLERIE ÉTHIQUE",
+            "heading2": "NÉ SOUS UNE BONNE ÉTOILE"
+          }
+        },
+        "945a729c-205d-4458-925b-d6e51b394b57": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tour à tour constellations ou astres splendides et solitaires, La Bonne Étoile de Rosa Maïtea, se décline dans une collection porte-bonheur, composée <strong>d’or et de diamants recyclés<\/strong>. <\/p>"
+          }
+        },
+        "93e10981-8289-4d5c-bb6e-049301519142": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Joyaux célestes et symboles universels de chance, les étoiles inspirent cette variation étincelante de bagues, bracelets, colliers et BO éthiques portant une ou plusieurs magnifiques étoiles à sept branches.<\/p>"
+          }
+        },
+        "5c24ca47-6b39-4935-b80f-2f193dd6ba85": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "link_text": "DÉCOUVRIR TOUTE L’HISTOIRE",
+            "link_url": "shopify:\/\/pages\/notre-histoire"
+          }
+        }
+      },
+      "block_order": [
+        "b48d1b07-f783-4860-9bae-f0696b4768df",
+        "945a729c-205d-4458-925b-d6e51b394b57",
+        "93e10981-8289-4d5c-bb6e-049301519142",
+        "5c24ca47-6b39-4935-b80f-2f193dd6ba85"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rosa_maitea_bijoux_ethiques_en_or_recycle_18_carats_et_diamants_recycles.jpg",
+        "is_reverse": true,
+        "is_centred": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "enable_promo_card": false,
+        "enable_filtering": true,
+        "enable_filtering_by_product_type": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 35
+      }
+    },
+    "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
+      "type": "rosa-header2",
+      "disabled": true,
+      "settings": {
+        "tag": "div",
+        "text1": "STORIES OF LOVE",
+        "text2": "L’HISTOIRE RACONTÉ PAR LA CRÉATRICE",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/Patricia_pereda_fondatrice_Rosa_Maitea.jpg",
+        "description": ""
+      }
+    },
+    "c35448d9-1175-475c-9d96-16d0b67db72b": {
+      "type": "rosa-quote",
+      "settings": {
+        "tag": "div",
+        "text1": "\"Le dessin des bijoux de la collection La Bonne Étoile en or recyclé et diamants recyclés ont étés eco-conçus et adaptés aux diamants recyclés disponibles.\"",
+        "text2": "Patricia Pereda - Directrice artistique Rosa Maitea",
+        "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
+        "link_url": "shopify:\/\/pages\/prendre-rendez-vous",
+        "padding_top": 45,
+        "padding_bottom": 130
+      }
+    },
+    "bd2cf2d8-2e6d-4282-95ab-d8c4a06bcfbc": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#ffffff",
+        "is_static": false
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "e6776257-73a5-4094-8fe0-a233559841b0",
+    "67a0277f-e075-40aa-a11c-7bbd9fc4ba63",
+    "0abbb850-d583-4385-bff9-39737b4428f7",
+    "product-grid",
+    "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
+    "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
+    "c35448d9-1175-475c-9d96-16d0b67db72b",
+    "bd2cf2d8-2e6d-4282-95ab-d8c4a06bcfbc"
+  ]
+}
