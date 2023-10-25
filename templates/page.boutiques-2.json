@@ -190,6 +190,17 @@
         "cover_image": "shopify:\/\/shop_images\/Rosa_Maitea_Showroom_Paris.png",
         "description": ""
       }
+    },
+    "1c1fdcae-8d5a-4ddc-bb98-7e92ede317d7": {
+      "type": "rosa-double-link",
+      "settings": {
+        "link1_text": "PRENDRE RDV DANS NOTRE SHOWROOM",
+        "link1_url": "shopify:\/\/pages\/prendre-rendez-vous",
+        "link2_text": "text 2",
+        "link2_url": "\/",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
     }
   },
   "order": [
@@ -200,6 +211,7 @@
     "6ebacf1c-b873-4bc1-b26c-42423042a5d2",
     "e628f936-6394-4398-83d2-56b7e3bef366",
     "fa9da838-6f0e-4176-a21f-4d69ca270bb5",
-    "a49341bb-67c0-4a3f-9bd2-c0c627260a7b"
+    "a49341bb-67c0-4a3f-9bd2-c0c627260a7b",
+    "1c1fdcae-8d5a-4ddc-bb98-7e92ede317d7"
   ]
 }
