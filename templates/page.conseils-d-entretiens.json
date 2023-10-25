@@ -251,10 +251,10 @@
             "image": "shopify:\/\/shop_images\/Rosa_Maitea_bague_ethique_18_carats_arcoiris_fantasia.jpg"
           }
         },
-        "a5d5ee87-561e-4670-b3cb-10875516ff20": {
+        "aebe5553-6e0a-434b-beda-1b96977d9375": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/42.jpg"
+            "image": "shopify:\/\/shop_images\/web-ROSA_MAITEA36775.jpg"
           }
         },
         "83edf634-a541-48ca-b04d-8ee9e2230a31": {
@@ -263,19 +263,19 @@
             "image": "shopify:\/\/shop_images\/T4A7171.jpg"
           }
         },
-        "aebe5553-6e0a-434b-beda-1b96977d9375": {
+        "a5d5ee87-561e-4670-b3cb-10875516ff20": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/web-ROSA_MAITEA36775.jpg"
+            "image": "shopify:\/\/shop_images\/42.jpg"
           }
         }
       },
       "block_order": [
         "fe43283f-3c04-4a05-8738-70fcd481d93b",
         "6d44e858-7b34-4a1c-b025-1bfef2fa9f59",
-        "a5d5ee87-561e-4670-b3cb-10875516ff20",
+        "aebe5553-6e0a-434b-beda-1b96977d9375",
         "83edf634-a541-48ca-b04d-8ee9e2230a31",
-        "aebe5553-6e0a-434b-beda-1b96977d9375"
+        "a5d5ee87-561e-4670-b3cb-10875516ff20"
       ],
       "settings": {
         "padding_top": 120,
