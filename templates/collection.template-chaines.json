@@ -1,0 +1,141 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [
+        ".rosa-collection-banner-title {display: none !important;}"
+      ],
+      "settings": {
+        "tag": "div"
+      }
+    },
+    "1014d586-0086-4bf2-85e9-b0bbe79ebe2c": {
+      "type": "rosa-header2",
+      "settings": {
+        "tag": "h1",
+        "text1": "",
+        "text2": "Chaînes Rosa Maitea",
+        "padding_top": 70,
+        "padding_bottom": 0
+      }
+    },
+    "d8bb61d6-b45a-423a-8958-92a188e81e4e": {
+      "type": "rosa-quote",
+      "settings": {
+        "tag": "div",
+        "text1": "Les chaînes éco-responsables Rosa Maïtea sont ornées de diamants recyclés ou de pierres fines traçables. Elles sont magnifiques portées seules grâce à leurs diamants scintillants et sont tout aussi parfaites pour sublimer les pendentifs Bonne Étoile ou Arcoiris.",
+        "text2": "",
+        "link_text": "",
+        "link_url": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "enable_promo_card": false,
+        "enable_filtering": true,
+        "enable_filtering_by_product_type": false,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 35,
+        "padding_bottom": 0
+      }
+    },
+    "9b7251da-a436-4ee3-86d9-43e5a2375824": {
+      "type": "double",
+      "blocks": {
+        "4c86542f-6c74-4961-94ed-b043fe20da2b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>LE MARIAGE ÉTHIQUE DE ROSA MAITEA<\/p>"
+          }
+        },
+        "d2e22a52-2031-49cf-b351-f80fdd768551": {
+          "type": "heading",
+          "settings": {
+            "heading1": "",
+            "heading2": "SPREAD LOVE"
+          }
+        },
+        "72f17976-0055-4da3-bada-32d0ea229273": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Symbole absolu de l’amour éternel, les diamants illuminent les joyaux des mariages et des fiançailles.<\/p>"
+          }
+        },
+        "cd2b9a8a-6684-42b2-a9e3-47ed36321182": {
+          "type": "link",
+          "settings": {
+            "link_text": "DÉCOUVRIR LA COLLECTION",
+            "link_url": "shopify:\/\/collections\/spread-love"
+          }
+        }
+      },
+      "block_order": [
+        "4c86542f-6c74-4961-94ed-b043fe20da2b",
+        "d2e22a52-2031-49cf-b351-f80fdd768551",
+        "72f17976-0055-4da3-bada-32d0ea229273",
+        "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3-ROSA_MAITEA37267.jpg",
+        "is_reverse": false,
+        "is_centred": true,
+        "padding_top": 30,
+        "padding_bottom": 15
+      }
+    },
+    "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
+      "type": "rosa-header2",
+      "settings": {
+        "tag": "div",
+        "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
+        "text2": "NOUS VOUS ACCUEILLONS DANS NOTRE SHOWROOM AVEC JOIE",
+        "padding_top": 45,
+        "padding_bottom": 25
+      }
+    },
+    "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/video.png",
+        "description": ""
+      }
+    },
+    "c35448d9-1175-475c-9d96-16d0b67db72b": {
+      "type": "rosa-quote",
+      "settings": {
+        "tag": "div",
+        "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun.»",
+        "text2": "Patricia Pereda - Directrice artistique et fondatrice de Rosa Maïtea",
+        "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
+        "link_url": "shopify:\/\/pages\/prendre-rendez-vous",
+        "padding_top": 80,
+        "padding_bottom": 85
+      }
+    },
+    "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#000000",
+        "is_static": false
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1014d586-0086-4bf2-85e9-b0bbe79ebe2c",
+    "d8bb61d6-b45a-423a-8958-92a188e81e4e",
+    "product-grid",
+    "9b7251da-a436-4ee3-86d9-43e5a2375824",
+    "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
+    "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
+    "c35448d9-1175-475c-9d96-16d0b67db72b",
+    "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8"
+  ]
+}
