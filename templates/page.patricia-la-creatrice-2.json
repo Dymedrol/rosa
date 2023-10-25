@@ -242,6 +242,17 @@
         "description": ""
       }
     },
+    "25d834fe-3e61-440a-8841-42e591623bca": {
+      "type": "rosa-double-link",
+      "settings": {
+        "link1_text": "PRENEZ RDV AVEC PATRICIA DANS NOTRE SHOWROOM",
+        "link1_url": "shopify:\/\/pages\/prendre-rendez-vous",
+        "link2_text": "",
+        "link2_url": "\/",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "2c729952-939d-43ff-9b51-18cd9b10cd88": {
       "type": "rosa-socials",
       "blocks": {
@@ -269,17 +280,6 @@
         "padding_top": 45,
         "padding_bottom": 45
       }
-    },
-    "25d834fe-3e61-440a-8841-42e591623bca": {
-      "type": "rosa-double-link",
-      "settings": {
-        "link1_text": "PRENEZ RDV AVEC PATRICIA DANS NOTRE SHOWROOM",
-        "link1_url": "\/",
-        "link2_text": "",
-        "link2_url": "\/",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
     }
   },
   "order": [
@@ -294,7 +294,7 @@
     "fa2ca636-a51a-4983-8c38-a10ba431017b",
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb",
     "765f2c93-3054-44d3-b881-24dffee4392e",
-    "2c729952-939d-43ff-9b51-18cd9b10cd88",
-    "25d834fe-3e61-440a-8841-42e591623bca"
+    "25d834fe-3e61-440a-8841-42e591623bca",
+    "2c729952-939d-43ff-9b51-18cd9b10cd88"
   ]
 }
