@@ -42,6 +42,25 @@
         "padding_bottom": 45
       }
     },
+    "48ba1d75-4f27-445d-aa1e-372726078051": {
+      "type": "rosa-text-block",
+      "blocks": {
+        "58c887cc-c538-4cb6-bb8c-11419ff45684": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ma vision est simple : mettre de la lumière dans ce monde opaque en faisant des bijoux avec de <a href=\"https:\/\/rosamaitea.com\/pages\/notre-or-recycle\" title=\"https:\/\/rosamaitea.com\/pages\/notre-or-recycle\">l'or<\/a>, <a href=\"https:\/\/rosamaitea.com\/pages\/nos-diamants-recycles\" title=\"https:\/\/rosamaitea.com\/pages\/nos-diamants-recycles\">des diamants recyclés<\/a> et des <a href=\"https:\/\/rosamaitea.com\/pages\/nos-pierres-precieuses-100-tracables\" title=\"https:\/\/rosamaitea.com\/pages\/nos-pierres-precieuses-100-tracables\">pierres traçables<\/a>. Rosa Maïtea est fière de contribuer à la création d'un monde meilleur. <\/p><p>Chacun de nos bijoux éco-responsables incarne notre engagement pour une planète préservée et pour des conditions de travail durables. Plus qu'une marque, Rosa Maïtea est une vision et la promesse d’une beauté éthique à l'impact positif.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "58c887cc-c538-4cb6-bb8c-11419ff45684"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "7b65d900-0344-4e58-9e3d-e6c2160f1271": {
       "type": "video",
       "settings": {
@@ -349,6 +368,7 @@
     "main",
     "7a9ec824-a820-47b1-8d38-37009db6aa3c",
     "4016fdd0-0876-4da1-afe4-d71a6188c6b1",
+    "48ba1d75-4f27-445d-aa1e-372726078051",
     "7b65d900-0344-4e58-9e3d-e6c2160f1271",
     "39ebf9c9-7997-4a70-91a3-5c921a459945",
     "60210ce3-b49b-44de-8a98-811cc0c212a7",
