@@ -57,12 +57,24 @@
     "bf4c0a45-eafb-4fcc-a3c7-5efa696c5321": {
       "type": "rosa-quote",
       "settings": {
+        "tag": "div",
         "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
         "text2": "",
         "link_text": "",
         "link_url": "",
         "padding_top": 90,
         "padding_bottom": 0
+      }
+    },
+    "0a32dc95-97d2-495f-86a7-6967c72bad17": {
+      "type": "rosa-header2",
+      "disabled": true,
+      "settings": {
+        "tag": "div",
+        "text1": "text 1",
+        "text2": "text 2",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "c05ce1b9-53a6-4d4a-91ac-cb01418d9c94": {
@@ -103,6 +115,7 @@
     "c1f4a1f0-2a34-4b63-b2c3-f0bc3ba85c55": {
       "type": "rosa-quote4",
       "settings": {
+        "tag": "div",
         "text1": "« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. »",
         "text2": "",
         "padding_top": 90,
@@ -229,6 +242,7 @@
     "b03dcec2-65c1-4c38-a5a4-4e00782ebe74": {
       "type": "rosa-header2",
       "settings": {
+        "tag": "div",
         "text1": "SUR-TITRE ICI",
         "text2": "LE TITRE DE LA VIDÉO SUIVANTE",
         "padding_top": 45,
@@ -284,6 +298,7 @@
     "main",
     "e060458f-288a-4ae9-9494-e50c63ca1aeb",
     "bf4c0a45-eafb-4fcc-a3c7-5efa696c5321",
+    "0a32dc95-97d2-495f-86a7-6967c72bad17",
     "c05ce1b9-53a6-4d4a-91ac-cb01418d9c94",
     "c1f4a1f0-2a34-4b63-b2c3-f0bc3ba85c55",
     "922ae636-ee43-40aa-b91d-36e54b030ea4",
