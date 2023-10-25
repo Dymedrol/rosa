@@ -136,7 +136,7 @@
         "508835f4-0a49-4ef2-806b-a7bad6ef46f3": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>HORAIRES D’OUVERTURE<\/strong><\/p><p> Du mardi au vendredi : 11h00 à 19h00 <\/p><p>Samedi : sous RDV au rosa@rosamaitea.com<\/p>"
+            "text": "<p><strong>HORAIRES D’OUVERTURE<\/strong><\/p><p> Du mardi au vendredi : 11h00 à 19h00 <\/p><p>Samedi : sous RDV au <a href=\"mailto:rosa@rosamaitea.com\" target=\"_blank\" title=\"mailto:rosa@rosamaitea.com\">rosa@rosamaitea.com<\/a><\/p>"
           }
         },
         "5800d796-cf82-40f5-9069-4bfe70cc61a1": {
