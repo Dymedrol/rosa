@@ -1,0 +1,182 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [
+        ".rosa-collection-banner-title {display: none !important;}"
+      ],
+      "settings": {
+        "tag": "div"
+      }
+    },
+    "374b95c0-0dcd-4404-92dc-32f8188ad207": {
+      "type": "rosa-header2",
+      "settings": {
+        "tag": "h1",
+        "text1": "",
+        "text2": "Tourbillon",
+        "padding_top": 70,
+        "padding_bottom": 0
+      }
+    },
+    "9b7251da-a436-4ee3-86d9-43e5a2375824": {
+      "type": "double",
+      "blocks": {
+        "4c86542f-6c74-4961-94ed-b043fe20da2b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Collection Tourbillon<\/p>"
+          }
+        },
+        "d2e22a52-2031-49cf-b351-f80fdd768551": {
+          "type": "heading",
+          "settings": {
+            "heading1": "",
+            "heading2": "Tourbillon célèbre le vertige de l’amour selon Rosa Maïtea."
+          }
+        },
+        "72f17976-0055-4da3-bada-32d0ea229273": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Précieux carrousels de pierres fines 100% traçables et de diamants recyclés, les bagues éco-responsables <em>Tourbillon<\/em> en or 18ct recyclé rayonnent et illuminent les doigts de mille feux inattendus. Elles mélangent  avec gaité de lumineuses  pierres fines à l’éclat pur des diamants blancs. <\/p>"
+          }
+        },
+        "fc054447-71a8-41ce-9100-b52d6b4385ea": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ode aux couleurs, les bagues <em>Tourbillon<\/em> entrelacent en une spirale d’amour infini, les grenats et les spinelles bleues, les spessartites couleurs d’agrumes, et les rhodolites que les grecs nommaient Roses. <\/p><p>Ouvragé sous la précieuse rosace, un cœur d'or secret laisse briller la lumière sous les pierres, magnifiant encore leur éclat. <\/p>"
+          }
+        },
+        "cd2b9a8a-6684-42b2-a9e3-47ed36321182": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "link_text": "Les 3 tailles de Tourbillon",
+            "link_url": "shopify:\/\/collections\/tourbillon"
+          }
+        }
+      },
+      "block_order": [
+        "4c86542f-6c74-4961-94ed-b043fe20da2b",
+        "d2e22a52-2031-49cf-b351-f80fdd768551",
+        "72f17976-0055-4da3-bada-32d0ea229273",
+        "fc054447-71a8-41ce-9100-b52d6b4385ea",
+        "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/42.jpg",
+        "is_reverse": false,
+        "is_centred": true,
+        "padding_top": 60,
+        "padding_bottom": 30
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "enable_promo_card": false,
+        "enable_filtering": false,
+        "enable_filtering_by_product_type": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "6649bb51-9cf5-4a01-bba3-61a21835f000": {
+      "type": "double",
+      "blocks": {
+        "5f9db6ef-10ed-4282-b96c-94f61448d409": {
+          "type": "text",
+          "settings": {
+            "text": "<p>LE TOURBILLON UNIQUE CRÉE PAR VOUS<\/p>"
+          }
+        },
+        "15a60f6d-ee7c-445d-b726-091a97db6cb6": {
+          "type": "heading",
+          "settings": {
+            "heading1": "",
+            "heading2": "personnalisez votre tourbillon"
+          }
+        },
+        "74c5c396-970a-49ec-bded-b64b65ee69cc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rosa Maitea vous propose de créer votre propre bague <em><strong>Tourbillon<\/strong><\/em>, en la personnalisant avec les pierres et les couleurs de votre choix: magnifiquement votre ! <\/p>"
+          }
+        },
+        "d3e809b3-cdcf-4c0b-9e77-cc1af15afea7": {
+          "type": "link",
+          "settings": {
+            "link_text": "CONTACTEZ NOUS",
+            "link_url": "shopify:\/\/pages\/contact"
+          }
+        }
+      },
+      "block_order": [
+        "5f9db6ef-10ed-4282-b96c-94f61448d409",
+        "15a60f6d-ee7c-445d-b726-091a97db6cb6",
+        "74c5c396-970a-49ec-bded-b64b65ee69cc",
+        "d3e809b3-cdcf-4c0b-9e77-cc1af15afea7"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-112.jpg",
+        "is_reverse": false,
+        "is_centred": false,
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
+      "type": "rosa-header2",
+      "settings": {
+        "tag": "div",
+        "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
+        "text2": "NOUS VOUS ACCUEILLONS DANS NOTRE SHOWROOM AVEC JOIE",
+        "padding_top": 45,
+        "padding_bottom": 25
+      }
+    },
+    "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/Showroom Rosa Maïtea.mov",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/web_DSC9883.jpg",
+        "description": ""
+      }
+    },
+    "c35448d9-1175-475c-9d96-16d0b67db72b": {
+      "type": "rosa-quote",
+      "settings": {
+        "tag": "div",
+        "text1": "Venez choisir votre Tourbillon unique !",
+        "text2": "Patricia Pereda - Directrice artistique et fondatrice de Rosa Maïtea",
+        "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
+        "link_url": "shopify:\/\/pages\/prendre-rendez-vous",
+        "padding_top": 80,
+        "padding_bottom": 85
+      }
+    },
+    "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#ffffff",
+        "is_static": false
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "374b95c0-0dcd-4404-92dc-32f8188ad207",
+    "9b7251da-a436-4ee3-86d9-43e5a2375824",
+    "product-grid",
+    "6649bb51-9cf5-4a01-bba3-61a21835f000",
+    "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
+    "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
+    "c35448d9-1175-475c-9d96-16d0b67db72b",
+    "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8"
+  ]
+}
