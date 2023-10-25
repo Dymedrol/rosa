@@ -1,0 +1,120 @@
+{
+  "sections": {
+    "89fec398-792b-4c2b-98ef-d072a1c73f00": {
+      "type": "rosa-quote3",
+      "disabled": true,
+      "settings": {
+        "tag": "div",
+        "text1": "TOUTES NOS BAGUES",
+        "text2": "Toutes nos bagues sont en or recyclé, diamants recyclés, spinelles et grenats traçables. Provenant d'anciens bijoux, ces diamants recyclés sont nos diamants d’amour. Plus besoin de détruire notre planète ni de continuer à exploiter ses ressources limitées, nos bagues sont des petites bombes d'amour :  amour de l’être cher, amour de notre planète et amour de toutes les personnes qui ont participé à sa création.",
+        "padding_top": 115,
+        "padding_bottom": 50
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [
+        ".rosa-collection-banner-title {display: none !important;}"
+      ],
+      "settings": {
+        "tag": "div"
+      }
+    },
+    "90d485d8-b015-4740-a92e-910f8a57e0ee": {
+      "type": "rosa-header2",
+      "settings": {
+        "tag": "h1",
+        "text1": "",
+        "text2": "Bagues Éthiques",
+        "padding_top": 70,
+        "padding_bottom": 0
+      }
+    },
+    "fb91555e-2e70-4b71-be1d-ddabcc164bb5": {
+      "type": "rosa-quote",
+      "settings": {
+        "tag": "div",
+        "text1": "Toutes nos bagues sont en or recyclé, diamants recyclés, spinelles et grenats traçables. Provenant d'anciens bijoux, ces diamants recyclés sont nos diamants d’amour. Plus besoin de détruire notre planète ni de continuer à exploiter ses ressources limitées, nos bagues sont des petites bombes d'amour :  amour de l’être cher, amour de notre planète et amour de toutes les personnes qui ont participé à sa création.",
+        "text2": "",
+        "link_text": "",
+        "link_url": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "ea27f3f5-f399-447e-8b10-f3c3ec73bf76": {
+      "type": "rosa-header",
+      "disabled": true,
+      "settings": {
+        "tag": "div",
+        "text1": "TOUTES NOS BAGUES",
+        "text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "enable_promo_card": false,
+        "enable_filtering": true,
+        "enable_filtering_by_product_type": false,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
+      "type": "rosa-header2",
+      "settings": {
+        "tag": "div",
+        "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
+        "text2": "NE MARQUE HUMAINE À VIVRE",
+        "padding_top": 45,
+        "padding_bottom": 25
+      }
+    },
+    "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/video.png",
+        "description": ""
+      }
+    },
+    "c35448d9-1175-475c-9d96-16d0b67db72b": {
+      "type": "rosa-quote",
+      "settings": {
+        "tag": "div",
+        "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun.»",
+        "text2": "Patricia Pereda - Directrice artistique Rosa Maitea",
+        "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
+        "link_url": "shopify:\/\/pages\/prendre-rendez-vous",
+        "padding_top": 50,
+        "padding_bottom": 135
+      }
+    },
+    "7aac8786-7427-4284-805f-09d65f54c01f": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#ffffff",
+        "is_static": false
+      }
+    }
+  },
+  "order": [
+    "89fec398-792b-4c2b-98ef-d072a1c73f00",
+    "banner",
+    "90d485d8-b015-4740-a92e-910f8a57e0ee",
+    "fb91555e-2e70-4b71-be1d-ddabcc164bb5",
+    "ea27f3f5-f399-447e-8b10-f3c3ec73bf76",
+    "product-grid",
+    "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
+    "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
+    "c35448d9-1175-475c-9d96-16d0b67db72b",
+    "7aac8786-7427-4284-805f-09d65f54c01f"
+  ]
+}
