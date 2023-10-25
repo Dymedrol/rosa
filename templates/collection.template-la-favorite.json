@@ -2,11 +2,29 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "custom_css": [
         ".rosa-collection-banner-title {display: none !important;}"
       ],
       "settings": {
         "tag": "div"
+      }
+    },
+    "12aa9394-afb9-4b3b-8d52-ff5dbd1805d7": {
+      "type": "image-banner",
+      "settings": {
+        "tag": "div",
+        "is_full_screen": true,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "<p>title<\/p>",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "text",
+        "is_text_big": false,
+        "image_banner_link_text": "link",
+        "image_banner_link_url": "\/",
+        "banner_image": "shopify:\/\/shop_images\/Design_sans_titre_14.png",
+        "banner_image_mobile": "shopify:\/\/shop_images\/6_c1e2f032-d434-49e9-8d95-82afc2371290.png"
       }
     },
     "a99a476d-07c7-4cdc-b0af-92ac7e465b5f": {
@@ -130,6 +148,7 @@
   },
   "order": [
     "banner",
+    "12aa9394-afb9-4b3b-8d52-ff5dbd1805d7",
     "a99a476d-07c7-4cdc-b0af-92ac7e465b5f",
     "4bd0fe79-7293-400b-b3dc-cf37292999ca",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
