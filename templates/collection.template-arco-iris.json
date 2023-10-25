@@ -17,14 +17,14 @@
         "is_full_screen": true,
         "alignment": "center",
         "text_color": "#ffffff",
-        "image_banner_title_text": "",
+        "image_banner_title_text": "<p>title<\/p>",
         "is_title_big": false,
-        "image_banner_subtitle_text": "",
+        "image_banner_subtitle_text": "text",
         "is_text_big": false,
-        "image_banner_link_text": "",
+        "image_banner_link_text": "link",
         "image_banner_link_url": "\/",
-        "banner_image": "shopify:\/\/shop_images\/4_5114abbd-2c8b-46b4-8603-75f8e5960383.png",
-        "banner_image_mobile": "shopify:\/\/shop_images\/4_a52d8662-a6a6-43d4-af33-6a35985cb1cb.png"
+        "banner_image": "shopify:\/\/shop_images\/3_bf48534c-8243-4225-ad0d-9c79432b0796.png",
+        "banner_image_mobile": "shopify:\/\/shop_images\/3_dc6dd3cd-deaf-4977-b09f-237a5473be59.png"
       }
     },
     "0aaeab22-bf30-435f-bd26-e9dce58dc3b7": {
