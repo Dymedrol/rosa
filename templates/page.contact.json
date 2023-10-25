@@ -9,7 +9,7 @@
         "tag": "div",
         "is_full_screen": false,
         "alignment": "center",
-        "text_color": "#121212",
+        "text_color": "#fff",
         "image_banner_title_text": "<p>CONTACTEZ-NOUS<\/p>",
         "is_title_big": true,
         "image_banner_subtitle_text": "Pour toute question, n’hésitez pas à nous contacter. Nous serons heureux de pouvoir vous aider.",
