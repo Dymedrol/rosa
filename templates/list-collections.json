@@ -188,9 +188,9 @@
     },
     "769fa50d-6e00-44ba-b8b3-dd426c9cc112": {
       "type": "video",
-      "disabled": true,
       "settings": {
         "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/Showroom Rosa Maïtea.mov",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "cover_image": "shopify:\/\/shop_images\/video.png",
         "description": ""
@@ -198,7 +198,6 @@
     },
     "93b5672a-4fb6-4b8a-8880-ffec0bccf5fe": {
       "type": "rosa-quote",
-      "disabled": true,
       "settings": {
         "tag": "div",
         "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun.»",
