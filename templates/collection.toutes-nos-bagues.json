@@ -80,6 +80,7 @@
       "type": "video",
       "settings": {
         "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/Joaillerie éthique et joyeuse.mp4",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "cover_image": "shopify:\/\/shop_images\/video.png",
         "description": ""
