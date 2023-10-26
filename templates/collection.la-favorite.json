@@ -9,6 +9,24 @@
         "tag": "div"
       }
     },
+    "4f4991d6-32f0-46da-840a-41b19e439d59": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "tag": "div",
+        "is_full_screen": false,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "",
+        "is_text_big": false,
+        "image_banner_link_text": "",
+        "image_banner_link_url": "\/",
+        "banner_image": "shopify:\/\/shop_images\/Rosa_Maitea_collection_la_favorite_en_or_recycle_18_carats_et_tourmalines_tracables.jpg",
+        "banner_image_mobile": "shopify:\/\/shop_images\/Rosa_MAitea_collection_la_favorite_en_or_recycle_et_tourmalines_tracables.jpg"
+      }
+    },
     "a99a476d-07c7-4cdc-b0af-92ac7e465b5f": {
       "type": "rosa-header2",
       "settings": {
@@ -130,6 +148,7 @@
   },
   "order": [
     "banner",
+    "4f4991d6-32f0-46da-840a-41b19e439d59",
     "a99a476d-07c7-4cdc-b0af-92ac7e465b5f",
     "4bd0fe79-7293-400b-b3dc-cf37292999ca",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
