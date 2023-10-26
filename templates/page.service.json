@@ -235,24 +235,6 @@
         "image_banner_link_url": "\/"
       }
     },
-    "adeafe55-173c-48e9-97a8-f72c27181058": {
-      "type": "rosa-header2",
-      "settings": {
-        "tag": "div",
-        "text1": "SUR MESURE",
-        "text2": "LE TOURBILLON SUR MESURE",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
-    "1a330672-937a-4576-bcb7-810ae8fa4ae5": {
-      "type": "video",
-      "settings": {
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": ""
-      }
-    },
     "1d4d01a2-48fb-47e1-8d6a-45cdc9f7a53f": {
       "type": "blocks",
       "blocks": {
@@ -321,8 +303,6 @@
     "89163613-924f-42ad-b20e-fe2ca9ab2d98",
     "64d79728-984d-44ac-8da1-714443ca43ef",
     "6b98f65d-98ab-42bd-acb7-d3288b2c0a03",
-    "adeafe55-173c-48e9-97a8-f72c27181058",
-    "1a330672-937a-4576-bcb7-810ae8fa4ae5",
     "1d4d01a2-48fb-47e1-8d6a-45cdc9f7a53f",
     "b48ab1fe-3911-4db3-9e9a-dcf51a8bf188"
   ]
