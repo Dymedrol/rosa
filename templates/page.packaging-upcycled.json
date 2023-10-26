@@ -43,6 +43,25 @@
         "padding_bottom": 0
       }
     },
+    "0659365d-7936-4715-907b-cb453594cfc3": {
+      "type": "rosa-header2",
+      "settings": {
+        "tag": "div",
+        "text1": "ECO-RESPONSABLE",
+        "text2": "VIDEO DE NOTRE PACKAGING",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "b641d165-f754-4c9f-b29a-4a9a0f1e4104": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/1d1c2ccc2ea744cb861c8921af6e3e93 2.MP4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": ""
+      }
+    },
     "a9539caf-edb1-471f-9d6c-97b6a2b08a04": {
       "type": "double",
       "blocks": {
@@ -71,7 +90,7 @@
         "076c0977-c63c-4883-b8f1-65288eed9274"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/84416b1a-aeb9-a933-519a-0e2b7a4ec8b9.jpg",
+        "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-168.jpg",
         "is_reverse": true,
         "is_centred": true,
         "padding_top": 90,
@@ -219,25 +238,6 @@
         "padding_top": 45,
         "padding_bottom": 45
       }
-    },
-    "0659365d-7936-4715-907b-cb453594cfc3": {
-      "type": "rosa-header2",
-      "settings": {
-        "tag": "div",
-        "text1": "ECO-RESPONSABLE",
-        "text2": "VIDEO DE NOTRE PACKAGING",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
-    "b641d165-f754-4c9f-b29a-4a9a0f1e4104": {
-      "type": "video",
-      "settings": {
-        "enable_video_looping": false,
-        "video": "shopify:\/\/files\/videos\/1d1c2ccc2ea744cb861c8921af6e3e93 2.MP4",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": ""
-      }
     }
   },
   "order": [
@@ -245,14 +245,14 @@
     "237458dd-360c-4b77-b13f-be299496a576",
     "d8037b2c-93f5-4ed8-8ab3-69c24ce46c15",
     "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5",
+    "0659365d-7936-4715-907b-cb453594cfc3",
+    "b641d165-f754-4c9f-b29a-4a9a0f1e4104",
     "a9539caf-edb1-471f-9d6c-97b6a2b08a04",
     "b2d8975f-fc61-462b-a960-6d219334d501",
     "fa2ca636-a51a-4983-8c38-a10ba431017b",
     "8f6ad636-c876-4d91-ba2e-a9b13c69980f",
     "f5a4ee6c-3b1b-4cf2-bf3f-12423a098eeb",
     "765f2c93-3054-44d3-b881-24dffee4392e",
-    "2c729952-939d-43ff-9b51-18cd9b10cd88",
-    "0659365d-7936-4715-907b-cb453594cfc3",
-    "b641d165-f754-4c9f-b29a-4a9a0f1e4104"
+    "2c729952-939d-43ff-9b51-18cd9b10cd88"
   ]
 }
