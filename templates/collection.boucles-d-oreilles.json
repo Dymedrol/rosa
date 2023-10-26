@@ -14,7 +14,7 @@
       "type": "image-banner",
       "settings": {
         "tag": "div",
-        "is_full_screen": true,
+        "is_full_screen": false,
         "alignment": "center",
         "text_color": "#ffffff",
         "image_banner_title_text": "",
