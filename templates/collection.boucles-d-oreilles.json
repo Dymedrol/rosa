@@ -2,11 +2,28 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "custom_css": [
         ".rosa-collection-banner-title {display: none !important;}"
       ],
       "settings": {
         "tag": "div"
+      }
+    },
+    "ec7afde4-bedc-4c7f-8ace-fc288264e021": {
+      "type": "image-banner",
+      "settings": {
+        "tag": "div",
+        "is_full_screen": true,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "",
+        "is_text_big": false,
+        "image_banner_link_text": "",
+        "image_banner_link_url": "\/",
+        "banner_image": "shopify:\/\/shop_images\/Rosa_MAitea_boucles_d_oreilles_ethiques_longues_la_bonne_etoile.jpg"
       }
     },
     "f5750e82-a8a0-415f-bfd9-167153451029": {
@@ -136,6 +153,7 @@
   },
   "order": [
     "banner",
+    "ec7afde4-bedc-4c7f-8ace-fc288264e021",
     "f5750e82-a8a0-415f-bfd9-167153451029",
     "c6956543-4920-40d6-a8d4-37e1934d5bdc",
     "product-grid",
