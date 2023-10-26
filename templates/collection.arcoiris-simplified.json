@@ -2,11 +2,29 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "custom_css": [
         ".rosa-collection-banner-title {display: none !important;}"
       ],
       "settings": {
         "tag": "div"
+      }
+    },
+    "8a4fa8dd-4216-4d18-a918-ab0e63c348b2": {
+      "type": "image-banner",
+      "settings": {
+        "tag": "div",
+        "is_full_screen": false,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "",
+        "is_text_big": false,
+        "image_banner_link_text": "",
+        "image_banner_link_url": "",
+        "banner_image": "shopify:\/\/shop_images\/3_bf48534c-8243-4225-ad0d-9c79432b0796.png",
+        "banner_image_mobile": "shopify:\/\/shop_images\/Rosa_Maitea_Arco_Iris.png"
       }
     },
     "0aaeab22-bf30-435f-bd26-e9dce58dc3b7": {
@@ -137,6 +155,7 @@
   },
   "order": [
     "banner",
+    "8a4fa8dd-4216-4d18-a918-ab0e63c348b2",
     "0aaeab22-bf30-435f-bd26-e9dce58dc3b7",
     "de134052-29de-4df3-95af-855569b54c08",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
