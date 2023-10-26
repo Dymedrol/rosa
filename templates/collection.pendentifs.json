@@ -2,11 +2,29 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "custom_css": [
         ".rosa-collection-banner-title {display: none !important;}"
       ],
       "settings": {
         "tag": "div"
+      }
+    },
+    "83335be9-cc1b-4d5b-b242-ebd9e2583fa6": {
+      "type": "image-banner",
+      "settings": {
+        "tag": "div",
+        "is_full_screen": false,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "",
+        "is_text_big": false,
+        "image_banner_link_text": "",
+        "image_banner_link_url": "\/",
+        "banner_image": "shopify:\/\/shop_images\/Rosa_Maitea_pendentif_ethique_en_or_recycle_18_carats_diamants_recycles_et_pierres_tracables.jpg",
+        "banner_image_mobile": "shopify:\/\/shop_images\/Rosa_Maitea_pendentifs_ethqiues_en_or_recycle.jpg"
       }
     },
     "5d9c880a-3d7b-437a-a574-3a08f286fe6d": {
@@ -136,6 +154,7 @@
   },
   "order": [
     "banner",
+    "83335be9-cc1b-4d5b-b242-ebd9e2583fa6",
     "5d9c880a-3d7b-437a-a574-3a08f286fe6d",
     "1cab4d84-bd04-4621-a6d9-92d1b1844887",
     "product-grid",
