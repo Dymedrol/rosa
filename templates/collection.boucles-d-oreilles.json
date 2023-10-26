@@ -2,7 +2,6 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "custom_css": [
         ".rosa-collection-banner-title {display: none !important;}"
       ],
@@ -12,6 +11,7 @@
     },
     "ec7afde4-bedc-4c7f-8ace-fc288264e021": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "tag": "div",
         "is_full_screen": true,
@@ -23,7 +23,6 @@
         "is_text_big": false,
         "image_banner_link_text": "",
         "image_banner_link_url": "\/",
-        "banner_image": "shopify:\/\/shop_images\/Rosa_MAitea_boucles_d_oreilles_ethiques_longues_la_bonne_etoile.jpg",
         "banner_image_mobile": "shopify:\/\/shop_images\/Rosa_MAitea_boucles_d_oreille_longue_la_bonne_etoile_en_or_recycle.jpg"
       }
     },
@@ -127,6 +126,7 @@
       "type": "video",
       "settings": {
         "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/Showroom Rosa Maïtea.mov",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "cover_image": "shopify:\/\/shop_images\/video.png",
         "description": ""
