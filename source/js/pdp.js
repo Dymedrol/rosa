@@ -12,6 +12,7 @@ export const initPdp = () => {
     const form = pdp.find('form');
     const mainSelect = form.find('.js-main-select');
     const mainOptions = mainSelect.find('option');
+    const optionItems = $('.rosa-pdp-select-wrapper');
 
     const selects = form.find('.js-pdp-select');
     const selectedOptions = {};
@@ -20,6 +21,8 @@ export const initPdp = () => {
     });
     const selectedOptionsCount = Object.keys(selectedOptions).length;
     const deliveryText = $('.rosa-pdp-info-text2 b');
+    const submitBtn = $('.rosa-pdp-info-button');
+
     deliveryText.text(moment().add('days', daysAvailable).format('D MMMM'));
 
     const updateMainInput = function(value, name) {
@@ -39,10 +42,10 @@ export const initPdp = () => {
             });
 
             if (coincidenceCount === selectedOptionsCount) {
+
                 mainSelect.val(optionId);
 
                 const inventory_quantity = Number(mainSelect.find('option[value="' + optionId + '"]').attr('data-available'));
-                console.log('inventory_quantity', inventory_quantity)
                 let newDate;
 
                 if (inventory_quantity >= 1) {
@@ -56,8 +59,18 @@ export const initPdp = () => {
                 deliveryText.text(newDate);
             }
         });
-    }
 
+        let selectedInputs = 0;
+        optionItems.each( function( index, element ){
+            if ($(this).hasClass('js-selected')) {
+                selectedInputs++;
+            }
+        });
+
+        if (selectedInputs == selectedOptionsCount) {
+            submitBtn.attr('disabled', false);
+        }
+    }
 
     $('.rosa-pdp-info-controls-item').click(function() {
         const wrapper = $(this).closest('.rosa-pdp-select-wrapper');
@@ -70,8 +83,8 @@ export const initPdp = () => {
         const selectedName = wrapper.find('select').attr("name");
 
         if (target.hasClass("rosa-pdp-info-controls-item-menu-el")) {
+            wrapper.addClass('js-selected');
             const selectedValue = $(event.target).text();
-
             wrapper.find('.rosa-pdp-info-controls-item span').text(selectedValue);
             wrapper.find('select').val($(event.target).attr('data-value'));
             updateMainInput(selectedValue, selectedName);
@@ -80,6 +93,7 @@ export const initPdp = () => {
     });
 
     const container = document.getElementById("myCarousel");
+
     const options = {
       Dots: false,
       Thumbs: {

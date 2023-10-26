@@ -3766,6 +3766,10 @@ h1 {
     margin-bottom: 43px;
   }
 }
+.rosa-pdp-info-button:disabled {
+  opacity: 0.5;
+  cursor: auto;
+}
 .rosa-pdp-info-rendez-vous {
   display: block;
   width: fit-content;
