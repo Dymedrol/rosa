@@ -17,14 +17,14 @@
         "is_full_screen": false,
         "alignment": "center",
         "text_color": "#ffffff",
-        "image_banner_title_text": "<p>title<\/p>",
+        "image_banner_title_text": "",
         "is_title_big": false,
-        "image_banner_subtitle_text": "text",
+        "image_banner_subtitle_text": "",
         "is_text_big": false,
-        "image_banner_link_text": "link",
-        "image_banner_link_url": "\/",
-        "banner_image": "shopify:\/\/shop_images\/Rosa_Maitea_bagues_de_fiancailles_ethiques_en_or_recycle_et_diamants_recycles.jpg",
-        "banner_image_mobile": "shopify:\/\/shop_images\/Rosa_Maitea_collection_spread_love_bagues_de_fiancailles.jpg"
+        "image_banner_link_text": "",
+        "image_banner_link_url": "",
+        "banner_image": "shopify:\/\/shop_images\/Rosa-Maitea-joaillerie-ethique-collection-spread-love-bagues-de-fiancailles.jpg",
+        "banner_image_mobile": "shopify:\/\/shop_images\/Rosa-Maitea-bague-de-fiancailles-ethique-en-or-recycle-18-carats.jpg"
       }
     },
     "05fcd058-2d9e-49bc-8b45-288074d21940": {
@@ -128,7 +128,6 @@
       "settings": {
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-136.jpg",
         "description": ""
       }
     },
