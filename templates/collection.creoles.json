@@ -2,11 +2,28 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "custom_css": [
         ".rosa-collection-banner-title {display: none !important;}"
       ],
       "settings": {
         "tag": "div"
+      }
+    },
+    "46d4eacc-aa02-48ba-afe3-7ffb5f8306f5": {
+      "type": "image-banner",
+      "settings": {
+        "tag": "div",
+        "is_full_screen": false,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "",
+        "is_text_big": false,
+        "image_banner_link_text": "",
+        "image_banner_link_url": "",
+        "banner_image": "shopify:\/\/shop_images\/Rosa-Maitea-creoles-ethiques-en-or-recycle-18-carats-et-diamants-recyclesB.jpg"
       }
     },
     "8fe5c9ae-918d-4ee5-a95d-d0b0b6f62f77": {
@@ -136,6 +153,7 @@
   },
   "order": [
     "banner",
+    "46d4eacc-aa02-48ba-afe3-7ffb5f8306f5",
     "8fe5c9ae-918d-4ee5-a95d-d0b0b6f62f77",
     "45d5b17d-740f-4e4c-928f-e8b2222b18fd",
     "product-grid",
