@@ -2,7 +2,6 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "custom_css": [
         ".rosa-collection-banner-title {display: none !important;}"
       ],
@@ -12,6 +11,7 @@
     },
     "46d4eacc-aa02-48ba-afe3-7ffb5f8306f5": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "tag": "div",
         "is_full_screen": false,
