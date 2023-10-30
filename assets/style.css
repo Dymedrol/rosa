@@ -1217,6 +1217,19 @@ h1 {
   letter-spacing: 0px;
   color: #000000;
 }
+.rosa-collection-slider2-info-text3 a {
+  color: #000000;
+  text-decoration: underline;
+}
+.rosa-collection-slider2-info-text3 p {
+  display: block !important;
+  margin-bottom: 10px;
+}
+.rosa-collection-slider2-info-text3 ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
 .rosa-collection-slider2-info-slider {
   width: 100%;
 }
@@ -2115,6 +2128,19 @@ h1 {
   letter-spacing: 0px;
   color: #000000;
   margin-bottom: 30px;
+}
+.rosa-backgrounded-text a {
+  color: #000000;
+  text-decoration: underline;
+}
+.rosa-backgrounded-text p {
+  display: block !important;
+  margin-bottom: 10px;
+}
+.rosa-backgrounded-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 10px;
 }
 .rosa-backgrounded-list {
   padding-left: 37px;
@@ -3828,6 +3854,7 @@ h1 {
 }
 .rosa-pdp-info-description-text a {
   color: #1A1A1A;
+  text-transform: underline;
 }
 .rosa-pdp-info-description-text br + br {
   display: none;
@@ -4429,6 +4456,19 @@ input:focus-visible {
   font: normal normal normal 14px/20px Montserrat;
   letter-spacing: 0px;
   margin-bottom: 20px;
+}
+.rosa-contacts-list-item a {
+  color: #1A1A1A;
+  text-transform: underline;
+}
+.rosa-contacts-list-item p {
+  display: block !important;
+  margin-bottom: 10px;
+}
+.rosa-contacts-list-item ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 10px;
 }
 .rosa-contacts-rendez-vous {
   display: block;
