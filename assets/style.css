@@ -581,9 +581,12 @@ h1 {
   align-items: center;
   margin-bottom: 30px;
 }
-.rosa-menu-mobile-header-logo {
+.rosa-menu-mobile-header-logo-link {
   width: 228px;
   max-width: 80%;
+}
+.rosa-menu-mobile-header-logo {
+  width: 100%;
 }
 .rosa-menu-mobile-header-close {
   cursor: pointer;
