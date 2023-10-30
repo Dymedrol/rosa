@@ -6,8 +6,8 @@
       <source srcset="{{ section.settings.banner_image | img_url: '920x550', crop: 'center' }} 1x, {{ section.settings.banner_image | img_url: '1840x1100', crop: 'center' }} 2x" media="(min-width: 960px)" />
       <source srcset="{{ section.settings.banner_image | img_url: '680x500', crop: 'center' }}" media="(min-width: 720px)" />
       <source srcset="{{ section.settings.banner_image | img_url: '960x880', crop: 'center' }}" media="(min-width: 480px)" />
-      <source srcset="{% if section.settings.banner_image_mobile %}{{ section.settings.banner_image_mobile | img_url: '360x600', crop: 'center' }}{% else %}{{ section.settings.banner_image | img_url: '360x600', crop: 'center' }}{% endif %}" />
-      <img src="{% if section.settings.banner_image_mobile %}{{ section.settings.banner_image_mobile | img_url: '360x600', crop: 'center' }}{% else %}{{ section.settings.banner_image | img_url: '360x600', crop: 'center' }}{% endif %}" alt="{{ section.settings.banner_image.alt }}" loading="lazy" class="rosa-jumbotron-pic"/>
+      <source srcset="{% if section.settings.banner_image_mobile %}{{ section.settings.banner_image_mobile | img_url: '720x1200', crop: 'center' }}{% else %}{{ section.settings.banner_image | img_url: '720x1200', crop: 'center' }}{% endif %}" />
+      <img src="{% if section.settings.banner_image_mobile %}{{ section.settings.banner_image_mobile | img_url: '720x1200', crop: 'center' }}{% else %}{{ section.settings.banner_image | img_url: '720x1200', crop: 'center' }}{% endif %}" alt="{{ section.settings.banner_image.alt }}" loading="lazy" class="rosa-jumbotron-pic"/>
     </picture>
 
     <div class="rosa-jumbotron-wrapper container rosa-jumbotron-wrapper_{{ section.settings.alignment }}">

@@ -2520,9 +2520,8 @@ h1 {
 }
 .rosa-header3-link a {
   font: normal normal 600 16px/19px Montserrat;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #000;
   color: #000000;
+  text-decoration: underline;
 }
 .rosa-picture-slider {
   padding-bottom: 40px;
@@ -4654,6 +4653,7 @@ input:focus-visible {
 .rosa-header4-link a {
   font: normal normal 600 16px/19px Montserrat;
   color: #000000;
+  text-decoration: underline;
 }
 .rosa-collections-banner {
   position: relative;
