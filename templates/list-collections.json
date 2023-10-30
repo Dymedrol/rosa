@@ -36,7 +36,7 @@
         "slider_2_image": "shopify:\/\/shop_images\/Rosa_Maitea_bague_ethique_jardin_cosmiqueor_blanc_18_carats_et_diamants.jpg",
         "text1": "LA JOAILLERIE ÉTHIQUE ROSA MAITEA",
         "text2": "JARDIN COSMIQUE",
-        "text3": "Dans cette collection, une profusion de diamants recyclés parsème des branches d’or recyclé ou bourgeonne comme les fleurs d’un jardin stellaire sur de précieuses lianes d’or.",
+        "text3": "<p>Dans cette collection, une profusion de diamants recyclés parsème des branches d’or recyclé ou bourgeonne comme les fleurs d’un jardin stellaire sur de précieuses lianes d’or.<\/p>",
         "collection": "jardin-cosmique",
         "padding_top": 0,
         "padding_bottom": 120
@@ -49,7 +49,7 @@
         "slider_2_image": "shopify:\/\/shop_images\/Rosa_maitea_bijoux_ethiques_en_or_recycle_18_carats_et_diamants_recycles.jpg",
         "text1": "LA JOAILLERIE ÉTHIQUE ROSA MAITEA",
         "text2": "LA BONNE ÉTOILE",
-        "text3": "Tour à tour constellations ou astres splendides et solitaires, Les bonnes Etoiles de Rosa Maïtea, se déclinent dans une collection porte-bonheur, composée d’or et de diamants recyclés.",
+        "text3": "<p>Tour à tour constellations ou astres splendides et solitaires, Les bonnes Etoiles de Rosa Maïtea, se déclinent dans une collection porte-bonheur, composée d’or et de diamants recyclés.<\/p>",
         "collection": "la-bonne-etoile",
         "padding_top": 0,
         "padding_bottom": 75
@@ -62,7 +62,7 @@
         "slider_2_image": "shopify:\/\/shop_images\/DSC8051.jpg",
         "text1": "LA JOAILLERIE ÉTHIQUE ROSA MAITEA",
         "text2": "ARCOIRIS",
-        "text3": "Arcoiris compose une parure audacieuse réalisée en or jaune 18ct recyclé et serti de pierres 100% traçables : spinelles et grenats de Tanzanie aux magnifiques couleurs vives. Placée sous le triple signe de la joie, de la beauté et de la protection de notre environnement, la collection Arcoiris renouvelle avec bonheur le design de la joaillerie éthique.",
+        "text3": "<p>Arcoiris compose une parure audacieuse réalisée en or jaune 18ct recyclé et serti de pierres 100% traçables : spinelles et grenats de Tanzanie aux magnifiques couleurs vives. Placée sous le triple signe de la joie, de la beauté et de la protection de notre environnement, la collection Arcoiris renouvelle avec bonheur le design de la joaillerie éthique.<\/p>",
         "collection": "arcoiris",
         "padding_top": 0,
         "padding_bottom": 75
@@ -75,7 +75,7 @@
         "slider_2_image": "shopify:\/\/shop_images\/Rosa_Maitea_pendentif_diamants_la_bonne_etoile_spread_love.jpg",
         "text1": "LE MARIAGE ÉTHIQUE DE ROSA MAITEA",
         "text2": "SPREAD LOVE",
-        "text3": "Symbole absolu de l’amour éternel, les diamants illuminent les joyaux des mariages et des fiançailles.",
+        "text3": "<p>Symbole absolu de l’amour éternel, les diamants illuminent les joyaux des mariages et des fiançailles.<\/p>",
         "collection": "spread-love",
         "padding_top": 0,
         "padding_bottom": 80
@@ -85,10 +85,10 @@
       "type": "collection-slider-with-pic",
       "settings": {
         "is_reverse": false,
-        "slider_2_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-157.jpg",
+        "slider_2_image": "shopify:\/\/shop_images\/Rosa-MAitea-joaillerie-ethique-colllection-le-torubillon-en-or-recycle-18-carats_-diamants-recycles-et-pierres-tracables.jpg",
         "text1": "TOURBILLON",
         "text2": "D'AMOUR",
-        "text3": "Cette ravissante collection nommée Tourbillon, célèbre le vertige de l’amour selon Rosa Maïtea.",
+        "text3": "<p>Cette ravissante collection nommée Tourbillon, célèbre le vertige de l’amour selon Rosa Maïtea.<\/p>",
         "collection": "tourbillon",
         "padding_top": 0,
         "padding_bottom": 80
@@ -108,7 +108,7 @@
         "slider_2_image": "shopify:\/\/shop_images\/Rosa_Maitea_bague_ethique_la_favorite_en_or_recycle_18_carats_et_tourmaline_rose.jpg",
         "text1": "JOAILLERIE ETHIQUE",
         "text2": "LA FAVORITE",
-        "text3": "La bague éthique La Favorite, création originale de Rosa Maïtea est éditée en série limitée de dix exemplaires par couleur, en rose ou en vert.",
+        "text3": "<p>La bague éthique La Favorite, création originale de Rosa Maïtea est éditée en série limitée de dix exemplaires par couleur, en rose ou en vert.<\/p>",
         "collection": "la-favorita-de-rosa-maitea",
         "padding_top": 45,
         "padding_bottom": 45
