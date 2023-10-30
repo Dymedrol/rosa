@@ -913,6 +913,19 @@ h1 {
     max-width: unset;
   }
 }
+.rosa-jumbotron-title a {
+  color: #000000;
+  text-decoration: underline;
+}
+.rosa-jumbotron-title p {
+  display: block !important;
+  margin-bottom: 10px;
+}
+.rosa-jumbotron-title ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
 @media ((min-width: 1200px)) {
   .rosa-jumbotron-title_big {
     font: normal normal normal 60px/45px Cormorant !important;
@@ -1972,6 +1985,19 @@ h1 {
   color: #000000;
   margin-bottom: 36px;
 }
+.rosa-double-info-text3 a {
+  color: #000000;
+  text-decoration: underline;
+}
+.rosa-double-info-text3 p {
+  display: block !important;
+  margin-bottom: 10px;
+}
+.rosa-double-info-text3 ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
 .rosa-double-info-text3.medium {
   max-width: 338px;
   text-align: left;
@@ -2048,6 +2074,19 @@ h1 {
   font: normal normal normal 14px/18px Montserrat;
   letter-spacing: 0px;
   color: #1A1A1A;
+}
+.rosa-double-accordion-header-text a {
+  color: #000000;
+  text-decoration: underline;
+}
+.rosa-double-accordion-header-text p {
+  display: block !important;
+  margin-bottom: 10px;
+}
+.rosa-double-accordion-header-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 10px;
 }
 .rosa-double-accordion.open .plus {
   display: none;
@@ -2548,6 +2587,15 @@ h1 {
   font: normal normal 600 16px/19px Montserrat;
   color: #000000;
   text-decoration: underline;
+}
+.rosa-header3-link p {
+  display: block !important;
+  margin-bottom: 10px;
+}
+.rosa-header3-link ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 10px;
 }
 .rosa-picture-slider {
   padding-bottom: 40px;
@@ -4416,6 +4464,19 @@ h1 {
   letter-spacing: 0px;
   color: #1A1A1A;
 }
+.rosa-faq-item-header-text a {
+  color: #000000;
+  text-decoration: underline;
+}
+.rosa-faq-item-header-text p {
+  display: block !important;
+  margin-bottom: 10px;
+}
+.rosa-faq-item-header-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
 .rosa-faq-item.open .plus {
   display: none;
 }
@@ -4694,6 +4755,15 @@ input:focus-visible {
   font: normal normal 600 16px/19px Montserrat;
   color: #000000;
   text-decoration: underline;
+}
+.rosa-header4-link p {
+  display: block !important;
+  margin-bottom: 10px;
+}
+.rosa-header4-link ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 10px;
 }
 .rosa-collections-banner {
   position: relative;
@@ -5014,6 +5084,19 @@ input:focus-visible {
   color: #000000;
   margin-bottom: 50px;
 }
+.rosa-horizontal-slider-desktop-card-main-text a {
+  color: #000000;
+  text-decoration: underline;
+}
+.rosa-horizontal-slider-desktop-card-main-text p {
+  display: block !important;
+  margin-bottom: 10px;
+}
+.rosa-horizontal-slider-desktop-card-main-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
 .rosa-horizontal-slider-desktop-card-main-pic {
   display: block !important;
   width: 200px;
@@ -5108,11 +5191,37 @@ input:focus-visible {
   text-transform: uppercase;
   margin-bottom: 24px;
 }
+.rosa-text-block1-title a {
+  color: #000000;
+  text-decoration: underline;
+}
+.rosa-text-block1-title p {
+  display: block !important;
+  margin-bottom: 10px;
+}
+.rosa-text-block1-title ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
 .rosa-text-block1-text {
   font: normal normal normal 15px/20px Montserrat;
   letter-spacing: 0px;
   color: #000000;
   margin-bottom: 18px;
+}
+.rosa-text-block1-text a {
+  color: #000000;
+  text-decoration: underline;
+}
+.rosa-text-block1-text p {
+  display: block !important;
+  margin-bottom: 10px;
+}
+.rosa-text-block1-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 10px;
 }
 .rosa-text-block2 {
   max-width: 673px;
@@ -5124,5 +5233,18 @@ input:focus-visible {
   letter-spacing: 0px;
   color: #000000;
   margin-bottom: 18px;
+}
+.rosa-text-block2-text a {
+  color: #000000;
+  text-decoration: underline;
+}
+.rosa-text-block2-text p {
+  display: block !important;
+  margin-bottom: 10px;
+}
+.rosa-text-block2-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 10px;
 }
 
