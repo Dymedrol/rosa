@@ -17,9 +17,13 @@
 }
 
 .rosa-cart-legend {
-    display: flex;
-    padding-bottom: 18px;
-    border-bottom: 1px solid #000;
+    display: none;
+
+    @media (@L) {
+        display: flex;
+        padding-bottom: 18px;
+        border-bottom: 1px solid #000;
+    }
 }
 
 .rosa-cart-col1 {

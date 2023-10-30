@@ -3881,9 +3881,14 @@ h1 {
   width: 100%;
 }
 .rosa-cart-legend {
-  display: flex;
-  padding-bottom: 18px;
-  border-bottom: 1px solid #000;
+  display: none;
+}
+@media ((min-width: 1200px)) {
+  .rosa-cart-legend {
+    display: flex;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #000;
+  }
 }
 .rosa-cart-col1 {
   flex-grow: 1;
