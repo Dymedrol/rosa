@@ -44,7 +44,7 @@ height: 20px !important;
 
 @media screen and (max-width: 480px) {
 
-.template-search__header .h2.center, .main-page-title.page-title {
+.template-search__header .h2.center, .main-page-title.page-title, .rosa-cart-title {
   font: 34px/40px Cormorant !important;
 }
   
