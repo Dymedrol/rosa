@@ -47,6 +47,22 @@ height: 20px !important;
 .template-search__header .h2.center, .main-page-title.page-title, .rosa-cart-title {
   font: 34px/40px Cormorant !important;
 }
+
+.rosa-cart-item-info-title {
+font: 14px/18px Montserrat !important;
+}
+
+  .rosa-cart-item-info-description {
+font: 12px/16px Montserrat !important;
+  }
+
+.cart__contents {
+  border-top: solid 1px;
+}
+
+  .rosa-cart-title {
+margin: 0 auto 45px !important;
+  }
   
 .collecton-list-item-title {
   font: 14px/16px Montserrat !important;
