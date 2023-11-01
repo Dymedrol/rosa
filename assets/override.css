@@ -2,7 +2,7 @@
   display:none!important;
 }
 
-.facets__header, .facets__price {
+.facets__header, .facets__price, .field {
   font-family: Montserrat !important;
   letter-spacing: 0!important;
 }
