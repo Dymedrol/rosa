@@ -59,6 +59,7 @@
         "enable_video_looping": false,
         "video": "shopify:\/\/files\/videos\/1d1c2ccc2ea744cb861c8921af6e3e93 2.MP4",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/Rosa_Maitea_joaillerie_thique.jpg",
         "description": ""
       }
     },
@@ -90,7 +91,7 @@
         "076c0977-c63c-4883-b8f1-65288eed9274"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-168.jpg",
+        "image": "shopify:\/\/shop_images\/Rosa_Maitea_joaillerie_thique.jpg",
         "is_reverse": true,
         "is_centred": true,
         "padding_top": 90,
