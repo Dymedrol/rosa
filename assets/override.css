@@ -2,6 +2,10 @@
   display:none!important;
 }
 
+.facets__header, .facets__price {
+  font-family: Montserrat !important;
+}
+
 .template-search__header .h2.center {
   text-transform: uppercase;
 }
