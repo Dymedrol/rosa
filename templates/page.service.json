@@ -48,6 +48,7 @@
       "type": "video",
       "settings": {
         "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/WhatsApp Video 2023-11-01 at 09.35.34.mp4",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "cover_image": "shopify:\/\/shop_images\/Image_2x_819a9e12-4df9-448d-b851-9d2742cf0b27.png",
         "description": ""

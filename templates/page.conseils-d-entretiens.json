@@ -28,8 +28,7 @@
         "is_text_big": false,
         "image_banner_link_text": "",
         "image_banner_link_url": "",
-        "banner_image": "shopify:\/\/shop_images\/Rosa_Maitea_conseils_d_entretien_joaillerie_ethique.png",
-        "banner_image_mobile": "shopify:\/\/shop_images\/Rosa_Maitea_joaillerie_ethique_or_recycle_18_carats__conseils_d_entretien.png"
+        "banner_image": "shopify:\/\/shop_images\/Rosa_Maitea_conseils_d_entretien_joaillerie_ethique.png"
       }
     },
     "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5": {
@@ -149,7 +148,7 @@
         "044de56b-3510-4522-a41e-36063756c9d4": {
           "type": "text",
           "settings": {
-            "text": "<h2>CONSEILS POUR NETTOYER LES PIERRES<\/h2><h2><\/h2>"
+            "text": "<h2><\/h2><h2><\/h2>"
           }
         },
         "406eb290-02dc-40ef-8b1c-5d801d393bb8": {

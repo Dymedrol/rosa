@@ -113,8 +113,53 @@
         "padding_bottom": 0
       }
     },
+    "52841b38-7183-44ba-87e3-615f9a3a9da6": {
+      "type": "double",
+      "blocks": {
+        "60ec723f-ec7d-470c-8b1c-c4a3cbc86235": {
+          "type": "heading",
+          "settings": {
+            "heading1": "SUR MESURE",
+            "heading2": "CREONS VOTRE SOLITAIRE ROSA MAÏTEA ENSEMBLE"
+          }
+        },
+        "70404ca1-7c0a-469b-884c-89f0ac00f9db": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Selon votre budget, la taille et le carat de vos diamants, nous vous proposons de les rendre encore plus beaux grâce au sertissage signature Rosa Maïtea, composée de trois billes d’or de la couleur de votre choix, montées en 6 points tout autour du diamant comme une étoile à six branches, dans une interprétation unique et très contemporaine du solitaire. <\/p>"
+          }
+        },
+        "877afd39-c71d-478a-a3e7-7df84dad5c1e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Un signe de chance, pour un bijou unique, éthique et éco-responsable.<\/p>"
+          }
+        },
+        "41396f3b-2cf3-4f97-a14a-746d1fc1787e": {
+          "type": "link",
+          "settings": {
+            "link_text": "PRENEZ RENDEZ-VOUS",
+            "link_url": "shopify:\/\/pages\/prendre-rendez-vous"
+          }
+        }
+      },
+      "block_order": [
+        "60ec723f-ec7d-470c-8b1c-c4a3cbc86235",
+        "70404ca1-7c0a-469b-884c-89f0ac00f9db",
+        "877afd39-c71d-478a-a3e7-7df84dad5c1e",
+        "41396f3b-2cf3-4f97-a14a-746d1fc1787e"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rosa_Maitea_bagues_fian_ailles_mariage_ethique.jpg",
+        "is_reverse": false,
+        "is_centred": false,
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
       "type": "rosa-header2",
+      "disabled": true,
       "settings": {
         "tag": "div",
         "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
@@ -125,6 +170,7 @@
     },
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
@@ -158,6 +204,7 @@
     "900733a4-d6dd-4389-88a9-2389791a365d",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
     "product-grid",
+    "52841b38-7183-44ba-87e3-615f9a3a9da6",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
     "c35448d9-1175-475c-9d96-16d0b67db72b",
