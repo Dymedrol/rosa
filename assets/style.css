@@ -3139,139 +3139,172 @@ h1 {
   text-transform: uppercase;
   border-bottom: 1px solid #000;
 }
-.collecton-list .facets__header {
+.collecton-list .facets__header,
+.template-search .facets__header {
   padding: 10px !important;
   font-size: 14px !important;
 }
-.collecton-list .facets__form {
+.collecton-list .facets__form,
+.template-search .facets__form {
   gap: 0;
 }
 @media ((min-width: 1200px)) {
-  .collecton-list .facets__form {
+  .collecton-list .facets__form,
+  .template-search .facets__form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
   }
 }
-.collecton-list .field__input {
+.collecton-list .field__input,
+.template-search .field__input {
   height: 45px !important;
 }
-.collecton-list .facets__price {
+.collecton-list .facets__price,
+.template-search .facets__price {
   padding: 10px !important;
 }
 .collecton-list .underlined-link,
+.template-search .underlined-link,
 .collecton-list .customer a,
-.collecton-list .inline-richtext a {
+.template-search .customer a,
+.collecton-list .inline-richtext a,
+.template-search .inline-richtext a {
   text-underline-offset: 2px !important;
   text-decoration-thickness: 1px !important;
   font-size: 14px !important;
 }
-.collecton-list .facet-checkbox {
+.collecton-list .facet-checkbox,
+.template-search .facet-checkbox {
   padding: 10px 0px 5px 0px !important;
   font-size: 14px !important;
 }
-.collecton-list .facet-checkbox > svg {
+.collecton-list .facet-checkbox > svg,
+.template-search .facet-checkbox > svg {
   width: 20px;
   height: 20px;
 }
-.collecton-list .facet-checkbox .icon-checkmark {
+.collecton-list .facet-checkbox .icon-checkmark,
+.template-search .facet-checkbox .icon-checkmark {
   width: 10px;
   height: 10px;
   left: 5px;
   top: 16px;
 }
-.collecton-list .facets__disclosure {
+.collecton-list .facets__disclosure,
+.template-search .facets__disclosure {
   margin-right: 35px;
 }
-.collecton-list .facets__summary {
+.collecton-list .facets__summary,
+.template-search .facets__summary {
   font: normal normal 500 16px/11px Montserrat;
   letter-spacing: 0px;
   color: #000000;
   padding: 0;
 }
-.collecton-list .facets__summary div {
+.collecton-list .facets__summary div,
+.template-search .facets__summary div {
   display: flex;
   align-items: center;
   gap: 11px;
 }
-.collecton-list .facets__heading {
+.collecton-list .facets__heading,
+.template-search .facets__heading {
   font: normal normal 500 16px/11px Montserrat;
   letter-spacing: 0px;
   color: #000000;
 }
-.collecton-list .facet-filters__label {
+.collecton-list .facet-filters__label,
+.template-search .facet-filters__label {
   font: normal normal 500 16px/11px Montserrat;
   letter-spacing: 0px;
   color: #000000;
 }
-.collecton-list .select {
+.collecton-list .select,
+.template-search .select {
   align-items: center;
 }
-.collecton-list .select__select {
+.collecton-list .select__select,
+.template-search .select__select {
   font: normal normal 500 16px/17px Montserrat;
   letter-spacing: 0px;
   color: #000000;
   padding-right: 0;
 }
-.collecton-list .mobile-facets__open svg {
+.collecton-list .mobile-facets__open svg,
+.template-search .mobile-facets__open svg {
   width: 20px !important;
 }
-.collecton-list .mobile-facets__open-label.button-label.medium-hide.large-up-hide {
+.collecton-list .mobile-facets__open-label.button-label.medium-hide.large-up-hide,
+.template-search .mobile-facets__open-label.button-label.medium-hide.large-up-hide {
   font-size: 14px !important;
 }
 @media ((min-width: 320px) and (max-width: 719px)) {
-  .collecton-list .facets__list {
+  .collecton-list .facets__list,
+  .template-search .facets__list {
     padding: 10px 20px !important;
   }
 }
 @media ((min-width: 320px) and (max-width: 719px)) {
-  .collecton-list .mobile-facets__footer .button {
+  .collecton-list .mobile-facets__footer .button,
+  .template-search .mobile-facets__footer .button {
     min-width: 120px !important;
     min-height: 40px !important;
   }
 }
 @media ((min-width: 320px) and (max-width: 719px)) {
   .collecton-list .mobile-facets__heading,
-  .collecton-list .mobile-facets__count {
+  .template-search .mobile-facets__heading,
+  .collecton-list .mobile-facets__count,
+  .template-search .mobile-facets__count {
     font-size: 14px !important;
   }
 }
 @media ((min-width: 320px) and (max-width: 719px)) {
-  .collecton-list .mobile-facets__summary {
+  .collecton-list .mobile-facets__summary,
+  .template-search .mobile-facets__summary {
     padding: 10px 25px !important;
   }
 }
 @media ((min-width: 320px) and (max-width: 719px)) {
-  .collecton-list .collecton-list-choices {
+  .collecton-list .collecton-list-choices,
+  .template-search .collecton-list-choices {
     padding: 0px 10px !important;
   }
 }
 @media ((min-width: 320px) and (max-width: 719px)) {
-  .collecton-list .mobile-facets__open {
+  .collecton-list .mobile-facets__open,
+  .template-search .mobile-facets__open {
     padding-bottom: 15px !important;
   }
 }
-.collecton-list .field__label {
+.collecton-list .field__label,
+.template-search .field__label {
   font-size: 14px !important;
 }
 @media ((min-width: 320px) and (max-width: 719px)) {
-  .collecton-list .field__label {
+  .collecton-list .field__label,
+  .template-search .field__label {
     font-size: 12px !important;
   }
 }
-.collecton-list .loading-overlay {
+.collecton-list .loading-overlay,
+.template-search .loading-overlay {
   height: 400vh;
 }
-.collecton-list *:focus {
+.collecton-list *:focus,
+.template-search *:focus {
   outline: 0;
   box-shadow: none;
 }
-.collecton-list *:focus-visible {
+.collecton-list *:focus-visible,
+.template-search *:focus-visible {
   outline: 0 !important;
   box-shadow: none !important;
 }
-.collecton-list .facets__display {
+.collecton-list .facets__display,
+.template-search .facets__display {
   max-width: 360px !important;
 }
 .collecton-list-sorting-title label {
