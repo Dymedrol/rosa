@@ -16,7 +16,7 @@
         "alignment": "center",
         "text_color": "#ffffff",
         "image_banner_title_text": "<p>QUESTIONS FRÉQUENTES<\/p>",
-        "is_title_big": true,
+        "is_title_big": false,
         "image_banner_subtitle_text": "",
         "is_text_big": false,
         "image_banner_link_text": "",
