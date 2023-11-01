@@ -134,12 +134,20 @@
           "settings": {
             "text": "<p>Un signe de chance, pour un bijou unique, éthique et éco-responsable.<\/p>"
           }
+        },
+        "41396f3b-2cf3-4f97-a14a-746d1fc1787e": {
+          "type": "link",
+          "settings": {
+            "link_text": "PRENEZ RENDEZ-VOUS",
+            "link_url": "shopify:\/\/pages\/prendre-rendez-vous"
+          }
         }
       },
       "block_order": [
         "60ec723f-ec7d-470c-8b1c-c4a3cbc86235",
         "70404ca1-7c0a-469b-884c-89f0ac00f9db",
-        "877afd39-c71d-478a-a3e7-7df84dad5c1e"
+        "877afd39-c71d-478a-a3e7-7df84dad5c1e",
+        "41396f3b-2cf3-4f97-a14a-746d1fc1787e"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rosa_Maitea_bagues_fian_ailles_mariage_ethique.jpg",
