@@ -23,8 +23,7 @@
         "is_text_big": false,
         "image_banner_link_text": "",
         "image_banner_link_url": "\/",
-        "banner_image": "shopify:\/\/shop_images\/Rosa_Maitea_bracalet_ethqiues_en_or_recycle_18_carats_et_diamants_recycles.jpg",
-        "banner_image_mobile": "shopify:\/\/shop_images\/Rosa_Maitea_bracelet_thique_la_bonne_etoile_en_or_recycle_18_carats.png"
+        "banner_image": "shopify:\/\/shop_images\/Rosa_Maitea_bracalet_ethqiues_en_or_recycle_18_carats_et_diamants_recycles.jpg"
       }
     },
     "8d1b1f4e-8950-4fd5-bacf-6fcfb6f64906": {
@@ -118,6 +117,7 @@
     },
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
