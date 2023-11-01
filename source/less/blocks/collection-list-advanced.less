@@ -97,8 +97,6 @@
     aspect-ratio: 218 / 280;
     padding: 0 4% 20px;
     background: #fff;
-    border-right: 1px solid #D6D6D6;
-    border-bottom: 1px solid #D6D6D6;
 
     @media (@L) {
         aspect-ratio: 435 / 497;
@@ -257,7 +255,7 @@
 .collecton-list-advanced-item-big:nth-child(7n) {
 
     @media (@desktop_only) {
-        width: 100%;
+        width: calc(100% - 1px);
 
         & .collecton-list-advanced-item {
             border-right: 0;
@@ -275,7 +273,7 @@
 .collecton-list-advanced-item-big:nth-child(9n) {
 
     @media (@XXXL) {
-        width: 100%;
+        width: calc(100% - 1px);
 
         & .collecton-list-advanced-item {
             border-right: 0;

@@ -29,13 +29,13 @@
       <div class="collecton-list-item-price">{{ card_product.price | money_without_trailing_zeros }}</div>
   </div>
 
-  <div class="collecton-list-advanced-item-big-pic-wrapper">
+  <a href="{{ card_product.url }}" class="collecton-list-advanced-item-big-pic-wrapper">
       {% if card_product.metafields.custom.alternative_third_image %}
         <img srcset="{{  card_product.metafields.custom.alternative_third_image | img_url: '1824x1100', crop: 'center' }}" alt="" class="collecton-list-advanced-item-big-pic">
       {% else %}
         <img src="{{  card_product.images[2] | img_url: '1824x1100', crop: 'center' }}" alt="" class="collecton-list-advanced-item-big-pic">
       {% endif %}
-  </div>
+  </a>
 
 </div>
 

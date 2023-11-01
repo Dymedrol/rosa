@@ -3369,8 +3369,6 @@ h1 {
   aspect-ratio: 0.77857143;
   padding: 0 4% 20px;
   background: #fff;
-  border-right: 1px solid #D6D6D6;
-  border-bottom: 1px solid #D6D6D6;
 }
 @media ((min-width: 1200px)) {
   .collecton-list-advanced-item {
@@ -3519,7 +3517,7 @@ h1 {
 }
 @media ((min-width: 1200px) and (max-width: 1919px)) {
   .collecton-list-advanced-item-big:nth-child(7n) {
-    width: 100%;
+    width: calc(100% - 1px);
   }
   .collecton-list-advanced-item-big:nth-child(7n) .collecton-list-advanced-item {
     border-right: 0;
@@ -3532,7 +3530,7 @@ h1 {
 }
 @media ((min-width: 1920px)) {
   .collecton-list-advanced-item-big:nth-child(9n) {
-    width: 100%;
+    width: calc(100% - 1px);
   }
   .collecton-list-advanced-item-big:nth-child(9n) .collecton-list-advanced-item {
     border-right: 0;
