@@ -4,6 +4,7 @@
 
 .facets__header, .facets__price {
   font-family: Montserrat !important;
+  letter-spacing: 0!important;
 }
 
 .template-search__header .h2.center {
