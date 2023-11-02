@@ -9,6 +9,7 @@ import { initDouble } from './double';
 import { initFaq } from './faq';
 import { initJumboSlider } from './jumbo-slider';
 import { initHorizontalSlider } from './horizontalSlider';
+import { initLanguageSwitcher } from './languageSwitcher';
 
 initMenu();
 initPdp();
@@ -21,6 +22,7 @@ initDouble();
 initFaq();
 initJumboSlider();
 initHorizontalSlider();
+initLanguageSwitcher();
 
 Fancybox.bind('[data-fancybox]', {
     'type': 'image',

@@ -505,6 +505,29 @@ h1 {
   color: #FFFFFF;
   opacity: 1;
 }
+.rosa-menu-nav-item_lang-switcher {
+  position: relative;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  cursor: pointer;
+}
+.rosa-menu-nav-item_lang-switcher span {
+  font: 500 14px/27px Montserrat;
+  letter-spacing: 0px;
+  color: #000;
+  text-transform: uppercase;
+}
+.rosa-menu-nav-item_lang-switcher-menu {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  min-width: 100%;
+  box-shadow: 0 3px 6px #00000029;
+  padding: 16px 11px;
+  background-color: #fff;
+}
 .rosa-menu-nav-bottom {
   display: flex;
   gap: 49px;
@@ -595,13 +618,6 @@ h1 {
   position: absolute;
   top: 57px;
   right: 24px;
-  gap: 19px;
-  opacity: 0;
-}
-.rosa-menu-mobile-lang span {
-  font: normal normal 500 16px/19px Montserrat;
-  letter-spacing: 0px;
-  color: #000000;
 }
 .rosa-menu-mobile-cart {
   display: flex;
