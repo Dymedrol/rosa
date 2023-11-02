@@ -16,9 +16,10 @@ right: 0 !important;
   font-family: Montserrat !important;
 }
 
-.template-search__header .h2.center {
+.template-search__header .h2.center, .facets__list {
   text-transform: uppercase;
 }
+
 
 .rosa-quote5-text2 {
   padding-top: 10px;
