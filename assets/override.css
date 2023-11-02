@@ -7,6 +7,10 @@
   letter-spacing: 0!important;
 }
 
+.reset__button {
+right: 0 !important;
+}
+
 .field__input {
   font-size: 16px!important;
   font-family: Montserrat !important;
