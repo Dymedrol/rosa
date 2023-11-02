@@ -7,14 +7,19 @@
   letter-spacing: 0!important;
 }
 
+.reset__button {
+right: 0 !important;
+}
+
 .field__input {
   font-size: 16px!important;
   font-family: Montserrat !important;
 }
 
-.template-search__header .h2.center {
+.template-search__header .h2.center, .facets__list {
   text-transform: uppercase;
 }
+
 
 .rosa-quote5-text2 {
   padding-top: 10px;
