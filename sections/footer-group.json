@@ -8,6 +8,9 @@
         ".rosa-subscribe {background: #ff6969 !important;}"
       ],
       "settings": {
+        "text1": "UNE BOMBE D’AMOUR PAR SEMAINE !",
+        "text2": "Connectez vous à la marque par amour, promis #ZeroSpams, que du #bonheur",
+        "text3": "<p>Vous acceptez notre <a href=\"\/pages\/politique-de-confidentialite\">politique de confidentialité<\/a><\/p>"
       }
     },
     "footer": {
