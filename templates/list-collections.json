@@ -6,8 +6,8 @@
         "@media ((min-width: 1200px)) {.rosa-jumbotron-title {font: 40px\/45px Cormorant !important; }}"
       ],
       "settings": {
-        "tag": "div",
-        "is_full_screen": true,
+        "tag": "h1",
+        "is_full_screen": false,
         "alignment": "center",
         "text_color": "#ffffff",
         "image_banner_title_text": "<p>TOUTES NOS COLLECTIONS<\/p>",
