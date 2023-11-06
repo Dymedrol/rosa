@@ -116,6 +116,9 @@ right: 0 !important;
   .no-js-hidden.button.button--primary {
     font-size: 1rem!important;
   }
-  
+
+  .rosa-menu-mobile-lang {
+top: 35px!important;
+  }  
 }
 
