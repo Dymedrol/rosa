@@ -7,7 +7,7 @@
       ],
       "settings": {
         "tag": "h1",
-        "is_full_screen": true,
+        "is_full_screen": false,
         "alignment": "center",
         "text_color": "#ffffff",
         "image_banner_title_text": "<p>TOUTES NOS COLLECTIONS<\/p>",
@@ -16,7 +16,7 @@
         "is_text_big": false,
         "image_banner_link_text": "",
         "image_banner_link_url": "\/",
-        "banner_image": "shopify:\/\/shop_images\/Rosa_Maitea_joaillerie_thique_collections.jpg"
+        "banner_image": "shopify:\/\/shop_images\/Rosa_Maitea_Bandeaux_arco_iris.jpg"
       }
     },
     "main": {
