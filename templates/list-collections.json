@@ -7,7 +7,7 @@
       ],
       "settings": {
         "tag": "h1",
-        "is_full_screen": false,
+        "is_full_screen": true,
         "alignment": "center",
         "text_color": "#ffffff",
         "image_banner_title_text": "<p>TOUTES NOS COLLECTIONS<\/p>",
