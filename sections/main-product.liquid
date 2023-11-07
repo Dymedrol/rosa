@@ -65,7 +65,7 @@
                     {% endfor %}
                   </select>
 
-                  <div class="rosa-pdp-info-links"><a href="https://rosamaitea.com/pages/baguier-rosa-maitea" class="rosa-pdp-info-links-link">Guide des tailles</a> - <a href="https://rosamaitea.com/pages/gravure" class="rosa-pdp-info-links-link">Gravure</a> - <a href="https://rosamaitea.com/pages/remise-a-taille-offerte" class="rosa-pdp-info-links-link">Mise à taille</a>
+                  <div class="rosa-pdp-info-links"><a href="{{ section.settings.guide_url }}" class="rosa-pdp-info-links-link">{{ section.settings.guide_text }}</a> - <a href="{{ section.settings.gravure_url }}" class="rosa-pdp-info-links-link">{{ section.settings.gravure_text }}</a> - <a href="{{ section.settings.mise_url }}" class="rosa-pdp-info-links-link">{{ section.settings.guide_text }}</a>
                   </div>
 
                   <input disabled type="submit" name="add" id="add" value="Ajouter au panier" class="rosa-pdp-info-button">
@@ -98,6 +98,44 @@
 {
   "name": "t:sections.main-product.name",
   "tag": "section",
-  "class": "section"
+  "class": "section",
+  "settings": [
+       {
+         "type": "text",
+         "id": "guide_text",
+         "label": "Guide des tailles text",
+         "default": "Guide des tailles"
+       },
+       {
+         "type": "url",
+         "id": "gravure_url",
+         "label": "Guide des tailles url",
+         "default": "/"
+       },
+       {
+         "type": "text",
+         "id": "gravure_text",
+         "label": "Gravure text",
+         "default": "Gravure"
+       },
+       {
+         "type": "url",
+         "id": "guide_url",
+         "label": "Gravure url",
+         "default": "/"
+       },
+       {
+         "type": "text",
+         "id": "mise_text",
+         "label": "Mise à taille text",
+         "default": "Mise à taille"
+       },
+       {
+         "type": "url",
+         "id": "mise_url",
+         "label": "Mise à taille url",
+         "default": "/"
+       }
+   ]
 }
 {% endschema %}
