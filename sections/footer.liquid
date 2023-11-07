@@ -42,8 +42,8 @@
 
 
     <div class="rosa-footer-menu3">
-        <a href="https://rosamaitea.com/pages/nous-contacter" class="rosa-footer-menu3-item">NOUS CONTACTER</a>
-        <a href="https://rosamaitea.com/pages/prendre-rendez-vous" class="rosa-footer-menu3-item">PRENDRE RENDEZ-VOUS</a>
+        <a href="{{ section.settings.contacts_url }}" class="rosa-footer-menu3-item">{{ section.settings.contacts_text }}</a>
+        <a href="{{ section.settings.rdv_url }}" class="rosa-footer-menu3-item">{{ section.settings.rdv_text }}</a>
         <div class="rosa-footer-menu3-socials">
             <a href="https://www.facebook.com/RosaMaitea/" class="rosa-footer-menu3-socials-item">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -64,6 +64,32 @@
 
 {% schema %}
 {
-  "name": "t:sections.footer.name"
+  "name": "t:sections.footer.name",
+  "settings": [
+            {
+                "type": "text",
+                "id": "contacts_text",
+                "label": "contacts text",
+                "default": "NOUS CONTACTER"
+            },
+            {
+                "type": "url",
+                "id": "contacts_url",
+                "label": "contacts url",
+                "default": "/"
+            },
+            {
+                "type": "text",
+                "id": "rdv_text",
+                "label": "rdv text",
+                "default": "PRENDRE RENDEZ-VOUS"
+            },
+            {
+                "type": "url",
+                "id": "rdv_url",
+                "label": "rdv url",
+                "default": "/"
+            }
+    ]
 }
 {% endschema %}
