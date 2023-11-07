@@ -8,7 +8,13 @@
         "menu_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-170.jpg",
         "menu_text": "",
         "menu_url": "",
-        "menu_url_text": ""
+        "menu_url_text": "",
+        "search_text": "Rechercher",
+        "boutiques_text": "Boutiques",
+        "boutiques_url": "shopify:\/\/pages\/boutiques",
+        "rdv_text": "Prenez RDV",
+        "rdv_url": "shopify:\/\/pages\/prendre-rendez-vous",
+        "contacts_url": "shopify:\/\/pages\/nous-contacter"
       }
     }
   },
