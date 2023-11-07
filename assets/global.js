@@ -4,7 +4,7 @@ const links = document.querySelectorAll('.rosa-menu-open a');
 // Loop through the <a> elements
 for (const link of links) {
   // Check if the href attribute is equal to "#"
-  if (link.getAttribute('href') === '#') {
+  if (link.getAttribute('href').includes('#')) {
     // Set the display property to "none" to hide the element
     link.style.display = 'none';
   }
