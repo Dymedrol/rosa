@@ -7,11 +7,11 @@
       ],
       "settings": {
         "guide_text": "Guide des tailles",
-        "gravure_url": "shopify:\/\/pages\/baguier-rosa-maitea",
+        "gravure_url": "shopify:\/\/pages\/gravure",
         "gravure_text": "Gravure",
-        "guide_url": "shopify:\/\/pages\/gravure",
+        "guide_url": "shopify:\/\/pages\/baguier-rosa-maitea",
         "mise_text": "Mise à taille",
-        "mise_url": "\/"
+        "mise_url": "shopify:\/\/pages\/remise-a-taille-offerte"
       }
     },
     "related-products": {
