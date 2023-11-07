@@ -16,6 +16,10 @@
     "footer": {
       "type": "footer",
       "settings": {
+        "contacts_text": "NOUS CONTACTER",
+        "contacts_url": "shopify:\/\/pages\/nous-contacter",
+        "rdv_text": "PRENDRE RENDEZ-VOUS",
+        "rdv_url": "shopify:\/\/pages\/prendre-rendez-vous"
       }
     }
   },
