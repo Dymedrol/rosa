@@ -68,12 +68,12 @@
                   <div class="rosa-pdp-info-links"><a href="{{ section.settings.guide_url }}" class="rosa-pdp-info-links-link">{{ section.settings.guide_text }}</a> - <a href="{{ section.settings.gravure_url }}" class="rosa-pdp-info-links-link">{{ section.settings.gravure_text }}</a> - <a href="{{ section.settings.mise_url }}" class="rosa-pdp-info-links-link">{{ section.settings.mise_text }}</a>
                   </div>
 
-                  <input disabled type="submit" name="add" id="add" value="Ajouter au panier" class="rosa-pdp-info-button">
+                  <input disabled type="submit" name="add" id="add" value="{{ section.settings.cart_button__text }}" class="rosa-pdp-info-button">
                 </form>
 
-                <a href="https://rosamaitea.com/pages/prendre-rendez-vous" class="rosa-pdp-info-rendez-vous">PRENDRE RENDEZ-VOUS AU SHOWROOM</a>
+                <a href="https://rosamaitea.com/pages/prendre-rendez-vous" class="rosa-pdp-info-rendez-vous">{{ section.settings.prendre__text }}</a>
                 <div class="rosa-pdp-info-text2">
-                    <span>Livraison estimée à partir du&#160;<b>-</b></span>
+                    <span>{{ section.settings.delivery__text }}&#160;<b>-</b></span>
 
                     <svg xmlns="http://www.w3.org/2000/svg" width="19.266" height="19.266" viewBox="0 0 19.266 19.266">
                       <g id="Icon_feather-info" data-name="Icon feather-info" transform="translate(-2 -2)">
@@ -85,8 +85,8 @@
 
                 </div>
                 <div class="rosa-pdp-info-bar"></div>
-                <div class="rosa-pdp-info-description-title">DESCRIPTION ET DETAILS</div>
-                <div class="rosa-pdp-info-description-subtitle">Description du produit :</div>
+                <div class="rosa-pdp-info-description-title">{{ section.settings.description__text }}</div>
+                <div class="rosa-pdp-info-description-subtitle">{{ section.settings.description_du_produit__text }}</div>
                 <div class="rosa-pdp-info-description-text">{{ product.description }}</div>
                 <div class="rosa-pdp-info-bar2"></div>
             </div>
@@ -135,6 +135,36 @@
          "id": "mise_url",
          "label": "Mise à taille",
          "default": "/"
+       },
+       {
+         "type": "text",
+         "id": "cart_button__text",
+         "label": "Ajouter au panier text",
+         "default": "Ajouter au panier"
+       },
+       {
+         "type": "text",
+         "id": "prendre__text",
+         "label": "PRENDRE RENDEZ-VOUS AU SHOWROOM text",
+         "default": "PRENDRE RENDEZ-VOUS AU SHOWROOM"
+       },
+       {
+         "type": "text",
+         "id": "delivery__text",
+         "label": "Livraison estimée à partir du  text",
+         "default": "Livraison estimée à partir du "
+       },
+       {
+         "type": "text",
+         "id": "description__text",
+         "label": "DESCRIPTION ET DETAILS  text",
+         "default": "DESCRIPTION ET DETAILS"
+       },
+       {
+         "type": "text",
+         "id": "description_du_produit__text",
+         "label": "Description du produit  text",
+         "default": "Description du produit:"
        }
    ]
 }
