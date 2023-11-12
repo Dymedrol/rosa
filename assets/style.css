@@ -5380,4 +5380,55 @@ h1.rosa-login-title {
     margin-bottom: 13px;
   }
 }
+.rosa-registration .form__message {
+  margin-bottom: 20px;
+}
+.rosa-registration form {
+  margin: 0 auto;
+  margin-top: 56px;
+  width: calc(100% - 64px);
+  max-width: 380px;
+}
+@media ((min-width: 1200px)) {
+  .rosa-registration form {
+    margin-top: 38px;
+  }
+}
+.rosa-registration-field {
+  width: 100%;
+}
+.rosa-registration-field input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000;
+  padding-bottom: 12px;
+  font: normal normal 500 14px/16px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+}
+.rosa-registration-field input::placeholder {
+  font: normal normal 500 14px/16px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.rosa-registration-field label {
+  display: none;
+}
+.rosa-registration button {
+  width: 100%;
+  padding: 13px;
+  font: normal normal 600 14px/18px Montserrat !important;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  height: fit-content;
+  min-height: unset;
+}
+@media ((min-width: 1200px)) {
+  .rosa-registration button {
+    max-width: 290px;
+  }
+}
 

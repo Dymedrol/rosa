@@ -14,7 +14,7 @@
   }
 {%- endstyle -%}
 
-<div class="customer register section-{{ section.id }}-padding">
+<div class="customer register section-{{ section.id }}-padding rosa-registration">
   <svg style="display: none">
     <symbol id="icon-error" viewBox="0 0 13 13">
       <circle cx="6.5" cy="6.50049" r="5.5" stroke="white" stroke-width="2"/>
@@ -49,7 +49,7 @@
         {%- endfor -%}
       </ul>
     {%- endif -%}
-    <div class="field">
+    <div class="rosa-registration-field">
       <input
         type="text"
         name="customer[first_name]"
@@ -64,7 +64,7 @@
         {{ 'customer.register.first_name' | t }}
       </label>
     </div>
-    <div class="field">
+    <div class="rosa-registration-field">
       <input
         type="text"
         name="customer[last_name]"
@@ -79,7 +79,7 @@
         {{ 'customer.register.last_name' | t }}
       </label>
     </div>
-    <div class="field">
+    <div class="rosa-registration-field">
       <input
         type="email"
         name="customer[email]"
@@ -110,7 +110,7 @@
         {{ form.errors.messages.email }}.
       </span>
     {%- endif -%}
-    <div class="field">
+    <div class="rosa-registration-field">
       <input
         type="password"
         name="customer[password]"
