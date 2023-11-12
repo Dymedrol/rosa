@@ -14,8 +14,8 @@
   }
 {%- endstyle -%}
 
-<div class="customer login section-{{ section.id }}-padding">
-  <h1 id="recover" tabindex="-1">
+<div class="customer login section-{{ section.id }}-padding rosa-login">
+  <h1 id="recover" tabindex="-1" class="rosa-login-title">
     {{ 'customer.recover_password.title' | t }}
   </h1>
   <div>
@@ -25,7 +25,7 @@
 
     {%- form 'recover_customer_password' -%}
       {% assign recover_success = form.posted_successfully? %}
-      <div class="field">
+      <div class="rosa-login-field">
         <input
           type="email"
           value=""
@@ -67,7 +67,7 @@
     {%- endform -%}
   </div>
 
-  <h1 id="login" tabindex="-1">
+  <h1 id="login" tabindex="-1" class="rosa-login-title">
     {{ 'customer.login_page.title' | t }}
   </h1>
   <div>
@@ -96,7 +96,7 @@
         {{ form.errors | default_errors }}
       {%- endif -%}
 
-      <div class="field">
+      <div class="rosa-login-field">
         <input
           type="email"
           name="customer[email]"
@@ -108,6 +108,7 @@
             aria-invalid="true"
           {% endif %}
           placeholder="{{ 'customer.login_page.email' | t }}"
+          class="rosa-login-input1"
         >
         <label for="CustomerEmail">
           {{ 'customer.login_page.email' | t }}
@@ -115,7 +116,7 @@
       </div>
 
       {%- if form.password_needed -%}
-        <div class="field">
+        <div class="rosa-login-field">
           <input
             type="password"
             value=""
@@ -126,20 +127,23 @@
               aria-invalid="true"
             {% endif %}
             placeholder="{{ 'customer.login_page.password' | t }}"
+            class="rosa-login-input2"
           >
           <label for="CustomerPassword">
             {{ 'customer.login_page.password' | t }}
           </label>
         </div>
 
-        <a href="#recover">
+        <a href="#recover" class="rosa-login-recover">
           {{ 'customer.login_page.forgot_password' | t }}
         </a>
       {%- endif -%}
 
-      <button>
+      <button class="rosa-login">
         {{ 'customer.login_page.sign_in' | t }}
       </button>
+
+      <div class="rosa-login-text">{{ section.settings.text }}</div>
 
       <a href="{{ routes.account_register_url }}">
         {{ 'customer.login_page.create_account' | t }}
@@ -168,6 +172,12 @@
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "text",
+      "default": "Vous n’avez pas encore de compte ?"
     },
     {
       "type": "range",
