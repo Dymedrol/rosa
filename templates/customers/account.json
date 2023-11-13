@@ -1,10 +1,41 @@
 {
   "sections": {
+    "56bafc80-aa5d-49d3-8cea-0c92dced1773": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#000000",
+        "is_static": true
+      }
+    },
     "main": {
-      "type": "main-account"
+      "type": "main-account",
+      "settings": {
+        "menu-title-title": "MON COMPTE",
+        "menu-title": "INFORMATIONS PERSONNELLES",
+        "menu-adresses": "ADRESSES",
+        "menu-commandes": "COMMANDES",
+        "info-title": "MES INFORMATIONS PERSONNELLES",
+        "info-modify": "MODIFIER",
+        "info-nom": "NOM",
+        "info-prenom": "PRÉNOM",
+        "info-phone": "TÉLÉPHONE",
+        "info-adress": "ADRESSE",
+        "password_title": "INFORMATIONS DE CONNEXION",
+        "password_email": "ADRESSE EMAIL",
+        "password_passworf": "MOT DE PASSE",
+        "commandes-title": "HISTORIQUE DES COMMANDES",
+        "commandes-commande": "COMMANDE",
+        "commandes-date": "DATE",
+        "commandes-status": "STATUT DES COMMANDES",
+        "commandes-total": "TOTAL",
+        "back-text": "Retour à mon compte",
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
+    "56bafc80-aa5d-49d3-8cea-0c92dced1773",
     "main"
   ]
 }
