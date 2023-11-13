@@ -33,12 +33,14 @@
   <section class="rosa-cart container section-{{ section.id }}-padding">
       <h1 class="rosa-cart-title">VOTRE PANIER</h1>
 
-      <div class="cart__warnings">
-        <h1 class="cart__empty-text">{{ 'sections.cart.empty' | t }}</h1>
-        <a href="{{ routes.all_products_collection_url }}" class="button">
-          {{ 'general.continue_shopping' | t }}
-        </a>
-      </div>
+      {%- if cart == empty -%}
+        <div class="cart__warnings">
+          <h1 class="cart__empty-text">{{ 'sections.cart.empty' | t }}</h1>
+          <a href="{{ routes.all_products_collection_url }}" class="button">
+            {{ section.settings.back_link_text }}
+          </a>
+        </div>
+      {% endif %}
 
       <form action="{{ routes.cart_url }}" class="cart__contents critical-hidden" method="post" id="cart">
         <div id="main-cart-items" data-id="{{ section.id }}">
@@ -249,7 +251,7 @@
 
                 <div class="rosa-cart-bottom">
                     <div class="rosa-cart-bottom-total-wrapper">
-                        <div class="rosa-cart-bottom-total-text">SOUS-TOTAL</div>
+                        <div class="rosa-cart-bottom-total-text">{{ section.settings.sous_total_text }}</div>
                         <div class="rosa-cart-bottom-total-price">{{ cart.total_price | money }}</div>
                     </div>
 
@@ -265,6 +267,8 @@
                     >
                       PROCÉDER AU PAIEMENT
                     </button>
+
+                    <a href="{{ section.settings.back_url }}" class="rosa-cart-bottom-total-back">{{ section.settings.back_link_text }}</a>
                 </div>
             </div>
             {%- endif -%}
@@ -288,6 +292,23 @@
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "text",
+      "id": "sous_total_text",
+      "default": "sous total",
+      "label": "sous total text"
+    },
+    {
+      "type": "text",
+      "id": "back_link_text",
+      "default": "revenir dans la boutique",
+      "label": "revenir text"
+    },
+    {
+      "type": "url",
+      "id": "back_url",
+      "label": "all collection"
     },
     {
       "type": "range",

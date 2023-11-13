@@ -4188,6 +4188,17 @@ h1 {
   text-transform: uppercase;
   border-bottom: 1px solid #000;
 }
+.rosa-cart-bottom-total-back {
+  width: fit-content;
+  border: 0;
+  background: transparent;
+  font: normal normal 500 14px/18px Montserrat;
+  letter-spacing: 0.28px;
+  color: #000000;
+  text-transform: uppercase;
+  border-bottom: 1px solid #000;
+  margin-top: 47px;
+}
 .rosa-blocks-inner {
   display: flex;
   flex-wrap: wrap;

@@ -3,7 +3,6 @@
   display: block;
 }
 
-.cart__empty-text,
 .is-empty .cart__contents,
 cart-items.is-empty .title-wrapper-with-link,
 .is-empty .cart__footer {
@@ -16,7 +15,6 @@ cart-items.is-empty .title-wrapper-with-link,
 }
 
 .cart__warnings {
-  display: none;
   text-align: center;
   padding: 3rem 0 1rem;
 }
