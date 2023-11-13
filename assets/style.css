@@ -5512,7 +5512,7 @@ h1.rosa-login-title {
 }
 .rosa-account-info-header-link {
   position: relative;
-  font: normal normal medium 14px/18px Montserrat;
+  font: normal normal 500 14px/18px Montserrat;
   letter-spacing: 0.28px;
   color: #000000;
   text-transform: uppercase;
@@ -5572,7 +5572,7 @@ h1.rosa-login-title {
   align-items: center;
 }
 .rosa-account_mobile-menu-item span {
-  font: normal normal medium 14px/18px Montserrat;
+  font: normal normal 500 14px/18px Montserrat;
   letter-spacing: 0.28px;
   color: #000000;
   text-transform: uppercase;
@@ -5587,7 +5587,7 @@ h1.rosa-login-title {
 }
 .rosa-account_mobile-menu-logout {
   width: fit-content;
-  font: normal normal medium 14px/18px Montserrat;
+  font: normal normal 500 14px/18px Montserrat;
   letter-spacing: 0.28px;
   color: #000000;
   text-transform: uppercase;
@@ -5617,7 +5617,7 @@ h1.rosa-login-title {
 }
 .rosa-account_mobile-info-modifier {
   width: fit-content;
-  font: normal normal medium 14px/18px Montserrat;
+  font: normal normal 500 14px/18px Montserrat;
   letter-spacing: 0.28px;
   color: #000000;
   text-transform: uppercase;
