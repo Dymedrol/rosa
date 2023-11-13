@@ -1,0 +1,383 @@
+.rosa-account {
+}
+
+.rosa-account_mobile {
+    @media (@L) {
+        display: none;
+    }
+}
+
+.rosa-account_desktop {
+    display: none;
+
+    @media (@L) {
+        display: block;
+    }
+}
+
+.rosa-account-title {
+    font: normal normal normal 40px/45px Cormorant;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+.rosa-account_desktop-wrapper {
+    display: flex;
+}
+
+.rosa-account-side-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    border-right: 1px solid #000;
+    min-height: 405px;
+    width: 318px;
+    padding-top: 10px;
+}
+
+.rosa-account-side-menu-item {
+    width: fit-content;
+    font: normal normal 500 14px/18px Montserrat;
+    letter-spacing: 0.28px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.rosa-account-side-menu-item:last-child {
+    margin-top: auto;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+}
+
+.rosa-account-side-menu-item_active {
+    font: normal normal bold 14px/18px Montserrat;
+    letter-spacing: 0.28px;
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.rosa-account-main {
+    flex-grow: 1;
+}
+
+.rosa-account-main-inner {
+    padding-top: 10px;
+}
+
+.rosa-account-main-inner-info {
+    display: none;
+}
+
+.rosa-account-main-inner-commandes {
+    display: none;
+}
+
+.rosa-account-info {
+    border-bottom: 1px solid #000;
+    padding-left: 70px;
+    padding-bottom: 38px;
+}
+
+.rosa-account-info-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 47px;
+}
+
+.rosa-account-info-header-title {
+    font: normal normal bold 16px/11px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.rosa-account-info-header-link {
+    position: relative;
+    font: normal normal medium 14px/18px Montserrat;
+    letter-spacing: 0.28px;
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.rosa-account-info-content {
+}
+
+.rosa-account-info-item {
+    display: flex;
+    margin-bottom: 13px;
+}
+
+.rosa-account-info-item-label {
+    width: 175px;
+    font: normal normal 600 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.rosa-account-info-item-text {
+    width: 133px;
+    font: normal normal normal 15px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.rosa-account-password {
+    padding-top: 41px;
+    padding-left: 70px;
+    padding-bottom: 38px;
+}
+
+.rosa-account_mobile-wrapper {
+
+}
+
+.rosa-account_mobile-title {
+    font: normal normal normal 35px/40px Cormorant;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+
+    margin-bottom: 65px;
+}
+
+.rosa-account_mobile-title2 {
+    max-width: 242px;
+    font: normal normal bold 20px/25px Montserrat;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.rosa-account_mobile-title3 {
+    max-width: unset;
+    font: normal normal bold 20px/25px Montserrat;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.rosa-account_mobile-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.rosa-account_mobile-menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & span {
+        font: normal normal medium 14px/18px Montserrat;
+        letter-spacing: 0.28px;
+        color: #000000;
+        text-transform: uppercase;
+    }
+}
+
+.rosa-account_mobile-menu-bar {
+    display: block !important;
+    height: 1px;
+    width: 100%;
+    background-color: #000;
+    margin-top: 84px;
+    margin-bottom: 76px;
+}
+
+.rosa-account_mobile-menu-logout {
+    width: fit-content;
+    font: normal normal medium 14px/18px Montserrat;
+    letter-spacing: 0.28px;
+    color: #000000;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+}
+
+.rosa-account_mobile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-bottom: 32px;
+}
+
+.rosa-account_mobile-info-item {
+    display: flex;
+    align-items: baseline;
+}
+
+.rosa-account_mobile-info-item-label {
+    width: 175px;
+    font: normal normal 600 14px/18px Montserrat;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.rosa-account_mobile-info-item-text {
+    font: normal normal normal 15px/20px Montserrat;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.rosa-account_mobile-info-modifier {
+    width: fit-content;
+    font: normal normal medium 14px/18px Montserrat;
+    letter-spacing: 0.28px;
+    color: #000000;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 37px;
+}
+
+.rosa-account_mobile-info-bar {
+    display: block !important;
+    height: 1px;
+    width: 100%;
+    background-color: #000;
+    margin-top: 37px;
+    margin-bottom: 37px;
+}
+
+.rosa-account-commandes {
+    padding-bottom: 38px;
+}
+
+.rosa-account-info-header_commandes {
+    padding-left: 70px;
+}
+
+.rosa-account-commandes-legend {
+    display: flex;
+    padding-left: 70px;
+}
+
+.rosa-account-commandes-legend-item {
+    font: normal normal normal 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.rosa-account-commandes-legend-commande {
+    width: 162px;
+}
+
+.rosa-account-commandes-legend-date {
+    width: 162px;
+}
+
+.rosa-account-commandes-legend-status {
+    width: 245px;
+}
+
+.rosa-account-commandes-legend-total {
+}
+
+.rosa-account-commandes-el {
+    display: flex;
+    padding-left: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid #000;
+}
+
+.rosa-account-commandes-el-item {
+    font: normal normal 600 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #2E2E2E;
+}
+
+.rosa-account-commandes-el-commande {
+    width: 162px;
+}
+
+.rosa-account-commandes-el-date {
+    width: 162px;
+}
+
+.rosa-account-commandes-el-status {
+    width: 245px;
+}
+
+.rosa-account-commandes-el-item-empty {
+    font: normal normal bold 16px/11px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    padding-left: 70px;
+    margin-top: 50px;
+}
+
+.rosa-account-commandes-el-item-empty_mobile {
+    font: normal normal bold 16px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.rosa-account_mobile-commandes-item {
+    border-top: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 32px 0 29px;
+}
+
+.rosa-account_mobile-commandes-item:first-of-type {
+    border-top: none;
+}
+
+.rosa-account_mobile-commandes-item-el {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.rosa-account_mobile-commandes-item-el-label {
+    font: normal normal normal 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.rosa-account_mobile-commandes-item-el-text {
+    font: normal normal 600 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #2E2E2E;
+}
+
+.rosa-account_mobile-back {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 40px;
+
+    & span {
+        font: normal normal normal 14px/18px Montserrat;
+        color: #000;
+    }
+
+    & svg {
+        transform: rotate(90deg);
+    }
+}
+
+.rosa-account_mobile-main {
+    display: none;
+}
+
+.rosa-account_mobile-info {
+    display: none;
+}
+
+.rosa-account_mobile-commandes {
+    display: none;
+}

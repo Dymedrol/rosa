@@ -1,5 +1,3 @@
-{{ 'customer.css' | asset_url | stylesheet_tag }}
-
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -14,138 +12,188 @@
   }
 {%- endstyle -%}
 
-<div class="customer account section-{{ section.id }}-padding">
-  <div>
-    <h1 class="customer__title">{{ 'customer.account.title' | t }}</h1>
-    <a href="{{ routes.account_logout_url }}">
-      <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" fill="none" viewBox="0 0 18 19">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M6 4.5a3 3 0 116 0 3 3 0 01-6 0zm3-4a4 4 0 100 8 4 4 0 000-8zm5.58 12.15c1.12.82 1.83 2.24 1.91 4.85H1.51c.08-2.6.79-4.03 1.9-4.85C4.66 11.75 6.5 11.5 9 11.5s4.35.26 5.58 1.15zM9 10.5c-2.5 0-4.65.24-6.17 1.35C1.27 12.98.5 14.93.5 18v.5h17V18c0-3.07-.77-5.02-2.33-6.15-1.52-1.1-3.67-1.35-6.17-1.35z" fill="currentColor">
-      </svg>
-      {{ 'customer.log_out' | t }}
-    </a>
-  </div>
+<div class="rosa-account container section-{{ section.id }}-padding">
+  <div class="rosa-account_mobile">
 
-  <div>
-    <div>
-      <h2>{{ 'customer.orders.title' | t }}</h2>
+    <div class="rosa-account_mobile-wrapper rosa-account_mobile-main">
+      <div class="rosa-account_mobile-title">{{ section.settings.menu-title-title }}</div>
+      <div class="rosa-account_mobile-menu">
+        <a href="{{ routes.account_url }}?page=info" class="rosa-account_mobile-menu-item">
+          <span>{{ section.settings.menu-title }}</span>
 
-      {% paginate customer.orders by 20 %}
-        {%- if customer.orders.size > 0 -%}
-          <table role="table" class="order-history">
-            <caption class="visually-hidden">
-              {{ 'customer.orders.title' | t }}
-            </caption>
-            <thead role="rowgroup">
-              <tr role="row">
-                <th id="ColumnOrder" scope="col" role="columnheader">{{ 'customer.orders.order_number' | t }}</th>
-                <th id="ColumnDate" scope="col" role="columnheader">{{ 'customer.orders.date' | t }}</th>
-                <th id="ColumnPayment" scope="col" role="columnheader">{{ 'customer.orders.payment_status' | t }}</th>
-                <th id="ColumnFulfillment" scope="col" role="columnheader">
-                  {{ 'customer.orders.fulfillment_status' | t }}
-                </th>
-                <th id="ColumnTotal" scope="col" role="columnheader">{{ 'customer.orders.total' | t }}</th>
-              </tr>
-            </thead>
-            <tbody role="rowgroup">
-              {%- for order in customer.orders -%}
-                <tr role="row">
-                  <td
-                    id="RowOrder"
-                    role="cell"
-                    headers="ColumnOrder"
-                    data-label="{{ 'customer.orders.order_number' | t }}"
-                  >
-                    <a
-                      href="{{ order.customer_url }}"
-                      aria-label="{{ 'customer.orders.order_number_link' | t: number: order.name }}"
-                    >
-                      {{ order.name }}
-                    </a>
-                  </td>
-                  <td headers="RowOrder ColumnDate" role="cell" data-label="{{ 'customer.orders.date' | t }}">
-                    {{ order.created_at | time_tag: format: 'date' }}
-                  </td>
-                  <td
-                    headers="RowOrder ColumnPayment"
-                    role="cell"
-                    data-label="{{ 'customer.orders.payment_status' | t }}"
-                  >
-                    {{ order.financial_status_label }}
-                  </td>
-                  <td
-                    headers="RowOrder ColumnFulfillment"
-                    role="cell"
-                    data-label="{{ 'customer.orders.fulfillment_status' | t }}"
-                  >
-                    {{ order.fulfillment_status_label }}
-                  </td>
-                  <td headers="RowOrder ColumnTotal" role="cell" data-label="{{ 'customer.orders.total' | t }}">
-                    {{ order.total_net_amount | money_with_currency }}
-                  </td>
-                </tr>
-              {%- endfor -%}
-            </tbody>
-          </table>
-        {%- else -%}
-          <p>{{ 'customer.orders.none' | t }}</p>
-        {%- endif -%}
+          <svg xmlns="http://www.w3.org/2000/svg" width="6.247" height="10.926" viewBox="0 0 6.247 10.926">
+            <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M11.653,15.61l4.131-4.135a.778.778,0,0,1,1.1,0,.787.787,0,0,1,0,1.106l-4.681,4.684a.779.779,0,0,1-1.077.023l-4.714-4.7a.781.781,0,0,1,1.1-1.106Z" transform="translate(-11.246 17.114) rotate(-90)"/>
+          </svg>
+        </a>
+        <a href="{{ routes.account_addresses_url }}" class="rosa-account_mobile-menu-item">
+          <span>{{ section.settings.menu-adresses }}</span>
 
-        {%- if paginate.pages > 1 -%}
-          {%- if paginate.parts.size > 0 -%}
-            <nav class="pagination" role="navigation" aria-label="{{ 'general.pagination.label' | t }}">
-              <ul role="list">
-                {%- if paginate.previous -%}
-                  <li>
-                    <a href="{{ paginate.previous.url }}" aria-label="{{ 'general.pagination.previous' | t }}">
-                      <svg aria-hidden="true" focusable="false" viewBox="0 0 10 6">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
-                      </svg>
-                    </a>
-                  </li>
-                {%- endif -%}
+          <svg xmlns="http://www.w3.org/2000/svg" width="6.247" height="10.926" viewBox="0 0 6.247 10.926">
+            <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M11.653,15.61l4.131-4.135a.778.778,0,0,1,1.1,0,.787.787,0,0,1,0,1.106l-4.681,4.684a.779.779,0,0,1-1.077.023l-4.714-4.7a.781.781,0,0,1,1.1-1.106Z" transform="translate(-11.246 17.114) rotate(-90)"/>
+          </svg>
+        </a>
+        <a href="{{ routes.account_url }}?page=commandes" class="rosa-account_mobile-menu-item">
+          <span>{{ section.settings.menu-commandes }}</span>
 
-                {%- for part in paginate.parts -%}
-                  <li>
-                    {%- if part.is_link -%}
-                      <a href="{{ part.url }}" aria-label="{{ 'general.pagination.page' | t: number: part.title }}">
-                        {{- part.title -}}
-                      </a>
-                    {%- else -%}
-                      {%- if part.title == paginate.current_page -%}
-                        <span aria-current="page" aria-label="{{ 'general.pagination.page' | t: number: part.title }}">
-                          {{- part.title -}}
-                        </span>
-                      {%- else -%}
-                        <span>{{ part.title }}</span>
-                      {%- endif -%}
-                    {%- endif -%}
-                  </li>
-                {%- endfor -%}
-
-                {%- if paginate.next -%}
-                  <li>
-                    <a href="{{ paginate.next.url }}" aria-label="{{ 'general.pagination.next' | t }}">
-                      <svg aria-hidden="true" focusable="false" viewBox="0 0 10 6">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
-                      </svg>
-                    </a>
-                  </li>
-                {%- endif -%}
-              </ul>
-            </nav>
-          {%- endif -%}
-        {%- endif -%}
-      {% endpaginate %}
+          <svg xmlns="http://www.w3.org/2000/svg" width="6.247" height="10.926" viewBox="0 0 6.247 10.926">
+            <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M11.653,15.61l4.131-4.135a.778.778,0,0,1,1.1,0,.787.787,0,0,1,0,1.106l-4.681,4.684a.779.779,0,0,1-1.077.023l-4.714-4.7a.781.781,0,0,1,1.1-1.106Z" transform="translate(-11.246 17.114) rotate(-90)"/>
+          </svg>
+        </a>
+        <div class="rosa-account_mobile-menu-bar"></div>
+        <a href="{ routes.account_logout_url }}" class="rosa-account_mobile-menu-logout">{{ 'customer.log_out' | t }}</a>
+      </div>
     </div>
-
-    <div>
-      <h2>{{ 'customer.account.details' | t }}</h2>
-
-      {{ customer.default_address | format_address }}
-
-      <a href="{{ routes.account_addresses_url }}">
-        {{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})
+    <div class="rosa-account_mobile-wrapper rosa-account_mobile-info">
+      <a href="{{ routes.account_url }}" class="rosa-account_mobile-back">
+        <svg xmlns="http://www.w3.org/2000/svg" width="10.926" height="6.247" viewBox="0 0 10.926 6.247">
+          <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M11.653,15.61l4.131-4.135a.778.778,0,0,1,1.1,0,.787.787,0,0,1,0,1.106l-4.681,4.684a.779.779,0,0,1-1.077.023l-4.714-4.7a.781.781,0,0,1,1.1-1.106Z" transform="translate(-6.188 -11.246)"/>
+        </svg>
+        <span>{{ section.settings.back-text }}</span>
       </a>
+      <div class="rosa-account_mobile-title2">{{ section.settings.info-title }}</div>
+      <div class="rosa-account_mobile-info">
+        <div class="rosa-account_mobile-info-item">
+          <div class="rosa-account_mobile-info-item-label">{{ section.settings.info-nom }}</div>
+          <div class="rosa-account_mobile-info-item-text">{{ customer.first_name }}</div>
+        </div>
+        <div class="rosa-account_mobile-info-item">
+          <div class="rosa-account_mobile-info-item-label">{{ section.settings.info-prenom }}</div>
+          <div class="rosa-account_mobile-info-item-text">{{ customer.last_name }}</div>
+        </div>
+        <div class="rosa-account_mobile-info-item">
+          <div class="rosa-account_mobile-info-item-label">{{ section.settings.info-phone }}</div>
+          <div class="rosa-account_mobile-info-item-text">{{ customer.default_address.phone }}</div>
+        </div>
+        <div class="rosa-account_mobile-info-item">
+          <div class="rosa-account_mobile-info-item-label">{{ section.settings.info-adress }}</div>
+          <div class="rosa-account_mobile-info-item-text">{{ customer.default_address.address1 }}<br>{{ customer.default_address.address2 }}</div>
+        </div>
+      </div>
+      <a href="{ routes.account_addresses_url }}" class="rosa-account_mobile-info-modifier">{{ section.settings.info-modify}}</a>
+      <div class="rosa-account_mobile-info-bar"></div>
+      <div class="rosa-account_mobile-title2">{{ section.settings.password_title }}</div>
+      <div class="rosa-account_mobile-info-item">
+        <div class="rosa-account_mobile-info-item-label">{{ section.settings.password_email }}</div>
+        <div class="rosa-account_mobile-info-item-text">{{ customer.email }}</div>
+      </div>
+      <div class="rosa-account_mobile-info-item">
+        <div class="rosa-account_mobile-info-item-label">{{ section.settings.password_passworf }}</div>
+        <div class="rosa-account_mobile-info-item-text">*********</div>
+      </div>
+    </div>
+    <div class="rosa-account_mobile-wrapper rosa-account_mobile-commandes">
+      <a href="{{ routes.account_url }}" class="rosa-account_mobile-back">
+        <svg xmlns="http://www.w3.org/2000/svg" width="10.926" height="6.247" viewBox="0 0 10.926 6.247">
+          <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M11.653,15.61l4.131-4.135a.778.778,0,0,1,1.1,0,.787.787,0,0,1,0,1.106l-4.681,4.684a.779.779,0,0,1-1.077.023l-4.714-4.7a.781.781,0,0,1,1.1-1.106Z" transform="translate(-6.188 -11.246)"/>
+        </svg>
+        <span>{{ section.settings.back-text }}</span>
+      </a>
+      <div class="rosa-account_mobile-title3">{{ section.settings.commandes-title }}</div>
+      {%- if customer.orders.size > 0 -%}
+        {%- for order in customer.orders -%}
+          <div class="rosa-account_mobile-commandes-item">
+            <div class="rosa-account_mobile-commandes-item-el">
+              <div class="rosa-account_mobile-commandes-item-el-label">{{ section.settings.commandes-commande}}</div>
+              <div class="rosa-account_mobile-commandes-item-el-text">{{ 'customer.orders.name' | t }}</div>
+            </div>
+            <div class="rosa-account_mobile-commandes-item-el">
+              <div class="rosa-account_mobile-commandes-item-el-label">{{ section.settings.commandes-date }}</div>
+              <div class="rosa-account_mobile-commandes-item-el-text">{{ 'customer.orders.name' | t }}</div>
+            </div>
+            <div class="rosa-account_mobile-commandes-item-el">
+              <div class="rosa-account_mobile-commandes-item-el-label">{{ section.settings.commandes-status}}</div>
+              <div class="rosa-account_mobile-commandes-item-el-text">{{ order.financial_status_label }}</div>
+            </div>
+            <div class="rosa-account_mobile-commandes-item-el">
+              <div class="rosa-account_mobile-commandes-item-el-label">{{ section.settings.commandes-total}}</div>
+              <div class="rosa-account_mobile-commandes-item-el-text">{{ order.total_net_amount | money_with_currency }}</div>
+            </div>
+          </div>
+        {% endfor %}
+      {% else %}
+        <p class="rosa-account-commandes-el-item-empty_mobile">{{ 'customer.orders.none' | t }}</p>
+      {% endif %}
+    </div>
+  </div>
+  <div class="rosa-account_desktop">
+    <div class="rosa-account-title">{{ section.settings.menu-title-title }}</div>
+    <div class="rosa-account_desktop-wrapper">
+      <div class="rosa-account-side-menu">
+        <a href="{{ routes.account_url }}?page=info" class="rosa-account-side-menu-item js-info">{{ section.settings.menu-title }}</a>
+        <a href="{{ routes.account_addresses_url }}" class="rosa-account-side-menu-item">{{ section.settings.menu-adresses }}</a>
+        <a href="{{ routes.account_url }}?page=commandes" class="rosa-account-side-menu-item js-commandes">{{ section.settings.menu-commandes }}</a>
+        <a href="{{ routes.account_logout_url }}" class="rosa-account-side-menu-item">{{ 'customer.log_out' | t }}</a>
+      </div>
+      <div class="rosa-account-main">
+        <div class="rosa-account-main-inner rosa-account-main-inner-info">
+          <div class="rosa-account-info">
+            <div class="rosa-account-info-header">
+              <div class="rosa-account-info-header-title">{{ section.settings.info-title }}</div>
+              <a href="{{ routes.account_addresses_url }}" class="rosa-account-info-header-link">{{ section.settings.info-modify }}</a>
+            </div>
+            <div class="rosa-account-info-content">
+              <div class="rosa-account-info-item">
+                <div class="rosa-account-info-item-label">{{ section.settings.info-nom }}</div>
+                <div class="rosa-account-info-item-text">{{ customer.first_name }}</div>
+              </div>
+              <div class="rosa-account-info-item">
+                <div class="rosa-account-info-item-label">{{ section.settings.info-prenom }}</div>
+                <div class="rosa-account-info-item-text">{{ customer.last_name }}</div>
+              </div>
+              <div class="rosa-account-info-item">
+                <div class="rosa-account-info-item-label">{{ section.settings.info-phone }}</div>
+                <div class="rosa-account-info-item-text">{{ customer.default_address.phone }}</div>
+              </div>
+              <div class="rosa-account-info-item">
+                <div class="rosa-account-info-item-label">{{ section.settings.info-adress }}</div>
+                <div class="rosa-account-info-item-text">{{ customer.default_address.address1 }}<br>{{ customer.default_address.address2 }}</div>
+              </div>
+            </div>
+          </div>
+          <div class="rosa-account-password">
+            <div class="rosa-account-info-header">
+              <div class="rosa-account-info-header-title">{{ section.settings.password_title }}</div>
+            </div>
+            <div class="rosa-account-info-content">
+              <div class="rosa-account-info-item">
+                <div class="rosa-account-info-item-label">{{ section.settings.password_email }}</div>
+                <div class="rosa-account-info-item-text">{{ customer.email }}</div>
+              </div>
+              <div class="rosa-account-info-item">
+                <div class="rosa-account-info-item-label">{{ section.settings.password_passworf }}</div>
+                <div class="rosa-account-info-item-text">***********</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rosa-account-main-inner rosa-account-main-inner-commandes">
+          <div class="rosa-account-commandes">
+            <div class="rosa-account-info-header rosa-account-info-header_commandes">
+              <div class="rosa-account-info-header-title">{{ section.settings.commandes-title }}</div>
+            </div>
+            <div class="rosa-account-commandes-legend">
+              <div class="rosa-account-commandes-legend-item rosa-account-commandes-legend-commande">{{ section.settings.commandes-commande}}</div>
+              <div class="rosa-account-commandes-legend-item rosa-account-commandes-legend-date">{{ section.settings.commandes-date}}</div>
+              <div class="rosa-account-commandes-legend-item rosa-account-commandes-legend-status">{{ section.settings.commandes-status}}</div>
+              <div class="rosa-account-commandes-legend-item rosa-account-commandes-legend-total">{{ section.settings.commandes-total}}</div>
+            </div>
+
+            {%- if customer.orders.size > 0 -%}
+              {%- for order in customer.orders -%}
+                <div class="rosa-account-commandes-el">
+                  <div class="rosa-account-commandes-el-item rosa-account-commandes-el-commande">{{ 'customer.orders.name' | t }}</div>
+                  <div class="rosa-account-commandes-el-item rosa-account-commandes-el-date">{{ order.created_at | time_tag: format: 'date' }}</div>
+                  <div class="rosa-account-commandes-el-item rosa-account-commandes-el-status">{{ order.financial_status_label }}</div>
+                  <div class="rosa-account-commandes-el-item rosa-account-commandes-el-total">{{ order.total_net_amount | money_with_currency }}</div>
+                </div>
+              {% endfor %}
+            {% else %}
+              <p class="rosa-account-commandes-el-item-empty">{{ 'customer.orders.none' | t }}</p>
+            {% endif %}
+
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -157,6 +205,120 @@
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "text",
+      "id": "menu-title-title",
+      "label": "MON COMPTE text",
+      "default": "MON COMPTE"
+    },
+    {
+      "type": "text",
+      "id": "menu-title",
+      "label": "INFORMATIONS PERSONNELLES text",
+      "default": "INFORMATIONS PERSONNELLES"
+    },
+    {
+      "type": "text",
+      "id": "menu-adresses",
+      "label": "ADRESSES text",
+      "default": "ADRESSES"
+    },
+    {
+      "type": "text",
+      "id": "menu-commandes",
+      "label": "COMMANDES text",
+      "default": "COMMANDES"
+    },
+    {
+      "type": "text",
+      "id": "info-title",
+      "label": "MES INFORMATIONS PERSONNELLES text",
+      "default": "MES INFORMATIONS PERSONNELLES"
+    },
+    {
+      "type": "text",
+      "id": "info-modify",
+      "label": "MODIFIER text",
+      "default": "MODIFIER"
+    },
+    {
+      "type": "text",
+      "id": "info-nom",
+      "label": "NON text",
+      "default": "NOM"
+    },
+    {
+      "type": "text",
+      "id": "info-prenom",
+      "label": "prenom text",
+      "default": "PRÉNOM"
+    },
+    {
+      "type": "text",
+      "id": "info-phone",
+      "label": " TÉLÉPHONE text",
+      "default": "TÉLÉPHONE"
+    },
+    {
+      "type": "text",
+      "id": "info-adress",
+      "label": " ADRESSE text",
+      "default": "ADRESSE"
+    },
+    {
+      "type": "text",
+      "id": "password_title",
+      "label": " INFORMATIONS DE CONNEXION text",
+      "default": "INFORMATIONS DE CONNEXION"
+    },
+    {
+      "type": "text",
+      "id": "password_email",
+      "label": "ADRESSE EMAIL text",
+      "default": "ADRESSE EMAIL"
+    },
+    {
+      "type": "text",
+      "id": "password_passworf",
+      "label": "MOT DE PASSE text",
+      "default": "MOT DE PASSE"
+    },
+    {
+      "type": "text",
+      "id": "commandes-title",
+      "label": "HISTORIQUE DES COMMANDES text",
+      "default": "HISTORIQUE DES COMMANDES"
+    },
+    {
+      "type": "text",
+      "id": "commandes-commande",
+      "label": "COMMANDE text",
+      "default": "COMMANDE"
+    },
+    {
+      "type": "text",
+      "id": "commandes-date",
+      "label": "DATE text",
+      "default": "DATE"
+    },
+    {
+      "type": "text",
+      "id": "commandes-status",
+      "label": "STATUT DES COMMANDES text",
+      "default": "STATUT DES COMMANDES"
+    },
+    {
+      "type": "text",
+      "id": "commandes-total",
+      "label": "TOTAL text",
+      "default": "TOTAL"
+    },
+    {
+      "type": "text",
+      "id": "back-text",
+      "label": "Retour à mon compte text",
+      "default": "Retour à mon compte"
     },
     {
       "type": "range",
