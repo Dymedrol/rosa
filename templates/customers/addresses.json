@@ -1,10 +1,22 @@
 {
   "sections": {
+    "d0ecbef4-9569-4467-9c30-6520aab5a2a3": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#000000",
+        "is_static": true
+      }
+    },
     "main": {
-      "type": "main-addresses"
+      "type": "main-addresses",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
+    "d0ecbef4-9569-4467-9c30-6520aab5a2a3",
     "main"
   ]
 }
