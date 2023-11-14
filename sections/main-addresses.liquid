@@ -44,7 +44,7 @@
           </svg>
         </a>
         <div class="rosa-account_mobile-menu-bar"></div>
-        <a href="{{ routes.account_logout_url }}" class="rosa-account_mobile-menu-logout">{{ 'customer.log_out' | t }}</a>
+        <a href="{{ routes.account_logout_url }}" class="rosa-account_mobile-menu-logout">{{ section.settings.menu-deconnexion }}</a>
       </div>
     </div>
   </div>
@@ -56,7 +56,7 @@
         <a href="{{ routes.account_url }}?page=info" class="rosa-account-side-menu-item">{{ section.settings.menu-title }}</a>
         <a href="{{ routes.account_addresses_url }}" class="rosa-account-side-menu-item rosa-account-side-menu-item_active">{{ section.settings.menu-adresses }}</a>
         <a href="{{ routes.account_url }}?page=commandes" class="rosa-account-side-menu-item">{{ section.settings.menu-commandes }}</a>
-        <a href="{{ routes.account_logout_url }}" class="rosa-account-side-menu-item">{{ 'customer.log_out' | t }}</a>
+        <a href="{{ routes.account_logout_url }}" class="rosa-account-side-menu-item">{{ section.settings.menu-deconnexion }}</a>
       </div>
       <div class="rosa-account-main">
         <div class="rosa-account-main-inner">
@@ -225,6 +225,8 @@
                       </div>
                     {%- endif -%}
                     <div class="rosa-account-deafult-adress-adress">{{ address | format_address }}</div>
+
+                    <div class="rosa-account-deafult-adress-dummy"></div>
 
                     <button
                       type="button"
@@ -470,7 +472,12 @@
       "label": "COMMANDES text",
       "default": "COMMANDES"
     },
-
+    {
+      "type": "text",
+      "id": "menu-deconnexion",
+      "label": "SE DÉCONNECTER text",
+      "default": "SE DÉCONNECTER"
+    },
     {
       "type": "text",
       "id": "modify",

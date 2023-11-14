@@ -5870,6 +5870,11 @@ h1.rosa-login-title {
   color: #000000;
   text-align: left;
 }
+.rosa-account-deafult-adress-dummy {
+  display: block !important;
+  width: 1px;
+  height: 60px;
+}
 .rosa-account-deafult-adress-buttons-button1 {
   position: absolute !important;
   top: 41px;
