@@ -554,3 +554,99 @@
 //     padding-left: 70px;
 //     padding-top: 40px;
 // }
+
+.rosa-account-field {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.rosa-account-field label {
+    display: none;
+}
+
+.rosa-account-field input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    padding-bottom: 12px;
+
+    font: normal normal 500 14px/16px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+
+    &::placeholder {
+        font: normal normal 500 14px/16px Montserrat;
+        letter-spacing: 0px;
+        color: #000000;
+        text-transform: uppercase;
+    }
+}
+
+.rosa-account-field-title {
+    font: 500 14px/16px Montserrat !important;
+    letter-spacing: 0px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.rosa-account-field select {
+    border: none !important;
+    border-bottom: 1px solid #000 !important;
+    font: normal normal 500 14px/16px Montserrat !important;
+    letter-spacing: 0px !important;
+    color: #000000 !important;
+    text-transform: uppercase !important;
+    min-height: unset !important;
+    padding: 0 !important;
+    outline: 0 !important;
+    height: auto !important;
+    padding-bottom: 12px !important;
+}
+
+.rosa-account-field .select:after {
+    display: none !important;
+}
+
+.rosa-account-field svg {
+    top: 6px !important;
+    right: 0 !important;
+}
+
+.rosa-account-button1 {
+    min-height: unset;
+    width: 100%;
+    padding: 13px !important;
+    font: normal normal 600 14px/18px Montserrat !important;
+    letter-spacing: 0px !important;
+    color: #FFFFFF !important;
+    height: fit-content !important;
+    min-height: unset !important;
+
+    @media (@L) {
+        max-width: 290px;
+    }
+}
+
+.rosa-account-button2 {
+    width: 100%;
+    padding: 13px !important;
+    font: normal normal 600 14px/18px Montserrat !important;
+    letter-spacing: 0px !important;
+    height: fit-content !important;
+    min-height: unset !important;
+
+    @media (@L) {
+        max-width: 290px;
+    }
+}
+
+.rosa-account-checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    & input {
+        margin: 0 !important;
+    }
+}

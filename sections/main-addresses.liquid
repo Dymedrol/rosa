@@ -82,7 +82,7 @@
                 <div id="AddAddress" class="rosa-account-adresses-header-form">
                   <h2 id="AddressNewHeading" class="rosa-account-adresses-header-form-heading">{{ 'customer.addresses.add_new' | t }}</h2>
                   {%- form 'customer_address', customer.new_address, aria-labelledBy: 'AddressNewHeading' -%}
-                    <div class="field">
+                    <div class="rosa-account-field">
                       <input
                         type="text"
                         id="AddressFirstNameNew"
@@ -93,7 +93,7 @@
                       >
                       <label for="AddressFirstNameNew">{{ 'customer.addresses.first_name' | t }}</label>
                     </div>
-                    <div class="field">
+                    <div class="rosa-account-field">
                       <input
                         type="text"
                         id="AddressLastNameNew"
@@ -104,7 +104,7 @@
                       >
                       <label for="AddressLastNameNew">{{ 'customer.addresses.last_name' | t }}</label>
                     </div>
-                    <div class="field">
+                    <div class="rosa-account-field">
                       <input
                         type="text"
                         id="AddressCompanyNew"
@@ -115,7 +115,7 @@
                       >
                       <label for="AddressCompanyNew">{{ 'customer.addresses.company' | t }}</label>
                     </div>
-                    <div class="field">
+                    <div class="rosa-account-field">
                       <input
                         type="text"
                         id="AddressAddress1New"
@@ -126,7 +126,7 @@
                       >
                       <label for="AddressAddress1New">{{ 'customer.addresses.address1' | t }}</label>
                     </div>
-                    <div class="field">
+                    <div class="rosa-account-field">
                       <input
                         type="text"
                         id="AddressAddress2New"
@@ -137,7 +137,7 @@
                       >
                       <label for="AddressAddress2New">{{ 'customer.addresses.address2' | t }}</label>
                     </div>
-                    <div class="field">
+                    <div class="rosa-account-field">
                       <input
                         type="text"
                         id="AddressCityNew"
@@ -148,8 +148,8 @@
                       >
                       <label for="AddressCityNew">{{ 'customer.addresses.city' | t }}</label>
                     </div>
-                    <div>
-                      <label for="AddressCountryNew">{{ 'customer.addresses.country' | t }}</label>
+                    <div class="rosa-account-field">
+                      <label class="rosa-account-field-title" for="AddressCountryNew">{{ 'customer.addresses.country' | t }}</label>
                       <div class="select">
                         <select
                           id="AddressCountryNew"
@@ -178,7 +178,7 @@
                         </svg>
                       </div>
                     </div>
-                    <div class="field">
+                    <div class="rosa-account-field">
                       <input
                         type="text"
                         id="AddressZipNew"
@@ -190,7 +190,7 @@
                       >
                       <label for="AddressZipNew">{{ 'customer.addresses.zip' | t }}</label>
                     </div>
-                    <div class="field">
+                    <div class="rosa-account-field">
                       <input
                         type="tel"
                         id="AddressPhoneNew"
@@ -201,13 +201,13 @@
                       >
                       <label for="AddressPhoneNew">{{ 'customer.addresses.phone' | t }}</label>
                     </div>
-                    <div>
+                    <div class="rosa-account-checkbox-wrapper">
                       {{ form.set_as_default_checkbox }}
                       <label for="address_default_address_new">{{ 'customer.addresses.set_default' | t }}</label>
                     </div>
                     <div>
-                      <button>{{ 'customer.addresses.add' | t }}</button>
-                      <button type="reset">{{ 'customer.addresses.cancel' | t }}</button>
+                      <button class="rosa-account-button1">{{ 'customer.addresses.add' | t }}</button>
+                      <button class="rosa-account-button2" type="reset">{{ 'customer.addresses.cancel' | t }}</button>
                     </div>
                   {%- endform -%}
                 </div>
@@ -248,10 +248,10 @@
                     >
                       {{ 'customer.addresses.delete' | t }}
                     </button>
-                    <div id="EditAddress_{{ address.id }}">
-                      <h2>{{ 'customer.addresses.edit_address' | t }}</h2>
+                    <div id="EditAddress_{{ address.id }}" style="margin-top: 30px">
+                      <h2 class="rosa-account-adresses-header-form-heading">{{ 'customer.addresses.edit_address' | t }}</h2>
                       {%- form 'customer_address', address -%}
-                        <div class="field">
+                        <div class="rosa-account-field">
                           <input
                             type="text"
                             id="AddressFirstName_{{ form.id }}"
@@ -262,7 +262,7 @@
                           >
                           <label for="AddressFirstName_{{ form.id }}">{{ 'customer.addresses.first_name' | t }}</label>
                         </div>
-                        <div class="field">
+                        <div class="rosa-account-field">
                           <input
                             type="text"
                             id="AddressLastName_{{ form.id }}"
@@ -273,7 +273,7 @@
                           >
                           <label for="AddressLastName_{{ form.id }}">{{ 'customer.addresses.last_name' | t }}</label>
                         </div>
-                        <div class="field">
+                        <div class="rosa-account-field">
                           <input
                             type="text"
                             id="AddressCompany_{{ form.id }}"
@@ -284,7 +284,7 @@
                           >
                           <label for="AddressCompany_{{ form.id }}">{{ 'customer.addresses.company' | t }}</label>
                         </div>
-                        <div class="field">
+                        <div class="rosa-account-field">
                           <input
                             type="text"
                             id="AddressAddress1_{{ form.id }}"
@@ -295,7 +295,7 @@
                           >
                           <label for="AddressAddress1_{{ form.id }}">{{ 'customer.addresses.address1' | t }}</label>
                         </div>
-                        <div class="field">
+                        <div class="rosa-account-field">
                           <input
                             type="text"
                             id="AddressAddress2_{{ form.id }}"
@@ -306,7 +306,7 @@
                           >
                           <label for="AddressAddress2_{{ form.id }}">{{ 'customer.addresses.address2' | t }}</label>
                         </div>
-                        <div class="field">
+                        <div class="rosa-account-field">
                           <input
                             type="text"
                             id="AddressCity_{{ form.id }}"
@@ -317,8 +317,8 @@
                           >
                           <label for="AddressCity_{{ form.id }}">{{ 'customer.addresses.city' | t }}</label>
                         </div>
-                        <div>
-                          <label for="AddressCountry_{{ form.id }}">
+                        <div class="rosa-account-field">
+                          <label for="AddressCountry_{{ form.id }}" class="rosa-account-field-title">
                             {{ 'customer.addresses.country' | t }}
                           </label>
                           <div class="select">
@@ -353,7 +353,7 @@
                             </svg>
                           </div>
                         </div>
-                        <div class="field">
+                        <div class="rosa-account-field">
                           <input
                             type="text"
                             id="AddressZip_{{ form.id }}"
@@ -365,7 +365,7 @@
                           >
                           <label for="AddressZip_{{ form.id }}">{{ 'customer.addresses.zip' | t }}</label>
                         </div>
-                        <div class="field">
+                        <div class="rosa-account-field">
                           <input
                             type="tel"
                             id="AddressPhone_{{ form.id }}"
@@ -376,15 +376,15 @@
                           >
                           <label for="AddressPhone_{{ form.id }}">{{ 'customer.addresses.phone' | t }}</label>
                         </div>
-                        <div>
+                        <div class="rosa-account-checkbox-wrapper">
                           {{ form.set_as_default_checkbox }}
                           <label for="address_default_address_{{ form.id }}">
                             {{ 'customer.addresses.set_default' | t }}
                           </label>
                         </div>
                         <div>
-                          <button>{{ 'customer.addresses.update' | t }}</button>
-                          <button type="reset">{{ 'customer.addresses.cancel' | t }}</button>
+                          <button class="rosa-account-button1">{{ 'customer.addresses.update' | t }}</button>
+                          <button class="rosa-account-button2" type="reset">{{ 'customer.addresses.cancel' | t }}</button>
                         </div>
                       {%- endform -%}
                     </div>
@@ -393,41 +393,6 @@
               </ul>
 
             </div>
-
-          {% comment %}
-          <div class="rosa-account-deafult-adress">
-            <div class="rosa-account-info-header">
-              <div class="rosa-account-info-header-title">{{ section.settings.mes-adress-text }}</div>
-              <a href="/" class="rosa-account-info-header-link">{{ section.settings.ajouter-text }}</a>
-            </div>
-            <div class="rosa-account-deafult-adress-inner">
-              <div class="rosa-account-deafult-adress-title">{{ section.settings.par-deafut-text }}</div>
-              <div class="rosa-account-deafult-adress-adress">
-                00 rue de Victoire<br>69007 Lyon<br>France
-              </div>
-              <div class="rosa-account-deafult-adress-buttons">
-                <div class="rosa-account-deafult-adress-buttons-button">{{ section.settings.modify }}</div>
-                  <div class="rosa-account-deafult-adress-buttons-button">{{ section.settings.suprimer-text }}</div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <div class="rosa-account-other-adress">
-            <div class="rosa-account-deafult-adress-inner">
-              <div class="rosa-account-deafult-adress-title">{{ section.settings.autres-text }}</div>
-              <div class="rosa-account-deafult-adress-adress">
-                00 rue de Victoire<br>69007 Lyon<br>France
-              </div>
-              <div class="rosa-account-deafult-adress-buttons">
-                <div class="rosa-account-deafult-adress-buttons-button">{{ section.settings.modify }}</div>
-                  <div class="rosa-account-deafult-adress-buttons-button">{{ section.settings.suprimer-text }}</div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          {% endcomment %}
         </div>
       </div>
     </div>
