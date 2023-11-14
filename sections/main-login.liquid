@@ -139,16 +139,17 @@
         </a>
       {%- endif -%}
 
-      <button class="rosa-login">
-        {{ 'customer.login_page.sign_in' | t }}
+      <button class="rosa-login-login">
+        {{ section.settings.connexion-text }}
       </button>
 
-      <div class="rosa-login-text">{{ section.settings.text }}</div>
-
-      <a href="{{ routes.account_register_url }}">
-        {{ 'customer.login_page.create_account' | t }}
-      </a>
     {%- endform -%}
+
+    <div class="rosa-login-text">{{ section.settings.text }}</div>
+
+    <a href="{{ routes.account_register_url }}" class="rosa-login-registration">
+      {{ 'customer.login_page.create_account' | t }}
+    </a>
   </div>
 
   {%- if shop.checkout.guest_login -%}
@@ -178,6 +179,12 @@
       "id": "text",
       "label": "text",
       "default": "Vous n’avez pas encore de compte ?"
+    },
+    {
+      "type": "text",
+      "id": "connexion-text",
+      "label": "text",
+      "default": "Se connecter"
     },
     {
       "type": "range",

@@ -5379,6 +5379,9 @@ h1.rosa-login-title {
     max-width: 290px;
   }
 }
+.rosa-login-login {
+  margin-bottom: 85px !important;
+}
 .rosa-login-text {
   font: italic normal normal 30px/30px Cormorant;
   letter-spacing: 0px;
@@ -5387,9 +5390,18 @@ h1.rosa-login-title {
 }
 @media ((min-width: 1200px)) {
   .rosa-login-text {
-    font: italic normal normal 36px/36px Cormorant;
+    font: italic normal normal 36px/54px Cormorant;
     margin-bottom: 13px;
   }
+}
+.rosa-login-registration {
+  font: normal normal 500 14px/18px Montserrat;
+  letter-spacing: 0.28px;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: unset !important;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000 !important;
 }
 .rosa-registration .form__message {
   margin-bottom: 20px;
