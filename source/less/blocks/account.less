@@ -30,6 +30,7 @@
 .rosa-account-side-menu {
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
     gap: 22px;
     border-right: 1px solid #000;
     min-height: 405px;
@@ -381,3 +382,169 @@
 .rosa-account_mobile-commandes {
     display: none;
 }
+
+.rosa-account-adresses {
+    padding-top: 0;
+    padding-left: 0 !important;
+    max-width: unset !important;
+}
+
+.rosa-account-adresses-header {
+    padding-left: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 47px;
+}
+
+.rosa-account-adresses-header-title {
+    font: normal normal bold 16px/11px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.rosa-account-adresses-header-button {
+    position: absolute !important;
+    top: -4px;
+    right: 0;
+
+
+    border: 0 !important;
+    outline: 0;
+    margin: 0 !important;
+    width: fit-content;
+    font: normal normal 500 14px/18px Montserrat !important;
+    letter-spacing: 0.28px !important;
+    color: #000000 !important;
+    text-transform: uppercase;
+    padding-bottom: 5px !important;
+    border-bottom: 1px solid #000 !important;
+    padding: 0 !important;
+    min-width: unset !important;
+    min-height: unset !important;
+    background: none !important;
+
+    &:after {
+        display: none !important;
+    }
+}
+
+.rosa-account-adresses-header-form {
+    margin-top: 40px;
+}
+
+.rosa-account-adresses-header-form-heading {
+    font: 700 16px/11px Montserrat;
+    letter-spacing: 0px;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.rosa-account-adresses-list {
+}
+
+.rosa-account-adresses-item {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0 !important;
+    padding-left: 70px;
+    padding-bottom: 48px;
+    padding-top: 41px;
+}
+
+.rosa-account-adresses-item:first-child {
+    padding-top: 0;
+
+    border-bottom: 1px solid #000;
+
+    & .rosa-account-deafult-adress-buttons-button1 {
+        top: 0 !important;
+    }
+
+    & .rosa-account-deafult-adress-buttons-button2 {
+        top: 40px !important;
+    }
+}
+
+// .rosa-account-adresses-item-content {
+//     display: flex;
+// }
+
+.rosa-account-deafult-adress-title {
+    width: 176px;
+    font: normal normal 600 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.rosa-account-deafult-adress-adress {
+    width: 300px;
+
+
+    & p {
+        font: normal normal normal 15px/20px Montserrat;
+        letter-spacing: 0px;
+        color: #000000;
+        text-align: left
+    }
+}
+
+.rosa-account-deafult-adress-buttons-button1 {
+    position: absolute !important;
+    top: 41px;
+    right: 0;
+
+    border: 0 !important;
+    outline: 0;
+    margin: 0 !important;
+    width: fit-content;
+    font: normal normal 500 14px/18px Montserrat !important;
+    letter-spacing: 0.28px !important;
+    color: #000000 !important;
+    text-transform: uppercase;
+    padding-bottom: 5px !important;
+    border-bottom: 1px solid #000 !important;
+    padding: 0 !important;
+    min-width: unset !important;
+    min-height: unset !important;
+    background: none !important;
+
+    &:after {
+        display: none !important;
+    }
+}
+
+.rosa-account-deafult-adress-buttons-button2 {
+    position: absolute !important;
+    top: 81px;
+    right: 0;
+
+    border: 0 !important;
+    outline: 0;
+    margin: 0 !important;
+    width: fit-content;
+    font: normal normal 500 14px/18px Montserrat !important;
+    letter-spacing: 0.28px !important;
+    color: #000000 !important;
+    text-transform: uppercase;
+    padding-bottom: 5px !important;
+    border-bottom: 1px solid #000 !important;
+    padding: 0 !important;
+    min-width: unset !important;
+    min-height: unset !important;
+    background: none !important;
+
+    &:after {
+        display: none !important;
+    }
+}
+
+// .rosa-account-other-adress {
+//     padding-left: 70px;
+//     padding-top: 40px;
+// }
