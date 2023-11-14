@@ -19,34 +19,341 @@
 
 <div class="rosa-account container section-{{ section.id }}-padding addresses">
   <div class="rosa-account_mobile">
-    <div class="rosa-account_mobile-wrapper rosa-account_mobile-main">
-      <div class="rosa-account_mobile-title">{{ section.settings.menu-title-title }}</div>
-      <div class="rosa-account_mobile-menu">
-        <a href="{{ routes.account_url }}?page=info" class="rosa-account_mobile-menu-item">
-          <span>{{ section.settings.menu-title }}</span>
 
-          <svg xmlns="http://www.w3.org/2000/svg" width="6.247" height="10.926" viewBox="0 0 6.247 10.926">
-            <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M11.653,15.61l4.131-4.135a.778.778,0,0,1,1.1,0,.787.787,0,0,1,0,1.106l-4.681,4.684a.779.779,0,0,1-1.077.023l-4.714-4.7a.781.781,0,0,1,1.1-1.106Z" transform="translate(-11.246 17.114) rotate(-90)"/>
-          </svg>
-        </a>
-        <a href="{{ routes.account_addresses_url }}" class="rosa-account_mobile-menu-item">
-          <span>{{ section.settings.menu-adresses }}</span>
 
-          <svg xmlns="http://www.w3.org/2000/svg" width="6.247" height="10.926" viewBox="0 0 6.247 10.926">
-            <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M11.653,15.61l4.131-4.135a.778.778,0,0,1,1.1,0,.787.787,0,0,1,0,1.106l-4.681,4.684a.779.779,0,0,1-1.077.023l-4.714-4.7a.781.781,0,0,1,1.1-1.106Z" transform="translate(-11.246 17.114) rotate(-90)"/>
-          </svg>
-        </a>
-        <a href="{{ routes.account_url }}?page=commandes" class="rosa-account_mobile-menu-item">
-          <span>{{ section.settings.menu-commandes }}</span>
+    <div class="customer addresses rosa-account-mobile-adresses" data-customer-addresses>
+      <svg style="display: none">
+        <symbol id="icon-caret" viewBox="0 0 10 6">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
+        </symbol>
+      </svg>
 
-          <svg xmlns="http://www.w3.org/2000/svg" width="6.247" height="10.926" viewBox="0 0 6.247 10.926">
-            <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M11.653,15.61l4.131-4.135a.778.778,0,0,1,1.1,0,.787.787,0,0,1,0,1.106l-4.681,4.684a.779.779,0,0,1-1.077.023l-4.714-4.7a.781.781,0,0,1,1.1-1.106Z" transform="translate(-11.246 17.114) rotate(-90)"/>
-          </svg>
-        </a>
-        <div class="rosa-account_mobile-menu-bar"></div>
-        <a href="{{ routes.account_logout_url }}" class="rosa-account_mobile-menu-logout">{{ section.settings.menu-deconnexion }}</a>
+      <div data-address class="rosa-account-mobile-adresses-header">
+        <div class="rosa-account-mobile-adresses-header-title">{{ section.settings.mes-adress-text }}</div>
+        <button
+          type="button"
+          aria-expanded="false"
+          aria-controls="AddAddress"
+          class="rosa-account-mobile-adresses-header-button"
+        >
+          {{ 'customer.addresses.add_new' | t }}
+        </button>
+
+        <div id="AddAddress" class="rosa-account-mobile-adresses-header-form">
+          <h2 id="AddressNewHeading" class="rosa-account-mobile-adresses-header-form-heading">{{ 'customer.addresses.add_new' | t }}</h2>
+          {%- form 'customer_address', customer.new_address, aria-labelledBy: 'AddressNewHeading' -%}
+            <div class="rosa-account-field">
+              <input
+                type="text"
+                id="AddressFirstNameNew"
+                name="address[first_name]"
+                value="{{ form.first_name }}"
+                autocomplete="given-name"
+                placeholder="{{ 'customer.addresses.first_name' | t }}"
+              >
+              <label for="AddressFirstNameNew">{{ 'customer.addresses.first_name' | t }}</label>
+            </div>
+            <div class="rosa-account-field">
+              <input
+                type="text"
+                id="AddressLastNameNew"
+                name="address[last_name]"
+                value="{{ form.last_name }}"
+                autocomplete="family-name"
+                placeholder="{{ 'customer.addresses.last_name' | t }}"
+              >
+              <label for="AddressLastNameNew">{{ 'customer.addresses.last_name' | t }}</label>
+            </div>
+            <div class="rosa-account-field">
+              <input
+                type="text"
+                id="AddressCompanyNew"
+                name="address[company]"
+                value="{{ form.company }}"
+                autocomplete="organization"
+                placeholder="{{ 'customer.addresses.company' | t }}"
+              >
+              <label for="AddressCompanyNew">{{ 'customer.addresses.company' | t }}</label>
+            </div>
+            <div class="rosa-account-field">
+              <input
+                type="text"
+                id="AddressAddress1New"
+                name="address[address1]"
+                value="{{ form.address1 }}"
+                autocomplete="address-line1"
+                placeholder="{{ 'customer.addresses.address1' | t }}"
+              >
+              <label for="AddressAddress1New">{{ 'customer.addresses.address1' | t }}</label>
+            </div>
+            <div class="rosa-account-field">
+              <input
+                type="text"
+                id="AddressAddress2New"
+                name="address[address2]"
+                value="{{ form.address2 }}"
+                autocomplete="address-line2"
+                placeholder="{{ 'customer.addresses.address2' | t }}"
+              >
+              <label for="AddressAddress2New">{{ 'customer.addresses.address2' | t }}</label>
+            </div>
+            <div class="rosa-account-field">
+              <input
+                type="text"
+                id="AddressCityNew"
+                name="address[city]"
+                value="{{ form.city }}"
+                autocomplete="address-level2"
+                placeholder="{{ 'customer.addresses.city' | t }}"
+              >
+              <label for="AddressCityNew">{{ 'customer.addresses.city' | t }}</label>
+            </div>
+            <div class="rosa-account-field">
+              <label class="rosa-account-field-title" for="AddressCountryNew">{{ 'customer.addresses.country' | t }}</label>
+              <div class="select">
+                <select
+                  id="AddressCountryNew"
+                  name="address[country]"
+                  data-default="{{ form.country }}"
+                  autocomplete="country"
+                >
+                  {{ all_country_option_tags }}
+                </select>
+                <svg aria-hidden="true" focusable="false" viewBox="0 0 10 6">
+                  <use href="#icon-caret" />
+                </svg>
+              </div>
+            </div>
+            <div id="AddressProvinceContainerNew" style="display: none">
+              <label for="AddressProvinceNew">{{ 'customer.addresses.province' | t }}</label>
+              <div class="select">
+                <select
+                  id="AddressProvinceNew"
+                  name="address[province]"
+                  data-default="{{ form.province }}"
+                  autocomplete="address-level1"
+                ></select>
+                <svg aria-hidden="true" focusable="false" viewBox="0 0 10 6">
+                  <use href="#icon-caret" />
+                </svg>
+              </div>
+            </div>
+            <div class="rosa-account-field">
+              <input
+                type="text"
+                id="AddressZipNew"
+                name="address[zip]"
+                value="{{ form.zip }}"
+                autocapitalize="characters"
+                autocomplete="postal-code"
+                placeholder="{{ 'customer.addresses.zip' | t }}"
+              >
+              <label for="AddressZipNew">{{ 'customer.addresses.zip' | t }}</label>
+            </div>
+            <div class="rosa-account-field">
+              <input
+                type="tel"
+                id="AddressPhoneNew"
+                name="address[phone]"
+                value="{{ form.phone }}"
+                autocomplete="tel"
+                placeholder="{{ 'customer.addresses.phone' | t }}"
+              >
+              <label for="AddressPhoneNew">{{ 'customer.addresses.phone' | t }}</label>
+            </div>
+            <div class="rosa-account-checkbox-wrapper">
+              {{ form.set_as_default_checkbox }}
+              <label for="address_default_address_new">{{ 'customer.addresses.set_default' | t }}</label>
+            </div>
+            <div>
+              <button class="rosa-account-button1">{{ 'customer.addresses.add' | t }}</button>
+              <button class="rosa-account-button2" type="reset">{{ 'customer.addresses.cancel' | t }}</button>
+            </div>
+          {%- endform -%}
+        </div>
       </div>
+
+
+      <ul role="list" class="rosa-account-mobile-adresses-list">
+        {%- for address in customer.addresses -%}
+          <li data-address class="rosa-account-mobile-adresses-item">
+            {%- if address == customer.default_address -%}
+              <div class="rosa-account-mobile-deafult-adress-title">{{ section.settings.par-deafut-text }}</div>
+            {% else %}
+              <div class="rosa-account-mobile-deafult-adress-title">
+                {% if forloop.index < 3 %}{{ section.settings.autres-text }}{% endif %}
+              </div>
+            {%- endif -%}
+            <div class="rosa-account-mobile-deafult-adress-adress">{{ address | format_address }}</div>
+
+            <div class="rosa-account-mobile-deafult-adress-dummy"></div>
+
+            <button
+              type="button"
+              id="EditFormButton_{{ address.id }}"
+              aria-label="{{ 'customer.addresses.edit_address' | t }} {{ forloop.index }}"
+              aria-controls="EditAddress_{{ address.id }}"
+              aria-expanded="false"
+              data-address-id="{{ address.id }}"
+              class="rosa-account-mobile-deafult-adress-buttons-button1"
+            >
+              {{ 'customer.addresses.edit' | t }}
+            </button>
+            <button
+              type="button"
+              aria-label="{{ 'customer.addresses.delete' | t }} {{ forloop.index }}"
+              data-target="{{ address.url }}"
+              data-confirm-message="{{ 'customer.addresses.delete_confirm' | t }}"
+              class="rosa-account-mobile-deafult-adress-buttons-button2"
+            >
+              {{ 'customer.addresses.delete' | t }}
+            </button>
+            <div id="EditAddress_{{ address.id }}" style="margin-top: 30px">
+              <h2 class="rosa-account-mobile-adresses-header-form-heading">{{ 'customer.addresses.edit_address' | t }}</h2>
+              {%- form 'customer_address', address -%}
+                <div class="rosa-account-field">
+                  <input
+                    type="text"
+                    id="AddressFirstName_{{ form.id }}"
+                    name="address[first_name]"
+                    value="{{ form.first_name }}"
+                    autocomplete="given-name"
+                    placeholder="{{ 'customer.addresses.first_name' | t }}"
+                  >
+                  <label for="AddressFirstName_{{ form.id }}">{{ 'customer.addresses.first_name' | t }}</label>
+                </div>
+                <div class="rosa-account-field">
+                  <input
+                    type="text"
+                    id="AddressLastName_{{ form.id }}"
+                    name="address[last_name]"
+                    value="{{ form.last_name }}"
+                    autocomplete="family-name"
+                    placeholder="{{ 'customer.addresses.last_name' | t }}"
+                  >
+                  <label for="AddressLastName_{{ form.id }}">{{ 'customer.addresses.last_name' | t }}</label>
+                </div>
+                <div class="rosa-account-field">
+                  <input
+                    type="text"
+                    id="AddressCompany_{{ form.id }}"
+                    name="address[company]"
+                    value="{{ form.company }}"
+                    autocomplete="organization"
+                    placeholder="{{ 'customer.addresses.company' | t }}"
+                  >
+                  <label for="AddressCompany_{{ form.id }}">{{ 'customer.addresses.company' | t }}</label>
+                </div>
+                <div class="rosa-account-field">
+                  <input
+                    type="text"
+                    id="AddressAddress1_{{ form.id }}"
+                    name="address[address1]"
+                    value="{{ form.address1 }}"
+                    autocomplete="address-line1"
+                    placeholder="{{ 'customer.addresses.address1' | t }}"
+                  >
+                  <label for="AddressAddress1_{{ form.id }}">{{ 'customer.addresses.address1' | t }}</label>
+                </div>
+                <div class="rosa-account-field">
+                  <input
+                    type="text"
+                    id="AddressAddress2_{{ form.id }}"
+                    name="address[address2]"
+                    value="{{ form.address2 }}"
+                    autocomplete="address-line2"
+                    placeholder="{{ 'customer.addresses.address2' | t }}"
+                  >
+                  <label for="AddressAddress2_{{ form.id }}">{{ 'customer.addresses.address2' | t }}</label>
+                </div>
+                <div class="rosa-account-field">
+                  <input
+                    type="text"
+                    id="AddressCity_{{ form.id }}"
+                    name="address[city]"
+                    value="{{ form.city }}"
+                    autocomplete="address-level2"
+                    placeholder="{{ 'customer.addresses.city' | t }}"
+                  >
+                  <label for="AddressCity_{{ form.id }}">{{ 'customer.addresses.city' | t }}</label>
+                </div>
+                <div class="rosa-account-field">
+                  <label for="AddressCountry_{{ form.id }}" class="rosa-account-field-title">
+                    {{ 'customer.addresses.country' | t }}
+                  </label>
+                  <div class="select">
+                    <select
+                      id="AddressCountry_{{ form.id }}"
+                      name="address[country]"
+                      data-address-country-select
+                      data-default="{{ form.country }}"
+                      data-form-id="{{ form.id }}"
+                      autocomplete="country"
+                    >
+                      {{ all_country_option_tags }}
+                    </select>
+                    <svg aria-hidden="true" focusable="false" viewBox="0 0 10 6">
+                      <use href="#icon-caret" />
+                    </svg>
+                  </div>
+                </div>
+                <div id="AddressProvinceContainer_{{ form.id }}" style="display:none;">
+                  <label for="AddressProvince_{{ form.id }}">
+                    {{ 'customer.addresses.province' | t }}
+                  </label>
+                  <div class="select">
+                    <select
+                      id="AddressProvince_{{ form.id }}"
+                      name="address[province]"
+                      data-default="{{ form.province }}"
+                      autocomplete="address-level1"
+                    ></select>
+                    <svg aria-hidden="true" focusable="false" viewBox="0 0 10 6">
+                      <use href="#icon-caret" />
+                    </svg>
+                  </div>
+                </div>
+                <div class="rosa-account-field">
+                  <input
+                    type="text"
+                    id="AddressZip_{{ form.id }}"
+                    name="address[zip]"
+                    value="{{ form.zip }}"
+                    autocapitalize="characters"
+                    autocomplete="postal-code"
+                    placeholder="{{ 'customer.addresses.zip' | t }}"
+                  >
+                  <label for="AddressZip_{{ form.id }}">{{ 'customer.addresses.zip' | t }}</label>
+                </div>
+                <div class="rosa-account-field">
+                  <input
+                    type="tel"
+                    id="AddressPhone_{{ form.id }}"
+                    name="address[phone]"
+                    value="{{ form.phone }}"
+                    autocomplete="tel"
+                    placeholder="{{ 'customer.addresses.phone' | t }}"
+                  >
+                  <label for="AddressPhone_{{ form.id }}">{{ 'customer.addresses.phone' | t }}</label>
+                </div>
+                <div class="rosa-account-checkbox-wrapper">
+                  {{ form.set_as_default_checkbox }}
+                  <label for="address_default_address_{{ form.id }}">
+                    {{ 'customer.addresses.set_default' | t }}
+                  </label>
+                </div>
+                <div>
+                  <button class="rosa-account-button1">{{ 'customer.addresses.update' | t }}</button>
+                  <button class="rosa-account-button2" type="reset">{{ 'customer.addresses.cancel' | t }}</button>
+                </div>
+              {%- endform -%}
+            </div>
+          </li>
+        {%- endfor -%}
+      </ul>
+
     </div>
+
   </div>
   <div class="rosa-account_desktop">
     <div class="rosa-account-title">{{ section.settings.menu-title-title }}</div>
