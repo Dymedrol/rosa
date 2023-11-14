@@ -5322,7 +5322,6 @@ h1.rosa-login-title {
 .rosa-login form {
   margin: 0 auto;
   margin-top: 56px;
-  width: calc(100% - 64px);
   max-width: 380px;
 }
 @media ((min-width: 1200px)) {
@@ -5470,6 +5469,8 @@ h1.rosa-login-title {
 }
 .rosa-registration-agreement a {
   font: normal normal 500 14px/18px Montserrat;
+  text-underline-offset: unset !important;
+  text-decoration-thickness: unset !important;
 }
 @media ((min-width: 1200px)) {
   .rosa-account_mobile {
