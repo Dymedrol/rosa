@@ -31,27 +31,7 @@
         "text1": "LES SERVICES ROSA MAITEA",
         "text2": "Pour vous offrir une joaillerie véritablement éthique et éco-responsable, Rosa Maïtea s’engage jusque dans ses services et vous propose de donner à vos bijoux Rosa Maïtea une durabilité maximale, de réinventer vos anciens bijoux et de vous proposer des solutions créatives pour upcyler vos diamants. Découvrez tous nos services et nos solutions !",
         "padding_top": 45,
-        "padding_bottom": 80
-      }
-    },
-    "d74bc6ba-55d1-4378-b52c-11ab222891c9": {
-      "type": "rosa-quote2",
-      "settings": {
-        "tag": "div",
-        "text1": "",
-        "text2": "Si en achetant sur notre site une bague vous vous étés trompé de taille ? surtout  ne vous inquiétez pas car nous allons trouver une solution pour vous.",
-        "padding_top": 35,
-        "padding_bottom": 0
-      }
-    },
-    "ae189300-c6d3-4c78-a626-e897c99b904c": {
-      "type": "rosa-quote2",
-      "settings": {
-        "tag": "div",
-        "text1": "",
-        "text2": "Nous vous enverrons une etiquette colissimo pour le retour de la bague, nous allons la mettre a la taille et vous la renvoie dans un délais de maximum 15 jours.",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 50
       }
     },
     "476d1fa8-f37f-413c-b44e-92c4e1190977": {
@@ -108,16 +88,6 @@
         "is_centred": true,
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "789667e1-b6a9-4c7e-a974-b3b8bf0ac6a3": {
-      "type": "video",
-      "settings": {
-        "enable_video_looping": false,
-        "video": "shopify:\/\/files\/videos\/WhatsApp Video 2023-11-01 at 09.35.34.mp4",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify:\/\/shop_images\/Image_2x_819a9e12-4df9-448d-b851-9d2742cf0b27.png",
-        "description": ""
       }
     },
     "89163613-924f-42ad-b20e-fe2ca9ab2d98": {
@@ -216,8 +186,38 @@
         "tag": "div",
         "text1": "VIDEO SUR MESURER LA TAILLE DE BAGUE",
         "text2": "",
-        "padding_top": 0,
+        "padding_top": 75,
         "padding_bottom": 20
+      }
+    },
+    "d74bc6ba-55d1-4378-b52c-11ab222891c9": {
+      "type": "rosa-quote2",
+      "settings": {
+        "tag": "div",
+        "text1": "",
+        "text2": "Si en achetant sur notre site une bague vous vous étés trompé de taille ? surtout  ne vous inquiétez pas car nous allons trouver une solution pour vous.",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "ae189300-c6d3-4c78-a626-e897c99b904c": {
+      "type": "rosa-quote2",
+      "settings": {
+        "tag": "div",
+        "text1": "",
+        "text2": "Nous vous enverrons une etiquette colissimo pour le retour de la bague, nous allons la mettre a la taille et vous la renvoie dans un délais de maximum 15 jours.",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "789667e1-b6a9-4c7e-a974-b3b8bf0ac6a3": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/WhatsApp Video 2023-11-01 at 09.35.34.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/Image_2x_819a9e12-4df9-448d-b851-9d2742cf0b27.png",
+        "description": ""
       }
     },
     "6b98f65d-98ab-42bd-acb7-d3288b2c0a03": {
@@ -295,14 +295,14 @@
     "main",
     "96f5cea0-93e0-472b-8d70-7418634efd26",
     "b9b51502-1ed5-4667-b832-6951f9a0061d",
-    "d74bc6ba-55d1-4378-b52c-11ab222891c9",
-    "ae189300-c6d3-4c78-a626-e897c99b904c",
     "476d1fa8-f37f-413c-b44e-92c4e1190977",
     "832bbc0e-b6af-42fe-b2e3-cff8bef04be7",
-    "789667e1-b6a9-4c7e-a974-b3b8bf0ac6a3",
     "89163613-924f-42ad-b20e-fe2ca9ab2d98",
     "64d79728-984d-44ac-8da1-714443ca43ef",
     "e496dc6b-59cf-4d1c-8bee-d87875cbdd09",
+    "d74bc6ba-55d1-4378-b52c-11ab222891c9",
+    "ae189300-c6d3-4c78-a626-e897c99b904c",
+    "789667e1-b6a9-4c7e-a974-b3b8bf0ac6a3",
     "6b98f65d-98ab-42bd-acb7-d3288b2c0a03",
     "1d4d01a2-48fb-47e1-8d6a-45cdc9f7a53f",
     "b48ab1fe-3911-4db3-9e9a-dcf51a8bf188"
