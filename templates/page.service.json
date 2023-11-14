@@ -180,16 +180,6 @@
         "padding_bottom": 0
       }
     },
-    "e496dc6b-59cf-4d1c-8bee-d87875cbdd09": {
-      "type": "rosa-quote3",
-      "settings": {
-        "tag": "div",
-        "text1": "VIDEO SUR MESURER LA TAILLE DE BAGUE",
-        "text2": "",
-        "padding_top": 75,
-        "padding_bottom": 20
-      }
-    },
     "d74bc6ba-55d1-4378-b52c-11ab222891c9": {
       "type": "rosa-quote2",
       "settings": {
@@ -210,16 +200,6 @@
         "padding_bottom": 50
       }
     },
-    "789667e1-b6a9-4c7e-a974-b3b8bf0ac6a3": {
-      "type": "video",
-      "settings": {
-        "enable_video_looping": false,
-        "video": "shopify:\/\/files\/videos\/WhatsApp Video 2023-11-01 at 09.35.34.mp4",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify:\/\/shop_images\/Image_2x_819a9e12-4df9-448d-b851-9d2742cf0b27.png",
-        "description": ""
-      }
-    },
     "6b98f65d-98ab-42bd-acb7-d3288b2c0a03": {
       "type": "image-banner",
       "disabled": true,
@@ -234,6 +214,26 @@
         "is_text_big": false,
         "image_banner_link_text": "NOUS CONTACTER",
         "image_banner_link_url": "\/"
+      }
+    },
+    "e496dc6b-59cf-4d1c-8bee-d87875cbdd09": {
+      "type": "rosa-quote3",
+      "settings": {
+        "tag": "div",
+        "text1": "REGARDEZ NOTRE VIDEO SUR COMMENT MESURER LA TAILLE DE BAGUE",
+        "text2": "",
+        "padding_top": 75,
+        "padding_bottom": 20
+      }
+    },
+    "789667e1-b6a9-4c7e-a974-b3b8bf0ac6a3": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/WhatsApp Video 2023-11-01 at 09.35.34.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/Image_2x_819a9e12-4df9-448d-b851-9d2742cf0b27.png",
+        "description": ""
       }
     },
     "1d4d01a2-48fb-47e1-8d6a-45cdc9f7a53f": {
@@ -299,11 +299,11 @@
     "832bbc0e-b6af-42fe-b2e3-cff8bef04be7",
     "89163613-924f-42ad-b20e-fe2ca9ab2d98",
     "64d79728-984d-44ac-8da1-714443ca43ef",
-    "e496dc6b-59cf-4d1c-8bee-d87875cbdd09",
     "d74bc6ba-55d1-4378-b52c-11ab222891c9",
     "ae189300-c6d3-4c78-a626-e897c99b904c",
-    "789667e1-b6a9-4c7e-a974-b3b8bf0ac6a3",
     "6b98f65d-98ab-42bd-acb7-d3288b2c0a03",
+    "e496dc6b-59cf-4d1c-8bee-d87875cbdd09",
+    "789667e1-b6a9-4c7e-a974-b3b8bf0ac6a3",
     "1d4d01a2-48fb-47e1-8d6a-45cdc9f7a53f",
     "b48ab1fe-3911-4db3-9e9a-dcf51a8bf188"
   ]
