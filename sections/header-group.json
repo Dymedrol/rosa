@@ -14,7 +14,8 @@
         "boutiques_url": "shopify:\/\/pages\/boutiques",
         "rdv_text": "Prenez RDV",
         "rdv_url": "shopify:\/\/pages\/prendre-rendez-vous",
-        "contacts_url": "shopify:\/\/pages\/nous-contacter"
+        "contacts_url": "shopify:\/\/pages\/nous-contacter",
+        "fav_url": "shopify:\/\/pages\/favoris"
       }
     }
   },
