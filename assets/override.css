@@ -16,7 +16,7 @@ right: 0 !important;
   font-family: Montserrat !important;
 }
 
-.template-search__header .h2.center, .facets__list {
+.template-search__header .h2.center, .facets__list, .cart__empty-text {
   text-transform: uppercase;
 }
 
