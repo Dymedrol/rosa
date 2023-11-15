@@ -69,6 +69,10 @@
                   </div>
 
                   <input disabled type="submit" name="add" id="add" value="{{ section.settings.cart_button__text }}" class="rosa-pdp-info-button">
+                  {% comment %}
+                  <div class="rosa-pdp-info-fav-button js-add-to-favorites rosa-pdp-info-fav-button_disabled">{{ section.settings.cart_fav__text }}</div>
+                  {% endcomment %}
+
                 </form>
 
                 <a href="https://rosamaitea.com/pages/prendre-rendez-vous" class="rosa-pdp-info-rendez-vous">{{ section.settings.prendre__text }}</a>
@@ -93,6 +97,10 @@
         </div>
     </div>
 </section>
+
+<script>
+  const favSuccessText = '{{ section.settings.cart_fav__text_success }}';
+</script>
 
 {% schema %}
 {
@@ -141,6 +149,18 @@
          "id": "cart_button__text",
          "label": "Ajouter au panier text",
          "default": "Ajouter au panier"
+       },
+       {
+         "type": "text",
+         "id": "cart_fav__text",
+         "label": "Ajouter aux favoris text",
+         "default": "Ajouter aux favoris"
+       },
+       {
+         "type": "text",
+         "id": "cart_fav__text_success",
+         "label": "Dans les favoris text",
+         "default": "Dans les favoris"
        },
        {
          "type": "text",

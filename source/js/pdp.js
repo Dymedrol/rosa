@@ -13,7 +13,6 @@ export const initPdp = () => {
     const mainSelect = form.find('.js-main-select');
     const mainOptions = mainSelect.find('option');
     const optionItems = $('.rosa-pdp-select-wrapper');
-
     const selects = form.find('.js-pdp-select');
     const selectedOptions = {};
     selects.each(function() {
@@ -22,12 +21,22 @@ export const initPdp = () => {
     const selectedOptionsCount = Object.keys(selectedOptions).length;
     const deliveryText = $('.rosa-pdp-info-text2 b');
     const submitBtn = $('.rosa-pdp-info-button');
+    const favBtn = $('.js-add-to-favorites');
 
     deliveryText.text(moment().add('days', daysAvailable).format('D MMMM'));
 
-    const updateMainInput = function(value, name) {
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const entries = urlParams.entries();
+    const updateMainInput = function(value, name, isOnLoad) {
         const selectedValue = value;
         selectedOptions[name] = selectedValue;
+
+        if (!isOnLoad) {
+            const url = new URL(location);
+            url.searchParams.set(name, value);
+            history.replaceState({}, "", url);
+        }
 
 
         mainOptions.each(function() {
@@ -69,7 +78,16 @@ export const initPdp = () => {
 
         if (selectedInputs == selectedOptionsCount) {
             submitBtn.attr('disabled', false);
+            favBtn.removeClass('rosa-pdp-info-fav-button_disabled');
         }
+    }
+
+    for(const entry of entries) {
+        const wrapper = $(`select[name="${entry[0]}"]`).closest('.rosa-pdp-select-wrapper');
+        wrapper.addClass('js-selected');
+        wrapper.find('.rosa-pdp-info-controls-item span').text(entry[1]);
+        wrapper.find('select').val(entry[1]);
+        updateMainInput(entry[0], entry[1], true);
     }
 
     $('.rosa-pdp-info-controls-item').click(function() {
@@ -91,6 +109,8 @@ export const initPdp = () => {
             $(this).hide();
         }
     });
+
+
 
     const container = document.getElementById("myCarousel");
 

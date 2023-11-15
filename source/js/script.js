@@ -11,6 +11,7 @@ import { initJumboSlider } from './jumbo-slider';
 import { initHorizontalSlider } from './horizontalSlider';
 import { initLanguageSwitcher } from './languageSwitcher';
 import { initAccountPage } from './accountPage';
+import { initFavorites } from './favorites';
 
 initMenu();
 initPdp();
@@ -25,6 +26,7 @@ initJumboSlider();
 initHorizontalSlider();
 initLanguageSwitcher();
 initAccountPage();
+initFavorites();
 
 Fancybox.bind('[data-fancybox]', {
     'type': 'image',

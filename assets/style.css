@@ -3882,16 +3882,42 @@ h1 {
   letter-spacing: 0px;
   color: #FFFFFF;
   border: 0;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 @media ((min-width: 1200px)) {
   .rosa-pdp-info-button {
-    margin-bottom: 43px;
+    margin-bottom: 10px;
   }
 }
 .rosa-pdp-info-button:disabled {
   opacity: 0.5;
   cursor: auto;
+}
+.rosa-pdp-info-fav-button {
+  width: 100%;
+  height: 44px;
+  background: #fff;
+  font: normal normal 600 14px/42px Montserrat;
+  letter-spacing: 0px;
+  color: #000;
+  border: 1px solid #000;
+  margin-bottom: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+@media ((min-width: 1200px)) {
+  .rosa-pdp-info-fav-button {
+    margin-bottom: 43px;
+  }
+}
+.rosa-pdp-info-fav-button:disabled {
+  opacity: 0.5;
+  cursor: auto;
+}
+.rosa-pdp-info-fav-button_disabled {
+  opacity: 0.5;
+  cursor: auto;
+  pointer-events: none;
 }
 .rosa-pdp-info-rendez-vous {
   display: block;
