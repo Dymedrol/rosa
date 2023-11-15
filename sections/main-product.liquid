@@ -70,6 +70,7 @@
 
                   <input disabled type="submit" name="add" id="add" value="{{ section.settings.cart_button__text }}" class="rosa-pdp-info-button">
                   <div class="rosa-pdp-info-fav-button js-add-to-favorites rosa-pdp-info-fav-button_disabled">{{ section.settings.cart_fav__text }}</div>
+                  <a href="{{ section.settings.fav-url }}" class="rosa-pdp-info-go-fav-button js-go-to-favorites">{{ section.settings.cart_fav__text }}</a>
 
                 </form>
 
@@ -165,6 +166,11 @@
          "id": "prendre__text",
          "label": "PRENDRE RENDEZ-VOUS AU SHOWROOM text",
          "default": "PRENDRE RENDEZ-VOUS AU SHOWROOM"
+       },
+       {
+         "type": "url",
+         "id": "fav-url",
+         "label": "favoris url"
        },
        {
          "type": "text",

@@ -1,5 +1,6 @@
 export const initFavorites = () => {
     const addToFavoritesButton = $('.js-add-to-favorites');
+    const goToFavoritesButton = $('.js-go-to-favorites');
 
     function changeProductInFavorites(productPath) {
 
@@ -27,7 +28,8 @@ export const initFavorites = () => {
             updateFavorites(favoritesArray);
         }
 
-        addToFavoritesButton.text(favSuccessText);
+        addToFavoritesButton.hide();
+        goToFavoritesButton.text(favSuccessText).css('display', 'block');
     }
 
     addToFavoritesButton.click(function() {
