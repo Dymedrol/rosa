@@ -39,7 +39,7 @@
 
   <div class="rosa-favorites-title container">{{ section.settings.page-title }}</div>
   <div class="rosa-favorites-header container">
-    <div class="rosa-favorites-header-count-text">{{ section.settings.count-text }}</div>
+    <div class="rosa-favorites-header-count-text">{{ section.settings.count-text }} <span></span> {{ section.settings.count-text2 }}</div>
     <div class="rosa-favorites-header-remove-all">{{ section.settings.remove-all }}</div>
   </div>
 
@@ -70,10 +70,16 @@
       "default": "MA LISTE DE FAVORIS"
     },
     {
-      "type": "richtext",
+      "type": "text",
       "id": "count-text",
-      "label": "Vous avez 3 articles dans votre liste text",
-      "default": "<p>Vous avez <span>3</span> articles dans votre liste.</p>"
+      "label": "Vous avez",
+      "default": "Vous avez</p>"
+    },
+    {
+      "type": "text",
+      "id": "count-text2",
+      "label": "articles dans votre liste text",
+      "default": "articles dans votre liste."
     },
     {
       "type": "text",
