@@ -24,7 +24,7 @@
         "remove": "SUPPRIMER",
         "empty-text": "VOUS N’AVEZ AJOUTÉ AUCUN FAVORIS POUR LE MOMENT, VISITEZ NOTRE BOUTIQUE EN LIGNE",
         "empty-link-text": "DÉCOUVRIR NOS COLLECTIONS",
-        "empty-link": "",
+        "empty-link": "shopify:\/\/collections\/all",
         "padding_top": 90,
         "padding_bottom": 150
       }
