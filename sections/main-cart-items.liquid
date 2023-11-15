@@ -26,21 +26,17 @@
 
 <script src="{{ 'quantity-popover.js' | asset_url }}" defer="defer"></script>
 
-<cart-items>
-
-
+<cart-items {% if cart == empty %}class="is-empty"{% endif %}>
 
   <section class="rosa-cart container section-{{ section.id }}-padding">
       <h1 class="rosa-cart-title">VOTRE PANIER</h1>
 
-      {%- if cart == empty -%}
-        <div class="cart__warnings">
-          <h1 class="cart__empty-text">{{ 'sections.cart.empty' | t }}</h1>
-          <a href="{{ routes.all_products_collection_url }}" class="rosa-cart-bottom-total-back" >
-            {{ section.settings.back_link_text }}
-          </a>
-        </div>
-      {% endif %}
+      <div class="cart__warnings">
+        <h1 class="cart__empty-text">{{ 'sections.cart.empty' | t }}</h1>
+        <a href="{{ routes.all_products_collection_url }}" class="rosa-cart-bottom-total-back" >
+          {{ section.settings.back_link_text }}
+        </a>
+      </div>
 
       <form action="{{ routes.cart_url }}" class="cart__contents critical-hidden" method="post" id="cart">
         <div id="main-cart-items" data-id="{{ section.id }}">
