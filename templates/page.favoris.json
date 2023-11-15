@@ -19,7 +19,8 @@
       "type": "favorites",
       "settings": {
         "page-title": "MA LISTE DE FAVORIS",
-        "count-text": "<p>Vous avez 3 articles dans votre liste.<\/p>",
+        "count-text": "Vous avez",
+        "count-text2": "articles dans votre liste.",
         "remove-all": "TOUT SUPPRIMER",
         "remove": "SUPPRIMER",
         "empty-text": "VOUS N’AVEZ AJOUTÉ AUCUN FAVORIS POUR LE MOMENT, VISITEZ NOTRE BOUTIQUE EN LIGNE",
