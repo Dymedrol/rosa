@@ -3,7 +3,12 @@ export const initFavorites = () => {
 
     function changeProductInFavorites(productPath) {
 
-        let favoritesArray = JSON.parse(localStorage.getItem("favorites"));
+        let favoritesArray;
+
+        if (localStorage.getItem("favorites")) {
+            favoritesArray = JSON.parse(localStorage.getItem("favorites"));
+        }
+
         if (!favoritesArray) {
             favoritesArray = [];
         }
@@ -31,8 +36,6 @@ export const initFavorites = () => {
 
         changeProductInFavorites(pathName + queryString);
     });
-
-
 }
 
 

@@ -12,6 +12,9 @@ import { initHorizontalSlider } from './horizontalSlider';
 import { initLanguageSwitcher } from './languageSwitcher';
 import { initAccountPage } from './accountPage';
 import { initFavorites } from './favorites';
+import { initFavoritesPage } from './favoritesPage';
+
+
 
 initMenu();
 initPdp();
@@ -27,6 +30,7 @@ initHorizontalSlider();
 initLanguageSwitcher();
 initAccountPage();
 initFavorites();
+initFavoritesPage();
 
 Fancybox.bind('[data-fancybox]', {
     'type': 'image',
