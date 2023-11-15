@@ -3,8 +3,11 @@
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
+        "sous_total_text": "sous total",
+        "back_link_text": "revenir dans la boutique",
+        "back_url": "",
         "padding_top": 60,
-        "padding_bottom": 60
+        "padding_bottom": 180
       }
     },
     "cart-footer": {
