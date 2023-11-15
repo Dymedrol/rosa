@@ -11,7 +11,15 @@
         "gravure_text": "Gravure",
         "guide_url": "shopify:\/\/pages\/baguier-rosa-maitea",
         "mise_text": "Mise à taille",
-        "mise_url": "shopify:\/\/pages\/remise-a-taille-offerte"
+        "mise_url": "shopify:\/\/pages\/remise-a-taille-offerte",
+        "cart_button__text": "Ajouter au panier",
+        "cart_fav__text": "Ajouter aux favoris",
+        "cart_fav__text_success": "Dans les favoris",
+        "prendre__text": "PRENDRE RENDEZ-VOUS AU SHOWROOM",
+        "fav-url": "shopify:\/\/pages\/favoris",
+        "delivery__text": "Livraison estimée à partir du",
+        "description__text": "DESCRIPTION ET DETAILS",
+        "description_du_produit__text": "Description du produit:"
       }
     },
     "related-products": {
