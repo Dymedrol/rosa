@@ -1,7 +1,29 @@
 export const initFavorites = () => {
+
+    const pdp = $('.rosa-pdp');
+
+    if (!pdp.length) {
+        return
+    }
+
     const addToFavoritesButton = $('.js-add-to-favorites');
     const goToFavoritesButton = $('.js-go-to-favorites');
     const mobileFavCount = $('#mobile-fav-count');
+
+    let favoritesArray;
+
+    if (localStorage.getItem("favorites")) {
+        favoritesArray = JSON.parse(localStorage.getItem("favorites"));
+    }
+
+    if (!favoritesArray) {
+        favoritesArray = [];
+    }
+
+    if (favoritesArray.includes(window.location.pathname + window.location.search)) {
+        addToFavoritesButton.hide();
+        goToFavoritesButton.text(favSuccessText).css('display', 'block');
+    }
 
     function changeProductInFavorites(productPath) {
 
@@ -31,7 +53,7 @@ export const initFavorites = () => {
         }
 
 
-        mobileFavCount.text(favoritesArray.length)
+        mobileFavCount.text(favoritesArray.length);
         addToFavoritesButton.hide();
         goToFavoritesButton.text(favSuccessText).css('display', 'block');
     }
@@ -39,7 +61,6 @@ export const initFavorites = () => {
     addToFavoritesButton.click(function() {
         const pathName = window.location.pathname;
         const queryString = window.location.search;
-
         changeProductInFavorites(pathName + queryString);
     });
 }
