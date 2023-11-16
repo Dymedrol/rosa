@@ -6358,7 +6358,7 @@ h1.rosa-login-title {
 @media ((min-width: 1200px)) {
   .rosa-favorites-item-card-text {
     margin-bottom: 35px;
-    font: normal normal normal 18px/20px Montserrat;
+    font: normal normal normal 12px/15px Montserrat;
   }
 }
 .rosa-favorites-item-card-price {
