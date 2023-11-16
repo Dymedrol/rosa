@@ -10,8 +10,20 @@
     "main": {
       "type": "main-addresses",
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
+        "menu-title-title": "MON COMPTE",
+        "menu-title": "INFORMATIONS PERSONNELLES",
+        "menu-adresses": "ADRESSES",
+        "menu-commandes": "COMMANDES",
+        "menu-deconnexion": "SE DÉCONNECTER",
+        "modify": "MODIFIER",
+        "back-text": "Retour à mon compte",
+        "mes-adress-text": "MES ADRESSES",
+        "ajouter-text": "AJOUTER UNE NOUVELLE ADRESSE",
+        "par-deafut-text": "PAR DÉFAUT",
+        "suprimer-text": "SUPPRIMER",
+        "autres-text": "AUTRES",
+        "padding_top": 90,
+        "padding_bottom": 160
       }
     }
   },
