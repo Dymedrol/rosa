@@ -1,6 +1,7 @@
 export const initFavorites = () => {
     const addToFavoritesButton = $('.js-add-to-favorites');
     const goToFavoritesButton = $('.js-go-to-favorites');
+    const mobileFavCount = $('#mobile-fav-count');
 
     function changeProductInFavorites(productPath) {
 
@@ -13,6 +14,7 @@ export const initFavorites = () => {
         if (!favoritesArray) {
             favoritesArray = [];
         }
+
 
         let updateFavorites = function (favoritesArray) {
             localStorage.setItem("favorites", JSON.stringify(favoritesArray));
@@ -28,6 +30,8 @@ export const initFavorites = () => {
             updateFavorites(favoritesArray);
         }
 
+
+        mobileFavCount.text(favoritesArray.length)
         addToFavoritesButton.hide();
         goToFavoritesButton.text(favSuccessText).css('display', 'block');
     }

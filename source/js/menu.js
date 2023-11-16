@@ -7,6 +7,19 @@ export const initMenu = () => {
     const openMenumobileBackClose = $('.rosa-menu-open-header-close');
     const desktopButtons = $('.rosa-menu-nav-item_arrow');
     const openMenus = $('.rosa-menu-open');
+    const mobileFavCount = $('#mobile-fav-count');
+
+    let favoritesArray;
+
+    if (localStorage.getItem("favorites")) {
+        favoritesArray = JSON.parse(localStorage.getItem("favorites"));
+    }
+
+    if (!favoritesArray) {
+        favoritesArray = [];
+    }
+
+    mobileFavCount.text(favoritesArray.length)
 
     burgerButton.click(function() {
         mobileMenu.show();

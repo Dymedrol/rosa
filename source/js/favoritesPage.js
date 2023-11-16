@@ -10,6 +10,7 @@ export const initFavoritesPage = () => {
     const emptyBlock = $('#empty');
     const countText = $('.rosa-favorites-header-count-text span');
     const removeAll = $('.rosa-favorites-header-remove-all');
+    const mobileFavCount = $('#mobile-fav-count');
 
 
     let favoritesArray;
@@ -21,12 +22,14 @@ export const initFavoritesPage = () => {
     if (!favoritesArray) {
         favoritesArray = [];
         countText.text('0');
+        mobileFavCount.text('0');
         removeAll.addClass('rosa-favorites-header-remove-all_disabled');
         emptyBlock.show();
     }
 
     let renderWishlistItems = function () {
         countText.text(favoritesArray.length);
+        mobileFavCount.text(favoritesArray.length);
 
         for (var i = 0; i < favoritesArray.length; i++) {
             const fullPath = favoritesArray[i];
@@ -37,7 +40,6 @@ export const initFavoritesPage = () => {
                 item = $(item)
                 item.attr('data-url', fullPath);
                 item.find('.rosa-favorites-item-link').attr('href', fullPath);
-                // item.attr('data-id', product.variants[0].id);
                 item.find('.rosa-favorites-item-card-title').html(product.title);
                 item.find('.rosa-favorites-item-card-text').html(product.vendor);
                 var price = product.price.toString();
@@ -75,6 +77,7 @@ export const initFavoritesPage = () => {
             } else {
                 localStorage.setItem("favorites", []);
                 countText.text('0');
+                mobileFavCount.text('0');
                 removeAll.addClass('rosa-favorites-header-remove-all_disabled');
                 emptyBlock.show();
             }
@@ -87,6 +90,7 @@ export const initFavoritesPage = () => {
     removeAll.click(function() {
         localStorage.setItem("favorites", []);
         countText.text('0');
+        mobileFavCount.text('0');
         favoriteList.empty();
         removeAll.addClass('rosa-favorites-header-remove-all_disabled');
         emptyBlock.show();
