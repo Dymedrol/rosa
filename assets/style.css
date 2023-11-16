@@ -5823,7 +5823,8 @@ h1.rosa-login-title {
   color: #2E2E2E;
 }
 .rosa-account_mobile-back {
-  display: flex;
+  text-decoration: none !important;
+  display: flex !important;
   gap: 8px;
   align-items: center;
   margin-bottom: 40px;
