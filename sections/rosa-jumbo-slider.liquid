@@ -34,6 +34,15 @@
   {% endfor %}
 </section>
 
+<script>
+  const jumbotronSettings = {
+    autoplay: {{ section.settings.autoplay }},
+    autoplayTimeout: {{ section.settings.autoplayTimeout }},
+    loop: {{ section.settings.loop }},
+  }
+
+</script>
+
 {% schema %}
 {
   "name": "Main Carousel",
@@ -54,6 +63,27 @@
       "id": "dots_color",
       "label": "dots color",
       "default": "#ffffff"
+    },
+    {
+      "type": "checkbox",
+      "id": "autoplay",
+      "label": "Autoplay",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "loop",
+      "label": "loop",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "autoplayTimeout",
+      "min": 1,
+      "max": 20,
+      "step": 1,
+      "label": "Autoplay interval ",
+      "default": 5
     }
   ],
   "blocks": [
