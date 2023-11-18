@@ -5628,9 +5628,12 @@ h1.rosa-login-title {
 }
 .rosa-account-info-item-text {
   width: 133px;
-  font: normal normal normal 15px/20px Montserrat;
+  font: normal normal normal 15px/20px Montserrat !important;
   letter-spacing: 0px;
-  color: #000000;
+  color: #000000 !important;
+}
+.rosa-account-info-item-text a {
+  color: #000000 !important;
 }
 .rosa-account-password {
   padding-top: 41px;
@@ -5710,6 +5713,8 @@ h1.rosa-login-title {
   letter-spacing: 0;
   color: #000000;
   text-transform: uppercase;
+  flex-shrink: 0;
+  word-break: break-all;
 }
 .rosa-account_mobile-info-item-text {
   font: normal normal normal 15px/20px Montserrat;
