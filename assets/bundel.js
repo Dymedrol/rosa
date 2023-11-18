@@ -1743,7 +1743,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"initJumboSlider\", function() { return initJumboSlider; });\nconst initJumboSlider = () => {\n  $(\".rosa-jumbotron-slider\").owlCarousel({\n    margin: 0,\n    items: 1,\n    autoHeight: false,\n    dots: true,\n    autoplay: jumbotronSettings.autoplay,\n    autoplayTimeout: jumbotronSettings.autoplayTimeout * 1000,\n    loop: jumbotronSettings.loop\n  });\n};\n\n//# sourceURL=webpack:///./source/js/jumbo-slider.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"initJumboSlider\", function() { return initJumboSlider; });\nconst initJumboSlider = () => {\n  if (typeof jumbotronSettings === 'undefined') {\n    return;\n  }\n\n  $(\".rosa-jumbotron-slider\").owlCarousel({\n    margin: 0,\n    items: 1,\n    autoHeight: false,\n    dots: true,\n    autoplay: jumbotronSettings.autoplay,\n    autoplayTimeout: jumbotronSettings.autoplayTimeout * 1000,\n    loop: jumbotronSettings.loop\n  });\n};\n\n//# sourceURL=webpack:///./source/js/jumbo-slider.js?");
 
 /***/ }),
 

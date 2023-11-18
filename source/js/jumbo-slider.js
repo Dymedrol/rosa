@@ -1,5 +1,9 @@
 export const initJumboSlider = () => {
 
+    if (typeof jumbotronSettings === 'undefined') {
+        return
+    }
+
     $(".rosa-jumbotron-slider").owlCarousel({
         margin: 0,
         items: 1,
