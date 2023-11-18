@@ -94,11 +94,11 @@
           <div class="rosa-account_mobile-commandes-item">
             <div class="rosa-account_mobile-commandes-item-el">
               <div class="rosa-account_mobile-commandes-item-el-label">{{ section.settings.commandes-commande}}</div>
-              <div class="rosa-account_mobile-commandes-item-el-text">{{ 'customer.orders.name' | t }}</div>
+              <div class="rosa-account_mobile-commandes-item-el-text">{{ order.name }}</div>
             </div>
             <div class="rosa-account_mobile-commandes-item-el">
               <div class="rosa-account_mobile-commandes-item-el-label">{{ section.settings.commandes-date }}</div>
-              <div class="rosa-account_mobile-commandes-item-el-text">{{ 'customer.orders.name' | t }}</div>
+              <div class="rosa-account_mobile-commandes-item-el-text">{{ order.created_at | time_tag: format: 'date' }}</div>
             </div>
             <div class="rosa-account_mobile-commandes-item-el">
               <div class="rosa-account_mobile-commandes-item-el-label">{{ section.settings.commandes-status}}</div>
@@ -181,7 +181,7 @@
             {%- if customer.orders.size > 0 -%}
               {%- for order in customer.orders -%}
                 <div class="rosa-account-commandes-el">
-                  <div class="rosa-account-commandes-el-item rosa-account-commandes-el-commande">{{ 'customer.orders.name' | t }}</div>
+                  <div class="rosa-account-commandes-el-item rosa-account-commandes-el-commande">{{ order.name }}</div>
                   <div class="rosa-account-commandes-el-item rosa-account-commandes-el-date">{{ order.created_at | time_tag: format: 'date' }}</div>
                   <div class="rosa-account-commandes-el-item rosa-account-commandes-el-status">{{ order.financial_status_label }}</div>
                   <div class="rosa-account-commandes-el-item rosa-account-commandes-el-total">{{ order.total_net_amount | money_with_currency }}</div>
