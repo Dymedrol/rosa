@@ -12,6 +12,7 @@ export const initJumboSlider = () => {
         autoplay: jumbotronSettings.autoplay,
         autoplayTimeout: jumbotronSettings.autoplayTimeout * 1000,
         loop: jumbotronSettings.loop,
+        smartspeed: 2250,
     });
 }
 
