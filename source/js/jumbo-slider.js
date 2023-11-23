@@ -13,6 +13,7 @@ export const initJumboSlider = () => {
         autoplayTimeout: jumbotronSettings.autoplayTimeout * 1000,
         loop: jumbotronSettings.loop,
         autoplaySpeed: 1300,
+        dotsSpeed: 1300,
     });
 }
 
