@@ -27,6 +27,7 @@
         },
         "076619a4-bfea-4b99-ab17-c234ce71d53f": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "alignment": "right",
             "text_color": "#000000",
