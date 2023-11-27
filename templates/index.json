@@ -57,7 +57,7 @@
         "420e022b-102f-4824-bf0e-038ec48b4200": {
           "type": "slide",
           "settings": {
-            "alignment": "center",
+            "alignment": "left",
             "text_color": "#ffffff",
             "image_banner_title_text": "BOUTIQUE ÉPHÉMÈRE À PARIS",
             "is_title_big": false,
@@ -65,7 +65,8 @@
             "is_text_big": false,
             "image_banner_link_text": "link",
             "image_banner_link_url": "\/",
-            "banner_image": "shopify:\/\/shop_images\/IMG_7436.jpg"
+            "banner_image": "shopify:\/\/shop_images\/IMG_7436.jpg",
+            "banner_image_mobile": "shopify:\/\/shop_images\/IMG_7436.jpg"
           }
         }
       },
