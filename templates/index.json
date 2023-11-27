@@ -27,6 +27,7 @@
         },
         "076619a4-bfea-4b99-ab17-c234ce71d53f": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "alignment": "right",
             "text_color": "#000000",
@@ -85,8 +86,7 @@
         "is_text_big": false,
         "image_banner_link_text": "DÉCOUVRIR NOS PRODUITS",
         "image_banner_link_url": "shopify:\/\/collections\/all",
-        "banner_image": "shopify:\/\/shop_images\/ROSA_MAITEA36876-2.jpg",
-        "banner_image_mobile": "shopify:\/\/shop_images\/jumbo-mobile.png"
+        "banner_image": "shopify:\/\/shop_images\/ROSA_MAITEA36876-2.jpg"
       }
     },
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9": {
@@ -107,7 +107,7 @@
       "type": "collection-slider-with-pic",
       "settings": {
         "is_reverse": false,
-        "slider_2_image": "shopify:\/\/shop_images\/1-2.jpg",
+        "slider_2_image": "shopify:\/\/shop_images\/Rosa_Maitea_Joaillerie_thique_or_recycl_18_carats_et_diamants_recycl_s.jpg",
         "text1": "LA JOAILLERIE ÉTHIQUE ROSA MAÏTEA",
         "text2": "NOS CRÉATIONS ECO-RESPONSABLES",
         "text3": "<p>La collection Arcoiris compose une parure audacieuse réalisée en or jaune 18ct recyclé et serti de pierres 100% traçables : spinelles et grenats de Tanzanie aux magnifiques couleurs vives. <\/p>",
@@ -243,7 +243,7 @@
         "dc525a5f-fbe2-4154-a41b-14e3b349ec3b"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/K6A1999.jpg",
+        "image": "shopify:\/\/shop_images\/Rosa_Maitea_joailleire_en_or_recycle_et_diamants_recycles.jpg",
         "is_reverse": false,
         "is_centred": false,
         "padding_top": 65,
@@ -322,7 +322,7 @@
         ".rosa-backgrounded-link {margin-bottom: 15px !important;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/2-4.jpg",
+        "image": "shopify:\/\/shop_images\/Rosa_Maitea_bagues_thiques_tourbillon.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Rosa_Maitea.jpg"
       }
     },
@@ -389,31 +389,31 @@
         "0ff22ac2-06e6-4c68-b529-bf680a68304c": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pic4.png"
+            "image": "shopify:\/\/shop_images\/Rosa_Maitea_joaillerie_thique_en_or_recycl_showroom_Paris.png"
           }
         },
         "043b215a-e7e0-4732-b45d-d0b44af2efc4": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pic3.png"
+            "image": "shopify:\/\/shop_images\/Rosa_Maitea_joaillerie_thique_Bandeau_en_or_recycl_18_carats.png"
           }
         },
         "caaf968f-db0b-4e67-bd16-5a7796233bf9": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pic2.png"
+            "image": "shopify:\/\/shop_images\/Rosa_Maitea_joaillerie_thique_collier_en_or_recycl_18_carats.png"
           }
         },
         "7013acaa-35b7-426e-8167-027b7a8a878a": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pic1.png"
+            "image": "shopify:\/\/shop_images\/Rosa_Maitea_joaillerie_thique_diamants_recycl_s.png"
           }
         },
         "1f19de02-0bb8-41f7-8079-1843ffe4346e": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image.png"
+            "image": "shopify:\/\/shop_images\/Rosa_Maitea_bague_en_or_recycl_blanc_18_carats_la_bonne_etoile.jpg"
           }
         }
       },
