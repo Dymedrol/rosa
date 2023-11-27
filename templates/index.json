@@ -25,6 +25,21 @@
             "banner_image_mobile": "shopify:\/\/shop_images\/Rosa_Maitea_joaillerie_ethique_en_or_recycles_18_carats_et_diamants_recycles.jpg"
           }
         },
+        "420e022b-102f-4824-bf0e-038ec48b4200": {
+          "type": "slide",
+          "settings": {
+            "alignment": "left",
+            "text_color": "#ffffff",
+            "image_banner_title_text": "BOUTIQUE ÉPHÉMÈRE À PARIS",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "10 Rue Jacob, Paris 6ème",
+            "is_text_big": true,
+            "image_banner_link_text": "link",
+            "image_banner_link_url": "\/",
+            "banner_image": "shopify:\/\/shop_images\/IMG_7436.jpg",
+            "banner_image_mobile": "shopify:\/\/shop_images\/IMG_7436.jpg"
+          }
+        },
         "076619a4-bfea-4b99-ab17-c234ce71d53f": {
           "type": "slide",
           "disabled": true,
@@ -53,28 +68,13 @@
             "image_banner_link_url": "shopify:\/\/pages\/prendre-rendez-vous",
             "banner_image": "shopify:\/\/shop_images\/Rosa_Maitea_Showroom.jpg"
           }
-        },
-        "420e022b-102f-4824-bf0e-038ec48b4200": {
-          "type": "slide",
-          "settings": {
-            "alignment": "left",
-            "text_color": "#ffffff",
-            "image_banner_title_text": "BOUTIQUE ÉPHÉMÈRE À PARIS",
-            "is_title_big": false,
-            "image_banner_subtitle_text": "10 Rue Jacob, Paris 6ème",
-            "is_text_big": true,
-            "image_banner_link_text": "link",
-            "image_banner_link_url": "\/",
-            "banner_image": "shopify:\/\/shop_images\/IMG_7436.jpg",
-            "banner_image_mobile": "shopify:\/\/shop_images\/IMG_7436.jpg"
-          }
         }
       },
       "block_order": [
         "d9928fe9-a1b3-4d88-ae9b-b0f6aef7adbd",
+        "420e022b-102f-4824-bf0e-038ec48b4200",
         "076619a4-bfea-4b99-ab17-c234ce71d53f",
-        "c0c37a82-60e7-4577-a3db-8510872ddcb6",
-        "420e022b-102f-4824-bf0e-038ec48b4200"
+        "c0c37a82-60e7-4577-a3db-8510872ddcb6"
       ],
       "custom_css": [
         ".rosa-jumbotron-slider-title {margin-bottom: 25px !important;}",
