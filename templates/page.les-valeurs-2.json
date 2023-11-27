@@ -222,7 +222,7 @@
         "661bd1f4-4934-4ae0-abcb-9b13007fdab8"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_7619_2.jpg",
+        "image": "shopify:\/\/shop_images\/DSC0677.jpg",
         "is_reverse": true,
         "is_centred": true,
         "padding_top": 90,
@@ -307,7 +307,6 @@
         "fe43283f-3c04-4a05-8738-70fcd481d93b": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Groupe-316_2x_bf01c55f-e725-4ff3-a545-9978772b2916.jpg"
           }
         },
         "6d44e858-7b34-4a1c-b025-1bfef2fa9f59": {
@@ -319,7 +318,6 @@
         "a5d5ee87-561e-4670-b3cb-10875516ff20": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/42.jpg"
           }
         },
         "83edf634-a541-48ca-b04d-8ee9e2230a31": {
@@ -331,7 +329,6 @@
         "aebe5553-6e0a-434b-beda-1b96977d9375": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/web-ROSA_MAITEA36775.jpg"
           }
         }
       },
