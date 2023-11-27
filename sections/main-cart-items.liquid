@@ -56,7 +56,7 @@
                               <img src="{{ item.image | image_url: width: 300 }}" alt="{{ item.image.alt | escape }}" class="rosa-cart-item-product-pic">
                               <div class="rosa-cart-item-info">
                                   <div class="rosa-cart-item-info-title">{{ item.product.title | escape }}</div>
-                                  <div class="rosa-cart-item-info-description">Or recyclé 18 carats, diamants recyclés</div>
+                                  <div class="rosa-cart-item-info-description">{{ item.product.vendor }}</div>
                                   <div class="rosa-cart-item-info-price">{{ item.final_price | money }}</div>
                               </div>
                           </div>
