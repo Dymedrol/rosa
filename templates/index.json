@@ -62,7 +62,7 @@
             "image_banner_title_text": "BOUTIQUE ÉPHÉMÈRE À PARIS",
             "is_title_big": false,
             "image_banner_subtitle_text": "10 Rue Jacob, Paris 6ème",
-            "is_text_big": false,
+            "is_text_big": true,
             "image_banner_link_text": "link",
             "image_banner_link_url": "\/",
             "banner_image": "shopify:\/\/shop_images\/IMG_7436.jpg",
