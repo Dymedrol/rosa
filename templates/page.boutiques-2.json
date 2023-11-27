@@ -16,8 +16,7 @@
         "image_banner_subtitle_text": "",
         "is_text_big": true,
         "image_banner_link_text": "",
-        "image_banner_link_url": "\/",
-        "banner_image": "shopify:\/\/shop_images\/Groupe_175_2x_ca20457d-bdd1-471c-ab37-43b6138d883a.png"
+        "image_banner_link_url": "\/"
       }
     },
     "main": {
@@ -36,8 +35,8 @@
       ],
       "settings": {
         "text1": "POUR TOUTE DEMANDE, VOUS POUVEZ NOUS JOINDRE :",
-        "text2": "Sur whatsapp du lundi au vendredi de 10h à 19h",
-        "text3": "Par rendez-vous au showroom à Paris. Du mardi au vendredi de 9h à 19h Samedi de 10h00 à 12h00",
+        "text2": "<p>Sur whatsapp du lundi au vendredi de 10h à 19h<\/p>",
+        "text3": "<p>Par rendez-vous au showroom à Paris. Du mardi au vendredi de 9h à 19h Samedi de 10h00 à 12h00<\/p>",
         "text4": "PRENDRE RENDEZ-VOUS",
         "text5": "OU EN REMPLISSANT LE FORMULAIRE CI-DESSOUS.",
         "text6": "*Champ obligatoire",
@@ -104,7 +103,7 @@
         "1f3a8b26-0a45-44e5-a658-9c4748ef2c32": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Groupe_356_2x_5c38073d-55e9-4347-bbaa-52611c04531d.png",
+            "image": "shopify:\/\/shop_images\/IMG_4300.jpg",
             "title": "GALERIES LAFAYETTE HAUSSMANN",
             "adresse": "40 Bd Haussmann, 75009 Paris"
           }
@@ -112,7 +111,7 @@
         "43b54a99-a12e-47c0-ac30-51ffeaea5dd9": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Groupe_358_2x_09e47396-2e5d-4f0f-8663-d19b1d25753f.png",
+            "image": "shopify:\/\/shop_images\/IMG_1248.jpg",
             "title": "MERCI Concept Store",
             "adresse": "111 bd Beaumarchais, 75003 Paris"
           }
@@ -120,7 +119,7 @@
         "750fe521-080c-4207-b713-1c0fca61509c": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Groupe_385_2x_c59d36c1-d6e0-4dfd-9cc5-f006f0fa4f34.png",
+            "image": "shopify:\/\/shop_images\/PHOTO-2020-10-13-15-29-37.jpg",
             "title": "BIRDY JOAILLERIE",
             "adresse": "18 rue Saint-Placide, 75006 Paris"
           }
