@@ -23,7 +23,7 @@
             {% else %}
               <img src="{{ collection.featured_image | image_url: width: 500 }}" alt="" class="rosa-collections-item-hover-pic">
             {% endif %}
-            <div class="rosa-collections-item-link">DÉCOUVRIR</div>
+            <div class="rosa-collections-item-link">{{ section.settings.link-text }}</div>
         </div>
 
         {% if collection.metafields.custom.alternative_first_image %}
@@ -48,6 +48,12 @@
       "type": "collection_list",
       "id": "collection_list",
       "label": "Collections"
+    },
+    {
+      "type": "text",
+      "id": "link-text",
+      "label": "DÉCOUVRIR text",
+      "default": "DÉCOUVRIR"
     },
     {
       "type": "range",

@@ -16,7 +16,7 @@
         <a href="{{ article.url }}" class="rosa-blogs-page-item">
           <img src="{{ article.image.src | img_url: '339x318', crop: 'center' }}" alt="{{ article.image.src.alt | escape }}" class="rosa-blogs-page-item-pic">
           <div class="rosa-blogs-page-item-title">{{ article.title | truncate: 50 | escape }}</div>
-          <div class="rosa-blogs-page-item-link">EN SAVOIR PLUS</div>
+          <div class="rosa-blogs-page-item-link">{{ section.settings.link-text }}</div>
         </a>
       {%- endfor -%}
     </div>
@@ -27,5 +27,19 @@
   </section>
 
 {%- endpaginate -%}
+
+{% schema %}
+{
+  "settings": [
+    {
+      "type": "text",
+      "id": "link-text",
+      "label": "EN SAVOIR PLUS text",
+      "default": "EN SAVOIR PLUS"
+    }
+  ]
+}
+
+{% endschema %}
 
 

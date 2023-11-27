@@ -29,7 +29,7 @@
                 {% endfor %}
             </div>
 
-            <a href="{{ section.settings.collection.url }}" class="rosa-collection-slider2-info-collection-link">DÉCOUVRIR LA COLLECTION</a>
+            <a href="{{ section.settings.collection.url }}" class="rosa-collection-slider2-info-collection-link">{{ section.settings.link-text }}</a>
         </div>
     </div>
     <div class="rosa-collection-slider2-pic-wrapper">
@@ -80,6 +80,12 @@
       "type": "collection",
       "id": "collection",
       "label": "collection"
+    },
+    {
+      "type": "text",
+      "id": "link-text",
+      "label": "DÉCOUVRIR LA COLLECTION text",
+      "default": "DÉCOUVRIR LA COLLECTION"
     },
     {
       "type": "range",

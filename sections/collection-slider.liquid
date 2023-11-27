@@ -49,7 +49,7 @@
               <div class="rosa-collection-slider-item-price">{{ product.price | money_without_trailing_zeros }}</div>
               <div class="rosa-collection-slider-item-hover">
                 <img srcset="{{ product.images[1] | img_url: '475x542', crop: 'center' }} 1x, {{ product.images[1] | img_url: '950x1084', crop: 'center' }} 2x" src="{{ product.images[1] | img_url: '475x542', crop: 'center' }}" alt="" class="rosa-collection-slider-item-pic2">
-                <div class="rosa-collection-slider-item-link">DÉCOUVRIR</div>
+                <div class="rosa-collection-slider-item-link">{{ section.settings.link-text }}</div>
               </div>
           </a>
 
@@ -104,6 +104,12 @@
       "type": "collection",
       "id": "collection",
       "label": "collection"
+    },
+    {
+      "type": "text",
+      "id": "link-text",
+      "label": "DÉCOUVRIR text",
+      "default": "DÉCOUVRIR"
     },
     {
       "type": "range",
