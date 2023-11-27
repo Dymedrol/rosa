@@ -53,12 +53,27 @@
             "image_banner_link_url": "shopify:\/\/pages\/prendre-rendez-vous",
             "banner_image": "shopify:\/\/shop_images\/Rosa_Maitea_Showroom.jpg"
           }
+        },
+        "420e022b-102f-4824-bf0e-038ec48b4200": {
+          "type": "slide",
+          "settings": {
+            "alignment": "center",
+            "text_color": "#ffffff",
+            "image_banner_title_text": "BOUTIQUE ÉPHÉMÈRE À PARIS",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "10 Rue Jacob, Paris 6ème",
+            "is_text_big": false,
+            "image_banner_link_text": "link",
+            "image_banner_link_url": "\/",
+            "banner_image": "shopify:\/\/shop_images\/IMG_7436.jpg"
+          }
         }
       },
       "block_order": [
         "d9928fe9-a1b3-4d88-ae9b-b0f6aef7adbd",
         "076619a4-bfea-4b99-ab17-c234ce71d53f",
-        "c0c37a82-60e7-4577-a3db-8510872ddcb6"
+        "c0c37a82-60e7-4577-a3db-8510872ddcb6",
+        "420e022b-102f-4824-bf0e-038ec48b4200"
       ],
       "custom_css": [
         ".rosa-jumbotron-slider-title {margin-bottom: 25px !important;}",
@@ -99,6 +114,7 @@
         "title1": "NOS CRÉATIONS ÉTHIQUES ET DURABLES",
         "title2": "LA JOAILLERIE ÉTHIQUE ROSA MAÏTEA",
         "collection": "home-page-selection-on-top",
+        "link-text": "DÉCOUVRIR",
         "padding_top": 85,
         "padding_bottom": 85
       }
@@ -112,6 +128,7 @@
         "text2": "NOS CRÉATIONS ECO-RESPONSABLES",
         "text3": "<p>La collection Arcoiris compose une parure audacieuse réalisée en or jaune 18ct recyclé et serti de pierres 100% traçables : spinelles et grenats de Tanzanie aux magnifiques couleurs vives. <\/p>",
         "collection": "arcoiris",
+        "link-text": "DÉCOUVRIR LA COLLECTION",
         "padding_top": 90,
         "padding_bottom": 80
       }
@@ -164,6 +181,7 @@
         "@media screen and (max-width: 480px) {.section-template--19626079813962__2c663638-02bd-4aa4-a99b-760dc268b2d9-padding {padding-bottom: 0px !important; }}"
       ],
       "settings": {
+        "link-text": "DÉCOUVRIR",
         "padding_top": 0,
         "padding_bottom": 120
       }
@@ -369,7 +387,8 @@
         "text2": "LA JOAILLERIE ÉTHIQUE ET VISIONNAIRE",
         "link_text": "VOIR TOUTES NOS ACTUALITÉS",
         "link_url": "https:\/\/rosamaitea.com\/blogs\/le-blog-de-rosa-maitea-blog-de-rosa-maitea\/rosa-maitea-x-octobre-rose",
-        "blog": "le-blog-de-rosa-maitea"
+        "blog": "le-blog-de-rosa-maitea",
+        "link-text": "EN SAVOIR PLUS"
       }
     },
     "2da02395-1cac-422e-870f-a68533546811": {
