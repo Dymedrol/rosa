@@ -21,8 +21,8 @@
             "is_text_big": true,
             "image_banner_link_text": "SELECTION SAINT VALENTIN",
             "image_banner_link_url": "shopify:\/\/collections\/selection-saint-valentin",
-            "banner_image": "shopify:\/\/shop_images\/DSC8591_0b2cfdd0-154a-407f-979a-82eb9bd8193c.jpg",
-            "banner_image_mobile": "shopify:\/\/shop_images\/Coeur_Saint_Valentin_91916466-3d2f-40b5-8b06-b7250a6cc217.jpg"
+            "banner_image": "shopify:\/\/shop_images\/Bagues_arcoiris_ethiques_eco_responsables.jpg",
+            "banner_image_mobile": "shopify:\/\/shop_images\/Bagues_arcoiris_ethiques_eco_responsables.jpg"
           }
         },
         "d9928fe9-a1b3-4d88-ae9b-b0f6aef7adbd": {
@@ -111,7 +111,7 @@
         "@media screen and (max-width: 480px) {.section-template--19626079813962__7556615b-ec09-4647-80d0-eb3a4b55c8a9-padding {padding-bottom: 0px !important; }}"
       ],
       "settings": {
-        "tag": "h1",
+        "tag": "div",
         "title1": "NOS CRÉATIONS ÉTHIQUES ET DURABLES",
         "title2": "LA JOAILLERIE ÉTHIQUE ROSA MAÏTEA",
         "collection": "home-page-selection-on-top",
