@@ -134,7 +134,7 @@
         "type": "shopify:\/\/apps\/alma-widget\/blocks\/app-embed\/4f38fc15-ea4e-44b3-96e0-0c0f2daa413f",
         "disabled": false,
         "settings": {
-          "merchantId": "",
+          "merchantId": "11xe19D1Ikj7ms8DJzjUkJhUW9eRi4QBVb",
           "badgeDisplayedOnProduct": true,
           "badgeDisplayedOnCart": true,
           "testMode": false,
