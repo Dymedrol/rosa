@@ -140,7 +140,7 @@
           "testMode": false,
           "customStyleProduct": "",
           "customStyleCart": "",
-          "productPositionSelector": "",
+          "productPositionSelector": ".rosa-pdp-info-price",
           "cartPositionSelector": "",
           "quantityPositionSelector": "",
           "dynamicCartPriceSelector": "",
