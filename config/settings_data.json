@@ -141,7 +141,7 @@
           "customStyleProduct": "",
           "customStyleCart": "",
           "productPositionSelector": ".rosa-pdp-info-price",
-          "cartPositionSelector": "",
+          "cartPositionSelector": ".rosa-cart-item",
           "quantityPositionSelector": "",
           "dynamicCartPriceSelector": "",
           "badgePlans": "",
