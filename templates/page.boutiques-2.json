@@ -148,20 +148,20 @@
             "adresse": "Rue St Adalbert 9, 4000 Liège, Belgique"
           }
         },
-        "item_6pK4CJ": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Capture_d_ecran_2024-02-08_a_09.25.03.png",
-            "title": "FINEMATTER.COM",
-            "adresse": "www.finematter.com"
-          }
-        },
         "item_CKqYcg": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Capture_d_ecran_2024-02-08_a_09.28.43.png",
             "title": "MADLORDS",
             "adresse": "320 rue Saint Honoré, 75001 Paris"
+          }
+        },
+        "item_6pK4CJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Capture_d_ecran_2024-02-08_a_09.25.03.png",
+            "title": "FINEMATTER.COM",
+            "adresse": "www.finematter.com"
           }
         }
       },
@@ -172,8 +172,8 @@
         "5c90ce42-7ea0-4bfe-a50d-d8960da6ea65",
         "feb48cc3-5706-43b5-8313-0d6f5cf1bffe",
         "c09604b9-83a7-4a6d-9639-7843eecdc110",
-        "item_6pK4CJ",
-        "item_CKqYcg"
+        "item_CKqYcg",
+        "item_6pK4CJ"
       ],
       "settings": {
         "title": "NOS POINTS DE VENTE ET BOUTIQUES",
