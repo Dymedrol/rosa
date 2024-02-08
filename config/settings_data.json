@@ -140,7 +140,7 @@
           "testMode": false,
           "customStyleProduct": "",
           "customStyleCart": "display: flex; justify-content: flex-end",
-          "productPositionSelector": ".rosa-cart-bottom-total-wrapper",
+          "productPositionSelector": ".rosa-pdp-info-title",
           "cartPositionSelector": ".rosa-cart-item",
           "quantityPositionSelector": "",
           "dynamicCartPriceSelector": "",
