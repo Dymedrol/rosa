@@ -98,7 +98,7 @@
           "type": "accordion",
           "settings": {
             "title": "OÙ NOUS TROUVER",
-            "text": "<p>Nous avons un showroom dans le centre de Paris ou vous pouvez prendre rdv. Nous avons une liste de boutiques ou nos bijoux sont vendues en France, Belgique et Luxembourg pour le moment. Voici la liste de boutiques.<\/p>"
+            "text": "<p>Nous avons un showroom dans le centre de Paris ou vous pouvez prendre rdv. Nous avons une liste de boutiques ou nos bijoux sont vendues en France, Belgique et Luxembourg pour le moment. <a href=\"\/pages\/boutiques\" title=\"Boutiques\">Voici la liste de boutiques.<\/a><\/p>"
           }
         }
       },
