@@ -14,7 +14,7 @@
           "type": "slide",
           "settings": {
             "alignment": "center",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "image_banner_title_text": "L'AMOUR ENGAGÉ POUR SAINT VALENTIN",
             "is_title_big": false,
             "image_banner_subtitle_text": "Provenant d'<strong>anciens bijoux<\/strong>, ces diamants recyclés sont nos diamants d’amour. Nos bagues sont des petites <strong>bombes d'amour<\/strong> :  amour de l’être cher, amour de notre planète et amour de toutes les personnes qui ont participé à sa création",
@@ -68,13 +68,28 @@
             "image_banner_link_url": "shopify:\/\/pages\/prendre-rendez-vous",
             "banner_image": "shopify:\/\/shop_images\/Rosa_Maitea_Showroom.jpg"
           }
+        },
+        "slide_zjj3YB": {
+          "type": "slide",
+          "settings": {
+            "alignment": "left",
+            "text_color": "#ffffff",
+            "image_banner_title_text": "JOAILLERIE ÉTHIQUE ET JOYEUSE CONÇUE À PARIS",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "text",
+            "is_text_big": false,
+            "image_banner_link_text": "link",
+            "image_banner_link_url": "\/",
+            "banner_image": "shopify:\/\/shop_images\/ROSA_MAITEA37024.jpg"
+          }
         }
       },
       "block_order": [
         "420e022b-102f-4824-bf0e-038ec48b4200",
         "d9928fe9-a1b3-4d88-ae9b-b0f6aef7adbd",
         "076619a4-bfea-4b99-ab17-c234ce71d53f",
-        "c0c37a82-60e7-4577-a3db-8510872ddcb6"
+        "c0c37a82-60e7-4577-a3db-8510872ddcb6",
+        "slide_zjj3YB"
       ],
       "custom_css": [
         ".rosa-jumbotron-slider-title {margin-bottom: 25px !important;}",
