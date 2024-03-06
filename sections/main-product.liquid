@@ -34,7 +34,6 @@
 
                 <form action="/cart/add" method="post" enctype="multipart/form-data">
                   <div class="rosa-pdp-info-controls">
-
                       {%- for option in product.options_with_values -%}
                         <div class="rosa-pdp-select-wrapper">
                           <select name="{{ option.name | handleize }}" class="js-pdp-select">
@@ -44,17 +43,20 @@
                               </option>
                             {%- endfor -%}
                           </select>
+
                           <div class="rosa-pdp-info-controls-item">
                             <span>{{ option.name | handleize }}</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="6.328" height="4.425" viewBox="0 0 6.328 4.425">
                               <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M9.353,14.337l2.393-2.929a.4.4,0,0,1,.639,0,.65.65,0,0,1,0,.783L9.673,15.51a.4.4,0,0,1-.624.016l-2.73-3.332a.648.648,0,0,1,0-.783.4.4,0,0,1,.639,0Z" transform="translate(-6.188 -11.246)"/>
                             </svg>
+
                           </div>
                           <div class="rosa-pdp-info-controls-item-menu">
                             {%- for value in option.values -%}
                               <div class="rosa-pdp-info-controls-item-menu-el" data-value="{{ value | escape }}">{{ value | escape }}</div>
                             {%- endfor -%}
                           </div>
+                          <div class="rosa-pdp-info-controls-item-warning">{{ section.settings.choisissez_votre_option__text }}</div>
                         </div>
                       {%- endfor -%}
                   </div>
@@ -68,8 +70,8 @@
                   <div class="rosa-pdp-info-links"><a href="{{ section.settings.guide_url }}" class="rosa-pdp-info-links-link">{{ section.settings.guide_text }}</a> - <a href="{{ section.settings.gravure_url }}" class="rosa-pdp-info-links-link">{{ section.settings.gravure_text }}</a> - <a href="{{ section.settings.mise_url }}" class="rosa-pdp-info-links-link">{{ section.settings.mise_text }}</a>
                   </div>
 
-                  <input disabled type="submit" name="add" id="add" value="{{ section.settings.cart_button__text }}" class="rosa-pdp-info-button">
-                  <div class="rosa-pdp-info-fav-button js-add-to-favorites rosa-pdp-info-fav-button_disabled">{{ section.settings.cart_fav__text }}</div>
+                  <input type="submit" name="add" id="add" value="{{ section.settings.cart_button__text }}" class="rosa-pdp-info-button js-disabled">
+                  <div class="rosa-pdp-info-fav-button js-add-to-favorites js-disabled">{{ section.settings.cart_fav__text }}</div>
                   <a href="{{ section.settings.fav-url }}" class="rosa-pdp-info-go-fav-button js-go-to-favorites">{{ section.settings.cart_fav__text }}</a>
 
                 </form>
@@ -189,6 +191,12 @@
          "id": "description_du_produit__text",
          "label": "Description du produit  text",
          "default": "Description du produit:"
+       },
+       {
+         "type": "text",
+         "id": "choisissez_votre_option__text",
+         "label": "choisissez votre option  text",
+         "default": "choisissez votre option"
        }
    ]
 }

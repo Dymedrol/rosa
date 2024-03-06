@@ -28,6 +28,7 @@ export const initPdp = () => {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
     const entries = urlParams.entries();
+
     const updateMainInput = function(value, name, isOnLoad) {
         const selectedValue = value;
         selectedOptions[name] = selectedValue;
@@ -37,7 +38,6 @@ export const initPdp = () => {
             url.searchParams.set(name, value);
             history.replaceState({}, "", url);
         }
-
 
         mainOptions.each(function() {
             const text = $(this).text();
@@ -77,12 +77,12 @@ export const initPdp = () => {
         });
 
         if (selectedInputs == selectedOptionsCount) {
-            submitBtn.attr('disabled', false);
-            favBtn.removeClass('rosa-pdp-info-fav-button_disabled');
+            submitBtn.removeClass('js-disabled');
+            favBtn.removeClass('js-disabled');
         }
     }
 
-    for(const entry of entries) {
+    for (const entry of entries) {
         const wrapper = $(`select[name="${entry[0]}"]`).closest('.rosa-pdp-select-wrapper');
         wrapper.addClass('js-selected');
         wrapper.find('.rosa-pdp-info-controls-item span').text(entry[1]);
@@ -98,6 +98,7 @@ export const initPdp = () => {
     $('.rosa-pdp-info-controls-item-menu').click(function(event) {
         const target = $(event.target);
         const wrapper = target.closest('.rosa-pdp-select-wrapper');
+        const warning = wrapper.find('.rosa-pdp-info-controls-item-warning');
         const selectedName = wrapper.find('select').attr("name");
 
         if (target.hasClass("rosa-pdp-info-controls-item-menu-el")) {
@@ -105,11 +106,25 @@ export const initPdp = () => {
             const selectedValue = $(event.target).text();
             wrapper.find('.rosa-pdp-info-controls-item span').text(selectedValue);
             wrapper.find('select').val($(event.target).attr('data-value'));
+            warning.remove();
             updateMainInput(selectedValue, selectedName);
             $(this).hide();
         }
     });
 
+    submitBtn.click(function(e) {
+        if ($(this).hasClass('js-disabled')) {
+            e.preventDefault();
+            $('.rosa-pdp-info-controls').addClass('rosa-pdp-info-controls_show-warnings');
+        }
+    });
+
+    favBtn.click(function(e) {
+        if ($(this).hasClass('js-disabled')) {
+            e.preventDefault();
+            $('.rosa-pdp-info-controls').addClass('rosa-pdp-info-controls_show-warnings');
+        }
+    });
 
 
     const container = document.getElementById("myCarousel");
