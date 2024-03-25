@@ -15,13 +15,13 @@
       "settings": {
         "tag": "div",
         "is_full_screen": false,
-        "alignment": "center",
+        "alignment": "right",
         "text_color": "#ffffff",
         "image_banner_title_text": "",
         "is_title_big": false,
         "image_banner_subtitle_text": "",
         "is_text_big": false,
-        "image_banner_link_text": "",
+        "image_banner_link_text": "en savoir plus",
         "image_banner_link_url": "https:\/\/rosamaitea.com\/products\/bague-ethique-fiancailles-solitaire-spread-love",
         "banner_image": "shopify:\/\/shop_images\/Rosa-Maitea-joaillerie-ethique-collection-spread-love-bagues-de-fiancailles.jpg",
         "banner_image_mobile": "shopify:\/\/shop_images\/Rosa-Maitea-bague-de-fiancailles-ethique-en-or-recycle-18-carats.jpg"
