@@ -15,7 +15,7 @@
       "settings": {
         "tag": "div",
         "is_full_screen": false,
-        "alignment": "right",
+        "alignment": "center",
         "text_color": "#ffffff",
         "image_banner_title_text": "",
         "is_title_big": false,
