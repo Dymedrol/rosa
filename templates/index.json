@@ -71,6 +71,7 @@
         },
         "slide_zjj3YB": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "alignment": "left",
             "text_color": "#121212",
