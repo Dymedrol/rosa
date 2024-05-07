@@ -115,8 +115,8 @@
         "is_full_screen": true,
         "dots_color": "{{ shop.brand.colors.primary[0].background }}",
         "autoplay": true,
-        "loop": false,
-        "autoplayTimeout": 12
+        "loop": true,
+        "autoplayTimeout": 4
       }
     },
     "image_banner": {
