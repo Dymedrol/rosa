@@ -86,15 +86,15 @@
         "slide_UhR8Vc": {
           "type": "slide",
           "settings": {
-            "alignment": "left",
-            "text_color": "#121212",
+            "alignment": "right",
+            "text_color": "#fff",
             "image_banner_title_text": "POPUP ROSA MAÏTEA À LONDRES",
             "is_title_big": false,
             "image_banner_subtitle_text": "",
             "is_text_big": false,
             "image_banner_link_text": "",
             "image_banner_link_url": "\/",
-            "banner_image": "shopify:\/\/shop_images\/INVIT_POUR_LE_SITE.jpg"
+            "banner_image": "shopify:\/\/shop_images\/INVIT_POUR_LE_SITE_ba11ce8c-c197-4888-8324-d782290bd776.jpg"
           }
         }
       },
