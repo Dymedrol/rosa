@@ -89,12 +89,12 @@
             "alignment": "left",
             "text_color": "#121212",
             "image_banner_title_text": "POPUP ROSA MAÏTEA À LONDRES",
-            "is_title_big": true,
-            "image_banner_subtitle_text": "text",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "",
             "is_text_big": false,
-            "image_banner_link_text": "link",
+            "image_banner_link_text": "",
             "image_banner_link_url": "\/",
-            "banner_image": "shopify:\/\/shop_images\/Lilac_Floral_Summer_Inspirational_Instagram_Story_1920_x_1080_px.jpg"
+            "banner_image": "shopify:\/\/shop_images\/INVIT_POUR_LE_SITE.jpg"
           }
         }
       },
