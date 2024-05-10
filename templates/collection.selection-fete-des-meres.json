@@ -1,0 +1,140 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [
+        ".rosa-collection-banner-title {display: none !important;}"
+      ],
+      "settings": {
+        "tag": "div"
+      }
+    },
+    "e6ecc10c-9aff-44b4-b9d1-68b1e63da577": {
+      "type": "rosa-quote",
+      "disabled": true,
+      "settings": {
+        "tag": "div",
+        "text1": "Les Bonnes Étoiles existent également en version arc-en-ciel : La collection Arcoiris. Variation polychrome sur le thème de l’étoile, Arcoiris compose une parure audacieuse réalisée en or jaune 18ct recyclé et serti de pierres 100% traçables : spinelles et grenats de Tanzanie aux magnifiques couleurs vives",
+        "text2": "",
+        "link_text": "",
+        "link_url": "\/",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "enable_promo_card": false,
+        "enable_filtering": true,
+        "enable_filtering_by_product_type": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "9b7251da-a436-4ee3-86d9-43e5a2375824": {
+      "type": "double",
+      "blocks": {
+        "4c86542f-6c74-4961-94ed-b043fe20da2b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Collection Arcoiris<\/p>"
+          }
+        },
+        "d2e22a52-2031-49cf-b351-f80fdd768551": {
+          "type": "heading",
+          "settings": {
+            "heading1": "",
+            "heading2": "Variation polychrome sur le thème de l’étoile"
+          }
+        },
+        "72f17976-0055-4da3-bada-32d0ea229273": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Arcoiris compose une parure audacieuse réalisée en or jaune 18ct recyclé et serti de pierres 100% traçables : <strong>spinelles et grenats<\/strong> de Tanzanie aux magnifiques couleurs vives. <\/p>"
+          }
+        },
+        "fc054447-71a8-41ce-9100-b52d6b4385ea": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Placée sous le triple signe de la joie, de la beauté et de la protection de notre environnement, la collection Arcoiris renouvelle avec bonheur le design de la <strong>joaillerie éthique<\/strong>. <\/p>"
+          }
+        },
+        "cd2b9a8a-6684-42b2-a9e3-47ed36321182": {
+          "type": "link",
+          "settings": {
+            "link_text": "Collection Arcoiris",
+            "link_url": "shopify:\/\/collections\/arcoiris"
+          }
+        }
+      },
+      "block_order": [
+        "4c86542f-6c74-4961-94ed-b043fe20da2b",
+        "d2e22a52-2031-49cf-b351-f80fdd768551",
+        "72f17976-0055-4da3-bada-32d0ea229273",
+        "fc054447-71a8-41ce-9100-b52d6b4385ea",
+        "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/14.jpg",
+        "is_reverse": false,
+        "is_centred": true,
+        "padding_top": 30,
+        "padding_bottom": 15
+      }
+    },
+    "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
+      "type": "rosa-header2",
+      "settings": {
+        "tag": "div",
+        "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
+        "text2": "NOUS VOUS ACCUEILLONS DANS NOTRE SHOWROOM AVEC JOIE",
+        "padding_top": 45,
+        "padding_bottom": 25
+      }
+    },
+    "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/Les points de vente de Rosa Maïtea.mov",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/video.png",
+        "description": ""
+      }
+    },
+    "c35448d9-1175-475c-9d96-16d0b67db72b": {
+      "type": "rosa-quote",
+      "settings": {
+        "tag": "div",
+        "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun.»",
+        "text2": "Patricia Pereda - Directrice artistique et fondatrice de Rosa Maïtea",
+        "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
+        "link_url": "shopify:\/\/pages\/prendre-rendez-vous",
+        "padding_top": 80,
+        "padding_bottom": 85
+      }
+    },
+    "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#000000",
+        "is_static": true
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "e6ecc10c-9aff-44b4-b9d1-68b1e63da577",
+    "product-grid",
+    "9b7251da-a436-4ee3-86d9-43e5a2375824",
+    "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
+    "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
+    "c35448d9-1175-475c-9d96-16d0b67db72b",
+    "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8"
+  ]
+}
