@@ -10,6 +10,20 @@
     "552ce905-cb0f-4745-bc21-4022a0b6a86c": {
       "type": "rosa-jumbo-slider",
       "blocks": {
+        "slide_EghGXc": {
+          "type": "slide",
+          "settings": {
+            "alignment": "left",
+            "text_color": "#121212",
+            "image_banner_title_text": "MON MAMAN, MON ÉTOILE",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "Nos <strong>mamans<\/strong>, ce sont nos piliers, nos sources d'inspiration, celles qui ont toujours été là quand nous avions besoin d'elles. Nous savons que nous pouvons toujours compter sur elles, peu importe ce que la vie nous réserve. Elles sont les lumières qui guident nos pas dans l'obscurité, et nous sommes reconnaissants chaque jour de les avoir comme mamans. <strong>Nos mamans, nos étoiles.<\/strong> ",
+            "is_text_big": false,
+            "image_banner_link_text": "VOICI LA SELECTION CADEAUX FÊTE DES MÈRES",
+            "image_banner_link_url": "shopify:\/\/collections\/selection-fete-des-meres",
+            "banner_image": "shopify:\/\/shop_images\/Collier_ethique_bonne_etoile_rosa_maitea.jpg"
+          }
+        },
         "420e022b-102f-4824-bf0e-038ec48b4200": {
           "type": "slide",
           "settings": {
@@ -97,30 +111,16 @@
             "image_banner_link_url": "\/",
             "banner_image": "shopify:\/\/shop_images\/ROSA_MAITEA37024.jpg"
           }
-        },
-        "slide_EghGXc": {
-          "type": "slide",
-          "settings": {
-            "alignment": "left",
-            "text_color": "#ffffff",
-            "image_banner_title_text": "MON MAMAN, MON ÉTOILE",
-            "is_title_big": false,
-            "image_banner_subtitle_text": "Nos <strong>mamans<\/strong>, ce sont nos piliers, nos sources d'inspiration, celles qui ont toujours été là quand nous avions besoin d'elles. Nous savons que nous pouvons toujours compter sur elles, peu importe ce que la vie nous réserve. Elles sont les lumières qui guident nos pas dans l'obscurité, et nous sommes reconnaissants chaque jour de les avoir comme mamans. <strong>Nos mamans, nos étoiles.<\/strong> ",
-            "is_text_big": false,
-            "image_banner_link_text": "REGARDER NOTRE SELECTION CADEAUX FÊTE DES MÈRES",
-            "image_banner_link_url": "shopify:\/\/collections\/selection-fete-des-meres",
-            "banner_image": "shopify:\/\/shop_images\/Collier_ethique_bonne_etoile_rosa_maitea.jpg"
-          }
         }
       },
       "block_order": [
+        "slide_EghGXc",
         "420e022b-102f-4824-bf0e-038ec48b4200",
         "d9928fe9-a1b3-4d88-ae9b-b0f6aef7adbd",
         "slide_UhR8Vc",
         "076619a4-bfea-4b99-ab17-c234ce71d53f",
         "c0c37a82-60e7-4577-a3db-8510872ddcb6",
-        "slide_zjj3YB",
-        "slide_EghGXc"
+        "slide_zjj3YB"
       ],
       "custom_css": [
         ".rosa-jumbotron-slider-title {margin-bottom: 25px !important;}",
