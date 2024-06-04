@@ -66,6 +66,13 @@
             "title": "LE COLORIS",
             "adresse": "Rue St Adalbert 9, 4000 Liège, Belgique"
           }
+        },
+        "item_E9XeAb": {
+          "type": "item",
+          "settings": {
+            "title": "JILL WOLF",
+            "adresse": "Grand Rue 39, 1204 Génève"
+          }
         }
       },
       "block_order": [
@@ -74,7 +81,8 @@
         "750fe521-080c-4207-b713-1c0fca61509c",
         "5c90ce42-7ea0-4bfe-a50d-d8960da6ea65",
         "feb48cc3-5706-43b5-8313-0d6f5cf1bffe",
-        "c09604b9-83a7-4a6d-9639-7843eecdc110"
+        "c09604b9-83a7-4a6d-9639-7843eecdc110",
+        "item_E9XeAb"
       ],
       "settings": {
         "title": "NOS POINTS DE VENTE ET BOUTIQUES",
