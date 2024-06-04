@@ -158,10 +158,19 @@
         },
         "item_6pK4CJ": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Capture_d_ecran_2024-02-08_a_09.25.03.png",
             "title": "FINEMATTER.COM",
             "adresse": "www.finematter.com"
+          }
+        },
+        "item_GP9hAy": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_8696_heic.webp",
+            "title": "JILL WOLF",
+            "adresse": "Rue Grand Rue 39, 1204 Génève"
           }
         }
       },
@@ -173,7 +182,8 @@
         "feb48cc3-5706-43b5-8313-0d6f5cf1bffe",
         "c09604b9-83a7-4a6d-9639-7843eecdc110",
         "item_CKqYcg",
-        "item_6pK4CJ"
+        "item_6pK4CJ",
+        "item_GP9hAy"
       ],
       "settings": {
         "title": "NOS POINTS DE VENTE ET BOUTIQUES",
