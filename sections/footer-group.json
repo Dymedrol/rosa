@@ -4,7 +4,6 @@
   "sections": {
     "d81a8113-477c-4685-8db0-4a45a3357812": {
       "type": "rosa-subscrive",
-      "disabled": true,
       "custom_css": [
         ".rosa-subscribe {background: #ff6969 !important;}"
       ],
