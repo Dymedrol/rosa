@@ -23,13 +23,13 @@
           "type": "slide",
           "settings": {
             "alignment": "center",
-            "text_color": "#ffffff",
+            "text_color": "#000000",
             "image_banner_title_text": "NOUVEAU SERVICE SUR-MESURE",
-            "is_title_big": false,
+            "is_title_big": true,
             "image_banner_subtitle_text": "Réinventez vos bijoux avec Rosa Maïtea ✨",
             "is_text_big": false,
-            "image_banner_link_text": "link",
-            "image_banner_link_url": "\/",
+            "image_banner_link_text": "Découvrez notre service sur-mesure",
+            "image_banner_link_url": "shopify:\/\/pages\/creation-sur-mesure",
             "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-110_7c659c1d-bc1d-4564-8681-ffb1e37cf32b.jpg",
             "banner_image_mobile": "shopify:\/\/shop_images\/Webp.net-resizeimage-110_7c659c1d-bc1d-4564-8681-ffb1e37cf32b.jpg"
           }
