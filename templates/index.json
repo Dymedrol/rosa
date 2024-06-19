@@ -19,21 +19,6 @@
     "552ce905-cb0f-4745-bc21-4022a0b6a86c": {
       "type": "rosa-jumbo-slider",
       "blocks": {
-        "slide_KYKBeC": {
-          "type": "slide",
-          "settings": {
-            "alignment": "left",
-            "text_color": "#000000",
-            "image_banner_title_text": "NOUVEAU SERVICE SUR-MESURE",
-            "is_title_big": true,
-            "image_banner_subtitle_text": "Réinventez vos bijoux avec Rosa Maïtea ✨",
-            "is_text_big": false,
-            "image_banner_link_text": "Découvrez notre service sur-mesure",
-            "image_banner_link_url": "shopify:\/\/pages\/creation-sur-mesure",
-            "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-110_7c659c1d-bc1d-4564-8681-ffb1e37cf32b.jpg",
-            "banner_image_mobile": "shopify:\/\/shop_images\/Webp.net-resizeimage-110_7c659c1d-bc1d-4564-8681-ffb1e37cf32b.jpg"
-          }
-        },
         "slide_EghGXc": {
           "type": "slide",
           "disabled": true,
@@ -58,10 +43,25 @@
             "is_title_big": true,
             "image_banner_subtitle_text": "Provenant d'<strong>anciens bijoux<\/strong>, ces diamants recyclés sont nos diamants d’amour. Nos bagues sont des petites <strong>bombes d'amour<\/strong> :  amour de l’être cher, amour de notre planète et amour de toutes les personnes qui ont participé à sa création",
             "is_text_big": false,
-            "image_banner_link_text": "",
+            "image_banner_link_text": "Découvrez nos bijoux colorés",
             "image_banner_link_url": "shopify:\/\/collections\/arcoiris",
             "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-175.jpg",
             "banner_image_mobile": "shopify:\/\/shop_images\/Bagues_arcoiris_ethiques_eco_responsables.jpg"
+          }
+        },
+        "slide_KYKBeC": {
+          "type": "slide",
+          "settings": {
+            "alignment": "left",
+            "text_color": "#000000",
+            "image_banner_title_text": "NOUVEAU SERVICE SUR-MESURE",
+            "is_title_big": true,
+            "image_banner_subtitle_text": "Réinventez vos bijoux avec Rosa Maïtea ✨",
+            "is_text_big": false,
+            "image_banner_link_text": "Découvrez notre service sur-mesure",
+            "image_banner_link_url": "shopify:\/\/pages\/creation-sur-mesure",
+            "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-110_7c659c1d-bc1d-4564-8681-ffb1e37cf32b.jpg",
+            "banner_image_mobile": "shopify:\/\/shop_images\/Webp.net-resizeimage-110_7c659c1d-bc1d-4564-8681-ffb1e37cf32b.jpg"
           }
         },
         "d9928fe9-a1b3-4d88-ae9b-b0f6aef7adbd": {
@@ -140,9 +140,9 @@
         }
       },
       "block_order": [
-        "slide_KYKBeC",
         "slide_EghGXc",
         "420e022b-102f-4824-bf0e-038ec48b4200",
+        "slide_KYKBeC",
         "d9928fe9-a1b3-4d88-ae9b-b0f6aef7adbd",
         "slide_UhR8Vc",
         "076619a4-bfea-4b99-ab17-c234ce71d53f",
