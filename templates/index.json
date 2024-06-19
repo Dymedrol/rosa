@@ -37,7 +37,7 @@
         "slide_KYKBeC": {
           "type": "slide",
           "settings": {
-            "alignment": "center",
+            "alignment": "right",
             "text_color": "#ffffff",
             "image_banner_title_text": "SERVICE SUR-MESURE",
             "is_title_big": true,
