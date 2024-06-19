@@ -22,7 +22,7 @@
         "slide_KYKBeC": {
           "type": "slide",
           "settings": {
-            "alignment": "center",
+            "alignment": "left",
             "text_color": "#000000",
             "image_banner_title_text": "NOUVEAU SERVICE SUR-MESURE",
             "is_title_big": true,
