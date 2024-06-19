@@ -19,21 +19,6 @@
     "552ce905-cb0f-4745-bc21-4022a0b6a86c": {
       "type": "rosa-jumbo-slider",
       "blocks": {
-        "slide_EghGXc": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "alignment": "left",
-            "text_color": "#121212",
-            "image_banner_title_text": "MA MAMAN, MON ÉTOILE",
-            "is_title_big": false,
-            "image_banner_subtitle_text": "Nos <strong>mamans<\/strong>, ce sont nos piliers, nos <strong>sources d'inspiration<\/strong>, celles qui ont toujours été là quand nous avions besoin d'elles. Elles sont <strong>les lumières qui guident<\/strong> nos pas dans la vie, et nous sommes reconnaissants chaque jour de les avoir comme mamans. <strong>Nos mamans, nos étoiles.<\/strong> Sa fête est le <strong>26 mai <\/strong>!",
-            "is_text_big": false,
-            "image_banner_link_text": "VOICI LA SELECTION CADEAUX FÊTE DES MÈRES",
-            "image_banner_link_url": "shopify:\/\/collections\/selection-fete-des-meres",
-            "banner_image": "shopify:\/\/shop_images\/Collier_ethique_bonne_etoile_rosa_maitea.jpg"
-          }
-        },
         "420e022b-102f-4824-bf0e-038ec48b4200": {
           "type": "slide",
           "settings": {
@@ -70,13 +55,42 @@
             "alignment": "left",
             "text_color": "#000000",
             "image_banner_title_text": "Tous nos bijoux sont éthiques et éco-résponsables",
-            "is_title_big": false,
+            "is_title_big": true,
             "image_banner_subtitle_text": "Messages d’amour, signes d’espoirs et vœux de protection à une nature source de beauté. Nos créations sont en <strong>or et diamants recyclés<\/strong>, et <strong>pierres précieuses<\/strong> traçables.",
             "is_text_big": false,
             "image_banner_link_text": "Découvrir nos bijoux",
             "image_banner_link_url": "shopify:\/\/collections\/all",
             "banner_image": "shopify:\/\/shop_images\/Rosa_Maitea_collection_la_favorite_en_or_recycle_18_carats_et_tourmalines_tracables.jpg",
             "banner_image_mobile": "shopify:\/\/shop_images\/Rosa-Maitea-joaillerie-ethique-collection-la-favorite-en-or-recycle-et-tourmaline.jpg"
+          }
+        },
+        "c0c37a82-60e7-4577-a3db-8510872ddcb6": {
+          "type": "slide",
+          "settings": {
+            "alignment": "center",
+            "text_color": "#000000",
+            "image_banner_title_text": "PRENEZ RENDEZ-VOUS DANS NOTRE SHOWROOM",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "",
+            "is_text_big": false,
+            "image_banner_link_text": "Prendre RDV",
+            "image_banner_link_url": "shopify:\/\/pages\/prendre-rendez-vous",
+            "banner_image": "shopify:\/\/shop_images\/Rosa_Maitea_Showroom.jpg"
+          }
+        },
+        "slide_zjj3YB": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "alignment": "left",
+            "text_color": "#121212",
+            "image_banner_title_text": "JOAILLERIE ÉTHIQUE ET JOYEUSE CONÇUE À PARIS",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "",
+            "is_text_big": false,
+            "image_banner_link_text": "VOIR NOS COLLECTIONS",
+            "image_banner_link_url": "\/",
+            "banner_image": "shopify:\/\/shop_images\/ROSA_MAITEA37024.jpg"
           }
         },
         "slide_UhR8Vc": {
@@ -109,45 +123,31 @@
             "banner_image": "shopify:\/\/shop_images\/Joaillerie_ethique_et_joyeuse-3.jpg"
           }
         },
-        "c0c37a82-60e7-4577-a3db-8510872ddcb6": {
-          "type": "slide",
-          "settings": {
-            "alignment": "center",
-            "text_color": "#000000",
-            "image_banner_title_text": "PRENEZ RENDEZ-VOUS DANS NOTRE SHOWROOM",
-            "is_title_big": false,
-            "image_banner_subtitle_text": "",
-            "is_text_big": false,
-            "image_banner_link_text": "Prendre RDV",
-            "image_banner_link_url": "shopify:\/\/pages\/prendre-rendez-vous",
-            "banner_image": "shopify:\/\/shop_images\/Rosa_Maitea_Showroom.jpg"
-          }
-        },
-        "slide_zjj3YB": {
+        "slide_EghGXc": {
           "type": "slide",
           "disabled": true,
           "settings": {
             "alignment": "left",
             "text_color": "#121212",
-            "image_banner_title_text": "JOAILLERIE ÉTHIQUE ET JOYEUSE CONÇUE À PARIS",
+            "image_banner_title_text": "MA MAMAN, MON ÉTOILE",
             "is_title_big": false,
-            "image_banner_subtitle_text": "",
+            "image_banner_subtitle_text": "Nos <strong>mamans<\/strong>, ce sont nos piliers, nos <strong>sources d'inspiration<\/strong>, celles qui ont toujours été là quand nous avions besoin d'elles. Elles sont <strong>les lumières qui guident<\/strong> nos pas dans la vie, et nous sommes reconnaissants chaque jour de les avoir comme mamans. <strong>Nos mamans, nos étoiles.<\/strong> Sa fête est le <strong>26 mai <\/strong>!",
             "is_text_big": false,
-            "image_banner_link_text": "VOIR NOS COLLECTIONS",
-            "image_banner_link_url": "\/",
-            "banner_image": "shopify:\/\/shop_images\/ROSA_MAITEA37024.jpg"
+            "image_banner_link_text": "VOICI LA SELECTION CADEAUX FÊTE DES MÈRES",
+            "image_banner_link_url": "shopify:\/\/collections\/selection-fete-des-meres",
+            "banner_image": "shopify:\/\/shop_images\/Collier_ethique_bonne_etoile_rosa_maitea.jpg"
           }
         }
       },
       "block_order": [
-        "slide_EghGXc",
         "420e022b-102f-4824-bf0e-038ec48b4200",
         "slide_KYKBeC",
         "d9928fe9-a1b3-4d88-ae9b-b0f6aef7adbd",
+        "c0c37a82-60e7-4577-a3db-8510872ddcb6",
+        "slide_zjj3YB",
         "slide_UhR8Vc",
         "076619a4-bfea-4b99-ab17-c234ce71d53f",
-        "c0c37a82-60e7-4577-a3db-8510872ddcb6",
-        "slide_zjj3YB"
+        "slide_EghGXc"
       ],
       "custom_css": [
         ".rosa-jumbotron-slider-title {margin-bottom: 25px !important;}",
