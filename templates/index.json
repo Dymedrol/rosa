@@ -121,6 +121,21 @@
             "image_banner_link_url": "\/",
             "banner_image": "shopify:\/\/shop_images\/ROSA_MAITEA37024.jpg"
           }
+        },
+        "slide_KYKBeC": {
+          "type": "slide",
+          "settings": {
+            "alignment": "center",
+            "text_color": "#ffffff",
+            "image_banner_title_text": "NOUVEAU SERVICE SUR-MESURE",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "Réinventez vos bijoux avec Rosa Maïtea ✨",
+            "is_text_big": false,
+            "image_banner_link_text": "link",
+            "image_banner_link_url": "\/",
+            "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-110_7c659c1d-bc1d-4564-8681-ffb1e37cf32b.jpg",
+            "banner_image_mobile": "shopify:\/\/shop_images\/Webp.net-resizeimage-110_7c659c1d-bc1d-4564-8681-ffb1e37cf32b.jpg"
+          }
         }
       },
       "block_order": [
@@ -130,7 +145,8 @@
         "slide_UhR8Vc",
         "076619a4-bfea-4b99-ab17-c234ce71d53f",
         "c0c37a82-60e7-4577-a3db-8510872ddcb6",
-        "slide_zjj3YB"
+        "slide_zjj3YB",
+        "slide_KYKBeC"
       ],
       "custom_css": [
         ".rosa-jumbotron-slider-title {margin-bottom: 25px !important;}",
