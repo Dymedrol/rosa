@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "7a3bc92f-6423-460d-a7b4-238e81713e03": {
@@ -56,6 +65,7 @@
         },
         "slide_UhR8Vc": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "alignment": "right",
             "text_color": "#ffffff",
