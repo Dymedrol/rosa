@@ -40,7 +40,7 @@
             "alignment": "center",
             "text_color": "#000000",
             "image_banner_title_text": "SERVICE SUR-MESURE",
-            "is_title_big": false,
+            "is_title_big": true,
             "image_banner_subtitle_text": "Réinventez vos bijoux avec Rosa Maïtea ✨",
             "is_text_big": false,
             "image_banner_link_text": "Découvrez notre service sur-mesure",
