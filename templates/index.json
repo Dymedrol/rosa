@@ -126,13 +126,13 @@
         "slide_rd76XP": {
           "type": "slide",
           "settings": {
-            "alignment": "center",
-            "text_color": "#ffffff",
+            "alignment": "left",
+            "text_color": "#121212",
             "image_banner_title_text": "L'AMOUR ENGAGÉ",
             "is_title_big": false,
             "image_banner_subtitle_text": "Toutes nos bagues sont en<strong> or recyclé et<\/strong> <strong>diamants recyclés.<\/strong>",
             "is_text_big": false,
-            "image_banner_link_text": "Provenant d'<strong>anciens bijoux<\/strong>, ces diamants recyclés sont nos diamants d’amour. Nos bagues sont des petites <strong>bombes d'amour<\/strong> :  amour de l’être cher, amour de notre planète et amour de toutes les personnes qui ont participé à sa création ❤️",
+            "image_banner_link_text": "Provenant d'<strong>anciens bijoux<\/strong>, ces diamants recyclés sont nos diamants d’amour. Nos bagues sont des petites <strong>bombes d'amour<\/strong> :  amour de l’être cher, amour de notre planète et amour de toutes les personnes qui ont participé à sa création",
             "image_banner_link_url": "shopify:\/\/collections\/rosa-maitea",
             "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-177.jpg",
             "banner_image_mobile": "shopify:\/\/shop_images\/Webp.net-resizeimage-177.jpg"
