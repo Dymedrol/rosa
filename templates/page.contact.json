@@ -60,6 +60,7 @@
         "1f3a8b26-0a45-44e5-a658-9c4748ef2c32": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Rosa_Maitea_joaillerie_ethique.png",
             "title": "GALERIES LAFAYETTE HAUSSMANN",
             "adresse": "40 Bd Haussmann, 75009 Paris"
           }
@@ -67,6 +68,7 @@
         "43b54a99-a12e-47c0-ac30-51ffeaea5dd9": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Rosa_Maitea_joaillerie_ethique_or_recycl.png",
             "title": "MERCI Concept Store",
             "adresse": "111 bd Beaumarchais, 75003 Paris"
           }
@@ -74,6 +76,7 @@
         "750fe521-080c-4207-b713-1c0fca61509c": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Rosa_Maitea_joaillerie_ethique_diamants_recycl_s.png",
             "title": "BIRDY JOAILLERIE",
             "adresse": "18 rue Saint-Placide, 75006 Paris"
           }
