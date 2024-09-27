@@ -21,7 +21,7 @@
     <li class="rosa-contacts-list-item">{{ section.settings.text2 }}</li>
     <li class="rosa-contacts-list-item">{{ section.settings.text3 }}</li>
   </ul>
-  <a href="/" class="rosa-contacts-rendez-vous">{{ section.settings.text4 }}</a>
+  <a href="{{ section.settings.text4-url }}" class="rosa-contacts-rendez-vous">{{ section.settings.text4 }}</a>
   <div class="rosa-contacts-text2">{{ section.settings.text5 }}</div>
   <div class="rosa-contacts-text3">{{ section.settings.text6 }}</div>
 
@@ -142,6 +142,12 @@
       "id": "text4",
       "default": "PRENDRE RENDEZ-VOUS EN VISIO",
       "label": "text 4"
+    },
+    {
+      "type": "url",
+      "id": "text4-url",
+      "default": "/",
+      "label": "text 4 url"
     },
     {
       "type": "text",
