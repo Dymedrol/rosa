@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "7a3bc92f-6423-460d-a7b4-238e81713e03": {
@@ -19,6 +19,21 @@
     "552ce905-cb0f-4745-bc21-4022a0b6a86c": {
       "type": "rosa-jumbo-slider",
       "blocks": {
+        "d9928fe9-a1b3-4d88-ae9b-b0f6aef7adbd": {
+          "type": "slide",
+          "settings": {
+            "alignment": "left",
+            "text_color": "#000000",
+            "image_banner_title_text": "Bijoux éthiques et eco-responsables",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "Messages d’amour, signes d’espoirs et vœux de protection à une nature source de beauté. Nos créations sont en <strong>or et diamants recyclés</strong>, et <strong>pierres précieuses</strong> <strong>traçables.</strong>",
+            "is_text_big": false,
+            "image_banner_link_text": "Découvrir nos bijoux",
+            "image_banner_link_url": "shopify://collections/all",
+            "banner_image": "shopify://shop_images/Rosa_Maitea_collection_la_favorite_en_or_recycle_18_carats_et_tourmalines_tracables.jpg",
+            "banner_image_mobile": "shopify://shop_images/ROSA_MAITEA37007.jpg"
+          }
+        },
         "slide_rd76XP": {
           "type": "slide",
           "settings": {
@@ -26,12 +41,12 @@
             "text_color": "#121212",
             "image_banner_title_text": "L'AMOUR ENGAGÉ",
             "is_title_big": false,
-            "image_banner_subtitle_text": "Toutes nos bagues sont en<strong> or recyclé et<\/strong> <strong>diamants recyclés. <\/strong>Provenant d'<strong>anciens bijoux<\/strong>, ces diamants recyclés sont <strong>nos diamants d’amour. <\/strong>",
+            "image_banner_subtitle_text": "Toutes nos bagues sont en<strong> or recyclé et</strong> <strong>diamants recyclés. </strong>Provenant d'<strong>anciens bijoux</strong>, ces diamants recyclés sont <strong>nos diamants d’amour. </strong>",
             "is_text_big": false,
             "image_banner_link_text": "Découvrez nos bagues de fiançailles éthiques",
-            "image_banner_link_url": "shopify:\/\/collections\/rosa-maitea",
-            "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-177.jpg",
-            "banner_image_mobile": "shopify:\/\/shop_images\/ROSA_MAITEA37267.jpg"
+            "image_banner_link_url": "shopify://collections/rosa-maitea",
+            "banner_image": "shopify://shop_images/Webp.net-resizeimage-177.jpg",
+            "banner_image_mobile": "shopify://shop_images/ROSA_MAITEA37267.jpg"
           }
         },
         "420e022b-102f-4824-bf0e-038ec48b4200": {
@@ -41,12 +56,12 @@
             "text_color": "#ffffff",
             "image_banner_title_text": "CRÉATIONS ETHIQUES ET JOYEUSES",
             "is_title_big": true,
-            "image_banner_subtitle_text": "Nos créations sont des petites <strong>bombes d'amour<\/strong> : amour de l’être cher, amour de notre planète et amour de toutes les personnes qui ont participé à sa création",
+            "image_banner_subtitle_text": "Nos créations sont des petites <strong>bombes d'amour</strong> : amour de l’être cher, amour de notre planète et amour de toutes les personnes qui ont participé à sa création",
             "is_text_big": false,
             "image_banner_link_text": "Découvrez nos bijoux colorés",
-            "image_banner_link_url": "shopify:\/\/collections\/arcoiris",
-            "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-175.jpg",
-            "banner_image_mobile": "shopify:\/\/shop_images\/Bagues_arcoiris_ethiques_eco_responsables.jpg"
+            "image_banner_link_url": "shopify://collections/arcoiris",
+            "banner_image": "shopify://shop_images/Webp.net-resizeimage-175.jpg",
+            "banner_image_mobile": "shopify://shop_images/Bagues_arcoiris_ethiques_eco_responsables.jpg"
           }
         },
         "slide_KYKBeC": {
@@ -56,27 +71,12 @@
             "text_color": "#121212",
             "image_banner_title_text": "SERVICE SUR-MESURE",
             "is_title_big": true,
-            "image_banner_subtitle_text": "Réinventez vos bijoux avec Rosa Maïtea ✨ <strong>Redesign de vos bijoux anciens<\/strong>",
+            "image_banner_subtitle_text": "Réinventez vos bijoux avec Rosa Maïtea ✨ <strong>Redesign de vos bijoux anciens</strong>",
             "is_text_big": false,
             "image_banner_link_text": "Découvrez notre service sur-mesure",
-            "image_banner_link_url": "shopify:\/\/pages\/creation-sur-mesure",
-            "banner_image": "shopify:\/\/shop_images\/Webp.net-resizeimage-110_7c659c1d-bc1d-4564-8681-ffb1e37cf32b.jpg",
-            "banner_image_mobile": "shopify:\/\/shop_images\/Webp.net-resizeimage-110_7c659c1d-bc1d-4564-8681-ffb1e37cf32b.jpg"
-          }
-        },
-        "d9928fe9-a1b3-4d88-ae9b-b0f6aef7adbd": {
-          "type": "slide",
-          "settings": {
-            "alignment": "left",
-            "text_color": "#000000",
-            "image_banner_title_text": "Bijoux éthiques et eco-responsables",
-            "is_title_big": false,
-            "image_banner_subtitle_text": "Messages d’amour, signes d’espoirs et vœux de protection à une nature source de beauté. Nos créations sont en <strong>or et diamants recyclés<\/strong>, et <strong>pierres précieuses<\/strong> <strong>traçables.<\/strong>",
-            "is_text_big": false,
-            "image_banner_link_text": "Découvrir nos bijoux",
-            "image_banner_link_url": "shopify:\/\/collections\/all",
-            "banner_image": "shopify:\/\/shop_images\/Rosa_Maitea_collection_la_favorite_en_or_recycle_18_carats_et_tourmalines_tracables.jpg",
-            "banner_image_mobile": "shopify:\/\/shop_images\/ROSA_MAITEA37007.jpg"
+            "image_banner_link_url": "shopify://pages/creation-sur-mesure",
+            "banner_image": "shopify://shop_images/Webp.net-resizeimage-110_7c659c1d-bc1d-4564-8681-ffb1e37cf32b.jpg",
+            "banner_image_mobile": "shopify://shop_images/Webp.net-resizeimage-110_7c659c1d-bc1d-4564-8681-ffb1e37cf32b.jpg"
           }
         },
         "c0c37a82-60e7-4577-a3db-8510872ddcb6": {
@@ -89,8 +89,8 @@
             "image_banner_subtitle_text": "Au coeur de Paris, venez vivre une experience unique et inoubliable !",
             "is_text_big": false,
             "image_banner_link_text": "Prendre RDV",
-            "image_banner_link_url": "shopify:\/\/pages\/prendre-rendez-vous",
-            "banner_image": "shopify:\/\/shop_images\/Rosa_Maitea_Showroom.jpg"
+            "image_banner_link_url": "shopify://pages/prendre-rendez-vous",
+            "banner_image": "shopify://shop_images/Rosa_Maitea_Showroom.jpg"
           }
         },
         "slide_zjj3YB": {
@@ -104,8 +104,8 @@
             "image_banner_subtitle_text": "",
             "is_text_big": false,
             "image_banner_link_text": "VOIR NOS COLLECTIONS",
-            "image_banner_link_url": "\/",
-            "banner_image": "shopify:\/\/shop_images\/ROSA_MAITEA37024.jpg"
+            "image_banner_link_url": "/",
+            "banner_image": "shopify://shop_images/ROSA_MAITEA37024.jpg"
           }
         },
         "076619a4-bfea-4b99-ab17-c234ce71d53f": {
@@ -116,11 +116,11 @@
             "text_color": "#000000",
             "image_banner_title_text": "ROSA MAÏTEA x OCTOBRE ROSE",
             "is_title_big": false,
-            "image_banner_subtitle_text": "A l'occasion d'<strong>Octobre Rose<\/strong>, Rosa Maïtea s'unie à la campagne de sensibilisation du cancer pour collaborer avec <strong>Rose Up,<\/strong> une association qui informe, accompagne et défend les droits des femmes touchées par tout type de cancer. Nous allons verser l<strong>'intégralité des benefices<\/strong> des ventes de 3 de nos créations en spinelles roses, jusqu'au 31 novembre. Chercher le ruban pour trouver les bijoux !",
+            "image_banner_subtitle_text": "A l'occasion d'<strong>Octobre Rose</strong>, Rosa Maïtea s'unie à la campagne de sensibilisation du cancer pour collaborer avec <strong>Rose Up,</strong> une association qui informe, accompagne et défend les droits des femmes touchées par tout type de cancer. Nous allons verser l<strong>'intégralité des benefices</strong> des ventes de 3 de nos créations en spinelles roses, jusqu'au 31 novembre. Chercher le ruban pour trouver les bijoux !",
             "is_text_big": false,
             "image_banner_link_text": "Nos bijoux éthiques",
-            "image_banner_link_url": "shopify:\/\/collections",
-            "banner_image": "shopify:\/\/shop_images\/Joaillerie_ethique_et_joyeuse-3.jpg"
+            "image_banner_link_url": "shopify://collections",
+            "banner_image": "shopify://shop_images/Joaillerie_ethique_et_joyeuse-3.jpg"
           }
         },
         "slide_EghGXc": {
@@ -131,19 +131,19 @@
             "text_color": "#121212",
             "image_banner_title_text": "MA MAMAN, MON ÉTOILE",
             "is_title_big": false,
-            "image_banner_subtitle_text": "Nos <strong>mamans<\/strong>, ce sont nos piliers, nos <strong>sources d'inspiration<\/strong>, celles qui ont toujours été là quand nous avions besoin d'elles. Elles sont <strong>les lumières qui guident<\/strong> nos pas dans la vie, et nous sommes reconnaissants chaque jour de les avoir comme mamans. <strong>Nos mamans, nos étoiles.<\/strong> Sa fête est le <strong>26 mai <\/strong>!",
+            "image_banner_subtitle_text": "Nos <strong>mamans</strong>, ce sont nos piliers, nos <strong>sources d'inspiration</strong>, celles qui ont toujours été là quand nous avions besoin d'elles. Elles sont <strong>les lumières qui guident</strong> nos pas dans la vie, et nous sommes reconnaissants chaque jour de les avoir comme mamans. <strong>Nos mamans, nos étoiles.</strong> Sa fête est le <strong>26 mai </strong>!",
             "is_text_big": false,
             "image_banner_link_text": "VOICI LA SELECTION CADEAUX FÊTE DES MÈRES",
-            "image_banner_link_url": "shopify:\/\/collections\/selection-fete-des-meres",
-            "banner_image": "shopify:\/\/shop_images\/Collier_ethique_bonne_etoile_rosa_maitea.jpg"
+            "image_banner_link_url": "shopify://collections/selection-fete-des-meres",
+            "banner_image": "shopify://shop_images/Collier_ethique_bonne_etoile_rosa_maitea.jpg"
           }
         }
       },
       "block_order": [
+        "d9928fe9-a1b3-4d88-ae9b-b0f6aef7adbd",
         "slide_rd76XP",
         "420e022b-102f-4824-bf0e-038ec48b4200",
         "slide_KYKBeC",
-        "d9928fe9-a1b3-4d88-ae9b-b0f6aef7adbd",
         "c0c37a82-60e7-4577-a3db-8510872ddcb6",
         "slide_zjj3YB",
         "076619a4-bfea-4b99-ab17-c234ce71d53f",
@@ -169,13 +169,13 @@
         "is_full_screen": true,
         "alignment": "left",
         "text_color": "#000000",
-        "image_banner_title_text": "<p>TOUS LES PRODUITS DE NOTRE JOAILLERIE ÉTHIQUE ONT UNE HISTOIRE<\/p>",
+        "image_banner_title_text": "<p>TOUS LES PRODUITS DE NOTRE JOAILLERIE ÉTHIQUE ONT UNE HISTOIRE</p>",
         "is_title_big": false,
         "image_banner_subtitle_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
         "is_text_big": false,
         "image_banner_link_text": "DÉCOUVRIR NOS PRODUITS",
-        "image_banner_link_url": "shopify:\/\/collections\/all",
-        "banner_image": "shopify:\/\/shop_images\/ROSA_MAITEA36876-2.jpg"
+        "image_banner_link_url": "shopify://collections/all",
+        "banner_image": "shopify://shop_images/ROSA_MAITEA36876-2.jpg"
       }
     },
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9": {
@@ -197,10 +197,10 @@
       "type": "collection-slider-with-pic",
       "settings": {
         "is_reverse": false,
-        "slider_2_image": "shopify:\/\/shop_images\/Rosa_Maitea_Joaillerie_thique_or_recycl_18_carats_et_diamants_recycl_s.jpg",
+        "slider_2_image": "shopify://shop_images/Rosa_Maitea_Joaillerie_thique_or_recycl_18_carats_et_diamants_recycl_s.jpg",
         "text1": "LA JOAILLERIE ÉTHIQUE ROSA MAÏTEA",
         "text2": "NOS CRÉATIONS ECO-RESPONSABLES",
-        "text3": "<p>La collection Arcoiris compose une parure audacieuse réalisée en or jaune 18ct recyclé et serti de pierres 100% traçables : spinelles et grenats de Tanzanie aux magnifiques couleurs vives. <\/p>",
+        "text3": "<p>La collection Arcoiris compose une parure audacieuse réalisée en or jaune 18ct recyclé et serti de pierres 100% traçables : spinelles et grenats de Tanzanie aux magnifiques couleurs vives. </p>",
         "collection": "arcoiris",
         "link-text": "DÉCOUVRIR LA COLLECTION",
         "padding_top": 90,
@@ -273,54 +273,54 @@
         "e78b16e3-a84a-45a3-9f48-e0ab68b0bd90": {
           "type": "text",
           "settings": {
-            "text": "<p>Bagues de pierres fines traçables, colliers d’or recyclé parsemés d’étoiles en diamants recyclés, créoles à la fois éthiques et cool…Les créations Rosa Maïtea défendent une nouvelle approche de la joaillerie respectueuse de la planète et de la vie. <\/p>"
+            "text": "<p>Bagues de pierres fines traçables, colliers d’or recyclé parsemés d’étoiles en diamants recyclés, créoles à la fois éthiques et cool…Les créations Rosa Maïtea défendent une nouvelle approche de la joaillerie respectueuse de la planète et de la vie. </p>"
           }
         },
         "dd2147c9-6bac-425f-b1ff-40701e97d5f1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Groupe_268_2x_fc878a42-6350-49bf-b725-d04e80d83bff.png",
+            "image": "shopify://shop_images/Groupe_268_2x_fc878a42-6350-49bf-b725-d04e80d83bff.png",
             "text": "OR RECYCLÉ",
-            "url": "shopify:\/\/pages\/notre-or-recycle"
+            "url": "shopify://pages/notre-or-recycle"
           }
         },
         "cc301d28-41d2-4636-be6c-ed0d8dc8ab67": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Groupe_269_2x_266b3fa8-6564-4369-92fb-ab42593a5f48.png",
+            "image": "shopify://shop_images/Groupe_269_2x_266b3fa8-6564-4369-92fb-ab42593a5f48.png",
             "text": "DIAMANTS RÉUTILISÉS",
-            "url": "shopify:\/\/pages\/nos-diamants-recycles"
+            "url": "shopify://pages/nos-diamants-recycles"
           }
         },
         "243fce36-3873-4aa3-b25f-713204a305ec": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Groupe_271_2x_9d1c7f0b-c3cf-4220-a8bb-cc0e1fd6c33a.png",
+            "image": "shopify://shop_images/Groupe_271_2x_9d1c7f0b-c3cf-4220-a8bb-cc0e1fd6c33a.png",
             "text": "PIERRES PRÉCIEUSES 100% TRAÇABLES",
-            "url": "shopify:\/\/pages\/nos-pierres-precieuses-100-tracables"
+            "url": "shopify://pages/nos-pierres-precieuses-100-tracables"
           }
         },
         "e6951df6-74c0-4dc2-8173-2bf78a5ac54f": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Groupe_270_2x_ddf043e1-125f-414c-b9bc-12d9f55a56ee.png",
+            "image": "shopify://shop_images/Groupe_270_2x_ddf043e1-125f-414c-b9bc-12d9f55a56ee.png",
             "text": "PACKAGING RECYCLÉ",
-            "url": "shopify:\/\/pages\/packaging-recycle"
+            "url": "shopify://pages/packaging-recycle"
           }
         },
         "20637540-e4dd-42b9-83e4-dc4fc58cdcb3": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Icon_awesome-heart_2x_996b6797-3187-432c-8e3f-8042e0406921.png",
+            "image": "shopify://shop_images/Icon_awesome-heart_2x_996b6797-3187-432c-8e3f-8042e0406921.png",
             "text": "UNE AUDACE CRÉATIVE",
-            "url": "shopify:\/\/collections"
+            "url": "shopify://collections"
           }
         },
         "dc525a5f-fbe2-4154-a41b-14e3b349ec3b": {
           "type": "link",
           "settings": {
             "link_text": "COMPRENDRE NOTRE ETHIQUE",
-            "link_url": "https:\/\/rosamaitea.com\/pages\/la-maison-rosa-maitea"
+            "link_url": "https://rosamaitea.com/pages/la-maison-rosa-maitea"
           }
         }
       },
@@ -335,7 +335,7 @@
         "dc525a5f-fbe2-4154-a41b-14e3b349ec3b"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rosa_Maitea_joailleire_en_or_recycle_et_diamants_recycles.jpg",
+        "image": "shopify://shop_images/Rosa_Maitea_joailleire_en_or_recycle_et_diamants_recycles.jpg",
         "is_reverse": false,
         "is_centred": false,
         "padding_top": 65,
@@ -389,14 +389,14 @@
           "type": "link",
           "settings": {
             "link_text": "NOS SERVICES EN DÉTAIL",
-            "link_url": "https:\/\/rosamaitea.com\/pages\/les-services-rosa-maitea"
+            "link_url": "https://rosamaitea.com/pages/les-services-rosa-maitea"
           }
         },
         "2f93fbf4-a58e-4b4f-95f5-7eff1dae256b": {
           "type": "link",
           "settings": {
             "link_text": "NOUS CONTACTER",
-            "link_url": "https:\/\/rosamaitea.com\/pages\/contact"
+            "link_url": "https://rosamaitea.com/pages/contact"
           }
         }
       },
@@ -414,8 +414,8 @@
         ".rosa-backgrounded-link {margin-bottom: 15px !important;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rosa_Maitea_bagues_thiques_tourbillon.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Rosa_Maitea.jpg"
+        "image": "shopify://shop_images/Rosa_Maitea_bagues_thiques_tourbillon.jpg",
+        "image_mobile": "shopify://shop_images/Rosa_Maitea.jpg"
       }
     },
     "9603023c-6e27-4890-b9e6-e92093169f5b": {
@@ -434,8 +434,8 @@
       "disabled": true,
       "settings": {
         "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify:\/\/shop_images\/video.png",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify://shop_images/video.png",
         "description": ""
       }
     },
@@ -446,7 +446,7 @@
         "text1": "«Le plus important, c’est l’humain. Nous créons pour nos clients, pour qu’ils vivent une expérience hors du commun»",
         "text2": "Patricia Pereda - Directrice artistique Rosa Maitea",
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM",
-        "link_url": "shopify:\/\/pages\/prendre-rendez-vous",
+        "link_url": "shopify://pages/prendre-rendez-vous",
         "padding_top": 50,
         "padding_bottom": 100
       }
@@ -460,7 +460,7 @@
         "text1": "",
         "text2": "LA JOAILLERIE ÉTHIQUE ET VISIONNAIRE",
         "link_text": "VOIR TOUTES NOS ACTUALITÉS",
-        "link_url": "shopify:\/\/blogs\/le-blog-de-rosa-maitea",
+        "link_url": "shopify://blogs/le-blog-de-rosa-maitea",
         "blog": "le-blog-de-rosa-maitea",
         "link-text": "EN SAVOIR PLUS"
       }
@@ -471,7 +471,7 @@
         "tag": "div",
         "text1": "",
         "text2": "RETROSPECTIVE SPREAD LOVE",
-        "text3": "<p>Suivez-nous sur <a href=\"https:\/\/www.instagram.com\/rosamaiteajewelry\/\" title=\"Rosa Maitea \">@ rosamaiteajewelry<\/a><\/p>",
+        "text3": "<p>Suivez-nous sur <a href=\"https://www.instagram.com/rosamaiteajewelry/\" title=\"Rosa Maitea \">@ rosamaiteajewelry</a></p>",
         "padding_top": 80,
         "padding_bottom": 85
       }
@@ -482,31 +482,31 @@
         "0ff22ac2-06e6-4c68-b529-bf680a68304c": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rosa_Maitea_joaillerie_thique_en_or_recycl_showroom_Paris.png"
+            "image": "shopify://shop_images/Rosa_Maitea_joaillerie_thique_en_or_recycl_showroom_Paris.png"
           }
         },
         "043b215a-e7e0-4732-b45d-d0b44af2efc4": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rosa_Maitea_joaillerie_thique_Bandeau_en_or_recycl_18_carats.png"
+            "image": "shopify://shop_images/Rosa_Maitea_joaillerie_thique_Bandeau_en_or_recycl_18_carats.png"
           }
         },
         "caaf968f-db0b-4e67-bd16-5a7796233bf9": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rosa_Maitea_joaillerie_thique_collier_en_or_recycl_18_carats.png"
+            "image": "shopify://shop_images/Rosa_Maitea_joaillerie_thique_collier_en_or_recycl_18_carats.png"
           }
         },
         "7013acaa-35b7-426e-8167-027b7a8a878a": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rosa_Maitea_joaillerie_thique_diamants_recycl_s.png"
+            "image": "shopify://shop_images/Rosa_Maitea_joaillerie_thique_diamants_recycl_s.png"
           }
         },
         "1f19de02-0bb8-41f7-8079-1843ffe4346e": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rosa_Maitea_bague_en_or_recycl_blanc_18_carats_la_bonne_etoile.jpg"
+            "image": "shopify://shop_images/Rosa_Maitea_bague_en_or_recycl_blanc_18_carats_la_bonne_etoile.jpg"
           }
         }
       },
