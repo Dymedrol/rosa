@@ -21,6 +21,7 @@
       "blocks": {
         "slide_yMMBxP": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "alignment": "center",
             "text_color": "#ffffff",
