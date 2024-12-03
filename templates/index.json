@@ -160,11 +160,11 @@
             "text_color": "#ffffff",
             "image_banner_title_text": "",
             "is_title_big": false,
-            "image_banner_subtitle_text": "text",
+            "image_banner_subtitle_text": "",
             "is_text_big": false,
-            "image_banner_link_text": "link",
+            "image_banner_link_text": "",
             "image_banner_link_url": "/",
-            "banner_image": "shopify://shop_images/Ajouter_un_sous-titre_1600_x_900_px_-4.jpg"
+            "banner_image": "shopify://shop_images/Ajouter_un_sous-titre_1600_x_900_px_-5.jpg"
           }
         }
       },
