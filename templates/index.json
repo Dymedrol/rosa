@@ -153,18 +153,18 @@
             "banner_image": "shopify://shop_images/Collier_ethique_bonne_etoile_rosa_maitea.jpg"
           }
         },
-        "slide_xMzJRj": {
+        "slide_tRmWa4": {
           "type": "slide",
           "settings": {
             "alignment": "center",
             "text_color": "#ffffff",
             "image_banner_title_text": "",
             "is_title_big": false,
-            "image_banner_subtitle_text": "",
+            "image_banner_subtitle_text": "text",
             "is_text_big": false,
-            "image_banner_link_text": "",
+            "image_banner_link_text": "link",
             "image_banner_link_url": "/",
-            "banner_image": "shopify://shop_images/Ajouter_un_sous-titre_1600_x_900_px_-2.jpg"
+            "banner_image": "shopify://shop_images/Ajouter_un_sous-titre_1600_x_900_px_-4.jpg"
           }
         }
       },
@@ -178,7 +178,7 @@
         "slide_zjj3YB",
         "076619a4-bfea-4b99-ab17-c234ce71d53f",
         "slide_EghGXc",
-        "slide_xMzJRj"
+        "slide_tRmWa4"
       ],
       "custom_css": [
         ".rosa-jumbotron-slider-title {margin-bottom: 25px !important;}",
