@@ -19,20 +19,6 @@
     "552ce905-cb0f-4745-bc21-4022a0b6a86c": {
       "type": "rosa-jumbo-slider",
       "blocks": {
-        "slide_tRmWa4": {
-          "type": "slide",
-          "settings": {
-            "alignment": "center",
-            "text_color": "#ffffff",
-            "image_banner_title_text": "",
-            "is_title_big": false,
-            "image_banner_subtitle_text": "",
-            "is_text_big": false,
-            "image_banner_link_text": "",
-            "image_banner_link_url": "/",
-            "banner_image": "shopify://shop_images/Ajouter_un_sous-titre_1600_x_900_px_-5.jpg"
-          }
-        },
         "slide_yMMBxP": {
           "type": "slide",
           "disabled": true,
@@ -61,6 +47,20 @@
             "image_banner_link_url": "shopify://collections/all",
             "banner_image": "shopify://shop_images/ROSA_MAITEA36775.jpg",
             "banner_image_mobile": "shopify://shop_images/ROSA_MAITEA37007.jpg"
+          }
+        },
+        "slide_tRmWa4": {
+          "type": "slide",
+          "settings": {
+            "alignment": "center",
+            "text_color": "#ffffff",
+            "image_banner_title_text": "",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "",
+            "is_text_big": false,
+            "image_banner_link_text": "",
+            "image_banner_link_url": "/",
+            "banner_image": "shopify://shop_images/Ajouter_un_sous-titre_1600_x_900_px_-5.jpg"
           }
         },
         "slide_rd76XP": {
@@ -169,9 +169,9 @@
         }
       },
       "block_order": [
-        "slide_tRmWa4",
         "slide_yMMBxP",
         "d9928fe9-a1b3-4d88-ae9b-b0f6aef7adbd",
+        "slide_tRmWa4",
         "slide_rd76XP",
         "420e022b-102f-4824-bf0e-038ec48b4200",
         "slide_KYKBeC",
