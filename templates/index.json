@@ -24,13 +24,13 @@
           "settings": {
             "alignment": "center",
             "text_color": "#ffffff",
-            "image_banner_title_text": "",
+            "image_banner_title_text": "LES PUCES PETILLANTES DE ROSA MAÏTEA",
             "is_title_big": false,
-            "image_banner_subtitle_text": "",
+            "image_banner_subtitle_text": "Grenats, spinelles et diamants magiques",
             "is_text_big": false,
             "image_banner_link_text": "",
             "image_banner_link_url": "/",
-            "banner_image": "shopify://shop_images/Puces_pour_la_web.jpg",
+            "banner_image": "shopify://shop_images/Sans_titre_1200_x_1200_px_-2.jpg",
             "banner_image_mobile": "shopify://shop_images/Puces_pour_la_web.jpg"
           }
         },
