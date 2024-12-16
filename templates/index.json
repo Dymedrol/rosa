@@ -22,8 +22,8 @@
         "slide_yMMBxP": {
           "type": "slide",
           "settings": {
-            "alignment": "left",
-            "text_color": "#ffffff",
+            "alignment": "right",
+            "text_color": "#242833",
             "image_banner_title_text": "LES PUCES PETILLANTES DE ROSA MAÏTEA",
             "is_title_big": false,
             "image_banner_subtitle_text": "Grenats, spinelles et diamants magiques",
