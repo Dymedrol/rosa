@@ -97,10 +97,10 @@
           "type": "slide",
           "settings": {
             "alignment": "center",
-            "text_color": "#ffffff",
+            "text_color": "#334fb4",
             "image_banner_title_text": "",
             "is_title_big": false,
-            "image_banner_subtitle_text": "Célébrez la Saint-Valentin avec un bijou qui a du sens",
+            "image_banner_subtitle_text": "",
             "is_text_big": false,
             "image_banner_link_text": "SELECTION SAINT VALENTIN",
             "image_banner_link_url": "/",
