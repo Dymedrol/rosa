@@ -34,21 +34,6 @@
             "banner_image_mobile": "shopify://shop_images/SAINT_VALENTIN_1_STORY_defdaff7-f6b5-46db-bd84-9bcc94114a17.jpg"
           }
         },
-        "slide_yMMBxP": {
-          "type": "slide",
-          "settings": {
-            "alignment": "left",
-            "text_color": "#242833",
-            "image_banner_title_text": "LES PUCES PETILLANTES DE NOËL",
-            "is_title_big": false,
-            "image_banner_subtitle_text": "Grenats, spinelles et diamants magiques, des cadeaux parfaits pour ce Noël",
-            "is_text_big": false,
-            "image_banner_link_text": "Collection Arcoiris",
-            "image_banner_link_url": "shopify://collections/arcoiris",
-            "banner_image": "shopify://shop_images/Sans_titre_1200_x_1200_px_-2_4a2c5025-77d0-4dca-9f0f-57d07355ce69.jpg",
-            "banner_image_mobile": "shopify://shop_images/Puces_pour_la_web.jpg"
-          }
-        },
         "slide_rd76XP": {
           "type": "slide",
           "settings": {
@@ -62,6 +47,21 @@
             "image_banner_link_url": "shopify://collections/rosa-maitea",
             "banner_image": "shopify://shop_images/Webp.net-resizeimage-177.jpg",
             "banner_image_mobile": "shopify://shop_images/ROSA_MAITEA37267.jpg"
+          }
+        },
+        "slide_yMMBxP": {
+          "type": "slide",
+          "settings": {
+            "alignment": "left",
+            "text_color": "#242833",
+            "image_banner_title_text": "LES PUCES PETILLANTES DE NOËL",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "Grenats, spinelles et diamants magiques, des cadeaux parfaits pour ce Noël",
+            "is_text_big": false,
+            "image_banner_link_text": "Collection Arcoiris",
+            "image_banner_link_url": "shopify://collections/arcoiris",
+            "banner_image": "shopify://shop_images/Sans_titre_1200_x_1200_px_-2_4a2c5025-77d0-4dca-9f0f-57d07355ce69.jpg",
+            "banner_image_mobile": "shopify://shop_images/Puces_pour_la_web.jpg"
           }
         },
         "slide_KYKBeC": {
@@ -141,8 +141,8 @@
       },
       "block_order": [
         "slide_cLy6PX",
-        "slide_yMMBxP",
         "slide_rd76XP",
+        "slide_yMMBxP",
         "slide_KYKBeC",
         "c0c37a82-60e7-4577-a3db-8510872ddcb6",
         "slide_zjj3YB",
