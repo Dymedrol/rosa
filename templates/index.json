@@ -34,21 +34,6 @@
             "banner_image_mobile": "shopify://shop_images/Puces_pour_la_web.jpg"
           }
         },
-        "d9928fe9-a1b3-4d88-ae9b-b0f6aef7adbd": {
-          "type": "slide",
-          "settings": {
-            "alignment": "left",
-            "text_color": "#000000",
-            "image_banner_title_text": "Bijoux éthiques et eco-responsables",
-            "is_title_big": false,
-            "image_banner_subtitle_text": "Messages d’amour, signes d’espoirs et vœux de protection à une nature source de beauté. Nos créations sont en <strong>or et diamants recyclés</strong>, et <strong>pierres précieuses</strong> <strong>traçables.</strong>",
-            "is_text_big": false,
-            "image_banner_link_text": "Découvrir nos bijoux",
-            "image_banner_link_url": "shopify://collections/all",
-            "banner_image": "shopify://shop_images/ROSA_MAITEA36775.jpg",
-            "banner_image_mobile": "shopify://shop_images/ROSA_MAITEA37007.jpg"
-          }
-        },
         "slide_rd76XP": {
           "type": "slide",
           "settings": {
@@ -62,21 +47,6 @@
             "image_banner_link_url": "shopify://collections/rosa-maitea",
             "banner_image": "shopify://shop_images/Webp.net-resizeimage-177.jpg",
             "banner_image_mobile": "shopify://shop_images/ROSA_MAITEA37267.jpg"
-          }
-        },
-        "420e022b-102f-4824-bf0e-038ec48b4200": {
-          "type": "slide",
-          "settings": {
-            "alignment": "left",
-            "text_color": "#ffffff",
-            "image_banner_title_text": "CRÉATIONS ETHIQUES ET JOYEUSES",
-            "is_title_big": true,
-            "image_banner_subtitle_text": "Nos créations sont des petites <strong>bombes d'amour</strong> : amour de l’être cher, amour de notre planète et amour de toutes les personnes qui ont participé à sa création",
-            "is_text_big": false,
-            "image_banner_link_text": "Découvrez nos bijoux colorés",
-            "image_banner_link_url": "shopify://collections/arcoiris",
-            "banner_image": "shopify://shop_images/Webp.net-resizeimage-175.jpg",
-            "banner_image_mobile": "shopify://shop_images/Bagues_arcoiris_ethiques_eco_responsables.jpg"
           }
         },
         "slide_KYKBeC": {
@@ -123,6 +93,21 @@
             "banner_image": "shopify://shop_images/ROSA_MAITEA37024.jpg"
           }
         },
+        "slide_cLy6PX": {
+          "type": "slide",
+          "settings": {
+            "alignment": "center",
+            "text_color": "#ffffff",
+            "image_banner_title_text": "",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "Célébrez la Saint-Valentin avec un bijou qui a du sens",
+            "is_text_big": false,
+            "image_banner_link_text": "SELECTION SAINT VALENTIN",
+            "image_banner_link_url": "/",
+            "banner_image": "shopify://shop_images/Grey_Modern_Professional_Business_Project_Presentation_1200_x_1200_px_Presentation.jpg",
+            "banner_image_mobile": "shopify://shop_images/Grey_Modern_Professional_Business_Project_Presentation_1200_x_1200_px_Presentation.jpg"
+          }
+        },
         "076619a4-bfea-4b99-ab17-c234ce71d53f": {
           "type": "slide",
           "disabled": true,
@@ -156,12 +141,11 @@
       },
       "block_order": [
         "slide_yMMBxP",
-        "d9928fe9-a1b3-4d88-ae9b-b0f6aef7adbd",
         "slide_rd76XP",
-        "420e022b-102f-4824-bf0e-038ec48b4200",
         "slide_KYKBeC",
         "c0c37a82-60e7-4577-a3db-8510872ddcb6",
         "slide_zjj3YB",
+        "slide_cLy6PX",
         "076619a4-bfea-4b99-ab17-c234ce71d53f",
         "slide_EghGXc"
       ],
@@ -185,9 +169,9 @@
         "is_full_screen": true,
         "alignment": "left",
         "text_color": "#000000",
-        "image_banner_title_text": "<p>TOUS LES PRODUITS DE NOTRE JOAILLERIE ÉTHIQUE ONT UNE HISTOIRE</p>",
+        "image_banner_title_text": "",
         "is_title_big": false,
-        "image_banner_subtitle_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+        "image_banner_subtitle_text": "",
         "is_text_big": false,
         "image_banner_link_text": "DÉCOUVRIR NOS PRODUITS",
         "image_banner_link_url": "shopify://collections/all",
