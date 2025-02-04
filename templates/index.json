@@ -199,10 +199,10 @@
         "is_reverse": false,
         "slider_2_image": "shopify://shop_images/Grey_Modern_Professional_Business_Project_Presentation_1200_x_1200_px_Votre_story_-4.jpg",
         "text1": "LA JOAILLERIE ÉTHIQUE ROSA MAÏTEA",
-        "text2": "NOS CRÉATIONS ECO-RESPONSABLES",
-        "text3": "<p>La collection Arcoiris compose une parure audacieuse réalisée en or jaune 18ct recyclé et serti de pierres 100% traçables : spinelles et grenats de Tanzanie aux magnifiques couleurs vives. </p>",
-        "collection": "arcoiris",
-        "link-text": "DÉCOUVRIR LA COLLECTION",
+        "text2": "NOTRE SELECTION SAINT VALENTIN",
+        "text3": "<p>Un bijou est bien plus qu’un simple accessoire. Il raconte une histoire, capture un moment, et symbolise un amour unique.</p><p>Chez <strong>Rosa Maïtea</strong>, nous croyons en un amour <strong>engagé, durable et sincère</strong>, à l’image de nos bijoux. Fabriqués à partir d’<strong>or 18 carats recyclé</strong>, de <strong>diamants éthiques</strong> et de <strong>pierres précieuses tracées</strong>, ils sont le reflet d’un luxe conscient.</p><p>Cette Saint-Valentin, offrez plus qu’un bijou : offrez une <strong>promesse d’amour et de respect</strong> pour la planète.</p>",
+        "collection": "selection-saint-valentin",
+        "link-text": "DÉCOUVRIR LA SELECTION SAINT VALENTIN",
         "padding_top": 90,
         "padding_bottom": 80
       }
