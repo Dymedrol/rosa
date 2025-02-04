@@ -207,6 +207,22 @@
         "padding_bottom": 80
       }
     },
+    "image_banner_qQM3jR": {
+      "type": "image-banner",
+      "settings": {
+        "tag": "div",
+        "is_full_screen": true,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "<p>title</p>",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "text",
+        "is_text_big": false,
+        "image_banner_link_text": "link",
+        "image_banner_link_url": "/",
+        "banner_image": "shopify://shop_images/Grey_Modern_Professional_Business_Project_Presentation_1200_x_1200_px_Presentation_-8.jpg"
+      }
+    },
     "f997dd8a-2291-4fc6-bedc-9faa72cbe9bc": {
       "type": "rosa-header",
       "settings": {
@@ -529,6 +545,7 @@
     "image_banner",
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9",
     "555ee7ae-ed60-4f7c-bf8c-fe18132779a1",
+    "image_banner_qQM3jR",
     "f997dd8a-2291-4fc6-bedc-9faa72cbe9bc",
     "2c663638-02bd-4aa4-a99b-760dc268b2d9",
     "d1b389fe-0917-4513-a4c9-41c5fa302df5",
