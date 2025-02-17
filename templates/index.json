@@ -21,6 +21,7 @@
       "blocks": {
         "slide_cLy6PX": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "alignment": "center",
             "text_color": "#334fb4",
@@ -47,6 +48,21 @@
             "image_banner_link_url": "shopify://collections/rosa-maitea",
             "banner_image": "shopify://shop_images/Webp.net-resizeimage-177.jpg",
             "banner_image_mobile": "shopify://shop_images/ROSA_MAITEA37267.jpg"
+          }
+        },
+        "slide_E4WEdz": {
+          "type": "slide",
+          "settings": {
+            "alignment": "center",
+            "text_color": "#ffffff",
+            "image_banner_title_text": "title",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "BAGUES ETHIQUES ET JOYEUX",
+            "is_text_big": false,
+            "image_banner_link_text": "DECOUVRIR LES BAGUES",
+            "image_banner_link_url": "shopify://collections/bagues",
+            "banner_image": "shopify://shop_images/ROSA_MAITEA36741.jpg",
+            "banner_image_mobile": "shopify://shop_images/ROSA_MAITEA36741.jpg"
           }
         },
         "slide_yMMBxP": {
@@ -142,6 +158,7 @@
       "block_order": [
         "slide_cLy6PX",
         "slide_rd76XP",
+        "slide_E4WEdz",
         "slide_yMMBxP",
         "slide_KYKBeC",
         "c0c37a82-60e7-4577-a3db-8510872ddcb6",
