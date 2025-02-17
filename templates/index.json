@@ -53,11 +53,11 @@
         "slide_E4WEdz": {
           "type": "slide",
           "settings": {
-            "alignment": "center",
-            "text_color": "#ffffff",
-            "image_banner_title_text": "title",
+            "alignment": "left",
+            "text_color": "#121212",
+            "image_banner_title_text": "BAGUES ETHIQUES ET JOYEUX",
             "is_title_big": false,
-            "image_banner_subtitle_text": "BAGUES ETHIQUES ET JOYEUX",
+            "image_banner_subtitle_text": "",
             "is_text_big": false,
             "image_banner_link_text": "DECOUVRIR LES BAGUES",
             "image_banner_link_url": "shopify://collections/bagues",
