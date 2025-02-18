@@ -222,7 +222,8 @@
         "image_banner_subtitle_text": "text",
         "is_text_big": false,
         "image_banner_link_text": "link",
-        "image_banner_link_url": "/"
+        "image_banner_link_url": "/",
+        "banner_image": "shopify://shop_images/BIJOUX-DEF1.jpg"
       }
     },
     "555ee7ae-ed60-4f7c-bf8c-fe18132779a1": {
@@ -232,11 +233,11 @@
         "slider_2_image": "shopify://shop_images/ROSA-MAITEA_BAGUE_TOI_ET_MOI.jpg",
         "text1": "LA JOAILLERIE ÉTHIQUE ROSA MAÏTEA",
         "text2": "NOUVELLE BAGUE ETHIQUE TOI & MOI",
-        "text3": "<p>La bague éthique <strong>Toi et Moi</strong> célèbre l’amour sous une constellation précieuse. </p><p>Deux étoiles scintillantes en diamants recyclés veillent l’une sur l’autre, symbolisant la protection et l’union éternelle de deux âmes. Enveloppée d’un délicat mouvement torsadé en <strong>or recyclé 18 carats</strong>, cette création lumineuse incarne un amour guidé par la lumière des astres. </p><p><strong>Deux talismans</strong> qui représentent l'amour engagé. </p><p></p>",
+        "text3": "<p>La bague éthique <strong>Toi et Moi</strong> célèbre l’amour sous une constellation précieuse. </p><p>Deux étoiles scintillantes en diamants recyclés veillent l’une sur l’autre, symbolisant la protection et l’union éternelle de deux âmes. Enveloppée d’un délicat mouvement torsadé en <strong>or recyclé 18 carats</strong>, cette création lumineuse incarne un amour guidé par la lumière des astres. </p><p><strong>Deux talismans</strong> qui représentent l'amour engagé. </p>",
         "collection": "",
         "link-text": "DÉCOUVRIR",
         "padding_top": 90,
-        "padding_bottom": 105
+        "padding_bottom": 20
       }
     },
     "image_banner_qQM3jR": {
