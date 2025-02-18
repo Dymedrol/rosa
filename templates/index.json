@@ -223,7 +223,8 @@
         "is_text_big": false,
         "image_banner_link_text": "",
         "image_banner_link_url": "/",
-        "banner_image": "shopify://shop_images/BIJOUX-DEF1.jpg"
+        "banner_image": "shopify://shop_images/BIJOUX-DEF1.jpg",
+        "banner_image_mobile": "shopify://shop_images/BIJOUX-DEF1.jpg"
       }
     },
     "555ee7ae-ed60-4f7c-bf8c-fe18132779a1": {
