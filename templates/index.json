@@ -237,7 +237,7 @@
         "is_text_big": false,
         "image_banner_link_text": "",
         "image_banner_link_url": "shopify://collections/selection-saint-valentin",
-        "banner_image": "shopify://shop_images/Grey_Modern_Professional_Business_Project_Presentation_1200_x_1200_px_Presentation_-9.jpg",
+        "banner_image": "shopify://shop_images/IMG_3222_2.heic",
         "banner_image_mobile": "shopify://shop_images/Grey_Modern_Professional_Business_Project_Presentation_1200_x_1200_px_Votre_story_-7.jpg"
       }
     },
@@ -245,8 +245,8 @@
       "type": "rosa-header",
       "settings": {
         "tag": "div",
-        "text1": "Cette année, célébrez la Saint-Valentin avec un bijou qui a du sens. ",
-        "text2": "Vous cherchez le cadeau idéal pour la Saint-Valentin ? Laissez-vous séduire par notre sélection de bijoux éthiques. Fabriqués avec amour à partir de matières précieuses recyclées et tracées, nos bijoux incarnent un luxe authentique et responsable.",
+        "text1": "ECO-CONCEPTION",
+        "text2": "Rosa Maïtea, conçoit des bijoux et applique des processus de vente durables. Nous avons identifié le meilleur modèle pour concilier notre amour de la joaillerie avec une consommation d’énergie raisonnée. C’est notre engagement pour limiter la surproduction et la surconsommation. ",
         "padding_top": 30,
         "padding_bottom": 55
       }
