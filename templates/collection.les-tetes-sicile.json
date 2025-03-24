@@ -117,14 +117,14 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>BOUGEOIRS COUPLE DE CHEVALIERS : FEMME ET HOMME</p>"
+            "text": "<p>LES TÊTES QUI NE SE SEPARENT </p>"
           }
         },
         "15a60f6d-ee7c-445d-b726-091a97db6cb6": {
           "type": "heading",
           "settings": {
             "heading1": "HOMME & FEMME",
-            "heading2": "LES BOUGEOIRS EN CERAMIQUE LES CHEVALIERS"
+            "heading2": "LES TÊTES QUI NE SE SEPARENT JAMAIS"
           }
         },
         "74c5c396-970a-49ec-bded-b64b65ee69cc": {
@@ -148,7 +148,7 @@
         "d3e809b3-cdcf-4c0b-9e77-cc1af15afea7"
       ],
       "settings": {
-        "image": "shopify://shop_images/17.png",
+        "image": "shopify://shop_images/1_3a86654e-20db-412d-9fd3-b5a3d406c12b.png",
         "is_reverse": false,
         "is_centred": false,
         "padding_top": 60,
