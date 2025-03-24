@@ -25,13 +25,13 @@
         "tag": "div",
         "is_full_screen": true,
         "alignment": "center",
-        "text_color": "#ffffff",
-        "image_banner_title_text": "<p>title</p>",
-        "is_title_big": false,
-        "image_banner_subtitle_text": "text",
+        "text_color": "#121212",
+        "image_banner_title_text": "<p>LES CERAMIQUES DE PUGLIA</p>",
+        "is_title_big": true,
+        "image_banner_subtitle_text": "",
         "is_text_big": false,
-        "image_banner_link_text": "link",
-        "image_banner_link_url": "/",
+        "image_banner_link_text": "Voir plus",
+        "image_banner_link_url": "shopify://collections/les-ceramiques-de-puglia-et-de-caltagirone-de-rosa-maitea",
         "banner_image": "shopify://shop_images/P250314102807-1-RAW-7.jpg",
         "banner_image_mobile": "shopify://shop_images/8.png"
       }
@@ -52,34 +52,34 @@
         "4c86542f-6c74-4961-94ed-b043fe20da2b": {
           "type": "text",
           "settings": {
-            "text": "<p>Collection Tourbillon</p>"
+            "text": "<p>Collection les CERAMIQUES DE PUGLIA</p>"
           }
         },
         "d2e22a52-2031-49cf-b351-f80fdd768551": {
           "type": "heading",
           "settings": {
             "heading1": "",
-            "heading2": "Tourbillon célèbre le vertige de l’amour selon Rosa Maïtea."
+            "heading2": "Céramiques de Puglia et de Caltagirone – Une sélection choisie avec le cœur"
           }
         },
         "72f17976-0055-4da3-bada-32d0ea229273": {
           "type": "text",
           "settings": {
-            "text": "<p>Précieux carrousels de pierres fines 100% traçables et de diamants recyclés, les bagues éco-responsables <em>Tourbillon</em> en or 18ct recyclé rayonnent et illuminent les doigts de mille feux inattendus. Elles mélangent  avec gaité de lumineuses  pierres fines à l’éclat pur des diamants blancs. </p>"
+            "text": "<p>Après trois voyages en Italie à la découverte des traditions artisanales, j’ai rassemblé une <strong>sélection unique de céramiques </strong>venues tout droit de <strong>Caltagirone </strong>en Sicile et des <strong>Pouilles</strong>, deux régions emblématiques du savoir-faire italien.</p>"
           }
         },
         "fc054447-71a8-41ce-9100-b52d6b4385ea": {
           "type": "text",
           "settings": {
-            "text": "<p>Ode aux couleurs, les bagues <em>Tourbillon</em> entrelacent en une spirale d’amour infini, les grenats et les spinelles bleues, les spessartites couleurs d’agrumes, et les rhodolites que les grecs nommaient Roses. </p><p>Ouvragé sous la précieuse rosace, un cœur d'or secret laisse briller la lumière sous les pierres, magnifiant encore leur éclat. </p>"
+            "text": "<p>Chaque pièce a été choisie une à une, au fil de rencontres avec des <strong>artisans passionnés</strong>, dans des ateliers nichés au creux des ruelles. </p><p>Ce sont des objets façonnés à la main, aux couleurs franches, aux détails minutieux, qui racontent la terre, la fête, le quotidien et la beauté simple de l’art populaire Italian .</p>"
           }
         },
         "cd2b9a8a-6684-42b2-a9e3-47ed36321182": {
           "type": "link",
           "disabled": true,
           "settings": {
-            "link_text": "Les 3 tailles de Tourbillon",
-            "link_url": "shopify://collections/tourbillon"
+            "link_text": "Voir les coups de coeur des Pouilles",
+            "link_url": "shopify://collections/les-ceramiques-de-puglia-et-de-caltagirone-de-rosa-maitea"
           }
         }
       },
