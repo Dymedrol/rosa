@@ -27,7 +27,7 @@
         "alignment": "center",
         "text_color": "#121212",
         "image_banner_title_text": "<p>LES CERAMIQUES DE PUGLIA</p>",
-        "is_title_big": true,
+        "is_title_big": false,
         "image_banner_subtitle_text": "",
         "is_text_big": false,
         "image_banner_link_text": "Voir plus",
@@ -40,7 +40,7 @@
       "type": "rosa-header2",
       "settings": {
         "tag": "h1",
-        "text1": "",
+        "text1": "LES CERAMIQUES DE PUGLIA, ITALIE",
         "text2": "LES CERAMIQUES DE PUGLIA, ITALIE",
         "padding_top": 70,
         "padding_bottom": 0
@@ -76,7 +76,6 @@
         },
         "cd2b9a8a-6684-42b2-a9e3-47ed36321182": {
           "type": "link",
-          "disabled": true,
           "settings": {
             "link_text": "Voir les coups de coeur des Pouilles",
             "link_url": "shopify://collections/les-ceramiques-de-puglia-et-de-caltagirone-de-rosa-maitea"
