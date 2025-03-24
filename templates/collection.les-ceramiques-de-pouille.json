@@ -1,0 +1,210 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "custom_css": [
+        ".rosa-collection-banner-title {display: none !important;}"
+      ],
+      "settings": {
+        "tag": "div"
+      }
+    },
+    "5fdb5a3e-82d3-40d0-9f48-2bc0374e139e": {
+      "type": "image-banner",
+      "settings": {
+        "tag": "div",
+        "is_full_screen": true,
+        "alignment": "center",
+        "text_color": "#121212",
+        "image_banner_title_text": "<p>LES CERAMIQUES DE PUGLIA</p>",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "",
+        "is_text_big": false,
+        "image_banner_link_text": "Voir plus",
+        "image_banner_link_url": "shopify://collections/les-ceramiques-de-puglia-et-de-caltagirone-de-rosa-maitea",
+        "banner_image": "shopify://shop_images/P250314102807-1-RAW-7.jpg",
+        "banner_image_mobile": "shopify://shop_images/8.png"
+      }
+    },
+    "374b95c0-0dcd-4404-92dc-32f8188ad207": {
+      "type": "rosa-header2",
+      "settings": {
+        "tag": "h1",
+        "text1": "LES COUPS DE COEURS DE ROSA MAÏTEA",
+        "text2": "LES CERAMIQUES DE PUGLIA en ITALIE",
+        "padding_top": 70,
+        "padding_bottom": 0
+      }
+    },
+    "9b7251da-a436-4ee3-86d9-43e5a2375824": {
+      "type": "double",
+      "blocks": {
+        "4c86542f-6c74-4961-94ed-b043fe20da2b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>COUPS DE COEURS UNIQUES</p>"
+          }
+        },
+        "d2e22a52-2031-49cf-b351-f80fdd768551": {
+          "type": "heading",
+          "settings": {
+            "heading1": "",
+            "heading2": "Céramiques de Puglia et de Caltagirone – Une sélection choisie avec le cœur"
+          }
+        },
+        "72f17976-0055-4da3-bada-32d0ea229273": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Après trois voyages en Italie à la découverte des traditions artisanales, j’ai rassemblé une <strong>sélection unique de céramiques </strong>venues tout droit de <strong>Caltagirone </strong>en Sicile et des <strong>Pouilles</strong>, deux régions emblématiques du savoir-faire italien.</p>"
+          }
+        },
+        "fc054447-71a8-41ce-9100-b52d6b4385ea": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Chaque pièce a été choisie une à une, au fil de rencontres avec des <strong>artisans passionnés</strong>, dans des ateliers nichés au creux des ruelles. </p><p>Ce sont des objets façonnés à la main, aux couleurs franches, aux détails minutieux, qui racontent la terre, la fête, le quotidien et la beauté simple de l’art populaire Italian .</p>"
+          }
+        },
+        "cd2b9a8a-6684-42b2-a9e3-47ed36321182": {
+          "type": "link",
+          "settings": {
+            "link_text": "Voir les coups de coeur des Pouilles",
+            "link_url": "shopify://collections/les-ceramiques-de-puglia-et-de-caltagirone-de-rosa-maitea"
+          }
+        }
+      },
+      "block_order": [
+        "4c86542f-6c74-4961-94ed-b043fe20da2b",
+        "d2e22a52-2031-49cf-b351-f80fdd768551",
+        "72f17976-0055-4da3-bada-32d0ea229273",
+        "fc054447-71a8-41ce-9100-b52d6b4385ea",
+        "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/9.png",
+        "is_reverse": false,
+        "is_centred": true,
+        "padding_top": 60,
+        "padding_bottom": 30
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "enable_promo_card": false,
+        "enable_filtering": false,
+        "enable_filtering_by_product_type": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "6649bb51-9cf5-4a01-bba3-61a21835f000": {
+      "type": "double",
+      "blocks": {
+        "5f9db6ef-10ed-4282-b96c-94f61448d409": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>BOUGEOIRS COUPLE DE CHEVALIERS : FEMME ET HOMME</p>"
+          }
+        },
+        "15a60f6d-ee7c-445d-b726-091a97db6cb6": {
+          "type": "heading",
+          "settings": {
+            "heading1": "HOMME & FEMME",
+            "heading2": "LES BOUGEOIRS EN CERAMIQUE LES CHEVALIERS"
+          }
+        },
+        "74c5c396-970a-49ec-bded-b64b65ee69cc": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Un duo parfait</strong> : Ce bougeoir est idéal pour être associé à sa <strong>chevalière</strong>, créant ainsi un ensemble harmonieux pour une table décorée avec goût. Un élément de caractère qui apporte une touche artisanale et authentique à votre intérieur.</p>"
+          }
+        },
+        "d3e809b3-cdcf-4c0b-9e77-cc1af15afea7": {
+          "type": "link",
+          "settings": {
+            "link_text": "Achetez-les",
+            "link_url": "shopify://pages/contact"
+          }
+        }
+      },
+      "block_order": [
+        "5f9db6ef-10ed-4282-b96c-94f61448d409",
+        "15a60f6d-ee7c-445d-b726-091a97db6cb6",
+        "74c5c396-970a-49ec-bded-b64b65ee69cc",
+        "d3e809b3-cdcf-4c0b-9e77-cc1af15afea7"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/17.png",
+        "is_reverse": false,
+        "is_centred": false,
+        "padding_top": 60,
+        "padding_bottom": 50
+      }
+    },
+    "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
+      "type": "rosa-header2",
+      "settings": {
+        "tag": "div",
+        "text1": "NOTRE SHOWROOM  LES COUPS DE COEURS DE ROSA MAÏTEA",
+        "text2": "NOUS VOUS ACCUEILLONS DANS NOTRE SHOWROOM AVEC LES COUPS DE COEUR DE ROSA MAÏTEA",
+        "padding_top": 45,
+        "padding_bottom": 25
+      }
+    },
+    "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/P250314102310-1080pProRes-1-ECLMSTRLUT2025.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify://shop_images/web_DSC9883.jpg",
+        "description": ""
+      }
+    },
+    "c35448d9-1175-475c-9d96-16d0b67db72b": {
+      "type": "rosa-quote",
+      "settings": {
+        "tag": "div",
+        "text1": "Venez choisir votre PIÈCE DE CERAMIQUE unique !",
+        "text2": "JE VOUS ATTENDS DANS MON SHOWROOM",
+        "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
+        "link_url": "shopify://pages/prendre-rendez-vous",
+        "padding_top": 80,
+        "padding_bottom": 85
+      }
+    },
+    "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#ffffff",
+        "is_static": false
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "5fdb5a3e-82d3-40d0-9f48-2bc0374e139e",
+    "374b95c0-0dcd-4404-92dc-32f8188ad207",
+    "9b7251da-a436-4ee3-86d9-43e5a2375824",
+    "product-grid",
+    "6649bb51-9cf5-4a01-bba3-61a21835f000",
+    "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
+    "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
+    "c35448d9-1175-475c-9d96-16d0b67db72b",
+    "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8"
+  ]
+}
