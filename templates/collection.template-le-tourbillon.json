@@ -115,8 +115,9 @@
       "blocks": {
         "5f9db6ef-10ed-4282-b96c-94f61448d409": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>LE TOURBILLON UNIQUE CRÉE PAR VOUS</p>"
+            "text": "<p>BOUGEOIRS COUPLE DE CHEVALIERS : FEMME ET HOMME</p>"
           }
         },
         "15a60f6d-ee7c-445d-b726-091a97db6cb6": {
@@ -147,11 +148,11 @@
         "d3e809b3-cdcf-4c0b-9e77-cc1af15afea7"
       ],
       "settings": {
-        "image": "shopify://shop_images/Webp.net-resizeimage-112.jpg",
+        "image": "shopify://shop_images/17.png",
         "is_reverse": false,
         "is_centred": false,
-        "padding_top": 45,
-        "padding_bottom": 45
+        "padding_top": 60,
+        "padding_bottom": 50
       }
     },
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
