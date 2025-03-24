@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -17,14 +26,14 @@
         "is_full_screen": true,
         "alignment": "center",
         "text_color": "#ffffff",
-        "image_banner_title_text": "<p>title<\/p>",
+        "image_banner_title_text": "<p>title</p>",
         "is_title_big": false,
         "image_banner_subtitle_text": "text",
         "is_text_big": false,
         "image_banner_link_text": "link",
-        "image_banner_link_url": "\/",
-        "banner_image": "shopify:\/\/shop_images\/5_df7feafd-a836-47b9-89d7-287f6b8592a0.png",
-        "banner_image_mobile": "shopify:\/\/shop_images\/8.png"
+        "image_banner_link_url": "/",
+        "banner_image": "shopify://shop_images/P250314102807-1-RAW-7.jpg",
+        "banner_image_mobile": "shopify://shop_images/8.png"
       }
     },
     "374b95c0-0dcd-4404-92dc-32f8188ad207": {
@@ -32,7 +41,7 @@
       "settings": {
         "tag": "h1",
         "text1": "",
-        "text2": "Tourbillon",
+        "text2": "LES CERAMIQUES DE PUGLIA, ITALIE",
         "padding_top": 70,
         "padding_bottom": 0
       }
@@ -43,7 +52,7 @@
         "4c86542f-6c74-4961-94ed-b043fe20da2b": {
           "type": "text",
           "settings": {
-            "text": "<p>Collection Tourbillon<\/p>"
+            "text": "<p>Collection Tourbillon</p>"
           }
         },
         "d2e22a52-2031-49cf-b351-f80fdd768551": {
@@ -56,13 +65,13 @@
         "72f17976-0055-4da3-bada-32d0ea229273": {
           "type": "text",
           "settings": {
-            "text": "<p>Précieux carrousels de pierres fines 100% traçables et de diamants recyclés, les bagues éco-responsables <em>Tourbillon<\/em> en or 18ct recyclé rayonnent et illuminent les doigts de mille feux inattendus. Elles mélangent  avec gaité de lumineuses  pierres fines à l’éclat pur des diamants blancs. <\/p>"
+            "text": "<p>Précieux carrousels de pierres fines 100% traçables et de diamants recyclés, les bagues éco-responsables <em>Tourbillon</em> en or 18ct recyclé rayonnent et illuminent les doigts de mille feux inattendus. Elles mélangent  avec gaité de lumineuses  pierres fines à l’éclat pur des diamants blancs. </p>"
           }
         },
         "fc054447-71a8-41ce-9100-b52d6b4385ea": {
           "type": "text",
           "settings": {
-            "text": "<p>Ode aux couleurs, les bagues <em>Tourbillon<\/em> entrelacent en une spirale d’amour infini, les grenats et les spinelles bleues, les spessartites couleurs d’agrumes, et les rhodolites que les grecs nommaient Roses. <\/p><p>Ouvragé sous la précieuse rosace, un cœur d'or secret laisse briller la lumière sous les pierres, magnifiant encore leur éclat. <\/p>"
+            "text": "<p>Ode aux couleurs, les bagues <em>Tourbillon</em> entrelacent en une spirale d’amour infini, les grenats et les spinelles bleues, les spessartites couleurs d’agrumes, et les rhodolites que les grecs nommaient Roses. </p><p>Ouvragé sous la précieuse rosace, un cœur d'or secret laisse briller la lumière sous les pierres, magnifiant encore leur éclat. </p>"
           }
         },
         "cd2b9a8a-6684-42b2-a9e3-47ed36321182": {
@@ -70,7 +79,7 @@
           "disabled": true,
           "settings": {
             "link_text": "Les 3 tailles de Tourbillon",
-            "link_url": "shopify:\/\/collections\/tourbillon"
+            "link_url": "shopify://collections/tourbillon"
           }
         }
       },
@@ -82,7 +91,7 @@
         "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/42.jpg",
+        "image": "shopify://shop_images/9.png",
         "is_reverse": false,
         "is_centred": true,
         "padding_top": 60,
@@ -108,7 +117,7 @@
         "5f9db6ef-10ed-4282-b96c-94f61448d409": {
           "type": "text",
           "settings": {
-            "text": "<p>LE TOURBILLON UNIQUE CRÉE PAR VOUS<\/p>"
+            "text": "<p>LE TOURBILLON UNIQUE CRÉE PAR VOUS</p>"
           }
         },
         "15a60f6d-ee7c-445d-b726-091a97db6cb6": {
@@ -121,14 +130,14 @@
         "74c5c396-970a-49ec-bded-b64b65ee69cc": {
           "type": "text",
           "settings": {
-            "text": "<p>Rosa Maitea vous propose de créer votre propre bague <em><strong>Tourbillon<\/strong><\/em>, en la personnalisant avec les pierres et les couleurs de votre choix: magnifiquement votre ! <\/p>"
+            "text": "<p>Rosa Maitea vous propose de créer votre propre bague <em><strong>Tourbillon</strong></em>, en la personnalisant avec les pierres et les couleurs de votre choix: magnifiquement votre ! </p>"
           }
         },
         "d3e809b3-cdcf-4c0b-9e77-cc1af15afea7": {
           "type": "link",
           "settings": {
             "link_text": "CONTACTEZ NOUS",
-            "link_url": "shopify:\/\/pages\/contact"
+            "link_url": "shopify://pages/contact"
           }
         }
       },
@@ -139,7 +148,7 @@
         "d3e809b3-cdcf-4c0b-9e77-cc1af15afea7"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Webp.net-resizeimage-112.jpg",
+        "image": "shopify://shop_images/Webp.net-resizeimage-112.jpg",
         "is_reverse": false,
         "is_centred": false,
         "padding_top": 45,
@@ -160,9 +169,9 @@
       "type": "video",
       "settings": {
         "enable_video_looping": false,
-        "video": "shopify:\/\/files\/videos\/Showroom Rosa Maïtea.mov",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify:\/\/shop_images\/web_DSC9883.jpg",
+        "video": "shopify://files/videos/Showroom Rosa Maïtea.mov",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify://shop_images/web_DSC9883.jpg",
         "description": ""
       }
     },
@@ -173,7 +182,7 @@
         "text1": "Venez choisir votre Tourbillon unique !",
         "text2": "Patricia Pereda - Directrice artistique et fondatrice de Rosa Maïtea",
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
-        "link_url": "shopify:\/\/pages\/prendre-rendez-vous",
+        "link_url": "shopify://pages/prendre-rendez-vous",
         "padding_top": 80,
         "padding_bottom": 85
       }
