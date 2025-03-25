@@ -63,11 +63,10 @@
     },
     "e6ecc10c-9aff-44b4-b9d1-68b1e63da577": {
       "type": "rosa-quote",
-      "disabled": true,
       "settings": {
         "tag": "div",
-        "text1": "Les Bonnes Étoiles existent également en version arc-en-ciel : La collection Arcoiris. Variation polychrome sur le thème de l’étoile, Arcoiris compose une parure audacieuse réalisée en or jaune 18ct recyclé et serti de pierres 100% traçables : spinelles et grenats de Tanzanie aux magnifiques couleurs vives",
-        "text2": "",
+        "text1": "Les belles pashminas que j'ai trouvé à Katmandu",
+        "text2": "Lors de mon voyage à Katmandou, j’ai eu la chance de découvrir les pashminas directement chez les artisans locaux, dans leurs ateliers discrets, loin des grandes boutiques touristiques. Ce sont eux qui m’ont montré leur travail, leur patience, leur savoir-faire transmis depuis des générations.Chaque pièce est brodée à la main, avec une précision et une finesse impressionnantes. Ce qui m’a tout de suite séduite, c’est la douceur des tissus : un toucher agréable, léger mais aussi très chaud.",
         "link_text": "",
         "link_url": "/",
         "padding_top": 45,
