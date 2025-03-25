@@ -51,6 +51,16 @@
         "banner_image_mobile": "shopify://shop_images/23.png"
       }
     },
+    "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
+      "type": "rosa-header2",
+      "settings": {
+        "tag": "div",
+        "text1": "LES COUPS DE COEURS DE ROSA MAÏTEA",
+        "text2": "LES PASHMINAS DE KATMANDOU",
+        "padding_top": 45,
+        "padding_bottom": 25
+      }
+    },
     "e6ecc10c-9aff-44b4-b9d1-68b1e63da577": {
       "type": "rosa-quote",
       "disabled": true,
@@ -141,16 +151,6 @@
         "padding_bottom": 15
       }
     },
-    "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
-      "type": "rosa-header2",
-      "settings": {
-        "tag": "div",
-        "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
-        "text2": "NOUS VOUS ACCUEILLONS DANS NOTRE SHOWROOM AVEC JOIE",
-        "padding_top": 45,
-        "padding_bottom": 25
-      }
-    },
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1": {
       "type": "video",
       "settings": {
@@ -185,11 +185,11 @@
     "banner",
     "image_banner_aqFUaA",
     "rosa_collections_banner_wHqLcK",
+    "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "e6ecc10c-9aff-44b4-b9d1-68b1e63da577",
     "collection_slider_kk8Gwa",
     "product-grid",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
-    "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
     "c35448d9-1175-475c-9d96-16d0b67db72b",
     "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8"
