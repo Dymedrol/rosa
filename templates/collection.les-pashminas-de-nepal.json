@@ -73,31 +73,6 @@
         "padding_bottom": 45
       }
     },
-    "collection_slider_kk8Gwa": {
-      "type": "collection-slider",
-      "settings": {
-        "tag": "div",
-        "title1": "LES COUPS DE COEURS DE ROSA MAÏTEA",
-        "title2": "LES PASHMINAS UNIQUES DE NEPAL",
-        "collection": "les-pashminas-de-nepal",
-        "link-text": "Les belles pashminas que j'ai trouvé à Katmandu",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
-    "product-grid": {
-      "type": "main-collection-product-grid",
-      "settings": {
-        "enable_promo_card": false,
-        "enable_filtering": true,
-        "enable_filtering_by_product_type": true,
-        "filter_type": "horizontal",
-        "enable_sorting": true,
-        "columns_mobile": "2",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "9b7251da-a436-4ee3-86d9-43e5a2375824": {
       "type": "double",
       "blocks": {
@@ -141,13 +116,37 @@
         "fc054447-71a8-41ce-9100-b52d6b4385ea",
         "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/14.jpg",
+        "image": "shopify://shop_images/21.png",
         "is_reverse": false,
         "is_centred": true,
         "padding_top": 30,
         "padding_bottom": 15
+      }
+    },
+    "collection_slider_kk8Gwa": {
+      "type": "collection-slider",
+      "settings": {
+        "tag": "div",
+        "title1": "LES COUPS DE COEURS DE ROSA MAÏTEA",
+        "title2": "LES PASHMINAS UNIQUES DE NEPAL",
+        "collection": "les-pashminas-de-nepal",
+        "link-text": "Les belles pashminas que j'ai trouvé à Katmandu",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "enable_promo_card": false,
+        "enable_filtering": true,
+        "enable_filtering_by_product_type": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1": {
@@ -186,9 +185,9 @@
     "rosa_collections_banner_wHqLcK",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "e6ecc10c-9aff-44b4-b9d1-68b1e63da577",
+    "9b7251da-a436-4ee3-86d9-43e5a2375824",
     "collection_slider_kk8Gwa",
     "product-grid",
-    "9b7251da-a436-4ee3-86d9-43e5a2375824",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
     "c35448d9-1175-475c-9d96-16d0b67db72b",
     "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8"
