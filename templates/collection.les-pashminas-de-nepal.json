@@ -151,6 +151,16 @@
         "padding_bottom": 0
       }
     },
+    "rosa_header2_f7TTqi": {
+      "type": "rosa-header2",
+      "settings": {
+        "tag": "div",
+        "text1": "LE SHOWROOM DE ROSA MAÏTEA",
+        "text2": "VENEZ DECOUVRIR LES BELLES PASHMINAS DANS NOTRE SHOWROOM PARISIEN",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1": {
       "type": "video",
       "settings": {
@@ -190,6 +200,7 @@
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
     "collection_slider_kk8Gwa",
     "product-grid",
+    "rosa_header2_f7TTqi",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
     "c35448d9-1175-475c-9d96-16d0b67db72b",
     "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8"
