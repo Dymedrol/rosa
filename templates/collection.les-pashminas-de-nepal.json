@@ -38,6 +38,7 @@
     },
     "rosa_collections_banner_wHqLcK": {
       "type": "rosa-collections-banner",
+      "disabled": true,
       "settings": {
         "alignment": "center",
         "text_color": "#ffffff",
@@ -117,7 +118,7 @@
         "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
       ],
       "settings": {
-        "image": "shopify://shop_images/21.png",
+        "image": "shopify://shop_images/22.png",
         "is_reverse": false,
         "is_centred": true,
         "padding_top": 30,
@@ -126,6 +127,7 @@
     },
     "collection_slider_kk8Gwa": {
       "type": "collection-slider",
+      "disabled": true,
       "settings": {
         "tag": "div",
         "title1": "LES COUPS DE COEURS DE ROSA MAÏTEA",
