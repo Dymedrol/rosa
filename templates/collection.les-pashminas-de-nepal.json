@@ -9,6 +9,33 @@
  */
 {
   "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "custom_css": [
+        ".rosa-collection-banner-title {display: none !important;}"
+      ],
+      "settings": {
+        "tag": "div"
+      }
+    },
+    "image_banner_aqFUaA": {
+      "type": "image-banner",
+      "settings": {
+        "tag": "div",
+        "is_full_screen": true,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "<p>LES PLUS BELLES PASHMINAS DE NEPAL ACHETES A KATMANDU</p>",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "",
+        "is_text_big": false,
+        "image_banner_link_text": "VOIR PLUS",
+        "image_banner_link_url": "shopify://collections/les-pashminas-de-nepal",
+        "banner_image": "shopify://shop_images/23.png",
+        "banner_image_mobile": "shopify://shop_images/22.png"
+      }
+    },
     "rosa_collections_banner_wHqLcK": {
       "type": "rosa-collections-banner",
       "settings": {
@@ -22,16 +49,6 @@
         "image_banner_link_url": "/",
         "banner_image": "shopify://shop_images/22.png",
         "banner_image_mobile": "shopify://shop_images/23.png"
-      }
-    },
-    "banner": {
-      "type": "main-collection-banner",
-      "disabled": true,
-      "custom_css": [
-        ".rosa-collection-banner-title {display: none !important;}"
-      ],
-      "settings": {
-        "tag": "div"
       }
     },
     "e6ecc10c-9aff-44b4-b9d1-68b1e63da577": {
@@ -165,8 +182,9 @@
     }
   },
   "order": [
-    "rosa_collections_banner_wHqLcK",
     "banner",
+    "image_banner_aqFUaA",
+    "rosa_collections_banner_wHqLcK",
     "e6ecc10c-9aff-44b4-b9d1-68b1e63da577",
     "collection_slider_kk8Gwa",
     "product-grid",
