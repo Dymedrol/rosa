@@ -31,6 +31,21 @@
         "padding_bottom": 45
       }
     },
+    "rosa_collections_banner_wHqLcK": {
+      "type": "rosa-collections-banner",
+      "settings": {
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "title",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "text",
+        "is_text_big": false,
+        "image_banner_link_text": "link",
+        "image_banner_link_url": "/",
+        "banner_image": "shopify://shop_images/22.png",
+        "banner_image_mobile": "shopify://shop_images/23.png"
+      }
+    },
     "collection_slider_kk8Gwa": {
       "type": "collection-slider",
       "settings": {
@@ -151,6 +166,7 @@
   "order": [
     "banner",
     "e6ecc10c-9aff-44b4-b9d1-68b1e63da577",
+    "rosa_collections_banner_wHqLcK",
     "collection_slider_kk8Gwa",
     "product-grid",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
