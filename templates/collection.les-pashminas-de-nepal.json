@@ -31,6 +31,18 @@
         "padding_bottom": 45
       }
     },
+    "collection_slider_kk8Gwa": {
+      "type": "collection-slider",
+      "settings": {
+        "tag": "div",
+        "title1": "LES COUPS DE COEURS DE ROSA MAÏTEA",
+        "title2": "LES PASHMINAS UNIQUES DE NEPAL",
+        "collection": "les-pashminas-de-nepal",
+        "link-text": "Les belles pashminas que j'ai trouvé à Katmandu",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -139,6 +151,7 @@
   "order": [
     "banner",
     "e6ecc10c-9aff-44b4-b9d1-68b1e63da577",
+    "collection_slider_kk8Gwa",
     "product-grid",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
