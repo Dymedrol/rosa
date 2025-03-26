@@ -26,14 +26,14 @@
         "is_full_screen": true,
         "alignment": "center",
         "text_color": "#121212",
-        "image_banner_title_text": "<p>LES CERAMIQUES DE PUGLIA</p>",
+        "image_banner_title_text": "<p>LES POCHETTES ET COUSSINS DE L'AMAZONIE</p>",
         "is_title_big": false,
         "image_banner_subtitle_text": "",
         "is_text_big": false,
         "image_banner_link_text": "Voir plus",
-        "image_banner_link_url": "shopify://collections/les-ceramiques-de-puglia-et-de-caltagirone-de-rosa-maitea",
-        "banner_image": "shopify://shop_images/P250314102807-1-RAW-7.jpg",
-        "banner_image_mobile": "shopify://shop_images/8.png"
+        "image_banner_link_url": "shopify://collections/les-pochettes-et-cousins-brodees-de-mama-tierra-pour-rosa-maitea",
+        "banner_image": "shopify://shop_images/BirdsBlueClutchMhighstill.jpg",
+        "banner_image_mobile": "shopify://shop_images/BirdsBlueClutchMhigh_jpg_70323ce9-4994-4d25-a618-f18bb339ec7f.jpg"
       }
     },
     "374b95c0-0dcd-4404-92dc-32f8188ad207": {
@@ -52,14 +52,14 @@
         "4c86542f-6c74-4961-94ed-b043fe20da2b": {
           "type": "text",
           "settings": {
-            "text": "<p>COUPS DE COEURS UNIQUES</p>"
+            "text": "<p>COUPS DE COEURS DE ROSA MAÏTEA</p>"
           }
         },
         "d2e22a52-2031-49cf-b351-f80fdd768551": {
           "type": "heading",
           "settings": {
             "heading1": "",
-            "heading2": "Céramiques de Puglia et de Caltagirone – Une sélection choisie avec le cœur"
+            "heading2": "les pochettes et coussins de l'association de mama tierra"
           }
         },
         "72f17976-0055-4da3-bada-32d0ea229273": {
@@ -90,7 +90,7 @@
         "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
       ],
       "settings": {
-        "image": "shopify://shop_images/9.png",
+        "image": "shopify://shop_images/FierceSunsetClutchMstill_jpg_447d38d8-212b-411e-a494-645630c771b5.jpg",
         "is_reverse": false,
         "is_centred": true,
         "padding_top": 60,
