@@ -46,6 +46,16 @@
         "padding_bottom": 0
       }
     },
+    "rosa_quote4_VPenG9": {
+      "type": "rosa-quote4",
+      "settings": {
+        "tag": "div",
+        "text1": "Lors d’un événement, j’ai eu la chance de rencontrer Lourdes, la femme merveilleuse qui a fondé Mama Tierra. Son énergie, son engagement et la beauté de son travail m’ont profondément touchée. Je suis littéralement tombée amoureuse de ses pochettes et coussins, vibrants de sens, de couleurs et d’histoires. Mama Tierra donne des couleurs à la vie des femmes à travers des accessoires artisanaux d’exception, porteurs de symboles et de récits.En mêlant mythes autochtones et savoir-faire ancestral à une touche bohème contemporaine, Mama Tierra imagine des pièces uniques au design engagé et sensible.",
+        "text2": "Créée en 2015 par des militantes des droits humains, l’association œuvre pour l’égalité des genres et le changement social, en soutenant les femmes indigènes de Colombie et du Venezuela. Chaque création est réalisée à la main, avec lenteur et amour, et incarne un chemin vers l’émancipation et l’autonomie.",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "9b7251da-a436-4ee3-86d9-43e5a2375824": {
       "type": "double",
       "blocks": {
@@ -215,6 +225,7 @@
     "banner",
     "5fdb5a3e-82d3-40d0-9f48-2bc0374e139e",
     "374b95c0-0dcd-4404-92dc-32f8188ad207",
+    "rosa_quote4_VPenG9",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
     "product-grid",
     "6649bb51-9cf5-4a01-bba3-61a21835f000",
