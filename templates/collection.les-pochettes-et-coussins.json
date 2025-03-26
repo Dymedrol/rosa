@@ -169,7 +169,7 @@
       "type": "video",
       "settings": {
         "enable_video_looping": false,
-        "video": "shopify://files/videos/P250314102310-1080pProRes-1-ECLMSTRLUT2025.mp4",
+        "video": "shopify://files/videos/Showroom Rosa Maïtea.mov",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "cover_image": "shopify://shop_images/web_DSC9883.jpg",
         "description": ""
@@ -179,7 +179,7 @@
       "type": "rosa-quote",
       "settings": {
         "tag": "div",
-        "text1": "Venez choisir votre PIÈCE DE CERAMIQUE unique !",
+        "text1": "Venez choisir vos POCHETTES IDEALES !",
         "text2": "JE VOUS ATTENDS DANS MON SHOWROOM",
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
         "link_url": "shopify://pages/prendre-rendez-vous",
