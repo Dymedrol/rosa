@@ -25,14 +25,14 @@
         "tag": "div",
         "is_full_screen": true,
         "alignment": "center",
-        "text_color": "#ffffff",
+        "text_color": "#121212",
         "image_banner_title_text": "<p>LES POCHETTES ET COUSSINS DE L'AMAZONIE</p>",
         "is_title_big": false,
         "image_banner_subtitle_text": "",
         "is_text_big": false,
         "image_banner_link_text": "Voir plus",
         "image_banner_link_url": "shopify://collections/les-pochettes-et-cousins-brodees-de-mama-tierra-pour-rosa-maitea",
-        "banner_image": "shopify://shop_images/FierceSunsetClutchMstill_jpg.jpg",
+        "banner_image": "shopify://shop_images/BirdsBlueClutchMhighstill.jpg",
         "banner_image_mobile": "shopify://shop_images/BirdsBlueClutchMhigh_jpg_70323ce9-4994-4d25-a618-f18bb339ec7f.jpg"
       }
     },
@@ -41,7 +41,7 @@
       "settings": {
         "tag": "h1",
         "text1": "LES COUPS DE COEURS DE ROSA MAÏTEA",
-        "text2": "LES POCHETTES ET COUSSINS DE l'ASSOCIATION MAMA TIERRA",
+        "text2": "LES CERAMIQUES DE PUGLIA en ITALIE",
         "padding_top": 70,
         "padding_bottom": 0
       }
@@ -90,7 +90,7 @@
         "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
       ],
       "settings": {
-        "image": "shopify://shop_images/FierceSunsetClutchMstill_jpg_447d38d8-212b-411e-a494-645630c771b5.jpg",
+        "image": "shopify://shop_images/ParadiseWildflowerClutchMoffwhitegreenredhighstill_jpg.jpg",
         "is_reverse": false,
         "is_centred": true,
         "padding_top": 60,
@@ -136,7 +136,7 @@
         "d3e809b3-cdcf-4c0b-9e77-cc1af15afea7": {
           "type": "link",
           "settings": {
-            "link_text": "DECOUVRIR LES COUSSIN DE L'AMAZONIE",
+            "link_text": "Achetez-les",
             "link_url": "shopify://pages/contact"
           }
         }
