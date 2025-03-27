@@ -73,21 +73,13 @@
           "settings": {
             "text": "<p>Sélectionnée avec émotion pour <em><strong>Les Coups de Cœur de Rosa Maïtea</strong></em>, elle incarne la beauté d’un savoir-faire ancestral et la poésie d’une rencontre inoubliable.</p>"
           }
-        },
-        "cd2b9a8a-6684-42b2-a9e3-47ed36321182": {
-          "type": "link",
-          "settings": {
-            "link_text": "Voir les TÊTES DE MAURES de SICILE",
-            "link_url": "shopify://collections/les-tetes-de-maures-de-sicilia"
-          }
         }
       },
       "block_order": [
         "4c86542f-6c74-4961-94ed-b043fe20da2b",
         "d2e22a52-2031-49cf-b351-f80fdd768551",
         "72f17976-0055-4da3-bada-32d0ea229273",
-        "fc054447-71a8-41ce-9100-b52d6b4385ea",
-        "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
+        "fc054447-71a8-41ce-9100-b52d6b4385ea"
       ],
       "settings": {
         "image": "shopify://shop_images/4_3bf26cce-9ed9-4f51-be52-24147d9bd6fd.png",
