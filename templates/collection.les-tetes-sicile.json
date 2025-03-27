@@ -171,24 +171,16 @@
         "padding_bottom": 85
       }
     },
-    "double_dih6y8": {
-      "type": "double",
-      "blocks": {
-        "heading_YgVCte": {
-          "type": "heading",
-          "settings": {
-            "heading1": "CHAQUE PIECE EST UNIQUE",
-            "heading2": "VENEZ PROFITER DE NOTRE SHOWROOM"
-          }
-        }
-      },
-      "block_order": [
-        "heading_YgVCte"
-      ],
+    "related_products_custom_6NTaji": {
+      "type": "related-products-custom",
       "settings": {
-        "image": "shopify://shop_images/PHOTO_SALON_COUP_DE_COEURS.png",
-        "is_reverse": false,
-        "is_centred": false,
+        "title1": "VOUS ALLEZ AUSSI AIMER :",
+        "product_list": [
+          "vase-sicilien-tete-de-maure-matteo-pour-rosa-maitea-copie-1",
+          "chaine-ethique-la-bonne-etoile-arcoiris-or-diamants-recycles-pierres-tracables",
+          "coussin-brode-mama-tierra-fierce-natural-copie",
+          "creole-arcoiris"
+        ],
         "padding_top": 45,
         "padding_bottom": 45
       }
@@ -211,7 +203,7 @@
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
     "c35448d9-1175-475c-9d96-16d0b67db72b",
-    "double_dih6y8",
+    "related_products_custom_6NTaji",
     "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8"
   ]
 }
