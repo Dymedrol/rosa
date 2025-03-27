@@ -25,14 +25,14 @@
         "tag": "div",
         "is_full_screen": true,
         "alignment": "center",
-        "text_color": "#ffffff",
+        "text_color": "#121212",
         "image_banner_title_text": "<p>LES CERAMIQUES UNIQUES DE POUILLES</p>",
         "is_title_big": false,
         "image_banner_subtitle_text": "Un artisanat italien au charme intemporel ",
         "is_text_big": false,
         "image_banner_link_text": "Voir plus",
         "image_banner_link_url": "shopify://collections/les-ceramiques-de-puglia-et-de-caltagirone-de-rosa-maitea",
-        "banner_image": "shopify://shop_images/P250314102807-1-RAW-7.jpg",
+        "banner_image": "shopify://shop_images/Capture_d_ecran_2025-03-27_a_12.54.10.png",
         "banner_image_mobile": "shopify://shop_images/8.png"
       }
     },
