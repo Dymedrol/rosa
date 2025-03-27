@@ -1,0 +1,199 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "custom_css": [
+        "@media ((min-width: 1200px)) {.rosa-pdp {padding-top: 35px !important; }}"
+      ],
+      "settings": {
+        "guide_text": "Guide des tailles",
+        "gravure_url": "shopify://pages/gravure",
+        "gravure_text": "Gravure",
+        "guide_url": "shopify://pages/baguier-rosa-maitea",
+        "mise_text": "Mise à taille",
+        "mise_url": "shopify://pages/remise-a-taille-offerte",
+        "cart_button__text": "Ajouter au panier",
+        "cart_fav__text": "Ajouter aux favoris",
+        "cart_fav__text_success": "Dans les favoris",
+        "prendre__text": "PRENDRE RENDEZ-VOUS AU SHOWROOM",
+        "fav-url": "shopify://pages/favoris",
+        "delivery__text": "Livraison estimée à partir du",
+        "description__text": "DESCRIPTION ET DETAILS",
+        "description_du_produit__text": "Description du produit:"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "title1": "VOUS ALLEZ AUSSI AIMER :"
+      }
+    },
+    "e13403e6-08d0-430c-bbe0-fd2cef7bb233": {
+      "type": "double",
+      "blocks": {
+        "88f8deb1-4b82-4d54-bd3c-f5dcb57ff173": {
+          "type": "heading",
+          "settings": {
+            "heading1": "",
+            "heading2": "ROSA MAÏTEA EXPERIENCE"
+          }
+        },
+        "9f61982c-8bb5-472f-8b86-6a12be523cdf": {
+          "type": "accordion",
+          "settings": {
+            "title": "LIVRAISON ET RETOUR",
+            "text": "<p>La livraison et le retour sont gratuits partout en France et dans toute l'Union européenne. Pour les destinations en dehors de ces pays, n'hésitez pas à nous contacter à l'adresse <a href=\"mailto:albane@rosamaitea.com\" title=\"mailto:albane@rosamaitea.com\">albane@rosamaitea.com</a>. Nous vous fournirons les informations nécessaires sur les frais de livraison et organiserons la livraison pour vous.</p>"
+          }
+        },
+        "c50bd8d1-49c5-4629-9870-32dd4b014ac3": {
+          "type": "accordion",
+          "settings": {
+            "title": "GUIDE DE TAILLES",
+            "text": "<p>Pour vous assurer de recevoir votre bague à la taille idéale, veuillez consulter notre guide des tailles <a href=\"/pages/baguier-rosa-maitea\" target=\"_blank\" title=\"Baguier Rosa Maïtea\">ici</a>.</p>"
+          }
+        },
+        "f8d51ad8-08af-4da4-9a69-3984b3b0ea56": {
+          "type": "accordion",
+          "settings": {
+            "title": "MISE À TAILLE OFFERTE",
+            "text": "<p>Vous avez commis une erreur dans le choix de la taille de votre bague ? N'ayez aucune inquiétude, nous vous offrons la possibilité de la faire ajuster. Toutes les bagues livrées dans l'Union européenne peuvent être redimensionnées dans les 30 jours suivant la réception. </p>"
+          }
+        },
+        "f2043284-b98f-4e0c-95bd-acecc36cfefa": {
+          "type": "accordion",
+          "settings": {
+            "title": "PRENDRE RDV au SHOWROOM",
+            "text": "<p>En venant au showroom vous allez vivre une experience unique de partage dans un cocoon colorée et joyeux. Vous pouvez prendre rdv sur le site dans la section <a href=\"/pages/prendre-rendez-vous\" target=\"_blank\" title=\"Prendre Rendez-vous\">Prendre Rdv</a> ou en nous écrivons au patricia@rosamaitea.com ou nous envoyons un whastapp au +33 (0) 6 81 48 71 74</p>"
+          }
+        },
+        "2689b26e-1e69-4953-8893-a2bb40125c10": {
+          "type": "accordion",
+          "settings": {
+            "title": "SERVICE SUR MESURE",
+            "text": "<p>Nous pouvons créer des bijoux que pour vous, à vos gouts, en partons de nos modèles. Choix de couleurs de pierres, choix de tailles adaptés à vos budgets. Nous vous proposons aussi la possibilité de transformer vos bijoux anciens pour leurs donner une deuxième vie. <a href=\"/pages/creation-sur-mesure\" title=\"CRÉATION SUR-MESURE\">Plus sur le bijoux su-mesure.</a></p>"
+          }
+        },
+        "36049017-dc7f-49cc-9d4a-521579379617": {
+          "type": "accordion",
+          "settings": {
+            "title": "REPARATIONS DE VOS BIJOUX",
+            "text": "<p>Nous proposons nos services de réparation et nettoyage pour tous vos bijoux : réparation de bijoux, polissage, nettoyage, gravure ou mise à taille. <a href=\"/pages/contact\" title=\"Contact\">Contactez nous</a> et nous vous enverrons un devis adapté.</p>"
+          }
+        },
+        "ae687db6-9dc1-4679-8440-648e707aad9b": {
+          "type": "accordion",
+          "settings": {
+            "title": "PACKAGING ROSA MAÏTEA",
+            "text": "<p>Dans la démarche de notre engagement, nous avons crée des pochons réalisés de magnifiques  tissues upcyclés de la prestigieuse marque <strong>Pierre Frey</strong>. Nous voulons utiliser le moins de ressources possible même dans la création de nos écrins emballages, cartes, et envois. <a href=\"/pages/packaging-recycle\" title=\"PACKAGING RECYCLÉ\">Plus sur notre packaging</a>.</p>"
+          }
+        },
+        "3b7cb09f-7c6b-46ba-9202-f254d5cf75cc": {
+          "type": "accordion",
+          "settings": {
+            "title": "JOAILLERIE ÉCO-REPONSABLE",
+            "text": "<p>L'engagement éthique et environnemental est au cœur de nos valeurs. Cet engagement guide toutes nos décisions, sans exception. La transparence et l'honnêteté sont au cœur de notre ADN, et nous vous informons de manière transparente sur ce que nous faisons et comment nous le faisons. Nous sommes déterminés à être transparents et engagés envers toutes les personnes impliquées dans la création des bijoux Rosa Maïtea. <a href=\"/pages/nos-valeurs-fondatrices\" title=\"Nos Valeurs Fondatrices\">Plus sur nos valeurs.</a></p>"
+          }
+        },
+        "ad4e1be4-6cf7-4536-b87a-43a8d43c4d0b": {
+          "type": "accordion",
+          "settings": {
+            "title": "OÙ NOUS TROUVER",
+            "text": "<p>Nous avons un showroom dans le centre de Paris ou vous pouvez prendre rdv. Nous avons une liste de boutiques ou nos bijoux sont vendues en France, Belgique et Luxembourg, online, pour le moment. <a href=\"/pages/boutiques\" title=\"Boutiques\">Voici la liste de boutiques.</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "88f8deb1-4b82-4d54-bd3c-f5dcb57ff173",
+        "9f61982c-8bb5-472f-8b86-6a12be523cdf",
+        "c50bd8d1-49c5-4629-9870-32dd4b014ac3",
+        "f8d51ad8-08af-4da4-9a69-3984b3b0ea56",
+        "f2043284-b98f-4e0c-95bd-acecc36cfefa",
+        "2689b26e-1e69-4953-8893-a2bb40125c10",
+        "36049017-dc7f-49cc-9d4a-521579379617",
+        "ae687db6-9dc1-4679-8440-648e707aad9b",
+        "3b7cb09f-7c6b-46ba-9202-f254d5cf75cc",
+        "ad4e1be4-6cf7-4536-b87a-43a8d43c4d0b"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/rosa_Maitea_joaillerie_ethique_en_or_18_carats_recycle_et_diamants_recycles.jpg",
+        "is_reverse": false,
+        "is_centred": false,
+        "padding_top": 95,
+        "padding_bottom": 105
+      }
+    },
+    "0f32b7f0-f6d3-48bc-a764-d95b9d90cd6a": {
+      "type": "rosa-header2",
+      "settings": {
+        "tag": "div",
+        "text1": "LES CONSEILS DE ROSA MAITEA",
+        "text2": "PRENDRE SOIN DE SON BIJOUX",
+        "padding_top": 0,
+        "padding_bottom": 35
+      }
+    },
+    "717bc189-467a-47c3-8794-1ec35b80e2e9": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/Joaillerie éthique et joyeuse.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify://shop_images/Image_2x_9e2afc72-f595-4acd-9661-646fc74aeda0.png",
+        "description": ""
+      }
+    },
+    "39eed9dc-0490-4ebf-9f39-f286ac72d387": {
+      "type": "rosa-header3",
+      "settings": {
+        "tag": "div",
+        "text1": "Pour garder l'éclat de votre bijoux et lui aider à vivre plus longtemps, nous vous conseillons de nettoyer vos bijoux régulièrement. Les bijoux accumulent de saletés et de poussières qui peuvent les rendre plus ternes. Voici nos conseils d'entretiens de votre bijoux.",
+        "text2": "",
+        "text3": "<p>Conseils d'entretiens de vos bijoux</p>",
+        "padding_top": 45,
+        "padding_bottom": 90
+      }
+    },
+    "6e02a8cf-0c84-43f0-b182-6ee54d34c2dd": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "tag": "div",
+        "is_full_screen": false,
+        "alignment": "left",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "<p>LA COLLECTION JARDIN COSMIQUE</p>",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "",
+        "is_text_big": false,
+        "image_banner_link_text": "DÉCOUVRIR LA COLLECTION",
+        "image_banner_link_url": "/"
+      }
+    },
+    "719c5cd0-d7bd-4a47-9682-c76fa8c12530": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#000000",
+        "is_static": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "e13403e6-08d0-430c-bbe0-fd2cef7bb233",
+    "0f32b7f0-f6d3-48bc-a764-d95b9d90cd6a",
+    "717bc189-467a-47c3-8794-1ec35b80e2e9",
+    "39eed9dc-0490-4ebf-9f39-f286ac72d387",
+    "6e02a8cf-0c84-43f0-b182-6ee54d34c2dd",
+    "719c5cd0-d7bd-4a47-9682-c76fa8c12530"
+  ]
+}
