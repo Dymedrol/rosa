@@ -59,12 +59,6 @@
     "9b7251da-a436-4ee3-86d9-43e5a2375824": {
       "type": "double",
       "blocks": {
-        "4c86542f-6c74-4961-94ed-b043fe20da2b": {
-          "type": "text",
-          "settings": {
-            "text": "<p>COUPS DE COEURS DE ROSA MAÏTEA</p>"
-          }
-        },
         "d2e22a52-2031-49cf-b351-f80fdd768551": {
           "type": "heading",
           "settings": {
@@ -93,7 +87,6 @@
         }
       },
       "block_order": [
-        "4c86542f-6c74-4961-94ed-b043fe20da2b",
         "d2e22a52-2031-49cf-b351-f80fdd768551",
         "72f17976-0055-4da3-bada-32d0ea229273",
         "fc054447-71a8-41ce-9100-b52d6b4385ea",
