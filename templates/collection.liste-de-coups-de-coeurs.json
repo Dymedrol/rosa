@@ -11,6 +11,7 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "custom_css": [
         ".rosa-collection-banner-title {display: none !important;}"
       ],
@@ -18,17 +19,83 @@
         "tag": "div"
       }
     },
-    "e6ecc10c-9aff-44b4-b9d1-68b1e63da577": {
-      "type": "rosa-quote",
-      "disabled": true,
+    "image_banner_ALnjfr": {
+      "type": "image-banner",
       "settings": {
         "tag": "div",
-        "text1": "Les Bonnes Étoiles existent également en version arc-en-ciel : La collection Arcoiris. Variation polychrome sur le thème de l’étoile, Arcoiris compose une parure audacieuse réalisée en or jaune 18ct recyclé et serti de pierres 100% traçables : spinelles et grenats de Tanzanie aux magnifiques couleurs vives",
+        "is_full_screen": true,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "<p>title</p>",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "text",
+        "is_text_big": false,
+        "image_banner_link_text": "link",
+        "image_banner_link_url": "/",
+        "banner_image": "shopify://shop_images/Captured_ecran2025-02-26a08.58.58.png"
+      }
+    },
+    "e6ecc10c-9aff-44b4-b9d1-68b1e63da577": {
+      "type": "rosa-quote",
+      "settings": {
+        "tag": "div",
+        "text1": "Les Coups de Cœur de Rosa Maïtea est une collection inspirée de mes voyages et de ma passion pour l’artisanat. Au fil des années, j’ai découvert des objets uniques aux couleurs vibrantes et aux matériaux d’exception, façonnés avec talent à travers le monde. Ces pièces, choisies avec la même exigence que mes bijoux, apportent une touche singulière et authentique à un intérieur ou à nous-mêmes. ",
         "text2": "",
         "link_text": "",
         "link_url": "/",
         "padding_top": 45,
         "padding_bottom": 45
+      }
+    },
+    "9b7251da-a436-4ee3-86d9-43e5a2375824": {
+      "type": "double",
+      "blocks": {
+        "4c86542f-6c74-4961-94ed-b043fe20da2b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Les Coups de Coeur de Rosa Maïtea</p>"
+          }
+        },
+        "d2e22a52-2031-49cf-b351-f80fdd768551": {
+          "type": "heading",
+          "settings": {
+            "heading1": "",
+            "heading2": "LES têtes de maures de sicile"
+          }
+        },
+        "72f17976-0055-4da3-bada-32d0ea229273": {
+          "type": "text",
+          "settings": {
+            "text": "<p>J’ai découvert ce vase lors d’un voyage en <strong>Sicile</strong>, à <strong>Caltagirone</strong>, le berceau de la céramique sicilienne. Dans une petite ruelle, baignée de lumière dorée, je suis tombée sur les<strong> plus belles Têtes de Maure</strong> de toute l’île. </p><p>Mon amour pour ces figures emblématiques a commencé bien avant, dans les salles du musée d’anthropologie de Palerme, où elles racontaient leur histoire à travers les siècles. Poussée par la fascination, j’ai poursuivi ma quête jusqu’à rencontrer <strong>l’artisan Giuseppe Coffano</strong>. </p><p>Un coup de cœur instantané pour son travail : une finesse inouïe, une élégance intemporelle. </p><p>Sélectionnée avec émotion pour <em><strong>Les Coups de Cœur de Rosa Maïtea</strong></em>, elle incarne la beauté d’un savoir-faire ancestral et la poésie d’une rencontre inoubliable.</p>"
+          }
+        },
+        "fc054447-71a8-41ce-9100-b52d6b4385ea": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "cd2b9a8a-6684-42b2-a9e3-47ed36321182": {
+          "type": "link",
+          "settings": {
+            "link_text": "VOIR LES TÊTES DE MAURES DE SICILE",
+            "link_url": "shopify://collections/les-tetes-de-maures-de-sicilia"
+          }
+        }
+      },
+      "block_order": [
+        "4c86542f-6c74-4961-94ed-b043fe20da2b",
+        "d2e22a52-2031-49cf-b351-f80fdd768551",
+        "72f17976-0055-4da3-bada-32d0ea229273",
+        "fc054447-71a8-41ce-9100-b52d6b4385ea",
+        "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/16_21de1ac2-3028-438d-8282-936f930d760a.png",
+        "is_reverse": false,
+        "is_centred": true,
+        "padding_top": 30,
+        "padding_bottom": 15
       }
     },
     "product-grid": {
@@ -42,58 +109,6 @@
         "columns_mobile": "2",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "9b7251da-a436-4ee3-86d9-43e5a2375824": {
-      "type": "double",
-      "blocks": {
-        "4c86542f-6c74-4961-94ed-b043fe20da2b": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Collection Arcoiris</p>"
-          }
-        },
-        "d2e22a52-2031-49cf-b351-f80fdd768551": {
-          "type": "heading",
-          "settings": {
-            "heading1": "",
-            "heading2": "Variation polychrome sur le thème de l’étoile"
-          }
-        },
-        "72f17976-0055-4da3-bada-32d0ea229273": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Arcoiris compose une parure audacieuse réalisée en or jaune 18ct recyclé et serti de pierres 100% traçables : <strong>spinelles et grenats</strong> de Tanzanie aux magnifiques couleurs vives. </p>"
-          }
-        },
-        "fc054447-71a8-41ce-9100-b52d6b4385ea": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Placée sous le triple signe de la joie, de la beauté et de la protection de notre environnement, la collection Arcoiris renouvelle avec bonheur le design de la <strong>joaillerie éthique</strong>. </p>"
-          }
-        },
-        "cd2b9a8a-6684-42b2-a9e3-47ed36321182": {
-          "type": "link",
-          "settings": {
-            "link_text": "Collection Arcoiris",
-            "link_url": "shopify://collections/arcoiris"
-          }
-        }
-      },
-      "block_order": [
-        "4c86542f-6c74-4961-94ed-b043fe20da2b",
-        "d2e22a52-2031-49cf-b351-f80fdd768551",
-        "72f17976-0055-4da3-bada-32d0ea229273",
-        "fc054447-71a8-41ce-9100-b52d6b4385ea",
-        "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/14.jpg",
-        "is_reverse": false,
-        "is_centred": true,
-        "padding_top": 30,
-        "padding_bottom": 15
       }
     },
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
@@ -138,9 +153,10 @@
   },
   "order": [
     "banner",
+    "image_banner_ALnjfr",
     "e6ecc10c-9aff-44b4-b9d1-68b1e63da577",
-    "product-grid",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
+    "product-grid",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
     "c35448d9-1175-475c-9d96-16d0b67db72b",
