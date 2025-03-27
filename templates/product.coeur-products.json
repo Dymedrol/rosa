@@ -39,6 +39,20 @@
         "title1": "VOUS ALLEZ AUSSI AIMER :"
       }
     },
+    "related_products_custom_FrnR3b": {
+      "type": "related-products-custom",
+      "settings": {
+        "title1": "VOUS ALLEZ AUSSI AIMER :",
+        "product_list": [
+          "etole-en-cachemire-pashmina-brodee-de-nepal-orange-brique-copie",
+          "pashmina-arc-en-ciel-du-nepal-fuchsia-intense-copie",
+          "pashmina-brodee-du-nepal-ecru-fleurs-d-automne-pour-rosa-maitea",
+          "pashmina-brodee-du-nepal-ecru-fleurs-d-automne-pour-rosa-maitea-copie"
+        ],
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "e13403e6-08d0-430c-bbe0-fd2cef7bb233": {
       "type": "double",
       "blocks": {
@@ -200,6 +214,7 @@
   "order": [
     "main",
     "related-products",
+    "related_products_custom_FrnR3b",
     "e13403e6-08d0-430c-bbe0-fd2cef7bb233",
     "0f32b7f0-f6d3-48bc-a764-d95b9d90cd6a",
     "717bc189-467a-47c3-8794-1ec35b80e2e9",
