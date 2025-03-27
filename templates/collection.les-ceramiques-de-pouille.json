@@ -124,12 +124,21 @@
           "settings": {
             "text": "<p><strong>Un duo parfait</strong> : Ce bougeoir est idéal pour être associé à sa <strong>chevalière</strong>, créant ainsi un ensemble harmonieux pour une table décorée avec goût. Un élément de caractère qui apporte une touche artisanale et authentique à votre intérieur.</p>"
           }
+        },
+        "item_dHKbDV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/K6A1996_a2639fd8-cffc-414c-aa57-d8469463f1b3.jpg",
+            "text": "text",
+            "url": "/"
+          }
         }
       },
       "block_order": [
         "5f9db6ef-10ed-4282-b96c-94f61448d409",
         "15a60f6d-ee7c-445d-b726-091a97db6cb6",
-        "74c5c396-970a-49ec-bded-b64b65ee69cc"
+        "74c5c396-970a-49ec-bded-b64b65ee69cc",
+        "item_dHKbDV"
       ],
       "settings": {
         "image": "shopify://shop_images/17.png",
