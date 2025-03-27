@@ -12,7 +12,8 @@
     "main": {
       "type": "main-product",
       "custom_css": [
-        "@media ((min-width: 1200px)) {.rosa-pdp {padding-top: 35px !important; }}"
+        "@media ((min-width: 1200px)) {.rosa-pdp {padding-top: 35px !important; }}",
+        ".rosa-pdp-info-links, .rosa-pdp-info-text2 {display:none!important;}"
       ],
       "settings": {
         "guide_text": "",
