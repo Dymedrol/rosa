@@ -124,20 +124,12 @@
           "settings": {
             "text": "<p>Les <strong>Têtes de Maure</strong> (<em>Teste di Moro</em>) sont des vases en céramique emblématiques de la Sicile, nés d’une légende où amour et vengeance se mêlent :<strong> une légende entre amour et tragédie.</strong></p><p>L’origine des <strong>Têtes de Maure </strong>remonte au XIe siècle, à l’époque de la domination arabe en Sicile. À Palerme, une jeune femme tomba amoureuse d’un noble Maure de passage. Lorsqu’elle découvrit qu’il était marié et devait repartir en Orient, elle le tua dans un accès de rage, gardant sa tête en pot de fleurs dans son jardin. Les plantes y poussèrent magnifiquement, suscitant l’admiration du voisinage. Inspirés, les habitants commencèrent à créer des <strong>vases en céramique en forme de tête</strong>, donnant naissance à cette tradition sicilienne.</p>"
           }
-        },
-        "d3e809b3-cdcf-4c0b-9e77-cc1af15afea7": {
-          "type": "link",
-          "settings": {
-            "link_text": "Achete nos belles têtes de maures",
-            "link_url": "shopify://collections/les-tetes-de-maures-de-sicilia"
-          }
         }
       },
       "block_order": [
         "5f9db6ef-10ed-4282-b96c-94f61448d409",
         "15a60f6d-ee7c-445d-b726-091a97db6cb6",
-        "74c5c396-970a-49ec-bded-b64b65ee69cc",
-        "d3e809b3-cdcf-4c0b-9e77-cc1af15afea7"
+        "74c5c396-970a-49ec-bded-b64b65ee69cc"
       ],
       "settings": {
         "image": "shopify://shop_images/Capture_d_ecran_2025-02-26_a_08.55.39.png",
