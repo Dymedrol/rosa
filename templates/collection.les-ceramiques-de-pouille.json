@@ -187,6 +187,23 @@
         "padding_bottom": 85
       }
     },
+    "image_banner_XwtQbL": {
+      "type": "image-banner",
+      "settings": {
+        "tag": "div",
+        "is_full_screen": true,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "",
+        "is_text_big": false,
+        "image_banner_link_text": "",
+        "image_banner_link_url": "/",
+        "banner_image": "shopify://shop_images/K6A1999.jpg",
+        "banner_image_mobile": "shopify://shop_images/K6A1999.jpg"
+      }
+    },
     "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8": {
       "type": "rosa-header-controls",
       "settings": {
@@ -205,6 +222,7 @@
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
     "c35448d9-1175-475c-9d96-16d0b67db72b",
+    "image_banner_XwtQbL",
     "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8"
   ]
 }
