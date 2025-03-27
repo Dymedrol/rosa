@@ -64,7 +64,7 @@
     "collection_slider_with_pic_nTaP4z": {
       "type": "collection-slider-with-pic",
       "settings": {
-        "is_reverse": false,
+        "is_reverse": true,
         "slider_2_image": "shopify://shop_images/P250314102807-1-RAW-7.jpg",
         "text1": "LES COUPS DE COEUR DE ROSA MAÏTEA",
         "text2": "LES CÉRAMIQUES DE POUILLES",
