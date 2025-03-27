@@ -77,20 +77,12 @@
           "settings": {
             "text": "<p>Créée en 2015 par des militantes des droits humains, l’association œuvre pour l’<strong>égalité des genres </strong>et le <strong>changement social</strong>, en soutenant les femmes indigènes de <strong>Colombie et du Venezuela</strong>.</p><p><br/>Chaque création est réalisée <strong>à la main</strong>, avec lenteur et amour, et incarne un <strong>chemin vers l’émancipation </strong>et l’autonomie.</p>"
           }
-        },
-        "cd2b9a8a-6684-42b2-a9e3-47ed36321182": {
-          "type": "link",
-          "settings": {
-            "link_text": "Voir les pochettes et coussins brodés",
-            "link_url": "shopify://collections/les-pochettes-et-cousins-brodees-de-mama-tierra-pour-rosa-maitea"
-          }
         }
       },
       "block_order": [
         "d2e22a52-2031-49cf-b351-f80fdd768551",
         "72f17976-0055-4da3-bada-32d0ea229273",
-        "fc054447-71a8-41ce-9100-b52d6b4385ea",
-        "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
+        "fc054447-71a8-41ce-9100-b52d6b4385ea"
       ],
       "settings": {
         "image": "shopify://shop_images/ParadiseWildflowerClutchMoffwhitegreenredhighstill_jpg.jpg",
@@ -135,20 +127,12 @@
           "settings": {
             "text": "<p>Ce <strong>coussin brodé à la main </strong>célèbre la force et l’intensité des félins dans une explosion de couleurs éclatantes. Réalisé par les femmes indigènes de Colombie et du Venezuela en partenariat avec <strong>l’association suisse Mama Tierra</strong>, il incarne un <strong>savoir-faire ancestral </strong>et<strong> </strong>un <strong>engagement éthique</strong> fort.</p>"
           }
-        },
-        "d3e809b3-cdcf-4c0b-9e77-cc1af15afea7": {
-          "type": "link",
-          "settings": {
-            "link_text": "DECOUVRIR LES COUSSINS DE L'AMAZONIE",
-            "link_url": "shopify://collections/les-pochettes-et-cousins-brodees-de-mama-tierra-pour-rosa-maitea"
-          }
         }
       },
       "block_order": [
         "5f9db6ef-10ed-4282-b96c-94f61448d409",
         "15a60f6d-ee7c-445d-b726-091a97db6cb6",
-        "74c5c396-970a-49ec-bded-b64b65ee69cc",
-        "d3e809b3-cdcf-4c0b-9e77-cc1af15afea7"
+        "74c5c396-970a-49ec-bded-b64b65ee69cc"
       ],
       "settings": {
         "image": "shopify://shop_images/Paradise-Yellow-Cushion-Red_7f0ed011-1ded-4f02-a6b8-8e8e1c31bcb0.jpg",
@@ -212,6 +196,21 @@
         "color": "#ffffff",
         "is_static": false
       }
+    },
+    "related_products_custom_mfBzNh": {
+      "type": "related-products-custom",
+      "settings": {
+        "title1": "VOUS ALLEZ AUSSI AIMER :",
+        "product_list": [
+          "bague-la-favorite-tourmaline-verte",
+          "bague-la-bonne-etoile-grand-modele",
+          "bougeoir-en-ceramique-chevalier-des-pouilles-andrea-pour-rosa-maitea-copie",
+          "pashmina-brodee-du-nepal-ecru-fleurs-d-automne-pour-rosa-maitea",
+          "pendentif-ethique-la-bonne-etoile-diamants-recycles"
+        ],
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
     }
   },
   "order": [
@@ -226,6 +225,7 @@
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
     "c35448d9-1175-475c-9d96-16d0b67db72b",
-    "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8"
+    "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8",
+    "related_products_custom_mfBzNh"
   ]
 }
