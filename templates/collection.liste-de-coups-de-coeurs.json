@@ -79,10 +79,11 @@
       "type": "collection-slider-with-pic",
       "settings": {
         "is_reverse": false,
-        "text1": "text 1",
-        "text2": "text 2",
-        "text3": "<p>text 3</p>",
-        "collection": "",
+        "slider_2_image": "shopify://shop_images/FierceSunsetClutchMstill_jpg_447d38d8-212b-411e-a494-645630c771b5.jpg",
+        "text1": "LES COUPS DE COEUR DE ROSA MAÏTEA",
+        "text2": "",
+        "text3": "<p><strong>Mama Tierra</strong> donne des couleurs à la vie des femmes à travers des accessoires artisanaux d’exception, porteurs de symboles et de récits. En mêlant mythes autochtones et savoir-faire ancestral à une touche bohème contemporaine, Mama Tierra imagine des pièces uniques au design engagé et sensible. </p><p>Créée en 2015 par des militantes des droits humains, l’association œuvre pour l’égalité des genres et le changement social, en soutenant les <strong>femmes indigènes de Colombie et du Venezuela</strong>. Chaque création est réalisée à la main, avec lenteur et amour, et incarne un chemin vers l’émancipation et l’autonomie.</p><p>Chaque création est réalisée<strong>à la main</strong>, avec lenteur et amour, et incarne un<strong>chemin vers l’émancipation</strong>et l’autonomie.</p>",
+        "collection": "les-pochettes-et-cousins-brodees-de-mama-tierra-pour-rosa-maitea",
         "link-text": "DÉCOUVRIR LA COLLECTION",
         "padding_top": 45,
         "padding_bottom": 45
