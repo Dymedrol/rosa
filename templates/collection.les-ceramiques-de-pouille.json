@@ -124,21 +124,12 @@
           "settings": {
             "text": "<p><strong>Un duo parfait</strong> : Ce bougeoir est idéal pour être associé à sa <strong>chevalière</strong>, créant ainsi un ensemble harmonieux pour une table décorée avec goût. Un élément de caractère qui apporte une touche artisanale et authentique à votre intérieur.</p>"
           }
-        },
-        "item_dHKbDV": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/K6A1996_a2639fd8-cffc-414c-aa57-d8469463f1b3.jpg",
-            "text": "text",
-            "url": "/"
-          }
         }
       },
       "block_order": [
         "5f9db6ef-10ed-4282-b96c-94f61448d409",
         "15a60f6d-ee7c-445d-b726-091a97db6cb6",
-        "74c5c396-970a-49ec-bded-b64b65ee69cc",
-        "item_dHKbDV"
+        "74c5c396-970a-49ec-bded-b64b65ee69cc"
       ],
       "settings": {
         "image": "shopify://shop_images/17.png",
@@ -146,6 +137,35 @@
         "is_centred": false,
         "padding_top": 60,
         "padding_bottom": 50
+      }
+    },
+    "double_AtXcGX": {
+      "type": "double",
+      "blocks": {
+        "heading_AmLGFt": {
+          "type": "heading",
+          "settings": {
+            "heading1": "Image with text",
+            "heading2": "LES PUPAS DE CALTAGIRONE"
+          }
+        },
+        "text_iWm3iB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Directement venue de <strong>Caltagirone</strong>, capitale historique de la céramique en Sicile, cette <strong>Pupa con i baffi</strong> – littéralement \"femme à moustache\" – détourne avec humour les représentations classiques de la féminité.</p><p>Réalisée <strong>à la main par des artisans locaux</strong>, cette sculpture devient une <strong>lampe originale et expressive</strong>, à la fois décorative et fonctionnelle. Ses formes généreuses, ses détails en relief, son regard fier et ses fameuses moustaches lui confèrent un <strong>charme décalé et irrésistible</strong>. Elle incarne un esprit libre, théâtral et profondément méditerranéen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AmLGFt",
+        "text_iWm3iB"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/K6A1996_a2639fd8-cffc-414c-aa57-d8469463f1b3.jpg",
+        "is_reverse": true,
+        "is_centred": false,
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
@@ -212,6 +232,7 @@
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
     "product-grid",
     "6649bb51-9cf5-4a01-bba3-61a21835f000",
+    "double_AtXcGX",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
     "c35448d9-1175-475c-9d96-16d0b67db72b",
