@@ -161,6 +161,21 @@
         "color": "#000000",
         "is_static": true
       }
+    },
+    "related_products_custom_WbGaK4": {
+      "type": "related-products-custom",
+      "settings": {
+        "title1": "VOUS ALLEZ AUSSI AIMER :",
+        "product_list": [
+          "bague-arcoiris-gm",
+          "bague-ethique-constellation-diamants",
+          "pochette-brodee-m-mama-tierra-eclat-d-amazonie-birds-blue",
+          "puce-ethique-arcoiris",
+          "vase-sicilien-tete-de-maure-luisa-pour-rosa-maitea"
+        ],
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
     }
   },
   "order": [
@@ -174,6 +189,7 @@
     "rosa_header2_f7TTqi",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
     "c35448d9-1175-475c-9d96-16d0b67db72b",
-    "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8"
+    "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8",
+    "related_products_custom_WbGaK4"
   ]
 }
