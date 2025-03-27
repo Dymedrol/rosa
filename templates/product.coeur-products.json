@@ -125,9 +125,8 @@
         "3b7cb09f-7c6b-46ba-9202-f254d5cf75cc",
         "ad4e1be4-6cf7-4536-b87a-43a8d43c4d0b"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/rosa_Maitea_joaillerie_ethique_en_or_18_carats_recycle_et_diamants_recycles.jpg",
+        "image": "shopify://shop_images/K6A1996_a2639fd8-cffc-414c-aa57-d8469463f1b3.jpg",
         "is_reverse": false,
         "is_centred": false,
         "padding_top": 95,
@@ -184,22 +183,6 @@
         "image_banner_link_url": "/"
       }
     },
-    "image_banner_hybXNa": {
-      "type": "image-banner",
-      "settings": {
-        "tag": "div",
-        "is_full_screen": true,
-        "alignment": "center",
-        "text_color": "#ffffff",
-        "image_banner_title_text": "",
-        "is_title_big": false,
-        "image_banner_subtitle_text": "",
-        "is_text_big": false,
-        "image_banner_link_text": "",
-        "image_banner_link_url": "shopify://collections/les-ceramiques-de-puglia-et-de-caltagirone-de-rosa-maitea",
-        "banner_image": "shopify://shop_images/Capture_d_ecran_2025-03-27_a_12.54.10.png"
-      }
-    },
     "719c5cd0-d7bd-4a47-9682-c76fa8c12530": {
       "type": "rosa-header-controls",
       "settings": {
@@ -216,7 +199,6 @@
     "717bc189-467a-47c3-8794-1ec35b80e2e9",
     "39eed9dc-0490-4ebf-9f39-f286ac72d387",
     "6e02a8cf-0c84-43f0-b182-6ee54d34c2dd",
-    "image_banner_hybXNa",
     "719c5cd0-d7bd-4a47-9682-c76fa8c12530"
   ]
 }
