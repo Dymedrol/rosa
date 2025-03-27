@@ -15,20 +15,21 @@
         "@media ((min-width: 1200px)) {.rosa-pdp {padding-top: 35px !important; }}"
       ],
       "settings": {
-        "guide_text": "Guide des tailles",
-        "gravure_url": "shopify://pages/gravure",
-        "gravure_text": "Gravure",
-        "guide_url": "shopify://pages/baguier-rosa-maitea",
-        "mise_text": "Mise à taille",
-        "mise_url": "shopify://pages/remise-a-taille-offerte",
+        "guide_text": "",
+        "gravure_url": "",
+        "gravure_text": "",
+        "guide_url": "",
+        "mise_text": "",
+        "mise_url": "",
         "cart_button__text": "Ajouter au panier",
         "cart_fav__text": "Ajouter aux favoris",
         "cart_fav__text_success": "Dans les favoris",
         "prendre__text": "PRENDRE RENDEZ-VOUS AU SHOWROOM",
         "fav-url": "shopify://pages/favoris",
-        "delivery__text": "Livraison estimée à partir du",
+        "delivery__text": "",
         "description__text": "DESCRIPTION ET DETAILS",
-        "description_du_produit__text": "Description du produit:"
+        "description_du_produit__text": "Description du produit:",
+        "choisissez_votre_option__text": "choisissez votre option"
       }
     },
     "related-products": {
