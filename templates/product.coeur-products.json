@@ -58,6 +58,7 @@
         },
         "c50bd8d1-49c5-4629-9870-32dd4b014ac3": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "title": "GUIDE DE TAILLES",
             "text": "<p>Pour vous assurer de recevoir votre bague à la taille idéale, veuillez consulter notre guide des tailles <a href=\"/pages/baguier-rosa-maitea\" target=\"_blank\" title=\"Baguier Rosa Maïtea\">ici</a>.</p>"
@@ -65,6 +66,7 @@
         },
         "f8d51ad8-08af-4da4-9a69-3984b3b0ea56": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "title": "MISE À TAILLE OFFERTE",
             "text": "<p>Vous avez commis une erreur dans le choix de la taille de votre bague ? N'ayez aucune inquiétude, nous vous offrons la possibilité de la faire ajuster. Toutes les bagues livrées dans l'Union européenne peuvent être redimensionnées dans les 30 jours suivant la réception. </p>"
@@ -79,6 +81,7 @@
         },
         "2689b26e-1e69-4953-8893-a2bb40125c10": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "title": "SERVICE SUR MESURE",
             "text": "<p>Nous pouvons créer des bijoux que pour vous, à vos gouts, en partons de nos modèles. Choix de couleurs de pierres, choix de tailles adaptés à vos budgets. Nous vous proposons aussi la possibilité de transformer vos bijoux anciens pour leurs donner une deuxième vie. <a href=\"/pages/creation-sur-mesure\" title=\"CRÉATION SUR-MESURE\">Plus sur le bijoux su-mesure.</a></p>"
@@ -86,6 +89,7 @@
         },
         "36049017-dc7f-49cc-9d4a-521579379617": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "title": "REPARATIONS DE VOS BIJOUX",
             "text": "<p>Nous proposons nos services de réparation et nettoyage pour tous vos bijoux : réparation de bijoux, polissage, nettoyage, gravure ou mise à taille. <a href=\"/pages/contact\" title=\"Contact\">Contactez nous</a> et nous vous enverrons un devis adapté.</p>"
@@ -93,6 +97,7 @@
         },
         "ae687db6-9dc1-4679-8440-648e707aad9b": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "title": "PACKAGING ROSA MAÏTEA",
             "text": "<p>Dans la démarche de notre engagement, nous avons crée des pochons réalisés de magnifiques  tissues upcyclés de la prestigieuse marque <strong>Pierre Frey</strong>. Nous voulons utiliser le moins de ressources possible même dans la création de nos écrins emballages, cartes, et envois. <a href=\"/pages/packaging-recycle\" title=\"PACKAGING RECYCLÉ\">Plus sur notre packaging</a>.</p>"
@@ -100,6 +105,7 @@
         },
         "3b7cb09f-7c6b-46ba-9202-f254d5cf75cc": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "title": "JOAILLERIE ÉCO-REPONSABLE",
             "text": "<p>L'engagement éthique et environnemental est au cœur de nos valeurs. Cet engagement guide toutes nos décisions, sans exception. La transparence et l'honnêteté sont au cœur de notre ADN, et nous vous informons de manière transparente sur ce que nous faisons et comment nous le faisons. Nous sommes déterminés à être transparents et engagés envers toutes les personnes impliquées dans la création des bijoux Rosa Maïtea. <a href=\"/pages/nos-valeurs-fondatrices\" title=\"Nos Valeurs Fondatrices\">Plus sur nos valeurs.</a></p>"
