@@ -187,6 +187,16 @@
         "padding_bottom": 85
       }
     },
+    "double_dih6y8": {
+      "type": "double",
+      "settings": {
+        "image": "shopify://shop_images/PHOTO_SALON_COUP_DE_COEURS.png",
+        "is_reverse": false,
+        "is_centred": false,
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8": {
       "type": "rosa-header-controls",
       "settings": {
@@ -205,6 +215,7 @@
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
     "c35448d9-1175-475c-9d96-16d0b67db72b",
+    "double_dih6y8",
     "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8"
   ]
 }
