@@ -61,55 +61,44 @@
         "padding_bottom": 45
       }
     },
-    "9b7251da-a436-4ee3-86d9-43e5a2375824": {
-      "type": "double",
-      "blocks": {
-        "4c86542f-6c74-4961-94ed-b043fe20da2b": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Les Coups de Coeur de Rosa Maïtea</p>"
-          }
-        },
-        "d2e22a52-2031-49cf-b351-f80fdd768551": {
-          "type": "heading",
-          "settings": {
-            "heading1": "",
-            "heading2": "LES têtes de maures de sicile"
-          }
-        },
-        "72f17976-0055-4da3-bada-32d0ea229273": {
-          "type": "text",
-          "settings": {
-            "text": "<p>J’ai découvert ce vase lors d’un voyage en <strong>Sicile</strong>, à <strong>Caltagirone</strong>, le berceau de la céramique sicilienne. Dans une petite ruelle, baignée de lumière dorée, je suis tombée sur les<strong> plus belles Têtes de Maure</strong> de toute l’île. </p><p>Mon amour pour ces figures emblématiques a commencé bien avant, dans les salles du musée d’anthropologie de Palerme, où elles racontaient leur histoire à travers les siècles. Poussée par la fascination, j’ai poursuivi ma quête jusqu’à rencontrer <strong>l’artisan Giuseppe Coffano</strong>. </p><p>Un coup de cœur instantané pour son travail : une finesse inouïe, une élégance intemporelle. </p><p>Sélectionnée avec émotion pour <em><strong>Les Coups de Cœur de Rosa Maïtea</strong></em>, elle incarne la beauté d’un savoir-faire ancestral et la poésie d’une rencontre inoubliable.</p>"
-          }
-        },
-        "fc054447-71a8-41ce-9100-b52d6b4385ea": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        },
-        "cd2b9a8a-6684-42b2-a9e3-47ed36321182": {
-          "type": "link",
-          "settings": {
-            "link_text": "VOIR LES TÊTES DE MAURES DE SICILE",
-            "link_url": "shopify://collections/les-tetes-de-maures-de-sicilia"
-          }
-        }
-      },
-      "block_order": [
-        "4c86542f-6c74-4961-94ed-b043fe20da2b",
-        "d2e22a52-2031-49cf-b351-f80fdd768551",
-        "72f17976-0055-4da3-bada-32d0ea229273",
-        "fc054447-71a8-41ce-9100-b52d6b4385ea",
-        "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
-      ],
+    "collection_slider_with_pic_nTaP4z": {
+      "type": "collection-slider-with-pic",
       "settings": {
-        "image": "shopify://shop_images/16_21de1ac2-3028-438d-8282-936f930d760a.png",
         "is_reverse": false,
-        "is_centred": true,
-        "padding_top": 30,
-        "padding_bottom": 15
+        "slider_2_image": "shopify://shop_images/P250314102807-1-RAW-7.jpg",
+        "text1": "LES COUPS DE COEUR DE ROSA MAÏTEA",
+        "text2": "LES CÉRAMIQUES DE POUILLES",
+        "text3": "<p>Après trois voyages en Italie à la découverte des traditions artisanales, j’ai rassemblé une <strong>sélection unique de céramiques </strong>venues tout droit de <strong>Caltagirone </strong>en Sicile et des <strong>Pouilles</strong>, deux régions emblématiques du savoir-faire italien.</p><p>Chaque pièce a été choisie une à une, au fil de rencontres avec des <strong>artisans passionnés</strong>, dans des ateliers nichés au creux des ruelles. </p><p>Ce sont des objets façonnés à la main, aux couleurs franches, aux détails minutieux, qui racontent la terre, la fête, le quotidien et la beauté simple de l’art populaire Italian.</p><p></p><p></p>",
+        "collection": "les-ceramiques-de-puglia-et-de-caltagirone-de-rosa-maitea",
+        "link-text": "découvrir les céramiques de caltagirone",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "collection_slider_with_pic_yMxRRw": {
+      "type": "collection-slider-with-pic",
+      "settings": {
+        "is_reverse": false,
+        "text1": "text 1",
+        "text2": "text 2",
+        "text3": "<p>text 3</p>",
+        "collection": "",
+        "link-text": "DÉCOUVRIR LA COLLECTION",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "collection_slider_with_pic_B7jjcd": {
+      "type": "collection-slider-with-pic",
+      "settings": {
+        "is_reverse": false,
+        "text1": "text 1",
+        "text2": "text 2",
+        "text3": "<p>text 3</p>",
+        "collection": "",
+        "link-text": "DÉCOUVRIR LA COLLECTION",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "double_X93EMN": {
@@ -207,7 +196,9 @@
     "image_banner_ALnjfr",
     "e6ecc10c-9aff-44b4-b9d1-68b1e63da577",
     "collection_slider_with_pic_wXBMFC",
-    "9b7251da-a436-4ee3-86d9-43e5a2375824",
+    "collection_slider_with_pic_nTaP4z",
+    "collection_slider_with_pic_yMxRRw",
+    "collection_slider_with_pic_B7jjcd",
     "double_X93EMN",
     "product-grid",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
