@@ -33,12 +33,6 @@
         "choisissez_votre_option__text": "choisissez votre option"
       }
     },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "title1": "VOUS ALLEZ AUSSI AIMER :"
-      }
-    },
     "related_products_custom_FrnR3b": {
       "type": "related-products-custom",
       "settings": {
@@ -213,7 +207,6 @@
   },
   "order": [
     "main",
-    "related-products",
     "related_products_custom_FrnR3b",
     "e13403e6-08d0-430c-bbe0-fd2cef7bb233",
     "0f32b7f0-f6d3-48bc-a764-d95b9d90cd6a",
