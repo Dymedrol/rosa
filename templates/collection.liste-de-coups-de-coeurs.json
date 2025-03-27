@@ -48,6 +48,18 @@
         "padding_bottom": 45
       }
     },
+    "rosa_quote_3VAUdg": {
+      "type": "rosa-quote",
+      "settings": {
+        "tag": "div",
+        "text1": "Les Coups de Cœur de Rosa Maïtea est une invitation à voyager à travers des objets qui ont une âme et une histoire. Une façon d’apporter, chez vous, un fragment du monde, une émotion et une vision de la beauté qui fait vibrer et complète l’univers de Rosa Maïtea.",
+        "text2": "text 2",
+        "link_text": "link",
+        "link_url": "/",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "collection_slider_with_pic_wXBMFC": {
       "type": "collection-slider-with-pic",
       "settings": {
@@ -117,16 +129,6 @@
         "padding_bottom": 0
       }
     },
-    "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
-      "type": "rosa-header2",
-      "settings": {
-        "tag": "div",
-        "text1": "LES COUPS DE COEURS SONT EXPOSés dans notre showroom parisien",
-        "text2": "NOUS VOUS ACCUEILLONS DANS NOTRE SHOWROOM pour vous montrer tous nos trésors",
-        "padding_top": 45,
-        "padding_bottom": 25
-      }
-    },
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1": {
       "type": "video",
       "settings": {
@@ -161,12 +163,12 @@
     "banner",
     "image_banner_ALnjfr",
     "e6ecc10c-9aff-44b4-b9d1-68b1e63da577",
+    "rosa_quote_3VAUdg",
     "collection_slider_with_pic_wXBMFC",
     "collection_slider_with_pic_nTaP4z",
     "collection_slider_with_pic_yMxRRw",
     "collection_slider_with_pic_B7jjcd",
     "product-grid",
-    "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
     "c35448d9-1175-475c-9d96-16d0b67db72b",
     "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8"
