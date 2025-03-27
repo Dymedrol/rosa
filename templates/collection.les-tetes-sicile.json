@@ -173,6 +173,18 @@
     },
     "double_dih6y8": {
       "type": "double",
+      "blocks": {
+        "heading_YgVCte": {
+          "type": "heading",
+          "settings": {
+            "heading1": "CHAQUE PIECE EST UNIQUE",
+            "heading2": "VENEZ PROFITER DE NOTRE SHOWROOM"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YgVCte"
+      ],
       "settings": {
         "image": "shopify://shop_images/PHOTO_SALON_COUP_DE_COEURS.png",
         "is_reverse": false,
