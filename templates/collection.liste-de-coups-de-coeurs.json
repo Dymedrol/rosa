@@ -98,6 +98,43 @@
         "padding_bottom": 15
       }
     },
+    "double_X93EMN": {
+      "type": "double",
+      "blocks": {
+        "heading_XVzfXy": {
+          "type": "heading",
+          "settings": {
+            "heading1": "LES COUPS DE COEUR DE ROSA MAÏTEA",
+            "heading2": "LES CÉRAMIQUES DE POUILLES"
+          }
+        },
+        "text_6iiLe3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Après trois voyages en Italie à la découverte des traditions artisanales, j’ai rassemblé une <strong>sélection unique de céramiques </strong>venues tout droit de <strong>Caltagirone </strong>en Sicile et des <strong>Pouilles</strong>, deux régions emblématiques du savoir-faire italien.</p><p>Chaque pièce a été choisie une à une, au fil de rencontres avec des <strong>artisans passionnés</strong>, dans des ateliers nichés au creux des ruelles. </p><p>Ce sont des objets façonnés à la main, aux couleurs franches, aux détails minutieux, qui racontent la terre, la fête, le quotidien et la beauté simple de l’art populaire Italian .</p>"
+          }
+        },
+        "link_RCrjp6": {
+          "type": "link",
+          "settings": {
+            "link_text": "DECOUVRIR LES CÉRAMIQUES DE POUILLES",
+            "link_url": "shopify://collections/les-ceramiques-de-puglia-et-de-caltagirone-de-rosa-maitea"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XVzfXy",
+        "text_6iiLe3",
+        "link_RCrjp6"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/P250314102807-1-RAW-7.jpg",
+        "is_reverse": false,
+        "is_centred": false,
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -156,6 +193,7 @@
     "image_banner_ALnjfr",
     "e6ecc10c-9aff-44b4-b9d1-68b1e63da577",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
+    "double_X93EMN",
     "product-grid",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
