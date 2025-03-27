@@ -223,6 +223,20 @@
         "color": "#ffffff",
         "is_static": false
       }
+    },
+    "related_products_custom_aeQY49": {
+      "type": "related-products-custom",
+      "settings": {
+        "title1": "VOUS ALLEZ AUSSI AIMER :",
+        "product_list": [
+          "bague-ethique-bandeau-arcoiris",
+          "coussin-brode-mama-tierra-paradise-blue",
+          "boucle-d-oreille-ethique-jardin-cosmique",
+          "bague-petit-tourbillon"
+        ],
+        "padding_top": 115,
+        "padding_bottom": 115
+      }
     }
   },
   "order": [
@@ -237,6 +251,7 @@
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
     "c35448d9-1175-475c-9d96-16d0b67db72b",
     "image_banner_XwtQbL",
-    "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8"
+    "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8",
+    "related_products_custom_aeQY49"
   ]
 }
