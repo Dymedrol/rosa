@@ -25,14 +25,15 @@
         "tag": "div",
         "is_full_screen": true,
         "alignment": "center",
-        "text_color": "#ffffff",
-        "image_banner_title_text": "<p>title</p>",
+        "text_color": "#121212",
+        "image_banner_title_text": "<p>LES NOUVEAU COUPS DE COEURS DE ROSA MAÏTEA</p>",
         "is_title_big": false,
-        "image_banner_subtitle_text": "text",
+        "image_banner_subtitle_text": "Des objets qui font du bien, qui illuminent notre quotidien, qui transmettent un peu de cette magie artisanale que j’aime tant.",
         "is_text_big": false,
-        "image_banner_link_text": "link",
-        "image_banner_link_url": "/",
-        "banner_image": "shopify://shop_images/Captured_ecran2025-02-26a08.58.58.png"
+        "image_banner_link_text": "Voir les collections",
+        "image_banner_link_url": "shopify://collections/les-coups-de-coeur-de-rosa-maitea",
+        "banner_image": "shopify://shop_images/Captured_ecran2025-02-26a08.58.58.png",
+        "banner_image_mobile": "shopify://shop_images/K6A1996_a2639fd8-cffc-414c-aa57-d8469463f1b3.jpg"
       }
     },
     "e6ecc10c-9aff-44b4-b9d1-68b1e63da577": {
