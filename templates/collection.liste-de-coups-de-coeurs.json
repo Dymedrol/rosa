@@ -40,7 +40,7 @@
       "type": "rosa-quote",
       "settings": {
         "tag": "div",
-        "text1": "\"Les Coups de Cœur de Rosa Maïtea est une collection inspirée de mes voyages et de ma passion pour l’artisanat. Au fil des années, j’ai découvert des objets uniques aux couleurs vibrantes et aux matériaux d’exception, façonnés avec talent à travers le monde. Ces pièces, choisies avec la même exigence que mes bijoux, apportent une touche singulière et authentique à un intérieur ou à nous-mêmes.\" PATRICIA",
+        "text1": "\"Les Coups de Cœur de Rosa Maïtea est une collection inspirée de mes voyages et de ma passion pour l’artisanat. Au fil des années, j’ai découvert des objets uniques aux couleurs vibrantes et aux matériaux d’exception, façonnés avec talent à travers le monde. Ces pièces, choisies avec la même exigence que mes bijoux, apportent une touche singulière et authentique à un intérieur ou à nous-mêmes.\"                       PATRICIA",
         "text2": "",
         "link_text": "",
         "link_url": "/",
@@ -116,6 +116,20 @@
         "padding_bottom": 45
       }
     },
+    "collection_slider_with_pic_nFbpki": {
+      "type": "collection-slider-with-pic",
+      "settings": {
+        "is_reverse": false,
+        "slider_2_image": "shopify://shop_images/Capture_d_ecran_2025-04-09_a_16.28.05.png",
+        "text1": "les coups de coeur de rosa maïtea",
+        "text2": "les porcelaines chinés en france",
+        "text3": "<p>Chaque pièce de cette collection a été choisie avec soin, lors de promenades dans les <strong>brocantes et les boutiques d’antiquaires aux quatre coins de la France</strong>. Un vase oublié sur une étagère, une figurine aux couleurs éclatantes entre deux piles d’objets… Ce sont ces rencontres inattendues qui donnent vie à cette sélection unique.</p><p>Toutes les pièces ont en commun la <strong>finesse du travail artisanal</strong>, la <strong>singularité de leur histoire</strong>, et surtout, <strong>la couleur</strong> — ce fil rouge qui traverse l’univers de Rosa Maïtea. Des teintes douces ou audacieuses, des harmonies inattendues ou vibrantes, chaque objet est une célébration du détail et du caractère.</p><p></p>",
+        "collection": "",
+        "link-text": "DÉCOUVRIR LA COLLECTION",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -168,6 +182,7 @@
     "collection_slider_with_pic_nTaP4z",
     "collection_slider_with_pic_yMxRRw",
     "collection_slider_with_pic_B7jjcd",
+    "collection_slider_with_pic_nFbpki",
     "product-grid",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
     "c35448d9-1175-475c-9d96-16d0b67db72b",
