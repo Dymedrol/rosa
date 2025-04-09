@@ -25,15 +25,15 @@
         "tag": "div",
         "is_full_screen": true,
         "alignment": "center",
-        "text_color": "#ffffff",
-        "image_banner_title_text": "<p>LES POCHETTES ET COUSSINS DE L'AMAZONIE</p>",
+        "text_color": "#121212",
+        "image_banner_title_text": "<p>LES CERAMIQUES ET PORCELAINES FRANçaises</p>",
         "is_title_big": false,
-        "image_banner_subtitle_text": "",
+        "image_banner_subtitle_text": "Chinés partout en France et selectionés par Rosa Maïtea",
         "is_text_big": false,
         "image_banner_link_text": "Voir plus",
-        "image_banner_link_url": "shopify://collections/les-pochettes-et-cousins-brodees-de-mama-tierra-pour-rosa-maitea",
-        "banner_image": "shopify://shop_images/FierceSunsetClutchMstill_jpg_447d38d8-212b-411e-a494-645630c771b5.jpg",
-        "banner_image_mobile": "shopify://shop_images/BirdsBlueClutchMhigh_jpg_70323ce9-4994-4d25-a618-f18bb339ec7f.jpg"
+        "image_banner_link_url": "shopify://collections/les-ceramiques-francaises",
+        "banner_image": "shopify://shop_images/Capture_d_ecran_2025-04-09_a_16.28.05.png",
+        "banner_image_mobile": "shopify://shop_images/Capture_d_ecran_2025-04-09_a_16.27.59.png"
       }
     },
     "374b95c0-0dcd-4404-92dc-32f8188ad207": {
