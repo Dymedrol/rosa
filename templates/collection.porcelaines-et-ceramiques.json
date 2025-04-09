@@ -1,0 +1,248 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "custom_css": [
+        ".rosa-collection-banner-title {display: none !important;}"
+      ],
+      "settings": {
+        "tag": "div"
+      }
+    },
+    "5fdb5a3e-82d3-40d0-9f48-2bc0374e139e": {
+      "type": "image-banner",
+      "settings": {
+        "tag": "div",
+        "is_full_screen": true,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "<p>LES POCHETTES ET COUSSINS DE L'AMAZONIE</p>",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "",
+        "is_text_big": false,
+        "image_banner_link_text": "Voir plus",
+        "image_banner_link_url": "shopify://collections/les-pochettes-et-cousins-brodees-de-mama-tierra-pour-rosa-maitea",
+        "banner_image": "shopify://shop_images/FierceSunsetClutchMstill_jpg_447d38d8-212b-411e-a494-645630c771b5.jpg",
+        "banner_image_mobile": "shopify://shop_images/BirdsBlueClutchMhigh_jpg_70323ce9-4994-4d25-a618-f18bb339ec7f.jpg"
+      }
+    },
+    "374b95c0-0dcd-4404-92dc-32f8188ad207": {
+      "type": "rosa-header2",
+      "settings": {
+        "tag": "h1",
+        "text1": "LES COUPS DE COEURS DE ROSA MAÏTEA",
+        "text2": "LES POCHETTES DE L'ASSOCIATION MAMA TIERRA",
+        "padding_top": 70,
+        "padding_bottom": 0
+      }
+    },
+    "rosa_quote4_VPenG9": {
+      "type": "rosa-quote4",
+      "settings": {
+        "tag": "div",
+        "text1": "Lors d’un événement, j’ai eu la chance de rencontrer Lourdes, la femme merveilleuse qui a fondé Mama Tierra. Son énergie, son engagement et la beauté de son travail m’ont profondément touchée. Je suis littéralement tombée amoureuse de ses pochettes et coussins, vibrants de sens, de couleurs et d’histoires. Mama Tierra donne des couleurs à la vie des femmes à travers des accessoires artisanaux d’exception, porteurs de symboles et de récits. En mêlant mythes autochtones et savoir-faire ancestral à une touche bohème contemporaine, Mama Tierra imagine des pièces uniques au design engagé et sensible.",
+        "text2": "",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "9b7251da-a436-4ee3-86d9-43e5a2375824": {
+      "type": "double",
+      "blocks": {
+        "d2e22a52-2031-49cf-b351-f80fdd768551": {
+          "type": "heading",
+          "settings": {
+            "heading1": "",
+            "heading2": "les pochettes et coussins de l'association de mama tierra"
+          }
+        },
+        "72f17976-0055-4da3-bada-32d0ea229273": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mama Tierra donne des couleurs à la vie des femmes à travers des accessoires artisanaux d’exception, porteurs de symboles et de récits.<strong> </strong>En mêlant <strong>mythes autochtones </strong>et <strong>savoir-faire ancestral </strong>à une touche bohème contemporaine, Mama Tierra imagine des pièces uniques au <strong>design engagé et sensible</strong>.</p>"
+          }
+        },
+        "fc054447-71a8-41ce-9100-b52d6b4385ea": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Créée en 2015 par des militantes des droits humains, l’association œuvre pour l’<strong>égalité des genres </strong>et le <strong>changement social</strong>, en soutenant les femmes indigènes de <strong>Colombie et du Venezuela</strong>.</p><p><br/>Chaque création est réalisée <strong>à la main</strong>, avec lenteur et amour, et incarne un <strong>chemin vers l’émancipation </strong>et l’autonomie.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "d2e22a52-2031-49cf-b351-f80fdd768551",
+        "72f17976-0055-4da3-bada-32d0ea229273",
+        "fc054447-71a8-41ce-9100-b52d6b4385ea"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/ParadiseWildflowerClutchMoffwhitegreenredhighstill_jpg.jpg",
+        "is_reverse": false,
+        "is_centred": true,
+        "padding_top": 60,
+        "padding_bottom": 30
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "enable_promo_card": false,
+        "enable_filtering": false,
+        "enable_filtering_by_product_type": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "6649bb51-9cf5-4a01-bba3-61a21835f000": {
+      "type": "double",
+      "blocks": {
+        "5f9db6ef-10ed-4282-b96c-94f61448d409": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Coussin Brodé Mama Tierra</p>"
+          }
+        },
+        "15a60f6d-ee7c-445d-b726-091a97db6cb6": {
+          "type": "heading",
+          "settings": {
+            "heading1": "broderie de l'amazonie",
+            "heading2": "Coussin Brodé Mama Tierra "
+          }
+        },
+        "74c5c396-970a-49ec-bded-b64b65ee69cc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ce <strong>coussin brodé à la main </strong>célèbre la force et l’intensité des félins dans une explosion de couleurs éclatantes. Réalisé par les femmes indigènes de Colombie et du Venezuela en partenariat avec <strong>l’association suisse Mama Tierra</strong>, il incarne un <strong>savoir-faire ancestral </strong>et<strong> </strong>un <strong>engagement éthique</strong> fort.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "5f9db6ef-10ed-4282-b96c-94f61448d409",
+        "15a60f6d-ee7c-445d-b726-091a97db6cb6",
+        "74c5c396-970a-49ec-bded-b64b65ee69cc"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Paradise-Yellow-Cushion-Red_7f0ed011-1ded-4f02-a6b8-8e8e1c31bcb0.jpg",
+        "is_reverse": false,
+        "is_centred": false,
+        "padding_top": 60,
+        "padding_bottom": 50
+      }
+    },
+    "image_banner_gqwjhk": {
+      "type": "image-banner",
+      "settings": {
+        "tag": "div",
+        "is_full_screen": true,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "",
+        "is_text_big": false,
+        "image_banner_link_text": "",
+        "image_banner_link_url": "/",
+        "banner_image": "shopify://shop_images/ZeffirelliGroupClutchMPouchXSCollab_jpg.jpg"
+      }
+    },
+    "image_banner_eLXr6d": {
+      "type": "image-banner",
+      "settings": {
+        "tag": "div",
+        "is_full_screen": true,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "",
+        "is_text_big": false,
+        "image_banner_link_text": "",
+        "image_banner_link_url": "/",
+        "banner_image": "shopify://shop_images/ZeffirelliDolceVitaStTropezGroupClutchM_jpg.jpg"
+      }
+    },
+    "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
+      "type": "rosa-header2",
+      "settings": {
+        "tag": "div",
+        "text1": "NOTRE SHOWROOM  LES COUPS DE COEURS DE ROSA MAÏTEA",
+        "text2": "NOUS VOUS ACCUEILLONS DANS NOTRE SHOWROOM AVEC LES COUPS DE COEUR DE ROSA MAÏTEA",
+        "padding_top": 45,
+        "padding_bottom": 25
+      }
+    },
+    "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/Showroom Rosa Maïtea.mov",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify://shop_images/web_DSC9883.jpg",
+        "description": ""
+      }
+    },
+    "c35448d9-1175-475c-9d96-16d0b67db72b": {
+      "type": "rosa-quote",
+      "settings": {
+        "tag": "div",
+        "text1": "Venez choisir vos POCHETTES IDEALES !",
+        "text2": "JE VOUS ATTENDS DANS MON SHOWROOM",
+        "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
+        "link_url": "shopify://pages/prendre-rendez-vous",
+        "padding_top": 80,
+        "padding_bottom": 85
+      }
+    },
+    "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8": {
+      "type": "rosa-header-controls",
+      "settings": {
+        "color": "#ffffff",
+        "is_static": false
+      }
+    },
+    "related_products_custom_mfBzNh": {
+      "type": "related-products-custom",
+      "settings": {
+        "title1": "VOUS ALLEZ AUSSI AIMER :",
+        "product_list": [
+          "bague-la-favorite-tourmaline-verte",
+          "bague-la-bonne-etoile-grand-modele",
+          "bougeoir-en-ceramique-chevalier-des-pouilles-andrea-pour-rosa-maitea-copie",
+          "pashmina-brodee-du-nepal-ecru-fleurs-d-automne-pour-rosa-maitea",
+          "pendentif-ethique-la-bonne-etoile-diamants-recycles"
+        ],
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "5fdb5a3e-82d3-40d0-9f48-2bc0374e139e",
+    "374b95c0-0dcd-4404-92dc-32f8188ad207",
+    "rosa_quote4_VPenG9",
+    "9b7251da-a436-4ee3-86d9-43e5a2375824",
+    "product-grid",
+    "6649bb51-9cf5-4a01-bba3-61a21835f000",
+    "image_banner_gqwjhk",
+    "image_banner_eLXr6d",
+    "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
+    "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
+    "c35448d9-1175-475c-9d96-16d0b67db72b",
+    "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8",
+    "related_products_custom_mfBzNh"
+  ]
+}
