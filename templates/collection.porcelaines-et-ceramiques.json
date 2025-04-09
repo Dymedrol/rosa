@@ -50,8 +50,8 @@
       "type": "rosa-quote4",
       "settings": {
         "tag": "div",
-        "text1": "Lors d’un événement, j’ai eu la chance de rencontrer Lourdes, la femme merveilleuse qui a fondé Mama Tierra. Son énergie, son engagement et la beauté de son travail m’ont profondément touchée. Je suis littéralement tombée amoureuse de ses pochettes et coussins, vibrants de sens, de couleurs et d’histoires. Mama Tierra donne des couleurs à la vie des femmes à travers des accessoires artisanaux d’exception, porteurs de symboles et de récits. En mêlant mythes autochtones et savoir-faire ancestral à une touche bohème contemporaine, Mama Tierra imagine des pièces uniques au design engagé et sensible.",
-        "text2": "",
+        "text1": "Chaque pièce de cette collection a été choisie avec soin, lors de promenades dans les brocantes et les boutiques d’antiquaires aux quatre coins de la France. Un vase oublié sur une étagère, une figurine aux couleurs éclatantes entre deux piles d’objets… Ce sont ces rencontres inattendues qui donnent vie à cette sélection unique.",
+        "text2": "Ce sont des pièces uniques, parfois légèrement décalées, toujours pleines de charme. Ensemble, elles forment une collection sensible, joyeuse et poétique, où la porcelaine et la céramique deviennent des œuvres à part entière. {{ collection.title }}{{ collection.metafields.custom.subtitle.value }}",
         "padding_top": 45,
         "padding_bottom": 45
       }
@@ -63,19 +63,19 @@
           "type": "heading",
           "settings": {
             "heading1": "",
-            "heading2": "les pochettes et coussins de l'association de mama tierra"
+            "heading2": "LES CÉRAMIQUES CHINÉS DANS TOUS LES COINS DE LA FRANCE"
           }
         },
         "72f17976-0055-4da3-bada-32d0ea229273": {
           "type": "text",
           "settings": {
-            "text": "<p>Mama Tierra donne des couleurs à la vie des femmes à travers des accessoires artisanaux d’exception, porteurs de symboles et de récits.<strong> </strong>En mêlant <strong>mythes autochtones </strong>et <strong>savoir-faire ancestral </strong>à une touche bohème contemporaine, Mama Tierra imagine des pièces uniques au <strong>design engagé et sensible</strong>.</p>"
+            "text": "<p>Ce sont des pièces <strong>uniques</strong>, parfois légèrement <strong>décalées</strong>, toujours pleines de charme. Ensemble, elles forment une collection <strong>sensible, joyeuse et poétique,</strong> où la porcelaine et la céramique deviennent des œuvres à part entière.</p>"
           }
         },
         "fc054447-71a8-41ce-9100-b52d6b4385ea": {
           "type": "text",
           "settings": {
-            "text": "<p>Créée en 2015 par des militantes des droits humains, l’association œuvre pour l’<strong>égalité des genres </strong>et le <strong>changement social</strong>, en soutenant les femmes indigènes de <strong>Colombie et du Venezuela</strong>.</p><p><br/>Chaque création est réalisée <strong>à la main</strong>, avec lenteur et amour, et incarne un <strong>chemin vers l’émancipation </strong>et l’autonomie.</p>"
+            "text": "<p>XXX</p><p><br/><strong>Une invitation à chiner autrement, à collectionner lentement, à s’entourer de beauté.</strong></p>"
           }
         }
       },
