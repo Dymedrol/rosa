@@ -24,7 +24,7 @@
       "settings": {
         "tag": "div",
         "is_full_screen": true,
-        "alignment": "center",
+        "alignment": "left",
         "text_color": "#121212",
         "image_banner_title_text": "<p>LES CERAMIQUES ET PORCELAINES FRANçaises</p>",
         "is_title_big": false,
