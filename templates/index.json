@@ -34,6 +34,21 @@
             "banner_image_mobile": "shopify://shop_images/ROSA_MAITEA_MODEL12585-4.jpg"
           }
         },
+        "slide_7KQNcH": {
+          "type": "slide",
+          "settings": {
+            "alignment": "center",
+            "text_color": "#ffffff",
+            "image_banner_title_text": "title",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "text",
+            "is_text_big": false,
+            "image_banner_link_text": "link",
+            "image_banner_link_url": "/",
+            "banner_image": "shopify://shop_images/Capture_d_ecran_2025-04-10_a_16.00.17.jpg",
+            "banner_image_mobile": "shopify://shop_images/Designsanstitre-9_0c5f26ca-baba-4b26-b051-f75766aa08bd.png"
+          }
+        },
         "slide_cLy6PX": {
           "type": "slide",
           "disabled": true,
@@ -157,6 +172,7 @@
       },
       "block_order": [
         "slide_yMMBxP",
+        "slide_7KQNcH",
         "slide_cLy6PX",
         "slide_E4WEdz",
         "slide_rd76XP",
