@@ -358,10 +358,17 @@
           "settings": {
             "collection": "les-ceramiques-de-puglia-et-de-caltagirone-de-rosa-maitea"
           }
+        },
+        "question_tPykPw": {
+          "type": "question",
+          "settings": {
+            "collection": "les-pochettes-et-cousins-brodees-de-mama-tierra-pour-rosa-maitea"
+          }
         }
       },
       "block_order": [
-        "question_nqRwLn"
+        "question_nqRwLn",
+        "question_tPykPw"
       ],
       "settings": {
         "link-text": "DÉCOUVRIR",
