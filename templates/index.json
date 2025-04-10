@@ -228,12 +228,12 @@
         "is_full_screen": true,
         "alignment": "center",
         "text_color": "#ffffff",
-        "image_banner_title_text": "",
+        "image_banner_title_text": "<p>COUPS DE COEUR DE ROSA MAÏTEA</p>",
         "is_title_big": false,
         "image_banner_subtitle_text": "",
         "is_text_big": false,
-        "image_banner_link_text": "",
-        "image_banner_link_url": "/",
+        "image_banner_link_text": "DECOUVRIR",
+        "image_banner_link_url": "shopify://collections/les-coups-de-coeur-de-rosa-maitea",
         "banner_image": "shopify://shop_images/IMG_0059_5e318d04-2150-4037-9658-da663417b71b.jpg",
         "banner_image_mobile": "shopify://shop_images/Captured_ecran2025-04-09a16.29.24.png"
       }
