@@ -350,6 +350,25 @@
         "padding_bottom": 120
       }
     },
+    "rosa_collections_H4Pyrq": {
+      "type": "rosa-collections",
+      "blocks": {
+        "question_nqRwLn": {
+          "type": "question",
+          "settings": {
+            "collection": "les-ceramiques-de-puglia-et-de-caltagirone-de-rosa-maitea"
+          }
+        }
+      },
+      "block_order": [
+        "question_nqRwLn"
+      ],
+      "settings": {
+        "link-text": "DÉCOUVRIR",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "d1b389fe-0917-4513-a4c9-41c5fa302df5": {
       "type": "double",
       "blocks": {
@@ -626,6 +645,7 @@
     "collection_slider_with_pic_EKy6Hi",
     "collection_slider_with_pic_4xQc6U",
     "2c663638-02bd-4aa4-a99b-760dc268b2d9",
+    "rosa_collections_H4Pyrq",
     "d1b389fe-0917-4513-a4c9-41c5fa302df5",
     "a1ef4a98-24c6-4449-85c4-c389414029b2",
     "9603023c-6e27-4890-b9e6-e92093169f5b",
