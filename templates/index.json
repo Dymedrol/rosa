@@ -364,11 +364,18 @@
           "settings": {
             "collection": "les-pochettes-et-cousins-brodees-de-mama-tierra-pour-rosa-maitea"
           }
+        },
+        "question_bR6AWq": {
+          "type": "question",
+          "settings": {
+            "collection": "les-pashminas-de-nepal"
+          }
         }
       },
       "block_order": [
         "question_nqRwLn",
-        "question_tPykPw"
+        "question_tPykPw",
+        "question_bR6AWq"
       ],
       "settings": {
         "link-text": "DÉCOUVRIR",
