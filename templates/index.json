@@ -34,19 +34,6 @@
             "banner_image_mobile": "shopify://shop_images/ROSA_MAITEA_MODEL12585-4.jpg"
           }
         },
-        "slide_zzpqaV": {
-          "type": "slide",
-          "settings": {
-            "alignment": "center",
-            "text_color": "#ffffff",
-            "image_banner_title_text": "title",
-            "is_title_big": false,
-            "image_banner_subtitle_text": "text",
-            "is_text_big": false,
-            "image_banner_link_text": "link",
-            "image_banner_link_url": "/"
-          }
-        },
         "slide_7KQNcH": {
           "type": "slide",
           "settings": {
@@ -58,7 +45,7 @@
             "is_text_big": false,
             "image_banner_link_text": "DECOUVRIR LES COUPS DE COEUR",
             "image_banner_link_url": "shopify://collections/les-coups-de-coeur-de-rosa-maitea",
-            "banner_image": "shopify://shop_images/Capture_d_ecran_2025-04-10_a_16.00.17.jpg",
+            "banner_image": "shopify://shop_images/Capture_d_ecran_2025-04-10_a_16.06.22.jpg",
             "banner_image_mobile": "shopify://shop_images/Designsanstitre-9_0c5f26ca-baba-4b26-b051-f75766aa08bd.png"
           }
         },
@@ -185,7 +172,6 @@
       },
       "block_order": [
         "slide_yMMBxP",
-        "slide_zzpqaV",
         "slide_7KQNcH",
         "slide_cLy6PX",
         "slide_E4WEdz",
