@@ -49,22 +49,6 @@
             "banner_image_mobile": "shopify://shop_images/56.png"
           }
         },
-        "slide_cLy6PX": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "alignment": "center",
-            "text_color": "#334fb4",
-            "image_banner_title_text": "",
-            "is_title_big": false,
-            "image_banner_subtitle_text": "",
-            "is_text_big": false,
-            "image_banner_link_text": "",
-            "image_banner_link_url": "/",
-            "banner_image": "shopify://shop_images/Grey_Modern_Professional_Business_Project_Presentation_1200_x_1200_px_Presentation_-4.jpg",
-            "banner_image_mobile": "shopify://shop_images/Grey_Modern_Professional_Business_Project_Presentation_1200_x_1200_px_Votre_story_-4.jpg"
-          }
-        },
         "slide_E4WEdz": {
           "type": "slide",
           "settings": {
@@ -173,7 +157,6 @@
       "block_order": [
         "slide_yMMBxP",
         "slide_7KQNcH",
-        "slide_cLy6PX",
         "slide_E4WEdz",
         "slide_rd76XP",
         "slide_KYKBeC",
