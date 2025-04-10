@@ -370,12 +370,19 @@
           "settings": {
             "collection": "les-pashminas-de-nepal"
           }
+        },
+        "question_UdDwh9": {
+          "type": "question",
+          "settings": {
+            "collection": "les-tetes-de-maures-de-sicilia"
+          }
         }
       },
       "block_order": [
         "question_nqRwLn",
         "question_tPykPw",
-        "question_bR6AWq"
+        "question_bR6AWq",
+        "question_UdDwh9"
       ],
       "settings": {
         "link-text": "DÉCOUVRIR",
