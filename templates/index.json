@@ -194,21 +194,6 @@
         "banner_image": "shopify://shop_images/ROSA_MAITEA36876-2.jpg"
       }
     },
-    "7556615b-ec09-4647-80d0-eb3a4b55c8a9": {
-      "type": "collection-slider",
-      "custom_css": [
-        "@media screen and (max-width: 480px) {.section-template--19626079813962__7556615b-ec09-4647-80d0-eb3a4b55c8a9-padding {padding-bottom: 0px !important; }}"
-      ],
-      "settings": {
-        "tag": "div",
-        "title1": "NOS CRÉATIONS ÉTHIQUES ET DURABLES",
-        "title2": "LA JOAILLERIE ÉTHIQUE ROSA MAÏTEA",
-        "collection": "home-page-selection-on-top",
-        "link-text": "DÉCOUVRIR",
-        "padding_top": 85,
-        "padding_bottom": 85
-      }
-    },
     "collection_slider_HgRbim": {
       "type": "collection-slider",
       "settings": {
@@ -277,6 +262,35 @@
         "text2": "Cette collection est vivante et évolue au fil du temps, des rencontres et des trouvailles. Chaque mois, je vous proposerai de nouvelles pièces uniques, soigneusement choisies pour leur charme, leur histoire ou leur touche d’originalité. Pour le moment, je vous invite à découvrir cinq collections exclusives, chacune composée de pièces singulières et en exemplaire unique. Une fois vendues, elles ne reviendront pas… Mais d’autres trésors les suivront bientôt. C’est une façon de partager avec vous mon regard, mon goût pour les objets rares, et de faire vivre ensemble un univers en mouvement, inspiré par la couleur, l’artisanat et la beauté inattendue.",
         "padding_top": 30,
         "padding_bottom": 55
+      }
+    },
+    "7556615b-ec09-4647-80d0-eb3a4b55c8a9": {
+      "type": "collection-slider",
+      "custom_css": [
+        "@media screen and (max-width: 480px) {.section-template--19626079813962__7556615b-ec09-4647-80d0-eb3a4b55c8a9-padding {padding-bottom: 0px !important; }}"
+      ],
+      "settings": {
+        "tag": "div",
+        "title1": "NOS CRÉATIONS ÉTHIQUES ET DURABLES",
+        "title2": "LA JOAILLERIE ÉTHIQUE ROSA MAÏTEA",
+        "collection": "home-page-selection-on-top",
+        "link-text": "DÉCOUVRIR",
+        "padding_top": 85,
+        "padding_bottom": 85
+      }
+    },
+    "collection_slider_with_pic_EKy6Hi": {
+      "type": "collection-slider-with-pic",
+      "settings": {
+        "is_reverse": false,
+        "slider_2_image": "shopify://shop_images/ROSA_MAITEA_MODEL12585.jpg",
+        "text1": "JOAILLERIE éthique",
+        "text2": "NOTRE NOUVELLE BAGUE DE FIANÇAILLES TOI & MOI",
+        "text3": "<p>La nouvelle bague éthique <strong>Toi et Moi </strong>célèbre l’amour sous une constellation précieuse. Deux étoiles scintillantes en diamants recyclés veillent l’une sur l’autre, <strong>symbolisant la protection et l’union éternelle de deux âmes</strong>. Enveloppée d’un délicat mouvement torsadé en or recyclé 18 carats, cette création lumineuse incarne un amour guidé par la lumière des astres. Deux talismans qui représentent l'amour engagé. </p>",
+        "collection": "la-bonne-etoile",
+        "link-text": "DÉCOUVRIR LA COLLECTION",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "2c663638-02bd-4aa4-a99b-760dc268b2d9": {
@@ -589,12 +603,13 @@
     "7a3bc92f-6423-460d-a7b4-238e81713e03",
     "552ce905-cb0f-4745-bc21-4022a0b6a86c",
     "image_banner",
-    "7556615b-ec09-4647-80d0-eb3a4b55c8a9",
     "collection_slider_HgRbim",
     "image_banner_w9gH34",
     "555ee7ae-ed60-4f7c-bf8c-fe18132779a1",
     "image_banner_qQM3jR",
     "f997dd8a-2291-4fc6-bedc-9faa72cbe9bc",
+    "7556615b-ec09-4647-80d0-eb3a4b55c8a9",
+    "collection_slider_with_pic_EKy6Hi",
     "2c663638-02bd-4aa4-a99b-760dc268b2d9",
     "d1b389fe-0917-4513-a4c9-41c5fa302df5",
     "a1ef4a98-24c6-4449-85c4-c389414029b2",
