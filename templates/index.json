@@ -293,6 +293,20 @@
         "padding_bottom": 45
       }
     },
+    "collection_slider_with_pic_4xQc6U": {
+      "type": "collection-slider-with-pic",
+      "settings": {
+        "is_reverse": true,
+        "slider_2_image": "shopify://shop_images/Bagues_arcoiris_ethiques_eco_responsables.jpg",
+        "text1": "NOS BIJOUX COLORÉES ET UNIQUES",
+        "text2": "LA BONNE ETOILE ARCOIRIS",
+        "text3": "<p>La collection des bijoux la Bonne Étoile Arcoiris est composée d'une parure audacieuse réalisée en or jaune 18 ct recyclé et serti de pierres 100% traçables : spinelles et grenats de Tanzanie aux magnifiques couleurs vives. Placée sous le triple signe de la joie, de la beauté et de la protection de notre environnement, la collection Arcoiris renouvelle avec bonheur le design de la joaillerie éthique.</p>",
+        "collection": "arcoiris",
+        "link-text": "DÉCOUVRIR LA COLLECTION",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "2c663638-02bd-4aa4-a99b-760dc268b2d9": {
       "type": "rosa-collections",
       "blocks": {
@@ -610,6 +624,7 @@
     "f997dd8a-2291-4fc6-bedc-9faa72cbe9bc",
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9",
     "collection_slider_with_pic_EKy6Hi",
+    "collection_slider_with_pic_4xQc6U",
     "2c663638-02bd-4aa4-a99b-760dc268b2d9",
     "d1b389fe-0917-4513-a4c9-41c5fa302df5",
     "a1ef4a98-24c6-4449-85c4-c389414029b2",
