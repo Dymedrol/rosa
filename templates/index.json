@@ -209,6 +209,18 @@
         "padding_bottom": 85
       }
     },
+    "collection_slider_HgRbim": {
+      "type": "collection-slider",
+      "settings": {
+        "tag": "div",
+        "title1": "NEW !",
+        "title2": "LES COUPS DE COEUR DE ROSA MAÏTEA",
+        "collection": "les-coups-de-coeur-de-rosa-maitea",
+        "link-text": "DÉCOUVRIR",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "image_banner_w9gH34": {
       "type": "image-banner",
       "settings": {
@@ -578,6 +590,7 @@
     "552ce905-cb0f-4745-bc21-4022a0b6a86c",
     "image_banner",
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9",
+    "collection_slider_HgRbim",
     "image_banner_w9gH34",
     "555ee7ae-ed60-4f7c-bf8c-fe18132779a1",
     "image_banner_qQM3jR",
