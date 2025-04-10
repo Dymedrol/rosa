@@ -264,6 +264,46 @@
         "padding_bottom": 55
       }
     },
+    "rosa_collections_H4Pyrq": {
+      "type": "rosa-collections",
+      "blocks": {
+        "question_nqRwLn": {
+          "type": "question",
+          "settings": {
+            "collection": "les-ceramiques-de-puglia-et-de-caltagirone-de-rosa-maitea"
+          }
+        },
+        "question_tPykPw": {
+          "type": "question",
+          "settings": {
+            "collection": "les-pochettes-et-cousins-brodees-de-mama-tierra-pour-rosa-maitea"
+          }
+        },
+        "question_bR6AWq": {
+          "type": "question",
+          "settings": {
+            "collection": "les-pashminas-de-nepal"
+          }
+        },
+        "question_UdDwh9": {
+          "type": "question",
+          "settings": {
+            "collection": "les-tetes-de-maures-de-sicilia"
+          }
+        }
+      },
+      "block_order": [
+        "question_nqRwLn",
+        "question_tPykPw",
+        "question_bR6AWq",
+        "question_UdDwh9"
+      ],
+      "settings": {
+        "link-text": "DÉCOUVRIR",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9": {
       "type": "collection-slider",
       "custom_css": [
@@ -348,46 +388,6 @@
         "link-text": "DÉCOUVRIR",
         "padding_top": 0,
         "padding_bottom": 120
-      }
-    },
-    "rosa_collections_H4Pyrq": {
-      "type": "rosa-collections",
-      "blocks": {
-        "question_nqRwLn": {
-          "type": "question",
-          "settings": {
-            "collection": "les-ceramiques-de-puglia-et-de-caltagirone-de-rosa-maitea"
-          }
-        },
-        "question_tPykPw": {
-          "type": "question",
-          "settings": {
-            "collection": "les-pochettes-et-cousins-brodees-de-mama-tierra-pour-rosa-maitea"
-          }
-        },
-        "question_bR6AWq": {
-          "type": "question",
-          "settings": {
-            "collection": "les-pashminas-de-nepal"
-          }
-        },
-        "question_UdDwh9": {
-          "type": "question",
-          "settings": {
-            "collection": "les-tetes-de-maures-de-sicilia"
-          }
-        }
-      },
-      "block_order": [
-        "question_nqRwLn",
-        "question_tPykPw",
-        "question_bR6AWq",
-        "question_UdDwh9"
-      ],
-      "settings": {
-        "link-text": "DÉCOUVRIR",
-        "padding_top": 45,
-        "padding_bottom": 45
       }
     },
     "d1b389fe-0917-4513-a4c9-41c5fa302df5": {
@@ -662,11 +662,11 @@
     "555ee7ae-ed60-4f7c-bf8c-fe18132779a1",
     "image_banner_qQM3jR",
     "f997dd8a-2291-4fc6-bedc-9faa72cbe9bc",
+    "rosa_collections_H4Pyrq",
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9",
     "collection_slider_with_pic_EKy6Hi",
     "collection_slider_with_pic_4xQc6U",
     "2c663638-02bd-4aa4-a99b-760dc268b2d9",
-    "rosa_collections_H4Pyrq",
     "d1b389fe-0917-4513-a4c9-41c5fa302df5",
     "a1ef4a98-24c6-4449-85c4-c389414029b2",
     "9603023c-6e27-4890-b9e6-e92093169f5b",
