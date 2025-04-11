@@ -143,16 +143,6 @@
         "padding_bottom": 0
       }
     },
-    "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1": {
-      "type": "video",
-      "settings": {
-        "enable_video_looping": false,
-        "video": "shopify://files/videos/Les points de vente de Rosa Maïtea.mov",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify://shop_images/video.png",
-        "description": ""
-      }
-    },
     "c35448d9-1175-475c-9d96-16d0b67db72b": {
       "type": "rosa-quote",
       "settings": {
@@ -163,6 +153,16 @@
         "link_url": "shopify://pages/prendre-rendez-vous",
         "padding_top": 80,
         "padding_bottom": 85
+      }
+    },
+    "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1": {
+      "type": "video",
+      "settings": {
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/Les points de vente de Rosa Maïtea.mov",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify://shop_images/video.png",
+        "description": ""
       }
     },
     "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8": {
@@ -184,8 +184,8 @@
     "collection_slider_with_pic_B7jjcd",
     "collection_slider_with_pic_nFbpki",
     "product-grid",
-    "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
     "c35448d9-1175-475c-9d96-16d0b67db72b",
+    "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
     "2d595d3c-d9ff-42ce-9b1f-eb605b88d0e8"
   ]
 }
