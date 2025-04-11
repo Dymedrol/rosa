@@ -33,7 +33,7 @@
         "image_banner_link_text": "Voir les collections",
         "image_banner_link_url": "shopify://collections/les-coups-de-coeur-de-rosa-maitea",
         "banner_image": "shopify://shop_images/Captured_ecran2025-04-09a16.28.59.png",
-        "banner_image_mobile": "shopify://shop_images/Designsanstitre-10_e65040ec-1347-4bcc-aeaf-b28c338bab07.png"
+        "banner_image_mobile": "shopify://shop_images/Capture_d_ecran_2025-04-09_a_16.27.12.png"
       }
     },
     "e6ecc10c-9aff-44b4-b9d1-68b1e63da577": {
@@ -44,7 +44,7 @@
         "text2": "",
         "link_text": "",
         "link_url": "/",
-        "padding_top": 90,
+        "padding_top": 60,
         "padding_bottom": 45
       }
     },
@@ -70,7 +70,7 @@
         "text3": "<p>J’ai découvert ce vase lors d’un voyage en <strong>Sicile</strong>, à <strong>Caltagirone</strong>, le berceau de la céramique sicilienne. Dans une petite ruelle, baignée de lumière dorée, je suis tombée sur les<strong> plus belles Têtes de Maure</strong> de toute l’île. </p><p>Mon amour pour ces figures emblématiques a commencé bien avant, dans les salles du musée d’anthropologie de Palerme, où elles racontaient leur histoire à travers les siècles. Poussée par la fascination, j’ai poursuivi ma quête jusqu’à rencontrer <strong>l’artisan Giuseppe Coffano</strong>. </p><p>Un coup de cœur instantané pour son travail : une finesse inouïe, une élégance intemporelle. </p><p>Sélectionnée avec émotion pour <em><strong>Les Coups de Cœur de Rosa Maïtea</strong></em>, elle incarne la beauté d’un savoir-faire ancestral et la poésie d’une rencontre inoubliable.</p><p></p>",
         "collection": "les-tetes-de-maures-de-sicilia",
         "link-text": "Découvrir les têtes de maures de Sicile",
-        "padding_top": 85,
+        "padding_top": 55,
         "padding_bottom": 45
       }
     },
