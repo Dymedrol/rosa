@@ -92,19 +92,6 @@
         "padding_bottom": 30
       }
     },
-    "product-grid": {
-      "type": "main-collection-product-grid",
-      "settings": {
-        "enable_promo_card": false,
-        "enable_filtering": false,
-        "enable_filtering_by_product_type": false,
-        "filter_type": "horizontal",
-        "enable_sorting": false,
-        "columns_mobile": "2",
-        "padding_top": 30,
-        "padding_bottom": 0
-      }
-    },
     "6649bb51-9cf5-4a01-bba3-61a21835f000": {
       "type": "double",
       "blocks": {
@@ -136,10 +123,23 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Paradise-Yellow-Cushion-Red_7f0ed011-1ded-4f02-a6b8-8e8e1c31bcb0.jpg",
-        "is_reverse": false,
+        "is_reverse": true,
         "is_centred": false,
         "padding_top": 60,
         "padding_bottom": 50
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "enable_promo_card": false,
+        "enable_filtering": false,
+        "enable_filtering_by_product_type": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "padding_top": 30,
+        "padding_bottom": 0
       }
     },
     "image_banner_gqwjhk": {
@@ -219,8 +219,8 @@
     "374b95c0-0dcd-4404-92dc-32f8188ad207",
     "rosa_quote4_VPenG9",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
-    "product-grid",
     "6649bb51-9cf5-4a01-bba3-61a21835f000",
+    "product-grid",
     "image_banner_gqwjhk",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
