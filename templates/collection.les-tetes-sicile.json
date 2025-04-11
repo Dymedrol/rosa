@@ -83,23 +83,10 @@
       ],
       "settings": {
         "image": "shopify://shop_images/IMG_0059_d2bac03a-5f1f-4457-a6ad-0f074ed59abc.jpg",
-        "is_reverse": false,
+        "is_reverse": true,
         "is_centred": true,
         "padding_top": 60,
         "padding_bottom": 30
-      }
-    },
-    "product-grid": {
-      "type": "main-collection-product-grid",
-      "settings": {
-        "enable_promo_card": false,
-        "enable_filtering": false,
-        "enable_filtering_by_product_type": false,
-        "filter_type": "horizontal",
-        "enable_sorting": false,
-        "columns_mobile": "2",
-        "padding_top": 30,
-        "padding_bottom": 0
       }
     },
     "6649bb51-9cf5-4a01-bba3-61a21835f000": {
@@ -139,6 +126,36 @@
         "padding_bottom": 50
       }
     },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "enable_promo_card": false,
+        "enable_filtering": false,
+        "enable_filtering_by_product_type": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_yciKa9": {
+      "type": "image-banner",
+      "settings": {
+        "tag": "div",
+        "is_full_screen": true,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "",
+        "is_text_big": false,
+        "image_banner_link_text": "",
+        "image_banner_link_url": "/",
+        "banner_image": "shopify://shop_images/IMG_0115.jpg",
+        "banner_image_mobile": "shopify://shop_images/IMG_0115.jpg"
+      }
+    },
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
       "type": "rosa-header2",
       "settings": {
@@ -171,23 +188,6 @@
         "padding_bottom": 85
       }
     },
-    "image_banner_yciKa9": {
-      "type": "image-banner",
-      "settings": {
-        "tag": "div",
-        "is_full_screen": true,
-        "alignment": "center",
-        "text_color": "#ffffff",
-        "image_banner_title_text": "",
-        "is_title_big": false,
-        "image_banner_subtitle_text": "",
-        "is_text_big": false,
-        "image_banner_link_text": "",
-        "image_banner_link_url": "/",
-        "banner_image": "shopify://shop_images/IMG_0115.jpg",
-        "banner_image_mobile": "shopify://shop_images/IMG_0115.jpg"
-      }
-    },
     "related_products_custom_6NTaji": {
       "type": "related-products-custom",
       "settings": {
@@ -215,8 +215,8 @@
     "5fdb5a3e-82d3-40d0-9f48-2bc0374e139e",
     "374b95c0-0dcd-4404-92dc-32f8188ad207",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
-    "product-grid",
     "6649bb51-9cf5-4a01-bba3-61a21835f000",
+    "product-grid",
     "image_banner_yciKa9",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
