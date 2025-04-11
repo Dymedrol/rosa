@@ -158,22 +158,6 @@
         "banner_image": "shopify://shop_images/ZeffirelliGroupClutchMPouchXSCollab_jpg.jpg"
       }
     },
-    "image_banner_eLXr6d": {
-      "type": "image-banner",
-      "settings": {
-        "tag": "div",
-        "is_full_screen": true,
-        "alignment": "center",
-        "text_color": "#ffffff",
-        "image_banner_title_text": "",
-        "is_title_big": false,
-        "image_banner_subtitle_text": "",
-        "is_text_big": false,
-        "image_banner_link_text": "",
-        "image_banner_link_url": "/",
-        "banner_image": "shopify://shop_images/ZeffirelliDolceVitaStTropezGroupClutchM_jpg.jpg"
-      }
-    },
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
       "type": "rosa-header2",
       "settings": {
@@ -238,7 +222,6 @@
     "product-grid",
     "6649bb51-9cf5-4a01-bba3-61a21835f000",
     "image_banner_gqwjhk",
-    "image_banner_eLXr6d",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
     "c35448d9-1175-475c-9d96-16d0b67db72b",
