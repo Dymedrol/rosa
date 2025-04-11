@@ -1,7 +1,16 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "logo_width": 90,
-    "favicon": "shopify:\/\/shop_images\/faviconrosa.png",
+    "favicon": "shopify://shop_images/faviconrosa.png",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
@@ -95,8 +104,8 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
-    "social_facebook_link": "https:\/\/www.facebook.com\/RosaMaitea\/",
-    "social_instagram_link": "https:\/\/www.instagram.com\/rosamaiteajewelry\/",
+    "social_facebook_link": "https://www.facebook.com/RosaMaitea/",
+    "social_instagram_link": "https://www.instagram.com/rosamaiteajewelry/",
     "social_youtube_link": "",
     "social_tiktok_link": "",
     "social_twitter_link": "",
@@ -126,12 +135,10 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "15037621279992766403": {
-        "type": "shopify:\/\/apps\/alma-widget\/blocks\/app-embed\/4f38fc15-ea4e-44b3-96e0-0c0f2daa413f",
+        "type": "shopify://apps/alma-widget/blocks/app-embed/4f38fc15-ea4e-44b3-96e0-0c0f2daa413f",
         "disabled": false,
         "settings": {
           "merchantId": "11xe19D1Ikj7ms8DJzjUkJhUW9eRi4QBVb",
@@ -146,12 +153,6 @@
           "dynamicCartPriceSelector": "",
           "badgePlans": "",
           "featureFlags": ""
-        }
-      },
-      "2153490007123654574": {
-        "type": "shopify:\/\/apps\/consentmo-gdpr\/blocks\/gdpr_cookie_consent\/4fbe573f-a377-4fea-9801-3ee0858cae41",
-        "disabled": false,
-        "settings": {
         }
       }
     },
