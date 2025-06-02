@@ -208,6 +208,21 @@
         "padding_bottom": 45
       }
     },
+    "collection_slider_with_pic_bfgcUc": {
+      "type": "collection-slider-with-pic",
+      "name": "slider with side picture",
+      "settings": {
+        "is_reverse": false,
+        "slider_2_image": "shopify://shop_images/IMG_9060_ef08c181-d319-4856-8d39-c0ee8796ab37.heic",
+        "text1": "NOUVEAUTés",
+        "text2": "LES BAGUES DE FIANÇAILLES DIAMANTées SPREAD LOVE",
+        "text3": "<p>Pensées pour se répondre, la bague de fiançailles et l’alliance Rosa Maïtea forment un duo harmonieux et raffiné.</p><p>La bague de fiançailles, avec son diamant central souligné par un sertissage perlé signature, allie caractère et délicatesse. De part et d’autre, six petits diamants recyclés apportent un équilibre subtil, entre tradition et modernité.</p><p>À ses côtés, l’alliance pavée prolonge la lumière avec une ligne de diamants délicatement sertis. Fine et discrète, elle complète parfaitement le solitaire sans le voler la vedette — pour un porté à la fois sophistiqué et naturel.</p><p>Ensemble, elles racontent une même histoire : celle d’un amour sincère, d’un artisanat exigeant et d’un engagement pour un luxe durable.</p>",
+        "collection": "",
+        "link-text": "DÉCOUVRIR LA COLLECTION",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "collection_slider_with_pic_4xQc6U": {
       "type": "collection-slider-with-pic",
       "settings": {
@@ -651,20 +666,6 @@
         "padding_top": 0,
         "padding_bottom": 55
       }
-    },
-    "collection_slider_with_pic_bfgcUc": {
-      "type": "collection-slider-with-pic",
-      "name": "slider with side picture",
-      "settings": {
-        "is_reverse": false,
-        "text1": "text 1",
-        "text2": "text 2",
-        "text3": "<p>text 3</p>",
-        "collection": "",
-        "link-text": "DÉCOUVRIR LA COLLECTION",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
     }
   },
   "order": [
@@ -672,6 +673,7 @@
     "552ce905-cb0f-4745-bc21-4022a0b6a86c",
     "image_banner",
     "collection_slider_with_pic_EKy6Hi",
+    "collection_slider_with_pic_bfgcUc",
     "collection_slider_with_pic_4xQc6U",
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9",
     "2c663638-02bd-4aa4-a99b-760dc268b2d9",
@@ -688,7 +690,6 @@
     "b833affc-7703-42d3-b1d2-d0a348e47159",
     "292c19ec-b340-48bf-b520-dbe10d9f1cb6",
     "2da02395-1cac-422e-870f-a68533546811",
-    "f0e61fa0-5073-4fea-bdf8-1f215e702ff2",
-    "collection_slider_with_pic_bfgcUc"
+    "f0e61fa0-5073-4fea-bdf8-1f215e702ff2"
   ]
 }
