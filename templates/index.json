@@ -194,35 +194,90 @@
         "banner_image": "shopify://shop_images/ROSA_MAITEA36876-2.jpg"
       }
     },
-    "image_banner_w9gH34": {
-      "type": "image-banner",
-      "settings": {
-        "tag": "div",
-        "is_full_screen": true,
-        "alignment": "center",
-        "text_color": "#ffffff",
-        "image_banner_title_text": "<p>COUPS DE COEUR DE ROSA MAÏTEA</p>",
-        "is_title_big": false,
-        "image_banner_subtitle_text": "",
-        "is_text_big": false,
-        "image_banner_link_text": "DECOUVRIR",
-        "image_banner_link_url": "shopify://collections/les-coups-de-coeur-de-rosa-maitea",
-        "banner_image": "shopify://shop_images/IMG_0059_5e318d04-2150-4037-9658-da663417b71b.jpg",
-        "banner_image_mobile": "shopify://shop_images/Captured_ecran2025-04-09a16.29.24.png"
-      }
-    },
-    "555ee7ae-ed60-4f7c-bf8c-fe18132779a1": {
+    "collection_slider_with_pic_EKy6Hi": {
       "type": "collection-slider-with-pic",
       "settings": {
         "is_reverse": false,
-        "slider_2_image": "shopify://shop_images/70.png",
-        "text1": "le nouveau coups de coeur de rosa maïtea",
-        "text2": "NOUVELLES COLLECTIONS D'OBJETS PRECIEUX CHOISIE PAR PATRICIA",
-        "text3": "<p>Entrer dans l’univers de Rosa Maïtea, c’est découvrir un monde joyeux où chaque bijou raconte une histoire, où <strong>chaque petite bombe d’amour capture une émotion.</strong> Mais au-delà de la création de bijoux, j’ai toujours été passionnée par l’artisanat et par ces objets rares qui reflètent la créativité et le talent de ceux qui les fabriquent.</p><p></p><p><strong>Au fil de mes voyages</strong>, j’ai été fascinée par les <strong>objets aux couleurs vibrantes </strong>: les céramiques aux teintes solaires de<strong> Sicile</strong> et des Pouilles en Italie, les <strong>pashminas du Népal</strong> légers et délicats, les <strong>porcelaines Art-Déco</strong> françaises, les travaille de broderie des femmes en Amazonie, etc...qui capturent la beauté comme un bijou… <strong>Chaque pièce est une découverte, un témoignage d’un univers unique.</strong></p><p></p><p>COLLECTION LES CERAMIQUES DE POUILLES</p><p>COLLECTION LES TÊTES DE MAURES DE SICILE</p><p>LES PASHMINAS DE NEPAL</p><p>LES CERAMIQUES CHINÉES EN FRANCE</p><p>LES POCHETTES ET COUSSINS DE LA COLOMBIE</p><p></p><p></p>",
-        "collection": "les-coups-de-coeur-de-rosa-maitea",
-        "link-text": "DÉCOUVRIR LES COUPS DE COEUR DE ROSA MAÏTEA",
+        "slider_2_image": "shopify://shop_images/ROSA_MAITEA_MODEL12585.jpg",
+        "text1": "JOAILLERIE éthique",
+        "text2": "NOTRE NOUVELLE BAGUE DE FIANÇAILLES TOI & MOI",
+        "text3": "<p>La nouvelle bague éthique <strong>Toi et Moi </strong>célèbre l’amour sous une constellation précieuse. Deux étoiles scintillantes en diamants recyclés veillent l’une sur l’autre, <strong>symbolisant la protection et l’union éternelle de deux âmes</strong>. Enveloppée d’un délicat mouvement torsadé en or recyclé 18 carats, cette création lumineuse incarne un amour guidé par la lumière des astres. Deux talismans qui représentent l'amour engagé. </p>",
+        "collection": "spread-love",
+        "link-text": "DÉCOUVRIR LA COLLECTION",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "collection_slider_with_pic_4xQc6U": {
+      "type": "collection-slider-with-pic",
+      "settings": {
+        "is_reverse": true,
+        "slider_2_image": "shopify://shop_images/Bagues_arcoiris_ethiques_eco_responsables.jpg",
+        "text1": "NOS BIJOUX COLORÉES ET UNIQUES",
+        "text2": "LA BONNE ETOILE ARCOIRIS",
+        "text3": "<p>La collection des bijoux la Bonne Étoile Arcoiris est composée d'une parure audacieuse réalisée en or jaune 18 ct recyclé et serti de pierres 100% traçables : spinelles et grenats de Tanzanie aux magnifiques couleurs vives. Placée sous le triple signe de la joie, de la beauté et de la protection de notre environnement, la collection Arcoiris renouvelle avec bonheur le design de la joaillerie éthique.</p>",
+        "collection": "arcoiris",
+        "link-text": "DÉCOUVRIR LA COLLECTION",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "7556615b-ec09-4647-80d0-eb3a4b55c8a9": {
+      "type": "collection-slider",
+      "custom_css": [
+        "@media screen and (max-width: 480px) {.section-template--19626079813962__7556615b-ec09-4647-80d0-eb3a4b55c8a9-padding {padding-bottom: 0px !important; }}"
+      ],
+      "settings": {
+        "tag": "div",
+        "title1": "NOS CRÉATIONS ÉTHIQUES ET DURABLES",
+        "title2": "LA JOAILLERIE ÉTHIQUE ROSA MAÏTEA",
+        "collection": "home-page-selection-on-top",
+        "link-text": "DÉCOUVRIR",
         "padding_top": 85,
-        "padding_bottom": 0
+        "padding_bottom": 85
+      }
+    },
+    "2c663638-02bd-4aa4-a99b-760dc268b2d9": {
+      "type": "rosa-collections",
+      "blocks": {
+        "4e4f107c-853c-4a6a-9a3b-bfae80063fa2": {
+          "type": "question",
+          "settings": {
+            "collection": "bagues"
+          }
+        },
+        "e7ee6c50-3de2-48d0-9d89-c69036f71f11": {
+          "type": "question",
+          "settings": {
+            "collection": "boucles-doreilles"
+          }
+        },
+        "3dddee65-7fa1-4a65-856f-53e673d865cb": {
+          "type": "question",
+          "settings": {
+            "collection": "creoles-rosa-maitea"
+          }
+        },
+        "b1fdbd2a-02c1-4229-a323-2cb61e8c4390": {
+          "type": "question",
+          "settings": {
+            "collection": "pendentifs"
+          }
+        }
+      },
+      "block_order": [
+        "4e4f107c-853c-4a6a-9a3b-bfae80063fa2",
+        "e7ee6c50-3de2-48d0-9d89-c69036f71f11",
+        "3dddee65-7fa1-4a65-856f-53e673d865cb",
+        "b1fdbd2a-02c1-4229-a323-2cb61e8c4390"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 480px) {.section-template--19626079813962__2c663638-02bd-4aa4-a99b-760dc268b2d9-padding {padding-bottom: 0px !important; }}"
+      ],
+      "settings": {
+        "link-text": "DÉCOUVRIR",
+        "padding_top": 0,
+        "padding_bottom": 120
       }
     },
     "image_banner_qQM3jR": {
@@ -292,47 +347,18 @@
         "padding_bottom": 45
       }
     },
-    "7556615b-ec09-4647-80d0-eb3a4b55c8a9": {
-      "type": "collection-slider",
-      "custom_css": [
-        "@media screen and (max-width: 480px) {.section-template--19626079813962__7556615b-ec09-4647-80d0-eb3a4b55c8a9-padding {padding-bottom: 0px !important; }}"
-      ],
-      "settings": {
-        "tag": "div",
-        "title1": "NOS CRÉATIONS ÉTHIQUES ET DURABLES",
-        "title2": "LA JOAILLERIE ÉTHIQUE ROSA MAÏTEA",
-        "collection": "home-page-selection-on-top",
-        "link-text": "DÉCOUVRIR",
-        "padding_top": 85,
-        "padding_bottom": 85
-      }
-    },
-    "collection_slider_with_pic_EKy6Hi": {
+    "555ee7ae-ed60-4f7c-bf8c-fe18132779a1": {
       "type": "collection-slider-with-pic",
       "settings": {
         "is_reverse": false,
-        "slider_2_image": "shopify://shop_images/ROSA_MAITEA_MODEL12585.jpg",
-        "text1": "JOAILLERIE éthique",
-        "text2": "NOTRE NOUVELLE BAGUE DE FIANÇAILLES TOI & MOI",
-        "text3": "<p>La nouvelle bague éthique <strong>Toi et Moi </strong>célèbre l’amour sous une constellation précieuse. Deux étoiles scintillantes en diamants recyclés veillent l’une sur l’autre, <strong>symbolisant la protection et l’union éternelle de deux âmes</strong>. Enveloppée d’un délicat mouvement torsadé en or recyclé 18 carats, cette création lumineuse incarne un amour guidé par la lumière des astres. Deux talismans qui représentent l'amour engagé. </p>",
-        "collection": "spread-love",
-        "link-text": "DÉCOUVRIR LA COLLECTION",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
-    "collection_slider_with_pic_4xQc6U": {
-      "type": "collection-slider-with-pic",
-      "settings": {
-        "is_reverse": true,
-        "slider_2_image": "shopify://shop_images/Bagues_arcoiris_ethiques_eco_responsables.jpg",
-        "text1": "NOS BIJOUX COLORÉES ET UNIQUES",
-        "text2": "LA BONNE ETOILE ARCOIRIS",
-        "text3": "<p>La collection des bijoux la Bonne Étoile Arcoiris est composée d'une parure audacieuse réalisée en or jaune 18 ct recyclé et serti de pierres 100% traçables : spinelles et grenats de Tanzanie aux magnifiques couleurs vives. Placée sous le triple signe de la joie, de la beauté et de la protection de notre environnement, la collection Arcoiris renouvelle avec bonheur le design de la joaillerie éthique.</p>",
-        "collection": "arcoiris",
-        "link-text": "DÉCOUVRIR LA COLLECTION",
-        "padding_top": 45,
-        "padding_bottom": 45
+        "slider_2_image": "shopify://shop_images/70.png",
+        "text1": "le nouveau coups de coeur de rosa maïtea",
+        "text2": "NOUVELLES COLLECTIONS D'OBJETS PRECIEUX CHOISIE PAR PATRICIA",
+        "text3": "<p>Entrer dans l’univers de Rosa Maïtea, c’est découvrir un monde joyeux où chaque bijou raconte une histoire, où <strong>chaque petite bombe d’amour capture une émotion.</strong> Mais au-delà de la création de bijoux, j’ai toujours été passionnée par l’artisanat et par ces objets rares qui reflètent la créativité et le talent de ceux qui les fabriquent.</p><p></p><p><strong>Au fil de mes voyages</strong>, j’ai été fascinée par les <strong>objets aux couleurs vibrantes </strong>: les céramiques aux teintes solaires de<strong> Sicile</strong> et des Pouilles en Italie, les <strong>pashminas du Népal</strong> légers et délicats, les <strong>porcelaines Art-Déco</strong> françaises, les travaille de broderie des femmes en Amazonie, etc...qui capturent la beauté comme un bijou… <strong>Chaque pièce est une découverte, un témoignage d’un univers unique.</strong></p><p></p><p>COLLECTION LES CERAMIQUES DE POUILLES</p><p>COLLECTION LES TÊTES DE MAURES DE SICILE</p><p>LES PASHMINAS DE NEPAL</p><p>LES CERAMIQUES CHINÉES EN FRANCE</p><p>LES POCHETTES ET COUSSINS DE LA COLOMBIE</p><p></p><p></p>",
+        "collection": "les-coups-de-coeur-de-rosa-maitea",
+        "link-text": "DÉCOUVRIR LES COUPS DE COEUR DE ROSA MAÏTEA",
+        "padding_top": 85,
+        "padding_bottom": 0
       }
     },
     "collection_slider_HgRbim": {
@@ -347,47 +373,21 @@
         "padding_bottom": 45
       }
     },
-    "2c663638-02bd-4aa4-a99b-760dc268b2d9": {
-      "type": "rosa-collections",
-      "blocks": {
-        "4e4f107c-853c-4a6a-9a3b-bfae80063fa2": {
-          "type": "question",
-          "settings": {
-            "collection": "bagues"
-          }
-        },
-        "e7ee6c50-3de2-48d0-9d89-c69036f71f11": {
-          "type": "question",
-          "settings": {
-            "collection": "boucles-doreilles"
-          }
-        },
-        "3dddee65-7fa1-4a65-856f-53e673d865cb": {
-          "type": "question",
-          "settings": {
-            "collection": "creoles-rosa-maitea"
-          }
-        },
-        "b1fdbd2a-02c1-4229-a323-2cb61e8c4390": {
-          "type": "question",
-          "settings": {
-            "collection": "pendentifs"
-          }
-        }
-      },
-      "block_order": [
-        "4e4f107c-853c-4a6a-9a3b-bfae80063fa2",
-        "e7ee6c50-3de2-48d0-9d89-c69036f71f11",
-        "3dddee65-7fa1-4a65-856f-53e673d865cb",
-        "b1fdbd2a-02c1-4229-a323-2cb61e8c4390"
-      ],
-      "custom_css": [
-        "@media screen and (max-width: 480px) {.section-template--19626079813962__2c663638-02bd-4aa4-a99b-760dc268b2d9-padding {padding-bottom: 0px !important; }}"
-      ],
+    "image_banner_w9gH34": {
+      "type": "image-banner",
       "settings": {
-        "link-text": "DÉCOUVRIR",
-        "padding_top": 0,
-        "padding_bottom": 120
+        "tag": "div",
+        "is_full_screen": true,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "<p>COUPS DE COEUR DE ROSA MAÏTEA</p>",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "",
+        "is_text_big": false,
+        "image_banner_link_text": "DECOUVRIR",
+        "image_banner_link_url": "shopify://collections/les-coups-de-coeur-de-rosa-maitea",
+        "banner_image": "shopify://shop_images/IMG_0059_5e318d04-2150-4037-9658-da663417b71b.jpg",
+        "banner_image_mobile": "shopify://shop_images/Captured_ecran2025-04-09a16.29.24.png"
       }
     },
     "d1b389fe-0917-4513-a4c9-41c5fa302df5": {
@@ -651,6 +651,20 @@
         "padding_top": 0,
         "padding_bottom": 55
       }
+    },
+    "collection_slider_with_pic_bfgcUc": {
+      "type": "collection-slider-with-pic",
+      "name": "slider with side picture",
+      "settings": {
+        "is_reverse": false,
+        "text1": "text 1",
+        "text2": "text 2",
+        "text3": "<p>text 3</p>",
+        "collection": "",
+        "link-text": "DÉCOUVRIR LA COLLECTION",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
     }
   },
   "order": [
@@ -674,6 +688,7 @@
     "b833affc-7703-42d3-b1d2-d0a348e47159",
     "292c19ec-b340-48bf-b520-dbe10d9f1cb6",
     "2da02395-1cac-422e-870f-a68533546811",
-    "f0e61fa0-5073-4fea-bdf8-1f215e702ff2"
+    "f0e61fa0-5073-4fea-bdf8-1f215e702ff2",
+    "collection_slider_with_pic_bfgcUc"
   ]
 }
