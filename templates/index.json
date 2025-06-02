@@ -212,7 +212,7 @@
       "type": "collection-slider-with-pic",
       "name": "slider with side picture",
       "settings": {
-        "is_reverse": false,
+        "is_reverse": true,
         "slider_2_image": "shopify://shop_images/IMG_9060_ef08c181-d319-4856-8d39-c0ee8796ab37.heic",
         "text1": "NOUVEAUTés",
         "text2": "LES BAGUES DE FIANÇAILLES DIAMANTées SPREAD LOVE",
