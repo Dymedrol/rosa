@@ -88,57 +88,6 @@
         "padding_bottom": 45
       }
     },
-    "9b7251da-a436-4ee3-86d9-43e5a2375824": {
-      "type": "double",
-      "blocks": {
-        "4c86542f-6c74-4961-94ed-b043fe20da2b": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Collection Spread Love</p>"
-          }
-        },
-        "d2e22a52-2031-49cf-b351-f80fdd768551": {
-          "type": "heading",
-          "settings": {
-            "heading1": "",
-            "heading2": "LE MARIAGE PARFAIT PAR ROSA MAÏTEA"
-          }
-        },
-        "72f17976-0055-4da3-bada-32d0ea229273": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Cette collection signe le tout premier engagement de Rosa Maïtea pour une joaillerie éthique, durable et totalement traçable.</p>"
-          }
-        },
-        "fc054447-71a8-41ce-9100-b52d6b4385ea": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Ce serti, signature de Rosa Maïtea, rappelle la symbolique magique du chiffre 3 comme  l’union de la perfection, de l’équilibre et de l’amour infini.</p>"
-          }
-        },
-        "cd2b9a8a-6684-42b2-a9e3-47ed36321182": {
-          "type": "link",
-          "settings": {
-            "link_text": "",
-            "link_url": "shopify://collections/spread-love"
-          }
-        }
-      },
-      "block_order": [
-        "4c86542f-6c74-4961-94ed-b043fe20da2b",
-        "d2e22a52-2031-49cf-b351-f80fdd768551",
-        "72f17976-0055-4da3-bada-32d0ea229273",
-        "fc054447-71a8-41ce-9100-b52d6b4385ea",
-        "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/IMG_9165.heic",
-        "is_reverse": false,
-        "is_centred": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -243,7 +192,6 @@
     "900733a4-d6dd-4389-88a9-2389791a365d",
     "collection_slider_with_pic_AVP8rG",
     "collection_slider_with_pic_Rj9KdF",
-    "9b7251da-a436-4ee3-86d9-43e5a2375824",
     "product-grid",
     "52841b38-7183-44ba-87e3-615f9a3a9da6",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
