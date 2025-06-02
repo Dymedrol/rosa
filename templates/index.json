@@ -226,7 +226,7 @@
     "collection_slider_with_pic_4xQc6U": {
       "type": "collection-slider-with-pic",
       "settings": {
-        "is_reverse": false,
+        "is_reverse": true,
         "slider_2_image": "shopify://shop_images/Bagues_arcoiris_ethiques_eco_responsables.jpg",
         "text1": "NOS BIJOUX COLORÉES ET UNIQUES",
         "text2": "LA BONNE ETOILE ARCOIRIS",
