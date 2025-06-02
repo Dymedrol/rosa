@@ -81,7 +81,7 @@
         "slider_2_image": "shopify://shop_images/IMG_9165.heic",
         "text1": "COLLECTION SPREAD LOVE",
         "text2": "BAGUE DE FIANÇAILLES SOLITAIRE",
-        "text3": "<p>text 3</p>",
+        "text3": "<p>Cette collection signe le tout premier engagement de Rosa Maïtea pour une joaillerie éthique, durable et totalement traçable.</p><p></p>",
         "collection": "",
         "link-text": "DÉCOUVRIR LA COLLECTION",
         "padding_top": 45,
@@ -107,7 +107,7 @@
         "72f17976-0055-4da3-bada-32d0ea229273": {
           "type": "text",
           "settings": {
-            "text": "<p>Cette collection signe le tout premier engagement de Rosa Maïtea pour une joaillerie éthique, durable et totalement traçable</p>"
+            "text": "<p>Cette collection signe le tout premier engagement de Rosa Maïtea pour une joaillerie éthique, durable et totalement traçable.</p>"
           }
         },
         "fc054447-71a8-41ce-9100-b52d6b4385ea": {
