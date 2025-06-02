@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -22,9 +31,9 @@
         "image_banner_subtitle_text": "",
         "is_text_big": false,
         "image_banner_link_text": "en savoir plus",
-        "image_banner_link_url": "https:\/\/rosamaitea.com\/products\/bague-ethique-fiancailles-solitaire-spread-love",
-        "banner_image": "shopify:\/\/shop_images\/Rosa-Maitea-joaillerie-ethique-collection-spread-love-bagues-de-fiancailles.jpg",
-        "banner_image_mobile": "shopify:\/\/shop_images\/Rosa-Maitea-bague-de-fiancailles-ethique-en-or-recycle-18-carats.jpg"
+        "image_banner_link_url": "https://rosamaitea.com/products/bague-ethique-fiancailles-solitaire-spread-love",
+        "banner_image": "shopify://shop_images/IMG_9118-2_2.jpg",
+        "banner_image_mobile": "shopify://shop_images/IMG_9123.heic"
       }
     },
     "05fcd058-2d9e-49bc-8b45-288074d21940": {
@@ -55,7 +64,7 @@
         "4c86542f-6c74-4961-94ed-b043fe20da2b": {
           "type": "text",
           "settings": {
-            "text": "<p>Collection Spread Love<\/p>"
+            "text": "<p>Collection Spread Love</p>"
           }
         },
         "d2e22a52-2031-49cf-b351-f80fdd768551": {
@@ -68,20 +77,20 @@
         "72f17976-0055-4da3-bada-32d0ea229273": {
           "type": "text",
           "settings": {
-            "text": "<p>Cette collection signe le tout premier engagement de Rosa Maïtea pour une joaillerie éthique, durable et totalement traçable<\/p>"
+            "text": "<p>Cette collection signe le tout premier engagement de Rosa Maïtea pour une joaillerie éthique, durable et totalement traçable</p>"
           }
         },
         "fc054447-71a8-41ce-9100-b52d6b4385ea": {
           "type": "text",
           "settings": {
-            "text": "<p>Ce serti, signature de Rosa Maïtea, rappelle la symbolique magique du chiffre 3 comme  l’union de la perfection, de l’équilibre et de l’amour infini.<\/p>"
+            "text": "<p>Ce serti, signature de Rosa Maïtea, rappelle la symbolique magique du chiffre 3 comme  l’union de la perfection, de l’équilibre et de l’amour infini.</p>"
           }
         },
         "cd2b9a8a-6684-42b2-a9e3-47ed36321182": {
           "type": "link",
           "settings": {
             "link_text": "",
-            "link_url": "shopify:\/\/collections\/spread-love"
+            "link_url": "shopify://collections/spread-love"
           }
         }
       },
@@ -93,7 +102,7 @@
         "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rosa_maitea_chaine_et_pendentif_la_bonne_etoile_diamants_spread_love.jpg",
+        "image": "shopify://shop_images/Rosa_maitea_chaine_et_pendentif_la_bonne_etoile_diamants_spread_love.jpg",
         "is_reverse": false,
         "is_centred": true,
         "padding_top": 0,
@@ -126,20 +135,20 @@
         "70404ca1-7c0a-469b-884c-89f0ac00f9db": {
           "type": "text",
           "settings": {
-            "text": "<p>Selon votre budget, la taille et le carat de vos diamants, nous vous proposons de les rendre encore plus beaux grâce au sertissage signature Rosa Maïtea, composée de trois billes d’or de la couleur de votre choix, montées en 6 points tout autour du diamant comme une étoile à six branches, dans une interprétation unique et très contemporaine du solitaire. <\/p>"
+            "text": "<p>Selon votre budget, la taille et le carat de vos diamants, nous vous proposons de les rendre encore plus beaux grâce au sertissage signature Rosa Maïtea, composée de trois billes d’or de la couleur de votre choix, montées en 6 points tout autour du diamant comme une étoile à six branches, dans une interprétation unique et très contemporaine du solitaire. </p>"
           }
         },
         "877afd39-c71d-478a-a3e7-7df84dad5c1e": {
           "type": "text",
           "settings": {
-            "text": "<p>Un signe de chance, pour un bijou unique, éthique et éco-responsable.<\/p>"
+            "text": "<p>Un signe de chance, pour un bijou unique, éthique et éco-responsable.</p>"
           }
         },
         "41396f3b-2cf3-4f97-a14a-746d1fc1787e": {
           "type": "link",
           "settings": {
             "link_text": "PRENEZ RENDEZ-VOUS",
-            "link_url": "shopify:\/\/pages\/prendre-rendez-vous"
+            "link_url": "shopify://pages/prendre-rendez-vous"
           }
         }
       },
@@ -150,7 +159,7 @@
         "41396f3b-2cf3-4f97-a14a-746d1fc1787e"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rosa_Maitea_bagues_fian_ailles_mariage_ethique.jpg",
+        "image": "shopify://shop_images/Rosa_Maitea_bagues_fian_ailles_mariage_ethique.jpg",
         "is_reverse": false,
         "is_centred": false,
         "padding_top": 45,
@@ -173,7 +182,7 @@
       "disabled": true,
       "settings": {
         "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": ""
       }
     },
@@ -184,7 +193,7 @@
         "text1": "«Je serais heureuse de vous rencontrer à deux pour réaliser votre rêve de concevoir la bague de fiançailles parfaite»",
         "text2": "Patricia Pereda - Directrice artistique et fondatrice de Rosa Maïtea",
         "link_text": "PRENDRE RENDEZ-VOUS AU SHOWROOM OU EN LIVE",
-        "link_url": "shopify:\/\/pages\/prendre-rendez-vous",
+        "link_url": "shopify://pages/prendre-rendez-vous",
         "padding_top": 80,
         "padding_bottom": 85
       }
