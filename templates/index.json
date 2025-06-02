@@ -194,20 +194,6 @@
         "banner_image": "shopify://shop_images/ROSA_MAITEA36876-2.jpg"
       }
     },
-    "collection_slider_with_pic_EKy6Hi": {
-      "type": "collection-slider-with-pic",
-      "settings": {
-        "is_reverse": false,
-        "slider_2_image": "shopify://shop_images/ROSA_MAITEA_MODEL12585.jpg",
-        "text1": "JOAILLERIE éthique",
-        "text2": "NOTRE NOUVELLE BAGUE DE FIANÇAILLES TOI & MOI",
-        "text3": "<p>La nouvelle bague éthique <strong>Toi et Moi </strong>célèbre l’amour sous une constellation précieuse. Deux étoiles scintillantes en diamants recyclés veillent l’une sur l’autre, <strong>symbolisant la protection et l’union éternelle de deux âmes</strong>. Enveloppée d’un délicat mouvement torsadé en or recyclé 18 carats, cette création lumineuse incarne un amour guidé par la lumière des astres. Deux talismans qui représentent l'amour engagé. </p>",
-        "collection": "spread-love",
-        "link-text": "DÉCOUVRIR LA COLLECTION",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
     "collection_slider_with_pic_bfgcUc": {
       "type": "collection-slider-with-pic",
       "name": "slider with side picture",
@@ -218,6 +204,20 @@
         "text2": "LES BAGUES DE FIANÇAILLES DIAMANTées SPREAD LOVE",
         "text3": "<p>Pensées pour se répondre, la bague de fiançailles et l’alliance Rosa Maïtea forment un duo harmonieux et raffiné.</p><p>La <strong>bague de fiançailles,</strong> avec son diamant central souligné par un sertissage perlé signature, allie caractère et délicatesse. De part et d’autre, <strong>six petits diamants recyclés </strong>apportent un équilibre subtil, entre tradition et modernité.</p><p>À ses côtés,<strong> l’alliance pavée</strong> prolonge la lumière avec une ligne de diamants délicatement sertis. Fine et discrète, elle complète parfaitement le solitaire sans le voler la vedette — pour un porté à la fois sophistiqué et naturel.</p><p>Ensemble, elles racontent une même histoire : celle d’un amour sincère, d’un artisanat exigeant et d<strong>’un engagement pour un luxe durable.</strong></p><p></p>",
         "collection": "rosa-maitea",
+        "link-text": "DÉCOUVRIR LA COLLECTION",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "collection_slider_with_pic_EKy6Hi": {
+      "type": "collection-slider-with-pic",
+      "settings": {
+        "is_reverse": false,
+        "slider_2_image": "shopify://shop_images/ROSA_MAITEA_MODEL12585.jpg",
+        "text1": "JOAILLERIE éthique",
+        "text2": "NOTRE NOUVELLE BAGUE DE FIANÇAILLES TOI & MOI",
+        "text3": "<p>La nouvelle bague éthique <strong>Toi et Moi </strong>célèbre l’amour sous une constellation précieuse. Deux étoiles scintillantes en diamants recyclés veillent l’une sur l’autre, <strong>symbolisant la protection et l’union éternelle de deux âmes</strong>. Enveloppée d’un délicat mouvement torsadé en or recyclé 18 carats, cette création lumineuse incarne un amour guidé par la lumière des astres. Deux talismans qui représentent l'amour engagé. </p>",
+        "collection": "spread-love",
         "link-text": "DÉCOUVRIR LA COLLECTION",
         "padding_top": 45,
         "padding_bottom": 45
@@ -672,8 +672,8 @@
     "7a3bc92f-6423-460d-a7b4-238e81713e03",
     "552ce905-cb0f-4745-bc21-4022a0b6a86c",
     "image_banner",
-    "collection_slider_with_pic_EKy6Hi",
     "collection_slider_with_pic_bfgcUc",
+    "collection_slider_with_pic_EKy6Hi",
     "collection_slider_with_pic_4xQc6U",
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9",
     "2c663638-02bd-4aa4-a99b-760dc268b2d9",
