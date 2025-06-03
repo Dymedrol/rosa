@@ -58,21 +58,6 @@
         "padding_bottom": 30
       }
     },
-    "collection_slider_with_pic_AVP8rG": {
-      "type": "collection-slider-with-pic",
-      "name": "slider with side picture",
-      "settings": {
-        "is_reverse": false,
-        "slider_2_image": "shopify://shop_images/IMG_9118_2.jpg",
-        "text1": "COLLECTION SPREAD LOVE",
-        "text2": "BAGUE DE FIANÇAILLES DIAMANTS",
-        "text3": "<p>Pensées pour se répondre, la bague de fiançailles et l’alliance Rosa Maïtea forment un duo harmonieux et raffiné.</p><p><strong>La bague de fiançailles</strong>, avec son diamant central souligné par un sertissage perlé signature, allie caractère et délicatesse. De part et d’autre, six petits diamants recyclés apportent un équilibre subtil, entre tradition et modernité.</p><p>À ses côtés, l’<strong>alliance pavée</strong> prolonge la lumière avec une ligne de diamants délicatement sertis. Fine et discrète, elle complète parfaitement le solitaire sans le voler la vedette — pour un porté à la fois sophistiqué et naturel.</p><p><strong>Ensemble, elles racontent une même histoire</strong> : celle d’un amour sincère, d’un artisanat exigeant et d’un engagement pour un luxe durable.</p>",
-        "collection": "rosa-maitea",
-        "link-text": "DÉCOUVRIR LA COLLECTION",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
     "collection_slider_with_pic_Rj9KdF": {
       "type": "collection-slider-with-pic",
       "name": "slider with side picture",
@@ -83,6 +68,21 @@
         "text2": "BAGUE DE FIANÇAILLES SOLITAIRE",
         "text3": "<p>Cette collection signe le tout premier engagement de Rosa Maïtea pour une <strong>joaillerie éthique, durable et totalement traçable</strong>.</p><p>Ce serti, signature de Rosa Maïtea, rappelle la symbolique magique du chiffre 3 comme  l’union de la perfection, de l’équilibre et de <strong>l’amour infini.</strong></p>",
         "collection": "spread-love",
+        "link-text": "DÉCOUVRIR LA COLLECTION",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "collection_slider_with_pic_AVP8rG": {
+      "type": "collection-slider-with-pic",
+      "name": "slider with side picture",
+      "settings": {
+        "is_reverse": false,
+        "slider_2_image": "shopify://shop_images/IMG_9118_2.jpg",
+        "text1": "COLLECTION SPREAD LOVE",
+        "text2": "BAGUE DE FIANÇAILLES DIAMANTS",
+        "text3": "<p>Pensées pour se répondre, la bague de fiançailles et l’alliance Rosa Maïtea forment un duo harmonieux et raffiné.</p><p><strong>La bague de fiançailles</strong>, avec son diamant central souligné par un sertissage perlé signature, allie caractère et délicatesse. De part et d’autre, six petits diamants recyclés apportent un équilibre subtil, entre tradition et modernité.</p><p>À ses côtés, l’<strong>alliance pavée</strong> prolonge la lumière avec une ligne de diamants délicatement sertis. Fine et discrète, elle complète parfaitement le solitaire sans le voler la vedette — pour un porté à la fois sophistiqué et naturel.</p><p><strong>Ensemble, elles racontent une même histoire</strong> : celle d’un amour sincère, d’un artisanat exigeant et d’un engagement pour un luxe durable.</p>",
+        "collection": "rosa-maitea",
         "link-text": "DÉCOUVRIR LA COLLECTION",
         "padding_top": 45,
         "padding_bottom": 45
@@ -201,8 +201,8 @@
     "cd88edd9-7e38-458e-ae65-b3ea798a8536",
     "05fcd058-2d9e-49bc-8b45-288074d21940",
     "900733a4-d6dd-4389-88a9-2389791a365d",
-    "collection_slider_with_pic_AVP8rG",
     "collection_slider_with_pic_Rj9KdF",
+    "collection_slider_with_pic_AVP8rG",
     "product-grid",
     "52841b38-7183-44ba-87e3-615f9a3a9da6",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
