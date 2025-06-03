@@ -46,6 +46,19 @@
         "padding_bottom": 0
       }
     },
+    "rosa_quote_aKy9tY": {
+      "type": "rosa-quote",
+      "name": "rosa quote",
+      "settings": {
+        "tag": "div",
+        "text1": "",
+        "text2": "L’engagement : Provenant d’un ancien bijou, ce diamant recyclé est la déclaration d’amour de Rosa Maïtea aux merveilles de la planète. Les diamants sont éternels, donc nous les recyclons au lieu d’impacter l'environnement avec de nouvelles extractions. Le solitaire éthique Rosa Maïtea est un triple concentré d’amour : amour de l’être cher, amour de notre planète, et amour de toutes les personnes qui ont participé à sa création.",
+        "link_text": "",
+        "link_url": "/",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -117,6 +130,7 @@
     "banner",
     "688b5c5c-6009-4cb7-99cb-c51b3c497445",
     "1d45b9f8-0add-459a-a650-da512291d3a7",
+    "rosa_quote_aKy9tY",
     "product-grid",
     "collection_slider_with_pic_H8nUpn",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
