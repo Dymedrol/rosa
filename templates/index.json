@@ -105,7 +105,8 @@
             "is_text_big": false,
             "image_banner_link_text": "<strong>Prendre RDV</strong>",
             "image_banner_link_url": "shopify://pages/prendre-rendez-vous",
-            "banner_image": "shopify://shop_images/Rosa_Maitea_Showroom.jpg"
+            "banner_image": "shopify://shop_images/Rosa_Maitea_Showroom.jpg",
+            "banner_image_mobile": "shopify://shop_images/Capture_d_ecran_2025-02-26_a_08.55.39.png"
           }
         },
         "slide_zjj3YB": {
