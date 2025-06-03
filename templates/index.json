@@ -194,6 +194,21 @@
         "banner_image": "shopify://shop_images/ROSA_MAITEA36876-2.jpg"
       }
     },
+    "7556615b-ec09-4647-80d0-eb3a4b55c8a9": {
+      "type": "collection-slider",
+      "custom_css": [
+        "@media screen and (max-width: 480px) {.section-template--19626079813962__7556615b-ec09-4647-80d0-eb3a4b55c8a9-padding {padding-bottom: 0px !important; }}"
+      ],
+      "settings": {
+        "tag": "div",
+        "title1": "NOS CRÉATIONS ÉTHIQUES ET DURABLES",
+        "title2": "LA JOAILLERIE ÉTHIQUE ROSA MAÏTEA",
+        "collection": "home-page-selection-on-top",
+        "link-text": "DÉCOUVRIR",
+        "padding_top": 85,
+        "padding_bottom": 85
+      }
+    },
     "collection_slider_with_pic_bfgcUc": {
       "type": "collection-slider-with-pic",
       "name": "slider with side picture",
@@ -237,19 +252,17 @@
         "padding_bottom": 45
       }
     },
-    "7556615b-ec09-4647-80d0-eb3a4b55c8a9": {
+    "collection_slider_qNA7BU": {
       "type": "collection-slider",
-      "custom_css": [
-        "@media screen and (max-width: 480px) {.section-template--19626079813962__7556615b-ec09-4647-80d0-eb3a4b55c8a9-padding {padding-bottom: 0px !important; }}"
-      ],
+      "name": "collection slider",
       "settings": {
         "tag": "div",
-        "title1": "NOS CRÉATIONS ÉTHIQUES ET DURABLES",
-        "title2": "LA JOAILLERIE ÉTHIQUE ROSA MAÏTEA",
-        "collection": "home-page-selection-on-top",
+        "title1": "JOAILLERIE ÉTHIQUE",
+        "title2": "LES BIJOUX ROSA MAÏTEA",
+        "collection": "",
         "link-text": "DÉCOUVRIR",
-        "padding_top": 85,
-        "padding_bottom": 85
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "2c663638-02bd-4aa4-a99b-760dc268b2d9": {
@@ -672,10 +685,11 @@
     "7a3bc92f-6423-460d-a7b4-238e81713e03",
     "552ce905-cb0f-4745-bc21-4022a0b6a86c",
     "image_banner",
+    "7556615b-ec09-4647-80d0-eb3a4b55c8a9",
     "collection_slider_with_pic_bfgcUc",
     "collection_slider_with_pic_EKy6Hi",
     "collection_slider_with_pic_4xQc6U",
-    "7556615b-ec09-4647-80d0-eb3a4b55c8a9",
+    "collection_slider_qNA7BU",
     "2c663638-02bd-4aa4-a99b-760dc268b2d9",
     "image_banner_qQM3jR",
     "f997dd8a-2291-4fc6-bedc-9faa72cbe9bc",
