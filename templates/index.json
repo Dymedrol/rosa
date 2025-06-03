@@ -56,9 +56,9 @@
             "text_color": "#ffffff",
             "image_banner_title_text": "LES NOUVEAUX COUPS DE COEUR DE ROSA MAÏTEA",
             "is_title_big": false,
-            "image_banner_subtitle_text": "Une collection née de mes voyages, de mes découvertes et de mon regard sur le monde. Chaque pièce raconte une histoire, porte en elle une part d’ailleurs et invite à un voyage où la beauté, le couleur et l’authenticité se rencontrent.",
+            "image_banner_subtitle_text": "Une collection née de mes <strong>voyages</strong>, de mes <strong>découvertes</strong> et de <strong>mon regard</strong> sur le monde. Chaque pièce raconte une histoire, porte en elle une part d’ailleurs et invite à un voyage où <strong>la beauté, le couleur et l’authenticité</strong> se rencontrent.",
             "is_text_big": false,
-            "image_banner_link_text": "DECOUVRIR LES COUPS DE COEUR",
+            "image_banner_link_text": "<strong>DECOUVRIR LES COUPS DE COEUR</strong>",
             "image_banner_link_url": "shopify://collections/les-coups-de-coeur-de-rosa-maitea",
             "banner_image": "shopify://shop_images/IMG_0059.jpg",
             "banner_image_mobile": "shopify://shop_images/Captured_ecran2025-04-09a16.28.29.png"
