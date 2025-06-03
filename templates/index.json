@@ -43,7 +43,7 @@
             "is_title_big": false,
             "image_banner_subtitle_text": "Avec de l'or et diamants recyclés, elle célèbre l’amour sous une constellation précieuse...",
             "is_text_big": false,
-            "image_banner_link_text": "<strong>Collection Toi & Moi</strong>",
+            "image_banner_link_text": "Collection Toi & Moi",
             "image_banner_link_url": "shopify://collections/spread-love",
             "banner_image": "shopify://shop_images/ROSA_MAITEA_MODEL12585-4.jpg",
             "banner_image_mobile": "shopify://shop_images/ROSA_MAITEA_MODEL12585-4.jpg"
@@ -103,7 +103,7 @@
             "is_title_big": false,
             "image_banner_subtitle_text": "Au coeur de Paris, venez vivre une experience unique et inoubliable !",
             "is_text_big": false,
-            "image_banner_link_text": "Prendre RDV",
+            "image_banner_link_text": "<strong>Prendre RDV</strong>",
             "image_banner_link_url": "shopify://pages/prendre-rendez-vous",
             "banner_image": "shopify://shop_images/Rosa_Maitea_Showroom.jpg"
           }
