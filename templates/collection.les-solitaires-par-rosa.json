@@ -59,54 +59,19 @@
         "padding_bottom": 0
       }
     },
-    "9b7251da-a436-4ee3-86d9-43e5a2375824": {
-      "type": "double",
-      "blocks": {
-        "4c86542f-6c74-4961-94ed-b043fe20da2b": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Collection Arcoiris</p>"
-          }
-        },
-        "d2e22a52-2031-49cf-b351-f80fdd768551": {
-          "type": "heading",
-          "settings": {
-            "heading1": "",
-            "heading2": "Variation polychrome sur le thème de l’étoile"
-          }
-        },
-        "72f17976-0055-4da3-bada-32d0ea229273": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Arcoiris compose une parure audacieuse réalisée en or jaune 18ct recyclé et serti de pierres 100% traçables : <strong>spinelles et grenats</strong> de Tanzanie aux magnifiques couleurs vives. </p>"
-          }
-        },
-        "fc054447-71a8-41ce-9100-b52d6b4385ea": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Placée sous le triple signe de la joie, de la beauté et de la protection de notre environnement, la collection Arcoiris renouvelle avec bonheur le design de la <strong>joaillerie éthique</strong>. </p>"
-          }
-        },
-        "cd2b9a8a-6684-42b2-a9e3-47ed36321182": {
-          "type": "link",
-          "settings": {
-            "link_text": "Collection Arcoiris",
-            "link_url": "shopify://collections/arcoiris"
-          }
-        }
-      },
-      "block_order": [
-        "4c86542f-6c74-4961-94ed-b043fe20da2b",
-        "d2e22a52-2031-49cf-b351-f80fdd768551",
-        "72f17976-0055-4da3-bada-32d0ea229273",
-        "fc054447-71a8-41ce-9100-b52d6b4385ea",
-        "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
-      ],
+    "collection_slider_with_pic_H8nUpn": {
+      "type": "collection-slider-with-pic",
+      "name": "slider with side picture",
       "settings": {
         "is_reverse": false,
-        "is_centred": true,
-        "padding_top": 30,
-        "padding_bottom": 15
+        "slider_2_image": "shopify://shop_images/IMG_9118-2_2.jpg",
+        "text1": "LES BAGUES",
+        "text2": "L'engagement éthique",
+        "text3": "<p>Un solitaire éthique, respectueux et solidaire : la bague de fiançailles parfaite ! Symbole absolu de l’amour éternel, les diamants illuminent cette bague réservée à tous les moments qui font battre le cœur.</p><p>L’éclat pur des diamants blancs recyclés allié à la brillance de l’or 18 ct recyclé sacralise l’union de deux êtres qui s’aiment et celle de l’humanité avec la nature.</p>",
+        "collection": "rosa-maitea",
+        "link-text": "DÉCOUVRIR LA COLLECTION",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
@@ -153,7 +118,7 @@
     "688b5c5c-6009-4cb7-99cb-c51b3c497445",
     "1d45b9f8-0add-459a-a650-da512291d3a7",
     "product-grid",
-    "9b7251da-a436-4ee3-86d9-43e5a2375824",
+    "collection_slider_with_pic_H8nUpn",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
     "c35448d9-1175-475c-9d96-16d0b67db72b",
