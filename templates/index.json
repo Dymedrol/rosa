@@ -19,6 +19,21 @@
     "552ce905-cb0f-4745-bc21-4022a0b6a86c": {
       "type": "rosa-jumbo-slider",
       "blocks": {
+        "slide_rd76XP": {
+          "type": "slide",
+          "settings": {
+            "alignment": "left",
+            "text_color": "#121212",
+            "image_banner_title_text": "L'AMOUR ENGAGÉ",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "Toutes nos bagues sont en<strong> or recyclé et</strong> <strong>diamants recyclés. </strong>Provenant d'<strong>anciens bijoux</strong>, ces diamants recyclés sont <strong>nos diamants d’amour. </strong>",
+            "is_text_big": false,
+            "image_banner_link_text": "Découvrez nos bagues de fiançailles éthiques",
+            "image_banner_link_url": "shopify://collections/rosa-maitea",
+            "banner_image": "shopify://shop_images/ROSA_MAITEA_MODEL12520.jpg",
+            "banner_image_mobile": "shopify://shop_images/ROSA_MAITEA37267.jpg"
+          }
+        },
         "slide_yMMBxP": {
           "type": "slide",
           "settings": {
@@ -62,21 +77,6 @@
             "image_banner_link_url": "shopify://collections/bagues",
             "banner_image": "shopify://shop_images/ROSA_MAITEA36741.jpg",
             "banner_image_mobile": "shopify://shop_images/ROSA_MAITEA36741.jpg"
-          }
-        },
-        "slide_rd76XP": {
-          "type": "slide",
-          "settings": {
-            "alignment": "left",
-            "text_color": "#121212",
-            "image_banner_title_text": "L'AMOUR ENGAGÉ",
-            "is_title_big": false,
-            "image_banner_subtitle_text": "Toutes nos bagues sont en<strong> or recyclé et</strong> <strong>diamants recyclés. </strong>Provenant d'<strong>anciens bijoux</strong>, ces diamants recyclés sont <strong>nos diamants d’amour. </strong>",
-            "is_text_big": false,
-            "image_banner_link_text": "Découvrez nos bagues de fiançailles éthiques",
-            "image_banner_link_url": "shopify://collections/rosa-maitea",
-            "banner_image": "shopify://shop_images/Webp.net-resizeimage-177.jpg",
-            "banner_image_mobile": "shopify://shop_images/ROSA_MAITEA37267.jpg"
           }
         },
         "slide_KYKBeC": {
@@ -155,10 +155,10 @@
         }
       },
       "block_order": [
+        "slide_rd76XP",
         "slide_yMMBxP",
         "slide_7KQNcH",
         "slide_E4WEdz",
-        "slide_rd76XP",
         "slide_KYKBeC",
         "c0c37a82-60e7-4577-a3db-8510872ddcb6",
         "slide_zjj3YB",
