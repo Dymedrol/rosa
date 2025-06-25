@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -22,13 +31,13 @@
         "is_full_screen": false,
         "alignment": "center",
         "text_color": "#ffffff",
-        "image_banner_title_text": "<p>L’or recyclé par Rosa Maïtea <\/p>",
+        "image_banner_title_text": "<p>L’or recyclé par Rosa Maïtea </p>",
         "is_title_big": false,
         "image_banner_subtitle_text": "Tout comme l’amour véritable, l'or est éternel, immuable et inaltérable.",
         "is_text_big": false,
         "image_banner_link_text": "",
         "image_banner_link_url": "",
-        "banner_image": "shopify:\/\/shop_images\/Rosa_Maitea_boucles_d_oreille_ethique_or_18_carats_recycle.jpg"
+        "banner_image": "shopify://shop_images/Rosa_Maitea_boucles_d_oreille_ethique_or_18_carats_recycle.jpg"
       }
     },
     "2b08e6ce-a264-4da4-9ccc-8c2cbe75e2f5": {
@@ -49,19 +58,19 @@
         "12885c87-59cb-4326-9fcc-17f286f4f6e3": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>L'OR RECYCLÉ PAR ROSA MAÏTEA<\/strong><\/p>"
+            "text": "<p><strong>L'OR RECYCLÉ PAR ROSA MAÏTEA</strong></p>"
           }
         },
         "0620a0d2-7a07-4416-a19a-63efa991f170": {
           "type": "text",
           "settings": {
-            "text": "<p>L’or recyclé utilisé par Rosa Maïtea provient d'anciens bijoux fondus. Pour continuer à vous faire rêver, nous offrons une nouvelle vie et une nouvelle identité à l’or oublié sur des bijoux endommagés ou délaissés. <\/p>"
+            "text": "<p>L’or recyclé utilisé par Rosa Maïtea provient d'anciens bijoux fondus. Pour continuer à vous faire rêver, nous offrons une nouvelle vie et une nouvelle identité à l’or oublié sur des bijoux endommagés ou délaissés. </p>"
           }
         },
         "076c0977-c63c-4883-b8f1-65288eed9274": {
           "type": "text",
           "settings": {
-            "text": "<p>Créer des bijoux à partir d’or recyclé dans un monde où l’obsolescence programmée et le prêt à jeter sont la norme n’est pas la voie la plus simple. Cela coûte souvent plus cher et demande d’avantage de pugnacité. Cependant, Rosa Maïtea, s’engage à prendre des décisions afin d’imposer une joaillerie durable et écologique qui respecte la nature et nos valeurs. <\/p>"
+            "text": "<p>Créer des bijoux à partir d’or recyclé dans un monde où l’obsolescence programmée et le prêt à jeter sont la norme n’est pas la voie la plus simple. Cela coûte souvent plus cher et demande d’avantage de pugnacité. Cependant, Rosa Maïtea, s’engage à prendre des décisions afin d’imposer une joaillerie durable et écologique qui respecte la nature et nos valeurs. </p>"
           }
         }
       },
@@ -71,7 +80,7 @@
         "076c0977-c63c-4883-b8f1-65288eed9274"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rosa_Maitea_or_recycle_18_carats_bracelets_ethiques.jpg",
+        "image": "shopify://shop_images/Rosa_Maitea_or_recycle_18_carats_bracelets_ethiques.jpg",
         "is_reverse": true,
         "is_centred": true,
         "padding_top": 90,
@@ -94,19 +103,19 @@
         "044de56b-3510-4522-a41e-36063756c9d4": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>LES (TERRIBLES) MINES D'OR<\/strong><\/p>"
+            "text": "<p><strong>LES (TERRIBLES) MINES D'OR</strong></p>"
           }
         },
         "406eb290-02dc-40ef-8b1c-5d801d393bb8": {
           "type": "text",
           "settings": {
-            "text": "<p>Les <strong>mines d’or <\/strong>saccagent l’environnement : déforestation massive, cratères visibles depuis la lune, et utilisation de métaux toxiques. <\/p>"
+            "text": "<p>Les <strong>mines d’or </strong>saccagent l’environnement : déforestation massive, cratères visibles depuis la lune, et utilisation de métaux toxiques. </p>"
           }
         },
         "f81faf11-05b4-40ac-80b1-5a2b64fa5b44": {
           "type": "text",
           "settings": {
-            "text": "<p>Pour extraire plus facilement l’or, on utilise des <strong>tonnes de mercure et de cyanure <\/strong>qui empoisonnent les mineurs, les eaux des rivières et des lacs et, in fine, les communautés proches des zones d’extraction. Ces produits toxiques pénètrent dans la terre et ne disparaissent jamais.<br\/><br\/>Les mines d'or détruisent des vies : violation des droits de l'homme, travail des enfants, intervention des milices, zones de non-droit...<br\/><br\/>Nous refusons de participer au non-respect de la santé et de la sécurité des travailleurs ainsi qu’à la destruction de l’environnement.<\/p>"
+            "text": "<p>Pour extraire plus facilement l’or, on utilise des <strong>tonnes de mercure et de cyanure </strong>qui empoisonnent les mineurs, les eaux des rivières et des lacs et, in fine, les communautés proches des zones d’extraction. Ces produits toxiques pénètrent dans la terre et ne disparaissent jamais.<br/><br/>Les mines d'or détruisent des vies : violation des droits de l'homme, travail des enfants, intervention des milices, zones de non-droit...<br/><br/>Nous refusons de participer au non-respect de la santé et de la sécurité des travailleurs ainsi qu’à la destruction de l’environnement.</p>"
           }
         }
       },
@@ -116,7 +125,7 @@
         "f81faf11-05b4-40ac-80b1-5a2b64fa5b44"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rosa_Maitea_mines_tra_ables.jpg",
+        "image": "shopify://shop_images/Rosa_Maitea_mines_tra_ables.jpg",
         "is_reverse": false,
         "is_centred": true,
         "padding_top": 90,
@@ -130,21 +139,21 @@
           "type": "faq",
           "settings": {
             "title": "title",
-            "text": "<p>text<\/p>"
+            "text": "<p>text</p>"
           }
         },
         "cc111573-5ae2-4010-b337-98c611cc7cde": {
           "type": "faq",
           "settings": {
             "title": "title",
-            "text": "<p>text<\/p>"
+            "text": "<p>text</p>"
           }
         },
         "b4c383fc-a920-4d4d-8954-f6a94b38ea2a": {
           "type": "faq",
           "settings": {
             "title": "title",
-            "text": "<p>text<\/p>"
+            "text": "<p>text</p>"
           }
         }
       },
@@ -176,31 +185,31 @@
         "fe43283f-3c04-4a05-8738-70fcd481d93b": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rosa_Maitea_joaillerie_ethique_or_et_diamants_recycles.jpg"
+            "image": "shopify://shop_images/Rosa_Maitea_joaillerie_ethique_or_et_diamants_recycles.jpg"
           }
         },
         "6d44e858-7b34-4a1c-b025-1bfef2fa9f59": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rosa_Maitea_or_recycle.jpg"
+            "image": "shopify://shop_images/Rosa_Maitea_or_recycle.jpg"
           }
         },
         "a5d5ee87-561e-4670-b3cb-10875516ff20": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rosa_Maitea_collier_ethique.jpg"
+            "image": "shopify://shop_images/Rosa_Maitea_collier_ethique.jpg"
           }
         },
         "83edf634-a541-48ca-b04d-8ee9e2230a31": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rosa_Maitea_or_recycle_18_carats.jpg"
+            "image": "shopify://shop_images/Rosa_Maitea_or_recycle_18_carats_bracelets_ethiques.jpg"
           }
         },
         "aebe5553-6e0a-434b-beda-1b96977d9375": {
           "type": "picture",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rosa_Maitea_pendentif_en_or_recycle_18_carats.jpg"
+            "image": "shopify://shop_images/Rosa_Maitea_pendentif_en_or_recycle_18_carats.jpg"
           }
         }
       },
@@ -221,8 +230,8 @@
       "disabled": true,
       "settings": {
         "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify:\/\/shop_images\/Image_2x_aa32a290-a23e-4f1e-9962-faab371765cc.jpg",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify://shop_images/Image_2x_aa32a290-a23e-4f1e-9962-faab371765cc.jpg",
         "description": ""
       }
     },
@@ -232,15 +241,15 @@
         "39f793d3-34d2-4ba8-885e-f0d8ff578ba6": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Icon_zocial-facebook_2x_ff9ce30e-cb83-419f-8956-7b330b87b5bb.png",
-            "url": "https:\/\/www.facebook.com\/RosaMaitea\/"
+            "image": "shopify://shop_images/Icon_zocial-facebook_2x_ff9ce30e-cb83-419f-8956-7b330b87b5bb.png",
+            "url": "https://www.facebook.com/RosaMaitea/"
           }
         },
         "9594b2d0-3b22-427e-ace0-5065d21be64c": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Icon_awesome-instagram_2x_0e007b22-1811-49b5-81d7-27b78e9ec21f.png",
-            "url": "https:\/\/www.instagram.com\/rosamaiteajewelry\/?hl=fr"
+            "image": "shopify://shop_images/Icon_awesome-instagram_2x_0e007b22-1811-49b5-81d7-27b78e9ec21f.png",
+            "url": "https://www.instagram.com/rosamaiteajewelry/?hl=fr"
           }
         }
       },
