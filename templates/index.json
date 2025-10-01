@@ -266,6 +266,24 @@
         "padding_bottom": 45
       }
     },
+    "image_banner_tEzxby": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "tag": "div",
+        "is_full_screen": true,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "<p>ASSIETTES FLEURIES d'ANNE EVDOKIMOFF</p>",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "Les nouveaux coups de coeur",
+        "is_text_big": false,
+        "image_banner_link_text": "VOIR PLUS",
+        "image_banner_link_url": "shopify://collections/la-ceramique-fleurie-danne-evdokimoff",
+        "banner_image": "shopify://shop_images/LES_COUPS_DE_COEUR.jpg",
+        "banner_image_mobile": "shopify://shop_images/LES_COUPS_DE_COEUR.jpg"
+      }
+    },
     "2c663638-02bd-4aa4-a99b-760dc268b2d9": {
       "type": "rosa-collections",
       "blocks": {
@@ -307,24 +325,6 @@
         "link-text": "DÉCOUVRIR",
         "padding_top": 0,
         "padding_bottom": 120
-      }
-    },
-    "image_banner_tEzxby": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "tag": "div",
-        "is_full_screen": true,
-        "alignment": "center",
-        "text_color": "#ffffff",
-        "image_banner_title_text": "<p>ASSIETTES FLEURIES d'ANNE EVDOKIMOFF</p>",
-        "is_title_big": false,
-        "image_banner_subtitle_text": "Les nouveaux coups de coeur",
-        "is_text_big": false,
-        "image_banner_link_text": "VOIR PLUS",
-        "image_banner_link_url": "shopify://collections/la-ceramique-fleurie-danne-evdokimoff",
-        "banner_image": "shopify://shop_images/LES_COUPS_DE_COEUR.jpg",
-        "banner_image_mobile": "shopify://shop_images/LES_COUPS_DE_COEUR.jpg"
       }
     },
     "image_banner_qQM3jR": {
