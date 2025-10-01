@@ -22,10 +22,10 @@
       "type": "rosa-quote",
       "disabled": true,
       "settings": {
-        "tag": "div",
-        "text1": "GGG",
-        "text2": "RGJNERKBJN",
-        "link_text": "DLFBKNERLKSBNRZ",
+        "tag": "h1",
+        "text1": "",
+        "text2": "",
+        "link_text": "",
         "link_url": "shopify://collections/la-ceramique-fleurie-danne-evdokimoff",
         "padding_top": 45,
         "padding_bottom": 45
