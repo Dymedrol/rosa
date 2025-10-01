@@ -34,6 +34,21 @@
             "banner_image_mobile": "shopify://shop_images/Lookbook_2024_RM_Prix_Retail_CORTE_INGLES.jpg"
           }
         },
+        "slide_djR6e8": {
+          "type": "slide",
+          "settings": {
+            "alignment": "center",
+            "text_color": "#ffffff",
+            "image_banner_title_text": "LES ASSIETTES PEINTES D'ANNE EVDOKIMOFF",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "Nos nouveaux coups de coeur",
+            "is_text_big": false,
+            "image_banner_link_text": "DECOUVRIR",
+            "image_banner_link_url": "/",
+            "banner_image": "shopify://shop_images/LES_COUPS_DE_COEUR-2_39159064-172b-4466-aee2-d073b83dc6c9.jpg",
+            "banner_image_mobile": "shopify://shop_images/LES_COUPS_DE_COEUR.jpg"
+          }
+        },
         "slide_rd76XP": {
           "type": "slide",
           "settings": {
@@ -153,25 +168,11 @@
             "image_banner_link_url": "shopify://collections/selection-fete-des-meres",
             "banner_image": "shopify://shop_images/Collier_ethique_bonne_etoile_rosa_maitea.jpg"
           }
-        },
-        "slide_djR6e8": {
-          "type": "slide",
-          "settings": {
-            "alignment": "center",
-            "text_color": "#ffffff",
-            "image_banner_title_text": "LES ASSIETTES PEINTES D'ANNE EVDOKIMOFF",
-            "is_title_big": false,
-            "image_banner_subtitle_text": "Nos nouveaux coups de coeur",
-            "is_text_big": false,
-            "image_banner_link_text": "DECOUVRIR",
-            "image_banner_link_url": "/",
-            "banner_image": "shopify://shop_images/LES_COUPS_DE_COEUR-2_39159064-172b-4466-aee2-d073b83dc6c9.jpg",
-            "banner_image_mobile": "shopify://shop_images/LES_COUPS_DE_COEUR.jpg"
-          }
         }
       },
       "block_order": [
         "slide_E4WEdz",
+        "slide_djR6e8",
         "slide_rd76XP",
         "slide_yMMBxP",
         "slide_7KQNcH",
@@ -179,8 +180,7 @@
         "c0c37a82-60e7-4577-a3db-8510872ddcb6",
         "slide_zjj3YB",
         "076619a4-bfea-4b99-ab17-c234ce71d53f",
-        "slide_EghGXc",
-        "slide_djR6e8"
+        "slide_EghGXc"
       ],
       "custom_css": [
         ".rosa-jumbotron-slider-title {margin-bottom: 25px !important;}",
