@@ -309,23 +309,6 @@
         "padding_bottom": 120
       }
     },
-    "image_banner_qQM3jR": {
-      "type": "image-banner",
-      "settings": {
-        "tag": "div",
-        "is_full_screen": true,
-        "alignment": "center",
-        "text_color": "#ffffff",
-        "image_banner_title_text": "",
-        "is_title_big": false,
-        "image_banner_subtitle_text": "",
-        "is_text_big": false,
-        "image_banner_link_text": "",
-        "image_banner_link_url": "shopify://collections/selection-saint-valentin",
-        "banner_image": "shopify://shop_images/Capture_d_ecran_2025-04-10_a_16.00.17.jpg",
-        "banner_image_mobile": "shopify://shop_images/Captured_ecran2025-04-09a16.28.35.png"
-      }
-    },
     "image_banner_tEzxby": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
@@ -342,6 +325,24 @@
         "image_banner_link_url": "shopify://collections/la-ceramique-fleurie-danne-evdokimoff",
         "banner_image": "shopify://shop_images/LES_COUPS_DE_COEUR.jpg",
         "banner_image_mobile": "shopify://shop_images/LES_COUPS_DE_COEUR.jpg"
+      }
+    },
+    "image_banner_qQM3jR": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "tag": "div",
+        "is_full_screen": true,
+        "alignment": "center",
+        "text_color": "#ffffff",
+        "image_banner_title_text": "",
+        "is_title_big": false,
+        "image_banner_subtitle_text": "",
+        "is_text_big": false,
+        "image_banner_link_text": "",
+        "image_banner_link_url": "shopify://collections/selection-saint-valentin",
+        "banner_image": "shopify://shop_images/Capture_d_ecran_2025-04-10_a_16.00.17.jpg",
+        "banner_image_mobile": "shopify://shop_images/Captured_ecran2025-04-09a16.28.35.png"
       }
     },
     "f997dd8a-2291-4fc6-bedc-9faa72cbe9bc": {
@@ -710,8 +711,8 @@
     "collection_slider_with_pic_4xQc6U",
     "collection_slider_qNA7BU",
     "2c663638-02bd-4aa4-a99b-760dc268b2d9",
-    "image_banner_qQM3jR",
     "image_banner_tEzxby",
+    "image_banner_qQM3jR",
     "f997dd8a-2291-4fc6-bedc-9faa72cbe9bc",
     "rosa_collections_H4Pyrq",
     "555ee7ae-ed60-4f7c-bf8c-fe18132779a1",
