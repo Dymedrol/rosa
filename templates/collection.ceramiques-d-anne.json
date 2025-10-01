@@ -20,12 +20,11 @@
     },
     "e6ecc10c-9aff-44b4-b9d1-68b1e63da577": {
       "type": "rosa-quote",
-      "disabled": true,
       "settings": {
         "tag": "h1",
         "text1": "LES ASSIETTES FLEURIES D'ANNE EVDOKIMOFF",
-        "text2": "",
-        "link_text": "",
+        "text2": "C’est un vrai coup de cœur que j’ai eu pour le travail d’Anne Evdokimoff, une artiste complète et sensible, qui donne vie à la céramique avec une grâce et une liberté rares.",
+        "link_text": "DECOUVRIR",
         "link_url": "shopify://collections/la-ceramique-fleurie-danne-evdokimoff",
         "padding_top": 45,
         "padding_bottom": 45
