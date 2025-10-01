@@ -149,7 +149,7 @@
       "type": "main-collection-product-grid",
       "settings": {
         "enable_promo_card": false,
-        "enable_filtering": true,
+        "enable_filtering": false,
         "enable_filtering_by_product_type": true,
         "filter_type": "horizontal",
         "enable_sorting": true,
