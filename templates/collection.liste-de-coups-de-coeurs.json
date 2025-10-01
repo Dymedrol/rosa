@@ -64,7 +64,7 @@
       "type": "collection-slider-with-pic",
       "name": "slider with side picture",
       "settings": {
-        "is_reverse": false,
+        "is_reverse": true,
         "slider_2_image": "shopify://shop_images/LES_COUPS_DE_COEUR.jpg",
         "text1": "LES ASSIETTES FLEURIES - NOUVEAUTÉS",
         "text2": "LES CÉRAMIQUES D'ANNE EVDOKIMOFF",
