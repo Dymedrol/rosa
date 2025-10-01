@@ -32,7 +32,7 @@
         "is_text_big": false,
         "image_banner_link_text": "Voir les produits",
         "image_banner_link_url": "shopify://collections/la-ceramique-fleurie-danne-evdokimoff",
-        "banner_image": "shopify://shop_images/LES_COUPS_DE_COEUR.jpg",
+        "banner_image": "shopify://shop_images/rsz_p250926122131-side-raw-13.jpg",
         "banner_image_mobile": "shopify://shop_images/LES_COUPS_DE_COEUR.jpg"
       }
     },
@@ -58,6 +58,21 @@
         "link_url": "/",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "collection_slider_with_pic_AUr4eD": {
+      "type": "collection-slider-with-pic",
+      "name": "slider with side picture",
+      "settings": {
+        "is_reverse": false,
+        "slider_2_image": "shopify://shop_images/LES_COUPS_DE_COEUR.jpg",
+        "text1": "LES ASSIETTES FLEURIES",
+        "text2": "LES CÉRAMIQUES D'ANNE EVDOKIMOFF",
+        "text3": "<p>C’est un vrai <strong>coup de cœur</strong> que j’ai eu pour le travail d’<strong>Anne Evdokimoff</strong>, une artiste complète et sensible, qui donne vie à la céramique avec une grâce et une liberté rares. Originaire du sud de la France, amoureuse de <strong>lumière</strong>, de <strong>nature</strong>, et surtout de <strong>couleurs</strong>, elle vit aujourd’hui à Paris où elle crée à la main des pièces vibrantes, entre sculpture, peinture et art de la table.</p><p>Formée aux <strong>Beaux-Arts</strong> et à <strong>l’École du Louvre</strong>, Anne a le regard d’une peintre, la main d’une sculptrice, et le geste sûr d’une femme qui <strong>travaille la terre comme une matière vivante</strong>. Sa passion pour les fleurs, le végétal, la couleur, se retrouve dans chacune de ses créations.</p><p>Ses <strong>assiettes peintes à la main</strong> sont tout simplement irrésistibles : <strong>des compositions florales pleines de fraîcheur et d’éclat</strong>, à poser sur une table comme un bouquet, ou à suspendre au mur comme une œuvre. Chaque assiette est <strong>une pièce unique</strong>, pleine de poésie et de personnalité.</p><p></p>",
+        "collection": "la-ceramique-fleurie-danne-evdokimoff",
+        "link-text": "DÉCOUVRIR LA COLLECTION",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "collection_slider_with_pic_wXBMFC": {
@@ -130,21 +145,6 @@
         "padding_bottom": 45
       }
     },
-    "collection_slider_with_pic_AUr4eD": {
-      "type": "collection-slider-with-pic",
-      "name": "slider with side picture",
-      "settings": {
-        "is_reverse": false,
-        "slider_2_image": "shopify://shop_images/LES_COUPS_DE_COEUR.jpg",
-        "text1": "LES ASSIETTES FLEURIES",
-        "text2": "LES CÉRAMIQUES D'ANNE EVDOKIMOFF",
-        "text3": "<p>C’est un vrai <strong>coup de cœur</strong> que j’ai eu pour le travail d’<strong>Anne Evdokimoff</strong>, une artiste complète et sensible, qui donne vie à la céramique avec une grâce et une liberté rares. Originaire du sud de la France, amoureuse de <strong>lumière</strong>, de <strong>nature</strong>, et surtout de <strong>couleurs</strong>, elle vit aujourd’hui à Paris où elle crée à la main des pièces vibrantes, entre sculpture, peinture et art de la table.</p><p>Formée aux <strong>Beaux-Arts</strong> et à <strong>l’École du Louvre</strong>, Anne a le regard d’une peintre, la main d’une sculptrice, et le geste sûr d’une femme qui <strong>travaille la terre comme une matière vivante</strong>. Sa passion pour les fleurs, le végétal, la couleur, se retrouve dans chacune de ses créations.</p><p>Ses <strong>assiettes peintes à la main</strong> sont tout simplement irrésistibles : <strong>des compositions florales pleines de fraîcheur et d’éclat</strong>, à poser sur une table comme un bouquet, ou à suspendre au mur comme une œuvre. Chaque assiette est <strong>une pièce unique</strong>, pleine de poésie et de personnalité.</p><p></p>",
-        "collection": "la-ceramique-fleurie-danne-evdokimoff",
-        "link-text": "DÉCOUVRIR LA COLLECTION",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -193,12 +193,12 @@
     "image_banner_ALnjfr",
     "e6ecc10c-9aff-44b4-b9d1-68b1e63da577",
     "rosa_quote_3VAUdg",
+    "collection_slider_with_pic_AUr4eD",
     "collection_slider_with_pic_wXBMFC",
     "collection_slider_with_pic_nTaP4z",
     "collection_slider_with_pic_yMxRRw",
     "collection_slider_with_pic_B7jjcd",
     "collection_slider_with_pic_nFbpki",
-    "collection_slider_with_pic_AUr4eD",
     "product-grid",
     "c35448d9-1175-475c-9d96-16d0b67db72b",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
