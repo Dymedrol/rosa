@@ -39,12 +39,12 @@
           "settings": {
             "alignment": "center",
             "text_color": "#000000",
-            "image_banner_title_text": "LES ASSIETTES PEINTES D'ANNE EVDOKIMOFF",
+            "image_banner_title_text": "<strong>ASSIETTES d'ANNE EVDOKIMOFF</strong>",
             "is_title_big": false,
-            "image_banner_subtitle_text": "Nos nouveaux coups de coeur",
-            "is_text_big": false,
+            "image_banner_subtitle_text": "C’est un vrai coup de cœur que j’ai eu pour le travail d’Anne Evdokimoff, une artiste complète et sensible, qui donne vie à la céramique avec une grâce et une liberté rares.",
+            "is_text_big": true,
             "image_banner_link_text": "DECOUVRIR",
-            "image_banner_link_url": "/",
+            "image_banner_link_url": "shopify://collections/la-ceramique-fleurie-danne-evdokimoff-1",
             "banner_image": "shopify://shop_images/LES_COUPS_DE_COEUR-2_39159064-172b-4466-aee2-d073b83dc6c9.jpg",
             "banner_image_mobile": "shopify://shop_images/LES_COUPS_DE_COEUR.jpg"
           }
