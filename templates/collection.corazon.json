@@ -93,6 +93,13 @@
             "link_text": "Collection CORAZON",
             "link_url": "shopify://collections/collection-corazon"
           }
+        },
+        "item_AX4jiU": {
+          "type": "item",
+          "settings": {
+            "text": "text",
+            "url": "/"
+          }
         }
       },
       "block_order": [
@@ -100,7 +107,8 @@
         "d2e22a52-2031-49cf-b351-f80fdd768551",
         "72f17976-0055-4da3-bada-32d0ea229273",
         "fc054447-71a8-41ce-9100-b52d6b4385ea",
-        "cd2b9a8a-6684-42b2-a9e3-47ed36321182"
+        "cd2b9a8a-6684-42b2-a9e3-47ed36321182",
+        "item_AX4jiU"
       ],
       "settings": {
         "image": "shopify://shop_images/RM_COLLAGE_Presentation_-5_b5094b3d-5ece-48b5-8779-c91aa830f4bf.jpg",
