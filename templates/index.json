@@ -48,21 +48,6 @@
             "banner_image": "shopify://shop_images/RM_COLLAGE_Presentation_-3.jpg"
           }
         },
-        "slide_djR6e8": {
-          "type": "slide",
-          "settings": {
-            "alignment": "center",
-            "text_color": "#000000",
-            "image_banner_title_text": "LES COUPS DE COEUR",
-            "is_title_big": false,
-            "image_banner_subtitle_text": "C’est un vrai coup de cœur que j’ai eu pour le travail d’<strong>Anne Evdokimoff,</strong> une artiste complète et sensible, qui donne vie à la céramique avec une grâce et une liberté rares.",
-            "is_text_big": true,
-            "image_banner_link_text": "<strong>DECOUVRIR</strong>",
-            "image_banner_link_url": "shopify://collections/la-ceramique-fleurie-danne-evdokimoff-1",
-            "banner_image": "shopify://shop_images/LES_COUPS_DE_COEUR-2_39159064-172b-4466-aee2-d073b83dc6c9.jpg",
-            "banner_image_mobile": "shopify://shop_images/LES_COUPS_DE_COEUR.jpg"
-          }
-        },
         "slide_rd76XP": {
           "type": "slide",
           "settings": {
@@ -76,6 +61,21 @@
             "image_banner_link_url": "shopify://collections/rosa-maitea",
             "banner_image": "shopify://shop_images/ROSA_MAITEA_MODEL12520-2.jpg",
             "banner_image_mobile": "shopify://shop_images/ROSA_MAITEA_MODEL12520_d7089ffb-883b-480a-86c8-35c88c2e0b82.jpg"
+          }
+        },
+        "slide_djR6e8": {
+          "type": "slide",
+          "settings": {
+            "alignment": "center",
+            "text_color": "#000000",
+            "image_banner_title_text": "LES COUPS DE COEUR",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "C’est un vrai coup de cœur que j’ai eu pour le travail d’<strong>Anne Evdokimoff,</strong> une artiste complète et sensible, qui donne vie à la céramique avec une grâce et une liberté rares.",
+            "is_text_big": true,
+            "image_banner_link_text": "<strong>DECOUVRIR</strong>",
+            "image_banner_link_url": "shopify://collections/la-ceramique-fleurie-danne-evdokimoff-1",
+            "banner_image": "shopify://shop_images/LES_COUPS_DE_COEUR-2_39159064-172b-4466-aee2-d073b83dc6c9.jpg",
+            "banner_image_mobile": "shopify://shop_images/LES_COUPS_DE_COEUR.jpg"
           }
         },
         "slide_yMMBxP": {
@@ -159,21 +159,21 @@
           "settings": {
             "alignment": "left",
             "text_color": "#121212",
-            "image_banner_title_text": "MA MAMAN, MON ÉTOILE",
+            "image_banner_title_text": "MI CORAZON",
             "is_title_big": false,
-            "image_banner_subtitle_text": "Nos <strong>mamans</strong>, ce sont nos piliers, nos <strong>sources d'inspiration</strong>, celles qui ont toujours été là quand nous avions besoin d'elles. Elles sont <strong>les lumières qui guident</strong> nos pas dans la vie, et nous sommes reconnaissants chaque jour de les avoir comme mamans. <strong>Nos mamans, nos étoiles.</strong> Sa fête est le <strong>26 mai </strong>!",
+            "image_banner_subtitle_text": "Symbole du mantra de la Maison <em>Spread Love Toujours</em>, ce bijou artisanal incarne un geste d’amour sincère, un talisman à porter près du cœur.",
             "is_text_big": false,
-            "image_banner_link_text": "VOICI LA SELECTION CADEAUX FÊTE DES MÈRES",
-            "image_banner_link_url": "shopify://collections/selection-fete-des-meres",
-            "banner_image": "shopify://shop_images/Collier_ethique_bonne_etoile_rosa_maitea.jpg"
+            "image_banner_link_text": "DECOUVRIR LA COLLECTION CORAZON",
+            "image_banner_link_url": "shopify://collections/collection-corazon",
+            "banner_image": "shopify://shop_images/RM_COLLAGE_Presentation_-4.jpg"
           }
         }
       },
       "block_order": [
         "slide_E4WEdz",
         "076619a4-bfea-4b99-ab17-c234ce71d53f",
-        "slide_djR6e8",
         "slide_rd76XP",
+        "slide_djR6e8",
         "slide_yMMBxP",
         "slide_7KQNcH",
         "slide_KYKBeC",
