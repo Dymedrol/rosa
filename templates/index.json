@@ -37,14 +37,14 @@
         "076619a4-bfea-4b99-ab17-c234ce71d53f": {
           "type": "slide",
           "settings": {
-            "alignment": "right",
+            "alignment": "left",
             "text_color": "#000000",
             "image_banner_title_text": "LA FAVORITE",
             "is_title_big": false,
             "image_banner_subtitle_text": "",
             "is_text_big": false,
-            "image_banner_link_text": "Nos bijoux éthiques",
-            "image_banner_link_url": "shopify://collections",
+            "image_banner_link_text": "DECOUVRIR LA FAVORITE",
+            "image_banner_link_url": "shopify://collections/la-favorita-de-rosa-maitea",
             "banner_image": "shopify://shop_images/flowers_Maitea0322.jpg"
           }
         },
