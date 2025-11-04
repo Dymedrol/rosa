@@ -90,7 +90,7 @@
           "type": "link",
           "disabled": true,
           "settings": {
-            "link_text": "Collection CORAZON",
+            "link_text": "",
             "link_url": "shopify://collections/collection-corazon"
           }
         }
