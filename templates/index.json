@@ -34,20 +34,6 @@
             "banner_image_mobile": "shopify://shop_images/Lookbook_2024_RM_Prix_Retail_CORTE_INGLES.jpg"
           }
         },
-        "076619a4-bfea-4b99-ab17-c234ce71d53f": {
-          "type": "slide",
-          "settings": {
-            "alignment": "right",
-            "text_color": "#ffffff",
-            "image_banner_title_text": "LA FAVORITE",
-            "is_title_big": false,
-            "image_banner_subtitle_text": "Revisitée en mode contemporain, la bague fleur devient intemporelle et se pare des nuances inédites de tourmalines roses et vertes 100% traçables. ",
-            "is_text_big": false,
-            "image_banner_link_text": "DECOUVRIR LA FAVORITE",
-            "image_banner_link_url": "shopify://collections/la-favorita-de-rosa-maitea",
-            "banner_image": "shopify://shop_images/RM_COLLAGE_Presentation_-3.jpg"
-          }
-        },
         "slide_EghGXc": {
           "type": "slide",
           "settings": {
@@ -60,6 +46,20 @@
             "image_banner_link_text": "DECOUVRIR LA COLLECTION CORAZON",
             "image_banner_link_url": "shopify://collections/collection-corazon",
             "banner_image": "shopify://shop_images/RM_COLLAGE_Presentation_-4_865ccc86-d8bd-49ac-8318-9ef1051af8d4.jpg"
+          }
+        },
+        "076619a4-bfea-4b99-ab17-c234ce71d53f": {
+          "type": "slide",
+          "settings": {
+            "alignment": "right",
+            "text_color": "#ffffff",
+            "image_banner_title_text": "LA FAVORITE",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "Revisitée en mode contemporain, la bague fleur devient intemporelle et se pare des nuances inédites de tourmalines roses et vertes 100% traçables. ",
+            "is_text_big": false,
+            "image_banner_link_text": "DECOUVRIR LA FAVORITE",
+            "image_banner_link_url": "shopify://collections/la-favorita-de-rosa-maitea",
+            "banner_image": "shopify://shop_images/RM_COLLAGE_Presentation_-3.jpg"
           }
         },
         "slide_rd76XP": {
@@ -170,8 +170,8 @@
       },
       "block_order": [
         "slide_E4WEdz",
-        "076619a4-bfea-4b99-ab17-c234ce71d53f",
         "slide_EghGXc",
+        "076619a4-bfea-4b99-ab17-c234ce71d53f",
         "slide_rd76XP",
         "slide_djR6e8",
         "slide_yMMBxP",
