@@ -19,6 +19,20 @@
     "552ce905-cb0f-4745-bc21-4022a0b6a86c": {
       "type": "rosa-jumbo-slider",
       "blocks": {
+        "slide_3zp7WN": {
+          "type": "slide",
+          "settings": {
+            "alignment": "center",
+            "text_color": "#ffffff",
+            "image_banner_title_text": "title",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "text",
+            "is_text_big": false,
+            "image_banner_link_text": "link",
+            "image_banner_link_url": "/",
+            "banner_image": "shopify://shop_images/RM_COLLAGE_Presentation_-6.jpg"
+          }
+        },
         "slide_E4WEdz": {
           "type": "slide",
           "settings": {
@@ -169,6 +183,7 @@
         }
       },
       "block_order": [
+        "slide_3zp7WN",
         "slide_E4WEdz",
         "slide_EghGXc",
         "076619a4-bfea-4b99-ab17-c234ce71d53f",
