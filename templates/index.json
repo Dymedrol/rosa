@@ -26,9 +26,9 @@
             "text_color": "#ffffff",
             "image_banner_title_text": "title",
             "is_title_big": false,
-            "image_banner_subtitle_text": "text",
+            "image_banner_subtitle_text": "",
             "is_text_big": false,
-            "image_banner_link_text": "link",
+            "image_banner_link_text": "",
             "image_banner_link_url": "/",
             "banner_image": "shopify://shop_images/RM_COLLAGE_Presentation_-9.jpg"
           }
