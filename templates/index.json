@@ -24,7 +24,7 @@
           "settings": {
             "alignment": "center",
             "text_color": "#ffffff",
-            "image_banner_title_text": "title",
+            "image_banner_title_text": "",
             "is_title_big": false,
             "image_banner_subtitle_text": "",
             "is_text_big": false,
