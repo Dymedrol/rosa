@@ -19,20 +19,6 @@
     "552ce905-cb0f-4745-bc21-4022a0b6a86c": {
       "type": "rosa-jumbo-slider",
       "blocks": {
-        "slide_3zp7WN": {
-          "type": "slide",
-          "settings": {
-            "alignment": "center",
-            "text_color": "#ffffff",
-            "image_banner_title_text": "",
-            "is_title_big": false,
-            "image_banner_subtitle_text": "",
-            "is_text_big": false,
-            "image_banner_link_text": "",
-            "image_banner_link_url": "/",
-            "banner_image": "shopify://shop_images/RM_COLLAGE_Presentation_-9.jpg"
-          }
-        },
         "slide_E4WEdz": {
           "type": "slide",
           "settings": {
@@ -166,6 +152,21 @@
             "banner_image_mobile": "shopify://shop_images/Capture_d_ecran_2025-02-26_a_08.55.39.png"
           }
         },
+        "slide_3zp7WN": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "alignment": "center",
+            "text_color": "#ffffff",
+            "image_banner_title_text": "",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "",
+            "is_text_big": false,
+            "image_banner_link_text": "",
+            "image_banner_link_url": "/",
+            "banner_image": "shopify://shop_images/RM_COLLAGE_Presentation_-9.jpg"
+          }
+        },
         "slide_zjj3YB": {
           "type": "slide",
           "disabled": true,
@@ -183,7 +184,6 @@
         }
       },
       "block_order": [
-        "slide_3zp7WN",
         "slide_E4WEdz",
         "slide_EghGXc",
         "076619a4-bfea-4b99-ab17-c234ce71d53f",
@@ -193,6 +193,7 @@
         "slide_7KQNcH",
         "slide_KYKBeC",
         "c0c37a82-60e7-4577-a3db-8510872ddcb6",
+        "slide_3zp7WN",
         "slide_zjj3YB"
       ],
       "custom_css": [
