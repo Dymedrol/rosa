@@ -20,14 +20,13 @@
     },
     "e6ecc10c-9aff-44b4-b9d1-68b1e63da577": {
       "type": "rosa-quote",
-      "disabled": true,
       "settings": {
         "tag": "div",
-        "text1": "Les Bonnes Étoiles existent également en version arc-en-ciel : La collection Arcoiris. Variation polychrome sur le thème de l’étoile, Arcoiris compose une parure audacieuse réalisée en or jaune 18ct recyclé et serti de pierres 100% traçables : spinelles et grenats de Tanzanie aux magnifiques couleurs vives",
-        "text2": "",
+        "text1": "BIJOUX DISPONIBLES IMMÉDIATEMENT",
+        "text2": "Une attention de dernière minute ? Vous avez de la chance : habituellement fabriquées sur commande, cette sélection rassemble des créations en stock, intemporelles de la Maison et livrées en seulement quelques jours. Notre service express est idéal pour les surprises de dernière minute et les cadeaux spontanés. La livraison et les retours sont gratuits.",
         "link_text": "",
         "link_url": "/",
-        "padding_top": 45,
+        "padding_top": 60,
         "padding_bottom": 45
       }
     },
