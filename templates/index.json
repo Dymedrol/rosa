@@ -19,6 +19,20 @@
     "552ce905-cb0f-4745-bc21-4022a0b6a86c": {
       "type": "rosa-jumbo-slider",
       "blocks": {
+        "slide_EghGXc": {
+          "type": "slide",
+          "settings": {
+            "alignment": "left",
+            "text_color": "#121212",
+            "image_banner_title_text": "MI CORAZON",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "Symbole du mantra de la Maison <em>Spread Love Toujours</em>, ce bijou artisanal incarne un geste d’amour sincère, un talisman à porter près du cœur.",
+            "is_text_big": false,
+            "image_banner_link_text": "DECOUVRIR LA COLLECTION CORAZON",
+            "image_banner_link_url": "shopify://collections/collection-corazon",
+            "banner_image": "shopify://shop_images/RM_COLLAGE_Presentation_-4_865ccc86-d8bd-49ac-8318-9ef1051af8d4.jpg"
+          }
+        },
         "slide_E4WEdz": {
           "type": "slide",
           "settings": {
@@ -32,20 +46,6 @@
             "image_banner_link_url": "shopify://collections/bagues",
             "banner_image": "shopify://shop_images/Lookbook_2024_RM_Prix_Retail_CORTE_INGLES.jpg",
             "banner_image_mobile": "shopify://shop_images/Lookbook_2024_RM_Prix_Retail_CORTE_INGLES.jpg"
-          }
-        },
-        "slide_EghGXc": {
-          "type": "slide",
-          "settings": {
-            "alignment": "left",
-            "text_color": "#121212",
-            "image_banner_title_text": "MI CORAZON",
-            "is_title_big": false,
-            "image_banner_subtitle_text": "Symbole du mantra de la Maison <em>Spread Love Toujours</em>, ce bijou artisanal incarne un geste d’amour sincère, un talisman à porter près du cœur.",
-            "is_text_big": false,
-            "image_banner_link_text": "DECOUVRIR LA COLLECTION CORAZON",
-            "image_banner_link_url": "shopify://collections/collection-corazon",
-            "banner_image": "shopify://shop_images/RM_COLLAGE_Presentation_-4_865ccc86-d8bd-49ac-8318-9ef1051af8d4.jpg"
           }
         },
         "076619a4-bfea-4b99-ab17-c234ce71d53f": {
@@ -184,8 +184,8 @@
         }
       },
       "block_order": [
-        "slide_E4WEdz",
         "slide_EghGXc",
+        "slide_E4WEdz",
         "076619a4-bfea-4b99-ab17-c234ce71d53f",
         "slide_rd76XP",
         "slide_djR6e8",
