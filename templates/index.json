@@ -19,6 +19,21 @@
     "552ce905-cb0f-4745-bc21-4022a0b6a86c": {
       "type": "rosa-jumbo-slider",
       "blocks": {
+        "slide_afciit": {
+          "type": "slide",
+          "settings": {
+            "alignment": "center",
+            "text_color": "#ffffff",
+            "image_banner_title_text": "LES FEUX D'ARTIFICES DES JARDIN COSMIQUES",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "Les couleurs de <strong>Jardin Cosmique Arcoiris</strong> incarnent cette philosophie. Elles évoquent la joie, la créativité, l'énergie et la liberté. ",
+            "is_text_big": false,
+            "image_banner_link_text": "COLLECTION JARDIN COSMIQUE",
+            "image_banner_link_url": "shopify://collections/jardin-cosmique",
+            "banner_image": "shopify://shop_images/Capture_d_ecran_2026-06-26_a_16.55.41.png",
+            "banner_image_mobile": "shopify://shop_images/Captured_ecran2026-06-26a16.35.52.png"
+          }
+        },
         "slide_EghGXc": {
           "type": "slide",
           "settings": {
@@ -184,6 +199,7 @@
         }
       },
       "block_order": [
+        "slide_afciit",
         "slide_EghGXc",
         "slide_E4WEdz",
         "076619a4-bfea-4b99-ab17-c234ce71d53f",
