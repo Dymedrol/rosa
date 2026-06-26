@@ -22,7 +22,7 @@
         "slide_afciit": {
           "type": "slide",
           "settings": {
-            "alignment": "center",
+            "alignment": "left",
             "text_color": "#ffffff",
             "image_banner_title_text": "LES FEUX D'ARTIFICES DES JARDIN COSMIQUES",
             "is_title_big": false,
