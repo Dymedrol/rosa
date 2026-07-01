@@ -147,7 +147,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Rosa-Maitea-jaoillerie-ethique-collection-jardin-cosmique-en-diamants-recycles-et-or-recycle-18-carats.jpg",
-        "is_reverse": false,
+        "is_reverse": true,
         "is_centred": true,
         "padding_top": 30,
         "padding_bottom": 0
