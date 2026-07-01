@@ -60,6 +60,17 @@
     },
     "double_MGDnAi": {
       "type": "double",
+      "blocks": {
+        "text_4zVCAB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Les couleurs de <strong>Jardin Cosmique Arcoiris</strong> évoquent la joie, la créativité, l'énergie et la liberté. Elles rappellent que la haute joaillerie peut être lumineuse, contemporaine et profondément engagée.</p><p>Les nouvelles créations portent les noms d'étoiles qui illuminent notre ciel : Vega, Arianne et Sirius.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_4zVCAB"
+      ],
       "name": "rosa image this text",
       "settings": {
         "image": "shopify://shop_images/Capture_d_ecran_2026-06-26_a_16.42.57.png",
