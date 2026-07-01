@@ -274,6 +274,21 @@
         "padding_bottom": 45
       }
     },
+    "collection_slider_with_pic_LmjaAT": {
+      "type": "collection-slider-with-pic",
+      "name": "slider with side picture",
+      "settings": {
+        "is_reverse": true,
+        "slider_2_image": "shopify://shop_images/Captured_ecran2026-06-25a17.12.47.png",
+        "text1": "NOUVEAUTÉS",
+        "text2": "Bagues Vega et Arianne, et la belle boucle d'oreille montante Constellation Sirius.",
+        "text3": "<p>Avec la collection J<strong>ardin Cosmique Arcoiris, </strong>vous choisissez bien plus qu’une bague ou une boucle d’oreille : vous offrez une histoire, un engagement et un éclat qui respectent la nature autant que les personnes qui l’ont rendu possible.</p><p>Parce que nous croyons que le luxe de demain sera <strong>beau, durable… et profondément humain.</strong></p>",
+        "collection": "jardin-cosmique",
+        "link-text": "DÉCOUVRIR LA COLLECTION",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "collection_slider_with_pic_EKy6Hi": {
       "type": "collection-slider-with-pic",
       "settings": {
@@ -283,21 +298,6 @@
         "text2": "BAGUE MARIAGE TOI & MOI",
         "text3": "<p>La bague éthique <strong>Toi et Moi </strong>célèbre l’amour sous une constellation précieuse. Deux étoiles scintillantes en diamants recyclés veillent l’une sur l’autre, <strong>symbolisant la protection et l’union éternelle de deux âmes</strong>. </p><p>Enveloppée d’un délicat mouvement torsadé en or recyclé 18 carats, cette création lumineuse incarne un amour guidé par la lumière des astres. </p><p>Deux talismans qui représentent<strong> l'amour engagé</strong>. </p><p>Nous l'avons en<strong> 2 tailles. </strong></p>",
         "collection": "les-toi-moi-bonne-etoile-diamants",
-        "link-text": "DÉCOUVRIR LA COLLECTION",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
-    "collection_slider_with_pic_LmjaAT": {
-      "type": "collection-slider-with-pic",
-      "name": "slider with side picture",
-      "settings": {
-        "is_reverse": false,
-        "slider_2_image": "shopify://shop_images/Captured_ecran2026-06-25a17.12.47.png",
-        "text1": "NOUVEAUTÉS",
-        "text2": "Bagues Vega et Arianne, et la belle boucle d'oreille montante Constellation Sirius.",
-        "text3": "<p>Avec la collection J<strong>ardin Cosmique Arcoiris, </strong>vous choisissez bien plus qu’une bague ou une boucle d’oreille : vous offrez une histoire, un engagement et un éclat qui respectent la nature autant que les personnes qui l’ont rendu possible.</p><p>Parce que nous croyons que le luxe de demain sera <strong>beau, durable… et profondément humain.</strong></p>",
-        "collection": "jardin-cosmique",
         "link-text": "DÉCOUVRIR LA COLLECTION",
         "padding_top": 45,
         "padding_bottom": 45
@@ -771,8 +771,8 @@
     "image_banner",
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9",
     "collection_slider_with_pic_bfgcUc",
-    "collection_slider_with_pic_EKy6Hi",
     "collection_slider_with_pic_LmjaAT",
+    "collection_slider_with_pic_EKy6Hi",
     "collection_slider_with_pic_4xQc6U",
     "collection_slider_qNA7BU",
     "2c663638-02bd-4aa4-a99b-760dc268b2d9",
