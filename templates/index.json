@@ -292,7 +292,7 @@
     "collection_slider_with_pic_EKy6Hi": {
       "type": "collection-slider-with-pic",
       "settings": {
-        "is_reverse": false,
+        "is_reverse": true,
         "slider_2_image": "shopify://shop_images/ROSA_MAITEA_MODEL12585.jpg",
         "text1": "JOAILLERIE éthique",
         "text2": "BAGUE MARIAGE TOI & MOI",
@@ -306,7 +306,7 @@
     "collection_slider_with_pic_4xQc6U": {
       "type": "collection-slider-with-pic",
       "settings": {
-        "is_reverse": true,
+        "is_reverse": false,
         "slider_2_image": "shopify://shop_images/Bagues_arcoiris_ethiques_eco_responsables.jpg",
         "text1": "NOS BIJOUX COLORÉES ET UNIQUES",
         "text2": "LA BONNE ETOILE ARCOIRIS",
