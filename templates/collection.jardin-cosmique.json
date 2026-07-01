@@ -58,6 +58,17 @@
         "padding_bottom": 35
       }
     },
+    "double_MGDnAi": {
+      "type": "double",
+      "name": "rosa image this text",
+      "settings": {
+        "image": "shopify://shop_images/Capture_d_ecran_2026-06-26_a_16.42.57.png",
+        "is_reverse": false,
+        "is_centred": false,
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "9b7251da-a436-4ee3-86d9-43e5a2375824": {
       "type": "double",
       "blocks": {
@@ -71,7 +82,7 @@
           "type": "heading",
           "settings": {
             "heading1": "",
-            "heading2": "Les fleurs d’un jardin stellaire"
+            "heading2": "DES FEUX D'ARTIFICES AVEC JARDIN COSMIQUE ARCOIRIS"
           }
         },
         "72f17976-0055-4da3-bada-32d0ea229273": {
@@ -169,6 +180,7 @@
     "e9385c9f-0efa-408e-aa02-8ba2528314fc",
     "5a2e39e3-5f06-4d2f-ba2b-a3f3cd30a2e0",
     "b94811bd-a757-4e58-9781-f66118edcb9c",
+    "double_MGDnAi",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
     "product-grid",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
