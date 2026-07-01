@@ -61,6 +61,13 @@
     "double_MGDnAi": {
       "type": "double",
       "blocks": {
+        "heading_LrtxCA": {
+          "type": "heading",
+          "settings": {
+            "heading1": "NOUVEAUTÉS",
+            "heading2": "DES FEUX D'ARTIFICES"
+          }
+        },
         "text_4zVCAB": {
           "type": "text",
           "settings": {
@@ -69,6 +76,7 @@
         }
       },
       "block_order": [
+        "heading_LrtxCA",
         "text_4zVCAB"
       ],
       "name": "rosa image this text",
