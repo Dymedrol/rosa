@@ -58,6 +58,49 @@
         "padding_bottom": 35
       }
     },
+    "double_MGDnAi": {
+      "type": "double",
+      "blocks": {
+        "heading_LrtxCA": {
+          "type": "heading",
+          "settings": {
+            "heading1": "NOUVEAUTÉS",
+            "heading2": "DES FEUX D'ARTIFICES"
+          }
+        },
+        "text_4zVCAB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Les couleurs de <strong>Jardin Cosmique Arcoiris</strong> évoquent la joie, la créativité, l'énergie et la liberté. Elles rappellent que la haute joaillerie peut être lumineuse, contemporaine et profondément engagée.</p><p>Les nouvelles créations portent les noms d'étoiles qui illuminent notre ciel : Vega, Arianne et Sirius.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LrtxCA",
+        "text_4zVCAB"
+      ],
+      "name": "rosa image this text",
+      "settings": {
+        "image": "shopify://shop_images/Capture_d_ecran_2026-06-26_a_16.42.57.png",
+        "is_reverse": false,
+        "is_centred": false,
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "enable_promo_card": false,
+        "enable_filtering": true,
+        "enable_filtering_by_product_type": false,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
     "9b7251da-a436-4ee3-86d9-43e5a2375824": {
       "type": "double",
       "blocks": {
@@ -110,49 +153,6 @@
         "padding_bottom": 0
       }
     },
-    "double_MGDnAi": {
-      "type": "double",
-      "blocks": {
-        "heading_LrtxCA": {
-          "type": "heading",
-          "settings": {
-            "heading1": "NOUVEAUTÉS",
-            "heading2": "DES FEUX D'ARTIFICES"
-          }
-        },
-        "text_4zVCAB": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Les couleurs de <strong>Jardin Cosmique Arcoiris</strong> évoquent la joie, la créativité, l'énergie et la liberté. Elles rappellent que la haute joaillerie peut être lumineuse, contemporaine et profondément engagée.</p><p>Les nouvelles créations portent les noms d'étoiles qui illuminent notre ciel : Vega, Arianne et Sirius.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_LrtxCA",
-        "text_4zVCAB"
-      ],
-      "name": "rosa image this text",
-      "settings": {
-        "image": "shopify://shop_images/Capture_d_ecran_2026-06-26_a_16.42.57.png",
-        "is_reverse": false,
-        "is_centred": false,
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
-    "product-grid": {
-      "type": "main-collection-product-grid",
-      "settings": {
-        "enable_promo_card": false,
-        "enable_filtering": true,
-        "enable_filtering_by_product_type": false,
-        "filter_type": "horizontal",
-        "enable_sorting": true,
-        "columns_mobile": "2",
-        "padding_top": 20,
-        "padding_bottom": 0
-      }
-    },
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f": {
       "type": "rosa-header2",
       "disabled": true,
@@ -199,9 +199,9 @@
     "e9385c9f-0efa-408e-aa02-8ba2528314fc",
     "5a2e39e3-5f06-4d2f-ba2b-a3f3cd30a2e0",
     "b94811bd-a757-4e58-9781-f66118edcb9c",
+    "double_MGDnAi",
     "product-grid",
     "9b7251da-a436-4ee3-86d9-43e5a2375824",
-    "double_MGDnAi",
     "7fc8798c-1c53-4138-993f-dfe3e25cad8f",
     "53502e6e-ef0a-4f96-9cb4-aabd30bff0f1",
     "c35448d9-1175-475c-9d96-16d0b67db72b",
