@@ -375,6 +375,7 @@
     },
     "image_banner_tEzxby": {
       "type": "image-banner",
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "tag": "div",
@@ -461,6 +462,7 @@
     },
     "555ee7ae-ed60-4f7c-bf8c-fe18132779a1": {
       "type": "collection-slider-with-pic",
+      "disabled": true,
       "settings": {
         "is_reverse": false,
         "slider_2_image": "shopify://shop_images/70.png",
@@ -475,6 +477,7 @@
     },
     "collection_slider_HgRbim": {
       "type": "collection-slider",
+      "disabled": true,
       "settings": {
         "tag": "div",
         "title1": "NEW !",
@@ -487,6 +490,7 @@
     },
     "image_banner_w9gH34": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "tag": "div",
         "is_full_screen": true,
@@ -577,7 +581,7 @@
         "dc525a5f-fbe2-4154-a41b-14e3b349ec3b"
       ],
       "settings": {
-        "image": "shopify://shop_images/Rosa_Maitea_joailleire_en_or_recycle_et_diamants_recycles.jpg",
+        "image": "shopify://shop_images/Captured_ecran2026-06-26a16.34.52.png",
         "is_reverse": false,
         "is_centred": false,
         "padding_top": 65,
