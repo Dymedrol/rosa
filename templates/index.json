@@ -291,6 +291,7 @@
     },
     "collection_slider_with_pic_EKy6Hi": {
       "type": "collection-slider-with-pic",
+      "disabled": true,
       "settings": {
         "is_reverse": true,
         "slider_2_image": "shopify://shop_images/ROSA_MAITEA_MODEL12585.jpg",
