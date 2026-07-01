@@ -278,7 +278,7 @@
       "type": "collection-slider-with-pic",
       "name": "slider with side picture",
       "settings": {
-        "is_reverse": true,
+        "is_reverse": false,
         "slider_2_image": "shopify://shop_images/Captured_ecran2026-06-25a17.12.47.png",
         "text1": "NOUVEAUTÉS",
         "text2": "Bagues Vega et Arianne, et la belle boucle d'oreille montante Constellation Sirius.",
