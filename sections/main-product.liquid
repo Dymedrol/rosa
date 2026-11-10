@@ -46,7 +46,7 @@
   {% assign saving = price_variant.compare_at_price | minus: price_variant.price %}
   {% assign saving_percent = saving | times: 100.0 | divided_by: price_variant.compare_at_price | round %}
 
- <span style="margin-left: 12px; font-size: 0.75em; color: #c62828;">
+ <span style="margin-left: 12px; font-size: 0.80em; color: #c62828;">
     −{{ saving_percent }} %
   </span>
 {% endif %}
