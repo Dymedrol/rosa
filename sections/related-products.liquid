@@ -35,7 +35,28 @@
                 <img src="{{ recommendation.featured_image | img_url: '436x406', crop: 'center' }}" alt="" class="rosa-related-slider-item-pic">
                 <div class="rosa-related-slider-item-title">{{ recommendation.title }}</div>
                 <div class="rosa-related-slider-item-text">{{ recommendation.vendor }}</div>
-                <div class="rosa-related-slider-item-price">{{ recommendation.price | money_without_trailing_zeros }}</div>
+                {% assign related_price_variant = recommendation.variants | sort: 'price' | first %}
+
+<div class="rosa-related-slider-item-price">
+  {% if related_price_variant.compare_at_price > related_price_variant.price %}
+    <s style="text-decoration: line-through; margin-right: 8px;">
+      {{ related_price_variant.compare_at_price | money_without_trailing_zeros }}
+    </s>
+  {% endif %}
+
+  <span>
+    {{ related_price_variant.price | money_without_trailing_zeros }}
+  </span>
+
+  {% if related_price_variant.compare_at_price > related_price_variant.price %}
+    {% assign related_saving = related_price_variant.compare_at_price | minus: related_price_variant.price %}
+    {% assign related_saving_percent = related_saving | times: 100.0 | divided_by: related_price_variant.compare_at_price | round %}
+
+    <span style="margin-left: 8px; font-size: 0.75em; color: #c62828;">
+      −{{ related_saving_percent }} %
+    </span>
+  {% endif %}
+</div>
                 <div class="rosa-related-slider-item-hover">
                   <img src="{{ recommendation.images[1] | img_url: '475x542', crop: 'center' }}" alt="" class="rosa-related-slider-item-pic2">
                   <div  class="rosa-related-slider-item-link">DÉCOUVRIR</div>
