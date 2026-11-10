@@ -35,9 +35,7 @@
                 <img src="{{ recommendation.featured_image | img_url: '436x406', crop: 'center' }}" alt="" class="rosa-related-slider-item-pic">
                 <div class="rosa-related-slider-item-title">{{ recommendation.title }}</div>
                 <div class="rosa-related-slider-item-text">{{ recommendation.vendor }}</div>
-                {% assign related_price_variant = recommendation.variants | sort: 'price' | first %}
-
-<div class="rosa-related-slider-item-price">
+                <div class="rosa-related-slider-item-price">
   {% if related_price_variant.compare_at_price > related_price_variant.price %}
     <s style="text-decoration: line-through; margin-right: 8px;">
       {{ related_price_variant.compare_at_price | money_without_trailing_zeros }}
