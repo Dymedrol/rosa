@@ -91,7 +91,16 @@
                         <p class="predictive-search__item-heading h5">{{ product.title }}
                         </p>
                         {%- if settings.predictive_search_show_price -%}
-                          {% render 'price', product: product, use_variant: true, show_badges: false %}
+                          {% render 'price', product: product, use_variant: true, show_badges: false %} {% assign search_price_variant = product.selected_or_first_available_variant %}
+
+{% if search_price_variant.compare_at_price > search_price_variant.price %}
+  {% assign search_saving = search_price_variant.compare_at_price | minus: search_price_variant.price %}
+  {% assign search_saving_percent = search_saving | times: 100.0 | divided_by: search_price_variant.compare_at_price | round %}
+
+  <span style="font-size: 0.75em; color: #c62828;">
+    −{{ search_saving_percent }} %
+  </span>
+{% endif %}
                         {%- endif -%}
                       </div>
                     </a>
