@@ -57,7 +57,30 @@
                               <div class="rosa-cart-item-info">
                                   <div class="rosa-cart-item-info-title">{{ item.product.title | escape }}</div>
                                   <div class="rosa-cart-item-info-description">{{ item.product.vendor }}</div>
-                                  <div class="rosa-cart-item-info-price">{{ item.final_price | money }}</div>
+                                  {% assign cart_compare_price = item.variant.compare_at_price %}
+
+<div class="rosa-cart-item-info-price">
+  {% if cart_compare_price > item.original_price %}
+    <s style="text-decoration: line-through; margin-right: 8px;">
+      {{ cart_compare_price | money }}
+    </s>
+  {% elsif item.original_price > item.final_price %}
+    <s style="text-decoration: line-through; margin-right: 8px;">
+      {{ item.original_price | money }}
+    </s>
+  {% endif %}
+
+  <span>{{ item.final_price | money }}</span>
+
+  {% if cart_compare_price > item.original_price %}
+    {% assign cart_saving = cart_compare_price | minus: item.original_price %}
+    {% assign cart_saving_percent = cart_saving | times: 100.0 | divided_by: cart_compare_price | round %}
+
+    <span style="margin-left: 8px; font-size: 0.75em; color: #c62828;">
+      −{{ cart_saving_percent }} %
+    </span>
+  {% endif %}
+</div>
                               </div>
                           </div>
                       </div>
