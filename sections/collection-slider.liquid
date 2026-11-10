@@ -46,7 +46,28 @@
               <img srcset="{{ product.featured_image | img_url: '436x406', crop: 'center' }} 2x, {{ product.featured_image | img_url: '218x203', crop: 'center' }} 1x" src="{{ product.featured_image | img_url: '436x406', crop: 'center' }}"alt="" class="rosa-collection-slider-item-pic">
               <div class="rosa-collection-slider-item-title">{{ product.title }}</div>
               <div class="rosa-collection-slider-item-text">{{ product.vendor }}</div>
-              <div class="rosa-collection-slider-item-price">{{ product.price | money_without_trailing_zeros }}</div>
+              {% assign slider_price_variant = product.variants | sort: 'price' | first %}
+
+<div class="rosa-collection-slider-item-price">
+  {% if slider_price_variant.compare_at_price > slider_price_variant.price %}
+    <s style="text-decoration: line-through; margin-right: 8px;">
+      {{ slider_price_variant.compare_at_price | money_without_trailing_zeros }}
+    </s>
+  {% endif %}
+
+  <span>
+    {{ slider_price_variant.price | money_without_trailing_zeros }}
+  </span>
+
+  {% if slider_price_variant.compare_at_price > slider_price_variant.price %}
+    {% assign slider_saving = slider_price_variant.compare_at_price | minus: slider_price_variant.price %}
+    {% assign slider_saving_percent = slider_saving | times: 100.0 | divided_by: slider_price_variant.compare_at_price | round %}
+
+    <span style="margin-left: 8px; font-size: 0.75em; color: #c62828;">
+      −{{ slider_saving_percent }} %
+    </span>
+  {% endif %}
+</div>
               <div class="rosa-collection-slider-item-hover">
                 <img srcset="{{ product.images[1] | img_url: '475x542', crop: 'center' }} 1x, {{ product.images[1] | img_url: '950x1084', crop: 'center' }} 2x" src="{{ product.images[1] | img_url: '475x542', crop: 'center' }}" alt="" class="rosa-collection-slider-item-pic2">
                 <div class="rosa-collection-slider-item-link">{{ section.settings.link-text }}</div>
