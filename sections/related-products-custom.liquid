@@ -42,7 +42,28 @@
               <img src="{{ recommendation.featured_image | img_url: '436x406', crop: 'center' }}" alt="" class="rosa-related-slider-custom-item-pic">
               <div class="rosa-related-slider-custom-item-title">{{ recommendation.title }}</div>
               <div class="rosa-related-slider-custom-item-text">{{ recommendation.vendor }}</div>
-              <div class="rosa-related-slider-custom-item-price">{{ recommendation.price | money_without_trailing_zeros }}</div>
+              {% assign custom_price_variant = recommendation.variants | sort: 'price' | first %}
+
+<div class="rosa-related-slider-custom-item-price">
+  {% if custom_price_variant.compare_at_price > custom_price_variant.price %}
+    <s style="text-decoration: line-through; margin-right: 8px;">
+      {{ custom_price_variant.compare_at_price | money_without_trailing_zeros }}
+    </s>
+  {% endif %}
+
+  <span>
+    {{ custom_price_variant.price | money_without_trailing_zeros }}
+  </span>
+
+  {% if custom_price_variant.compare_at_price > custom_price_variant.price %}
+    {% assign custom_saving = custom_price_variant.compare_at_price | minus: custom_price_variant.price %}
+    {% assign custom_saving_percent = custom_saving | times: 100.0 | divided_by: custom_price_variant.compare_at_price | round %}
+
+    <span style="margin-left: 8px; font-size: 0.75em; color: #c62828;">
+      −{{ custom_saving_percent }} %
+    </span>
+  {% endif %}
+</div>
               <div class="rosa-related-slider-custom-item-hover">
                 <img src="{{ recommendation.images[1] | img_url: '475x542', crop: 'center' }}" alt="" class="rosa-related-slider-custom-item-pic2">
                 <div  class="rosa-related-slider-custom-item-link">DÉCOUVRIR</div>
