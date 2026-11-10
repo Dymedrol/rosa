@@ -30,7 +30,19 @@
             <div class="rosa-pdp-info">
                 <h1 class="rosa-pdp-info-title">{{ product.title }}</h1>
                 <div class="rosa-pdp-info-text">{{ product.vendor }}</div>
-                <div class="rosa-pdp-info-price">{{ product.price | money_without_trailing_zeros }}</div>
+                {% assign price_variant = product.selected_or_first_available_variant %}
+
+<div class="rosa-pdp-info-price">
+  {% if price_variant.compare_at_price > price_variant.price %}
+    <s style="text-decoration: line-through; margin-right: 12px;">
+      {{ price_variant.compare_at_price | money_without_trailing_zeros }}
+    </s>
+  {% endif %}
+
+  <span>
+    {{ price_variant.price | money_without_trailing_zeros }}
+  </span>
+</div>
 
                 <form action="/cart/add" method="post" enctype="multipart/form-data">
                   <div class="rosa-pdp-info-controls">
