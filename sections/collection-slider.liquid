@@ -46,7 +46,7 @@
               <img srcset="{{ product.featured_image | img_url: '436x406', crop: 'center' }} 2x, {{ product.featured_image | img_url: '218x203', crop: 'center' }} 1x" src="{{ product.featured_image | img_url: '436x406', crop: 'center' }}"alt="" class="rosa-collection-slider-item-pic">
               <div class="rosa-collection-slider-item-title">{{ product.title }}</div>
               <div class="rosa-collection-slider-item-text">{{ product.vendor }}</div>
-              {% assign slider_price_variant = product.variants | sort: 'price' | first %}
+             {% assign slider_price_variant = product.variants | sort: 'price' | first %}
 
 <div class="rosa-collection-slider-item-price">
   {% if slider_price_variant.compare_at_price > slider_price_variant.price %}
