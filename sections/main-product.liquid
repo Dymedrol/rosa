@@ -41,7 +41,15 @@
 
   <span>
     {{ price_variant.price | money_without_trailing_zeros }}
+  </span> 
+  {% if price_variant.compare_at_price > price_variant.price %}
+  {% assign saving = price_variant.compare_at_price | minus: price_variant.price %}
+  {% assign saving_percent = saving | times: 100.0 | divided_by: price_variant.compare_at_price | round %}
+
+  <span style="margin-left: 12px;">
+    −{{ saving_percent }} %
   </span>
+{% endif %}
 </div>
 
                 <form action="/cart/add" method="post" enctype="multipart/form-data">
