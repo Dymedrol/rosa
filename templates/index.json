@@ -24,11 +24,11 @@
           "settings": {
             "alignment": "center",
             "text_color": "#ffffff",
-            "image_banner_title_text": "title",
+            "image_banner_title_text": "",
             "is_title_big": false,
-            "image_banner_subtitle_text": "text",
+            "image_banner_subtitle_text": "",
             "is_text_big": false,
-            "image_banner_link_text": "link",
+            "image_banner_link_text": "",
             "image_banner_link_url": "/",
             "banner_image": "shopify://shop_images/Sans_titre_1300_x_1600_px_1866_x_992_px_-2.jpg",
             "banner_image_mobile": "shopify://shop_images/Sans_titre_1300_x_1600_px_Flyer_A4_-10.jpg"
