@@ -60,7 +60,8 @@
             "is_text_big": false,
             "image_banner_link_text": "DECOUVRIR LA COLLECTION CORAZON",
             "image_banner_link_url": "shopify://collections/collection-corazon",
-            "banner_image": "shopify://shop_images/RM_COLLAGE_Presentation_-4_865ccc86-d8bd-49ac-8318-9ef1051af8d4.jpg"
+            "banner_image": "shopify://shop_images/RM_COLLAGE_Presentation_-4_865ccc86-d8bd-49ac-8318-9ef1051af8d4.jpg",
+            "banner_image_mobile": "shopify://shop_images/Sans_titre_1300_x_1600_px_Flyer_A4_-14.jpg"
           }
         },
         "slide_afciit": {
