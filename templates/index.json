@@ -215,19 +215,6 @@
             "image_banner_link_url": "/",
             "banner_image": "shopify://shop_images/ROSA_MAITEA37024.jpg"
           }
-        },
-        "slide_CPM6EW": {
-          "type": "slide",
-          "settings": {
-            "alignment": "center",
-            "text_color": "#ffffff",
-            "image_banner_title_text": "title",
-            "is_title_big": false,
-            "image_banner_subtitle_text": "text",
-            "is_text_big": false,
-            "image_banner_link_text": "link",
-            "image_banner_link_url": "/"
-          }
         }
       },
       "block_order": [
@@ -243,8 +230,7 @@
         "slide_7KQNcH",
         "c0c37a82-60e7-4577-a3db-8510872ddcb6",
         "slide_3zp7WN",
-        "slide_zjj3YB",
-        "slide_CPM6EW"
+        "slide_zjj3YB"
       ],
       "custom_css": [
         ".rosa-jumbotron-slider-title {margin-bottom: 25px !important;}",
