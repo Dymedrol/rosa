@@ -35,19 +35,19 @@
             "banner_image_mobile": "shopify://shop_images/Sans_titre_1300_x_1600_px_Flyer_A4_-10.jpg"
           }
         },
-        "slide_afciit": {
+        "slide_E4WEdz": {
           "type": "slide",
           "settings": {
             "alignment": "left",
-            "text_color": "#080808",
-            "image_banner_title_text": "NOUVEAUTÉ : LES FEUX D'ARTIFICES DES JARDIN COSMIQUE",
+            "text_color": "#121212",
+            "image_banner_title_text": "BIJOUX ETHIQUES",
             "is_title_big": false,
-            "image_banner_subtitle_text": "Les couleurs de&nbsp;<strong>Jardin Cosmique Arcoiris</strong>&nbsp;évoquent la joie, la créativité, l'énergie et la liberté.&nbsp;",
+            "image_banner_subtitle_text": "Des bonnes étoiles en <strong>diamants</strong> et en pierres de couleur - <strong>spinelles et grenats</strong>. Des constellations, jardins cosmiques, et <strong>tourbillons</strong>...",
             "is_text_big": false,
-            "image_banner_link_text": "COLLECTION JARDIN COSMIQUE",
-            "image_banner_link_url": "shopify://collections/jardin-cosmique",
-            "banner_image": "shopify://shop_images/556eb6f8-7a4d-40be-bd84-3cea10f927ef_2.jpg",
-            "banner_image_mobile": "shopify://shop_images/Captured_ecran2026-06-26a16.35.52.png"
+            "image_banner_link_text": "DECOUVRIR NOS BAGUES",
+            "image_banner_link_url": "shopify://collections/bagues",
+            "banner_image": "shopify://shop_images/Lookbook_2024_RM_Prix_Retail_CORTE_INGLES.jpg",
+            "banner_image_mobile": "shopify://shop_images/Lookbook_2024_RM_Prix_Retail_CORTE_INGLES.jpg"
           }
         },
         "slide_EghGXc": {
@@ -64,6 +64,21 @@
             "banner_image": "shopify://shop_images/RM_COLLAGE_Presentation_-4_865ccc86-d8bd-49ac-8318-9ef1051af8d4.jpg"
           }
         },
+        "slide_afciit": {
+          "type": "slide",
+          "settings": {
+            "alignment": "left",
+            "text_color": "#080808",
+            "image_banner_title_text": "NOUVEAUTÉ : LES FEUX D'ARTIFICES DES JARDIN COSMIQUE",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "Les couleurs de&nbsp;<strong>Jardin Cosmique Arcoiris</strong>&nbsp;évoquent la joie, la créativité, l'énergie et la liberté.&nbsp;",
+            "is_text_big": false,
+            "image_banner_link_text": "COLLECTION JARDIN COSMIQUE",
+            "image_banner_link_url": "shopify://collections/jardin-cosmique",
+            "banner_image": "shopify://shop_images/556eb6f8-7a4d-40be-bd84-3cea10f927ef_2.jpg",
+            "banner_image_mobile": "shopify://shop_images/Captured_ecran2026-06-26a16.35.52.png"
+          }
+        },
         "slide_KYKBeC": {
           "type": "slide",
           "settings": {
@@ -77,21 +92,6 @@
             "image_banner_link_url": "shopify://pages/creation-sur-mesure",
             "banner_image": "shopify://shop_images/Webp.net-resizeimage-110_7c659c1d-bc1d-4564-8681-ffb1e37cf32b.jpg",
             "banner_image_mobile": "shopify://shop_images/Webp.net-resizeimage-110_7c659c1d-bc1d-4564-8681-ffb1e37cf32b.jpg"
-          }
-        },
-        "slide_E4WEdz": {
-          "type": "slide",
-          "settings": {
-            "alignment": "left",
-            "text_color": "#121212",
-            "image_banner_title_text": "BIJOUX ETHIQUES",
-            "is_title_big": false,
-            "image_banner_subtitle_text": "Des bonnes étoiles en <strong>diamants</strong> et en pierres de couleur - <strong>spinelles et grenats</strong>. Des constellations, jardins cosmiques, et <strong>tourbillons</strong>...",
-            "is_text_big": false,
-            "image_banner_link_text": "DECOUVRIR NOS BAGUES",
-            "image_banner_link_url": "shopify://collections/bagues",
-            "banner_image": "shopify://shop_images/Lookbook_2024_RM_Prix_Retail_CORTE_INGLES.jpg",
-            "banner_image_mobile": "shopify://shop_images/Lookbook_2024_RM_Prix_Retail_CORTE_INGLES.jpg"
           }
         },
         "076619a4-bfea-4b99-ab17-c234ce71d53f": {
@@ -232,10 +232,10 @@
       },
       "block_order": [
         "slide_rUaR98",
-        "slide_afciit",
-        "slide_EghGXc",
-        "slide_KYKBeC",
         "slide_E4WEdz",
+        "slide_EghGXc",
+        "slide_afciit",
+        "slide_KYKBeC",
         "076619a4-bfea-4b99-ab17-c234ce71d53f",
         "slide_rd76XP",
         "slide_djR6e8",
