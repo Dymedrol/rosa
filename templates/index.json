@@ -19,6 +19,21 @@
     "552ce905-cb0f-4745-bc21-4022a0b6a86c": {
       "type": "rosa-jumbo-slider",
       "blocks": {
+        "slide_rUaR98": {
+          "type": "slide",
+          "settings": {
+            "alignment": "center",
+            "text_color": "#ffffff",
+            "image_banner_title_text": "title",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "text",
+            "is_text_big": false,
+            "image_banner_link_text": "link",
+            "image_banner_link_url": "/",
+            "banner_image": "shopify://shop_images/Sans_titre_1300_x_1600_px_1866_x_992_px.jpg",
+            "banner_image_mobile": "shopify://shop_images/Sans_titre_1300_x_1600_px_Flyer_A4_-10.jpg"
+          }
+        },
         "slide_afciit": {
           "type": "slide",
           "settings": {
@@ -26,7 +41,7 @@
             "text_color": "#080808",
             "image_banner_title_text": "NOUVEAUTÉ : LES FEUX D'ARTIFICES DES JARDIN COSMIQUE",
             "is_title_big": false,
-            "image_banner_subtitle_text": "Les couleurs de <strong>Jardin Cosmique Arcoiris</strong> évoquent la joie, la créativité, l'énergie et la liberté. ",
+            "image_banner_subtitle_text": "Les couleurs de&nbsp;<strong>Jardin Cosmique Arcoiris</strong>&nbsp;évoquent la joie, la créativité, l'énergie et la liberté.&nbsp;",
             "is_text_big": false,
             "image_banner_link_text": "COLLECTION JARDIN COSMIQUE",
             "image_banner_link_url": "shopify://collections/jardin-cosmique",
@@ -41,7 +56,7 @@
             "text_color": "#121212",
             "image_banner_title_text": "NOUVELLE COLLECTION \"CORAZON\"",
             "is_title_big": false,
-            "image_banner_subtitle_text": "Symbole du mantra de la Maison <em>Spread Love Toujours</em>, ce bijou artisanal incarne un geste d’amour sincère, un talisman à porter près du cœur.",
+            "image_banner_subtitle_text": "Symbole du mantra de la Maison&nbsp;<em>Spread Love Toujours</em>, ce bijou artisanal incarne un geste d’amour sincère, un talisman à porter près du cœur.",
             "is_text_big": false,
             "image_banner_link_text": "DECOUVRIR LA COLLECTION CORAZON",
             "image_banner_link_url": "shopify://collections/collection-corazon",
@@ -199,9 +214,23 @@
             "image_banner_link_url": "/",
             "banner_image": "shopify://shop_images/ROSA_MAITEA37024.jpg"
           }
+        },
+        "slide_CPM6EW": {
+          "type": "slide",
+          "settings": {
+            "alignment": "center",
+            "text_color": "#ffffff",
+            "image_banner_title_text": "title",
+            "is_title_big": false,
+            "image_banner_subtitle_text": "text",
+            "is_text_big": false,
+            "image_banner_link_text": "link",
+            "image_banner_link_url": "/"
+          }
         }
       },
       "block_order": [
+        "slide_rUaR98",
         "slide_afciit",
         "slide_EghGXc",
         "slide_KYKBeC",
@@ -213,7 +242,8 @@
         "slide_7KQNcH",
         "c0c37a82-60e7-4577-a3db-8510872ddcb6",
         "slide_3zp7WN",
-        "slide_zjj3YB"
+        "slide_zjj3YB",
+        "slide_CPM6EW"
       ],
       "custom_css": [
         ".rosa-jumbotron-slider-title {margin-bottom: 25px !important;}",
@@ -311,7 +341,7 @@
         "slider_2_image": "shopify://shop_images/Bagues_arcoiris_ethiques_eco_responsables.jpg",
         "text1": "NOS BIJOUX COLORÉES ET UNIQUES",
         "text2": "LA BONNE ETOILE ARCOIRIS",
-        "text3": "<p>La collection des bijoux la Bonne Étoile Arcoiris est composée d'une parure audacieuse réalisée en or jaune 18 ct recyclé et serti de pierres 100% traçables : spinelles et grenats de Tanzanie aux magnifiques couleurs vives. Placée sous le triple signe de la joie, de la beauté et de la protection de notre environnement, la collection Arcoiris renouvelle avec bonheur le design de la joaillerie éthique.</p>",
+        "text3": "<p>La collection des bijoux la Bonne Étoile Arcoiris est composée d'une parure audacieuse réalisée en or jaune 18 ct recyclé et serti de pierres 100% traçables : spinelles et grenats de Tanzanie aux magnifiques couleurs vives.&nbsp;Placée sous le triple signe de la joie, de la beauté et de la protection de notre environnement, la collection Arcoiris renouvelle avec bonheur le design de la joaillerie éthique.</p>",
         "collection": "arcoiris",
         "link-text": "DÉCOUVRIR LA COLLECTION",
         "padding_top": 45,
