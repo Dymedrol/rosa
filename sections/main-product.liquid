@@ -51,7 +51,6 @@
   </span>
 {% endif %}
 </div>
-
                 <form action="/cart/add" method="post" enctype="multipart/form-data">
                   <div class="rosa-pdp-info-controls">
                       {%- for option in product.options_with_values -%}
@@ -83,7 +82,16 @@
 
                   <select name="id" type="hidden" class="hidden js-main-select">
                     {% for variant in product.variants %}
-                        <option value="{{variant.id}}" data-available="{{ variant.inventory_quantity }}"> {{ variant.title }}</option>
+                        <option
+  value="{{ variant.id }}"
+  data-available="{{ variant.inventory_quantity }}"
+  data-price="{{ variant.price | money_without_trailing_zeros | escape }}"
+  data-compare="{{ variant.compare_at_price | money_without_trailing_zeros | escape }}"
+  data-sale="{% if variant.compare_at_price > variant.price %}true{% else %}false{% endif %}"
+  data-discount="{% if variant.compare_at_price > variant.price %}{{ variant.compare_at_price | minus: variant.price | times: 100.0 | divided_by: variant.compare_at_price | round }}{% endif %}"
+>
+  {{ variant.title }}
+</option>
                     {% endfor %}
                   </select>
 
@@ -122,7 +130,69 @@
 <script>
   const favSuccessText = '{{ section.settings.cart_fav__text_success }}';
 </script>
+<script>
+(function () {
+  function initVariantPrices() {
+    document.querySelectorAll('.rosa-pdp').forEach(function (pdp) {
+      if (pdp.dataset.variantPriceReady) return;
 
+      const select = pdp.querySelector('.js-main-select');
+      const priceBox = pdp.querySelector('.rosa-pdp-info-price');
+
+      if (!select || !priceBox) return;
+      pdp.dataset.variantPriceReady = 'true';
+
+      function updatePrice() {
+        const option = select.options[select.selectedIndex];
+        if (!option || !option.dataset.price) return;
+
+        priceBox.replaceChildren();
+
+        if (option.dataset.sale === 'true') {
+          const oldPrice = document.createElement('s');
+          oldPrice.style.marginRight = '12px';
+          oldPrice.textContent = option.dataset.compare;
+          priceBox.appendChild(oldPrice);
+        }
+
+        const price = document.createElement('span');
+        price.textContent = option.dataset.price;
+        priceBox.appendChild(price);
+
+        if (option.dataset.sale === 'true') {
+          const discount = document.createElement('span');
+          discount.style.marginLeft = '12px';
+          discount.style.fontSize = '0.80em';
+          discount.style.color = '#c62828';
+          discount.textContent = '−' + option.dataset.discount + ' %';
+          priceBox.appendChild(discount);
+        }
+      }
+
+      function scheduleUpdate() {
+        window.setTimeout(updatePrice, 0);
+      }
+
+      pdp.addEventListener('change', scheduleUpdate);
+      pdp.addEventListener('click', function (event) {
+        if (event.target.closest('.rosa-pdp-info-controls-item-menu-el')) {
+          scheduleUpdate();
+        }
+      });
+
+      updatePrice();
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initVariantPrices);
+  } else {
+    initVariantPrices();
+  }
+
+  document.addEventListener('shopify:section:load', initVariantPrices);
+})();
+</script>
 {% schema %}
 {
   "name": "t:sections.main-product.name",
