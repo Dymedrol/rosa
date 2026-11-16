@@ -1,7 +1,29 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "collection_slider_bJGDQW": {
+      "type": "collection-slider",
+      "name": "collection slider",
+      "settings": {
+        "tag": "div",
+        "title1": "VENTE PRIVÉE",
+        "title2": "LA SEULE VENTE PRIVÉE DE L'ANNÉE",
+        "collection": "des-bijoux-a-porter-tous-les-jours",
+        "link-text": "DÉCOUVRIR",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "d81a8113-477c-4685-8db0-4a45a3357812": {
       "type": "rosa-subscrive",
       "custom_css": [
@@ -10,20 +32,21 @@
       "settings": {
         "text1": "UNE BOMBE D’AMOUR PAR SEMAINE !",
         "text2": "Connectez vous à la marque par amour, promis #ZeroSpams, que du #bonheur",
-        "text3": "<p>Vous acceptez notre <a href=\"\/pages\/politique-de-confidentialite\">politique de confidentialité<\/a><\/p>"
+        "text3": "<p>Vous acceptez notre <a href=\"/pages/politique-de-confidentialite\">politique de confidentialité</a></p>"
       }
     },
     "footer": {
       "type": "footer",
       "settings": {
         "contacts_text": "NOUS CONTACTER",
-        "contacts_url": "shopify:\/\/pages\/nous-contacter",
+        "contacts_url": "shopify://pages/nous-contacter",
         "rdv_text": "PRENDRE RENDEZ-VOUS",
-        "rdv_url": "shopify:\/\/pages\/prendre-rendez-vous"
+        "rdv_url": "shopify://pages/prendre-rendez-vous"
       }
     }
   },
   "order": [
+    "collection_slider_bJGDQW",
     "d81a8113-477c-4685-8db0-4a45a3357812",
     "footer"
   ]

@@ -261,6 +261,19 @@
         "banner_image": "shopify://shop_images/ROSA_MAITEA36876-2.jpg"
       }
     },
+    "collection_slider_qNA7BU": {
+      "type": "collection-slider",
+      "name": "collection slider",
+      "settings": {
+        "tag": "div",
+        "title1": "JOAILLERIE ÉTHIQUE",
+        "title2": "LES BIJOUX ROSA MAÏTEA",
+        "collection": "les-cadeaux-de-noel",
+        "link-text": "DÉCOUVRIR",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9": {
       "type": "collection-slider",
       "custom_css": [
@@ -278,13 +291,14 @@
     },
     "collection_slider_with_pic_bfgcUc": {
       "type": "collection-slider-with-pic",
+      "disabled": true,
       "name": "slider with side picture",
       "settings": {
         "is_reverse": true,
         "slider_2_image": "shopify://shop_images/Capture_d_ecran_2026-06-26_a_16.42.57.png",
         "text1": "NOUVEAUTÉS",
         "text2": "JARDIN COSMIQUE ARCOIRIS",
-        "text3": "<p>Les nouvelles créations portent les noms d’étoiles qui illuminent notre ciel.</p><p>Les bagues <strong>Jardin Cosmique Vega, Jardin Cosmique Arianne</strong> et la boucle d’oreille <strong>Constellation Sirius</strong> rendent hommage aux constellations qui fascinent l’humanité depuis toujours. Comme les étoiles, ces bijoux traversent le temps et transmettent un message universel : la beauté peut aussi être responsable. </p><p>Leurs compositions florales et cosmiques mêlent harmonieusement des <strong>spinelles et des grenats 100 % traçables,</strong> soigneusement sélectionnés pour leurs couleurs vibrantes : roses, verts, bleus, oranges ou rouges composent un véritable arc-en-ciel minéral.</p><p>Chaque bague devient une constellation de lumière, unique comme celle ou celui qui la porte.</p>",
+        "text3": "<p>Les nouvelles créations portent les noms d’étoiles qui illuminent notre ciel.</p><p>Les bagues <strong>Jardin Cosmique Vega, Jardin Cosmique Arianne</strong> et la boucle d’oreille <strong>Constellation Sirius</strong> rendent hommage aux constellations qui fascinent l’humanité depuis toujours. Comme les étoiles, ces bijoux traversent le temps et transmettent un message universel : la beauté peut aussi être responsable.&nbsp;</p><p>Leurs compositions florales et cosmiques mêlent harmonieusement des <strong>spinelles et des grenats 100 % traçables,</strong> soigneusement sélectionnés pour leurs couleurs vibrantes : roses, verts, bleus, oranges ou rouges composent un véritable arc-en-ciel minéral.</p><p>Chaque bague devient une constellation de lumière, unique comme celle ou celui qui la porte.</p>",
         "collection": "jardin-cosmique",
         "link-text": "DÉCOUVRIR LES NOUVEAUTÉS",
         "padding_top": 45,
@@ -293,6 +307,7 @@
     },
     "collection_slider_with_pic_LmjaAT": {
       "type": "collection-slider-with-pic",
+      "disabled": true,
       "name": "slider with side picture",
       "settings": {
         "is_reverse": false,
@@ -314,36 +329,9 @@
         "slider_2_image": "shopify://shop_images/ROSA_MAITEA_MODEL12585.jpg",
         "text1": "JOAILLERIE éthique",
         "text2": "BAGUE MARIAGE TOI & MOI",
-        "text3": "<p>La bague éthique <strong>Toi et Moi </strong>célèbre l’amour sous une constellation précieuse. Deux étoiles scintillantes en diamants recyclés veillent l’une sur l’autre, <strong>symbolisant la protection et l’union éternelle de deux âmes</strong>. </p><p>Enveloppée d’un délicat mouvement torsadé en or recyclé 18 carats, cette création lumineuse incarne un amour guidé par la lumière des astres. </p><p>Deux talismans qui représentent<strong> l'amour engagé</strong>. </p><p>Nous l'avons en<strong> 2 tailles. </strong></p>",
+        "text3": "<p>La bague éthique <strong>Toi et Moi </strong>célèbre l’amour sous une constellation précieuse. Deux étoiles scintillantes en diamants recyclés veillent l’une sur l’autre, <strong>symbolisant la protection et l’union éternelle de deux âmes</strong>.&nbsp;</p><p>Enveloppée d’un délicat mouvement torsadé en or recyclé 18 carats, cette création lumineuse incarne un amour guidé par la lumière des astres.&nbsp;</p><p>Deux talismans qui représentent<strong> l'amour engagé</strong>.&nbsp;</p><p>Nous l'avons en<strong> 2 tailles.&nbsp;</strong></p>",
         "collection": "les-toi-moi-bonne-etoile-diamants",
         "link-text": "DÉCOUVRIR LA COLLECTION",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
-    "collection_slider_with_pic_4xQc6U": {
-      "type": "collection-slider-with-pic",
-      "settings": {
-        "is_reverse": false,
-        "slider_2_image": "shopify://shop_images/Bagues_arcoiris_ethiques_eco_responsables.jpg",
-        "text1": "NOS BIJOUX COLORÉES ET UNIQUES",
-        "text2": "LA BONNE ETOILE ARCOIRIS",
-        "text3": "<p>La collection des bijoux la Bonne Étoile Arcoiris est composée d'une parure audacieuse réalisée en or jaune 18 ct recyclé et serti de pierres 100% traçables : spinelles et grenats de Tanzanie aux magnifiques couleurs vives.&nbsp;Placée sous le triple signe de la joie, de la beauté et de la protection de notre environnement, la collection Arcoiris renouvelle avec bonheur le design de la joaillerie éthique.</p>",
-        "collection": "arcoiris",
-        "link-text": "DÉCOUVRIR LA COLLECTION",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
-    "collection_slider_qNA7BU": {
-      "type": "collection-slider",
-      "name": "collection slider",
-      "settings": {
-        "tag": "div",
-        "title1": "JOAILLERIE ÉTHIQUE",
-        "title2": "LES BIJOUX ROSA MAÏTEA",
-        "collection": "les-cadeaux-de-noel",
-        "link-text": "DÉCOUVRIR",
         "padding_top": 45,
         "padding_bottom": 45
       }
@@ -389,6 +377,20 @@
         "link-text": "DÉCOUVRIR",
         "padding_top": 0,
         "padding_bottom": 120
+      }
+    },
+    "collection_slider_with_pic_4xQc6U": {
+      "type": "collection-slider-with-pic",
+      "settings": {
+        "is_reverse": false,
+        "slider_2_image": "shopify://shop_images/Bagues_arcoiris_ethiques_eco_responsables.jpg",
+        "text1": "NOS BIJOUX COLORÉES ET UNIQUES",
+        "text2": "LA BONNE ETOILE ARCOIRIS",
+        "text3": "<p>La collection des bijoux la Bonne Étoile Arcoiris est composée d'une parure audacieuse réalisée en or jaune 18 ct recyclé et serti de pierres 100% traçables : spinelles et grenats de Tanzanie aux magnifiques couleurs vives.&nbsp;Placée sous le triple signe de la joie, de la beauté et de la protection de notre environnement, la collection Arcoiris renouvelle avec bonheur le design de la joaillerie éthique.</p>",
+        "collection": "arcoiris",
+        "link-text": "DÉCOUVRIR LA COLLECTION",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "image_banner_tEzxby": {
@@ -791,13 +793,13 @@
     "7a3bc92f-6423-460d-a7b4-238e81713e03",
     "552ce905-cb0f-4745-bc21-4022a0b6a86c",
     "image_banner",
+    "collection_slider_qNA7BU",
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9",
     "collection_slider_with_pic_bfgcUc",
     "collection_slider_with_pic_LmjaAT",
     "collection_slider_with_pic_EKy6Hi",
-    "collection_slider_with_pic_4xQc6U",
-    "collection_slider_qNA7BU",
     "2c663638-02bd-4aa4-a99b-760dc268b2d9",
+    "collection_slider_with_pic_4xQc6U",
     "image_banner_tEzxby",
     "image_banner_qQM3jR",
     "f997dd8a-2291-4fc6-bedc-9faa72cbe9bc",
