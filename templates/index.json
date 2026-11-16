@@ -351,7 +351,7 @@
       "name": "collection slider",
       "settings": {
         "tag": "div",
-        "title1": "title 1",
+        "title1": "",
         "title2": "NOS BAGUES ÉTIQUES",
         "collection": "bagues",
         "link-text": "DÉCOUVRIR",
