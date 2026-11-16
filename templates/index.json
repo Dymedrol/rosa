@@ -294,8 +294,8 @@
       "name": "collection slider",
       "settings": {
         "tag": "div",
-        "title1": "CORAZON",
-        "title2": "CORAZON",
+        "title1": "",
+        "title2": "COLLECTION CORAZON",
         "collection": "collection-corazon",
         "link-text": "DÉCOUVRIR",
         "padding_top": 45,
