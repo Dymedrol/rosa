@@ -302,6 +302,19 @@
         "padding_bottom": 45
       }
     },
+    "collection_slider_eriU9m": {
+      "type": "collection-slider",
+      "name": "collection slider",
+      "settings": {
+        "tag": "div",
+        "title1": "",
+        "title2": "TOUTES NOS BOUCLES D'OREILLE",
+        "collection": "boucles-doreilles",
+        "link-text": "DÉCOUVRIR",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
     "collection_slider_with_pic_LmjaAT": {
       "type": "collection-slider-with-pic",
       "disabled": true,
@@ -333,14 +346,14 @@
         "padding_bottom": 45
       }
     },
-    "collection_slider_eriU9m": {
+    "collection_slider_kDbFH8": {
       "type": "collection-slider",
       "name": "collection slider",
       "settings": {
         "tag": "div",
-        "title1": "",
-        "title2": "TOUTES NOS BOUCLES D'OREILLE",
-        "collection": "boucles-doreilles",
+        "title1": "title 1",
+        "title2": "NOS BAGUES ÉTIQUES",
+        "collection": "bagues",
         "link-text": "DÉCOUVRIR",
         "padding_top": 45,
         "padding_bottom": 45
@@ -739,9 +752,10 @@
     "collection_slider_qNA7BU",
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9",
     "collection_slider_DNemkn",
+    "collection_slider_eriU9m",
     "collection_slider_with_pic_LmjaAT",
     "collection_slider_with_pic_EKy6Hi",
-    "collection_slider_eriU9m",
+    "collection_slider_kDbFH8",
     "2c663638-02bd-4aa4-a99b-760dc268b2d9",
     "collection_slider_with_pic_4xQc6U",
     "image_banner_tEzxby",
