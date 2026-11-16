@@ -261,19 +261,6 @@
         "banner_image": "shopify://shop_images/ROSA_MAITEA36876-2.jpg"
       }
     },
-    "collection_slider_qNA7BU": {
-      "type": "collection-slider",
-      "name": "collection slider",
-      "settings": {
-        "tag": "div",
-        "title1": "JOAILLERIE ÉTHIQUE",
-        "title2": "LES BIJOUX ROSA MAÏTEA",
-        "collection": "les-cadeaux-de-noel",
-        "link-text": "DÉCOUVRIR",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9": {
       "type": "collection-slider",
       "custom_css": [
@@ -287,6 +274,19 @@
         "link-text": "DÉCOUVRIR",
         "padding_top": 85,
         "padding_bottom": 85
+      }
+    },
+    "collection_slider_qNA7BU": {
+      "type": "collection-slider",
+      "name": "collection slider",
+      "settings": {
+        "tag": "div",
+        "title1": "JOAILLERIE ÉTHIQUE",
+        "title2": "LES BIJOUX ROSA MAÏTEA",
+        "collection": "les-cadeaux-de-noel",
+        "link-text": "DÉCOUVRIR",
+        "padding_top": 45,
+        "padding_bottom": 45
       }
     },
     "collection_slider_DNemkn": {
@@ -751,8 +751,8 @@
     "7a3bc92f-6423-460d-a7b4-238e81713e03",
     "552ce905-cb0f-4745-bc21-4022a0b6a86c",
     "image_banner",
-    "collection_slider_qNA7BU",
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9",
+    "collection_slider_qNA7BU",
     "collection_slider_DNemkn",
     "collection_slider_eriU9m",
     "collection_slider_kDbFH8",
