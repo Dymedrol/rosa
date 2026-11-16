@@ -289,22 +289,6 @@
         "padding_bottom": 85
       }
     },
-    "collection_slider_with_pic_bfgcUc": {
-      "type": "collection-slider-with-pic",
-      "disabled": true,
-      "name": "slider with side picture",
-      "settings": {
-        "is_reverse": true,
-        "slider_2_image": "shopify://shop_images/Capture_d_ecran_2026-06-26_a_16.42.57.png",
-        "text1": "NOUVEAUTÉS",
-        "text2": "JARDIN COSMIQUE ARCOIRIS",
-        "text3": "<p>Les nouvelles créations portent les noms d’étoiles qui illuminent notre ciel.</p><p>Les bagues <strong>Jardin Cosmique Vega, Jardin Cosmique Arianne</strong> et la boucle d’oreille <strong>Constellation Sirius</strong> rendent hommage aux constellations qui fascinent l’humanité depuis toujours. Comme les étoiles, ces bijoux traversent le temps et transmettent un message universel : la beauté peut aussi être responsable.&nbsp;</p><p>Leurs compositions florales et cosmiques mêlent harmonieusement des <strong>spinelles et des grenats 100 % traçables,</strong> soigneusement sélectionnés pour leurs couleurs vibrantes : roses, verts, bleus, oranges ou rouges composent un véritable arc-en-ciel minéral.</p><p>Chaque bague devient une constellation de lumière, unique comme celle ou celui qui la porte.</p>",
-        "collection": "jardin-cosmique",
-        "link-text": "DÉCOUVRIR LES NOUVEAUTÉS",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
     "collection_slider_with_pic_LmjaAT": {
       "type": "collection-slider-with-pic",
       "disabled": true,
@@ -332,6 +316,19 @@
         "text3": "<p>La bague éthique <strong>Toi et Moi </strong>célèbre l’amour sous une constellation précieuse. Deux étoiles scintillantes en diamants recyclés veillent l’une sur l’autre, <strong>symbolisant la protection et l’union éternelle de deux âmes</strong>.&nbsp;</p><p>Enveloppée d’un délicat mouvement torsadé en or recyclé 18 carats, cette création lumineuse incarne un amour guidé par la lumière des astres.&nbsp;</p><p>Deux talismans qui représentent<strong> l'amour engagé</strong>.&nbsp;</p><p>Nous l'avons en<strong> 2 tailles.&nbsp;</strong></p>",
         "collection": "les-toi-moi-bonne-etoile-diamants",
         "link-text": "DÉCOUVRIR LA COLLECTION",
+        "padding_top": 45,
+        "padding_bottom": 45
+      }
+    },
+    "collection_slider_DNemkn": {
+      "type": "collection-slider",
+      "name": "collection slider",
+      "settings": {
+        "tag": "div",
+        "title1": "CORAZON",
+        "title2": "CORAZON",
+        "collection": "collection-corazon",
+        "link-text": "DÉCOUVRIR",
         "padding_top": 45,
         "padding_bottom": 45
       }
@@ -478,52 +475,6 @@
         "link-text": "DÉCOUVRIR",
         "padding_top": 45,
         "padding_bottom": 45
-      }
-    },
-    "555ee7ae-ed60-4f7c-bf8c-fe18132779a1": {
-      "type": "collection-slider-with-pic",
-      "disabled": true,
-      "settings": {
-        "is_reverse": false,
-        "slider_2_image": "shopify://shop_images/70.png",
-        "text1": "le nouveau coups de coeur de rosa maïtea",
-        "text2": "NOUVELLES COLLECTIONS D'OBJETS PRECIEUX CHOISIE PAR PATRICIA",
-        "text3": "<p>Entrer dans l’univers de Rosa Maïtea, c’est découvrir un monde joyeux où chaque bijou raconte une histoire, où <strong>chaque petite bombe d’amour capture une émotion.</strong> Mais au-delà de la création de bijoux, j’ai toujours été passionnée par l’artisanat et par ces objets rares qui reflètent la créativité et le talent de ceux qui les fabriquent.</p><p></p><p><strong>Au fil de mes voyages</strong>, j’ai été fascinée par les <strong>objets aux couleurs vibrantes </strong>: les céramiques aux teintes solaires de<strong> Sicile</strong> et des Pouilles en Italie, les <strong>pashminas du Népal</strong> légers et délicats, les <strong>porcelaines Art-Déco</strong> françaises, les travaille de broderie des femmes en Amazonie, etc...qui capturent la beauté comme un bijou… <strong>Chaque pièce est une découverte, un témoignage d’un univers unique.</strong></p><p></p><p>COLLECTION LES CERAMIQUES DE POUILLES</p><p>COLLECTION LES TÊTES DE MAURES DE SICILE</p><p>LES PASHMINAS DE NEPAL</p><p>LES CERAMIQUES CHINÉES EN FRANCE</p><p>LES POCHETTES ET COUSSINS DE LA COLOMBIE</p><p></p><p></p>",
-        "collection": "les-coups-de-coeur-de-rosa-maitea",
-        "link-text": "DÉCOUVRIR LES COUPS DE COEUR DE ROSA MAÏTEA",
-        "padding_top": 85,
-        "padding_bottom": 0
-      }
-    },
-    "collection_slider_HgRbim": {
-      "type": "collection-slider",
-      "disabled": true,
-      "settings": {
-        "tag": "div",
-        "title1": "NEW !",
-        "title2": "LES COUPS DE COEUR DE ROSA MAÏTEA",
-        "collection": "les-coups-de-coeur-de-rosa-maitea",
-        "link-text": "DÉCOUVRIR",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
-    "image_banner_w9gH34": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "tag": "div",
-        "is_full_screen": true,
-        "alignment": "center",
-        "text_color": "#ffffff",
-        "image_banner_title_text": "<p>COUPS DE COEUR DE ROSA MAÏTEA</p>",
-        "is_title_big": false,
-        "image_banner_subtitle_text": "",
-        "is_text_big": false,
-        "image_banner_link_text": "DECOUVRIR",
-        "image_banner_link_url": "shopify://collections/les-coups-de-coeur-de-rosa-maitea",
-        "banner_image": "shopify://shop_images/IMG_0232-2.jpg",
-        "banner_image_mobile": "shopify://shop_images/Designsanstitre-10_e65040ec-1347-4bcc-aeaf-b28c338bab07.png"
       }
     },
     "d1b389fe-0917-4513-a4c9-41c5fa302df5": {
@@ -684,27 +635,6 @@
         "image_mobile": "shopify://shop_images/Rosa_Maitea.jpg"
       }
     },
-    "9603023c-6e27-4890-b9e6-e92093169f5b": {
-      "type": "rosa-header2",
-      "disabled": true,
-      "settings": {
-        "tag": "div",
-        "text1": "NOTRE SHOWROOM « SPREAD LOVE »",
-        "text2": "UNE MARQUE HUMAINE À VIVRE",
-        "padding_top": 65,
-        "padding_bottom": 25
-      }
-    },
-    "fb0161b6-421e-47b5-8d9b-cb8f4b27ec2b": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify://shop_images/video.png",
-        "description": ""
-      }
-    },
     "b833affc-7703-42d3-b1d2-d0a348e47159": {
       "type": "rosa-quote",
       "settings": {
@@ -795,22 +725,17 @@
     "image_banner",
     "collection_slider_qNA7BU",
     "7556615b-ec09-4647-80d0-eb3a4b55c8a9",
-    "collection_slider_with_pic_bfgcUc",
     "collection_slider_with_pic_LmjaAT",
     "collection_slider_with_pic_EKy6Hi",
+    "collection_slider_DNemkn",
     "2c663638-02bd-4aa4-a99b-760dc268b2d9",
     "collection_slider_with_pic_4xQc6U",
     "image_banner_tEzxby",
     "image_banner_qQM3jR",
     "f997dd8a-2291-4fc6-bedc-9faa72cbe9bc",
     "rosa_collections_H4Pyrq",
-    "555ee7ae-ed60-4f7c-bf8c-fe18132779a1",
-    "collection_slider_HgRbim",
-    "image_banner_w9gH34",
     "d1b389fe-0917-4513-a4c9-41c5fa302df5",
     "a1ef4a98-24c6-4449-85c4-c389414029b2",
-    "9603023c-6e27-4890-b9e6-e92093169f5b",
-    "fb0161b6-421e-47b5-8d9b-cb8f4b27ec2b",
     "b833affc-7703-42d3-b1d2-d0a348e47159",
     "292c19ec-b340-48bf-b520-dbe10d9f1cb6",
     "2da02395-1cac-422e-870f-a68533546811",

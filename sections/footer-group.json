@@ -11,19 +11,6 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "collection_slider_bJGDQW": {
-      "type": "collection-slider",
-      "name": "collection slider",
-      "settings": {
-        "tag": "div",
-        "title1": "VENTE PRIVÉE",
-        "title2": "LA SEULE VENTE PRIVÉE DE L'ANNÉE",
-        "collection": "des-bijoux-a-porter-tous-les-jours",
-        "link-text": "DÉCOUVRIR",
-        "padding_top": 45,
-        "padding_bottom": 45
-      }
-    },
     "d81a8113-477c-4685-8db0-4a45a3357812": {
       "type": "rosa-subscrive",
       "custom_css": [
@@ -46,7 +33,6 @@
     }
   },
   "order": [
-    "collection_slider_bJGDQW",
     "d81a8113-477c-4685-8db0-4a45a3357812",
     "footer"
   ]
